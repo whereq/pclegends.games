@@ -1,0 +1,283 @@
+/*
+ * The front page of PC Legends.
+ *
+ * House rules, the same as the rest of the family: MetroUI, radius xs = 2px,
+ * and every colour from a --ifm-* token, so light and dark both work.
+ */
+
+.page {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+  min-width: 0;
+}
+
+/* ── Hero ──────────────────────────────────────────────────── */
+.hero {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--ifm-hr-border-color);
+}
+
+.eyebrow {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--ifm-color-primary);
+  margin: 0 0 0.5rem;
+}
+
+.title {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  margin: 0 0 0.6rem;
+  line-height: 1.15;
+}
+
+.lead {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--ifm-font-color-base);
+  max-width: 74ch;
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.25rem;
+  margin: 1.75rem 0 0;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.stat dt {
+  font-size: 0.66rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.stat dd {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  font-variant-numeric: tabular-nums;
+  display: flex;
+  align-items: baseline;
+  gap: 0.45rem;
+}
+
+.statMeta {
+  font-size: 0.76rem;
+  font-weight: 500;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* ── Sections ──────────────────────────────────────────────── */
+.section {
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  margin: 0 0 0.9rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--ifm-color-primary) 45%, transparent);
+}
+
+.para {
+  font-size: 0.94rem;
+  line-height: 1.75;
+  color: var(--ifm-font-color-base);
+  margin: 0 0 1rem;
+  max-width: 78ch;
+}
+
+/* ── The category cards ────────────────────────────────────── */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 0.9rem;
+  margin-top: 1.25rem;
+}
+
+.card {
+  border: 1px solid var(--ifm-hr-border-color);
+  border-radius: 2px;
+  background: var(--ifm-background-surface-color);
+  padding: 0.9rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardRule {
+  display: block;
+  width: 28px;
+  height: 3px;
+  border-radius: 2px;
+  margin-bottom: 0.7rem;
+}
+
+.cardTitle {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.6rem;
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  margin: 0 0 0.4rem;
+}
+
+.cardCount {
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-600);
+  font-variant-numeric: tabular-nums;
+}
+
+.cardBlurb {
+  font-size: 0.85rem;
+  line-height: 1.65;
+  color: var(--ifm-font-color-base);
+  margin: 0 0 0.7rem;
+  flex: 1 1 auto;
+}
+
+.cardLink {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.cardLink:hover {
+  text-decoration: underline;
+}
+
+/* ── The three steps ───────────────────────────────────────── */
+.steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.step {
+  border: 1px solid var(--ifm-hr-border-color);
+  border-radius: 2px;
+  background: var(--ifm-background-surface-color);
+  padding: 1rem 1.05rem 1.1rem;
+}
+
+.stepMark {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--ifm-color-primary);
+  margin: 0 0 0.4rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.stepTitle {
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  margin: 0 0 0.4rem;
+}
+
+.step .para {
+  margin: 0;
+  font-size: 0.86rem;
+}
+
+/* ── The notice ─────────────────────────────────────────────── */
+.notice {
+  border: 1px solid var(--ifm-hr-border-color);
+  border-left: 3px solid var(--ifm-color-primary);
+  border-radius: 2px;
+  background: color-mix(in srgb, var(--ifm-color-primary) 8%, transparent);
+  padding: 0.85rem 1.05rem;
+  margin-bottom: 2rem;
+}
+
+.noticeTitle {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--ifm-color-primary);
+  margin: 0 0 0.4rem;
+}
+
+.noticeText {
+  font-size: 0.86rem;
+  line-height: 1.7;
+  color: var(--ifm-font-color-base);
+  margin: 0;
+  max-width: 78ch;
+}
+
+/* ── Buttons ────────────────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 7px 15px;
+  border-radius: 2px;
+  border: 1px solid var(--ifm-color-primary);
+  background: transparent;
+  color: var(--ifm-color-primary);
+  text-decoration: none !important;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.btn:hover {
+  background: color-mix(in srgb, var(--ifm-color-primary) 14%, transparent);
+}
+
+.btnPrimary {
+  background: var(--ifm-color-primary);
+  color: #161b22;
+}
+
+.btnPrimary:hover {
+  background: var(--ifm-color-primary-dark);
+  color: #161b22;
+}
+
+/* ── Responsive ─────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .page {
+    padding: 1.75rem 1rem 3rem;
+  }
+
+  .title {
+    font-size: 1.7rem;
+  }
+
+  .stats {
+    gap: 1.5rem;
+  }
+}
