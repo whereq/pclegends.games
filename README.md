@@ -44,10 +44,14 @@ The site is published by **GitHub Actions**, not by a branch push:
 - `.github/workflows/deploy.yml` builds the site on every push to `main`
   and publishes it with `actions/upload-pages-artifact` and
   `actions/deploy-pages`.
-- The custom domain travels in `static/CNAME`. A domain set in the Pages UI
-  is wiped by the next deploy; a CNAME in the source repo cannot be.
 - **Pages source must be set to "GitHub Actions"** in the repository
-  settings, once.
+  settings, and the **custom domain must be set there too**
+  (`pclegends.games`). With an Actions deployment GitHub ignores a `CNAME`
+  file in the artifact and reads the domain from the repository setting —
+  which is the durable place, because a branch build would otherwise lose a
+  `CNAME` committed to the Pages repo.
+- `static/CNAME` still ships in the build, so the domain travels with the
+  source if the site is ever published from a branch.
 
 The legacy branch build is not used here, and not on the docs hub either: a
 Pages build is killed after ten minutes, and a build of 1 898 game routes

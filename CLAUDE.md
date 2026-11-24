@@ -42,9 +42,13 @@ killed after ten minutes, and this build has 1 898 game routes in it. The
 docs hub's `bin/whereq.sh` push-to-`master` pattern is for that repo, not
 for this one.
 
-**The custom domain travels in `static/CNAME`.** A domain set in the Pages
-UI is destroyed by the next deploy that replaces the Pages repo; a CNAME in
-the source repo cannot be.
+**The custom domain is a repository setting** — `pclegends.games`, set on
+the Pages site. With an Actions deployment GitHub ignores a `CNAME` file in
+the artifact and reads the domain from the setting, which is the durable
+place: the docs hub's release script replaces the Pages repo root, so a
+`CNAME` committed there would not survive. `static/CNAME` still ships in the
+build, so the domain travels with the source if the site is ever published
+from a branch.
 
 DNS for `pclegends.games` is at **NameSilo**, not Cloudflare: an A record
 for the apex pointing at GitHub Pages (`185.199.108.153`–`185.199.111.153`),

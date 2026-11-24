@@ -5,9 +5,10 @@ name: Deploy PC Legends to GitHub Pages
 # build of 1 898 game routes sits right on that edge. Actions has no such
 # limit, and it does not need a second clone of the site into a Pages repo.
 #
-# The custom domain travels in `static/CNAME`, which Docusaurus copies into
-# the build. A domain set in the Pages UI would be wiped by the next
-# deploy; a CNAME in the source repo cannot.
+# The custom domain is set on the repository's Pages site — with an Actions
+# deployment GitHub reads it from there and ignores a CNAME file in the
+# artifact. `static/CNAME` still ships in the build, so the domain travels
+# with the source if the site is ever published from a branch.
 
 on:
   push:
