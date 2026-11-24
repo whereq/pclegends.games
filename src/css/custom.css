@@ -530,6 +530,35 @@ footer.footer {
 }
 
 /* ── Responsive Design ────────────────────────────────────── */
+
+/*
+ * A markdown table is wider than a narrow phone — three columns of prose
+ * cannot shrink past their longest word. The wrapper around it scrolls
+ * sideways instead of the rows sticking out past the edge of the screen.
+ */
+.tableScroll {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.tableScroll table {
+  width: 100%;
+  min-width: 20rem;
+}
+
+/*
+ * The drawer carries a close button that the theme draws as a 21px square —
+ * too small to hit with a thumb. The glyph stays at its own size; the tap
+ * target around it grows to 36px.
+ */
+.navbar-sidebar__close {
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (max-width: 996px) {
   .navbar {
     padding: 0 1rem;

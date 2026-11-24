@@ -129,23 +129,11 @@ async function createConfig(): Promise<Config> {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Games',
-            items: [
-              { label: 'The catalogue', to: '/dos-games' },
-              { label: 'Played through', to: '/played' },
-            ],
-          },
-          {
-            title: 'The site',
-            items: [
-              { label: 'About', to: '/about' },
-              { label: 'Privacy policy', to: '/privacy' },
-              { label: 'The WhereQ docs hub', href: 'https://whereq.github.io' },
-            ],
-          },
-        ],
+        // No link columns: the navbar already carries the catalogue, the
+        // played-through shelf, the guide, About and Privacy, and a footer
+        // that repeats them is twice the height for nothing. The docs hub's
+        // footer is a single line, and this one is the same.
+        links: [],
         copyright:
           'Copyright © 2026 WhereQ Inc. · <a href="/privacy">Privacy Policy</a>',
       },

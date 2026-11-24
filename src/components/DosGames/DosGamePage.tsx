@@ -15,7 +15,7 @@ import styles from './dos-games.module.css';
  */
 const EXTERNAL_ENTRIES: Record<string, {label: string; href: string}> = {
   'whereq-dosbox': {
-    label: 'WhereQ-DOSBox — the DOS emulator these games run on',
+    label: 'WhereQ-DOSBox — the emulator these games run on',
     href: 'https://whereq.github.io/atlas/universe/whereq-dosbox',
   },
 };

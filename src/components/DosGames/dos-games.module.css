@@ -577,6 +577,17 @@
   gap: 0.5rem;
 }
 
+/*
+ * A link in this list may carry a whole sentence, so it wraps rather than
+ * running off the side of a phone. The buttons elsewhere on the site stay
+ * on one line — a nowrap button that is too long for the screen is the
+ * one thing that must never happen.
+ */
+.linkList .btn {
+  white-space: normal;
+  text-align: left;
+}
+
 /* ── The notice ─────────────────────────────────────────────── */.notice {
   border: 1px solid var(--ifm-hr-border-color);
   border-left: 3px solid var(--ifm-color-primary);
@@ -757,6 +768,18 @@
 
   .grid {
     grid-template-columns: minmax(0, 1fr);
+  }
+
+  /*
+   * The two actions under a card are tap targets on a phone, not
+   * footnotes: they get the height a thumb can find.
+   */
+  .cardRead {
+    padding: 4px 0;
+  }
+
+  .cardDownload {
+    padding: 5px 11px;
   }
 
   .cardFacts {
