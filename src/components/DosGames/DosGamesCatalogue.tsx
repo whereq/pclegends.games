@@ -91,7 +91,7 @@ export default function DosGamesCatalogue(): React.JSX.Element {
 
   return (
     <Layout
-      title="DOS Games — PC Legends"
+      title="DOS Games"
       description={`Every one of the ${DOS_GAMES_INDEX.length} DOS games in the archive: the facts read out of the bundle itself, the download, and the setup each one needs in WhereQ-DOSBox.`}>
       {/*
        * The `@whereq/react` scrollbar stylesheet, rendered here so it is in
