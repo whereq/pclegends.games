@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "you-fu-3-tian-qi",
   collection: "dos-games",
   name: "幽浮3天启",
+  nameEn: "X-COM: Apocalypse",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2004 — 4,244 files, 83.9 MB.",

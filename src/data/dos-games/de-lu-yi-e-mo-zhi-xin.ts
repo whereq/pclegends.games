@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "de-lu-yi-e-mo-zhi-xin",
   collection: "dos-games",
   name: "德鲁伊恶魔之心",
+  nameEn: "Druid: Daemons of the Mind",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 1,150 files, 39.8 MB.",

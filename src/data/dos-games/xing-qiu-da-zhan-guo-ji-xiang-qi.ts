@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-qiu-da-zhan-guo-ji-xiang-qi",
   collection: "dos-games",
   name: "星球大战国际象棋",
+  nameEn: "Star Wars Chess",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 336 files, 17.3 MB.",

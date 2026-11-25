@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "lian-ai-shi-lian-chang",
   collection: "dos-games",
   name: "恋爱试炼场",
+  nameEn: "Love Laboratory",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 35 files, 5.8 MB.",

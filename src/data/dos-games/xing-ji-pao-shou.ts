@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-ji-pao-shou",
   collection: "dos-games",
   name: "星际炮手",
+  nameEn: "Stargunner",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 5 files, 37.8 MB.",

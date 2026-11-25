@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-ji-tong-zhi-zhe",
   collection: "dos-games",
   name: "星际统治者",
+  nameEn: "Imperium Galactica",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 320 files, 28.3 MB.",

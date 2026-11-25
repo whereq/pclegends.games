@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "si-wang-ju-chang",
   collection: "dos-games",
   name: "死亡剧场",
+  nameEn: "Theatre of Death",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 198 files, 4.8 MB.",

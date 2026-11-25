@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gan-lan-qiu-shi-jie-bei-95",
   collection: "dos-games",
   name: "橄榄球世界杯95",
+  nameEn: "Rugby World Cup 95",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 213 files, 11.3 MB.",

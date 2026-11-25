@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hui-mie-gong-jue-2",
   collection: "dos-games",
   name: "毁灭公爵2",
+  nameEn: "Duke Nukem II",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 17 files, 1.0 MB.",

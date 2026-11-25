@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "huo-xing-nv-shen",
   collection: "dos-games",
   name: "火星女神",
+  nameEn: "Vinyl Goddess From Mars",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 17 files, 1.7 MB.",

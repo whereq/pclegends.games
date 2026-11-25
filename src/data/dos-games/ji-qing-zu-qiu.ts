@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-qing-zu-qiu",
   collection: "dos-games",
   name: "激情足球",
+  nameEn: "GOAL!",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 136 files, 1.0 MB.",

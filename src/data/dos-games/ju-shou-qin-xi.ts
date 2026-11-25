@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ju-shou-qin-xi",
   collection: "dos-games",
   name: "巨兽侵袭",
+  nameEn: "Aargh!",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1988 — 9 files, 416 KB.",

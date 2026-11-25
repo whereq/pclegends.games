@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-ni-qian-ting",
   collection: "dos-games",
   name: "模拟潜艇",
+  nameEn: "Wolfpack",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 106 files, 630 KB.",

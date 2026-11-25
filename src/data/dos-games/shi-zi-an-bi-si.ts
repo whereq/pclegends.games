@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-zi-an-bi-si",
   collection: "dos-games",
   name: "狮子安必斯",
+  nameEn: "Abmis the Lion",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 67 files, 55 KB.",

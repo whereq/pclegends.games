@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "man-lian-chuan-qi",
   collection: "dos-games",
   name: "曼联传奇",
+  nameEn: "Manchester United: The Double",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 93 files, 2.0 MB.",

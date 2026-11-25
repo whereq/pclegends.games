@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "you-fu-3-tian-qi-guang-die-ban",
   collection: "dos-games",
   name: "幽浮3天启光碟版",
+  nameEn: "X-COM: Apocalypse",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 4,144 files, 408.4 MB.",

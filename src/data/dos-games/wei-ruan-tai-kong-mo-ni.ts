@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wei-ruan-tai-kong-mo-ni",
   collection: "dos-games",
   name: "微软太空模拟",
+  nameEn: "Microsoft Space Simulator",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 907 files, 4.2 MB.",

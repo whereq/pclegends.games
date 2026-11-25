@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "feng-gou-wei-lian-de-di-xia-cheng-zhi-lv",
   collection: "dos-games",
   name: "疯狗威廉的地下城之旅",
+  nameEn: "The Adventures of Maddog Williams in the Dungeons of Duridian",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 22 files, 2.3 MB.",

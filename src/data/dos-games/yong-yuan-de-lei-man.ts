@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yong-yuan-de-lei-man",
   collection: "dos-games",
   name: "永远的雷曼",
+  nameEn: "Rayman Forever",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2009 — 4 files, 511.8 MB.",

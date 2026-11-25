@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hua-liu-5000",
   collection: "dos-games",
   name: "滑流5000",
+  nameEn: "Slipstream 5000",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 22 files, 4.9 MB.",

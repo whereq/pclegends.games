@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "de-jun-zong-bu-mod-doom-ban",
   collection: "dos-games",
   name: "德军总部MOD-DOOM版",
+  nameEn: "Gloomstein",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 6 files, 4.9 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "feng-kuang-da-hui-mie",
   collection: "dos-games",
   name: "疯狂大毁灭",
+  nameEn: "Rampage",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1985 — 14 files, 124 KB.",

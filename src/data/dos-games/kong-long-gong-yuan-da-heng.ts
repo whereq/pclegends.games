@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "kong-long-gong-yuan-da-heng",
   collection: "dos-games",
   name: "恐龙公园大亨",
+  nameEn: "DinoPark Tycoon",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 191 files, 1.4 MB.",

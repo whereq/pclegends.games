@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hui-mie-jing-ji-chang",
   collection: "dos-games",
   name: "毁灭竞技场",
+  nameEn: "Destruction Derby",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 112 files, 6.5 MB.",

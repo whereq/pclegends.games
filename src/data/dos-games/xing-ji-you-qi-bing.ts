@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-ji-you-qi-bing",
   collection: "dos-games",
   name: "星际游骑兵",
+  nameEn: "Star Rangers",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 52 files, 108.5 MB.",

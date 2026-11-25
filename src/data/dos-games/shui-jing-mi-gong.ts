@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shui-jing-mi-gong",
   collection: "dos-games",
   name: "水晶迷宫",
+  nameEn: "Crystal Maze",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 17 files, 1.6 MB.",

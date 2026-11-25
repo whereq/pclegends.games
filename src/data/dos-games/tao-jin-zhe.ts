@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tao-jin-zhe",
   collection: "dos-games",
   name: "淘金者",
+  nameEn: "Lode Runner: The Legend Returns",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 108 files, 4.9 MB.",

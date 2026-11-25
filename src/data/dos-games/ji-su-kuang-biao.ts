@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-su-kuang-biao",
   collection: "dos-games",
   name: "急速狂飙",
+  nameEn: "Speed Haste",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1980 — 6 files, 2.8 MB.",

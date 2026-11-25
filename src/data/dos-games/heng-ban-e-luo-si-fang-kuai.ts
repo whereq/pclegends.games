@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "heng-ban-e-luo-si-fang-kuai",
   collection: "dos-games",
   name: "横版俄罗斯方块",
+  nameEn: "SideTris",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 7 files, 110 KB.",

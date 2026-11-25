@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "feng-kuang-da-lu",
   collection: "dos-games",
   name: "疯狂大陆",
+  nameEn: "Mega lo Mania",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 102 files, 1.1 MB.",

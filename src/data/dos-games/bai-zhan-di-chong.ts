@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bai-zhan-di-chong",
   collection: "dos-games",
   name: "百战地虫",
+  nameEn: "Liero",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1999 — 12 files, 433 KB.",

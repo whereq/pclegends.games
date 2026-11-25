@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-zhan-m-xing-yun",
   collection: "dos-games",
   name: "激战M星云",
+  nameEn: "Star Control",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 30 files, 602 KB.",

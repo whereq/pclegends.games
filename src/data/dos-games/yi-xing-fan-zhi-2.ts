@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-xing-fan-zhi-2",
   collection: "dos-games",
   name: "异形繁殖2",
+  nameEn: "Alien Breed 2",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 6 files, 1.1 MB.",

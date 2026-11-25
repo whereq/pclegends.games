@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "meng-gui-jie",
   collection: "dos-games",
   name: "猛鬼街",
+  nameEn: "A Nightmare on Elm Street",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 44 files, 318 KB.",

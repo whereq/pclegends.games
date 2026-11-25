@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wang-wei-ji-cheng-zhe",
   collection: "dos-games",
   name: "王位继承者",
+  nameEn: "Heirs to the Throne",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 17 files, 2.5 MB.",

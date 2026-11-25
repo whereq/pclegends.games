@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wu-dao-guan",
   collection: "dos-games",
   name: "武道馆",
+  nameEn: "Budokan",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 5 files, 692 KB.",

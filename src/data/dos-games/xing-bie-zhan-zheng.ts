@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-bie-zhan-zheng",
   collection: "dos-games",
   name: "性别战争",
+  nameEn: "Gender Wars",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 175 files, 28.7 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhi-sheng-ji-sou-di-ji",
   collection: "dos-games",
   name: "直升机搜敌记",
+  nameEn: "Seek and Destroy",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 26 files, 3.7 MB.",

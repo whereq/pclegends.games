@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "e-mo-cheng",
   collection: "dos-games",
   name: "恶魔城",
+  nameEn: "Castlevania",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 149 files, 361 KB.",

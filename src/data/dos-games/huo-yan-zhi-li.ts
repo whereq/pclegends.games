@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "huo-yan-zhi-li",
   collection: "dos-games",
   name: "火焰之力",
+  nameEn: "Firepower",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1988 — 75 files, 338 KB.",

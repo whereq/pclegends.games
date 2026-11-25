@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "feng-kuang-dian-shi-tai",
   collection: "dos-games",
   name: "疯狂电视台",
+  nameEn: "Mad TV",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 244 files, 795 KB.",

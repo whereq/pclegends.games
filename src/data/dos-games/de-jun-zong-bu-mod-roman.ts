@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "de-jun-zong-bu-mod-roman",
   collection: "dos-games",
   name: "德军总部MOD-ROMAN",
+  nameEn: "Romanstein",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 81 files, 5.0 MB.",

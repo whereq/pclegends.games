@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-qi-shi-dai",
   collection: "dos-games",
   name: "石器时代",
+  nameEn: "Stone Age",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 15 files, 395 KB.",

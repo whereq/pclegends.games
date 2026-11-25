@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ren-zhe-tu",
   collection: "dos-games",
   name: "忍者兔",
+  nameEn: "Ninja Rabbits",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 32 files, 276 KB.",

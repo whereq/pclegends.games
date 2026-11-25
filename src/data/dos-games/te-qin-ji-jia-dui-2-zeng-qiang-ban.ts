@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "te-qin-ji-jia-dui-2-zeng-qiang-ban",
   collection: "dos-games",
   name: "特勤机甲队2增强版",
+  nameEn: "Power Dolls 2",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 171 files, 6.1 MB.",

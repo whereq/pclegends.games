@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ren-zhe-shen-gui-2-man-ha-dun-zhi-zhan",
   collection: "dos-games",
   name: "忍者神龟2曼哈顿之战",
+  nameEn: "Teenage Mutant Ninja Turtles II: The Manhattan Project",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 509 files, 2.0 MB.",

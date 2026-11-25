@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ju-jing-yu-zhou-hao",
   collection: "dos-games",
   name: "巨鲸宇宙号",
+  nameEn: "Whale's Voyage",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 588 files, 2.2 MB.",

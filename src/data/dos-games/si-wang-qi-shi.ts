@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "si-wang-qi-shi",
   collection: "dos-games",
   name: "死亡骑士",
+  nameEn: "Death Knights of Krynn",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 59 files, 7.6 MB.",

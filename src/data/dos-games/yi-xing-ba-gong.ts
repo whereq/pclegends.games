@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-xing-ba-gong",
   collection: "dos-games",
   name: "异形巴贡",
+  nameEn: "Bargon Attack",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1999 — 67 files, 5.8 MB.",

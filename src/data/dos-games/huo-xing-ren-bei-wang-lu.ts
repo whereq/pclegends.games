@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "huo-xing-ren-bei-wang-lu",
   collection: "dos-games",
   name: "火星人备忘录",
+  nameEn: "Martian Memorandum",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 90 files, 6.5 MB.",

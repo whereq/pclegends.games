@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "huan-shi-jie",
   collection: "dos-games",
   name: "环世界",
+  nameEn: "Ringworld",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 13 files, 15.7 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hun-dun-ji-jia-1",
   collection: "dos-games",
   name: "混沌机甲1",
+  nameEn: "Bedlam",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 1,005 files, 20.0 MB.",

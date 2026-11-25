@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wu-shi-da-gan-guo",
   collection: "dos-games",
   name: "巫师大坩埚",
+  nameEn: "Super Cauldron",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 74 files, 623 KB.",

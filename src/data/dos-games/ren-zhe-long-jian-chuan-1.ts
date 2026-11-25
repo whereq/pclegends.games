@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ren-zhe-long-jian-chuan-1",
   collection: "dos-games",
   name: "忍者龙剑传1",
+  nameEn: "Ninja Gaiden",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 9 files, 78 KB.",

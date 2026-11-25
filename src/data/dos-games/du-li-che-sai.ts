@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "du-li-che-sai",
   collection: "dos-games",
   name: "独立车赛",
+  nameEn: "Indianapolis 500: The Simulation",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 113 files, 3.4 MB.",

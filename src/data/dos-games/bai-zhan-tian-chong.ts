@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bai-zhan-tian-chong",
   collection: "dos-games",
   name: "百战天虫",
+  nameEn: "Worms",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 103 files, 1.9 MB.",

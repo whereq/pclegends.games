@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "si-wang-dao",
   collection: "dos-games",
   name: "死亡岛",
+  nameEn: "Discworld II: The Missing Dungeons",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2005 — 1,006 files, 4.8 MB.",

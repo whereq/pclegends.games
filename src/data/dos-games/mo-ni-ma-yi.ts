@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-ni-ma-yi",
   collection: "dos-games",
   name: "模拟蚂蚁",
+  nameEn: "SimAnt",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 15 files, 701 KB.",

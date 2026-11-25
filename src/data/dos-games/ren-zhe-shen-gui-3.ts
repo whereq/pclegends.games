@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ren-zhe-shen-gui-3",
   collection: "dos-games",
   name: "忍者神龟3",
+  nameEn: "Teenage Mutant Ninja Turtles III: The Tortoise's Lucky Pad",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 134 files, 510 KB.",

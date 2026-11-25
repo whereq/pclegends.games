@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhi-sheng-ji-jiu-yuan-dui",
   collection: "dos-games",
   name: "直升机救援队",
+  nameEn: "Airlift Rescue",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 34 files, 134 KB.",

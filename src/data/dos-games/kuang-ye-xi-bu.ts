@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "kuang-ye-xi-bu",
   collection: "dos-games",
   name: "狂野西部",
+  nameEn: "Wild West",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 90 files, 496 KB.",

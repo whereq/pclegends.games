@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-xing-da-jin-ji",
   collection: "dos-games",
   name: "异形大进击",
+  nameEn: "Zak McKracken and the Alien Mindbenders",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1988 — 66 files, 6.7 MB.",

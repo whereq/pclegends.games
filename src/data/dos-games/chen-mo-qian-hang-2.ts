@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chen-mo-qian-hang-2",
   collection: "dos-games",
   name: "沉默潜航2",
+  nameEn: "Silent Service II",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 64 files, 751 KB.",

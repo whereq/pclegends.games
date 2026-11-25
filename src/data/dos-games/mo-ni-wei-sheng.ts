@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-ni-wei-sheng",
   collection: "dos-games",
   name: "模拟卫生",
+  nameEn: "Health",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 61 files, 1.9 MB.",

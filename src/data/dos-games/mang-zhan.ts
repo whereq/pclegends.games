@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mang-zhan",
   collection: "dos-games",
   name: "盲战",
+  nameEn: "Blind Wars",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 18 files, 148 KB.",

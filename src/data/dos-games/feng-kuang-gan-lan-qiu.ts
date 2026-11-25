@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "feng-kuang-gan-lan-qiu",
   collection: "dos-games",
   name: "疯狂橄榄球",
+  nameEn: "Brutal Sports Football",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 37 files, 429 KB.",

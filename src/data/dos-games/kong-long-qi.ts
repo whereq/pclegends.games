@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "kong-long-qi",
   collection: "dos-games",
   name: "恐龙棋",
+  nameEn: "Dino Wars",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 127 files, 2.1 MB.",

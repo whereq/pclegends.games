@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "can-ku-shi-jie",
   collection: "dos-games",
   name: "残酷世界",
+  nameEn: "Cruel World",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 133 files, 998 KB.",

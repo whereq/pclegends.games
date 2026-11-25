@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wei-ruan-fei-xing-mo-ni-3-ge-zi-liao-pian",
   collection: "dos-games",
   name: "微软飞行模拟+3个资料片",
+  nameEn: "Microsoft Flight Simulator 5.0",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 734 files, 10.3 MB.",

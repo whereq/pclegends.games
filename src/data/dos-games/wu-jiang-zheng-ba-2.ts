@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wu-jiang-zheng-ba-2",
   collection: "dos-games",
   name: "武将争霸2",
+  nameEn: "Sango Fighter 2",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 47 files, 9.1 MB.",

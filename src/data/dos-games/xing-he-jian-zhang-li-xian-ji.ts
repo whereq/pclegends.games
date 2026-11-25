@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-he-jian-zhang-li-xian-ji",
   collection: "dos-games",
   name: "星河舰长历险记",
+  nameEn: "Command Adventures: Starship",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 799 files, 23.4 MB.",

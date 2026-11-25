@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "lie-sha-hong-se-shi-yue",
   collection: "dos-games",
   name: "猎杀红色十月",
+  nameEn: "The Hunt for Red October",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 63 files, 441 KB.",

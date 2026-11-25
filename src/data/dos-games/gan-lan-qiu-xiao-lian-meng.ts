@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gan-lan-qiu-xiao-lian-meng",
   collection: "dos-games",
   name: "橄榄球小联盟",
+  nameEn: "MicroLeague Football 2",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 30 files, 1.2 MB.",

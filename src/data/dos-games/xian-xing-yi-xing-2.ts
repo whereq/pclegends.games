@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xian-xing-yi-xing-2",
   collection: "dos-games",
   name: "氙星异形2",
+  nameEn: "Xenon 2: Megablast",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 22 files, 204 KB.",

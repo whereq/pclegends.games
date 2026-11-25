@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hun-dun-zhi-di",
   collection: "dos-games",
   name: "混沌之地",
+  nameEn: "Realms of Chaos",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 17 files, 3.1 MB.",

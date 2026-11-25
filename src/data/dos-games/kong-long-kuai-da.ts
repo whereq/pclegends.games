@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "kong-long-kuai-da",
   collection: "dos-games",
   name: "恐龙快打",
+  nameEn: "Fighting Dragon",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 94 files, 17.6 MB.",

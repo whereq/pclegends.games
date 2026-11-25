@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yong-yuan-de-bian-fu-xia",
   collection: "dos-games",
   name: "永远的蝙蝠侠",
+  nameEn: "Batman Forever",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 660 files, 8.1 MB.",

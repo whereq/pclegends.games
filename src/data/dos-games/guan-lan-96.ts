@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "guan-lan-96",
   collection: "dos-games",
   name: "灌篮96",
+  nameEn: "Slam 'N' Jam '96",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 396 files, 10.2 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jue-shi-tu-wan-zheng-ban",
   collection: "dos-games",
   name: "爵士兔完整版",
+  nameEn: "Jazz Jackrabbit",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 522 files, 38.6 MB.",

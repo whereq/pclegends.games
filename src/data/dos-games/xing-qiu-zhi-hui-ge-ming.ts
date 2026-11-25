@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-qiu-zhi-hui-ge-ming",
   collection: "dos-games",
   name: "星球指挥革命",
+  nameEn: "Star Command",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 198 files, 10.4 MB.",

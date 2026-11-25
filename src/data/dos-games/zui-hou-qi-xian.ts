@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zui-hou-qi-xian",
   collection: "dos-games",
   name: "最后期限",
+  nameEn: "Deadline",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 725 files, 26.9 MB.",

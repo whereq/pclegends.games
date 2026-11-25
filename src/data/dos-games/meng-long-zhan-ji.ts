@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "meng-long-zhan-ji",
   collection: "dos-games",
   name: "猛龙战机",
+  nameEn: "Raptor",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 11 files, 3.8 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sheng-hua-wei-xie",
   collection: "dos-games",
   name: "生化威胁",
+  nameEn: "Bio Menace",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2001 — 39 files, 1.6 MB.",

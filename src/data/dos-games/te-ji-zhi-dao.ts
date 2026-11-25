@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "te-ji-zhi-dao",
   collection: "dos-games",
   name: "特技之岛",
+  nameEn: "Stunt Island",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 107 files, 7.1 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-guang-bu-dui",
   collection: "dos-games",
   name: "激光部队",
+  nameEn: "Laser Squad",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 279 files, 2.4 MB.",

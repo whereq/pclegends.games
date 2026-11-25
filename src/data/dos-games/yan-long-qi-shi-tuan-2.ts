@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yan-long-qi-shi-tuan-2",
   collection: "dos-games",
   name: "炎龙骑士团2",
+  nameEn: "Flame Dragon 2",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 51 files, 8.0 MB.",

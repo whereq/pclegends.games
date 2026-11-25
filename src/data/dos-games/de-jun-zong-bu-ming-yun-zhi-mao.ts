@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "de-jun-zong-bu-ming-yun-zhi-mao",
   collection: "dos-games",
   name: "德军总部命运之矛",
+  nameEn: "Spear of Destiny",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 47 files, 8.7 MB.",

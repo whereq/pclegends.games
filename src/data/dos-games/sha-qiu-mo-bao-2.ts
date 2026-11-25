@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sha-qiu-mo-bao-2",
   collection: "dos-games",
   name: "沙丘魔堡2",
+  nameEn: "Dune II: The Building of a Dynasty",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 30 files, 3.8 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ou-zhou-xun-hui-shuai-jiao",
   collection: "dos-games",
   name: "欧洲巡回摔角",
+  nameEn: "WWF",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 2 files, 797 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hou-dao-xiao-ying-xiong",
   collection: "dos-games",
   name: "猴岛小英雄",
+  nameEn: "Monkey Island",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 15 files, 3.9 MB.",

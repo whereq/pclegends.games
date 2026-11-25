@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "feng-kuang-xiao-ya",
   collection: "dos-games",
   name: "疯狂小鸭",
+  nameEn: "Ducks",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 9 files, 1.3 MB.",

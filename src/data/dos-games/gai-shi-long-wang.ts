@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gai-shi-long-wang",
   collection: "dos-games",
   name: "盖世龙王",
+  nameEn: "Dragon Lord",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 117 files, 1000 KB.",

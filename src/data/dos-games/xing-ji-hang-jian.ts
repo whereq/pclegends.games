@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-ji-hang-jian",
   collection: "dos-games",
   name: "星际航舰",
+  nameEn: "Starflight",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1986 — 20 files, 282 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "qing-bai-wu-zui-2",
   collection: "dos-games",
   name: "清白无罪2",
+  nameEn: "Guilty",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 131 files, 7.7 MB.",

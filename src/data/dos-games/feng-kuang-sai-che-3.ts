@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "feng-kuang-sai-che-3",
   collection: "dos-games",
   name: "疯狂赛车3",
+  nameEn: "Crazy Cars 3",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 200 files, 736 KB.",

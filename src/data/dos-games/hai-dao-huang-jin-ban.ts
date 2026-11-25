@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hai-dao-huang-jin-ban",
   collection: "dos-games",
   name: "海盗黄金版",
+  nameEn: "Pirates! Gold",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 249 files, 12.0 MB.",

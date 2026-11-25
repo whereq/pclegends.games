@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "feng-kuang-yi-yuan-2",
   collection: "dos-games",
   name: "疯狂医院2",
+  nameEn: "Crazy Doctor 2",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 242 files, 7.0 MB.",

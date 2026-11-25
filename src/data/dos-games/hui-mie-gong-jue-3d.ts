@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hui-mie-gong-jue-3d",
   collection: "dos-games",
   name: "毁灭公爵3D",
+  nameEn: "Duke Nukem 3D",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 47 files, 21.2 MB.",

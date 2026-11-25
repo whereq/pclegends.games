@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-zhong-jian-de-fu-chou",
   collection: "dos-games",
   name: "石中剑的复仇",
+  nameEn: "Vengeance of Excalibur",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 48 files, 1.6 MB.",

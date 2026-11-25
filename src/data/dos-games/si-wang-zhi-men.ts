@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "si-wang-zhi-men",
   collection: "dos-games",
   name: "死亡之门",
+  nameEn: "Daemon's Gate",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 150 files, 21.6 MB.",

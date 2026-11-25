@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-ni-sheng-ming",
   collection: "dos-games",
   name: "模拟生命",
+  nameEn: "SimLife",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 125 files, 1008 KB.",

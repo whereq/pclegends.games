@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-ji-ba-zhu",
   collection: "dos-games",
   name: "星际霸主",
+  nameEn: "Star Lords",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 42 files, 3.2 MB.",

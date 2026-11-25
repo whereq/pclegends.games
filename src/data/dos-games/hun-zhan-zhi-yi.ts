@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hun-zhan-zhi-yi",
   collection: "dos-games",
   name: "混战之翼",
+  nameEn: "Wings",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 81 files, 3.1 MB.",

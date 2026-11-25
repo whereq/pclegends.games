@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ban-ji-99",
   collection: "dos-games",
   name: "班级99",
+  nameEn: "Class 99",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1999 — 17 files, 819 KB.",

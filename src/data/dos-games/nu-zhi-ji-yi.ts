@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "nu-zhi-ji-yi",
   collection: "dos-games",
   name: "怒之机翼",
+  nameEn: "Wings of Fury",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 60 files, 361 KB.",

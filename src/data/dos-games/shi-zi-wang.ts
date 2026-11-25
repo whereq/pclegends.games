@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-zi-wang",
   collection: "dos-games",
   name: "狮子王",
+  nameEn: "The Lion King",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 6 files, 3.1 MB.",

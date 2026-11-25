@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "te-ji-sai-che",
   collection: "dos-games",
   name: "特技赛车",
+  nameEn: "Stunts",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 218 files, 1.1 MB.",

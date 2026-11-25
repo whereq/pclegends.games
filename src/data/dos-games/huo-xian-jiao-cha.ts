@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "huo-xian-jiao-cha",
   collection: "dos-games",
   name: "火线交叉",
+  nameEn: "Strife",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 19 files, 10.9 MB.",

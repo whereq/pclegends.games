@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-zhi-gui-dao",
   collection: "dos-games",
   name: "益智轨道",
+  nameEn: "Locomotion",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 17 files, 245 KB.",

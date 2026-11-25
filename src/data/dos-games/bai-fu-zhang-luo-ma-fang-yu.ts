@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bai-fu-zhang-luo-ma-fang-yu",
   collection: "dos-games",
   name: "百夫长罗马防御",
+  nameEn: "Centurion: Defender of Rome",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 35 files, 914 KB.",

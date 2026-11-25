@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hua-liu-xiao-sai-che",
   collection: "dos-games",
   name: "滑溜小赛车",
+  nameEn: "Slicks",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 28 files, 599 KB.",

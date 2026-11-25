@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "e-mo-jin-di-ying-wen-ban",
   collection: "dos-games",
   name: "恶魔禁地英文版",
+  nameEn: "Veil of Darkness",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 26 files, 8.0 MB.",

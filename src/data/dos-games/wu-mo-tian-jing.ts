@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wu-mo-tian-jing",
   collection: "dos-games",
   name: "巫魔天境",
+  nameEn: "Witchaven",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 75 files, 11.1 MB.",

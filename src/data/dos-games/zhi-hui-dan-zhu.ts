@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhi-hui-dan-zhu",
   collection: "dos-games",
   name: "智慧弹珠",
+  nameEn: "Oxyd",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 12 files, 1.3 MB.",

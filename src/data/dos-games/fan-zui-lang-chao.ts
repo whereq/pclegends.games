@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "fan-zui-lang-chao",
   collection: "dos-games",
   name: "犯罪浪潮",
+  nameEn: "Crime Wave",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 68 files, 2.6 MB.",

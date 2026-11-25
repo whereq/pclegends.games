@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hui-mie-zhan-shi-2-zhong-jie-ban",
   collection: "dos-games",
   name: "毁灭战士2终结版",
+  nameEn: "Doom II",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 15 files, 7.5 MB.",

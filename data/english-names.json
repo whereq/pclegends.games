@@ -1387,6 +1387,10 @@
   "en": "Operation Europe: Path to Victory",
   "source": "wiki"
  },
+ "正宗台湾16张麻将2": {
+  "en": "Taiwan Mahjong 2",
+  "source": "known"
+ },
  "正宗台湾16张麻将": {
   "en": "Taiwan 16brands Mahjong",
   "source": "wiki"
@@ -1432,12 +1436,16 @@
   "source": "wiki"
  },
  "激斗战士": {
-  "en": "Violent Fighter",
-  "source": "wiki"
+  "en": "Fighter",
+  "source": "bundle"
  },
  "灌篮金刚": {
   "en": "King Kong 10",
   "source": "wiki"
+ },
+ "灵剑传奇": {
+  "en": "Sword Legend",
+  "source": "bundle"
  },
  "炎龙骑士团": {
   "en": "Flame Dragon Knights",
@@ -1508,8 +1516,8 @@
   "source": "wiki"
  },
  "甲A风云": {
-  "en": "Football China 96",
-  "source": "wiki"
+  "en": "FC96",
+  "source": "bundle"
  },
  "疯狂双响炮": {
   "en": "Crazy Bomber",
@@ -1519,9 +1527,13 @@
   "en": "Pipe Fight",
   "source": "wiki"
  },
+ "皇后": {
+  "en": "Queen",
+  "source": "bundle"
+ },
  "眼镜蛇任务": {
-  "en": "Cobra Mission - Panic in Cobra City",
-  "source": "wiki"
+  "en": "Cobra Mission",
+  "source": "bundle"
  },
  "破坏神传说": {
   "en": "Legend of the Zyca",
@@ -1532,8 +1544,8 @@
   "source": "bundle"
  },
  "礼物": {
-  "en": "Present Duo",
-  "source": "wiki"
+  "en": "Present",
+  "source": "bundle"
  },
  "神剑传说": {
   "en": "Legend of the SWORD II - LIAR",
@@ -3259,12 +3271,120 @@
   "en": "The Settlers II",
   "source": "known"
  },
+ "巨兽侵袭": {
+  "en": "Aargh!",
+  "source": "known"
+ },
+ "巨窟文字冒险": {
+  "en": "Adventure in Humongous Cave",
+  "source": "bundle"
+ },
+ "巨鲸宇宙号": {
+  "en": "Whale's Voyage",
+  "source": "bundle"
+ },
+ "巫师大坩埚": {
+  "en": "Super Cauldron",
+  "source": "bundle"
+ },
+ "巫魔天境": {
+  "en": "Witchaven",
+  "source": "bundle"
+ },
+ "巫魔天境2": {
+  "en": "Witchaven II",
+  "source": "bundle"
+ },
+ "帝国2": {
+  "en": "Empire II",
+  "source": "known"
+ },
+ "帝国豪华版": {
+  "en": "Empire Deluxe",
+  "source": "bundle"
+ },
+ "幻想火焰": {
+  "en": "Illusion Blaze",
+  "source": "bundle"
+ },
+ "幻象弹珠台": {
+  "en": "Pinball Illusions",
+  "source": "bundle"
+ },
+ "幽城宝藏": {
+  "en": "Hillsfar",
+  "source": "bundle"
+ },
+ "幽浮1未知敌人": {
+  "en": "UFO: Enemy Unknown",
+  "source": "bundle"
+ },
+ "幽浮2深海之谜题": {
+  "en": "X-COM: Terror from the Deep",
+  "source": "bundle"
+ },
+ "幽浮3天启": {
+  "en": "X-COM: Apocalypse",
+  "source": "known"
+ },
+ "幽浮3天启光碟版": {
+  "en": "X-COM: Apocalypse",
+  "source": "known"
+ },
+ "废土": {
+  "en": "Wasteland",
+  "source": "bundle"
+ },
+ "建筑大师": {
+  "en": "Constructor",
+  "source": "bundle"
+ },
+ "开球96": {
+  "en": "Kick Off 96",
+  "source": "bundle"
+ },
+ "开球97": {
+  "en": "Kick Off 97",
+  "source": "known"
+ },
+ "异形三部曲": {
+  "en": "Alien Trilogy",
+  "source": "bundle"
+ },
+ "异形事件": {
+  "en": "Alien Incident",
+  "source": "bundle"
+ },
+ "异形大进击": {
+  "en": "Zak McKracken and the Alien Mindbenders",
+  "source": "bundle"
+ },
+ "异形巴贡": {
+  "en": "Bargon Attack",
+  "source": "known"
+ },
+ "异形恐惧症": {
+  "en": "Alien Phobia",
+  "source": "bundle"
+ },
+ "异形繁殖": {
+  "en": "Alien Breed",
+  "source": "bundle"
+ },
+ "异形繁殖2": {
+  "en": "Alien Breed 2",
+  "source": "known"
+ },
  "异形阴谋": {
   "en": "Alien Cabal",
   "source": "bundle"
  },
  "异教巫师": {
   "en": "Hexen",
+  "source": "bundle"
+ },
+ "异教巫师RPG": {
+  "en": "Hexx",
   "source": "bundle"
  },
  "异教巫师黑暗教堂的死神": {
@@ -3317,6 +3437,134 @@
  },
  "微城争霸": {
   "en": "Siege",
+  "source": "bundle"
+ },
+ "微城争霸战狗(中文)": {
+  "en": "Siege",
+  "source": "bundle"
+ },
+ "微城争霸英版+资料片": {
+  "en": "Siege",
+  "source": "bundle"
+ },
+ "微软太空模拟": {
+  "en": "Microsoft Space Simulator",
+  "source": "bundle"
+ },
+ "微软飞行模拟+3个资料片": {
+  "en": "Microsoft Flight Simulator 5.0",
+  "source": "known"
+ },
+ "德军总部MOD-CARVEN": {
+  "en": "Romanstein Caverns",
+  "source": "bundle"
+ },
+ "德军总部MOD-DOOM版": {
+  "en": "Gloomstein",
+  "source": "known"
+ },
+ "德军总部MOD-ROMAN": {
+  "en": "Romanstein",
+  "source": "known"
+ },
+ "德军总部命运之矛": {
+  "en": "Spear of Destiny",
+  "source": "bundle"
+ },
+ "德库拉传说": {
+  "en": "Bram Stoker's Dracula",
+  "source": "bundle"
+ },
+ "德鲁伊恶魔之心": {
+  "en": "Druid: Daemons of the Mind",
+  "source": "bundle"
+ },
+ "忍": {
+  "en": "Shinobi",
+  "source": "bundle"
+ },
+ "忍者兔": {
+  "en": "Ninja Rabbits",
+  "source": "bundle"
+ },
+ "忍者山洞人": {
+  "en": "Joe & Mac",
+  "source": "known"
+ },
+ "忍者神龟": {
+  "en": "Teenage Mutant Ninja Turtles",
+  "source": "bundle"
+ },
+ "忍者神龟2曼哈顿之战": {
+  "en": "Teenage Mutant Ninja Turtles II: The Manhattan Project",
+  "source": "known"
+ },
+ "忍者神龟3": {
+  "en": "Teenage Mutant Ninja Turtles III: The Tortoise's Lucky Pad",
+  "source": "known"
+ },
+ "忍者龙剑传1": {
+  "en": "Ninja Gaiden",
+  "source": "known"
+ },
+ "忍者龙剑传2": {
+  "en": "Ninja Gaiden II: The Dark Sword of Chaos",
+  "source": "known"
+ },
+ "怒之机翼": {
+  "en": "Wings of Fury",
+  "source": "bundle"
+ },
+ "急速挑战": {
+  "en": "Speed Racer",
+  "source": "bundle"
+ },
+ "急速狂飙": {
+  "en": "Speed Haste",
+  "source": "bundle"
+ },
+ "性别战争": {
+  "en": "Gender Wars",
+  "source": "bundle"
+ },
+ "性感俄罗斯": {
+  "en": "Sex Tetris",
+  "source": "bundle"
+ },
+ "性感机器": {
+  "en": "Sexy Droids",
+  "source": "bundle"
+ },
+ "恋爱试炼场": {
+  "en": "Love Laboratory",
+  "source": "bundle"
+ },
+ "恐龙公园大亨": {
+  "en": "DinoPark Tycoon",
+  "source": "bundle"
+ },
+ "恐龙快打": {
+  "en": "Fighting Dragon",
+  "source": "known"
+ },
+ "恐龙棋": {
+  "en": "Dino Wars",
+  "source": "bundle"
+ },
+ "恐龙益智问答": {
+  "en": "Dinosaur Adventure 3D",
+  "source": "known"
+ },
+ "恶魔之门": {
+  "en": "Daemonsgate",
+  "source": "known"
+ },
+ "恶魔城": {
+  "en": "Castlevania",
+  "source": "known"
+ },
+ "恶魔禁地英文版": {
+  "en": "Veil of Darkness",
   "source": "bundle"
  },
  "悠悠大作战": {
@@ -3555,6 +3803,106 @@
   "en": "Stardust",
   "source": "bundle"
  },
+ "星河舰长历险记": {
+  "en": "Command Adventures: Starship",
+  "source": "bundle"
+ },
+ "星球之火": {
+  "en": "Starfire",
+  "source": "bundle"
+ },
+ "星球大战X战机": {
+  "en": "X-Wing",
+  "source": "bundle"
+ },
+ "星球大战国际象棋": {
+  "en": "Star Wars Chess",
+  "source": "bundle"
+ },
+ "星球大战暗影力量": {
+  "en": "Dark Forces",
+  "source": "bundle"
+ },
+ "星球大战绝地反击": {
+  "en": "Super Star Wars",
+  "source": "known"
+ },
+ "星球大战钛战机": {
+  "en": "TIE Fighter",
+  "source": "bundle"
+ },
+ "星球指挥革命": {
+  "en": "Star Command",
+  "source": "bundle"
+ },
+ "星球突击": {
+  "en": "Planet Strike",
+  "source": "bundle"
+ },
+ "星球裂痕": {
+  "en": "The Rift",
+  "source": "bundle"
+ },
+ "星际之锤": {
+  "en": "Star Hammer",
+  "source": "bundle"
+ },
+ "星际游骑兵": {
+  "en": "Star Rangers",
+  "source": "bundle"
+ },
+ "星际炮手": {
+  "en": "Stargunner",
+  "source": "bundle"
+ },
+ "星际统治者": {
+  "en": "Imperium Galactica",
+  "source": "bundle"
+ },
+ "星际联盟": {
+  "en": "Fragile Allegiance",
+  "source": "bundle"
+ },
+ "星际航舰": {
+  "en": "Starflight",
+  "source": "bundle"
+ },
+ "星际调查局": {
+  "en": "B.A.T.",
+  "source": "bundle"
+ },
+ "星际调查局2": {
+  "en": "The Koshan Conspiracy",
+  "source": "bundle"
+ },
+ "星际霸主": {
+  "en": "Star Lords",
+  "source": "bundle"
+ },
+ "智慧弹珠": {
+  "en": "Oxyd",
+  "source": "bundle"
+ },
+ "暗影术士": {
+  "en": "Shadowcaster",
+  "source": "bundle"
+ },
+ "暴力辛迪加": {
+  "en": "Syndicate",
+  "source": "bundle"
+ },
+ "暴怒终结者": {
+  "en": "The Terminator: Rampage",
+  "source": "bundle"
+ },
+ "曼联传奇": {
+  "en": "Manchester United: The Double",
+  "source": "known"
+ },
+ "最后期限": {
+  "en": "Deadline",
+  "source": "bundle"
+ },
  "最后的忍者": {
   "en": "The Last Ninja",
   "source": "bundle"
@@ -3661,6 +4009,626 @@
  },
  "森林救火员": {
   "en": "Firestorm",
+  "source": "bundle"
+ },
+ "模拟卫生": {
+  "en": "Health",
+  "source": "bundle"
+ },
+ "模拟地球": {
+  "en": "SimEarth",
+  "source": "bundle"
+ },
+ "模拟垂钓": {
+  "en": "Big Game Fishing",
+  "source": "bundle"
+ },
+ "模拟城市(1989)": {
+  "en": "SimCity",
+  "source": "bundle"
+ },
+ "模拟城市2000增强版": {
+  "en": "SimCity 2000",
+  "source": "known"
+ },
+ "模拟潜艇": {
+  "en": "Wolfpack",
+  "source": "bundle"
+ },
+ "模拟生命": {
+  "en": "SimLife",
+  "source": "known"
+ },
+ "模拟蚂蚁": {
+  "en": "SimAnt",
+  "source": "bundle"
+ },
+ "模拟过山车": {
+  "en": "SimCoaster",
+  "source": "known"
+ },
+ "横扫": {
+  "en": "Strife",
+  "source": "bundle"
+ },
+ "横版俄罗斯方块": {
+  "en": "SideTris",
+  "source": "bundle"
+ },
+ "橄榄球世界杯95": {
+  "en": "Rugby World Cup 95",
+  "source": "known"
+ },
+ "橄榄球小联盟": {
+  "en": "MicroLeague Football 2",
+  "source": "bundle"
+ },
+ "欧洲女皇扑克": {
+  "en": "Emile",
+  "source": "bundle"
+ },
+ "欧洲巡回摔角": {
+  "en": "WWF",
+  "source": "bundle"
+ },
+ "欧洲足球96": {
+  "en": "Eurochamp 96",
+  "source": "known"
+ },
+ "武将争霸2": {
+  "en": "Sango Fighter 2",
+  "source": "known"
+ },
+ "武道馆": {
+  "en": "Budokan",
+  "source": "bundle"
+ },
+ "死亡之夜": {
+  "en": "In the Dead of Night",
+  "source": "bundle"
+ },
+ "死亡之门": {
+  "en": "Daemon's Gate",
+  "source": "known"
+ },
+ "死亡剧场": {
+  "en": "Theatre of Death",
+  "source": "bundle"
+ },
+ "死亡岛": {
+  "en": "Discworld II: The Missing Dungeons",
+  "source": "known"
+ },
+ "死亡拉力赛": {
+  "en": "Death Rally",
+  "source": "bundle"
+ },
+ "死亡祷告": {
+  "en": "Anubis",
+  "source": "known"
+ },
+ "死亡骑士": {
+  "en": "Death Knights of Krynn",
+  "source": "bundle"
+ },
+ "死刑之剑": {
+  "en": "Deathbringer: The Sword of Abaddon",
+  "source": "bundle"
+ },
+ "残杀行动": {
+  "en": "Carnage",
+  "source": "bundle"
+ },
+ "残酷世界": {
+  "en": "Cruel World",
+  "source": "bundle"
+ },
+ "殖民世纪": {
+  "en": "Colonization",
+  "source": "known"
+ },
+ "毁灭公爵1": {
+  "en": "Duke Nukem",
+  "source": "bundle"
+ },
+ "毁灭公爵2": {
+  "en": "Duke Nukem II",
+  "source": "known"
+ },
+ "毁灭公爵3D": {
+  "en": "Duke Nukem 3D",
+  "source": "bundle"
+ },
+ "毁灭战士": {
+  "en": "Doom",
+  "source": "bundle"
+ },
+ "毁灭战士2终结版": {
+  "en": "Doom II",
+  "source": "known"
+ },
+ "毁灭战士横版": {
+  "en": "Doom 2D",
+  "source": "known"
+ },
+ "毁灭战机": {
+  "en": "Ravage",
+  "source": "bundle"
+ },
+ "毁灭竞技场": {
+  "en": "Destruction Derby",
+  "source": "bundle"
+ },
+ "毒品战争": {
+  "en": "Drug Wars",
+  "source": "bundle"
+ },
+ "氙星异形": {
+  "en": "Xenon",
+  "source": "bundle"
+ },
+ "氙星异形2": {
+  "en": "Xenon 2: Megablast",
+  "source": "known"
+ },
+ "水晶迷宫": {
+  "en": "Crystal Maze",
+  "source": "bundle"
+ },
+ "永远的蝙蝠侠": {
+  "en": "Batman Forever",
+  "source": "known"
+ },
+ "永远的雷曼": {
+  "en": "Rayman Forever",
+  "source": "known"
+ },
+ "永远的雷曼自制关": {
+  "en": "Rayman Forever",
+  "source": "known"
+ },
+ "汉尼拔": {
+  "en": "Hannibal",
+  "source": "bundle"
+ },
+ "沉默潜航2": {
+  "en": "Silent Service II",
+  "source": "bundle"
+ },
+ "沙丘魔堡2": {
+  "en": "Dune II: The Building of a Dynasty",
+  "source": "known"
+ },
+ "沙丘魔堡2光碟版1.07": {
+  "en": "Dune II: The Building of a Dynasty",
+  "source": "bundle"
+ },
+ "沙丘魔堡2加强版": {
+  "en": "Dune II: The Building of a Dynasty",
+  "source": "known"
+ },
+ "沙丘魔堡光碟版": {
+  "en": "Dune",
+  "source": "bundle"
+ },
+ "沙暴": {
+  "en": "Sand Storm",
+  "source": "bundle"
+ },
+ "海盗黄金版": {
+  "en": "Pirates! Gold",
+  "source": "bundle"
+ },
+ "海豹突击队": {
+  "en": "SEAL Team",
+  "source": "bundle"
+ },
+ "消防队": {
+  "en": "FireTeam 2200",
+  "source": "bundle"
+ },
+ "淘金者": {
+  "en": "Lode Runner: The Legend Returns",
+  "source": "known"
+ },
+ "混战之翼": {
+  "en": "Wings",
+  "source": "bundle"
+ },
+ "混沌之地": {
+  "en": "Realms of Chaos",
+  "source": "bundle"
+ },
+ "混沌机甲1": {
+  "en": "Bedlam",
+  "source": "bundle"
+ },
+ "混沌机甲2": {
+  "en": "Bedlam",
+  "source": "bundle"
+ },
+ "清白无罪": {
+  "en": "Innocent Until Caught",
+  "source": "bundle"
+ },
+ "清白无罪2": {
+  "en": "Guilty",
+  "source": "bundle"
+ },
+ "游轮凶案": {
+  "en": "Cruise for a Corpse",
+  "source": "bundle"
+ },
+ "湖人对凯尔特人": {
+  "en": "Lakers versus Celtics and the NBA Playoffs",
+  "source": "known"
+ },
+ "湾岸作战": {
+  "en": "Desert Strike",
+  "source": "bundle"
+ },
+ "滑流5000": {
+  "en": "Slipstream 5000",
+  "source": "bundle"
+ },
+ "滑溜小赛车": {
+  "en": "Slicks",
+  "source": "bundle"
+ },
+ "滑轮小子": {
+  "en": "Rolling Ronny",
+  "source": "bundle"
+ },
+ "滑轮小子2": {
+  "en": "Rolling Ronny 2",
+  "source": "bundle"
+ },
+ "激光部队": {
+  "en": "Laser Squad",
+  "source": "bundle"
+ },
+ "激情足球": {
+  "en": "GOAL!",
+  "source": "bundle"
+ },
+ "激战M星云": {
+  "en": "Star Control",
+  "source": "bundle"
+ },
+ "激战M星云2": {
+  "en": "Star Control II",
+  "source": "bundle"
+ },
+ "灌篮96": {
+  "en": "Slam 'N' Jam '96",
+  "source": "bundle"
+ },
+ "火星人备忘录": {
+  "en": "Martian Memorandum",
+  "source": "bundle"
+ },
+ "火星女神": {
+  "en": "Vinyl Goddess From Mars",
+  "source": "bundle"
+ },
+ "火焰之力": {
+  "en": "Firepower",
+  "source": "bundle"
+ },
+ "火焰之王": {
+  "en": "Fire King",
+  "source": "bundle"
+ },
+ "火箭手": {
+  "en": "The Rocketeer",
+  "source": "bundle"
+ },
+ "火线交叉": {
+  "en": "Strife",
+  "source": "bundle"
+ },
+ "灰烬帝国": {
+  "en": "Ashes of Empire",
+  "source": "bundle"
+ },
+ "炎龙骑士团2": {
+  "en": "Flame Dragon 2",
+  "source": "known"
+ },
+ "爵士兔": {
+  "en": "Jazz Jackrabbit",
+  "source": "known"
+ },
+ "爵士兔完整版": {
+  "en": "Jazz Jackrabbit",
+  "source": "known"
+ },
+ "爵士兔：假日兔94": {
+  "en": "Jazz Jackrabbit",
+  "source": "known"
+ },
+ "爵士兔：假日兔95": {
+  "en": "Jazz Jackrabbit",
+  "source": "bundle"
+ },
+ "爵士兔：光碟增强版": {
+  "en": "Jazz Jackrabbit",
+  "source": "bundle"
+ },
+ "特勤机甲队2增强版": {
+  "en": "Power Dolls 2",
+  "source": "known"
+ },
+ "特工盖之毁灭水晶": {
+  "en": "Guy Spy",
+  "source": "bundle"
+ },
+ "特技之岛": {
+  "en": "Stunt Island",
+  "source": "known"
+ },
+ "特技赛车": {
+  "en": "Stunts",
+  "source": "bundle"
+ },
+ "特种部队": {
+  "en": "Special Forces",
+  "source": "bundle"
+ },
+ "特警判官": {
+  "en": "Judge Dredd",
+  "source": "known"
+ },
+ "犯罪浪潮": {
+  "en": "Crime Wave",
+  "source": "known"
+ },
+ "狂暴异形": {
+  "en": "Alien Rampage",
+  "source": "known"
+ },
+ "狂野西部": {
+  "en": "Wild West",
+  "source": "known"
+ },
+ "独立赛车2": {
+  "en": "Indianapolis 500: The Simulation",
+  "source": "known"
+ },
+ "独立车赛": {
+  "en": "Indianapolis 500: The Simulation",
+  "source": "known"
+ },
+ "狮子安必斯": {
+  "en": "Abmis the Lion",
+  "source": "bundle"
+ },
+ "狮子王": {
+  "en": "The Lion King",
+  "source": "bundle"
+ },
+ "狼祸": {
+  "en": "Wolfsbane",
+  "source": "bundle"
+ },
+ "猎户座阴谋": {
+  "en": "The Orion Conspiracy",
+  "source": "bundle"
+ },
+ "猎杀红色十月": {
+  "en": "The Hunt for Red October",
+  "source": "bundle"
+ },
+ "猛鬼街": {
+  "en": "A Nightmare on Elm Street",
+  "source": "known"
+ },
+ "猛龙战机": {
+  "en": "Raptor",
+  "source": "bundle"
+ },
+ "猫和老鼠": {
+  "en": "Tom and Jerry",
+  "source": "known"
+ },
+ "猫和老鼠2": {
+  "en": "Tom and Jerry 2",
+  "source": "known"
+ },
+ "猴岛小英雄": {
+  "en": "Monkey Island",
+  "source": "known"
+ },
+ "猴岛小英雄2": {
+  "en": "Monkey Island 2",
+  "source": "known"
+ },
+ "玉米飞机大战外星人": {
+  "en": "Corncob 3D",
+  "source": "bundle"
+ },
+ "王位继承者": {
+  "en": "Heirs to the Throne",
+  "source": "bundle"
+ },
+ "玛吉之环": {
+  "en": "Rings of the Magi",
+  "source": "bundle"
+ },
+ "环世界": {
+  "en": "Ringworld",
+  "source": "bundle"
+ },
+ "珍宝珠小子": {
+  "en": "Zool",
+  "source": "bundle"
+ },
+ "珍宝珠小子2": {
+  "en": "Zool 2",
+  "source": "known"
+ },
+ "班级99": {
+  "en": "Class 99",
+  "source": "known"
+ },
+ "琥珀之星": {
+  "en": "Amber",
+  "source": "bundle"
+ },
+ "生化威胁": {
+  "en": "Bio Menace",
+  "source": "bundle"
+ },
+ "生化悍将": {
+  "en": "Cyberia",
+  "source": "bundle"
+ },
+ "生死决斗2097": {
+  "en": "One Must Fall 2097",
+  "source": "bundle"
+ },
+ "电子侠": {
+  "en": "Electro Man",
+  "source": "bundle"
+ },
+ "电子波动": {
+  "en": "Electronic Popple",
+  "source": "bundle"
+ },
+ "疯子": {
+  "en": "Madman",
+  "source": "bundle"
+ },
+ "疯狂医院2": {
+  "en": "Crazy Doctor 2",
+  "source": "bundle"
+ },
+ "疯狂大毁灭": {
+  "en": "Rampage",
+  "source": "bundle"
+ },
+ "疯狂大陆": {
+  "en": "Mega lo Mania",
+  "source": "bundle"
+ },
+ "疯狂小鸭": {
+  "en": "Ducks",
+  "source": "bundle"
+ },
+ "疯狂时代": {
+  "en": "Day of the Tentacle",
+  "source": "bundle"
+ },
+ "疯狂橄榄球": {
+  "en": "Brutal Sports Football",
+  "source": "bundle"
+ },
+ "疯狂电视台": {
+  "en": "Mad TV",
+  "source": "known"
+ },
+ "疯狂科学机器": {
+  "en": "Wild Science Arcade",
+  "source": "bundle"
+ },
+ "疯狂赛车2": {
+  "en": "Crazy Cars II",
+  "source": "known"
+ },
+ "疯狂赛车3": {
+  "en": "Crazy Cars 3",
+  "source": "bundle"
+ },
+ "疯狗": {
+  "en": "Mad Dog McCree",
+  "source": "bundle"
+ },
+ "疯狗威廉的地下城之旅": {
+  "en": "The Adventures of Maddog Williams in the Dungeons of Duridian",
+  "source": "bundle"
+ },
+ "白银塔里斯曼传奇": {
+  "en": "Legend of the Silver Talisman",
+  "source": "bundle"
+ },
+ "百夫长罗马防御": {
+  "en": "Centurion: Defender of Rome",
+  "source": "known"
+ },
+ "百战地虫": {
+  "en": "Liero",
+  "source": "bundle"
+ },
+ "百战天虫": {
+  "en": "Worms",
+  "source": "bundle"
+ },
+ "百战天虫光碟版": {
+  "en": "Worms",
+  "source": "bundle"
+ },
+ "百战爬虫": {
+  "en": "Creepers",
+  "source": "bundle"
+ },
+ "益智轨道": {
+  "en": "Locomotion",
+  "source": "bundle"
+ },
+ "盖世龙王": {
+  "en": "Dragon Lord",
+  "source": "bundle"
+ },
+ "盲战": {
+  "en": "Blind Wars",
+  "source": "bundle"
+ },
+ "直升机搜敌记": {
+  "en": "Seek and Destroy",
+  "source": "bundle"
+ },
+ "直升机救援队": {
+  "en": "Airlift Rescue",
+  "source": "bundle"
+ },
+ "真人快打": {
+  "en": "Mortal Kombat",
+  "source": "bundle"
+ },
+ "真人快打2": {
+  "en": "Mortal Kombat II",
+  "source": "bundle"
+ },
+ "真人快打3": {
+  "en": "Mortal Kombat 3",
+  "source": "bundle"
+ },
+ "真实足球": {
+  "en": "VR Soccer '96",
+  "source": "bundle"
+ },
+ "真实足球俱乐部版": {
+  "en": "Actua Soccer Club Edition",
+  "source": "bundle"
+ },
+ "石中剑的复仇": {
+  "en": "Vengeance of Excalibur",
+  "source": "bundle"
+ },
+ "石器时代": {
+  "en": "Stone Age",
+  "source": "bundle"
+ },
+ "石堡": {
+  "en": "Stonekeep",
+  "source": "bundle"
+ },
+ "碟形世界": {
+  "en": "Discworld",
+  "source": "bundle"
+ },
+ "碟形世界2": {
+  "en": "Discworld II",
   "source": "bundle"
  }
 }

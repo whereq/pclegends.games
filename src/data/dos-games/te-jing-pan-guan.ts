@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "te-jing-pan-guan",
   collection: "dos-games",
   name: "特警判官",
+  nameEn: "Judge Dredd",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2009 — 579 files, 6.5 MB.",

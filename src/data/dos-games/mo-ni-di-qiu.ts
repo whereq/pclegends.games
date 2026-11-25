@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-ni-di-qiu",
   collection: "dos-games",
   name: "模拟地球",
+  nameEn: "SimEarth",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 22 files, 939 KB.",

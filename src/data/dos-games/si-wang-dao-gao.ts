@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "si-wang-dao-gao",
   collection: "dos-games",
   name: "死亡祷告",
+  nameEn: "Anubis",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2005 — 324 files, 42.8 MB.",

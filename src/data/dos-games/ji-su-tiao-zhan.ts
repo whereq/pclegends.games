@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-su-tiao-zhan",
   collection: "dos-games",
   name: "急速挑战",
+  nameEn: "Speed Racer",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 179 files, 6.7 MB.",

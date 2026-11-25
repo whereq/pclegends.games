@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "you-fu-1-wei-zhi-di-ren",
   collection: "dos-games",
   name: "幽浮1未知敌人",
+  nameEn: "UFO: Enemy Unknown",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 1,032 files, 3.5 MB.",

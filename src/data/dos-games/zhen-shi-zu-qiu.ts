@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhen-shi-zu-qiu",
   collection: "dos-games",
   name: "真实足球",
+  nameEn: "VR Soccer '96",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 39 files, 10.5 MB.",

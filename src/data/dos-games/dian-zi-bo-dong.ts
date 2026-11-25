@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "dian-zi-bo-dong",
   collection: "dos-games",
   name: "电子波动",
+  nameEn: "Electronic Popple",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 21 files, 27.1 MB.",

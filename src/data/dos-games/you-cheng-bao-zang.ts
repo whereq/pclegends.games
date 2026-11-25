@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "you-cheng-bao-zang",
   collection: "dos-games",
   name: "幽城宝藏",
+  nameEn: "Hillsfar",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 57 files, 414 KB.",

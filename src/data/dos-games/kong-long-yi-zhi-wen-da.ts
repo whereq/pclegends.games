@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "kong-long-yi-zhi-wen-da",
   collection: "dos-games",
   name: "恐龙益智问答",
+  nameEn: "Dinosaur Adventure 3D",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 74 files, 6.9 MB.",

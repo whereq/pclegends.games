@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhen-shi-zu-qiu-ju-le-bu-ban",
   collection: "dos-games",
   name: "真实足球俱乐部版",
+  nameEn: "Actua Soccer Club Edition",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 63 files, 14.2 MB.",

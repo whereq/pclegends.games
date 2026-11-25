@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "di-guo-2",
   collection: "dos-games",
   name: "帝国2",
+  nameEn: "Empire II",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2009 — 141 files, 5.4 MB.",

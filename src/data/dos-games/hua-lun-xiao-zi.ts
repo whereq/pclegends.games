@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hua-lun-xiao-zi",
   collection: "dos-games",
   name: "滑轮小子",
+  nameEn: "Rolling Ronny",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 63 files, 2.1 MB.",

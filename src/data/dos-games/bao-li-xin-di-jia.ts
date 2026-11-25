@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bao-li-xin-di-jia",
   collection: "dos-games",
   name: "暴力辛迪加",
+  nameEn: "Syndicate",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 909 files, 14.1 MB.",

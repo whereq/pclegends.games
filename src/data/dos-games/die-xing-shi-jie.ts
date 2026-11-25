@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "die-xing-shi-jie",
   collection: "dos-games",
   name: "碟形世界",
+  nameEn: "Discworld",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1980 — 197 files, 19.8 MB.",

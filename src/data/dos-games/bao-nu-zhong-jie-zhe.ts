@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bao-nu-zhong-jie-zhe",
   collection: "dos-games",
   name: "暴怒终结者",
+  nameEn: "The Terminator: Rampage",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 53 files, 7.3 MB.",

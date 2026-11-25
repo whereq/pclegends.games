@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "huo-jian-shou",
   collection: "dos-games",
   name: "火箭手",
+  nameEn: "The Rocketeer",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 245 files, 2.0 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ren-zhe-shen-gui",
   collection: "dos-games",
   name: "忍者神龟",
+  nameEn: "Teenage Mutant Ninja Turtles",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 194 files, 709 KB.",

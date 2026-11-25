@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "you-lun-xiong-an",
   collection: "dos-games",
   name: "游轮凶案",
+  nameEn: "Cruise for a Corpse",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 23 files, 10.1 MB.",

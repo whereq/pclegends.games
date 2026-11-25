@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "huo-yan-zhi-wang",
   collection: "dos-games",
   name: "火焰之王",
+  nameEn: "Fire King",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 271 files, 480 KB.",

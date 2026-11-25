@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "kai-qiu-96",
   collection: "dos-games",
   name: "开球96",
+  nameEn: "Kick Off 96",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 325 files, 12.7 MB.",

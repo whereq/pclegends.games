@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hu-ren-dui-kai-er-te-ren",
   collection: "dos-games",
   name: "湖人对凯尔特人",
+  nameEn: "Lakers versus Celtics and the NBA Playoffs",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 32 files, 193 KB.",

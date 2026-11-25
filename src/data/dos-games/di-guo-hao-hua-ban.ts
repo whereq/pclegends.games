@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "di-guo-hao-hua-ban",
   collection: "dos-games",
   name: "帝国豪华版",
+  nameEn: "Empire Deluxe",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2005 — 61 files, 3.5 MB.",

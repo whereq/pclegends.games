@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-ni-guo-shan-che",
   collection: "dos-games",
   name: "模拟过山车",
+  nameEn: "SimCoaster",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 21 files, 914 KB.",

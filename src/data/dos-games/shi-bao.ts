@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-bao",
   collection: "dos-games",
   name: "石堡",
+  nameEn: "Stonekeep",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 173 files, 116.7 MB.",

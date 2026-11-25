@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yu-mi-fei-ji-da-zhan-wai-xing-ren",
   collection: "dos-games",
   name: "玉米飞机大战外星人",
+  nameEn: "Corncob 3D",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 113 files, 613 KB.",

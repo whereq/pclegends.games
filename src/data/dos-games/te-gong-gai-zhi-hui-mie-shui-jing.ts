@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "te-gong-gai-zhi-hui-mie-shui-jing",
   collection: "dos-games",
   name: "特工盖之毁灭水晶",
+  nameEn: "Guy Spy",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 19 files, 2.5 MB.",

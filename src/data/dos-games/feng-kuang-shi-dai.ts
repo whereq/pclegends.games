@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "feng-kuang-shi-dai",
   collection: "dos-games",
   name: "疯狂时代",
+  nameEn: "Day of the Tentacle",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1988 — 67 files, 7.8 MB.",

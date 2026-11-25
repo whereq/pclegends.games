@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-ni-cheng-shi-2000-zeng-qiang-ban",
   collection: "dos-games",
   name: "模拟城市2000增强版",
+  nameEn: "SimCity 2000",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 201 files, 70.1 MB.",

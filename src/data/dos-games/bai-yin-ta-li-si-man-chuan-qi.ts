@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bai-yin-ta-li-si-man-chuan-qi",
   collection: "dos-games",
   name: "白银塔里斯曼传奇",
+  nameEn: "Legend of the Silver Talisman",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 18 files, 493 KB.",

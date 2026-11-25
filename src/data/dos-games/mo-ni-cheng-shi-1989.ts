@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-ni-cheng-shi-1989",
   collection: "dos-games",
   name: "模拟城市(1989)",
+  nameEn: "SimCity",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 26 files, 501 KB.",

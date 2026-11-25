@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wan-an-zuo-zhan",
   collection: "dos-games",
   name: "湾岸作战",
+  nameEn: "Desert Strike",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 4 files, 2.8 MB.",

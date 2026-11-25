@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sheng-si-jue-dou-2097",
   collection: "dos-games",
   name: "生死决斗2097",
+  nameEn: "One Must Fall 2097",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 84 files, 6.3 MB.",

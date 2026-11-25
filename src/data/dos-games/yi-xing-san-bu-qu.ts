@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-xing-san-bu-qu",
   collection: "dos-games",
   name: "异形三部曲",
+  nameEn: "Alien Trilogy",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 751 files, 18.9 MB.",

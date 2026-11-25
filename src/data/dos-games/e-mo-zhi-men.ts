@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "e-mo-zhi-men",
   collection: "dos-games",
   name: "恶魔之门",
+  nameEn: "Daemonsgate",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2005 — 77 files, 3.4 MB.",

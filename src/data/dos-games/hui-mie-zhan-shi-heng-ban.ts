@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hui-mie-zhan-shi-heng-ban",
   collection: "dos-games",
   name: "毁灭战士横版",
+  nameEn: "Doom 2D",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2009 — 6 files, 2.5 MB.",

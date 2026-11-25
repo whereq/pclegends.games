@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wu-mo-tian-jing-2",
   collection: "dos-games",
   name: "巫魔天境2",
+  nameEn: "Witchaven II",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 63 files, 16.9 MB.",

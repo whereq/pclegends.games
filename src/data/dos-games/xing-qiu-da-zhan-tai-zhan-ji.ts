@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-qiu-da-zhan-tai-zhan-ji",
   collection: "dos-games",
   name: "星球大战钛战机",
+  nameEn: "TIE Fighter",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 211 files, 7.3 MB.",

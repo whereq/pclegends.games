@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sha-qiu-mo-bao-guang-die-ban",
   collection: "dos-games",
   name: "沙丘魔堡光碟版",
+  nameEn: "Dune",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 3 files, 227.0 MB.",

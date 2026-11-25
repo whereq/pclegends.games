@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "de-ku-la-chuan-shuo",
   collection: "dos-games",
   name: "德库拉传说",
+  nameEn: "Bram Stoker's Dracula",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 65 files, 772 KB.",

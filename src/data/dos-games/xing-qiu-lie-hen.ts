@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-qiu-lie-hen",
   collection: "dos-games",
   name: "星球裂痕",
+  nameEn: "The Rift",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 4 files, 53 KB.",

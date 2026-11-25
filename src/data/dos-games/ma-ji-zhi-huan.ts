@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ma-ji-zhi-huan",
   collection: "dos-games",
   name: "玛吉之环",
+  nameEn: "Rings of the Magi",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 10 files, 1.3 MB.",

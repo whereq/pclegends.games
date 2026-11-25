@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-gan-e-luo-si",
   collection: "dos-games",
   name: "性感俄罗斯",
+  nameEn: "Sex Tetris",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 28 files, 370 KB.",

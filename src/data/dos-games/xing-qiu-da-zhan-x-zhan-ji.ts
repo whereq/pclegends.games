@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-qiu-da-zhan-x-zhan-ji",
   collection: "dos-games",
   name: "星球大战X战机",
+  nameEn: "X-Wing",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 58 files, 52.8 MB.",

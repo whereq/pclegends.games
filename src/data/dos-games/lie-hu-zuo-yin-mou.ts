@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "lie-hu-zuo-yin-mou",
   collection: "dos-games",
   name: "猎户座阴谋",
+  nameEn: "The Orion Conspiracy",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2009 — 82 files, 232.6 MB.",

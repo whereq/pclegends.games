@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hui-mie-zhan-ji",
   collection: "dos-games",
   name: "毁灭战机",
+  nameEn: "Ravage",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 73 files, 4.9 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ling-jian-chuan-qi",
   collection: "dos-games",
   name: "灵剑传奇",
+  nameEn: "Sword Legend",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 265 files, 16.3 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhen-ren-kuai-da-3",
   collection: "dos-games",
   name: "真人快打3",
+  nameEn: "Mortal Kombat 3",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 49 files, 19.0 MB.",

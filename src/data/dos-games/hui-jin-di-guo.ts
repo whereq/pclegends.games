@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hui-jin-di-guo",
   collection: "dos-games",
   name: "灰烬帝国",
+  nameEn: "Ashes of Empire",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 354 files, 1.4 MB.",

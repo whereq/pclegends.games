@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-qiu-da-zhan-jue-di-fan-ji",
   collection: "dos-games",
   name: "星球大战绝地反击",
+  nameEn: "Super Star Wars",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 11 files, 4.7 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sha-bao",
   collection: "dos-games",
   name: "沙暴",
+  nameEn: "Sand Storm",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 13 files, 184 KB.",

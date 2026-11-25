@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-qiu-da-zhan-an-ying-li-liang",
   collection: "dos-games",
   name: "星球大战暗影力量",
+  nameEn: "Dark Forces",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 59 files, 29.2 MB.",

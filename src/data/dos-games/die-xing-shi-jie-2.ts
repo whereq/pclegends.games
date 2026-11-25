@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "die-xing-shi-jie-2",
   collection: "dos-games",
   name: "碟形世界2",
+  nameEn: "Discworld II",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 225 files, 64.3 MB.",

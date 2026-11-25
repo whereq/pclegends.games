@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ren-zhe-long-jian-chuan-2",
   collection: "dos-games",
   name: "忍者龙剑传2",
+  nameEn: "Ninja Gaiden II: The Dark Sword of Chaos",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 49 files, 471 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "kuang-bao-yi-xing",
   collection: "dos-games",
   name: "狂暴异形",
+  nameEn: "Alien Rampage",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 26 files, 20.4 MB.",

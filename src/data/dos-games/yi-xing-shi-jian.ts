@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-xing-shi-jian",
   collection: "dos-games",
   name: "异形事件",
+  nameEn: "Alien Incident",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2001 — 940 files, 10.2 MB.",

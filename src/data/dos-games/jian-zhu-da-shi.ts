@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jian-zhu-da-shi",
   collection: "dos-games",
   name: "建筑大师",
+  nameEn: "Constructor",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 28 files, 35.0 MB.",

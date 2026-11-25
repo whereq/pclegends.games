@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "si-wang-la-li-sai",
   collection: "dos-games",
   name: "死亡拉力赛",
+  nameEn: "Death Rally",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 22 files, 53.4 MB.",

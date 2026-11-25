@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ou-zhou-zu-qiu-96",
   collection: "dos-games",
   name: "欧洲足球96",
+  nameEn: "Eurochamp 96",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 289 files, 9.6 MB.",

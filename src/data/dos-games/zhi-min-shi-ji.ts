@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhi-min-shi-ji",
   collection: "dos-games",
   name: "殖民世纪",
+  nameEn: "Colonization",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 23 files, 293 KB.",

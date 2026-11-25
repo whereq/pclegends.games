@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ou-zhou-nv-huang-pu-ke",
   collection: "dos-games",
   name: "欧洲女皇扑克",
+  nameEn: "Emile",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1980 — 36 files, 450 KB.",

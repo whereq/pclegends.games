@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "feng-kuang-ke-xue-ji-qi",
   collection: "dos-games",
   name: "疯狂科学机器",
+  nameEn: "Wild Science Arcade",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 110 files, 2.2 MB.",

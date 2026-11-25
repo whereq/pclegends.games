@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-xing-kong-ju-zheng",
   collection: "dos-games",
   name: "异形恐惧症",
+  nameEn: "Alien Phobia",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 33 files, 152 KB.",

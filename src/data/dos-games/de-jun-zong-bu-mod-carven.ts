@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "de-jun-zong-bu-mod-carven",
   collection: "dos-games",
   name: "德军总部MOD-CARVEN",
+  nameEn: "Romanstein Caverns",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 72 files, 1.8 MB.",

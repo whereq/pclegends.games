@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "feng-gou",
   collection: "dos-games",
   name: "疯狗",
+  nameEn: "Mad Dog McCree",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 26 files, 76.9 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-ji-zhi-chui",
   collection: "dos-games",
   name: "星际之锤",
+  nameEn: "Star Hammer",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 51 files, 613 KB.",

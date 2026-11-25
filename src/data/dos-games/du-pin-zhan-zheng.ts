@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "du-pin-zhan-zheng",
   collection: "dos-games",
   name: "毒品战争",
+  nameEn: "Drug Wars",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 19 files, 16.5 MB.",

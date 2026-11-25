@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "you-fu-2-shen-hai-zhi-mi-ti",
   collection: "dos-games",
   name: "幽浮2深海之谜题",
+  nameEn: "X-COM: Terror from the Deep",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 1,175 files, 6.0 MB.",

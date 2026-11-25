@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bai-zhan-pa-chong",
   collection: "dos-games",
   name: "百战爬虫",
+  nameEn: "Creepers",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 18 files, 911 KB.",

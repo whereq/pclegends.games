@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "dian-zi-xia",
   collection: "dos-games",
   name: "电子侠",
+  nameEn: "Electro Man",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 6 files, 935 KB.",

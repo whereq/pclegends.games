@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "huan-xiang-huo-yan",
   collection: "dos-games",
   name: "幻想火焰",
+  nameEn: "Illusion Blaze",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 139 files, 8.1 MB.",

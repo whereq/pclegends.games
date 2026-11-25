@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-ji-lian-meng",
   collection: "dos-games",
   name: "星际联盟",
+  nameEn: "Fragile Allegiance",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 403 files, 27.6 MB.",

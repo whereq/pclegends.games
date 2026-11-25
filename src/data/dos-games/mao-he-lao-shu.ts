@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mao-he-lao-shu",
   collection: "dos-games",
   name: "猫和老鼠",
+  nameEn: "Tom and Jerry",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 7 files, 180 KB.",

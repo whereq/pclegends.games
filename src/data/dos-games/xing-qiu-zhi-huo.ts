@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-qiu-zhi-huo",
   collection: "dos-games",
   name: "星球之火",
+  nameEn: "Starfire",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 23 files, 179 KB.",

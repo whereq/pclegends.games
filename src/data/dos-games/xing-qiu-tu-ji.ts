@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-qiu-tu-ji",
   collection: "dos-games",
   name: "星球突击",
+  nameEn: "Planet Strike",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 18 files, 2.0 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hui-mie-zhan-shi",
   collection: "dos-games",
   name: "毁灭战士",
+  nameEn: "Doom",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 8 files, 5.0 MB.",

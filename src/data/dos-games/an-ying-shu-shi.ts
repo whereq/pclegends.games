@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "an-ying-shu-shi",
   collection: "dos-games",
   name: "暗影术士",
+  nameEn: "Shadowcaster",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 20 files, 6.0 MB.",

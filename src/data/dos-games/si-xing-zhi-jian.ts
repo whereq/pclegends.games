@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "si-xing-zhi-jian",
   collection: "dos-games",
   name: "死刑之剑",
+  nameEn: "Deathbringer: The Sword of Abaddon",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 113 files, 527 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xian-xing-yi-xing",
   collection: "dos-games",
   name: "氙星异形",
+  nameEn: "Xenon",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 26 files, 128 KB.",
