@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jie-ji-bao-ling",
   collection: "dos-games",
   name: "街机保龄",
+  nameEn: "King Pin",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 11 files, 1.0 MB.",

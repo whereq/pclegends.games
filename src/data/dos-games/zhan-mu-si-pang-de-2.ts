@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-mu-si-pang-de-2",
   collection: "dos-games",
   name: "詹姆斯庞德2",
+  nameEn: "James Pond 2: Codename Robocod",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 17 files, 769 KB.",

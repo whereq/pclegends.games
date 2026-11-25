@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shun-shi-zhen-mi-ti",
   collection: "dos-games",
   name: "顺时针谜题",
+  nameEn: "Clockwiser",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 6 files, 1003 KB.",

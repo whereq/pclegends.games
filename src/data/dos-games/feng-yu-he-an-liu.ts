@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "feng-yu-he-an-liu",
   collection: "dos-games",
   name: "风语河岸柳",
+  nameEn: "Winds in the Willows",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 76 files, 307 KB.",

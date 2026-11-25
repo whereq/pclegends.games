@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jue-yin-mo-qin",
   collection: "dos-games",
   name: "绝音魔琴",
+  nameEn: "Hope",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2008 — 336 files, 57.5 MB.",

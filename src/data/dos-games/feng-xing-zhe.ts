@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "feng-xing-zhe",
   collection: "dos-games",
   name: "风行者",
+  nameEn: "Windwalker",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 51 files, 529 KB.",

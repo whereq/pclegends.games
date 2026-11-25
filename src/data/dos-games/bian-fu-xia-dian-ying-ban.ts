@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bian-fu-xia-dian-ying-ban",
   collection: "dos-games",
   name: "蝙蝠侠电影版",
+  nameEn: "Batman: The Movie",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 79 files, 381 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hei-jie-ke",
   collection: "dos-games",
   name: "黑杰克",
+  nameEn: "Blackjack Tutor",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 3 files, 88 KB.",

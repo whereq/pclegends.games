@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "lei-mi-tu-chuan-qi",
   collection: "dos-games",
   name: "雷米兔传奇",
+  nameEn: "Legend of Myra",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 20 files, 2.6 MB.",

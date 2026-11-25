@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-ji-wa",
   collection: "dos-games",
   name: "超级蛙",
+  nameEn: "Superfrog",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 147 files, 2.5 MB.",

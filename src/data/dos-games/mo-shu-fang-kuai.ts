@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-shu-fang-kuai",
   collection: "dos-games",
   name: "魔术方块",
+  nameEn: "Beyond",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1980 — 4 files, 21 KB.",

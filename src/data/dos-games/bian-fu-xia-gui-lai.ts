@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bian-fu-xia-gui-lai",
   collection: "dos-games",
   name: "蝙蝠侠归来",
+  nameEn: "Batman Returns",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 5 files, 8.0 MB.",

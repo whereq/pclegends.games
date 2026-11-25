@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-xing-bian-ji",
   collection: "dos-games",
   name: "行星边际",
+  nameEn: "Planet Edge",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 19 files, 3.5 MB.",

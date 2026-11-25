@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wang-qiu-xun-lian",
   collection: "dos-games",
   name: "网球训练",
+  nameEn: "Tennis Elbow",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 207 files, 3.4 MB.",

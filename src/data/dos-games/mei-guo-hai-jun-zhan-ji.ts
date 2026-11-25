@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mei-guo-hai-jun-zhan-ji",
   collection: "dos-games",
   name: "美国海军战机",
+  nameEn: "US Navy Fighters",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 64 files, 20.9 MB.",

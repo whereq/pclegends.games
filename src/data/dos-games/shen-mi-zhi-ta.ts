@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shen-mi-zhi-ta",
   collection: "dos-games",
   name: "神秘之塔",
+  nameEn: "Mystic Towers",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 6 files, 1.3 MB.",

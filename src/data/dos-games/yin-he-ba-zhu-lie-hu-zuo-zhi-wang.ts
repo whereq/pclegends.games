@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yin-he-ba-zhu-lie-hu-zuo-zhi-wang",
   collection: "dos-games",
   name: "银河霸主(猎户座之王)",
+  nameEn: "Master of Orion",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 55 files, 6.6 MB.",

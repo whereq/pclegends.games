@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-yan-shui-jing",
   collection: "dos-games",
   name: "魔眼水晶",
+  nameEn: "Legend",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1999 — 116 files, 1009 KB.",

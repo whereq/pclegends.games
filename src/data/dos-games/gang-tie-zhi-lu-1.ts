@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gang-tie-zhi-lu-1",
   collection: "dos-games",
   name: "钢铁之路1",
+  nameEn: "Steel Panthers",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 1,425 files, 14.0 MB.",

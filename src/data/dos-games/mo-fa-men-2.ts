@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-fa-men-2",
   collection: "dos-games",
   name: "魔法门2",
+  nameEn: "Might and Magic II: The Ancient Throne",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 102 files, 801 KB.",

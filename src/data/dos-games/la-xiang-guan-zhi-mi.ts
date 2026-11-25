@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "la-xiang-guan-zhi-mi",
   collection: "dos-games",
   name: "蜡像馆之谜",
+  nameEn: "Waxworks",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 474 files, 4.5 MB.",

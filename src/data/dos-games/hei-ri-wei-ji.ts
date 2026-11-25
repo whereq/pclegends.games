@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hei-ri-wei-ji",
   collection: "dos-games",
   name: "黑日危机",
+  nameEn: "Dark Sun: Shattered Lands",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 60 files, 6.8 MB.",

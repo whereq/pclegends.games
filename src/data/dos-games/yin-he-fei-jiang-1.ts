@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yin-he-fei-jiang-1",
   collection: "dos-games",
   name: "银河飞将1",
+  nameEn: "Wing Commander",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 91 files, 3.9 MB.",

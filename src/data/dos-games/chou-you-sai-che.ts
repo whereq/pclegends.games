@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chou-you-sai-che",
   collection: "dos-games",
   name: "臭鼬赛车",
+  nameEn: "Skunny K",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 17 files, 1.4 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shen-jing-dan-zhu-tai",
   collection: "dos-games",
   name: "神经弹珠台",
+  nameEn: "Psycho Pinball",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 122 files, 6.1 MB.",

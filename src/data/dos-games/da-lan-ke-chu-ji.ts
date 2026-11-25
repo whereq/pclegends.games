@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "da-lan-ke-chu-ji",
   collection: "dos-games",
   name: "达兰科出击",
+  nameEn: "Doctor Who",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 22 files, 998 KB.",

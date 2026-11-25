@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chang-qiang-ying-xiong",
   collection: "dos-games",
   name: "长枪英雄",
+  nameEn: "Goldmoon",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1988 — 35 files, 437 KB.",

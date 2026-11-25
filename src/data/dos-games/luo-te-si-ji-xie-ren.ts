@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "luo-te-si-ji-xie-ren",
   collection: "dos-games",
   name: "罗特斯机械人",
+  nameEn: "RotoscapE",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1980 — 110 files, 710 KB.",

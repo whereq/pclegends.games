@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "long-zhan-ji-x",
   collection: "dos-games",
   name: "龙战记X",
+  nameEn: "Xargon",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 137 files, 1.4 MB.",

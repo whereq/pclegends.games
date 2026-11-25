@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xin-pu-sen-da-zhan-wai-xing-ren",
   collection: "dos-games",
   name: "辛普森大战外星人",
+  nameEn: "The Simpsons: Bart vs. the Space Mutants",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 26 files, 1.0 MB.",

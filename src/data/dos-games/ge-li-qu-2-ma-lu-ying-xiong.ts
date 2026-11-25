@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ge-li-qu-2-ma-lu-ying-xiong",
   collection: "dos-games",
   name: "隔离区2马路英雄",
+  nameEn: "Road Warrior",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 1,591 files, 23.1 MB.",

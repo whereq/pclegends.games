@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "she-nv",
   collection: "dos-games",
   name: "蛇女",
+  nameEn: "Daughter of Serpents",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 169 files, 5.7 MB.",

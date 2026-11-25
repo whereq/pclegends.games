@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hei-an-shi-dai-san-bu-qu",
   collection: "dos-games",
   name: "黑暗时代三部曲",
+  nameEn: "Dark Ages",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2001 — 72 files, 380 KB.",

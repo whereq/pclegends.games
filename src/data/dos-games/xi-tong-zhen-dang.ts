@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xi-tong-zhen-dang",
   collection: "dos-games",
   name: "系统震荡",
+  nameEn: "System Shock",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2007 — 157 files, 121.4 MB.",

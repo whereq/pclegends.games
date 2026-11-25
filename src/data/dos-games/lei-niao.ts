@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "lei-niao",
   collection: "dos-games",
   name: "雷鸟",
+  nameEn: "Thunderhawk",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 114 files, 1.0 MB.",

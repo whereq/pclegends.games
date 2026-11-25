@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-huan-jiang-jun",
   collection: "dos-games",
   name: "魔幻将军",
+  nameEn: "Fantasy General",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 1,174 files, 10.8 MB.",

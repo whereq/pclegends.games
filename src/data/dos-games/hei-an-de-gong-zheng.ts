@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hei-an-de-gong-zheng",
   collection: "dos-games",
   name: "黑暗的公证",
+  nameEn: "Blind Justice",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 381 files, 6.5 MB.",

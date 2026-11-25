@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yin-he-fei-jiang-a-man-da",
   collection: "dos-games",
   name: "银河飞将阿曼达",
+  nameEn: "Wing Commander Armada",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 22 files, 7.1 MB.",

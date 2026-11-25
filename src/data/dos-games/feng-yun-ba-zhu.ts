@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "feng-yun-ba-zhu",
   collection: "dos-games",
   name: "风云霸主",
+  nameEn: "PowerMonger",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 47 files, 1.8 MB.",

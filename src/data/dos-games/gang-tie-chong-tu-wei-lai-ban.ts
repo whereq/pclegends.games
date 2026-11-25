@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gang-tie-chong-tu-wei-lai-ban",
   collection: "dos-games",
   name: "钢铁冲突未来版",
+  nameEn: "Clash of Steel",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 100 files, 2.6 MB.",

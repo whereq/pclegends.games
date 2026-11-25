@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "feng-chi-dian-che",
   collection: "dos-games",
   name: "风驰电掣",
+  nameEn: "Indianapolis 500: The Simulation",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 11 files, 508 KB.",

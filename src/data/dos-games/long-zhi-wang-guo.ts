@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "long-zhi-wang-guo",
   collection: "dos-games",
   name: "龙之王国",
+  nameEn: "Dragonsphere",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 54 files, 9.9 MB.",

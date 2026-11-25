@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "lei-shen",
   collection: "dos-games",
   name: "雷神",
+  nameEn: "God of Thunder",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 17 files, 1.0 MB.",

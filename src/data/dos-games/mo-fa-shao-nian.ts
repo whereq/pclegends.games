@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-fa-shao-nian",
   collection: "dos-games",
   name: "魔法少年",
+  nameEn: "Magic Boy",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 20 files, 189 KB.",

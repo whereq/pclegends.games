@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gang-tie-zhi-lu-2",
   collection: "dos-games",
   name: "钢铁之路2",
+  nameEn: "Steel Panthers II: Modern Battles",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 1,446 files, 51.6 MB.",

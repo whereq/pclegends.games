@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xu-huan-zhi-di",
   collection: "dos-games",
   name: "虚幻之地",
+  nameEn: "The UnReal World",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 334 files, 9.9 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yin-se-dan-qiu-95",
   collection: "dos-games",
   name: "银色弹球95",
+  nameEn: "Silverball",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 49 files, 1.8 MB.",

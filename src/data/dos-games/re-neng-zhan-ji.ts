@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "re-neng-zhan-ji",
   collection: "dos-games",
   name: "热能战机",
+  nameEn: "Pyrotechnica",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 166 files, 14.5 MB.",

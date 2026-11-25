@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tao-li-nao-bo-shi-de-cheng-bao",
   collection: "dos-games",
   name: "逃离脑博士的城堡",
+  nameEn: "Castle of Dr. Brain",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 68 files, 3.5 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tie-xue-zhan-shi-2",
   collection: "dos-games",
   name: "铁血战士2",
+  nameEn: "Predator 2",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 80 files, 466 KB.",

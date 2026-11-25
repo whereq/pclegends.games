@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "dun-ru-hei-an",
   collection: "dos-games",
   name: "遁入黑暗",
+  nameEn: "Fade to Black",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 478 files, 29.4 MB.",

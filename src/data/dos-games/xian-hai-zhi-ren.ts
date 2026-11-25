@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xian-hai-zhi-ren",
   collection: "dos-games",
   name: "陷害之人",
+  nameEn: "Framed",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2000 — 38 files, 368 KB.",

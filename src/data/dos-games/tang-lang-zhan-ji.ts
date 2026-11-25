@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tang-lang-zhan-ji",
   collection: "dos-games",
   name: "螳螂战机",
+  nameEn: "Mantis",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 333 files, 13.5 MB.",

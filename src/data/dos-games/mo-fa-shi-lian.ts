@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-fa-shi-lian",
   collection: "dos-games",
   name: "魔法试炼",
+  nameEn: "Trial by Magic",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 8 files, 59.3 MB.",

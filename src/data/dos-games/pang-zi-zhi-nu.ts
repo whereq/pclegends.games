@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "pang-zi-zhi-nu",
   collection: "dos-games",
   name: "胖子之怒",
+  nameEn: "Tongue of the Fatman",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 110 files, 584 KB.",

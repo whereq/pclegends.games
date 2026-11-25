@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hong-se-di-yu-na-cui-bei-lun",
   collection: "dos-games",
   name: "红色地狱纳粹悖论",
+  nameEn: "Red Hell",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 930 files, 23.3 MB.",

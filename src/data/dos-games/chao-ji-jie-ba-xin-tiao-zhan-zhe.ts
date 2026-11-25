@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-ji-jie-ba-xin-tiao-zhan-zhe",
   collection: "dos-games",
   name: "超级街霸新挑战者",
+  nameEn: "Super Street Fighter II",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 357 files, 3.6 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "na-cui-fei-xing-mi-shi-zi-liao-pian",
   collection: "dos-games",
   name: "纳粹飞行秘史+资料片",
+  nameEn: "B-17 Flying Fortress",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 547 files, 1.8 MB.",

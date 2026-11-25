@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "a-la-ding-2-deng-shen-zu-zhou",
   collection: "dos-games",
   name: "阿拉丁2灯神诅咒",
+  nameEn: "Al-Qadim: The Genie's Curse",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 294 files, 6.6 MB.",

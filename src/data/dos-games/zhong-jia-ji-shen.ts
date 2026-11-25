@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhong-jia-ji-shen",
   collection: "dos-games",
   name: "重甲机神",
+  nameEn: "Baryon",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 37 files, 20.8 MB.",

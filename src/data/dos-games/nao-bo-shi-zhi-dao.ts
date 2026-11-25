@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "nao-bo-shi-zhi-dao",
   collection: "dos-games",
   name: "脑博士之岛",
+  nameEn: "The Island of Dr. Brain",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 57 files, 3.2 MB.",

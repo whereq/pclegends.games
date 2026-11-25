@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shou-xi-zhi-xing-guan",
   collection: "dos-games",
   name: "首席执行官",
+  nameEn: "A4 Networks",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 566 files, 4.8 MB.",

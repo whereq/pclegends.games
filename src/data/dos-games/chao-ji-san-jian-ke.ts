@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-ji-san-jian-ke",
   collection: "dos-games",
   name: "超级三剑客",
+  nameEn: "Super Trio",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1980 — 71 files, 1.1 MB.",

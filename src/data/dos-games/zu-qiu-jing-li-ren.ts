@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zu-qiu-jing-li-ren",
   collection: "dos-games",
   name: "足球经理人",
+  nameEn: "European Champions",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 62 files, 462 KB.",

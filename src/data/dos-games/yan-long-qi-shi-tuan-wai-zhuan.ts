@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yan-long-qi-shi-tuan-wai-zhuan",
   collection: "dos-games",
   name: "炎龙骑士团外传",
+  nameEn: "Flame Dragon Plus",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 67 files, 383.5 MB.",

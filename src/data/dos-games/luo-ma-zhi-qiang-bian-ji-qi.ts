@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "luo-ma-zhi-qiang-bian-ji-qi",
   collection: "dos-games",
   name: "罗马之墙+编辑器",
+  nameEn: "Walls of Rome",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 173 files, 3.0 MB.",

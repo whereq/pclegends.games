@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tao-li-feng-ren-yuan",
   collection: "dos-games",
   name: "逃离疯人院",
+  nameEn: "Escape from Delirium",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 19 files, 4.6 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "fei-long-qi-shi",
   collection: "dos-games",
   name: "飞龙骑士",
+  nameEn: "DragonStrike",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 89 files, 987 KB.",

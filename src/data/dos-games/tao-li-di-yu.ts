@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tao-li-di-yu",
   collection: "dos-games",
   name: "逃离地狱",
+  nameEn: "Richard & Alan's Escape from Hell",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 130 files, 394 KB.",

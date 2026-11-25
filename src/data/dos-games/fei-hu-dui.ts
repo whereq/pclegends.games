@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "fei-hu-dui",
   collection: "dos-games",
   name: "飞虎队",
+  nameEn: "Flying Tigers",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 107 files, 1.4 MB.",

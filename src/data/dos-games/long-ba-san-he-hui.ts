@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "long-ba-san-he-hui",
   collection: "dos-games",
   name: "龙霸三合会",
+  nameEn: "Rise of the Triad",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 40 files, 7.2 MB.",

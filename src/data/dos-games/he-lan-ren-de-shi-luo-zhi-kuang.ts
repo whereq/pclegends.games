@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "he-lan-ren-de-shi-luo-zhi-kuang",
   collection: "dos-games",
   name: "荷兰人的失落之矿",
+  nameEn: "The Lost Dutchman Mine",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 38 files, 502 KB.",

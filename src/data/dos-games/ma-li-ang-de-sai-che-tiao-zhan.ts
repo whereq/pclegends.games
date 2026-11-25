@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ma-li-ang-de-sai-che-tiao-zhan",
   collection: "dos-games",
   name: "马里昂的赛车挑战",
+  nameEn: "Daytona USA",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 163 files, 1.2 MB.",

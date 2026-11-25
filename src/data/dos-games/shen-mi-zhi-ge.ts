@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shen-mi-zhi-ge",
   collection: "dos-games",
   name: "神秘之歌",
+  nameEn: "Mysterious Song",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 211 files, 1.9 MB.",

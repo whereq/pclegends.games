@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "a-er-bi-en",
   collection: "dos-games",
   name: "阿尔比恩",
+  nameEn: "Albion",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 222 files, 61.7 MB.",

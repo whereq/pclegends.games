@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "lei-ke-si",
   collection: "dos-games",
   name: "雷克斯",
+  nameEn: "Rex Nebular and the Cosmic Gender Bender",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 72 files, 19.8 MB.",

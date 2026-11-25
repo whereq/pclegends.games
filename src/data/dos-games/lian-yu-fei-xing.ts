@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "lian-yu-fei-xing",
   collection: "dos-games",
   name: "炼狱飞行",
+  nameEn: "Inferno",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 41 files, 10.4 MB.",

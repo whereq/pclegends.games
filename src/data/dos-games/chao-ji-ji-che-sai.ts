@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-ji-ji-che-sai",
   collection: "dos-games",
   name: "超级机车赛",
+  nameEn: "Superbike Challenge",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1987 — 15 files, 55 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-ji-ying-xiong-lian-meng",
   collection: "dos-games",
   name: "超级英雄联盟",
+  nameEn: "Superhero League of Hoboken",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 45 files, 6.3 MB.",

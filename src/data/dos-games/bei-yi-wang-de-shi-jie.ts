@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bei-yi-wang-de-shi-jie",
   collection: "dos-games",
   name: "被遗忘的世界",
+  nameEn: "Forgotten Worlds",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 13 files, 403 KB.",

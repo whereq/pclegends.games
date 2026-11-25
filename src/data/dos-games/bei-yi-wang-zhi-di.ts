@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bei-yi-wang-zhi-di",
   collection: "dos-games",
   name: "被遗忘之地",
+  nameEn: "AD&D Unlimited Adventures",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 100 files, 2.6 MB.",

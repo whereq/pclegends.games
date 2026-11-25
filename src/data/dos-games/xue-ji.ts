@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xue-ji",
   collection: "dos-games",
   name: "血祭",
+  nameEn: "Blood",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 75 files, 37.7 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhong-ji-su-du",
   collection: "dos-games",
   name: "终极速度",
+  nameEn: "Terminal Velocity",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 68 files, 69.9 MB.",

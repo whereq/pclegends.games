@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "li-ming-tie-zhen",
   collection: "dos-games",
   name: "黎明铁砧",
+  nameEn: "Anvil of Dawn",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 34 files, 71.5 MB.",

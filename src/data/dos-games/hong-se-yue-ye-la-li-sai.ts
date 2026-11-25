@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hong-se-yue-ye-la-li-sai",
   collection: "dos-games",
   name: "红色越野拉力赛",
+  nameEn: "Big Red Racing",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 837 files, 25.0 MB.",

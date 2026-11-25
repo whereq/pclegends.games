@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shui-xian-hai-le-tu-zi-luo-jie",
   collection: "dos-games",
   name: "谁陷害了兔子罗杰",
+  nameEn: "Who Framed Roger Rabbit",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 104 files, 264 KB.",

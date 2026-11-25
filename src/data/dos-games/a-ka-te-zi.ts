@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "a-ka-te-zi",
   collection: "dos-games",
   name: "阿卡特兹",
+  nameEn: "Alcatraz",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 84 files, 733 KB.",

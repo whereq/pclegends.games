@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhi-ming-che-sai",
   collection: "dos-games",
   name: "致命车赛",
+  nameEn: "Fatal Racing",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 277 files, 7.8 MB.",

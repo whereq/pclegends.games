@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhong-jie-zhe-2-she-ji-ban",
   collection: "dos-games",
   name: "终结者2射击版",
+  nameEn: "Terminator 2: Judgment Day",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 173 files, 719 KB.",

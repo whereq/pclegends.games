@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhi-ye-bang-qiu-lian-sai",
   collection: "dos-games",
   name: "职业棒球联赛",
+  nameEn: "Pro League Baseball",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 289 files, 1.9 MB.",

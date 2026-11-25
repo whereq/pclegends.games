@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mi-gong-da-shi",
   collection: "dos-games",
   name: "迷宫大师",
+  nameEn: "Dungeon Master",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 16 files, 875 KB.",

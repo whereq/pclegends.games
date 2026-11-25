@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-fa-da-di",
   collection: "dos-games",
   name: "魔法大帝",
+  nameEn: "Master of Magic",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 122 files, 9.8 MB.",

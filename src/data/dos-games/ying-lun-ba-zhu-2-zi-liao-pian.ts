@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ying-lun-ba-zhu-2-zi-liao-pian",
   collection: "dos-games",
   name: "英伦霸主2+资料片",
+  nameEn: "Lords of the Realm 2",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 1,176 files, 110.2 MB.",

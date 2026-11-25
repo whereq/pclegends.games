@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhong-ji-kuai-da",
   collection: "dos-games",
   name: "终极快打",
+  nameEn: "Ultimate Body Blows",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 232 files, 12.4 MB.",

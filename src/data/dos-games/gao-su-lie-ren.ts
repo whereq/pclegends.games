@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gao-su-lie-ren",
   collection: "dos-games",
   name: "高速猎人",
+  nameEn: "Highway Hunter",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 7 files, 1.2 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jing-cha-gu-shi",
   collection: "dos-games",
   name: "警察故事",
+  nameEn: "Police Quest",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 62 files, 6.2 MB.",

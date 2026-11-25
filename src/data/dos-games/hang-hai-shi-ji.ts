@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hang-hai-shi-ji",
   collection: "dos-games",
   name: "航海世纪",
+  nameEn: "Voyage Century",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 1,062 files, 57.9 MB.",

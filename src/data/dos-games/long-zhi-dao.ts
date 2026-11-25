@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "long-zhi-dao",
   collection: "dos-games",
   name: "龙之道",
+  nameEn: "Drakkhen",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 89 files, 2.1 MB.",

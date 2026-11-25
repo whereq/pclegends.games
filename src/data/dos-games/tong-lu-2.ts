@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tong-lu-2",
   collection: "dos-games",
   name: "通路2",
+  nameEn: "Gateway II: Homeworld",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 80 files, 16.5 MB.",

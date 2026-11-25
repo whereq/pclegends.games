@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-fa-fei-tan-2",
   collection: "dos-games",
   name: "魔法飞毯2",
+  nameEn: "Magic Carpet: Hidden Worlds",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 157 files, 40.4 MB.",

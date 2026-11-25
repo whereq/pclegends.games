@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "fei-lang-tu-ji-dui",
   collection: "dos-games",
   name: "飞狼突击队",
+  nameEn: "Armor Alley",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 28 files, 333 KB.",

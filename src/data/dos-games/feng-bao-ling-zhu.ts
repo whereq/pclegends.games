@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "feng-bao-ling-zhu",
   collection: "dos-games",
   name: "风暴领主",
+  nameEn: "Storm Master",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 46 files, 569 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gui-wu-wen-zi-mao-xian",
   collection: "dos-games",
   name: "鬼屋文字冒险",
+  nameEn: "Bones",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 11 files, 97 KB.",

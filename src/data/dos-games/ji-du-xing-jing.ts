@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-du-xing-jing",
   collection: "dos-games",
   name: "缉毒刑警",
+  nameEn: "Narco Police",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 16 files, 289 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "na-si-ka-sai-che-1",
   collection: "dos-games",
   name: "纳斯卡赛车1",
+  nameEn: "NASCAR Racing",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 212 files, 9.3 MB.",

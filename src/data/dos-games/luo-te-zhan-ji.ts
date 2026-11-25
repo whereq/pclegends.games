@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "luo-te-zhan-ji",
   collection: "dos-games",
   name: "罗特战机",
+  nameEn: "Rotor",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1987 — 37 files, 149 KB.",

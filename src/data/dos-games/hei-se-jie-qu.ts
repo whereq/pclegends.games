@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hei-se-jie-qu",
   collection: "dos-games",
   name: "黑色街区",
+  nameEn: "Black Sect",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 63 files, 3.1 MB.",

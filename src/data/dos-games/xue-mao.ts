@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xue-mao",
   collection: "dos-games",
   name: "雪猫",
+  nameEn: "Snow Cat",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 460 files, 2.6 MB.",

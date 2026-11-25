@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-mei-da-lu-de-zu-zhou",
   collection: "dos-games",
   name: "魔魅大陆的诅咒",
+  nameEn: "Curse of Enchantia",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 197 files, 7.1 MB.",

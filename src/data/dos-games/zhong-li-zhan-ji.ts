@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhong-li-zhan-ji",
   collection: "dos-games",
   name: "重力战机",
+  nameEn: "Delta V",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 41 files, 7.4 MB.",

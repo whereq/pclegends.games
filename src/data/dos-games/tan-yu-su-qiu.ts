@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tan-yu-su-qiu",
   collection: "dos-games",
   name: "贪欲诉求",
+  nameEn: "In Pursuit of Greed",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 82 files, 37.6 MB.",

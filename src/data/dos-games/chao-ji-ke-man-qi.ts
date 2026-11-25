@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-ji-ke-man-qi",
   collection: "dos-games",
   name: "超级科曼奇",
+  nameEn: "Comanche: Maximum Overkill",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 102 files, 7.7 MB.",

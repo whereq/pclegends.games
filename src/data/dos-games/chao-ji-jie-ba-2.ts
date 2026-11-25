@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-ji-jie-ba-2",
   collection: "dos-games",
   name: "超级街霸2",
+  nameEn: "Super Street Fighter II Turbo",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 1,416 files, 9.4 MB.",

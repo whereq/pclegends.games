@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shen-jian-feng-mo",
   collection: "dos-games",
   name: "神剑封魔",
+  nameEn: "Zeliard",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 27 files, 2.0 MB.",

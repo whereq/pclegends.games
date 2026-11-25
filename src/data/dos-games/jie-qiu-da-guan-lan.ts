@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jie-qiu-da-guan-lan",
   collection: "dos-games",
   name: "街球大灌篮",
+  nameEn: "Jammit",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 6 files, 2.2 MB.",

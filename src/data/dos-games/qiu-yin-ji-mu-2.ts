@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "qiu-yin-ji-mu-2",
   collection: "dos-games",
   name: "蚯蚓吉姆2",
+  nameEn: "Earthworm Jim 2",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 15 files, 6.3 MB.",

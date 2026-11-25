@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tie-lu-da-heng-hao-hua-ban",
   collection: "dos-games",
   name: "铁路大亨豪华版",
+  nameEn: "Railroad Tycoon",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 245 files, 3.6 MB.",

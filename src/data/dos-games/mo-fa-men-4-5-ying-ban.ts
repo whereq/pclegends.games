@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-fa-men-4-5-ying-ban",
   collection: "dos-games",
   name: "魔法门4+5英版",
+  nameEn: "Might and Magic: Xeen",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 13 files, 19.3 MB.",

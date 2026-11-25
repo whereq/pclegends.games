@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xin-pu-sen-yi-jia",
   collection: "dos-games",
   name: "辛普森一家",
+  nameEn: "The Simpsons: The Arcade Game",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 90 files, 1.1 MB.",

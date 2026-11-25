@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sai-bo-zhan-jing",
   collection: "dos-games",
   name: "赛博战警",
+  nameEn: "Cyber Law",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 515 files, 21.2 MB.",

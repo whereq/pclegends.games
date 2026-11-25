@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "peng-mei-long-zhan-shi",
   collection: "dos-games",
   name: "碰美龙战士",
+  nameEn: "Legend of Pong Long Fighter Sunnyna",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 122 files, 2.6 MB.",

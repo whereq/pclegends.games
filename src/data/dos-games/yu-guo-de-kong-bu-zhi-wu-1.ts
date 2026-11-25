@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yu-guo-de-kong-bu-zhi-wu-1",
   collection: "dos-games",
   name: "雨果的恐怖之屋1",
+  nameEn: "Hugo's House of Horrors",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 107 files, 213 KB.",

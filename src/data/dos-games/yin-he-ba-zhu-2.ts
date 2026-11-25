@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yin-he-ba-zhu-2",
   collection: "dos-games",
   name: "银河霸主2",
+  nameEn: "Master of Orion II",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 427 files, 172.7 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gao-lu-ying-xiong-zhuan",
   collection: "dos-games",
   name: "高卢英雄传",
+  nameEn: "Asterix at the Olympic Games",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 40 files, 3.6 MB.",

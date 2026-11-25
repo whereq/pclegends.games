@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yu-yan-wei-jin-zhi-zi",
   collection: "dos-games",
   name: "预言维金之子",
+  nameEn: "Prophecy I: The Viking Child",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 14 files, 1.4 MB.",

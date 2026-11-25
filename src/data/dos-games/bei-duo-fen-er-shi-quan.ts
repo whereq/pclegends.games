@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bei-duo-fen-er-shi-quan",
   collection: "dos-games",
   name: "贝多芬二世犬",
+  nameEn: "Beethoven the 2nd",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 65 files, 432 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-ji-ka-ding-che",
   collection: "dos-games",
   name: "超级卡丁车",
+  nameEn: "Super Karts",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2009 — 12 files, 1.2 MB.",

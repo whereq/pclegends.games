@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tie-jia-zhan-jian",
   collection: "dos-games",
   name: "铁甲战舰",
+  nameEn: "ATRA",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 902 files, 6.5 MB.",

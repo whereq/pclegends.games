@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "lan-jing-ling",
   collection: "dos-games",
   name: "蓝精灵",
+  nameEn: "The Smurfs",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 90 files, 10.2 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "qing-shao-bang-yang-wei-ji",
   collection: "dos-games",
   name: "青少棒扬威记",
+  nameEn: "Virtual Reality Baseball",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2007 — 403 files, 233.1 MB.",

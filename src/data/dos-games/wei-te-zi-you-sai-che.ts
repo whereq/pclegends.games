@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wei-te-zi-you-sai-che",
   collection: "dos-games",
   name: "维特自由赛车",
+  nameEn: "Test Drive II: The Duel",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 33 files, 330 KB.",

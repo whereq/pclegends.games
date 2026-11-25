@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "nve-sha-yi-xing",
   collection: "dos-games",
   name: "虐杀异形",
+  nameEn: "Abuse",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2000 — 549 files, 5.4 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "fu-er-mo-si-shi-luo-de-wen-jian",
   collection: "dos-games",
   name: "福尔摩斯失落的文件",
+  nameEn: "The Lost Files of Sherlock Holmes: The Case of the Serrated Scalpel",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 87 files, 8.7 MB.",

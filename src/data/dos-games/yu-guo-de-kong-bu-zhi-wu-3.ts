@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yu-guo-de-kong-bu-zhi-wu-3",
   collection: "dos-games",
   name: "雨果的恐怖之屋3",
+  nameEn: "Hugo III, Jungle of Doom!",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 9 files, 472 KB.",

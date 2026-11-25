@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-ji-hua-xue-3",
   collection: "dos-games",
   name: "超级滑雪3",
+  nameEn: "Super Ski 3",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2001 — 93 files, 4.0 MB.",

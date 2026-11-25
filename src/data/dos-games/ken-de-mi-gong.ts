@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ken-de-mi-gong",
   collection: "dos-games",
   name: "肯的迷宫",
+  nameEn: "Ken's Labyrinth",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 20 files, 936 KB.",

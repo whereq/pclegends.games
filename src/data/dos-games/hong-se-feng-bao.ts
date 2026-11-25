@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hong-se-feng-bao",
   collection: "dos-games",
   name: "红色风暴",
+  nameEn: "Red Storm Rising",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 23 files, 415 KB.",

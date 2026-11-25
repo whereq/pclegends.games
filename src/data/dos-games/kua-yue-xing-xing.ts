@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "kua-yue-xing-xing",
   collection: "dos-games",
   name: "跨越行星",
+  nameEn: "Star Reach",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 323 files, 4.1 MB.",

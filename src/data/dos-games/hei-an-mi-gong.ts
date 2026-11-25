@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hei-an-mi-gong",
   collection: "dos-games",
   name: "黑暗迷宫",
+  nameEn: "DarkSpyre",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 77 files, 394 KB.",

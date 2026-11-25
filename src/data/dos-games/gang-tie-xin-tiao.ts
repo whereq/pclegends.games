@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gang-tie-xin-tiao",
   collection: "dos-games",
   name: "钢铁信条",
+  nameEn: "Disciples of Steel",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 40 files, 4.8 MB.",

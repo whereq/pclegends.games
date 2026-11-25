@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "lei-ji-zhan-ji-2",
   collection: "dos-games",
   name: "雷击战机2",
+  nameEn: "Thunderhawk 2",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 77 files, 18.6 MB.",

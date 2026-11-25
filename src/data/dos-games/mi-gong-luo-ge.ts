@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mi-gong-luo-ge",
   collection: "dos-games",
   name: "迷宫罗格",
+  nameEn: "Forgotten Realms: Dungeon Hack",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 39 files, 4.3 MB.",

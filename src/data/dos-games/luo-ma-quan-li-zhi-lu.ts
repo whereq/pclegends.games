@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "luo-ma-quan-li-zhi-lu",
   collection: "dos-games",
   name: "罗马权利之路",
+  nameEn: "Rome: Pathway to Power",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 336 files, 2.4 MB.",

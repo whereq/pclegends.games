@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hei-an-yuan-su",
   collection: "dos-games",
   name: "黑暗元素",
+  nameEn: "Obitus",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 136 files, 1.8 MB.",

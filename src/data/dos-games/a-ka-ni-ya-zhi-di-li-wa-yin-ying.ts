@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "a-ka-ni-ya-zhi-di-li-wa-yin-ying",
   collection: "dos-games",
   name: "阿卡尼亚之地莉娃阴影",
+  nameEn: "Realms of Arkania III: Shadows Over Riva",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 150 files, 42.9 MB.",

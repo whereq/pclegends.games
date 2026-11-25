@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jie-tou-di-xia-ge-dou",
   collection: "dos-games",
   name: "街头地下格斗",
+  nameEn: "Pit-Fighter",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 96 files, 632 KB.",

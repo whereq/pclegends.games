@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "feng-shen-chuan-cheng",
   collection: "dos-games",
   name: "风神传承",
+  nameEn: "Stormbringer",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1999 — 47 files, 182 KB.",

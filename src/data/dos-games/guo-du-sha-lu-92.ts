@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "guo-du-sha-lu-92",
   collection: "dos-games",
   name: "过度杀戮92",
+  nameEn: "Overkill",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 5 files, 414 KB.",

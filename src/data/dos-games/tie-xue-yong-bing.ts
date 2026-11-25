@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tie-xue-yong-bing",
   collection: "dos-games",
   name: "铁血佣兵",
+  nameEn: "Mercenaries",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 74 files, 679 KB.",

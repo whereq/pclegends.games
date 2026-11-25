@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sheng-wu-you-xi",
   collection: "dos-games",
   name: "生物游戏",
+  nameEn: "Life",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 15 files, 254 KB.",

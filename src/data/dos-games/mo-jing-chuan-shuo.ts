@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-jing-chuan-shuo",
   collection: "dos-games",
   name: "魔境传说",
+  nameEn: "Rastan",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 102 files, 1.2 MB.",

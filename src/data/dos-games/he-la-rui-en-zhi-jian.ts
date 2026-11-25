@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "he-la-rui-en-zhi-jian",
   collection: "dos-games",
   name: "赫拉瑞恩之剑",
+  nameEn: "Hera: The Sword of Rhin",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 47 files, 222 KB.",

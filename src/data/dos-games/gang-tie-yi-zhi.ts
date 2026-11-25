@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gang-tie-yi-zhi",
   collection: "dos-games",
   name: "钢铁意志",
+  nameEn: "Nerves of Steel",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 801 files, 3.4 MB.",

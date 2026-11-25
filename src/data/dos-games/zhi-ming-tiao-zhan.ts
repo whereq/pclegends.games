@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhi-ming-tiao-zhan",
   collection: "dos-games",
   name: "致命挑战",
+  nameEn: "Fatal Challenge",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 17 files, 194 KB.",

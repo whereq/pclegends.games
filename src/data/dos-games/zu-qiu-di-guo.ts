@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zu-qiu-di-guo",
   collection: "dos-games",
   name: "足球帝国",
+  nameEn: "Empire Soccer",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 52 files, 338 KB.",

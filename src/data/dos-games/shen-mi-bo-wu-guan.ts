@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shen-mi-bo-wu-guan",
   collection: "dos-games",
   name: "神秘博物馆",
+  nameEn: "Mystery at the Museums",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 11 files, 3.4 MB.",

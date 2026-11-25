@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhu-shen-de-huang-hun",
   collection: "dos-games",
   name: "诸神的黄昏",
+  nameEn: "Dusk of the Gods",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 62 files, 940 KB.",

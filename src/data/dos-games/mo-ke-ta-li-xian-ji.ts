@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-ke-ta-li-xian-ji",
   collection: "dos-games",
   name: "莫克塔历险记",
+  nameEn: "Moktar Adventure",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 24 files, 613 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "a-la-ding-chuan-qi",
   collection: "dos-games",
   name: "阿拉丁传奇",
+  nameEn: "Aladdin",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 303 files, 1.7 MB.",

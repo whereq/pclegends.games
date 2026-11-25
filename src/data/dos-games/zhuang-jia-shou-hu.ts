@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhuang-jia-shou-hu",
   collection: "dos-games",
   name: "装甲守护",
+  nameEn: "Armour",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 7 files, 1.4 MB.",

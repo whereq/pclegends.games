@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ai-wei-la-dong-zuo-ban",
   collection: "dos-games",
   name: "艾薇拉动作版",
+  nameEn: "Elvira: Mistress of the Dark",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 86 files, 2.3 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ma-bo-de-liao-li",
   collection: "dos-games",
   name: "马玻的料理",
+  nameEn: "Marble Cooking",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 184 files, 1.5 MB.",

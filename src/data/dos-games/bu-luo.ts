@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bu-luo",
   collection: "dos-games",
   name: "部落",
+  nameEn: "The Horde",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 7 files, 8.3 MB.",

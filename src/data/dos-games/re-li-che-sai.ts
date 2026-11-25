@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "re-li-che-sai",
   collection: "dos-games",
   name: "热力车赛",
+  nameEn: "Ignition",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 342 files, 17.5 MB.",

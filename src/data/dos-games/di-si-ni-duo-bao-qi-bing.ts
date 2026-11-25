@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "di-si-ni-duo-bao-qi-bing",
   collection: "dos-games",
   name: "迪斯尼夺宝奇兵",
+  nameEn: "DuckTales: The Quest for Gold",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 22 files, 660 KB.",

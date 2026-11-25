@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hei-an-zhi-xin",
   collection: "dos-games",
   name: "黑暗之心",
+  nameEn: "Dark Heart of Uukrul",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 80 files, 564 KB.",

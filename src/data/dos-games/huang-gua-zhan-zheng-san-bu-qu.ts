@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "huang-gua-zhan-zheng-san-bu-qu",
   collection: "dos-games",
   name: "黄瓜战争三部曲",
+  nameEn: "Pickle Wars",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 79 files, 2.5 MB.",

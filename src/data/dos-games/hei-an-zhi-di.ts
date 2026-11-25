@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hei-an-zhi-di",
   collection: "dos-games",
   name: "黑暗之地",
+  nameEn: "Darklands",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 642 files, 16.1 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-yue-void-xing",
   collection: "dos-games",
   name: "超越Void星",
+  nameEn: "Radix: Beyond the Void",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2009 — 12 files, 8.1 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-fa-men-ying-xiong-wu-di-2-zhong-wen",
   collection: "dos-games",
   name: "魔法门英雄无敌2中文",
+  nameEn: "Heroes of Might and Magic II",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 216 files, 230.4 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hu-dan-miao-suan",
   collection: "dos-games",
   name: "虎胆妙算",
+  nameEn: "Impossible Mission II",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 78 files, 629 KB.",

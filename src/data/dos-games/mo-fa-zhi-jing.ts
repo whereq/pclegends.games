@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-fa-zhi-jing",
   collection: "dos-games",
   name: "魔法之镜",
+  nameEn: "Mirror Magic",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2000 — 256 files, 1.4 MB.",

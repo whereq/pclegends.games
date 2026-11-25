@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "feng-su-xiao-zi",
   collection: "dos-games",
   name: "风速小子",
+  nameEn: "GP500 II",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 126 files, 690 KB.",

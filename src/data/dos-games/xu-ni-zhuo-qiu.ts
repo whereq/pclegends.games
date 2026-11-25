@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xu-ni-zhuo-qiu",
   collection: "dos-games",
   name: "虚拟桌球",
+  nameEn: "Virtual Pool",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 34 files, 147 KB.",

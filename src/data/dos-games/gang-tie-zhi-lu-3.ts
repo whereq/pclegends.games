@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gang-tie-zhi-lu-3",
   collection: "dos-games",
   name: "钢铁之路3",
+  nameEn: "Steel Panthers III: Brigade Commander",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 2,336 files, 25.8 MB.",

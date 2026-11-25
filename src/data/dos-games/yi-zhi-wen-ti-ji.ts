@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-zhi-wen-ti-ji",
   collection: "dos-games",
   name: "益智问题集",
+  nameEn: "Kids' Trivia",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 21 files, 819 KB.",

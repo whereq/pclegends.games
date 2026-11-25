@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "cang-bai-zhi-di",
   collection: "dos-games",
   name: "苍白之地",
+  nameEn: "Lurid Land",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 307 files, 23.2 MB.",

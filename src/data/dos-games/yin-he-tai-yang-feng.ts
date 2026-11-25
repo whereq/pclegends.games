@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yin-he-tai-yang-feng",
   collection: "dos-games",
   name: "银河太阳风",
+  nameEn: "Solar Winds",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 114 files, 6.1 MB.",

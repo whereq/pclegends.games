@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tong-lu-1",
   collection: "dos-games",
   name: "通路1",
+  nameEn: "Gateway",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 122 files, 5.4 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gao-er-fu-xun-lian",
   collection: "dos-games",
   name: "高尔夫训练",
+  nameEn: "Links",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 31 files, 1.3 MB.",

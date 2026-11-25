@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "fei-kong-ting",
   collection: "dos-games",
   name: "飞空艇",
+  nameEn: "Zeppelin: Giants of the Sky",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 372 files, 3.3 MB.",

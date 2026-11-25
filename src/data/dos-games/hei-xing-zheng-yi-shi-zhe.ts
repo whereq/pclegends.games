@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hei-xing-zheng-yi-shi-zhe",
   collection: "dos-games",
   name: "黑星正义使者",
+  nameEn: "Blackstar: Agent of Justice",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 35 files, 1.6 MB.",

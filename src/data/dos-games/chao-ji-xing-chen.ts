@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-ji-xing-chen",
   collection: "dos-games",
   name: "超级星尘",
+  nameEn: "Super Stardust 96",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2008 — 198 files, 67.3 MB.",

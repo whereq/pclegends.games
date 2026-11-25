@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mi-shi-luo-shan-ji",
   collection: "dos-games",
   name: "迷失洛杉矶",
+  nameEn: "Les Manley 2: Lost in L.A.",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 14 files, 3.5 MB.",

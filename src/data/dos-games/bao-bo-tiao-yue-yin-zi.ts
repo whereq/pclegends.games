@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bao-bo-tiao-yue-yin-zi",
   collection: "dos-games",
   name: "鲍勃跳跃因子",
+  nameEn: "Construction Bob in the Bouncing Factory",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 20 files, 198 KB.",

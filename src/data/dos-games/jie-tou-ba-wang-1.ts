@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jie-tou-ba-wang-1",
   collection: "dos-games",
   name: "街头霸王1",
+  nameEn: "Street Fighter",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1980 — 40 files, 216 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "huang-man-yong-shi-ge-dou",
   collection: "dos-games",
   name: "荒蛮勇士格斗",
+  nameEn: "Savage Warriors",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 528 files, 13.9 MB.",

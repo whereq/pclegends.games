@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "fu-te-mo-ni-jia-shi",
   collection: "dos-games",
   name: "福特模拟驾驶",
+  nameEn: "The Ford Simulator",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 21 files, 1.4 MB.",

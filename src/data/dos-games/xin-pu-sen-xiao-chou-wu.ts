@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xin-pu-sen-xiao-chou-wu",
   collection: "dos-games",
   name: "辛普森小丑屋",
+  nameEn: "The Krusty Super Fun House",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1980 — 216 files, 516 KB.",

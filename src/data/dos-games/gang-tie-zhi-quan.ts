@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gang-tie-zhi-quan",
   collection: "dos-games",
   name: "钢铁之拳",
+  nameEn: "Armored Fist",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 407 files, 5.7 MB.",

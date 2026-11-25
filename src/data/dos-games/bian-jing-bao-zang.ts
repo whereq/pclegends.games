@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bian-jing-bao-zang",
   collection: "dos-games",
   name: "边境宝藏",
+  nameEn: "Gateway to the Savage Frontier",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 71 files, 1.4 MB.",

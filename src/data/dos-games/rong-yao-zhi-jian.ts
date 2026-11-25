@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "rong-yao-zhi-jian",
   collection: "dos-games",
   name: "荣耀之剑",
+  nameEn: "Sword of Honour",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 136 files, 705 KB.",

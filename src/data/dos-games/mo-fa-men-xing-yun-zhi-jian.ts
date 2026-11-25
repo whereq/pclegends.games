@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-fa-men-xing-yun-zhi-jian",
   collection: "dos-games",
   name: "魔法门星云之剑",
+  nameEn: "Swords of Xeen",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 6 files, 8.2 MB.",

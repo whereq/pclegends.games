@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yin-duo-rui-chuan-qi-1",
   collection: "dos-games",
   name: "银多瑞传奇1",
+  nameEn: "Yendorian Tales Book I",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 54 files, 2.7 MB.",

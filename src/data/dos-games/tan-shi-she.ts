@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tan-shi-she",
   collection: "dos-games",
   name: "贪食蛇",
+  nameEn: "Amazon Snake",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 9 files, 40 KB.",

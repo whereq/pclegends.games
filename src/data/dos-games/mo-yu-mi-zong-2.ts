@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-yu-mi-zong-2",
   collection: "dos-games",
   name: "魔域迷踪2",
+  nameEn: "Ecstatica 2",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 331 files, 809.4 MB.",

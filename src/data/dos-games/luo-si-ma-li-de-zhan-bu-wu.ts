@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "luo-si-ma-li-de-zhan-bu-wu",
   collection: "dos-games",
   name: "罗斯玛丽的占卜屋",
+  nameEn: "Rosemary West's House of Fortunes",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 66 files, 2.7 MB.",

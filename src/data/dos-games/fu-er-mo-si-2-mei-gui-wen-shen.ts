@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "fu-er-mo-si-2-mei-gui-wen-shen",
   collection: "dos-games",
   name: "福尔摩斯2玫瑰纹身",
+  nameEn: "The Lost Files of Sherlock Holmes: Case of the Rose Tattoo",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 181 files, 262.4 MB.",

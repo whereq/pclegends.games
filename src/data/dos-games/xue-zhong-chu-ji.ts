@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xue-zhong-chu-ji",
   collection: "dos-games",
   name: "雪中出击",
+  nameEn: "Snow Strike",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 6 files, 243 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jin-ping-mei-zhi-tou-qing-bao-jian-2",
   collection: "dos-games",
   name: "金瓶梅之偷情宝鉴",
+  nameEn: "Golden Jug",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 257 files, 52.0 MB.",

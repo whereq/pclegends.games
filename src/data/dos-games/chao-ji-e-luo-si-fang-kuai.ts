@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-ji-e-luo-si-fang-kuai",
   collection: "dos-games",
   name: "超级俄罗斯方块",
+  nameEn: "Super Tetris",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 36 files, 559 KB.",

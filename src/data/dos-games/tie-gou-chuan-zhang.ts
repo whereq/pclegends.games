@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tie-gou-chuan-zhang",
   collection: "dos-games",
   name: "铁钩船长",
+  nameEn: "Hook",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 8 files, 1.5 MB.",

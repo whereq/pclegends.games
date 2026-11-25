@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tie-xue-gan-lan-qiu",
   collection: "dos-games",
   name: "铁血橄榄球",
+  nameEn: "Blood Bowl",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 52 files, 5.9 MB.",

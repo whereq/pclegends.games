@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhang-gong-chuan-shuo-luo-bin-han",
   collection: "dos-games",
   name: "长弓传说－罗宾汉",
+  nameEn: "Conquests of the Longbow: The Legend of Robin Hood",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 47 files, 7.0 MB.",

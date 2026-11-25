@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-yu-zuan",
   collection: "dos-games",
   name: "石与钻",
+  nameEn: "Rocks'n'Diamonds",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2004 — 712 files, 3.2 MB.",

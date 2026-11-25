@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zu-qiu-xiao-zi",
   collection: "dos-games",
   name: "足球小子",
+  nameEn: "Soccer Kid",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 524 files, 2.5 MB.",

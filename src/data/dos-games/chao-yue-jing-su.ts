@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-yue-jing-su",
   collection: "dos-games",
   name: "超越竞速",
+  nameEn: "Out Run",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 109 files, 477 KB.",

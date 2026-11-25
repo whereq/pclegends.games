@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xu-ni-gao-er-fu",
   collection: "dos-games",
   name: "虚拟高尔夫",
+  nameEn: "Carnoustie Scottish Open Golf Tournament",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 352 files, 2.3 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-ji-hua-xue-zhuan-ye-ban",
   collection: "dos-games",
   name: "超级滑雪专业版",
+  nameEn: "Super Ski Pro",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 207 files, 11.4 MB.",

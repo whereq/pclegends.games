@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "feng-xiang-du-fang",
   collection: "dos-games",
   name: "蜂箱赌坊",
+  nameEn: "La Colmena",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 20 files, 1.9 MB.",

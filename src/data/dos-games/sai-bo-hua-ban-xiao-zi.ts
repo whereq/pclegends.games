@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sai-bo-hua-ban-xiao-zi",
   collection: "dos-games",
   name: "赛博滑板小子",
+  nameEn: "Cyril Cyberpunk",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 16 files, 23.9 MB.",

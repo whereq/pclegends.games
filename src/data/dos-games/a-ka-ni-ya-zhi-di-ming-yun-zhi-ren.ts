@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "a-ka-ni-ya-zhi-di-ming-yun-zhi-ren",
   collection: "dos-games",
   name: "阿卡尼亚之地命运之刃",
+  nameEn: "Realms of Arkania: Blade of Destiny",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 70 files, 4.5 MB.",

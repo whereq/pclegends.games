@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sai-er-da-jing-dian-ban",
   collection: "dos-games",
   name: "赛尔达经典版",
+  nameEn: "Zelda Classic",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 25 files, 5.0 MB.",

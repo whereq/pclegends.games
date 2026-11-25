@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jin-ji-guan-tou",
   collection: "dos-games",
   name: "紧急关头",
+  nameEn: "Extrémis",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 192 files, 6.7 MB.",

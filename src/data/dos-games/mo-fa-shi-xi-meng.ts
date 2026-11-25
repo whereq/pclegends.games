@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-fa-shi-xi-meng",
   collection: "dos-games",
   name: "魔法师西蒙",
+  nameEn: "Simon the Sorcerer",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 440 files, 3.9 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-ji-xue-yuan-ma-que",
   collection: "dos-games",
   name: "超级学院麻雀",
+  nameEn: "Super Campus MaChueh",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 8 files, 724 KB.",

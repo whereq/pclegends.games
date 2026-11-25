@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shen-qi-wang-guo",
   collection: "dos-games",
   name: "神奇王国",
+  nameEn: "King's Quest",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1987 — 24 files, 292 KB.",

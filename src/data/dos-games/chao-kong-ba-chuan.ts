@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-kong-ba-chuan",
   collection: "dos-games",
   name: "超空霸传",
+  nameEn: "Underlien Safetyzone",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 191 files, 9.0 MB.",

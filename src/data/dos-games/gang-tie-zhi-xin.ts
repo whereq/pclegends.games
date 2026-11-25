@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gang-tie-zhi-xin",
   collection: "dos-games",
   name: "钢铁之心",
+  nameEn: "IronSeed",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 233 files, 4.0 MB.",

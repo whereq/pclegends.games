@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ma-li-ao-jiao-ni-da-zi",
   collection: "dos-games",
   name: "马里奥教你打字",
+  nameEn: "Mario Teaches Typing",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 173 files, 2.0 MB.",

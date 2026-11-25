@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shou-shi-he-kui-jia",
   collection: "dos-games",
   name: "首饰和盔甲",
+  nameEn: "Amulets & Armor",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 280 files, 54.9 MB.",

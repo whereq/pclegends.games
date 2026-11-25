@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wei-jing-zhan-zheng",
   collection: "dos-games",
   name: "维京战争",
+  nameEn: "Vikings",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 19 files, 298 KB.",

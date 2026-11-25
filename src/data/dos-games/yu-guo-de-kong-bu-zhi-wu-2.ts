@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yu-guo-de-kong-bu-zhi-wu-2",
   collection: "dos-games",
   name: "雨果的恐怖之屋2",
+  nameEn: "Hugo II, Whodunit?",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 10 files, 634 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "lian-pu-fang-kuai",
   collection: "dos-games",
   name: "脸谱方块",
+  nameEn: "Faces",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 104 files, 537 KB.",

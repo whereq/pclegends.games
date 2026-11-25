@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zui-e-ke-xing",
   collection: "dos-games",
   name: "罪恶克星",
+  nameEn: "Crime Fighter",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 205 files, 1.7 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-fa-men-4-xing-yun-zhi-mi",
   collection: "dos-games",
   name: "魔法门4星云之谜",
+  nameEn: "Might and Magic IV: Clouds of Xeen",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 15 files, 9.2 MB.",

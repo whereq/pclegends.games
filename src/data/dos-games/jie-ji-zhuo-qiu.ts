@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jie-ji-zhuo-qiu",
   collection: "dos-games",
   name: "街机桌球",
+  nameEn: "Arcade Pool",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 5 files, 469 KB.",

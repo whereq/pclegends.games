@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jie-jiu-hua-sheng-dun",
   collection: "dos-games",
   name: "解救华盛顿",
+  nameEn: "Free D.C.!",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 109 files, 2.5 MB.",

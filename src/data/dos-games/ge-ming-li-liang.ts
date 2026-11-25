@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ge-ming-li-liang",
   collection: "dos-games",
   name: "革命力量",
+  nameEn: "Revolution Force",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 48 files, 9.5 MB.",

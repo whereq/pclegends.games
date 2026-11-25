@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "lei-ji-zhan-ji",
   collection: "dos-games",
   name: "雷击战机",
+  nameEn: "Thunderstrike",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 62 files, 245 KB.",

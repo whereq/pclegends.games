@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yin-he-ying-xiong-zhuan-shuo-3",
   collection: "dos-games",
   name: "银河英雄传说3",
+  nameEn: "Legend of the Galactic Heroes III",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 162 files, 3.4 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "lan-se-guai-mo",
   collection: "dos-games",
   name: "蓝色怪魔",
+  nameEn: "Demon Blue",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1987 — 22 files, 254 KB.",

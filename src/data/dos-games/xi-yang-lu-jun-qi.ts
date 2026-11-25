@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xi-yang-lu-jun-qi",
   collection: "dos-games",
   name: "西洋陆军棋",
+  nameEn: "Stratego",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 12 files, 1.4 MB.",

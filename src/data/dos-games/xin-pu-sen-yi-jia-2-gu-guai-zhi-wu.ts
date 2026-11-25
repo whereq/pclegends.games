@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xin-pu-sen-yi-jia-2-gu-guai-zhi-wu",
   collection: "dos-games",
   name: "辛普森一家2古怪之屋",
+  nameEn: "Bart Simpson's House of Weirdness",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1999 — 342 files, 1.4 MB.",

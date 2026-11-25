@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xi-yang-tiao-qi-gong-xiang-ban",
   collection: "dos-games",
   name: "西洋跳棋(共享版)",
+  nameEn: "Argo Checkers",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 14 files, 530 KB.",

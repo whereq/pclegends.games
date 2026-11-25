@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tie-xue-nong-fu-zai-du-chu-ji",
   collection: "dos-games",
   name: "铁血农夫再度出击",
+  nameEn: "Redneck Rampage 2",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2009 — 71 files, 103.9 MB.",

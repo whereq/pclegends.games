@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zu-qiu-chao-ji-ming-xing",
   collection: "dos-games",
   name: "足球超级明星",
+  nameEn: "Soccer Superstars",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 306 files, 3.2 MB.",

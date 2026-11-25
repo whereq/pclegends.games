@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gu-yong-zhi-qiang",
   collection: "dos-games",
   name: "雇佣之枪",
+  nameEn: "Hired Guns",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 318 files, 2.1 MB.",

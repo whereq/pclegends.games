@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhong-jie-zhe-2029",
   collection: "dos-games",
   name: "终结者2029",
+  nameEn: "The Terminator",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 283 files, 8.7 MB.",

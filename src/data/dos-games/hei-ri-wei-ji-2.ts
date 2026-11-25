@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hei-ri-wei-ji-2",
   collection: "dos-games",
   name: "黑日危机2",
+  nameEn: "Dark Sun: Wake of the Ravager",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 63 files, 11.8 MB.",

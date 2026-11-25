@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-fa-men-5-hei-an-mo-jun",
   collection: "dos-games",
   name: "魔法门5黑暗魔君",
+  nameEn: "Might and Magic V: The Dark Side of Xeen",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 12 files, 11.3 MB.",

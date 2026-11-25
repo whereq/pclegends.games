@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-su-jia-shi",
   collection: "dos-games",
   name: "超速驾驶",
+  nameEn: "Overdrive",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2000 — 12 files, 2.2 MB.",

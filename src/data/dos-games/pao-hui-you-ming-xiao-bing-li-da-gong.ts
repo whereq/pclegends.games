@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "pao-hui-you-ming-xiao-bing-li-da-gong",
   collection: "dos-games",
   name: "炮灰(又名小兵立大功)",
+  nameEn: "Cannon Fodder",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 457 files, 1.3 MB.",

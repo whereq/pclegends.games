@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gang-tie-zhi-xue",
   collection: "dos-games",
   name: "钢铁之血",
+  nameEn: "Iron Blood",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 30 files, 44.1 MB.",

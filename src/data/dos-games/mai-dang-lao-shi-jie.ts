@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mai-dang-lao-shi-jie",
   collection: "dos-games",
   name: "麦当劳世界",
+  nameEn: "MacDonaldland PC",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 7 files, 503 KB.",

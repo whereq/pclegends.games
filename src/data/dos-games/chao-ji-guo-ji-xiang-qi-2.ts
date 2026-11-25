@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-ji-guo-ji-xiang-qi-2",
   collection: "dos-games",
   name: "超级国际象棋2",
+  nameEn: "The Complete Chess System II",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 26 files, 4.0 MB.",

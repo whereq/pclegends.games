@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-fa-men-ying-xiong-wu-di-zhong-wen",
   collection: "dos-games",
   name: "魔法门英雄无敌中文",
+  nameEn: "Heroes of Might and Magic",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 206 files, 728.2 MB.",

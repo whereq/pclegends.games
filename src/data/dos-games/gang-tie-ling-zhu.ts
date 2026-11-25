@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gang-tie-ling-zhu",
   collection: "dos-games",
   name: "钢铁领主",
+  nameEn: "Iron Lord",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 93 files, 711 KB.",

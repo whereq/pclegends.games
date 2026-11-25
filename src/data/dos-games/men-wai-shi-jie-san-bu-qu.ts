@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "men-wai-shi-jie-san-bu-qu",
   collection: "dos-games",
   name: "门外世界三部曲",
+  nameEn: "GateWorld",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 115 files, 2.2 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yin-he-fei-jiang-xian-feng-zi-liao-pian",
   collection: "dos-games",
   name: "银河飞将先锋+资料片",
+  nameEn: "Wing Commander: Privateer",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 27 files, 13.5 MB.",

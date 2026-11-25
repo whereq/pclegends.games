@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shan-hui-zhui-xun-ji-yi-zhi-lv",
   collection: "dos-games",
   name: "闪回-追寻记忆之旅",
+  nameEn: "Flashback",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 241 files, 2.9 MB.",

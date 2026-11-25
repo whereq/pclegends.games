@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tie-xue-lian-meng-si-wang-you-xi",
   collection: "dos-games",
   name: "铁血联盟死亡游戏",
+  nameEn: "Jagged Alliance: Deadly Games",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 467 files, 11.1 MB.",

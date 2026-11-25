@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "su-du-qiu",
   collection: "dos-games",
   name: "速度球",
+  nameEn: "Speedball",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 57 files, 314 KB.",

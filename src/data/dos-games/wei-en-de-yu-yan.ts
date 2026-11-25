@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wei-en-de-yu-yan",
   collection: "dos-games",
   name: "韦恩的预言",
+  nameEn: "Ween: The Prophecy",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 9 files, 6.0 MB.",

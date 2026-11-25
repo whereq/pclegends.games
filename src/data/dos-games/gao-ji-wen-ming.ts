@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gao-ji-wen-ming",
   collection: "dos-games",
   name: "高级文明",
+  nameEn: "Advanced Civilization",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 67 files, 13.4 MB.",

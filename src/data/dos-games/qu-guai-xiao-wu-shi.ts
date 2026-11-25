@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "qu-guai-xiao-wu-shi",
   collection: "dos-games",
   name: "趣怪小巫师",
+  nameEn: "Hocus Pocus",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 17 files, 1.2 MB.",

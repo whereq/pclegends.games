@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "lan-se-tian-shi",
   collection: "dos-games",
   name: "蓝色天使",
+  nameEn: "Blue Angel 69",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 34 files, 320 KB.",

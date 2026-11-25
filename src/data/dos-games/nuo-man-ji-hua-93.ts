@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "nuo-man-ji-hua-93",
   collection: "dos-games",
   name: "诺曼计划93",
+  nameEn: "Nomad",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 11 files, 4.8 MB.",

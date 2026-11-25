@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-fa-fei-tan",
   collection: "dos-games",
   name: "魔法飞毯",
+  nameEn: "Magic Carpet",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 330 files, 13.3 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-shou-zheng-ba-2-zi-liao-pian",
   collection: "dos-games",
   name: "魔兽争霸2资料篇",
+  nameEn: "Warcraft II: Tides of Darkness",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 125 files, 18.5 MB.",

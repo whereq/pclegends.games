@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "fu-lu-shuang-ba-tian",
   collection: "dos-games",
   name: "福禄双霸天",
+  nameEn: "Blues Brothers",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2006 — 53 files, 460 KB.",

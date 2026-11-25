@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yin-he-fei-jiang-xun-lian-ying",
   collection: "dos-games",
   name: "银河飞将训练营",
+  nameEn: "Wing Commander Academy",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 115 files, 4.0 MB.",

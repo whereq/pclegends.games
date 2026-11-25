@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ju-feng-ji-jia",
   collection: "dos-games",
   name: "飓风机甲",
+  nameEn: "CyClones",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 245 files, 6.4 MB.",

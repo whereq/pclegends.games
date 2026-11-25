@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hong-se-nan-jue",
   collection: "dos-games",
   name: "红色男爵",
+  nameEn: "Red Baron",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 63 files, 1.6 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "luo-bin-han-da-mao-xian",
   collection: "dos-games",
   name: "罗宾汉大冒险",
+  nameEn: "Robin Hood",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 39 files, 451 KB.",

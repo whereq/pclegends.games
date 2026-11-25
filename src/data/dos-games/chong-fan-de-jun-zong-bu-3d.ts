@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chong-fan-de-jun-zong-bu-3d",
   collection: "dos-games",
   name: "重返德军总部3D",
+  nameEn: "Wolfenstein 3D",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 10 files, 1.1 MB.",

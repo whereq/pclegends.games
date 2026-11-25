@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tiao-tiao-tiao",
   collection: "dos-games",
   name: "跳跳跳",
+  nameEn: "Jump",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 9 files, 255 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hao-hua-dan-zhu-tai",
   collection: "dos-games",
   name: "豪华弹珠台",
+  nameEn: "Pinball Dreams Deluxe",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 254 files, 22.5 MB.",

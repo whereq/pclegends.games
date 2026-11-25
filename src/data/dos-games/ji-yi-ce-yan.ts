@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-yi-ce-yan",
   collection: "dos-games",
   name: "记忆测验",
+  nameEn: "Flasher II",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 7 files, 83 KB.",

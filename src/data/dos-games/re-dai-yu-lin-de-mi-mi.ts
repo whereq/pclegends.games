@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "re-dai-yu-lin-de-mi-mi",
   collection: "dos-games",
   name: "热带雨林的秘密",
+  nameEn: "EcoQuest II: The Lost Secret of the Rainforest",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 66 files, 7.1 MB.",

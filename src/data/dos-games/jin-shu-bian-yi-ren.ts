@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jin-shu-bian-yi-ren",
   collection: "dos-games",
   name: "金属变异人",
+  nameEn: "Metal Mutant",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1986 — 40 files, 406 KB.",

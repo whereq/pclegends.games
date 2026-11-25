@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xi-yang-feng-shen-bang",
   collection: "dos-games",
   name: "西洋封神榜",
+  nameEn: "Gods",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 140 files, 985 KB.",

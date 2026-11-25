@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yun-shu-da-heng",
   collection: "dos-games",
   name: "运输大亨",
+  nameEn: "Transport Tycoon",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 27 files, 2.4 MB.",

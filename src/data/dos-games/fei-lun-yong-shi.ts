@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "fei-lun-yong-shi",
   collection: "dos-games",
   name: "飞轮勇士",
+  nameEn: "Autoduel",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1988 — 47 files, 221 KB.",

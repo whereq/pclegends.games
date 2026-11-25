@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ye-lang-xing-dong",
   collection: "dos-games",
   name: "野狼行动",
+  nameEn: "Operation Wolf",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 32 files, 594 KB.",

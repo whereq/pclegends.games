@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "dang-kou-xiong-shi",
   collection: "dos-games",
   name: "荡寇雄狮",
+  nameEn: "Front Lines",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 224 files, 4.8 MB.",

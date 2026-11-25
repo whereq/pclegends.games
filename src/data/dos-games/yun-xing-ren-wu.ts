@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yun-xing-ren-wu",
   collection: "dos-games",
   name: "陨星任务",
+  nameEn: "Meteor Mission",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 7 files, 84 KB.",

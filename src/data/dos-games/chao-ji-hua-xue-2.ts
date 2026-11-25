@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-ji-hua-xue-2",
   collection: "dos-games",
   name: "超级滑雪2",
+  nameEn: "Super Ski 2",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 109 files, 1.1 MB.",

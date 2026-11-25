@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wang-luo-la-li-sai",
   collection: "dos-games",
   name: "网络拉力赛",
+  nameEn: "Network Q RAC Rally",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 13 files, 4.2 MB.",

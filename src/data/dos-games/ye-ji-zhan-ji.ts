@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ye-ji-zhan-ji",
   collection: "dos-games",
   name: "耶基战机",
+  nameEn: "Chuck Yeager's Air Combat",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 13 files, 1.2 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "long-zhi-jue-qi",
   collection: "dos-games",
   name: "龙之崛起",
+  nameEn: "Rise of the Dragon",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 14 files, 6.5 MB.",

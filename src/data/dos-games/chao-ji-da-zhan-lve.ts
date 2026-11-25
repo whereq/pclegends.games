@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-ji-da-zhan-lve",
   collection: "dos-games",
   name: "超级大战略",
+  nameEn: "Super Great Strategy",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 35 files, 329 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-yue-shen-yuan",
   collection: "dos-games",
   name: "超越深渊",
+  nameEn: "Beyond the Abyss",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 66 files, 290 KB.",

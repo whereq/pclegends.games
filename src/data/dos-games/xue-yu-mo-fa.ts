@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xue-yu-mo-fa",
   collection: "dos-games",
   name: "血与魔法",
+  nameEn: "Blood & Magic",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 128 files, 43.2 MB.",

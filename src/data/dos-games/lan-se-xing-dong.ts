@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "lan-se-xing-dong",
   collection: "dos-games",
   name: "蓝色行动",
+  nameEn: "Blue Force",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2007 — 19 files, 19.9 MB.",

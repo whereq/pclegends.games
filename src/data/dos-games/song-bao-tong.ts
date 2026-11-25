@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "song-bao-tong",
   collection: "dos-games",
   name: "送报童",
+  nameEn: "Paperboy 2",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 13 files, 274 KB.",

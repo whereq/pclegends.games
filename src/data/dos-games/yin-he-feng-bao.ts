@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yin-he-feng-bao",
   collection: "dos-games",
   name: "银河风暴",
+  nameEn: "Renegade Legion: Interceptor",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 23 files, 310 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yun-shi-she-ji",
   collection: "dos-games",
   name: "陨石射击",
+  nameEn: "AstroFire",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 86 files, 1.2 MB.",

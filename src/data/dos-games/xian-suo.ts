@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xian-suo",
   collection: "dos-games",
   name: "线索",
+  nameEn: "The Clue!",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 449 files, 4.9 MB.",

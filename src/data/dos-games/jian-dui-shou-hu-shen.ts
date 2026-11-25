@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jian-dui-shou-hu-shen",
   collection: "dos-games",
   name: "舰队守护神",
+  nameEn: "Aegis",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2003 — 1,099 files, 63.2 MB.",

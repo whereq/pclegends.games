@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ma-li-ao-bu-jian-le",
   collection: "dos-games",
   name: "马里奥不见了",
+  nameEn: "Mario Is Missing",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2000 — 17 files, 5.0 MB.",

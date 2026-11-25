@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ku-nan-ju-chang",
   collection: "dos-games",
   name: "苦难剧场",
+  nameEn: "Theatre of Pain",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 449 files, 44.9 MB.",

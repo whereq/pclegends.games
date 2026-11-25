@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "pao-hui-2",
   collection: "dos-games",
   name: "炮灰2",
+  nameEn: "Cannon Fodder 2",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 46 files, 2.0 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yin-duo-rui-chuan-qi-3",
   collection: "dos-games",
   name: "银多瑞传奇3",
+  nameEn: "Yendorian Tales - Tyrants of Thaine",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 16 files, 8.2 MB.",

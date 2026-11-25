@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sa-ba-ba-zhi-hui-guan",
   collection: "dos-games",
   name: "萨巴巴指挥官",
+  nameEn: "Suburban Commando",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 4 files, 265 KB.",

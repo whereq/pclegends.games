@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xue-shi-ai-ren-chuan-qi",
   collection: "dos-games",
   name: "血石矮人传奇",
+  nameEn: "Bloodstone: An Epic Dwarven Tale",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 286 files, 5.0 MB.",

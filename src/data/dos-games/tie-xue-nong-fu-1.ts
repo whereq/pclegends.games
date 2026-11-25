@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tie-xue-nong-fu-1",
   collection: "dos-games",
   name: "铁血农夫1",
+  nameEn: "Redneck Rampage",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 40 files, 68.0 MB.",

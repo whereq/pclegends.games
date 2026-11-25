@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ge-li-qu-1",
   collection: "dos-games",
   name: "隔离区1",
+  nameEn: "Quarantine",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 542 files, 5.9 MB.",

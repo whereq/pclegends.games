@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ma-li-ao-you-xi-zhan",
   collection: "dos-games",
   name: "马里奥游戏展",
+  nameEn: "Mario's Game Gallery",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 24 files, 3.8 MB.",

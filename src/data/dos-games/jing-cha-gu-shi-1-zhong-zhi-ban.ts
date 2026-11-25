@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jing-cha-gu-shi-1-zhong-zhi-ban",
   collection: "dos-games",
   name: "警察故事1重制版",
+  nameEn: "Police Quest",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 61 files, 6.2 MB.",

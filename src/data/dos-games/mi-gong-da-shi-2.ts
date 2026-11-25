@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mi-gong-da-shi-2",
   collection: "dos-games",
   name: "迷宫大师2",
+  nameEn: "Dungeon Master II: The Legend of Skullkeep",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 24 files, 10.9 MB.",

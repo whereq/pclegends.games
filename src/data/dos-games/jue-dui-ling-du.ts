@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jue-dui-ling-du",
   collection: "dos-games",
   name: "绝对零度",
+  nameEn: "Absolute Zero",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 182 files, 46.8 MB.",

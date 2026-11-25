@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-fa-dai",
   collection: "dos-games",
   name: "魔法袋",
+  nameEn: "Magic Pockets",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 77 files, 669 KB.",

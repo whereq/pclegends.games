@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-piao-qiang-qiang-gun",
   collection: "dos-games",
   name: "钞票强强滚",
+  nameEn: "Rags to Riches",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 306 files, 9.6 MB.",

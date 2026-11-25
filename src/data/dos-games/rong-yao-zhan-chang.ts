@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "rong-yao-zhan-chang",
   collection: "dos-games",
   name: "荣耀战场",
+  nameEn: "Fields of Glory",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 166 files, 11.8 MB.",

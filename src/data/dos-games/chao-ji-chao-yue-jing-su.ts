@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-ji-chao-yue-jing-su",
   collection: "dos-games",
   name: "超级超越竞速",
+  nameEn: "Trout Run",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 9 files, 865 KB.",

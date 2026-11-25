@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mei-li-you-xi",
   collection: "dos-games",
   name: "魅力游戏",
+  nameEn: "Fascination",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 9 files, 3.6 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gui-wu-mo-ying-wan-sheng-jie-te-bie-pian",
   collection: "dos-games",
   name: "鬼屋魔影万圣节特别篇",
+  nameEn: "Jack in the Dark",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 42 files, 1.3 MB.",

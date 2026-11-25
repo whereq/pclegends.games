@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhi-gao-tai-quan-dao-guan-jun-sai",
   collection: "dos-games",
   name: "至高跆拳道冠军赛",
+  nameEn: "Best of the Best",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1999 — 90 files, 1.1 MB.",

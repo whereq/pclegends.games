@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "lei-shen-zhi-chui",
   collection: "dos-games",
   name: "雷神之锤",
+  nameEn: "Quake",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 24 files, 67.6 MB.",

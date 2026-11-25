@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zan-si-de-tong-ban",
   collection: "dos-games",
   name: "赞斯的同伴",
+  nameEn: "The Companions of Xanth",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2005 — 97 files, 17.6 MB.",

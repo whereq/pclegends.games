@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "li-ming-te-jing",
   collection: "dos-games",
   name: "黎明特警",
+  nameEn: "Dawn Patrol",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 913 files, 5.5 MB.",

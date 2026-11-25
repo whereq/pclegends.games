@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "you-huo",
   collection: "dos-games",
   name: "诱惑",
+  nameEn: "Lure of the Temptress",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 16 files, 3.9 MB.",

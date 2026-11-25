@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hei-jie-feng-yun",
   collection: "dos-games",
   name: "黑街风云",
+  nameEn: "Bad Street Brawler",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1988 — 11 files, 67 KB.",

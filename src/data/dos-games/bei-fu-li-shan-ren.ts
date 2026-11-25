@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bei-fu-li-shan-ren",
   collection: "dos-games",
   name: "贝弗利山人",
+  nameEn: "The Beverly Hillbillies",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 44 files, 2.5 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mei-du-sha-gui-lai",
   collection: "dos-games",
   name: "美杜莎归来",
+  nameEn: "The Return of Medusa",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 11 files, 613 KB.",

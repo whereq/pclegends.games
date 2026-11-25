@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gang-tie-shi-zi",
   collection: "dos-games",
   name: "钢铁十字",
+  nameEn: "Iron Cross",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 282 files, 7.8 MB.",

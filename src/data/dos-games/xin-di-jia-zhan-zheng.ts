@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xin-di-jia-zhan-zheng",
   collection: "dos-games",
   name: "辛迪加战争",
+  nameEn: "Syndicate Wars",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 514 files, 36.5 MB.",
