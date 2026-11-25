@@ -11,11 +11,15 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "魔眼邪神",
   role: "DOS Game",
+  roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 219 files, 12.2 MB.",
+  taglineZh: "MS-DOS · 1996 — 219 个文件，12.2 MB。",
   accent: "#AF7AC5",
   group: "m",
   summary: "魔眼邪神 is a DOS game in the WhereQ archive — 1996, 219 files, 12.2 MB, and an entry point of KOEI.BAT.",
+  summaryZh: "魔眼邪神 是 WhereQ 归档中的一款 DOS 游戏——1996，219 个文件，12.2 MB，启动文件是 KOEI.BAT。",
   status: "1996",
+  statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E9%82%AA%E7%A5%9E.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
@@ -25,14 +29,21 @@ const entry: AtlasEntry = {
     {label: "Entry point", value: "KOEI.BAT"},
     {label: "Bundle", value: "219 files · 12.2 MB"},
   ],
+  factsZh: [
+    {label: "开发", value: "游戏包中没有说明"},
+    {label: "发行", value: "1996"},
+    {label: "类型", value: "Strategy"},
+    {label: "平台", value: "MS-DOS"},
+    {label: "启动文件", value: "KOEI.BAT"},
+    {label: "游戏包", value: "219 个文件 · 12.2 MB"},
+  ],
   sections: [
     {
       title: "What it is",
       blocks: [
         {kind: "paragraph", text: "魔眼邪神 is a DOS game in the WhereQ archive. The bundle's own files are dated 1996, which is when this copy was built. The executable also carries a 1992 copyright line, which belongs to the runtime library it links rather than to the game. The copy is the program as it was distributed: 219 files, 12.2 MB, and an entry point of KOEI.BAT."},
         {kind: "paragraph", text: "This page is generated from the bundle itself: the file list, the dates and the checksum below are read out of the archive, not written from memory. The hand-written pages on this shelf — the ones with a drawn card mark — are the ones that have been played through on an emulator."},
-      ],
-    },
+      ]},
     {
       title: "Download the bundle",
       blocks: [
@@ -47,23 +58,20 @@ const entry: AtlasEntry = {
         {kind: "links", items: [
           {label: "Download 魔眼邪神 (12.2 MB)", href: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E9%82%AA%E7%A5%9E.zip", external: true},
         ]},
-      ],
-    },
+      ]},
     {
       title: "Set it up in WhereQ-DOSBox",
       blocks: [
         {kind: "paragraph", text: "The bundle starts with a batch file, KOEI.BAT. WhereQ-DOSBox runs the batch file when you press Play, and a batch file of this kind normally sets the paths up and then starts the game — which is why this one needs no launcher of its own."},
         {kind: "paragraph", text: "It carries 5 COM file(s) — the DOS loaders the program needs before it starts, the way a game with an XMS driver loads it first."},
         {kind: "paragraph", text: "This setup has not been played through on the emulator yet. If it does not work for you, the comment thread at the bottom of this page is where to say so — and what worked is worth writing down."},
-      ],
-    },
+      ]},
     {
       title: "How to play",
       blocks: [
         {kind: "paragraph", text: "Nobody has written down how this one starts yet. Import it, press Play, and tell us what happens — if it asks for a password, a serial number or a word from a manual, that is exactly the thing worth writing down."},
         {kind: "paragraph", text: "The pages that have been played through on an emulator sit alongside this one on the shelf, and they tell you the whole route in: which file to start, which key opens the menu, and which screen comes next."},
-      ],
-    },
+      ]},
     {
       title: "What is in the bundle",
       blocks: [
@@ -75,8 +83,7 @@ const entry: AtlasEntry = {
           ["Other files", "205 data file(s)"],
           ["Total", "219 files · 12.2 MB"],
         ]},
-      ],
-    },
+      ]},
     {
       title: "Where the facts come from",
       blocks: [
@@ -85,8 +92,64 @@ const entry: AtlasEntry = {
           "The archive index, for the size and the SHA-256 above.",
           "The original copy, at https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E9%82%AA%E7%A5%9E.zip.",
         ]},
-      ],
-    },
+      ]},
+  ],
+  sectionsZh: [
+    {
+      title: "这是一款什么游戏",
+      blocks: [
+        {kind: "paragraph", text: "魔眼邪神 是 WhereQ 归档中的一款 DOS 游戏。 游戏包内的文件日期是 1996，也正是这份拷贝构建的时间。可执行文件里还带有 1992 年的版权声明，那属于它链接的运行时库，而不是游戏本身。 这份拷贝就是当年发行的程序：219 个文件，12.2 MB，启动文件是 KOEI.BAT。"},
+        {kind: "paragraph", text: "本页由游戏包本身生成：下面的文件列表、日期与校验和都读自归档，而不是凭记忆写下的。这一架上手写的页面——也就是那些带着手绘卡片标记的——是真正在模拟器上通关过的。"},
+      ]},
+    {
+      title: "下载游戏包",
+      blocks: [
+        {kind: "paragraph", text: "游戏包就是生成该页的那个归档里的原件——同一个文件，逐字节相同。"},
+        {kind: "table", head: ["字段", "值"], rows: [
+          ["文件", "mo-yan-xie-shen.zip"],
+          ["大小", "12,835,270 字节（12.2 MB）"],
+          ["SHA-256", "d4c84befd24359699666ff6c4bfd6b281fbab8a291baea4943e089532f2394e7"],
+          ["文件数", "219"],
+          ["归档", "dos-bin.zczc.cz——生成该页的那个归档"],
+        ]},
+        {kind: "links", items: [
+          {label: "下载 魔眼邪神（12.2 MB）", href: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E9%82%AA%E7%A5%9E.zip", external: true},
+        ]},
+      ]},
+    {
+      title: "在 WhereQ-DOSBox 里运行",
+      blocks: [
+        {kind: "paragraph", text: "游戏包以批处理文件 KOEI.BAT 开始。在 WhereQ-DOSBox 中按下播放时，运行的就是这个批处理文件；而这种批处理文件通常会先把路径设好，再启动游戏——所以这一款不需要单独的启动器。"},
+        {kind: "paragraph", text: "它带有 5 个 COM 文件——程序在启动之前需要加载的 DOS 加载器，就像带 XMS 驱动的游戏会先把它加载进来一样。"},
+        {kind: "paragraph", text: "这套运行方式还没有在模拟器上试过。如果在你那里不管用，本页底部的评论区就是说出来的地方——而什么有效，值得写下来。"},
+      ]},
+    {
+      title: "怎么玩",
+      blocks: [
+        {kind: "paragraph", text: "还没有人写下这一款怎么开始。导入它，按下播放，然后告诉我们发生了什么——如果它要密码、序列号或者手册里的某个词，那正是值得写下来的东西。"},
+        {kind: "paragraph", text: "那些在模拟器上通关过的页面就在这一架的旁边，它们把整条路都写清楚了：从哪个文件开始、哪个键打开菜单、接下来是哪个画面。"},
+      ]},
+    {
+      title: "游戏包里有什么",
+      blocks: [
+        {kind: "table", head: ["部分", "内容"], rows: [
+          ["启动文件", "KOEI.BAT"],
+          ["可执行文件", "CHECKSYS.EXE、CT.EXE、ENDING.EXE、GRPDRV.EXE、GRPDRV.EXE、INSTMAIN.EXE、STARTUP.EXE"],
+          ["批处理启动文件", "KOEI.BAT、PLAY.BAT"],
+          ["COM 加载器", "ADDRV.COM、BGMDRV.COM、INSTALL.COM、MIDRV.COM、SBDRV.COM"],
+          ["其他文件", "205 个数据文件"],
+          ["合计", "219 个文件 · 12.2 MB"],
+        ]},
+      ]},
+    {
+      title: "这些事实的来源",
+      blocks: [
+        {kind: "list", items: [
+          "游戏包本身——它的文件列表、文件日期，以及启动文件里的字符串。",
+          "归档索引，给出上面的大小与 SHA-256。",
+          "原件，在 https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E9%82%AA%E7%A5%9E.zip。",
+        ]},
+      ]},
   ],
 };
 

@@ -9,6 +9,8 @@ import {
   DosGameCategory,
 } from '../../data/dos-games-categories';
 import GiscusComments from '../GiscusComments';
+import {useCopy, useIsChinese} from '../../hooks/useCopy';
+import {gameNames} from './game-names';
 import styles from './dos-games.module.css';
 
 /**
@@ -30,6 +32,8 @@ import styles from './dos-games.module.css';
  * filters are applied to what is on screen.
  */
 export default function DosGamesCatalogue(): React.JSX.Element {
+  const copy = useCopy();
+  const chinese = useIsChinese();
   const [query, setQuery] = React.useState('');
   const [active, setActive] = React.useState<string[]>([]);
 
@@ -42,6 +46,7 @@ export default function DosGamesCatalogue(): React.JSX.Element {
     return DOS_GAMES_INDEX.filter(
       (game) =>
         game.name.toLowerCase().includes(needle) ||
+        (game.nameEn ?? '').toLowerCase().includes(needle) ||
         game.id.toLowerCase().includes(needle) ||
         game.entry.toLowerCase().includes(needle),
     );
@@ -91,8 +96,8 @@ export default function DosGamesCatalogue(): React.JSX.Element {
 
   return (
     <Layout
-      title="DOS Games"
-      description={`Every one of the ${DOS_GAMES_INDEX.length} DOS games in the archive: the facts read out of the bundle itself, the download, and the setup each one needs in WhereQ-DOSBox.`}>
+      title={copy.catalogue.title}
+      description={copy.catalogue.description}>
       {/*
        * The `@whereq/react` scrollbar stylesheet, rendered here so it is in
        * the server HTML — no flash of the browser's default scrollbar before
@@ -102,32 +107,27 @@ export default function DosGamesCatalogue(): React.JSX.Element {
       <style id="wq-scrollbar-styles">{scrollbarCss}</style>
       <main className={styles.page}>
       <header className={styles.hero}>
-        <p className={styles.eyebrow}>The DOS game archive</p>
-        <h1 className={styles.title}>Every DOS game in the archive</h1>
+        <p className={styles.eyebrow}>{copy.catalogue.eyebrow}</p>
+        <h1 className={styles.title}>{copy.catalogue.heading}</h1>
         <p className={styles.lead}>
-          The archive holds {DOS_GAMES_INDEX.length} DOS games. Every one of
-          them has a page here: the facts read out of the bundle itself, the
-          download, and the setup its shape implies. The games are sorted into
-          categories below — a game can be in more than one, and the ones
-          that have been played through on an emulator sit on the{' '}
-          <Link to="/played/">played-through shelf</Link> with a drawn card
-          mark.
+          {copy.catalogue.lead(DOS_GAMES_INDEX.length.toLocaleString('en-US'))}{' '}
+          <Link to="/played/">{copy.played.group}</Link>
         </p>
 
         <dl className={styles.stats}>
           <div className={styles.stat}>
-            <dt>Games</dt>
+            <dt>{copy.common.games}</dt>
             <dd>{DOS_GAMES_INDEX.length}</dd>
           </div>
           <div className={styles.stat}>
-            <dt>Archive</dt>
+            <dt>{copy.common.archive}</dt>
             <dd>
               {(totalBytes / 1e9).toFixed(1)}
               <span className={styles.statMeta}>GB</span>
             </dd>
           </div>
           <div className={styles.stat}>
-            <dt>Categories</dt>
+            <dt>{copy.common.categories}</dt>
             <dd>{DOS_GAME_CATEGORIES.length}</dd>
           </div>
         </dl>
@@ -145,17 +145,16 @@ export default function DosGamesCatalogue(): React.JSX.Element {
             <input
               className={styles.search}
               type="search"
-              placeholder="Search by name, pinyin or entry point…"
+              placeholder={copy.common.searchPlaceholder}
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              aria-label="Search the games"
+              aria-label={copy.common.searchLabel}
             />
             <p className={styles.tally} aria-live="polite">
               <strong>{visible.length}</strong>
               <span className={styles.tallyMeta}>
-                {visible.length === 1 ? 'game' : 'games'}
-                {active.length > 0 &&
-                  ` in ${active.length} categor${active.length === 1 ? 'y' : 'ies'}`}
+                {visible.length === 1 ? copy.catalogue.tallyOne : copy.catalogue.tallyMany}
+                {active.length > 0 && copy.catalogue.tallyCategories(active.length)}
               </span>
             </p>
           </div>
@@ -166,7 +165,7 @@ export default function DosGamesCatalogue(): React.JSX.Element {
               type="button"
               onClick={() => setActive([])}
               aria-pressed={active.length === 0}>
-              All
+              {copy.common.all}
               <span className={styles.chipCount}>{searched.length}</span>
             </button>
             {DOS_GAME_CATEGORIES.map((category) => {
@@ -185,7 +184,7 @@ export default function DosGamesCatalogue(): React.JSX.Element {
                     style={{background: category.accent}}
                     aria-hidden="true"
                   />
-                  {category.label}
+                  {chinese ? category.labelZh : category.label}
                   <span className={styles.chipCount}>{count}</span>
                 </button>
               );
@@ -198,7 +197,7 @@ export default function DosGamesCatalogue(): React.JSX.Element {
                   setQuery('');
                   setActive([]);
                 }}>
-                Clear
+                {copy.common.clear}
               </button>
             )}
           </div>
@@ -211,12 +210,17 @@ export default function DosGamesCatalogue(): React.JSX.Element {
         <Scrollbar className={styles.listing} axis="vertical">
           <div className={styles.listingInner}>
             {groups.map((group) => (
-              <Group key={group.category.id} category={group.category} games={group.games} />
+              <Group
+                key={group.category.id}
+                category={group.category}
+                games={group.games}
+                chinese={chinese}
+              />
             ))}
 
             {groups.length === 0 && (
               <p className={styles.empty}>
-                Nothing matches that. Try a shorter word, or clear the categories.
+                {copy.catalogue.empty}
               </p>
             )}
           </div>
@@ -224,24 +228,13 @@ export default function DosGamesCatalogue(): React.JSX.Element {
       </section>
 
       <aside className={styles.notice}>
-        <p className={styles.noticeTitle}>About these downloads</p>
-        <p className={styles.noticeText}>
-          The archives linked from this catalogue are published for study,
-          communication and preservation only. They are the work of their
-          authors and publishers, who hold the rights in them; publishing one
-          here claims none of those rights and waives none of them. If you
-          believe a download here breaks a licence, a copyright or any other
-          right, tell us and we will take it down.
-        </p>
+        <p className={styles.noticeTitle}>{copy.common.noticeTitle}</p>
+        <p className={styles.noticeText}>{copy.common.noticeText}</p>
       </aside>
 
       <section className={styles.comments}>
-        <h2 className={styles.sectionTitle}>Comments</h2>
-        <p className={styles.para}>
-          A download that 404s, a name that is wrong, a game that starts and
-          then falls over — say so here. The comments on a game's own page are
-          where the route in belongs.
-        </p>
+        <h2 className={styles.sectionTitle}>{copy.common.comments}</h2>
+        <p className={styles.para}>{copy.common.commentsText}</p>
         <GiscusComments />
       </section>
       </main>
@@ -253,9 +246,11 @@ export default function DosGamesCatalogue(): React.JSX.Element {
 function Group({
   category,
   games,
+  chinese,
 }: {
   category: DosGameCategory;
   games: DosGameIndexEntry[];
+  chinese: boolean;
 }) {
   return (
     <section className={styles.group} aria-labelledby={`group-${category.id}`}>
@@ -267,15 +262,17 @@ function Group({
         />
         <div className={styles.groupHeadMain}>
           <h2 className={styles.groupTitle} id={`group-${category.id}`}>
-            {category.label}
+            {chinese ? category.labelZh : category.label}
             <span className={styles.groupCount}>{games.length}</span>
           </h2>
-          <p className={styles.groupBlurb}>{category.blurb}</p>
+          <p className={styles.groupBlurb}>
+            {chinese ? category.blurbZh : category.blurb}
+          </p>
         </div>
       </div>
       <div className={styles.grid}>
         {games.map((game) => (
-          <GameCard game={game} key={game.id} />
+          <GameCard game={game} key={game.id} chinese={chinese} />
         ))}
       </div>
     </section>
@@ -288,7 +285,15 @@ function Group({
  * The card carries the facts read out of the bundle, the mark the archive
  * gave the game, and the two ways out of it: the page, and the download.
  */
-function GameCard({game}: {game: DosGameIndexEntry}) {
+function GameCard({
+  game,
+  chinese,
+}: {
+  game: DosGameIndexEntry;
+  chinese: boolean;
+}) {
+  const copy = useCopy();
+  const names = gameNames(game.name, game.nameEn, chinese);
   return (
     <article className={styles.card}>
       <Link className={styles.cardLink} to={game.page}>
@@ -303,50 +308,55 @@ function GameCard({game}: {game: DosGameIndexEntry}) {
           />
         </span>
         <span className={styles.cardHead}>
-          <span className={styles.cardName}>{game.name}</span>
+          <span className={styles.cardName}>{names.primary}</span>
+          {names.secondary && (
+            <span className={styles.cardAltName}>{names.secondary}</span>
+          )}
           <span className={styles.cardTypes}>
-            {game.types.map((type, index) => (
-              <span className={styles.cardType} key={type}>
-                {index === 0
-                  ? DOS_GAME_CATEGORY_BY_ID[type]?.label ?? type
-                  : `+ ${DOS_GAME_CATEGORY_BY_ID[type]?.label ?? type}`}
-              </span>
-            ))}
+            {game.types.map((type, index) => {
+              const category = DOS_GAME_CATEGORY_BY_ID[type];
+              const label = chinese ? category?.labelZh ?? type : category?.label ?? type;
+              return (
+                <span className={styles.cardType} key={type}>
+                  {index === 0 ? label : `+ ${label}`}
+                </span>
+              );
+            })}
           </span>
         </span>
       </Link>
 
       <dl className={styles.cardFacts}>
         <div className={styles.cardFact}>
-          <dt>Year</dt>
+          <dt>{copy.common.year}</dt>
           <dd>{game.year || '—'}</dd>
         </div>
         <div className={styles.cardFact}>
-          <dt>Entry point</dt>
+          <dt>{copy.common.entryPoint}</dt>
           <dd>
             <code className={styles.cardEntry}>{game.entry}</code>
           </dd>
         </div>
         <div className={styles.cardFact}>
-          <dt>Files</dt>
+          <dt>{copy.common.files}</dt>
           <dd>{game.files.toLocaleString('en-US')}</dd>
         </div>
         <div className={styles.cardFact}>
-          <dt>Size</dt>
+          <dt>{copy.common.size}</dt>
           <dd>{formatSize(game.size)}</dd>
         </div>
       </dl>
 
       <div className={styles.cardActions}>
         <Link className={styles.cardRead} to={game.page}>
-          Read the page
+          {copy.common.readThePage}
         </Link>
         <a
           className={styles.cardDownload}
           href={game.url}
           target="_blank"
           rel="noopener noreferrer">
-          Download
+          {copy.common.download}
         </a>
       </div>
     </article>

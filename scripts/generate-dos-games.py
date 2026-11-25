@@ -120,219 +120,444 @@ def plate_svg(name, slug, accent):
 '''
 
 
-def published_sentence(meta):
+def published_sentence(meta, lang):
     """What the bundle says about when the game was made."""
     files = meta.get('yearFiles')
     copy = meta.get('yearCopyright')
     if files and copy and files == copy:
+        if lang == 'zh':
+            return (f'游戏包内的文件日期是 {files}，而可执行文件里带有同样年份的版权声明'
+                    f'——{meta.get("yearCopyrightFrom", "")}'.strip())
         return (f"The bundle's own files are dated {files}, and the executable carries "
                 f'a matching copyright line — {meta.get("yearCopyrightFrom", "")}'.strip())
     if files:
-        extra = ''
         if copy and copy != files:
-            extra = (f' The executable also carries a {copy} copyright line, which belongs to '
-                     f'the runtime library it links rather than to the game.')
-        return f"The bundle's own files are dated {files}, which is when this copy was built.{extra}"
+            if lang == 'zh':
+                return (f'游戏包内的文件日期是 {files}，也正是这份拷贝构建的时间。可执行文件里'
+                        f'还带有 {copy} 年的版权声明，那属于它链接的运行时库，而不是游戏本身。')
+            extra = (' The executable also carries a '
+                     f'{copy} copyright line, which belongs to the runtime library it links '
+                     'rather than to the game.')
+            return f"The bundle's own files are dated {files}, which is when this copy was built.{extra}"
+        if lang == 'zh':
+            return f'游戏包内的文件日期是 {files}，也正是这份拷贝构建的时间。'
+        return f"The bundle's own files are dated {files}, which is when this copy was built."
     if copy:
+        if lang == 'zh':
+            return f'可执行文件里带有 {copy} 年的版权声明。'
         return f'The executable carries a copyright line from {copy}.'
+    if lang == 'zh':
+        return '归档没有为这一款标注年代。'
     return 'The archive does not date this one.'
 
 
-def publisher_sentence(meta):
+def publisher_sentence(meta, lang):
     """What the bundle says about who made it."""
     if meta.get('publisher'):
+        if lang == 'zh':
+            return f'发行商是 {meta["publisher"]}，这个名字就写在程序的版权声明里。'
         return (f"The publisher is {meta['publisher']}, named on the copyright line inside "
-                f'the program.')
+                'the program.')
     if meta.get('publisherSeen'):
+        if lang == 'zh':
+            return (f'程序里出现过 {meta["publisherSeen"]} 这个名字，虽然它并不在版权声明上'
+                    f'——发行商最可能就是 {meta["publisherSeen"]}。')
         return (f"The name {meta['publisherSeen']} appears inside the program, though not on a "
                 f"copyright line — the publisher is most likely {meta['publisherSeen']}.")
     return None
 
 
-def language_sentence(meta):
+def language_sentence(meta, lang):
     """Whether the program speaks Chinese or English, read off its own strings."""
     language = meta.get('language')
     if language == 'chinese':
+        if lang == 'zh':
+            return '程序里的文字是中文。'
         return 'The text inside the program is Chinese.'
     if language == 'english':
+        if lang == 'zh':
+            return '程序里的文字是英文。'
         return 'The text inside the program is English.'
     return None
 
 
-def build_entry(game, meta, slug, tag, accent, types):
-    """One catalogue entry, as the Atlas wants it."""
+def build_entry(game, meta, slug, tag, accent, types, name_en=None, name_en_source=None):
+    """One catalogue entry, as the Atlas wants it.
+
+    The page carries both languages: the English text the English locale
+    reads, and the Chinese text the Chinese locale reads. The two are
+    written here, side by side, so a change to one cannot quietly leave the
+    other behind.
+    """
     name = game['name']
     entry_point = meta.get('entryExecutable') or game['indexExecutable'] or '—'
     files = game['files']
     size = game['bytes']
     year = meta.get('yearFiles')
-    publisher = publisher_sentence(meta)
     category_line = ' · '.join(CATEGORY_LABELS.get(item, item) for item in types)
 
-    tagline = f"MS-DOS{' · ' + str(year) if year else ''} — {human_files(files)} files, {megabytes(size)}."
+    def build(lang):
+        """The page in one language."""
+        zh = lang == 'zh'
+        if zh:
+            tagline = (f'MS-DOS{(" · " + str(year)) if year else ""} — '
+                       f'{human_files(files)} 个文件，{megabytes(size)}。')
+            summary = (f'{name} 是 WhereQ 归档中的一款 DOS 游戏——'
+                       f'{str(year) if year else "年代未标注"}，{human_files(files)} 个文件，'
+                       f'{megabytes(size)}，启动文件是 {entry_point}。')
+            sentences = [f'{name} 是 WhereQ 归档中的一款 DOS 游戏。']
+            publisher = publisher_sentence(meta, lang)
+            if publisher:
+                sentences.append(publisher)
+            sentences.append(published_sentence(meta, lang))
+            sentences.append(
+                f'这份拷贝就是当年发行的程序：{human_files(files)} 个文件，'
+                f'{megabytes(size)}，启动文件是 {entry_point}。'
+            )
+            overview = ' '.join(sentences)
+            facts = [
+                {'label': '开发',
+                 'value': meta.get('publisher') or meta.get('publisherSeen') or '游戏包中没有说明'},
+                {'label': '发行', 'value': str(year) if year else '未标注年代'},
+                {'label': '类型', 'value': category_line},
+                {'label': '平台', 'value': 'MS-DOS'},
+                {'label': '启动文件', 'value': entry_point},
+                {'label': '游戏包', 'value': f'{human_files(files)} 个文件 · {megabytes(size)}'},
+            ]
+        else:
+            tagline = f'MS-DOS{(" · " + str(year)) if year else ""} — {human_files(files)} files, {megabytes(size)}.'
+            summary = (
+                f'{name} is a DOS game in the WhereQ archive — '
+                f'{str(year) if year else "an undated copy"}, {human_files(files)} files, '
+                f'{megabytes(size)}, and an entry point of {entry_point}.'
+            )
+            sentences = [f'{name} is a DOS game in the WhereQ archive.']
+            publisher = publisher_sentence(meta, lang)
+            if publisher:
+                sentences.append(publisher)
+            sentences.append(published_sentence(meta, lang))
+            sentences.append(
+                f'The copy is the program as it was distributed: {human_files(files)} files, '
+                f'{megabytes(size)}, and an entry point of {entry_point}.'
+            )
+            overview = ' '.join(sentences)
+            facts = [
+                {'label': 'Developer',
+                 'value': meta.get('publisher') or meta.get('publisherSeen') or 'Not stated in the bundle'},
+                {'label': 'Published', 'value': str(year) if year else 'Not dated'},
+                {'label': 'Type', 'value': category_line},
+                {'label': 'Platform', 'value': 'MS-DOS'},
+                {'label': 'Entry point', 'value': entry_point},
+                {'label': 'Bundle', 'value': f'{human_files(files)} files · {megabytes(size)}'},
+            ]
 
-    summary = (
-        f'{name} is a DOS game in the WhereQ archive — '
-        f'{str(year) if year else "an undated copy"}, {human_files(files)} files, '
-        f'{megabytes(size)}, and an entry point of {entry_point}.'
-    )
+        # ── The setup, read from the shape of the bundle ────────
+        setup = []
+        entry_is_batch = entry_point.lower().endswith(('.bat', '.cmd'))
+        if entry_is_batch:
+            if zh:
+                setup.append({
+                    'kind': 'paragraph',
+                    'text': (f'游戏包以批处理文件 {entry_point} 开始。在 WhereQ-DOSBox 中按下播放时，'
+                             f'运行的就是这个批处理文件；而这种批处理文件通常会先把路径设好，再启动'
+                             f'游戏——所以这一款不需要单独的启动器。'),
+                })
+            else:
+                setup.append({
+                    'kind': 'paragraph',
+                    'text': (f'The bundle starts with a batch file, {entry_point}. WhereQ-DOSBox runs the '
+                             f'batch file when you press Play, and a batch file of this kind normally sets '
+                             f'the paths up and then starts the game — which is why this one needs no '
+                             f'launcher of its own.'),
+                })
+        else:
+            if zh:
+                setup.append({
+                    'kind': 'paragraph',
+                    'text': (f'启动文件是 {entry_point}。把 zip 导入 WhereQ-DOSBox 并按下播放，'
+                             f'应用就会启动这个程序。'),
+                })
+            else:
+                setup.append({
+                    'kind': 'paragraph',
+                    'text': (f'The entry point is {entry_point}. Import the zip into WhereQ-DOSBox and press '
+                             f'Play, and the app starts that program.'),
+                })
 
-    sentences = [f'{name} is a DOS game in the WhereQ archive.']
-    if publisher:
-        sentences.append(publisher)
-    sentences.append(published_sentence(meta))
-    sentences.append(
-        f'The copy is the program as it was distributed: {human_files(files)} files, '
-        f'{megabytes(size)}, and an entry point of {entry_point}.'
-    )
-    overview = ' '.join(sentences)
+        if game['diskimages']:
+            images = '、'.join(game['diskimages'][:4])
+            if zh:
+                setup.append({
+                    'kind': 'paragraph',
+                    'text': (f'游戏包还附带一个磁盘镜像（{images}）——原始软盘的一份拷贝。如果游戏要求一个'
+                             f'它找不到的驱动器，可以在 DOSBox 提示符下用 IMGMOUNT D <file> 挂载这个镜像，'
+                             f'再从 D: 运行。'),
+                })
+            else:
+                setup.append({
+                    'kind': 'paragraph',
+                    'text': (f'The bundle also ships a disk image ({images}) — a copy of the original '
+                             f'floppy. If the game asks for a drive it cannot find, mount the image in the '
+                             f'DOSBox prompt with IMGMOUNT D <file> and run it from D:.'),
+                })
 
-    facts = []
-    facts.append({'label': 'Developer', 'value': meta.get('publisher') or meta.get('publisherSeen') or 'Not stated in the bundle'})
-    facts.append({'label': 'Published', 'value': str(year) if year else 'Not dated'})
-    facts.append({'label': 'Type', 'value': category_line})
-    facts.append({'label': 'Platform', 'value': 'MS-DOS'})
-    facts.append({'label': 'Entry point', 'value': entry_point})
-    facts.append({'label': 'Bundle', 'value': f'{human_files(files)} files · {megabytes(size)}'})
+        if game['coms']:
+            if zh:
+                setup.append({
+                    'kind': 'paragraph',
+                    'text': (f'它带有 {human_files(len(game["coms"]))} 个 COM 文件——程序在启动之前需要'
+                             f'加载的 DOS 加载器，就像带 XMS 驱动的游戏会先把它加载进来一样。'),
+                })
+            else:
+                setup.append({
+                    'kind': 'paragraph',
+                    'text': (f'It carries {human_files(len(game["coms"]))} COM file(s) — the DOS loaders the '
+                             f'program needs before it starts, the way a game with an XMS driver loads it '
+                             f'first.'),
+                })
 
-    # ── The setup, read from the shape of the bundle ────────────
-    setup = []
-    entry_is_batch = entry_point.lower().endswith(('.bat', '.cmd'))
-    if entry_is_batch:
-        setup.append({
-            'kind': 'paragraph',
-            'text': (f'The bundle starts with a batch file, {entry_point}. WhereQ-DOSBox runs the '
-                     f'batch file when you press Play, and a batch file of this kind normally sets '
-                     f'the paths up and then starts the game — which is why this one needs no '
-                     f'launcher of its own.'),
-        })
-    else:
-        setup.append({
-            'kind': 'paragraph',
-            'text': (f'The entry point is {entry_point}. Import the zip into WhereQ-DOSBox and press '
-                     f'Play, and the app starts that program.'),
-        })
+        if zh:
+            setup.append({
+                'kind': 'paragraph',
+                'text': ('这套运行方式还没有在模拟器上试过。如果在你那里不管用，本页底部的评论区就是'
+                         '说出来的地方——而什么有效，值得写下来。'),
+            })
+        else:
+            setup.append({
+                'kind': 'paragraph',
+                'text': ('This setup has not been played through on the emulator yet. If it does not work '
+                         'for you, the comment thread at the bottom of this page is where to say so — and '
+                         'what worked is worth writing down.'),
+            })
 
-    if game['diskimages']:
-        images = '、'.join(game['diskimages'][:4])
-        setup.append({
-            'kind': 'paragraph',
-            'text': (f'The bundle also ships a disk image ({images}) — a copy of the original '
-                     f'floppy. If the game asks for a drive it cannot find, mount the image in the '
-                     f'DOSBox prompt with IMGMOUNT D <file> and run it from D:.'),
-        })
+        # ── What is in the bundle ───────────────────────────────
+        if zh:
+            rows = [['启动文件', entry_point]]
+            if game['exes']:
+                rows.append(['可执行文件', '、'.join(sorted(game['exes'])[:8])])
+            if game['bats']:
+                rows.append(['批处理启动文件', '、'.join(sorted(game['bats'])[:8])])
+            if game['coms']:
+                rows.append(['COM 加载器', '、'.join(sorted(game['coms'])[:8])])
+            if game['diskimages']:
+                rows.append(['磁盘镜像', '、'.join(game['diskimages'][:8])])
+            rows.append(['其他文件', f'{human_files(game["datafiles"])} 个数据文件'])
+            rows.append(['合计', f'{human_files(files)} 个文件 · {megabytes(size)}'])
+        else:
+            rows = [['Entry point', entry_point]]
+            if game['exes']:
+                rows.append(['Executables', '、'.join(sorted(game['exes'])[:8])])
+            if game['bats']:
+                rows.append(['Batch launchers', '、'.join(sorted(game['bats'])[:8])])
+            if game['coms']:
+                rows.append(['COM loaders', '、'.join(sorted(game['coms'])[:8])])
+            if game['diskimages']:
+                rows.append(['Disk images', '、'.join(game['diskimages'][:8])])
+            rows.append(['Other files', f'{human_files(game["datafiles"])} data file(s)'])
+            rows.append(['Total', f'{human_files(files)} files · {megabytes(size)}'])
 
-    if game['coms']:
-        setup.append({
-            'kind': 'paragraph',
-            'text': (f'It carries {human_files(len(game["coms"]))} COM file(s) — the DOS loaders the '
-                     f'program needs before it starts, the way a game with an XMS driver loads it '
-                     f'first.'),
-        })
+        if zh:
+            sections = [
+                {
+                    'title': '这是一款什么游戏',
+                    'blocks': [
+                        {'kind': 'paragraph', 'text': overview},
+                        {'kind': 'paragraph', 'text': (
+                            '本页由游戏包本身生成：下面的文件列表、日期与校验和都读自归档，而不是凭记忆'
+                            '写下的。这一架上手写的页面——也就是那些带着手绘卡片标记的——是真正在模拟器'
+                            '上通关过的。')},
+                    ],
+                },
+                {
+                    'title': '下载游戏包',
+                    'blocks': [
+                        {'kind': 'paragraph', 'text': '游戏包就是生成该页的那个归档里的原件——同一个文件，逐字节相同。'},
+                        {'kind': 'table', 'head': ['字段', '值'], 'rows': [
+                            ['文件', f'{slug}.zip'],
+                            ['大小', f'{human_files(size)} 字节（{megabytes(size)}）'],
+                            ['SHA-256', game['sha256']],
+                            ['文件数', human_files(files)],
+                            ['归档', 'dos-bin.zczc.cz——生成该页的那个归档'],
+                        ]},
+                        {'kind': 'links', 'items': [
+                            {'label': f'下载 {name}（{megabytes(size)}）',
+                             'href': game['source_url'],
+                             'external': True},
+                        ]},
+                    ],
+                },
+                {
+                    'title': '在 WhereQ-DOSBox 里运行',
+                    'blocks': setup,
+                },
+                {
+                    'title': '怎么玩',
+                    'blocks': [
+                        {'kind': 'paragraph', 'text': (
+                            '还没有人写下这一款怎么开始。导入它，按下播放，然后告诉我们发生了什么——'
+                            '如果它要密码、序列号或者手册里的某个词，那正是值得写下来的东西。')},
+                        {'kind': 'paragraph', 'text': (
+                            '那些在模拟器上通关过的页面就在这一架的旁边，它们把整条路都写清楚了：'
+                            '从哪个文件开始、哪个键打开菜单、接下来是哪个画面。')},
+                    ],
+                },
+                {
+                    'title': '游戏包里有什么',
+                    'blocks': [
+                        {'kind': 'table', 'head': ['部分', '内容'], 'rows': rows},
+                    ],
+                },
+                {
+                    'title': '这些事实的来源',
+                    'blocks': [
+                        {'kind': 'list', 'items': [
+                            '游戏包本身——它的文件列表、文件日期，以及启动文件里的字符串。',
+                            '归档索引，给出上面的大小与 SHA-256。',
+                            f'原件，在 {game["source_url"]}。',
+                        ]},
+                    ],
+                },
+            ]
+        else:
+            sections = [
+                {
+                    'title': 'What it is',
+                    'blocks': [
+                        {'kind': 'paragraph', 'text': overview},
+                        {'kind': 'paragraph', 'text': (
+                            'This page is generated from the bundle itself: the file list, the dates and the '
+                            'checksum below are read out of the archive, not written from memory. The '
+                            'hand-written pages on this shelf — the ones with a drawn card mark — are the '
+                            'ones that have been played through on an emulator.')},
+                    ],
+                },
+                {
+                    'title': 'Download the bundle',
+                    'blocks': [
+                        {'kind': 'paragraph', 'text': 'The bundle is the original copy from the archive this page was generated from — the same file, byte for byte.'},
+                        {'kind': 'table', 'head': ['Field', 'Value'], 'rows': [
+                            ['File', f'{slug}.zip'],
+                            ['Size', f'{human_files(size)} bytes ({megabytes(size)})'],
+                            ['SHA-256', game['sha256']],
+                            ['Files', human_files(files)],
+                            ['Archive', 'dos-bin.zczc.cz — the archive this page was generated from'],
+                        ]},
+                        {'kind': 'links', 'items': [
+                            {'label': f'Download {name} ({megabytes(size)})',
+                             'href': game['source_url'],
+                             'external': True},
+                        ]},
+                    ],
+                },
+                {
+                    'title': 'Set it up in WhereQ-DOSBox',
+                    'blocks': setup,
+                },
+                {
+                    'title': 'How to play',
+                    'blocks': [
+                        {'kind': 'paragraph', 'text': (
+                            'Nobody has written down how this one starts yet. Import it, press Play, and tell '
+                            'us what happens — if it asks for a password, a serial number or a word from a '
+                            'manual, that is exactly the thing worth writing down.')},
+                        {'kind': 'paragraph', 'text': (
+                            'The pages that have been played through on an emulator sit alongside this one on '
+                            'the shelf, and they tell you the whole route in: which file to start, which key '
+                            'opens the menu, and which screen comes next.')},
+                    ],
+                },
+                {
+                    'title': 'What is in the bundle',
+                    'blocks': [
+                        {'kind': 'table', 'head': ['Part', 'What it holds'], 'rows': rows},
+                    ],
+                },
+                {
+                    'title': 'Where the facts come from',
+                    'blocks': [
+                        {'kind': 'list', 'items': [
+                            'The bundle itself — its file list, its file dates and the strings inside its entry point.',
+                            'The archive index, for the size and the SHA-256 above.',
+                            f'The original copy, at {game["source_url"]}.',
+                        ]},
+                    ],
+                },
+            ]
 
-    setup.append({
-        'kind': 'paragraph',
-        'text': ('This setup has not been played through on the emulator yet. If it does not work '
-                 'for you, the comment thread at the bottom of this page is where to say so — and '
-                 'what worked is worth writing down.'),
-    })
+        return {
+            'tagline': tagline,
+            'summary': summary,
+            'facts': facts,
+            'sections': sections,
+        }
 
-    # ── What is in the bundle ───────────────────────────────────
-    rows = [['Entry point', entry_point]]
-    if game['exes']:
-        rows.append(['Executables', '、'.join(sorted(game['exes'])[:8])])
-    if game['bats']:
-        rows.append(['Batch launchers', '、'.join(sorted(game['bats'])[:8])])
-    if game['coms']:
-        rows.append(['COM loaders', '、'.join(sorted(game['coms'])[:8])])
-    if game['diskimages']:
-        rows.append(['Disk images', '、'.join(game['diskimages'][:8])])
-    rows.append(['Other files', f'{human_files(game["datafiles"])} data file(s)'])
-    rows.append(['Total', f'{human_files(files)} files · {megabytes(size)}'])
-
-    sections = [
-        {
-            'title': 'What it is',
-            'blocks': [
-                {'kind': 'paragraph', 'text': overview},
-                {'kind': 'paragraph', 'text': (
-                    'This page is generated from the bundle itself: the file list, the dates and the '
-                    'checksum below are read out of the archive, not written from memory. The '
-                    'hand-written pages on this shelf — the ones with a drawn card mark — are the '
-                    'ones that have been played through on an emulator.')},
-            ],
-        },
-        {
-            'title': 'Download the bundle',
-            'blocks': [
-                {'kind': 'paragraph', 'text': 'The bundle is the original copy from the archive this page was generated from — the same file, byte for byte.'},
-                {'kind': 'table', 'head': ['Field', 'Value'], 'rows': [
-                    ['File', f'{slug}.zip'],
-                    ['Size', f'{human_files(size)} bytes ({megabytes(size)})'],
-                    ['SHA-256', game['sha256']],
-                    ['Files', human_files(files)],
-                    ['Archive', 'dos-bin.zczc.cz — the archive this page was generated from'],
-                ]},
-                {'kind': 'links', 'items': [
-                    {'label': f'Download {name} ({megabytes(size)})',
-                     'href': game['source_url'],
-                     'external': True},
-                ]},
-            ],
-        },
-        {
-            'title': 'Set it up in WhereQ-DOSBox',
-            'blocks': setup,
-        },
-        {
-            'title': 'How to play',
-            'blocks': [
-                {'kind': 'paragraph', 'text': (
-                    'Nobody has written down how this one starts yet. Import it, press Play, and tell '
-                    'us what happens — if it asks for a password, a serial number or a word from a '
-                    'manual, that is exactly the thing worth writing down.')},
-                {'kind': 'paragraph', 'text': (
-                    'The pages that have been played through on an emulator sit alongside this one on '
-                    'the shelf, and they tell you the whole route in: which file to start, which key '
-                    'opens the menu, and which screen comes next.')},
-            ],
-        },
-        {
-            'title': 'What is in the bundle',
-            'blocks': [
-                {'kind': 'table', 'head': ['Part', 'What it holds'], 'rows': rows},
-            ],
-        },
-        {
-            'title': 'Where the facts come from',
-            'blocks': [
-                {'kind': 'list', 'items': [
-                    'The bundle itself — its file list, its file dates and the strings inside its entry point.',
-                    'The archive index, for the size and the SHA-256 above.',
-                    f'The original copy, at {game["source_url"]}.',
-                ]},
-            ],
-        },
-    ]
+    english = build('en')
+    chinese = build('zh')
 
     return {
         'id': slug,
         'collection': 'dos-games',
         'name': name,
+        'nameEn': name_en,
+        'nameEnSource': name_en_source,
         'role': 'DOS Game',
-        'tagline': tagline,
+        'roleZh': 'DOS 游戏',
+        'tagline': english['tagline'],
+        'taglineZh': chinese['tagline'],
         'accent': accent,
         'group': tag,
-        'summary': summary,
+        'summary': english['summary'],
+        'summaryZh': chinese['summary'],
         'status': str(year) if year else 'Archive',
+        'statusZh': str(year) if year else '归档',
         'url': game['source_url'],
-        'facts': facts,
-        'sections': sections,
+        'facts': english['facts'],
+        'factsZh': chinese['facts'],
+        'sections': english['sections'],
+        'sectionsZh': chinese['sections'],
     }
 
 
+def write_sections(handle, sections, key='sections', indent='  '):
+    """A page's body, as the Atlas reads it."""
+    handle.write(f'{indent}{key}: [\n')
+    for section in sections:
+        handle.write(f'{indent}  {{\n')
+        handle.write(f'{indent}    title: {ts(section["title"])},\n')
+        handle.write(f'{indent}    blocks: [\n')
+        for block in section['blocks']:
+            kind = block['kind']
+            if kind == 'paragraph':
+                handle.write(f'{indent}      {{kind: {ts(kind)}, text: {ts(block["text"])}}},\n')
+            elif kind == 'list':
+                handle.write(f'{indent}      {{kind: {ts(kind)}, items: [\n')
+                for item in block['items']:
+                    handle.write(f'{indent}        {ts(item)},\n')
+                handle.write(f'{indent}      ]}},\n')
+            elif kind == 'table':
+                handle.write(f'{indent}      {{kind: {ts(kind)}, head: {ts(block["head"])}, rows: [\n')
+                for row in block['rows']:
+                    cells = ', '.join(ts(cell) for cell in row)
+                    handle.write(f'{indent}        [{cells}],\n')
+                handle.write(f'{indent}      ]}},\n')
+            elif kind == 'links':
+                handle.write(f'{indent}      {{kind: {ts(kind)}, items: [\n')
+                for item in block['items']:
+                    handle.write(
+                        f'{indent}        {{label: {ts(item["label"])}, href: {ts(item["href"])}, '
+                        f'external: {json.dumps(item.get("external", True))}}},\n'
+                    )
+                handle.write(f'{indent}      ]}},\n')
+        handle.write(f'{indent}    ]}},\n')
+    handle.write(f'{indent}],\n')
+
+
 def write_full_entry(handle, entry):
-    """One game's full page, as a module of its own."""
+    """One game's full page, as a module of its own.
+
+    The module carries both languages: the English fields the English
+    locale reads, and the Chinese ones the Chinese locale reads.
+    """
     handle.write('''/**
  * A generated page from the DOS games catalogue.
  *
@@ -346,48 +571,30 @@ const entry: AtlasEntry = {
     handle.write(f'  id: {ts(entry["id"])},\n')
     handle.write(f'  collection: {ts(entry["collection"])},\n')
     handle.write(f'  name: {ts(entry["name"])},\n')
+    if entry.get('nameEn'):
+        handle.write(f'  nameEn: {ts(entry["nameEn"])},\n')
+        handle.write(f'  nameEnSource: {ts(entry.get("nameEnSource") or "known")},\n')
     handle.write(f'  role: {ts(entry["role"])},\n')
+    handle.write(f'  roleZh: {ts(entry["roleZh"])},\n')
     handle.write(f'  tagline: {ts(entry["tagline"])},\n')
+    handle.write(f'  taglineZh: {ts(entry["taglineZh"])},\n')
     handle.write(f'  accent: {ts(entry["accent"])},\n')
     handle.write(f'  group: {ts(entry["group"])},\n')
     handle.write(f'  summary: {ts(entry["summary"])},\n')
+    handle.write(f'  summaryZh: {ts(entry["summaryZh"])},\n')
     handle.write(f'  status: {ts(entry["status"])},\n')
+    handle.write(f'  statusZh: {ts(entry["statusZh"])},\n')
     handle.write(f'  url: {ts(entry["url"])},\n')
     handle.write('  facts: [\n')
     for fact in entry['facts']:
         handle.write(f'    {{label: {ts(fact["label"])}, value: {ts(fact["value"])}}},\n')
     handle.write('  ],\n')
-    handle.write('  sections: [\n')
-    for section in entry['sections']:
-        handle.write('    {\n')
-        handle.write(f'      title: {ts(section["title"])},\n')
-        handle.write('      blocks: [\n')
-        for block in section['blocks']:
-            kind = block['kind']
-            if kind == 'paragraph':
-                handle.write(f'        {{kind: {ts(kind)}, text: {ts(block["text"])}}},\n')
-            elif kind == 'list':
-                handle.write(f'        {{kind: {ts(kind)}, items: [\n')
-                for item in block['items']:
-                    handle.write(f'          {ts(item)},\n')
-                handle.write('        ]},\n')
-            elif kind == 'table':
-                handle.write(f'        {{kind: {ts(kind)}, head: {ts(block["head"])}, rows: [\n')
-                for row in block['rows']:
-                    cells = ', '.join(ts(cell) for cell in row)
-                    handle.write(f'          [{cells}],\n')
-                handle.write('        ]},\n')
-            elif kind == 'links':
-                handle.write(f'        {{kind: {ts(kind)}, items: [\n')
-                for item in block['items']:
-                    handle.write(
-                        f'          {{label: {ts(item["label"])}, href: {ts(item["href"])}, '
-                        f'external: {json.dumps(item.get("external", True))}}},\n'
-                    )
-                handle.write('        ]},\n')
-        handle.write('      ],\n')
-        handle.write('    },\n')
+    handle.write('  factsZh: [\n')
+    for fact in entry['factsZh']:
+        handle.write(f'    {{label: {ts(fact["label"])}, value: {ts(fact["value"])}}},\n')
     handle.write('  ],\n')
+    write_sections(handle, entry['sections'])
+    write_sections(handle, entry['sectionsZh'], key='sectionsZh', indent='  ')
     handle.write('};\n\n')
     handle.write('export default entry;\n')
 
@@ -399,6 +606,7 @@ def main():
     parser.add_argument('--metadata', default='/home/whereq/git/whereq-dosbox-claude/data/dos-games-metadata.json')
     parser.add_argument('--manifest', default='/home/whereq/git/whereq-dosbox-claude/data/dos-games-manifest.json')
     parser.add_argument('--categories', default=os.path.expanduser('~/git/dos/games_categories.json'))
+    parser.add_argument('--english-names', default=os.path.join(ROOT, 'data', 'english-names.json'))
     parser.add_argument('--routes', default=os.path.join(ROOT, 'src/pages/dos-games'))
     parser.add_argument('--pages', default=os.path.join(ROOT, 'src/data/dos-games'))
     parser.add_argument('--images', default=os.path.join(ROOT, 'static/img/dos-games'))
@@ -414,6 +622,16 @@ def main():
     # The category of every game, read from the archive's own manifest and
     # the descriptions the same project publishes. A game can be in more
     # than one category — see `scripts/dos_game_categories.py`.
+    # The original English title of each game, where it is known. The
+    # archive files every game under its Chinese name; this is what the
+    # English locale shows on the card instead.
+    english_names = {}
+    if os.path.exists(args.english_names):
+        english_names = json.load(open(args.english_names, encoding='utf-8'))
+    else:
+        print(f'warning: no English names at {args.english_names} — the cards will show the '
+              'Chinese name only')
+
     categories = {}
     if os.path.exists(args.categories):
         categories = json.load(open(args.categories, encoding='utf-8'))
@@ -493,12 +711,16 @@ def main():
             'diskimages': images,
             'datafiles': max(0, len(names) - len(exes) - len(bats) - len(coms) - len(images)),
         }
-        entry = build_entry(game, meta, slug, tag, accent, types)
+        english = english_names.get(name)
+        name_en = english.get('en') if english else None
+        name_en_source = english.get('source') if english else None
+        entry = build_entry(game, meta, slug, tag, accent, types, name_en, name_en_source)
         entries.append(entry)
         year = meta.get('yearFiles')
         index_rows.append({
             'id': slug,
             'name': name,
+            'nameEn': name_en,
             'year': str(year) if year else '',
             'size': game['bytes'],
             'files': game['files'],
@@ -618,10 +840,16 @@ def main():
             handle.write(
                 'import React from \'react\';\n'
                 'import DosGamePage from \'../../components/DosGames/DosGamePage\';\n'
-                'import {PLAYED_BY_ID} from \'../../data/games-played\';\n\n'
+                'import {PLAYED_BY_ID} from \'../../data/games-played\';\n'
+                'import {PLAYED_BY_ID_ZH} from \'../../data/games-played-zh\';\n\n'
                 f'/** {row["name_zh"] or identifier} — the DOS games archive. */\n'
                 'export default function DosGame(): React.JSX.Element {\n'
-                f'  return <DosGamePage entry={{PLAYED_BY_ID[\'{slug}\']}} />;\n'
+                f'  return (\n'
+                f'    <DosGamePage\n'
+                f'      entry={{PLAYED_BY_ID[\'{slug}\']}}\n'
+                f'      entryZh={{PLAYED_BY_ID_ZH[\'{slug}\']}}\n'
+                f'    />\n'
+                f'  );\n'
                 '}\n'
             )
         written.add(slug)
@@ -653,6 +881,13 @@ export type DosGameIndexEntry = {
   id: string;
   /** The name, as the archive knows it. */
   name: string;
+  /**
+   * The original English title, when it is known.
+   *
+   * The English locale shows this on the card; the Chinese one shows the
+   * Chinese name. The search box looks for both.
+   */
+  nameEn?: string;
   /** The year the bundle's own files are dated. */
   year: string;
   /** The size of the bundle, in bytes. */
@@ -678,6 +913,8 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
             handle.write('  {\n')
             handle.write(f'    id: {ts(row["id"])},\n')
             handle.write(f'    name: {ts(row["name"])},\n')
+            if row.get('nameEn'):
+                handle.write(f'    nameEn: {ts(row["nameEn"])},\n')
             handle.write(f'    year: {ts(row["year"])},\n')
             handle.write(f'    size: {row["size"]},\n')
             handle.write(f'    files: {row["files"]},\n')

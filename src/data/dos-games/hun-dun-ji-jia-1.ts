@@ -11,11 +11,15 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "混沌机甲1",
   role: "DOS Game",
+  roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 1,005 files, 20.0 MB.",
+  taglineZh: "MS-DOS · 1996 — 1,005 个文件，20.0 MB。",
   accent: "#148F77",
   group: "h",
   summary: "混沌机甲1 is a DOS game in the WhereQ archive — 1996, 1,005 files, 20.0 MB, and an entry point of BEDLAM.EXE.",
+  summaryZh: "混沌机甲1 是 WhereQ 归档中的一款 DOS 游戏——1996，1,005 个文件，20.0 MB，启动文件是 BEDLAM.EXE。",
   status: "1996",
+  statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%B7%B7%E6%B2%8C%E6%9C%BA%E7%94%B21.zip",
   facts: [
     {label: "Developer", value: "HUMAN"},
@@ -25,14 +29,21 @@ const entry: AtlasEntry = {
     {label: "Entry point", value: "BEDLAM.EXE"},
     {label: "Bundle", value: "1,005 files · 20.0 MB"},
   ],
+  factsZh: [
+    {label: "开发", value: "HUMAN"},
+    {label: "发行", value: "1996"},
+    {label: "类型", value: "Action"},
+    {label: "平台", value: "MS-DOS"},
+    {label: "启动文件", value: "BEDLAM.EXE"},
+    {label: "游戏包", value: "1,005 个文件 · 20.0 MB"},
+  ],
   sections: [
     {
       title: "What it is",
       blocks: [
         {kind: "paragraph", text: "混沌机甲1 is a DOS game in the WhereQ archive. The name HUMAN appears inside the program, though not on a copyright line — the publisher is most likely HUMAN. The bundle's own files are dated 1996, and the executable carries a matching copyright line — Copyright Mirage 1996.\u0000\u0000Copying file number\u0000of 60\u0000\u0000\u0000of 436\u0000\u0000of 1112\u0000SELECT INSTALLATION TY The copy is the program as it was distributed: 1,005 files, 20.0 MB, and an entry point of BEDLAM.EXE."},
         {kind: "paragraph", text: "This page is generated from the bundle itself: the file list, the dates and the checksum below are read out of the archive, not written from memory. The hand-written pages on this shelf — the ones with a drawn card mark — are the ones that have been played through on an emulator."},
-      ],
-    },
+      ]},
     {
       title: "Download the bundle",
       blocks: [
@@ -47,22 +58,19 @@ const entry: AtlasEntry = {
         {kind: "links", items: [
           {label: "Download 混沌机甲1 (20.0 MB)", href: "https://dos-bin.zczc.cz/%E6%B7%B7%E6%B2%8C%E6%9C%BA%E7%94%B21.zip", external: true},
         ]},
-      ],
-    },
+      ]},
     {
       title: "Set it up in WhereQ-DOSBox",
       blocks: [
         {kind: "paragraph", text: "The entry point is BEDLAM.EXE. Import the zip into WhereQ-DOSBox and press Play, and the app starts that program."},
         {kind: "paragraph", text: "This setup has not been played through on the emulator yet. If it does not work for you, the comment thread at the bottom of this page is where to say so — and what worked is worth writing down."},
-      ],
-    },
+      ]},
     {
       title: "How to play",
       blocks: [
         {kind: "paragraph", text: "Nobody has written down how this one starts yet. Import it, press Play, and tell us what happens — if it asks for a password, a serial number or a word from a manual, that is exactly the thing worth writing down."},
         {kind: "paragraph", text: "The pages that have been played through on an emulator sit alongside this one on the shelf, and they tell you the whole route in: which file to start, which key opens the menu, and which screen comes next."},
-      ],
-    },
+      ]},
     {
       title: "What is in the bundle",
       blocks: [
@@ -73,8 +81,7 @@ const entry: AtlasEntry = {
           ["Other files", "1,001 data file(s)"],
           ["Total", "1,005 files · 20.0 MB"],
         ]},
-      ],
-    },
+      ]},
     {
       title: "Where the facts come from",
       blocks: [
@@ -83,8 +90,62 @@ const entry: AtlasEntry = {
           "The archive index, for the size and the SHA-256 above.",
           "The original copy, at https://dos-bin.zczc.cz/%E6%B7%B7%E6%B2%8C%E6%9C%BA%E7%94%B21.zip.",
         ]},
-      ],
-    },
+      ]},
+  ],
+  sectionsZh: [
+    {
+      title: "这是一款什么游戏",
+      blocks: [
+        {kind: "paragraph", text: "混沌机甲1 是 WhereQ 归档中的一款 DOS 游戏。 程序里出现过 HUMAN 这个名字，虽然它并不在版权声明上——发行商最可能就是 HUMAN。 游戏包内的文件日期是 1996，而可执行文件里带有同样年份的版权声明——Copyright Mirage 1996.\u0000\u0000Copying file number\u0000of 60\u0000\u0000\u0000of 436\u0000\u0000of 1112\u0000SELECT INSTALLATION TY 这份拷贝就是当年发行的程序：1,005 个文件，20.0 MB，启动文件是 BEDLAM.EXE。"},
+        {kind: "paragraph", text: "本页由游戏包本身生成：下面的文件列表、日期与校验和都读自归档，而不是凭记忆写下的。这一架上手写的页面——也就是那些带着手绘卡片标记的——是真正在模拟器上通关过的。"},
+      ]},
+    {
+      title: "下载游戏包",
+      blocks: [
+        {kind: "paragraph", text: "游戏包就是生成该页的那个归档里的原件——同一个文件，逐字节相同。"},
+        {kind: "table", head: ["字段", "值"], rows: [
+          ["文件", "hun-dun-ji-jia-1.zip"],
+          ["大小", "21,001,244 字节（20.0 MB）"],
+          ["SHA-256", "4c0ed64956c94dbdc709734caac54b58b2744f95a22ed55bab193086214e7d67"],
+          ["文件数", "1,005"],
+          ["归档", "dos-bin.zczc.cz——生成该页的那个归档"],
+        ]},
+        {kind: "links", items: [
+          {label: "下载 混沌机甲1（20.0 MB）", href: "https://dos-bin.zczc.cz/%E6%B7%B7%E6%B2%8C%E6%9C%BA%E7%94%B21.zip", external: true},
+        ]},
+      ]},
+    {
+      title: "在 WhereQ-DOSBox 里运行",
+      blocks: [
+        {kind: "paragraph", text: "启动文件是 BEDLAM.EXE。把 zip 导入 WhereQ-DOSBox 并按下播放，应用就会启动这个程序。"},
+        {kind: "paragraph", text: "这套运行方式还没有在模拟器上试过。如果在你那里不管用，本页底部的评论区就是说出来的地方——而什么有效，值得写下来。"},
+      ]},
+    {
+      title: "怎么玩",
+      blocks: [
+        {kind: "paragraph", text: "还没有人写下这一款怎么开始。导入它，按下播放，然后告诉我们发生了什么——如果它要密码、序列号或者手册里的某个词，那正是值得写下来的东西。"},
+        {kind: "paragraph", text: "那些在模拟器上通关过的页面就在这一架的旁边，它们把整条路都写清楚了：从哪个文件开始、哪个键打开菜单、接下来是哪个画面。"},
+      ]},
+    {
+      title: "游戏包里有什么",
+      blocks: [
+        {kind: "table", head: ["部分", "内容"], rows: [
+          ["启动文件", "BEDLAM.EXE"],
+          ["可执行文件", "BEDLAM.EXE、DOS4GW.EXE、SETUP.EXE"],
+          ["批处理启动文件", "PLAY.BAT"],
+          ["其他文件", "1,001 个数据文件"],
+          ["合计", "1,005 个文件 · 20.0 MB"],
+        ]},
+      ]},
+    {
+      title: "这些事实的来源",
+      blocks: [
+        {kind: "list", items: [
+          "游戏包本身——它的文件列表、文件日期，以及启动文件里的字符串。",
+          "归档索引，给出上面的大小与 SHA-256。",
+          "原件，在 https://dos-bin.zczc.cz/%E6%B7%B7%E6%B2%8C%E6%9C%BA%E7%94%B21.zip。",
+        ]},
+      ]},
   ],
 };
 

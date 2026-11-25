@@ -11,11 +11,15 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "超级机车赛",
   role: "DOS Game",
+  roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1987 — 15 files, 55 KB.",
+  taglineZh: "MS-DOS · 1987 — 15 个文件，55 KB。",
   accent: "#7D6608",
   group: "c",
   summary: "超级机车赛 is a DOS game in the WhereQ archive — 1987, 15 files, 55 KB, and an entry point of SB.EXE.",
+  summaryZh: "超级机车赛 是 WhereQ 归档中的一款 DOS 游戏——1987，15 个文件，55 KB，启动文件是 SB.EXE。",
   status: "1987",
+  statusZh: "1987",
   url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E6%9C%BA%E8%BD%A6%E8%B5%9B.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
@@ -25,14 +29,21 @@ const entry: AtlasEntry = {
     {label: "Entry point", value: "SB.EXE"},
     {label: "Bundle", value: "15 files · 55 KB"},
   ],
+  factsZh: [
+    {label: "开发", value: "游戏包中没有说明"},
+    {label: "发行", value: "1987"},
+    {label: "类型", value: "Simulation"},
+    {label: "平台", value: "MS-DOS"},
+    {label: "启动文件", value: "SB.EXE"},
+    {label: "游戏包", value: "15 个文件 · 55 KB"},
+  ],
   sections: [
     {
       title: "What it is",
       blocks: [
         {kind: "paragraph", text: "超级机车赛 is a DOS game in the WhereQ archive. The bundle's own files are dated 1987, and the executable carries a matching copyright line — Copyright 1987 Broderbund Software\u0000Uì\u0006\u001e¿\u0007\u0000¸\u0006\u0002»\u0000øÃ3Ûµ\n±\u0001¶\u0000V\u0004Í\u0013ûOtRrå¿\u0004\u0000¸\u0001\u0002^\u0006µ\n±\u0007¶\u0000V\u0004\u000e\u0007 The copy is the program as it was distributed: 15 files, 55 KB, and an entry point of SB.EXE."},
         {kind: "paragraph", text: "This page is generated from the bundle itself: the file list, the dates and the checksum below are read out of the archive, not written from memory. The hand-written pages on this shelf — the ones with a drawn card mark — are the ones that have been played through on an emulator."},
-      ],
-    },
+      ]},
     {
       title: "Download the bundle",
       blocks: [
@@ -47,22 +58,19 @@ const entry: AtlasEntry = {
         {kind: "links", items: [
           {label: "Download 超级机车赛 (55 KB)", href: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E6%9C%BA%E8%BD%A6%E8%B5%9B.zip", external: true},
         ]},
-      ],
-    },
+      ]},
     {
       title: "Set it up in WhereQ-DOSBox",
       blocks: [
         {kind: "paragraph", text: "The entry point is SB.EXE. Import the zip into WhereQ-DOSBox and press Play, and the app starts that program."},
         {kind: "paragraph", text: "This setup has not been played through on the emulator yet. If it does not work for you, the comment thread at the bottom of this page is where to say so — and what worked is worth writing down."},
-      ],
-    },
+      ]},
     {
       title: "How to play",
       blocks: [
         {kind: "paragraph", text: "Nobody has written down how this one starts yet. Import it, press Play, and tell us what happens — if it asks for a password, a serial number or a word from a manual, that is exactly the thing worth writing down."},
         {kind: "paragraph", text: "The pages that have been played through on an emulator sit alongside this one on the shelf, and they tell you the whole route in: which file to start, which key opens the menu, and which screen comes next."},
-      ],
-    },
+      ]},
     {
       title: "What is in the bundle",
       blocks: [
@@ -72,8 +80,7 @@ const entry: AtlasEntry = {
           ["Other files", "14 data file(s)"],
           ["Total", "15 files · 55 KB"],
         ]},
-      ],
-    },
+      ]},
     {
       title: "Where the facts come from",
       blocks: [
@@ -82,8 +89,61 @@ const entry: AtlasEntry = {
           "The archive index, for the size and the SHA-256 above.",
           "The original copy, at https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E6%9C%BA%E8%BD%A6%E8%B5%9B.zip.",
         ]},
-      ],
-    },
+      ]},
+  ],
+  sectionsZh: [
+    {
+      title: "这是一款什么游戏",
+      blocks: [
+        {kind: "paragraph", text: "超级机车赛 是 WhereQ 归档中的一款 DOS 游戏。 游戏包内的文件日期是 1987，而可执行文件里带有同样年份的版权声明——Copyright 1987 Broderbund Software\u0000Uì\u0006\u001e¿\u0007\u0000¸\u0006\u0002»\u0000øÃ3Ûµ\n±\u0001¶\u0000V\u0004Í\u0013ûOtRrå¿\u0004\u0000¸\u0001\u0002^\u0006µ\n±\u0007¶\u0000V\u0004\u000e\u0007 这份拷贝就是当年发行的程序：15 个文件，55 KB，启动文件是 SB.EXE。"},
+        {kind: "paragraph", text: "本页由游戏包本身生成：下面的文件列表、日期与校验和都读自归档，而不是凭记忆写下的。这一架上手写的页面——也就是那些带着手绘卡片标记的——是真正在模拟器上通关过的。"},
+      ]},
+    {
+      title: "下载游戏包",
+      blocks: [
+        {kind: "paragraph", text: "游戏包就是生成该页的那个归档里的原件——同一个文件，逐字节相同。"},
+        {kind: "table", head: ["字段", "值"], rows: [
+          ["文件", "chao-ji-ji-che-sai.zip"],
+          ["大小", "56,421 字节（55 KB）"],
+          ["SHA-256", "79f5ddd9c0c20f110850826f33dd9eae1002af5483a3d2c99dd564c57afedfa8"],
+          ["文件数", "15"],
+          ["归档", "dos-bin.zczc.cz——生成该页的那个归档"],
+        ]},
+        {kind: "links", items: [
+          {label: "下载 超级机车赛（55 KB）", href: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E6%9C%BA%E8%BD%A6%E8%B5%9B.zip", external: true},
+        ]},
+      ]},
+    {
+      title: "在 WhereQ-DOSBox 里运行",
+      blocks: [
+        {kind: "paragraph", text: "启动文件是 SB.EXE。把 zip 导入 WhereQ-DOSBox 并按下播放，应用就会启动这个程序。"},
+        {kind: "paragraph", text: "这套运行方式还没有在模拟器上试过。如果在你那里不管用，本页底部的评论区就是说出来的地方——而什么有效，值得写下来。"},
+      ]},
+    {
+      title: "怎么玩",
+      blocks: [
+        {kind: "paragraph", text: "还没有人写下这一款怎么开始。导入它，按下播放，然后告诉我们发生了什么——如果它要密码、序列号或者手册里的某个词，那正是值得写下来的东西。"},
+        {kind: "paragraph", text: "那些在模拟器上通关过的页面就在这一架的旁边，它们把整条路都写清楚了：从哪个文件开始、哪个键打开菜单、接下来是哪个画面。"},
+      ]},
+    {
+      title: "游戏包里有什么",
+      blocks: [
+        {kind: "table", head: ["部分", "内容"], rows: [
+          ["启动文件", "SB.EXE"],
+          ["可执行文件", "SB.EXE"],
+          ["其他文件", "14 个数据文件"],
+          ["合计", "15 个文件 · 55 KB"],
+        ]},
+      ]},
+    {
+      title: "这些事实的来源",
+      blocks: [
+        {kind: "list", items: [
+          "游戏包本身——它的文件列表、文件日期，以及启动文件里的字符串。",
+          "归档索引，给出上面的大小与 SHA-256。",
+          "原件，在 https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E6%9C%BA%E8%BD%A6%E8%B5%9B.zip。",
+        ]},
+      ]},
   ],
 };
 

@@ -1,0 +1,122 @@
+---
+title: "隐私政策"
+description: "PC Legends 收集什么、Google AdSense 会用它做什么，以及如何拒绝。"
+slug: /privacy
+---
+
+import ConsentSettings from '@site/src/components/ConsentSettings';
+
+# 隐私政策 —— PC Legends
+
+**生效日期：** 2026 年 11 月 24 日
+**适用范围：** PC Legends 站点 —— `pclegends.games` —— 以及其上的每一个页面。
+**联系方式：** WhereQ —— [googol.zhang@gmail.com](mailto:googol.zhang@gmail.com)
+
+这是 PC Legends 的隐私政策。它是站点仓库里的一个普通 Markdown 文件，仓库中的版本即为权威版本。
+
+## 简单说
+
+本站是一组静态页面。没有账号、没有登录、没有用户数据库，而且**我们不运行任何自己的分析工具**——我们不知道是谁在阅读。
+
+只有两件事可能设置 cookie 或以其他方式识别你的浏览器，而且都只在你允许之后：
+
+- **Google 广告。** 本站由 Google AdSense 投放广告。如果你接受广告，Google 会设置 cookie，并可能对你看到的广告进行个性化。如果你拒绝，**就完全不会加载任何 Google 的代码**——没有广告脚本，没有 cookie，什么都没有。
+- **评论。** 在游戏页面上你可以留言。评论组件来自 [Giscus](https://giscus.app)，它会把你在评论的那一页存成一条公开的 GitHub Discussion。
+
+搜索框是为离线使用而做的：你的查询不会离开你的浏览器。
+
+## 这个站点是什么
+
+每一个页面都是静态文件。没有登录、没有账号、没有个人资料，也没有什么需要删除的东西。如果你读了一个页面，提供页面的服务器可能会在访问日志里写下一行——那是托管服务商的做法，不是我们的，详见下文 *托管与服务器日志*。
+
+下载本身不由本站提供。游戏页面上的 *下载* 按钮直接指向生成该页的那个归档，位于 `dos-bin.zczc.cz`。那个主机看到你的请求的方式，和任何网络主机一样；文件原样提供，请求中不会附带任何关于你的信息。
+
+## 广告 —— Google AdSense
+
+本站通过 **Google AdSense** 变现，由它投放展示广告。
+
+- **AdSense 会使用 cookie。** Google 及其合作伙伴使用 cookie 和类似技术，根据你访问本站及其他网站的情况投放广告。Google 对广告 cookie 的使用，使其及其合作伙伴能够根据你访问本站及/或其他网站的情况投放广告。
+- **我们会先征求你的同意。** 页面底部的横幅会在加载任何 Google 内容之前询问你。接受则运行 Google 的广告脚本；拒绝则它永远不会运行——没有广告脚本，没有广告 cookie，也根本不会向 Google 发出任何请求。
+- **在你同意之前，广告不会被个性化。** 只有当 AdSense 的代码在运行且获得许可时，它才能建立关于你兴趣的画像。
+- **你可以随时退出个性化广告**，无需改动本站，途径是 [Google 广告设置](https://adsettings.google.com)。你也可以在 [Google 的合作伙伴站点页面](https://www.google.com/adsense/technologies/partner-sites)退出第三方供应商 cookie。
+- **你可以问为什么。** Google 投放的每一条广告都带有 *关于此广告* 和 *广告选项* 链接。Google 的 [我的广告中心](https://myadcenter.google.com/)会向你展示它给你看过哪些广告和广告主，并让你调整所看到的内容。
+
+Google 自己对数据的处理方式，写在 [AdSense 计划政策](https://www.google.com/adsense/policies)和 [Google 隐私政策](https://policies.google.com/privacy)里。广告数据由 Google 作为控制者收集；WhereQ 是发布方。
+
+### 广告脚本运行时 Google 能看到什么
+
+如果你接受，Google 的广告脚本能看到你的 IP 地址、你的浏览器与设备、你从哪些页面来、下一步会去哪些页面，以及你与广告本身的任何交互。如果你拒绝，它看不到其中任何一样，因为它根本没有运行。
+
+## 你的广告选择 {#consent-choices}
+
+你的选择保存在你自己的浏览器里，键名是 `whereq.consent`。它不会离开你的设备，我们也读不到。
+
+<ConsentSettings />
+
+清除你浏览器中本站的数据会一并清除这个选择，下次访问时横幅会重新询问。
+
+## 评论
+
+在游戏页面上，评论框是 [Giscus](https://giscus.app)，它是 [GitHub Discussions](https://github.com/whereq/pclegends.games/discussions)的一个轻量客户端。
+
+- 只有当页面上存在评论框时，Giscus 才会被加载。
+- 你所在页面的地址会发送给 Giscus，并存为一条 GitHub Discussion 的标题——那是 `whereq/pclegends.games` 仓库里的一场公开对话。
+- 如果你在登录 GitHub 的状态下留言，评论旁边会显示你的 GitHub 账号名和头像。
+- Giscus 会设置一个 cookie 以维持你的会话。它不设置广告 cookie，也不属于 AdSense。
+
+请不要在评论里填写个人信息。公开的 Discussion 就是一份公开的文件。
+
+## 搜索
+
+搜索框是 [docusaurus-search-local](https://github.com/easyops-cn/docusaurus-search-local)，它把本站自己的页面索引成一个静态文件，随站点一起分发。**你的查询是在你的浏览器里匹配的。** 它不会被发送给我们、GitHub、Google 或任何其他人。
+
+## 托管与服务器日志
+
+本站通过 **GitHub Pages** 发布。和任何网络主机一样，GitHub 会处理请求以便提供页面，其[GitHub 隐私声明](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement)涵盖了由此产生的日志数据——IP 地址、用户代理和时间戳，保留时间有限。
+
+## 其他第三方
+
+<div className="tableScroll">
+
+| 谁 | 是什么 | 何时发生 |
+|---|---|---|
+| [Google AdSense](https://www.google.com/adsense/) | 广告与广告 cookie | 仅在你接受之后 |
+| [Giscus](https://giscus.app) | 评论组件 | 在带有评论框的页面上 |
+| [GitHub](https://github.com/) | 托管，以及评论背后的 Discussions | 在每一个页面上 |
+| `dos-bin.zczc.cz` | 下载按钮所指向的游戏归档 | 当你下载游戏包时 |
+
+</div>
+
+## 你的权利
+
+如果你身处欧洲经济区、英国或瑞士，你有权要求我们告知我们持有哪些关于你的信息、要求更正或删除、基于正当利益提出反对、要求限制处理、要求数据可携，并可随时撤回同意。撤回同意就像在横幅里点击 *拒绝* 一样简单，也可以使用本页上的控件。
+
+如果你身处加州或其他有类似法律的地方，你有权知道收集和披露了哪些个人信息、要求删除、要求更正、选择退出其出售或共享，并限制敏感个人信息的使用。凡是我们根本没有收集你的个人信息的情形——除 Google 的广告数据之外的一切都属于这种情况——就没有什么可要求或可删除的。
+
+要行使上述任何权利，请写信至 [googol.zhang@gmail.com](mailto:googol.zhang@gmail.com)。你也有权向你所在地的数据保护机构投诉，例如英国的 [ICO](https://ico.org.uk/)。
+
+就广告而言，数据握在 Google 手里，因此关于广告个性化的问题最好通过 [我的广告中心](https://myadcenter.google.com/)和[广告设置](https://adsettings.google.com)提出。凡是涉及本站本身的事情，我们仍会尽力帮忙。
+
+## 跨境传输
+
+本站托管在美国。如果你接受广告，Google 可能会在其运营所在的任何国家处理你的数据——Google 的[隐私政策](https://policies.google.com/privacy)解释了其依赖的保障措施，包括标准合同条款和充分性认定。
+
+## 未成年人
+
+本站是一个老电脑游戏归档，并不面向未成年人。我们不会在知情的情况下收集未成年人的个人信息，本站也没有任何一部分是针对他们的。
+
+## 安全
+
+没有账号可被窃取，也没有数据库可被攻破：站点就是静态文件。可能暴露的东西仅限于 Google 掌握的广告数据，以及你在公开评论里写下的话——所以请把评论当作公开内容来对待。
+
+## 本政策的变更
+
+如果本政策发生变化，新的文本会与引发该变化的改动一起提交到[站点仓库](https://github.com/whereq/pclegends.games)，顶部的生效日期也会随之更新。
+
+## 联系方式
+
+关于本政策的问题：
+
+- **电子邮件：** [googol.zhang@gmail.com](mailto:googol.zhang@gmail.com)
+- **仓库：** [github.com/whereq/pclegends.games](https://github.com/whereq/pclegends.games)
+- **隐私与广告：** [本页上的相关设置](#consent-choices)

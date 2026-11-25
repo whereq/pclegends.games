@@ -60,60 +60,80 @@ CATEGORIES = [
         'code': 'ACT',
         'label': 'Action',
         'blurb': 'Shooters, platformers and arcade games — the games where your hands are busy.',
+        'label_zh': '动作',
+        'blurb_zh': '射击、平台跳跃与街机游戏——手一刻也闲不下来的那些。',
     },
     {
         'id': 'role-playing',
         'code': 'RPG',
         'label': 'Role-playing',
         'blurb': 'Games about a character, a world and a story that grows with you.',
+        'label_zh': '角色扮演',
+        'blurb_zh': '围绕一个人物、一个世界和一段随你成长的故事展开的游戏。',
     },
     {
         'id': 'simulation',
         'code': 'SIM',
         'label': 'Simulation',
         'blurb': 'Flight decks, football tables, hospitals and harbours — systems you run rather than fight.',
+        'label_zh': '模拟',
+        'blurb_zh': '驾驶舱、足球桌、医院与港口——是经营系统，而不是打打杀杀。',
     },
     {
         'id': 'strategy',
         'code': 'SLG',
         'label': 'Strategy',
         'blurb': 'Wargames and grand plans: armies, borders and economies.',
+        'label_zh': '策略',
+        'blurb_zh': '战争推演与宏大计划：军队、疆界与经济。',
     },
     {
         'id': 'adventure',
         'code': 'AVG',
         'label': 'Adventure',
         'blurb': 'Point-and-click stories, mysteries and the games that are mostly about looking around.',
+        'label_zh': '冒险',
+        'blurb_zh': '点击式故事、悬疑，以及那些大部分时间都在四处张望的游戏。',
     },
     {
         'id': 'puzzle',
         'code': 'PUZ',
         'label': 'Puzzle',
         'blurb': 'Board games, block puzzles and the small satisfactions of a solved problem.',
+        'label_zh': '益智',
+        'blurb_zh': '棋类、方块拼图，以及解开一道题时那点小满足。',
     },
     {
         'id': 'text-adventure',
         'code': 'HGA',
         'label': 'Text adventure',
         'blurb': 'Dating sims and interactive fiction — games that are mostly words and pictures.',
+        'label_zh': '文字冒险',
+        'blurb_zh': '恋爱模拟与互动小说——由文字和画面构成的游戏。',
     },
     {
         'id': 'tactics',
         'code': 'SPG',
         'label': 'Tactics',
         'blurb': 'Turn-based tactics and strategy role-playing — the 战棋 games, fought on a grid.',
+        'label_zh': '战棋',
+        'blurb_zh': '回合制战棋与策略角色扮演——在格子上打的「战棋」游戏。',
     },
     {
         'id': 'real-time-strategy',
         'code': 'RTS',
         'label': 'Real-time strategy',
         'blurb': 'The ones that do not wait for you: base building under a clock.',
+        'label_zh': '即时战略',
+        'blurb_zh': '不等人的那些：在时钟下建基地。',
     },
     {
         'id': 'sports',
         'code': '',
         'label': 'Sports',
         'blurb': 'Football tables, tennis courts and race tracks.',
+        'label_zh': '体育',
+        'blurb_zh': '足球桌、网球场与赛道。',
     },
 ]
 
@@ -263,8 +283,12 @@ def write_taxonomy(path, games):
         '  id: string;',
         '  /** The label shown on the card and the group heading. */',
         '  label: string;',
+        '  /** The same label in Chinese, for the Chinese locale. */',
+        '  labelZh: string;',
         '  /** One line: what belongs here. */',
         '  blurb: string;',
+        '  /** The same line in Chinese, for the Chinese locale. */',
+        '  blurbZh: string;',
         '  /** The code the archive manifest files this category under. */',
         '  code: string;',
         '  /** The accent colour the group carries. */',
@@ -280,6 +304,8 @@ def write_taxonomy(path, games):
         lines.append(f'    id: {json.dumps(category["id"], ensure_ascii=False)},')
         lines.append(f'    label: {json.dumps(category["label"], ensure_ascii=False)},')
         lines.append(f'    blurb: {json.dumps(category["blurb"], ensure_ascii=False)},')
+        lines.append(f'    labelZh: {json.dumps(category["label_zh"], ensure_ascii=False)},')
+        lines.append(f'    blurbZh: {json.dumps(category["blurb_zh"], ensure_ascii=False)},')
         lines.append(f'    code: {json.dumps(category["code"], ensure_ascii=False)},')
         lines.append(f'    accent: {json.dumps(ACCENTS[category["id"]], ensure_ascii=False)},')
         lines.append('  },')

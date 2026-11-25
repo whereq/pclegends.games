@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "PC Legends",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "WhereQ Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Catalogue": {
+    "message": "游戏目录",
+    "description": "Navbar item with label Catalogue"
+  },
+  "item.label.Played through": {
+    "message": "已通关",
+    "description": "Navbar item with label Played through"
+  },
+  "item.label.Guide": {
+    "message": "指南",
+    "description": "Navbar item with label Guide"
+  },
+  "item.label.About": {
+    "message": "关于",
+    "description": "Navbar item with label About"
+  },
+  "item.label.Privacy": {
+    "message": "隐私",
+    "description": "Navbar item with label Privacy"
+  }
+}

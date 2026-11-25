@@ -4,6 +4,8 @@ import Layout from '@theme/Layout';
 import {AtlasEntry} from '../../data/atlas-types';
 import AtlasBlocks from '../Atlas/AtlasBlocks';
 import GiscusComments from '../GiscusComments';
+import {useCopy, useIsChinese} from '../../hooks/useCopy';
+import {gameNames} from './game-names';
 import styles from './dos-games.module.css';
 
 /**
@@ -31,44 +33,97 @@ const EXTERNAL_ENTRIES: Record<string, {label: string; href: string}> = {
  * page eight times heavier than it needs to be; the catalogue at /dos-games/
  * is where the list lives.
  */
-export default function DosGamePage({entry}: {entry: AtlasEntry}): React.JSX.Element {
+export default function DosGamePage({
+  entry,
+  entryZh,
+}: {
+  entry: AtlasEntry;
+  /** The same page in Chinese, for the hand-written games that have one. */
+  entryZh?: AtlasEntry;
+}): React.JSX.Element {
+  const copy = useCopy();
+  const chinese = useIsChinese();
+
+  /**
+   * The page the reader gets. The Chinese locale reads the Chinese entry
+   * where there is one; where there is not, it reads the English entry's
+   * Chinese fields — the generated pages carry both in the same module.
+   */
+  const page = React.useMemo(() => {
+    const base = chinese && entryZh ? entryZh : entry;
+    if (!chinese) {
+      return base;
+    }
+    return {
+      ...base,
+      role: base.roleZh ?? base.role,
+      tagline: base.taglineZh ?? base.tagline,
+      summary: base.summaryZh ?? base.summary,
+      sections: base.sectionsZh ?? base.sections,
+      facts: base.factsZh ?? base.facts ?? [],
+    };
+  }, [entry, entryZh, chinese]);
+  const names = gameNames(page.name, page.nameEn, chinese);
+
+  /**
+   * The name on the page is the one the reader is looking for: the original
+   * English title in the English locale, the name the bundle is filed under
+   * in the Chinese one. The other name sits under it.
+   */
+  const name = names.primary;
+  const altName = names.secondary;
+
   const notice =
-    entry.notice ??
-    {
-      title: 'About this download',
-      text: 'The archive on this page is published for study, communication and preservation only. It is the work of its authors and publishers, who hold the rights in it; publishing it here claims none of those rights and waives none of them. If you believe this download breaks a licence, a copyright or any other right, tell us and we will take it down.',
+    page.notice ??
+    (chinese ? entry.noticeZh : undefined) ??
+    entry.notice ?? {
+      title: copy.game.noticeTitle,
+      text: copy.game.noticeText,
     };
 
-  const seeAlso = (entry.related ?? [])
+  const sections = page.sections;
+  const facts = page.facts ?? [];
+
+  const seeAlso = (page.related ?? [])
     .map((id) => EXTERNAL_ENTRIES[id])
     .filter((item): item is {label: string; href: string} => Boolean(item));
 
   return (
     <Layout
-      title={entry.name}
-      description={`${entry.name} — a DOS game in the PC Legends archive: the download, the setup in WhereQ-DOSBox, and what is known about how to play it.`}>
+      title={name}
+      description={`${name} — a DOS game in the PC Legends archive: the download, the setup in WhereQ-DOSBox, and what is known about how to play it.`}>
       <main className={styles.page}>
       <header className={styles.gameHeader}>
-        <span className={styles.gameMark} style={{borderColor: entry.accent}}>
-          <img src={entry.logo ?? `/img/dos-games/${entry.id}.svg`} alt="" />
+        <span className={styles.gameMark} style={{borderColor: page.accent}}>
+          <img src={page.logo ?? `/img/dos-games/${page.id}.svg`} alt="" />
         </span>
         <div className={styles.gameHeaderMain}>
-          <p className={styles.gameRole}>{entry.role}</p>
-          <h1 className={styles.gameName}>{entry.name}</h1>
-          <p className={styles.gameTagline}>{entry.tagline}</p>
+          <p className={styles.gameRole}>{page.role}</p>
+          <h1 className={styles.gameName}>{name}</h1>
+          {altName && <p className={styles.gameAltName}>{altName}</p>}
+          <p className={styles.gameTagline}>{page.tagline}</p>
+          {page.nameEn && (
+            <p className={styles.gameOrigin}>
+              {page.nameEnSource === 'published'
+                ? copy.common.englishTitlePublished
+                : entry.nameEnSource === 'bundle'
+                  ? copy.common.englishTitleBundle
+                  : copy.common.englishTitleKnown}
+            </p>
+          )}
           <div className={styles.gameActions}>
             <a
               className={`${styles.btn} ${styles.btnPrimary}`}
-              href={entry.url}
+              href={page.url}
               target="_blank"
               rel="noopener noreferrer">
-              Download the bundle
+              {copy.game.download}
             </a>
             <Link className={styles.btn} to="/dos-games/">
-              The whole catalogue
+              {copy.game.wholeCatalogue}
             </Link>
             <Link className={styles.btn} to="/played/">
-              Played through
+              {copy.game.playedThrough}
             </Link>
           </div>
         </div>
@@ -82,9 +137,15 @@ export default function DosGamePage({entry}: {entry: AtlasEntry}): React.JSX.Ele
       )}
 
       <div className={styles.infobox}>
-        <p className={styles.infoboxTitle}>{entry.name} at a glance</p>
+        <p className={styles.infoboxTitle}>{copy.game.atAGlance(name)}</p>
         <div className={styles.infoboxBody}>
-          {(entry.facts ?? []).map((fact) => (
+          {page.nameEn && (
+            <div className={styles.infoboxRow}>
+              <div className={styles.infoboxTerm}>{copy.game.originalTitle}</div>
+              <div className={styles.infoboxDesc}>{page.nameEn}</div>
+            </div>
+          )}
+          {facts.map((fact) => (
             <div className={styles.infoboxRow} key={fact.label}>
               <div className={styles.infoboxTerm}>{fact.label}</div>
               <div className={styles.infoboxDesc}>{fact.value}</div>
@@ -93,7 +154,7 @@ export default function DosGamePage({entry}: {entry: AtlasEntry}): React.JSX.Ele
         </div>
       </div>
 
-      {entry.sections.map((section) => (
+      {sections.map((section) => (
         <section className={styles.section} key={section.title}>
           <h2 className={styles.sectionTitle}>{section.title}</h2>
           <AtlasBlocks blocks={section.blocks} />
@@ -102,7 +163,7 @@ export default function DosGamePage({entry}: {entry: AtlasEntry}): React.JSX.Ele
 
       {seeAlso.length > 0 && (
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>See also</h2>
+          <h2 className={styles.sectionTitle}>{copy.game.seeAlso}</h2>
           <ul className={styles.linkList}>
             {seeAlso.map((item) => (
               <li key={item.href}>

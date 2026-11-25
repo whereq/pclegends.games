@@ -51,6 +51,22 @@ export type AtlasEntry = {
   collection: string;
   /** The name as the Atlas knows it. */
   name: string;
+  /**
+   * The original English title of the game, when it is known.
+   *
+   * The archive files every game under its Chinese name, because that is
+   * what the bundle is called. Most of these games are Western ones under
+   * a Chinese title, so the English locale shows this name and the Chinese
+   * locale shows the Chinese one.
+   */
+  nameEn?: string;
+  /**
+   * Where the English title came from — `bundle` (read out of the game's
+   * own strings), `published` (the archive's own index), `wiki` (the CN
+   * DOS Games Wiki) or `known` (the title the game is established under,
+   * which this bundle does not carry).
+   */
+  nameEnSource?: 'bundle' | 'published' | 'wiki' | 'known';
   /** The one-line role, e.g. `The Data Platform`. */
   role: string;
   /** One line: the idea behind the page. */
@@ -75,6 +91,22 @@ export type AtlasEntry = {
   capabilities?: string[];
   /** The body of the page. */
   sections: AtlasSection[];
+  /**
+   * The same page in Chinese. The Chinese locale reads these instead of
+   * the English ones; a page that has no Chinese copy falls back to the
+   * English, so nothing is ever blank.
+   */
+  nameZh?: string;
+  roleZh?: string;
+  statusZh?: string;
+  taglineZh?: string;
+  summaryZh?: string;
+  sectionsZh?: AtlasSection[];
+  factsZh?: AtlasFact[];
+  noticeZh?: {
+    title: string;
+    text: string;
+  };
   /**
    * Extra rows for the "at a glance" infobox. The fixed rows — role,
    * collection, domain — are always there; a game page adds its own.

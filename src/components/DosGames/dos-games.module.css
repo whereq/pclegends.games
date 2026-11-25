@@ -378,6 +378,18 @@
   overflow-wrap: anywhere;
 }
 
+/*
+ * The other name of the same game — the Chinese one the bundle is filed
+ * under, under the English title in the English locale and the other way
+ * round in the Chinese one. It is a line of context, not a second heading.
+ */
+.cardAltName {
+  font-size: 0.78rem;
+  color: #8b949e;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
 .cardTypes {
   display: flex;
   flex-wrap: wrap;
@@ -528,6 +540,24 @@
   font-size: 0.95rem;
   color: var(--ifm-color-emphasis-700);
   margin: 0;
+}
+
+/*
+ * The other name of the game — the Chinese name the bundle is filed under,
+ * under the English title in the English locale, and the other way round in
+ * the Chinese one.
+ */
+.gameAltName {
+  font-size: 1.05rem;
+  color: var(--ifm-color-emphasis-600);
+  margin: 0 0 0.25rem;
+}
+
+/* Where the original title came from — a line of provenance, not a heading. */
+.gameOrigin {
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-600);
+  margin: 0.35rem 0 0;
 }
 
 .gameActions {

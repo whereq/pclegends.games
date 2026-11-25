@@ -2,9 +2,16 @@ import React from 'react';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 import {PLAYED_GAMES, PLAYED_GROUPS, PLAYED_INTRO} from '../../data/games-played';
+import {
+  PLAYED_GAMES_ZH,
+  PLAYED_GROUPS_ZH,
+  PLAYED_INTRO_ZH,
+} from '../../data/games-played-zh';
 import {DOS_GAMES_COUNT} from '../../data/dos-games-stats';
+import {useCopy, useIsChinese} from '../../hooks/useCopy';
 import AtlasBlocks from '../Atlas/AtlasBlocks';
 import GiscusComments from '../GiscusComments';
+import {gameNames} from './game-names';
 import styles from './dos-games.module.css';
 
 /**
@@ -19,30 +26,33 @@ import styles from './dos-games.module.css';
  * card mark, which is drawn rather than a letter on a plate.
  */
 export default function PlayedGames(): React.JSX.Element {
-  const gamesByGroup = PLAYED_GROUPS.map((group) => ({
+  const copy = useCopy();
+  const chinese = useIsChinese();
+  const intro = chinese ? PLAYED_INTRO_ZH : PLAYED_INTRO;
+  const groups = chinese ? PLAYED_GROUPS_ZH : PLAYED_GROUPS;
+  const games = chinese ? PLAYED_GAMES_ZH : PLAYED_GAMES;
+
+  const gamesByGroup = groups.map((group) => ({
     group,
-    games: PLAYED_GAMES.filter((game) => game.group === group.id),
+    games: games.filter((game) => game.group === group.id),
   })).filter((entry) => entry.games.length > 0);
 
   return (
     <Layout
-      title="Played through"
-      description="The DOS games that have been played through on an emulator running WhereQ-DOSBox: the exact setup each one needs, the key that starts it, and what is on the screen behind it.">
+      title={copy.played.title}
+      description={copy.played.description}>
       <main className={styles.page}>
         <header className={styles.hero}>
-          <p className={styles.eyebrow}>The played-through shelf</p>
-          <h1 className={styles.title}>The games that have been played through</h1>
-          <p className={styles.lead}>
-            {PLAYED_GAMES.length} of the archive&rsquo;s {DOS_GAMES_COUNT.toLocaleString('en-US')}
-            {' '}games have been run on an emulator, and what the setup
-            actually took is written down here — the launcher, the key, and
-            the screens behind it. Every other game has a page too, in the{' '}
-            <Link to="/dos-games/">catalogue</Link>; those pages say plainly
-            that nobody has played them yet.
+          <p className={styles.eyebrow}>{copy.played.eyebrow}</p>
+          <h1 className={styles.title}>{copy.played.heading}</h1>
+          <p className={styles.lead}>{copy.played.lead}</p>
+          <p className={styles.para}>
+            {copy.played.intro(PLAYED_GAMES.length)}{' '}
+            <Link to="/dos-games/">{copy.catalogue.title}</Link>
           </p>
         </header>
 
-        {PLAYED_INTRO.map((section) => (
+        {intro.map((section) => (
           <section className={styles.section} key={section.title}>
             <h2 className={styles.sectionTitle}>{section.title}</h2>
             <AtlasBlocks blocks={section.blocks} />
@@ -68,7 +78,14 @@ export default function PlayedGames(): React.JSX.Element {
                       />
                     </span>
                     <span className={styles.cardHead}>
-                      <span className={styles.cardName}>{game.name}</span>
+                      <span className={styles.cardName}>
+                        {gameNames(game.name, game.nameEn, chinese).primary}
+                      </span>
+                      {gameNames(game.name, game.nameEn, chinese).secondary && (
+                        <span className={styles.cardAltName}>
+                          {gameNames(game.name, game.nameEn, chinese).secondary}
+                        </span>
+                      )}
                       <span className={styles.cardTypes}>
                         <span className={styles.cardType}>{game.status}</span>
                       </span>
@@ -77,14 +94,14 @@ export default function PlayedGames(): React.JSX.Element {
                   <p className={styles.cardBlurb}>{game.tagline}</p>
                   <div className={styles.cardActions}>
                     <Link className={styles.cardRead} to={`/dos-games/${game.id}/`}>
-                      Read the page
+                      {copy.common.readThePage}
                     </Link>
                     <a
                       className={styles.cardDownload}
                       href={game.url}
                       target="_blank"
                       rel="noopener noreferrer">
-                      Download
+                      {copy.common.download}
                     </a>
                   </div>
                 </article>
@@ -94,11 +111,8 @@ export default function PlayedGames(): React.JSX.Element {
         ))}
 
         <section className={styles.comments}>
-          <h2 className={styles.sectionTitle}>Comments</h2>
-          <p className={styles.para}>
-            Played one of these on your own machine and got further than the
-            page says? Say what you did — the next reader will thank you.
-          </p>
+          <h2 className={styles.sectionTitle}>{copy.common.comments}</h2>
+          <p className={styles.para}>{copy.played.commentsText}</p>
           <GiscusComments />
         </section>
       </main>

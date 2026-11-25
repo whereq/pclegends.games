@@ -11,11 +11,15 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "红色水晶石",
   role: "DOS Game",
+  roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 100 files, 4.3 MB.",
+  taglineZh: "MS-DOS · 1998 — 100 个文件，4.3 MB。",
   accent: "#148F77",
   group: "h",
   summary: "红色水晶石 is a DOS game in the WhereQ archive — 1998, 100 files, 4.3 MB, and an entry point of MOD7.EXE.",
+  summaryZh: "红色水晶石 是 WhereQ 归档中的一款 DOS 游戏——1998，100 个文件，4.3 MB，启动文件是 MOD7.EXE。",
   status: "1998",
+  statusZh: "1998",
   url: "https://dos-bin.zczc.cz/%E7%BA%A2%E8%89%B2%E6%B0%B4%E6%99%B6%E7%9F%B3.zip",
   facts: [
     {label: "Developer", value: "IREM"},
@@ -25,14 +29,21 @@ const entry: AtlasEntry = {
     {label: "Entry point", value: "MOD7.EXE"},
     {label: "Bundle", value: "100 files · 4.3 MB"},
   ],
+  factsZh: [
+    {label: "开发", value: "IREM"},
+    {label: "发行", value: "1998"},
+    {label: "类型", value: "Role-playing"},
+    {label: "平台", value: "MS-DOS"},
+    {label: "启动文件", value: "MOD7.EXE"},
+    {label: "游戏包", value: "100 个文件 · 4.3 MB"},
+  ],
   sections: [
     {
       title: "What it is",
       blocks: [
         {kind: "paragraph", text: "红色水晶石 is a DOS game in the WhereQ archive. The name IREM appears inside the program, though not on a copyright line — the publisher is most likely IREM. The bundle's own files are dated 1998, which is when this copy was built. The executable also carries a 1992 copyright line, which belongs to the runtime library it links rather than to the game. The copy is the program as it was distributed: 100 files, 4.3 MB, and an entry point of MOD7.EXE."},
         {kind: "paragraph", text: "This page is generated from the bundle itself: the file list, the dates and the checksum below are read out of the archive, not written from memory. The hand-written pages on this shelf — the ones with a drawn card mark — are the ones that have been played through on an emulator."},
-      ],
-    },
+      ]},
     {
       title: "Download the bundle",
       blocks: [
@@ -47,23 +58,20 @@ const entry: AtlasEntry = {
         {kind: "links", items: [
           {label: "Download 红色水晶石 (4.3 MB)", href: "https://dos-bin.zczc.cz/%E7%BA%A2%E8%89%B2%E6%B0%B4%E6%99%B6%E7%9F%B3.zip", external: true},
         ]},
-      ],
-    },
+      ]},
     {
       title: "Set it up in WhereQ-DOSBox",
       blocks: [
         {kind: "paragraph", text: "The entry point is MOD7.EXE. Import the zip into WhereQ-DOSBox and press Play, and the app starts that program."},
         {kind: "paragraph", text: "It carries 34 COM file(s) — the DOS loaders the program needs before it starts, the way a game with an XMS driver loads it first."},
         {kind: "paragraph", text: "This setup has not been played through on the emulator yet. If it does not work for you, the comment thread at the bottom of this page is where to say so — and what worked is worth writing down."},
-      ],
-    },
+      ]},
     {
       title: "How to play",
       blocks: [
         {kind: "paragraph", text: "Nobody has written down how this one starts yet. Import it, press Play, and tell us what happens — if it asks for a password, a serial number or a word from a manual, that is exactly the thing worth writing down."},
         {kind: "paragraph", text: "The pages that have been played through on an emulator sit alongside this one on the shelf, and they tell you the whole route in: which file to start, which key opens the menu, and which screen comes next."},
-      ],
-    },
+      ]},
     {
       title: "What is in the bundle",
       blocks: [
@@ -75,8 +83,7 @@ const entry: AtlasEntry = {
           ["Other files", "54 data file(s)"],
           ["Total", "100 files · 4.3 MB"],
         ]},
-      ],
-    },
+      ]},
     {
       title: "Where the facts come from",
       blocks: [
@@ -85,8 +92,64 @@ const entry: AtlasEntry = {
           "The archive index, for the size and the SHA-256 above.",
           "The original copy, at https://dos-bin.zczc.cz/%E7%BA%A2%E8%89%B2%E6%B0%B4%E6%99%B6%E7%9F%B3.zip.",
         ]},
-      ],
-    },
+      ]},
+  ],
+  sectionsZh: [
+    {
+      title: "这是一款什么游戏",
+      blocks: [
+        {kind: "paragraph", text: "红色水晶石 是 WhereQ 归档中的一款 DOS 游戏。 程序里出现过 IREM 这个名字，虽然它并不在版权声明上——发行商最可能就是 IREM。 游戏包内的文件日期是 1998，也正是这份拷贝构建的时间。可执行文件里还带有 1992 年的版权声明，那属于它链接的运行时库，而不是游戏本身。 这份拷贝就是当年发行的程序：100 个文件，4.3 MB，启动文件是 MOD7.EXE。"},
+        {kind: "paragraph", text: "本页由游戏包本身生成：下面的文件列表、日期与校验和都读自归档，而不是凭记忆写下的。这一架上手写的页面——也就是那些带着手绘卡片标记的——是真正在模拟器上通关过的。"},
+      ]},
+    {
+      title: "下载游戏包",
+      blocks: [
+        {kind: "paragraph", text: "游戏包就是生成该页的那个归档里的原件——同一个文件，逐字节相同。"},
+        {kind: "table", head: ["字段", "值"], rows: [
+          ["文件", "hong-se-shui-jing-shi.zip"],
+          ["大小", "4,549,019 字节（4.3 MB）"],
+          ["SHA-256", "c7fda769b7b8d18e9a2e569adf045dfd6292d45d483ed834f282c6f054cb01f6"],
+          ["文件数", "100"],
+          ["归档", "dos-bin.zczc.cz——生成该页的那个归档"],
+        ]},
+        {kind: "links", items: [
+          {label: "下载 红色水晶石（4.3 MB）", href: "https://dos-bin.zczc.cz/%E7%BA%A2%E8%89%B2%E6%B0%B4%E6%99%B6%E7%9F%B3.zip", external: true},
+        ]},
+      ]},
+    {
+      title: "在 WhereQ-DOSBox 里运行",
+      blocks: [
+        {kind: "paragraph", text: "启动文件是 MOD7.EXE。把 zip 导入 WhereQ-DOSBox 并按下播放，应用就会启动这个程序。"},
+        {kind: "paragraph", text: "它带有 34 个 COM 文件——程序在启动之前需要加载的 DOS 加载器，就像带 XMS 驱动的游戏会先把它加载进来一样。"},
+        {kind: "paragraph", text: "这套运行方式还没有在模拟器上试过。如果在你那里不管用，本页底部的评论区就是说出来的地方——而什么有效，值得写下来。"},
+      ]},
+    {
+      title: "怎么玩",
+      blocks: [
+        {kind: "paragraph", text: "还没有人写下这一款怎么开始。导入它，按下播放，然后告诉我们发生了什么——如果它要密码、序列号或者手册里的某个词，那正是值得写下来的东西。"},
+        {kind: "paragraph", text: "那些在模拟器上通关过的页面就在这一架的旁边，它们把整条路都写清楚了：从哪个文件开始、哪个键打开菜单、接下来是哪个画面。"},
+      ]},
+    {
+      title: "游戏包里有什么",
+      blocks: [
+        {kind: "table", head: ["部分", "内容"], rows: [
+          ["启动文件", "MOD7.EXE"],
+          ["可执行文件", "MOD1.EXE、MOD2.EXE、MOD3.EXE、MOD4.EXE、MOD5.EXE、MOD6.EXE、MOD7.EXE、SETM.EXE"],
+          ["批处理启动文件", "INSTALL.BAT、RC.BAT"],
+          ["COM 加载器", "ADLIB.COM、ADLIBG.COM、ASK.COM、CMIDPAK.COM、GF166.COM、IBM1BIT.COM、IBMBAK.COM、IBMSND.COM"],
+          ["其他文件", "54 个数据文件"],
+          ["合计", "100 个文件 · 4.3 MB"],
+        ]},
+      ]},
+    {
+      title: "这些事实的来源",
+      blocks: [
+        {kind: "list", items: [
+          "游戏包本身——它的文件列表、文件日期，以及启动文件里的字符串。",
+          "归档索引，给出上面的大小与 SHA-256。",
+          "原件，在 https://dos-bin.zczc.cz/%E7%BA%A2%E8%89%B2%E6%B0%B4%E6%99%B6%E7%9F%B3.zip。",
+        ]},
+      ]},
   ],
 };
 

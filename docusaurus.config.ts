@@ -40,13 +40,18 @@ async function createConfig(): Promise<Config> {
       },
     },
 
-    // One language for now. The game names are Chinese and stay as they
-    // are; the prose around them is English.
+    // Two languages. The archive is Chinese — the bundles are filed under
+    // their Chinese titles — but the games themselves are the Western ones
+    // most readers are looking for, so the English locale shows the
+    // original English title of each game with the Chinese name under it,
+    // and the Chinese locale shows the Chinese name with the English one
+    // under it.
     i18n: {
       defaultLocale: 'en',
-      locales: ['en'],
+      locales: ['en', 'zh-CN'],
       localeConfigs: {
-        en: { label: 'English', direction: 'ltr' },
+        en: {label: 'English', direction: 'ltr', htmlLang: 'en'},
+        'zh-CN': {label: '简体中文', direction: 'ltr', htmlLang: 'zh-CN'},
       },
     },
 
@@ -79,7 +84,10 @@ async function createConfig(): Promise<Config> {
         '@easyops-cn/docusaurus-search-local',
         {
           hashed: true,
-          language: ['en'],
+          // The index is one index for the whole site, built for both the
+          // English words and the Chinese ones. `zh` is the search plugin's
+          // code for Chinese; the Docusaurus locale is `zh-CN`.
+          language: ['en', 'zh'],
           highlightSearchTermsOnTargetPage: true,
           explicitSearchResultPath: true,
           indexBlog: false,
@@ -117,6 +125,11 @@ async function createConfig(): Promise<Config> {
           { to: '/guide/reading-a-page', label: 'Guide', position: 'left' },
           { to: '/about', label: 'About', position: 'left' },
           { to: '/privacy', label: 'Privacy', position: 'left' },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+            className: 'locale-dropdown',
+          },
           {
             href: 'https://github.com/whereq/pclegends.games',
             position: 'right',

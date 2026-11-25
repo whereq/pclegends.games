@@ -11,11 +11,15 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "模拟生命",
   role: "DOS Game",
+  roleZh: "DOS 游戏",
   tagline: "MS-DOS — 125 files, 1008 KB.",
+  taglineZh: "MS-DOS — 125 个文件，1008 KB。",
   accent: "#AF7AC5",
   group: "m",
   summary: "模拟生命 is a DOS game in the WhereQ archive — an undated copy, 125 files, 1008 KB, and an entry point of simlife.bat.",
+  summaryZh: "模拟生命 是 WhereQ 归档中的一款 DOS 游戏——年代未标注，125 个文件，1008 KB，启动文件是 simlife.bat。",
   status: "Archive",
+  statusZh: "归档",
   url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E7%94%9F%E5%91%BD.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
@@ -25,14 +29,21 @@ const entry: AtlasEntry = {
     {label: "Entry point", value: "simlife.bat"},
     {label: "Bundle", value: "125 files · 1008 KB"},
   ],
+  factsZh: [
+    {label: "开发", value: "游戏包中没有说明"},
+    {label: "发行", value: "未标注年代"},
+    {label: "类型", value: "Simulation"},
+    {label: "平台", value: "MS-DOS"},
+    {label: "启动文件", value: "simlife.bat"},
+    {label: "游戏包", value: "125 个文件 · 1008 KB"},
+  ],
   sections: [
     {
       title: "What it is",
       blocks: [
         {kind: "paragraph", text: "模拟生命 is a DOS game in the WhereQ archive. The executable carries a copyright line from 1992. The copy is the program as it was distributed: 125 files, 1008 KB, and an entry point of simlife.bat."},
         {kind: "paragraph", text: "This page is generated from the bundle itself: the file list, the dates and the checksum below are read out of the archive, not written from memory. The hand-written pages on this shelf — the ones with a drawn card mark — are the ones that have been played through on an emulator."},
-      ],
-    },
+      ]},
     {
       title: "Download the bundle",
       blocks: [
@@ -47,22 +58,19 @@ const entry: AtlasEntry = {
         {kind: "links", items: [
           {label: "Download 模拟生命 (1008 KB)", href: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E7%94%9F%E5%91%BD.zip", external: true},
         ]},
-      ],
-    },
+      ]},
     {
       title: "Set it up in WhereQ-DOSBox",
       blocks: [
         {kind: "paragraph", text: "The bundle starts with a batch file, simlife.bat. WhereQ-DOSBox runs the batch file when you press Play, and a batch file of this kind normally sets the paths up and then starts the game — which is why this one needs no launcher of its own."},
         {kind: "paragraph", text: "This setup has not been played through on the emulator yet. If it does not work for you, the comment thread at the bottom of this page is where to say so — and what worked is worth writing down."},
-      ],
-    },
+      ]},
     {
       title: "How to play",
       blocks: [
         {kind: "paragraph", text: "Nobody has written down how this one starts yet. Import it, press Play, and tell us what happens — if it asks for a password, a serial number or a word from a manual, that is exactly the thing worth writing down."},
         {kind: "paragraph", text: "The pages that have been played through on an emulator sit alongside this one on the shelf, and they tell you the whole route in: which file to start, which key opens the menu, and which screen comes next."},
-      ],
-    },
+      ]},
     {
       title: "What is in the bundle",
       blocks: [
@@ -73,8 +81,7 @@ const entry: AtlasEntry = {
           ["Other files", "123 data file(s)"],
           ["Total", "125 files · 1008 KB"],
         ]},
-      ],
-    },
+      ]},
     {
       title: "Where the facts come from",
       blocks: [
@@ -83,8 +90,62 @@ const entry: AtlasEntry = {
           "The archive index, for the size and the SHA-256 above.",
           "The original copy, at https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E7%94%9F%E5%91%BD.zip.",
         ]},
-      ],
-    },
+      ]},
+  ],
+  sectionsZh: [
+    {
+      title: "这是一款什么游戏",
+      blocks: [
+        {kind: "paragraph", text: "模拟生命 是 WhereQ 归档中的一款 DOS 游戏。 可执行文件里带有 1992 年的版权声明。 这份拷贝就是当年发行的程序：125 个文件，1008 KB，启动文件是 simlife.bat。"},
+        {kind: "paragraph", text: "本页由游戏包本身生成：下面的文件列表、日期与校验和都读自归档，而不是凭记忆写下的。这一架上手写的页面——也就是那些带着手绘卡片标记的——是真正在模拟器上通关过的。"},
+      ]},
+    {
+      title: "下载游戏包",
+      blocks: [
+        {kind: "paragraph", text: "游戏包就是生成该页的那个归档里的原件——同一个文件，逐字节相同。"},
+        {kind: "table", head: ["字段", "值"], rows: [
+          ["文件", "mo-ni-sheng-ming.zip"],
+          ["大小", "1,032,154 字节（1008 KB）"],
+          ["SHA-256", "3b807cf5fb16eea0d283d293f3649579ab69084e63ed95d81ea8bb600f121520"],
+          ["文件数", "125"],
+          ["归档", "dos-bin.zczc.cz——生成该页的那个归档"],
+        ]},
+        {kind: "links", items: [
+          {label: "下载 模拟生命（1008 KB）", href: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E7%94%9F%E5%91%BD.zip", external: true},
+        ]},
+      ]},
+    {
+      title: "在 WhereQ-DOSBox 里运行",
+      blocks: [
+        {kind: "paragraph", text: "游戏包以批处理文件 simlife.bat 开始。在 WhereQ-DOSBox 中按下播放时，运行的就是这个批处理文件；而这种批处理文件通常会先把路径设好，再启动游戏——所以这一款不需要单独的启动器。"},
+        {kind: "paragraph", text: "这套运行方式还没有在模拟器上试过。如果在你那里不管用，本页底部的评论区就是说出来的地方——而什么有效，值得写下来。"},
+      ]},
+    {
+      title: "怎么玩",
+      blocks: [
+        {kind: "paragraph", text: "还没有人写下这一款怎么开始。导入它，按下播放，然后告诉我们发生了什么——如果它要密码、序列号或者手册里的某个词，那正是值得写下来的东西。"},
+        {kind: "paragraph", text: "那些在模拟器上通关过的页面就在这一架的旁边，它们把整条路都写清楚了：从哪个文件开始、哪个键打开菜单、接下来是哪个画面。"},
+      ]},
+    {
+      title: "游戏包里有什么",
+      blocks: [
+        {kind: "table", head: ["部分", "内容"], rows: [
+          ["启动文件", "simlife.bat"],
+          ["可执行文件", "sml.exe"],
+          ["批处理启动文件", "simlife.bat"],
+          ["其他文件", "123 个数据文件"],
+          ["合计", "125 个文件 · 1008 KB"],
+        ]},
+      ]},
+    {
+      title: "这些事实的来源",
+      blocks: [
+        {kind: "list", items: [
+          "游戏包本身——它的文件列表、文件日期，以及启动文件里的字符串。",
+          "归档索引，给出上面的大小与 SHA-256。",
+          "原件，在 https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E7%94%9F%E5%91%BD.zip。",
+        ]},
+      ]},
   ],
 };
 

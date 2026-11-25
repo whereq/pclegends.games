@@ -11,11 +11,15 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "三国志5加强版",
   role: "DOS Game",
+  roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 87 files, 9.3 MB.",
+  taglineZh: "MS-DOS · 1996 — 87 个文件，9.3 MB。",
   accent: "#EC7063",
   group: "s",
   summary: "三国志5加强版 is a DOS game in the WhereQ archive — 1996, 87 files, 9.3 MB, and an entry point of SAN586.COM.",
+  summaryZh: "三国志5加强版 是 WhereQ 归档中的一款 DOS 游戏——1996，87 个文件，9.3 MB，启动文件是 SAN586.COM。",
   status: "1996",
+  statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%975%E5%8A%A0%E5%BC%BA%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
@@ -25,14 +29,21 @@ const entry: AtlasEntry = {
     {label: "Entry point", value: "SAN586.COM"},
     {label: "Bundle", value: "87 files · 9.3 MB"},
   ],
+  factsZh: [
+    {label: "开发", value: "游戏包中没有说明"},
+    {label: "发行", value: "1996"},
+    {label: "类型", value: "Strategy"},
+    {label: "平台", value: "MS-DOS"},
+    {label: "启动文件", value: "SAN586.COM"},
+    {label: "游戏包", value: "87 个文件 · 9.3 MB"},
+  ],
   sections: [
     {
       title: "What it is",
       blocks: [
         {kind: "paragraph", text: "三国志5加强版 is a DOS game in the WhereQ archive. The bundle's own files are dated 1996, which is when this copy was built. The executable also carries a 2011 copyright line, which belongs to the runtime library it links rather than to the game. The copy is the program as it was distributed: 87 files, 9.3 MB, and an entry point of SAN586.COM."},
         {kind: "paragraph", text: "This page is generated from the bundle itself: the file list, the dates and the checksum below are read out of the archive, not written from memory. The hand-written pages on this shelf — the ones with a drawn card mark — are the ones that have been played through on an emulator."},
-      ],
-    },
+      ]},
     {
       title: "Download the bundle",
       blocks: [
@@ -47,23 +58,20 @@ const entry: AtlasEntry = {
         {kind: "links", items: [
           {label: "Download 三国志5加强版 (9.3 MB)", href: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%975%E5%8A%A0%E5%BC%BA%E7%89%88.zip", external: true},
         ]},
-      ],
-    },
+      ]},
     {
       title: "Set it up in WhereQ-DOSBox",
       blocks: [
         {kind: "paragraph", text: "The entry point is SAN586.COM. Import the zip into WhereQ-DOSBox and press Play, and the app starts that program."},
         {kind: "paragraph", text: "It carries 7 COM file(s) — the DOS loaders the program needs before it starts, the way a game with an XMS driver loads it first."},
         {kind: "paragraph", text: "This setup has not been played through on the emulator yet. If it does not work for you, the comment thread at the bottom of this page is where to say so — and what worked is worth writing down."},
-      ],
-    },
+      ]},
     {
       title: "How to play",
       blocks: [
         {kind: "paragraph", text: "Nobody has written down how this one starts yet. Import it, press Play, and tell us what happens — if it asks for a password, a serial number or a word from a manual, that is exactly the thing worth writing down."},
         {kind: "paragraph", text: "The pages that have been played through on an emulator sit alongside this one on the shelf, and they tell you the whole route in: which file to start, which key opens the menu, and which screen comes next."},
-      ],
-    },
+      ]},
     {
       title: "What is in the bundle",
       blocks: [
@@ -75,8 +83,7 @@ const entry: AtlasEntry = {
           ["Other files", "71 data file(s)"],
           ["Total", "87 files · 9.3 MB"],
         ]},
-      ],
-    },
+      ]},
     {
       title: "Where the facts come from",
       blocks: [
@@ -85,8 +92,64 @@ const entry: AtlasEntry = {
           "The archive index, for the size and the SHA-256 above.",
           "The original copy, at https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%975%E5%8A%A0%E5%BC%BA%E7%89%88.zip.",
         ]},
-      ],
-    },
+      ]},
+  ],
+  sectionsZh: [
+    {
+      title: "这是一款什么游戏",
+      blocks: [
+        {kind: "paragraph", text: "三国志5加强版 是 WhereQ 归档中的一款 DOS 游戏。 游戏包内的文件日期是 1996，也正是这份拷贝构建的时间。可执行文件里还带有 2011 年的版权声明，那属于它链接的运行时库，而不是游戏本身。 这份拷贝就是当年发行的程序：87 个文件，9.3 MB，启动文件是 SAN586.COM。"},
+        {kind: "paragraph", text: "本页由游戏包本身生成：下面的文件列表、日期与校验和都读自归档，而不是凭记忆写下的。这一架上手写的页面——也就是那些带着手绘卡片标记的——是真正在模拟器上通关过的。"},
+      ]},
+    {
+      title: "下载游戏包",
+      blocks: [
+        {kind: "paragraph", text: "游戏包就是生成该页的那个归档里的原件——同一个文件，逐字节相同。"},
+        {kind: "table", head: ["字段", "值"], rows: [
+          ["文件", "san-guo-zhi-5-jia-qiang-ban.zip"],
+          ["大小", "9,704,755 字节（9.3 MB）"],
+          ["SHA-256", "328c1448a0fb8b0f28d71871fc0b74bd0ecd84c1b3d1bb2248bff70e81326140"],
+          ["文件数", "87"],
+          ["归档", "dos-bin.zczc.cz——生成该页的那个归档"],
+        ]},
+        {kind: "links", items: [
+          {label: "下载 三国志5加强版（9.3 MB）", href: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%975%E5%8A%A0%E5%BC%BA%E7%89%88.zip", external: true},
+        ]},
+      ]},
+    {
+      title: "在 WhereQ-DOSBox 里运行",
+      blocks: [
+        {kind: "paragraph", text: "启动文件是 SAN586.COM。把 zip 导入 WhereQ-DOSBox 并按下播放，应用就会启动这个程序。"},
+        {kind: "paragraph", text: "它带有 7 个 COM 文件——程序在启动之前需要加载的 DOS 加载器，就像带 XMS 驱动的游戏会先把它加载进来一样。"},
+        {kind: "paragraph", text: "这套运行方式还没有在模拟器上试过。如果在你那里不管用，本页底部的评论区就是说出来的地方——而什么有效，值得写下来。"},
+      ]},
+    {
+      title: "怎么玩",
+      blocks: [
+        {kind: "paragraph", text: "还没有人写下这一款怎么开始。导入它，按下播放，然后告诉我们发生了什么——如果它要密码、序列号或者手册里的某个词，那正是值得写下来的东西。"},
+        {kind: "paragraph", text: "那些在模拟器上通关过的页面就在这一架的旁边，它们把整条路都写清楚了：从哪个文件开始、哪个键打开菜单、接下来是哪个画面。"},
+      ]},
+    {
+      title: "游戏包里有什么",
+      blocks: [
+        {kind: "table", head: ["部分", "内容"], rows: [
+          ["启动文件", "SAN586.COM"],
+          ["可执行文件", "END.EXE、GRP480C.EXE、GRP600C.EXE、GRPDRV.EXE、INSTMAIN.EXE、MAIN.EXE、OPEN.EXE、San5dpa.exe"],
+          ["批处理启动文件", "PLAY.BAT"],
+          ["COM 加载器", "BGMSEQ.COM、FMDRV.COM、FMOPL2.COM、SAN5.COM、SAN586.COM、TIMERPC.COM、TSRMAN.COM"],
+          ["其他文件", "71 个数据文件"],
+          ["合计", "87 个文件 · 9.3 MB"],
+        ]},
+      ]},
+    {
+      title: "这些事实的来源",
+      blocks: [
+        {kind: "list", items: [
+          "游戏包本身——它的文件列表、文件日期，以及启动文件里的字符串。",
+          "归档索引，给出上面的大小与 SHA-256。",
+          "原件，在 https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%975%E5%8A%A0%E5%BC%BA%E7%89%88.zip。",
+        ]},
+      ]},
   ],
 };
 

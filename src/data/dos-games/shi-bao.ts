@@ -11,11 +11,15 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "石堡",
   role: "DOS Game",
+  roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 173 files, 116.7 MB.",
+  taglineZh: "MS-DOS · 1995 — 173 个文件，116.7 MB。",
   accent: "#EC7063",
   group: "s",
   summary: "石堡 is a DOS game in the WhereQ archive — 1995, 173 files, 116.7 MB, and an entry point of SK.EXE.",
+  summaryZh: "石堡 是 WhereQ 归档中的一款 DOS 游戏——1995，173 个文件，116.7 MB，启动文件是 SK.EXE。",
   status: "1995",
+  statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E7%9F%B3%E5%A0%A1.zip",
   facts: [
     {label: "Developer", value: "IREM"},
@@ -25,14 +29,21 @@ const entry: AtlasEntry = {
     {label: "Entry point", value: "SK.EXE"},
     {label: "Bundle", value: "173 files · 116.7 MB"},
   ],
+  factsZh: [
+    {label: "开发", value: "IREM"},
+    {label: "发行", value: "1995"},
+    {label: "类型", value: "Role-playing"},
+    {label: "平台", value: "MS-DOS"},
+    {label: "启动文件", value: "SK.EXE"},
+    {label: "游戏包", value: "173 个文件 · 116.7 MB"},
+  ],
   sections: [
     {
       title: "What it is",
       blocks: [
         {kind: "paragraph", text: "石堡 is a DOS game in the WhereQ archive. The name IREM appears inside the program, though not on a copyright line — the publisher is most likely IREM. The bundle's own files are dated 1995, and the executable carries a matching copyright line — Copyright(C) 1995 Parallax Software Corp. and Interplay Productions, Inc. \u0000 Stonekeep Copy The copy is the program as it was distributed: 173 files, 116.7 MB, and an entry point of SK.EXE."},
         {kind: "paragraph", text: "This page is generated from the bundle itself: the file list, the dates and the checksum below are read out of the archive, not written from memory. The hand-written pages on this shelf — the ones with a drawn card mark — are the ones that have been played through on an emulator."},
-      ],
-    },
+      ]},
     {
       title: "Download the bundle",
       blocks: [
@@ -47,22 +58,19 @@ const entry: AtlasEntry = {
         {kind: "links", items: [
           {label: "Download 石堡 (116.7 MB)", href: "https://dos-bin.zczc.cz/%E7%9F%B3%E5%A0%A1.zip", external: true},
         ]},
-      ],
-    },
+      ]},
     {
       title: "Set it up in WhereQ-DOSBox",
       blocks: [
         {kind: "paragraph", text: "The entry point is SK.EXE. Import the zip into WhereQ-DOSBox and press Play, and the app starts that program."},
         {kind: "paragraph", text: "This setup has not been played through on the emulator yet. If it does not work for you, the comment thread at the bottom of this page is where to say so — and what worked is worth writing down."},
-      ],
-    },
+      ]},
     {
       title: "How to play",
       blocks: [
         {kind: "paragraph", text: "Nobody has written down how this one starts yet. Import it, press Play, and tell us what happens — if it asks for a password, a serial number or a word from a manual, that is exactly the thing worth writing down."},
         {kind: "paragraph", text: "The pages that have been played through on an emulator sit alongside this one on the shelf, and they tell you the whole route in: which file to start, which key opens the menu, and which screen comes next."},
-      ],
-    },
+      ]},
     {
       title: "What is in the bundle",
       blocks: [
@@ -72,8 +80,7 @@ const entry: AtlasEntry = {
           ["Other files", "166 data file(s)"],
           ["Total", "173 files · 116.7 MB"],
         ]},
-      ],
-    },
+      ]},
     {
       title: "Where the facts come from",
       blocks: [
@@ -82,8 +89,61 @@ const entry: AtlasEntry = {
           "The archive index, for the size and the SHA-256 above.",
           "The original copy, at https://dos-bin.zczc.cz/%E7%9F%B3%E5%A0%A1.zip.",
         ]},
-      ],
-    },
+      ]},
+  ],
+  sectionsZh: [
+    {
+      title: "这是一款什么游戏",
+      blocks: [
+        {kind: "paragraph", text: "石堡 是 WhereQ 归档中的一款 DOS 游戏。 程序里出现过 IREM 这个名字，虽然它并不在版权声明上——发行商最可能就是 IREM。 游戏包内的文件日期是 1995，而可执行文件里带有同样年份的版权声明——Copyright(C) 1995 Parallax Software Corp. and Interplay Productions, Inc. \u0000 Stonekeep Copy 这份拷贝就是当年发行的程序：173 个文件，116.7 MB，启动文件是 SK.EXE。"},
+        {kind: "paragraph", text: "本页由游戏包本身生成：下面的文件列表、日期与校验和都读自归档，而不是凭记忆写下的。这一架上手写的页面——也就是那些带着手绘卡片标记的——是真正在模拟器上通关过的。"},
+      ]},
+    {
+      title: "下载游戏包",
+      blocks: [
+        {kind: "paragraph", text: "游戏包就是生成该页的那个归档里的原件——同一个文件，逐字节相同。"},
+        {kind: "table", head: ["字段", "值"], rows: [
+          ["文件", "shi-bao.zip"],
+          ["大小", "122,383,434 字节（116.7 MB）"],
+          ["SHA-256", "1aba1e8a3cb9199825e96a0ee11d21d88f197e0d6e01ffa0485cbe573ef4eb5d"],
+          ["文件数", "173"],
+          ["归档", "dos-bin.zczc.cz——生成该页的那个归档"],
+        ]},
+        {kind: "links", items: [
+          {label: "下载 石堡（116.7 MB）", href: "https://dos-bin.zczc.cz/%E7%9F%B3%E5%A0%A1.zip", external: true},
+        ]},
+      ]},
+    {
+      title: "在 WhereQ-DOSBox 里运行",
+      blocks: [
+        {kind: "paragraph", text: "启动文件是 SK.EXE。把 zip 导入 WhereQ-DOSBox 并按下播放，应用就会启动这个程序。"},
+        {kind: "paragraph", text: "这套运行方式还没有在模拟器上试过。如果在你那里不管用，本页底部的评论区就是说出来的地方——而什么有效，值得写下来。"},
+      ]},
+    {
+      title: "怎么玩",
+      blocks: [
+        {kind: "paragraph", text: "还没有人写下这一款怎么开始。导入它，按下播放，然后告诉我们发生了什么——如果它要密码、序列号或者手册里的某个词，那正是值得写下来的东西。"},
+        {kind: "paragraph", text: "那些在模拟器上通关过的页面就在这一架的旁边，它们把整条路都写清楚了：从哪个文件开始、哪个键打开菜单、接下来是哪个画面。"},
+      ]},
+    {
+      title: "游戏包里有什么",
+      blocks: [
+        {kind: "table", head: ["部分", "内容"], rows: [
+          ["启动文件", "SK.EXE"],
+          ["可执行文件", "ARJ.EXE、DOS4GW.EXE、EREGCARD.EXE、SETUP.EXE、SK.EXE、TDUINTRO.EXE、TDUJAM.EXE"],
+          ["其他文件", "166 个数据文件"],
+          ["合计", "173 个文件 · 116.7 MB"],
+        ]},
+      ]},
+    {
+      title: "这些事实的来源",
+      blocks: [
+        {kind: "list", items: [
+          "游戏包本身——它的文件列表、文件日期，以及启动文件里的字符串。",
+          "归档索引，给出上面的大小与 SHA-256。",
+          "原件，在 https://dos-bin.zczc.cz/%E7%9F%B3%E5%A0%A1.zip。",
+        ]},
+      ]},
   ],
 };
 

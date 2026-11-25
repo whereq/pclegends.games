@@ -68,6 +68,59 @@ TXT record GitHub asks for.
   `webpackbar` and fails the same way.
 - **`webpack` must be 5.106.1.**
 
+## Two languages
+
+The site speaks **English and Chinese** (`en` and `zh-CN`). The archive is
+Chinese — the bundles are filed under their Chinese titles — but most of
+these are Western games under a Chinese title, so the English locale shows
+the **original English title** on the card, with the Chinese name under it;
+the Chinese locale shows the Chinese name with the English one under it.
+The switcher is in the navbar.
+
+- **The site's own words live in `src/data/site-copy.ts`**, one object per
+  language. A page never decides for itself which language it is in: it
+  asks `useCopy()` (`src/hooks/useCopy.ts`) for the language Docusaurus is
+  building. A link inside a copy string is written the way Markdown writes
+  one — `[label](/url)` — and picked up by `src/components/RichText.tsx`.
+- **A generated page carries both languages in one module**: `sections` and
+  `sectionsZh`, `facts` and `factsZh`, `role`/`roleZh`, `tagline`/`taglineZh`,
+  `summary`/`summaryZh`. `DosGamePage` picks the Chinese ones in the
+  Chinese locale.
+- **The five hand-written games** live in `src/data/games-played.ts` (English)
+  and `src/data/games-played-zh.ts` (Chinese), with the same ids.
+- **Markdown pages are translated through the plugins' own folders**:
+  `i18n/zh-CN/docusaurus-plugin-content-pages/privacy.mdx` and
+  `i18n/zh-CN/docusaurus-plugin-content-docs/current/*.md`. The theme's own
+  strings are in `i18n/zh-CN/code.json` and the navbar and footer labels in
+  `i18n/zh-CN/docusaurus-theme-classic/`.
+- **The search plugin indexes both languages** (`language: ['en', 'zh']`) —
+  `zh` is the search plugin's code for Chinese; the Docusaurus locale is
+  `zh-CN`. The non-default locale is served under `/zh-CN/`.
+
+## The English title of a game
+
+The Chinese name on the card is the name the **bundle** is filed under. The
+English name is the title the game is actually known by, and it comes from
+one of four places, in the order they are trusted:
+
+| source | what it is |
+|---|---|
+| `bundle` | the title is inside the game's own strings, or in the name of one of its files — the strongest evidence, and the one the site quotes |
+| `published` | the archive's own index (`dos.lol`) records an English name |
+| `wiki` | the [CN DOS Games Wiki](https://cn-dos-games.fandom.com) records it in the `original name (en)` field |
+| `known` | the title the game is established under, which this bundle does not carry |
+
+`data/english-names.json` is the table the generator reads. To rebuild it:
+
+```bash
+python3 scripts/collect-wiki-names.py      # the wiki's own English titles
+python3 scripts/verify-bundle-claims.py     # check every "bundle" claim against the bundle
+python3 scripts/build-english-names.py      # merge into data/english-names.json
+```
+
+**A `bundle` claim that does not check out is downgraded to `known`**, so a
+wrong English title never reaches the site as fact.
+
 ## Content conventions
 
 - **The game pages are generated, not written.** `scripts/generate-dos-games.py`
@@ -99,6 +152,8 @@ TXT record GitHub asks for.
   at `https://dos-bin.zczc.cz/<name>.zip` — the archive the page was
   generated from. There is no mirror: the file the reader downloads is the
   file the page describes, and its SHA-256 is the archive's own.
+- **The category labels are bilingual** — `label`/`labelZh` and
+  `blurb`/`blurbZh` — written in `scripts/dos_game_categories.py`.
 - **A generated page is honest about what is not known.** The facts come
   from the bundle: its file list, its file dates, the strings in its entry
   point and the archive's checksum. The "How to play" section says plainly

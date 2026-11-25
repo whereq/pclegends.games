@@ -11,11 +11,15 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "指挥官基恩10民间版",
   role: "DOS Game",
+  roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2007 — 14 files, 438 KB.",
+  taglineZh: "MS-DOS · 2007 — 14 个文件，438 KB。",
   accent: "#515A5A",
   group: "z",
   summary: "指挥官基恩10民间版 is a DOS game in the WhereQ archive — 2007, 14 files, 438 KB, and an entry point of KEEN4E.EXE.",
+  summaryZh: "指挥官基恩10民间版 是 WhereQ 归档中的一款 DOS 游戏——2007，14 个文件，438 KB，启动文件是 KEEN4E.EXE。",
   status: "2007",
+  statusZh: "2007",
   url: "https://dos-bin.zczc.cz/%E6%8C%87%E6%8C%A5%E5%AE%98%E5%9F%BA%E6%81%A910%E6%B0%91%E9%97%B4%E7%89%88.zip",
   facts: [
     {label: "Developer", value: "WARP"},
@@ -25,14 +29,21 @@ const entry: AtlasEntry = {
     {label: "Entry point", value: "KEEN4E.EXE"},
     {label: "Bundle", value: "14 files · 438 KB"},
   ],
+  factsZh: [
+    {label: "开发", value: "WARP"},
+    {label: "发行", value: "2007"},
+    {label: "类型", value: "Action"},
+    {label: "平台", value: "MS-DOS"},
+    {label: "启动文件", value: "KEEN4E.EXE"},
+    {label: "游戏包", value: "14 个文件 · 438 KB"},
+  ],
   sections: [
     {
       title: "What it is",
       blocks: [
         {kind: "paragraph", text: "指挥官基恩10民间版 is a DOS game in the WhereQ archive. The name WARP appears inside the program, though not on a copyright line — the publisher is most likely WARP. The bundle's own files are dated 2007, and the executable carries a matching copyright line — Copyright (C) 2001-2007 Bryan Rodgers <rodgersb@ses.curtin.edu.au, me@andy.durdin.net> The copy is the program as it was distributed: 14 files, 438 KB, and an entry point of KEEN4E.EXE."},
         {kind: "paragraph", text: "This page is generated from the bundle itself: the file list, the dates and the checksum below are read out of the archive, not written from memory. The hand-written pages on this shelf — the ones with a drawn card mark — are the ones that have been played through on an emulator."},
-      ],
-    },
+      ]},
     {
       title: "Download the bundle",
       blocks: [
@@ -47,22 +58,19 @@ const entry: AtlasEntry = {
         {kind: "links", items: [
           {label: "Download 指挥官基恩10民间版 (438 KB)", href: "https://dos-bin.zczc.cz/%E6%8C%87%E6%8C%A5%E5%AE%98%E5%9F%BA%E6%81%A910%E6%B0%91%E9%97%B4%E7%89%88.zip", external: true},
         ]},
-      ],
-    },
+      ]},
     {
       title: "Set it up in WhereQ-DOSBox",
       blocks: [
         {kind: "paragraph", text: "The entry point is KEEN4E.EXE. Import the zip into WhereQ-DOSBox and press Play, and the app starts that program."},
         {kind: "paragraph", text: "This setup has not been played through on the emulator yet. If it does not work for you, the comment thread at the bottom of this page is where to say so — and what worked is worth writing down."},
-      ],
-    },
+      ]},
     {
       title: "How to play",
       blocks: [
         {kind: "paragraph", text: "Nobody has written down how this one starts yet. Import it, press Play, and tell us what happens — if it asks for a password, a serial number or a word from a manual, that is exactly the thing worth writing down."},
         {kind: "paragraph", text: "The pages that have been played through on an emulator sit alongside this one on the shelf, and they tell you the whole route in: which file to start, which key opens the menu, and which screen comes next."},
-      ],
-    },
+      ]},
     {
       title: "What is in the bundle",
       blocks: [
@@ -73,8 +81,7 @@ const entry: AtlasEntry = {
           ["Other files", "11 data file(s)"],
           ["Total", "14 files · 438 KB"],
         ]},
-      ],
-    },
+      ]},
     {
       title: "Where the facts come from",
       blocks: [
@@ -83,8 +90,62 @@ const entry: AtlasEntry = {
           "The archive index, for the size and the SHA-256 above.",
           "The original copy, at https://dos-bin.zczc.cz/%E6%8C%87%E6%8C%A5%E5%AE%98%E5%9F%BA%E6%81%A910%E6%B0%91%E9%97%B4%E7%89%88.zip.",
         ]},
-      ],
-    },
+      ]},
+  ],
+  sectionsZh: [
+    {
+      title: "这是一款什么游戏",
+      blocks: [
+        {kind: "paragraph", text: "指挥官基恩10民间版 是 WhereQ 归档中的一款 DOS 游戏。 程序里出现过 WARP 这个名字，虽然它并不在版权声明上——发行商最可能就是 WARP。 游戏包内的文件日期是 2007，而可执行文件里带有同样年份的版权声明——Copyright (C) 2001-2007 Bryan Rodgers <rodgersb@ses.curtin.edu.au, me@andy.durdin.net> 这份拷贝就是当年发行的程序：14 个文件，438 KB，启动文件是 KEEN4E.EXE。"},
+        {kind: "paragraph", text: "本页由游戏包本身生成：下面的文件列表、日期与校验和都读自归档，而不是凭记忆写下的。这一架上手写的页面——也就是那些带着手绘卡片标记的——是真正在模拟器上通关过的。"},
+      ]},
+    {
+      title: "下载游戏包",
+      blocks: [
+        {kind: "paragraph", text: "游戏包就是生成该页的那个归档里的原件——同一个文件，逐字节相同。"},
+        {kind: "table", head: ["字段", "值"], rows: [
+          ["文件", "zhi-hui-guan-ji-en-10-min-jian-ban.zip"],
+          ["大小", "448,757 字节（438 KB）"],
+          ["SHA-256", "892eb81dc2122882c326fb3a58b2eddcdb7978b18bcc12439abfcafac5dcacf2"],
+          ["文件数", "14"],
+          ["归档", "dos-bin.zczc.cz——生成该页的那个归档"],
+        ]},
+        {kind: "links", items: [
+          {label: "下载 指挥官基恩10民间版（438 KB）", href: "https://dos-bin.zczc.cz/%E6%8C%87%E6%8C%A5%E5%AE%98%E5%9F%BA%E6%81%A910%E6%B0%91%E9%97%B4%E7%89%88.zip", external: true},
+        ]},
+      ]},
+    {
+      title: "在 WhereQ-DOSBox 里运行",
+      blocks: [
+        {kind: "paragraph", text: "启动文件是 KEEN4E.EXE。把 zip 导入 WhereQ-DOSBox 并按下播放，应用就会启动这个程序。"},
+        {kind: "paragraph", text: "这套运行方式还没有在模拟器上试过。如果在你那里不管用，本页底部的评论区就是说出来的地方——而什么有效，值得写下来。"},
+      ]},
+    {
+      title: "怎么玩",
+      blocks: [
+        {kind: "paragraph", text: "还没有人写下这一款怎么开始。导入它，按下播放，然后告诉我们发生了什么——如果它要密码、序列号或者手册里的某个词，那正是值得写下来的东西。"},
+        {kind: "paragraph", text: "那些在模拟器上通关过的页面就在这一架的旁边，它们把整条路都写清楚了：从哪个文件开始、哪个键打开菜单、接下来是哪个画面。"},
+      ]},
+    {
+      title: "游戏包里有什么",
+      blocks: [
+        {kind: "table", head: ["部分", "内容"], rows: [
+          ["启动文件", "KEEN4E.EXE"],
+          ["可执行文件", "CK4PATCH.EXE、KEEN4E.EXE"],
+          ["批处理启动文件", "CKxBM.bat"],
+          ["其他文件", "11 个数据文件"],
+          ["合计", "14 个文件 · 438 KB"],
+        ]},
+      ]},
+    {
+      title: "这些事实的来源",
+      blocks: [
+        {kind: "list", items: [
+          "游戏包本身——它的文件列表、文件日期，以及启动文件里的字符串。",
+          "归档索引，给出上面的大小与 SHA-256。",
+          "原件，在 https://dos-bin.zczc.cz/%E6%8C%87%E6%8C%A5%E5%AE%98%E5%9F%BA%E6%81%A910%E6%B0%91%E9%97%B4%E7%89%88.zip。",
+        ]},
+      ]},
   ],
 };
 

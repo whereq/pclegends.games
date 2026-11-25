@@ -11,11 +11,15 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "金庸快打",
   role: "DOS Game",
+  roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 583 files, 11.0 MB.",
+  taglineZh: "MS-DOS · 1995 — 583 个文件，11.0 MB。",
   accent: "#229954",
   group: "j",
   summary: "金庸快打 is a DOS game in the WhereQ archive — 1995, 583 files, 11.0 MB, and an entry point of FIGHTER.EXE.",
+  summaryZh: "金庸快打 是 WhereQ 归档中的一款 DOS 游戏——1995，583 个文件，11.0 MB，启动文件是 FIGHTER.EXE。",
   status: "1995",
+  statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E9%87%91%E5%BA%B8%E5%BF%AB%E6%89%93.zip",
   facts: [
     {label: "Developer", value: "MICROSOFT"},
@@ -25,14 +29,21 @@ const entry: AtlasEntry = {
     {label: "Entry point", value: "FIGHTER.EXE"},
     {label: "Bundle", value: "583 files · 11.0 MB"},
   ],
+  factsZh: [
+    {label: "开发", value: "MICROSOFT"},
+    {label: "发行", value: "1995"},
+    {label: "类型", value: "Action"},
+    {label: "平台", value: "MS-DOS"},
+    {label: "启动文件", value: "FIGHTER.EXE"},
+    {label: "游戏包", value: "583 个文件 · 11.0 MB"},
+  ],
   sections: [
     {
       title: "What it is",
       blocks: [
         {kind: "paragraph", text: "金庸快打 is a DOS game in the WhereQ archive. The publisher is MICROSOFT, named on the copyright line inside the program. The bundle's own files are dated 1995, which is when this copy was built. The executable also carries a 1992 copyright line, which belongs to the runtime library it links rather than to the game. The copy is the program as it was distributed: 583 files, 11.0 MB, and an entry point of FIGHTER.EXE."},
         {kind: "paragraph", text: "This page is generated from the bundle itself: the file list, the dates and the checksum below are read out of the archive, not written from memory. The hand-written pages on this shelf — the ones with a drawn card mark — are the ones that have been played through on an emulator."},
-      ],
-    },
+      ]},
     {
       title: "Download the bundle",
       blocks: [
@@ -47,23 +58,20 @@ const entry: AtlasEntry = {
         {kind: "links", items: [
           {label: "Download 金庸快打 (11.0 MB)", href: "https://dos-bin.zczc.cz/%E9%87%91%E5%BA%B8%E5%BF%AB%E6%89%93.zip", external: true},
         ]},
-      ],
-    },
+      ]},
     {
       title: "Set it up in WhereQ-DOSBox",
       blocks: [
         {kind: "paragraph", text: "The entry point is FIGHTER.EXE. Import the zip into WhereQ-DOSBox and press Play, and the app starts that program."},
         {kind: "paragraph", text: "The bundle also ships a disk image (LAST.IMG、MB0001.IMG、LAST.IMG、MB0001.IMG) — a copy of the original floppy. If the game asks for a drive it cannot find, mount the image in the DOSBox prompt with IMGMOUNT D <file> and run it from D:."},
         {kind: "paragraph", text: "This setup has not been played through on the emulator yet. If it does not work for you, the comment thread at the bottom of this page is where to say so — and what worked is worth writing down."},
-      ],
-    },
+      ]},
     {
       title: "How to play",
       blocks: [
         {kind: "paragraph", text: "Nobody has written down how this one starts yet. Import it, press Play, and tell us what happens — if it asks for a password, a serial number or a word from a manual, that is exactly the thing worth writing down."},
         {kind: "paragraph", text: "The pages that have been played through on an emulator sit alongside this one on the shelf, and they tell you the whole route in: which file to start, which key opens the menu, and which screen comes next."},
-      ],
-    },
+      ]},
     {
       title: "What is in the bundle",
       blocks: [
@@ -75,8 +83,7 @@ const entry: AtlasEntry = {
           ["Other files", "565 data file(s)"],
           ["Total", "583 files · 11.0 MB"],
         ]},
-      ],
-    },
+      ]},
     {
       title: "Where the facts come from",
       blocks: [
@@ -85,8 +92,64 @@ const entry: AtlasEntry = {
           "The archive index, for the size and the SHA-256 above.",
           "The original copy, at https://dos-bin.zczc.cz/%E9%87%91%E5%BA%B8%E5%BF%AB%E6%89%93.zip.",
         ]},
-      ],
-    },
+      ]},
+  ],
+  sectionsZh: [
+    {
+      title: "这是一款什么游戏",
+      blocks: [
+        {kind: "paragraph", text: "金庸快打 是 WhereQ 归档中的一款 DOS 游戏。 发行商是 MICROSOFT，这个名字就写在程序的版权声明里。 游戏包内的文件日期是 1995，也正是这份拷贝构建的时间。可执行文件里还带有 1992 年的版权声明，那属于它链接的运行时库，而不是游戏本身。 这份拷贝就是当年发行的程序：583 个文件，11.0 MB，启动文件是 FIGHTER.EXE。"},
+        {kind: "paragraph", text: "本页由游戏包本身生成：下面的文件列表、日期与校验和都读自归档，而不是凭记忆写下的。这一架上手写的页面——也就是那些带着手绘卡片标记的——是真正在模拟器上通关过的。"},
+      ]},
+    {
+      title: "下载游戏包",
+      blocks: [
+        {kind: "paragraph", text: "游戏包就是生成该页的那个归档里的原件——同一个文件，逐字节相同。"},
+        {kind: "table", head: ["字段", "值"], rows: [
+          ["文件", "jin-yong-kuai-da.zip"],
+          ["大小", "11,529,337 字节（11.0 MB）"],
+          ["SHA-256", "a16c2627276e314a818768f00c78a9cb32f3b6fbb9adf5bae7aad2217f0d2b0d"],
+          ["文件数", "583"],
+          ["归档", "dos-bin.zczc.cz——生成该页的那个归档"],
+        ]},
+        {kind: "links", items: [
+          {label: "下载 金庸快打（11.0 MB）", href: "https://dos-bin.zczc.cz/%E9%87%91%E5%BA%B8%E5%BF%AB%E6%89%93.zip", external: true},
+        ]},
+      ]},
+    {
+      title: "在 WhereQ-DOSBox 里运行",
+      blocks: [
+        {kind: "paragraph", text: "启动文件是 FIGHTER.EXE。把 zip 导入 WhereQ-DOSBox 并按下播放，应用就会启动这个程序。"},
+        {kind: "paragraph", text: "游戏包还附带一个磁盘镜像（LAST.IMG、MB0001.IMG、LAST.IMG、MB0001.IMG）——原始软盘的一份拷贝。如果游戏要求一个它找不到的驱动器，可以在 DOSBox 提示符下用 IMGMOUNT D <file> 挂载这个镜像，再从 D: 运行。"},
+        {kind: "paragraph", text: "这套运行方式还没有在模拟器上试过。如果在你那里不管用，本页底部的评论区就是说出来的地方——而什么有效，值得写下来。"},
+      ]},
+    {
+      title: "怎么玩",
+      blocks: [
+        {kind: "paragraph", text: "还没有人写下这一款怎么开始。导入它，按下播放，然后告诉我们发生了什么——如果它要密码、序列号或者手册里的某个词，那正是值得写下来的东西。"},
+        {kind: "paragraph", text: "那些在模拟器上通关过的页面就在这一架的旁边，它们把整条路都写清楚了：从哪个文件开始、哪个键打开菜单、接下来是哪个画面。"},
+      ]},
+    {
+      title: "游戏包里有什么",
+      blocks: [
+        {kind: "table", head: ["部分", "内容"], rows: [
+          ["启动文件", "FIGHTER.EXE"],
+          ["可执行文件", "FIGHTER.EXE、FIGHTER.EXE、HEAD.EXE、HEAD.EXE、LOGO.EXE、LOGO.EXE、SETUP.EXE、SETUP.EXE"],
+          ["批处理启动文件", "FIGHTER.BAT、FIGHTER.BAT、README.BAT、README.BAT"],
+          ["磁盘镜像", "LAST.IMG、MB0001.IMG、LAST.IMG、MB0001.IMG"],
+          ["其他文件", "565 个数据文件"],
+          ["合计", "583 个文件 · 11.0 MB"],
+        ]},
+      ]},
+    {
+      title: "这些事实的来源",
+      blocks: [
+        {kind: "list", items: [
+          "游戏包本身——它的文件列表、文件日期，以及启动文件里的字符串。",
+          "归档索引，给出上面的大小与 SHA-256。",
+          "原件，在 https://dos-bin.zczc.cz/%E9%87%91%E5%BA%B8%E5%BF%AB%E6%89%93.zip。",
+        ]},
+      ]},
   ],
 };
 
