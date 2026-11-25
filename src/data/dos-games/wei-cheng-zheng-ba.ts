@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wei-cheng-zheng-ba",
   collection: "dos-games",
   name: "微城争霸",
+  nameEn: "Siege",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 174 files, 1.7 MB.",

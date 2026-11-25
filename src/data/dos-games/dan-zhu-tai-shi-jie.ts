@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "dan-zhu-tai-shi-jie",
   collection: "dos-games",
   name: "弹珠台世界",
+  nameEn: "Pinball World",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 257 files, 6.2 MB.",

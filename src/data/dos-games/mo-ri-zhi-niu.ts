@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-ri-zhi-niu",
   collection: "dos-games",
   name: "末日之牛",
+  nameEn: "Apocalypse Cow",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 98 files, 1.0 MB.",

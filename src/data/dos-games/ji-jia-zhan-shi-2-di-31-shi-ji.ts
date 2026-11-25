@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-jia-zhan-shi-2-di-31-shi-ji",
   collection: "dos-games",
   name: "机甲战士2第31世纪",
+  nameEn: "MechWarrior 2: 31st Century Combat",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 359 files, 32.4 MB.",

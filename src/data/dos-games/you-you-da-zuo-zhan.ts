@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "you-you-da-zuo-zhan",
   collection: "dos-games",
   name: "悠悠大作战",
+  nameEn: "Yogho Yogho",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 3 files, 826 KB.",

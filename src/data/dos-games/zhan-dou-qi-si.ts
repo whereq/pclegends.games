@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-dou-qi-si",
   collection: "dos-games",
   name: "战斗起司",
+  nameEn: "Battle Cheese",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 108 files, 5.0 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-xie-fa-shi",
   collection: "dos-games",
   name: "机械法师",
+  nameEn: "CyberMage",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 45 files, 69.9 MB.",

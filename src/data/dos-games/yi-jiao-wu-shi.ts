@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-jiao-wu-shi",
   collection: "dos-games",
   name: "异教巫师",
+  nameEn: "Hexen",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 18 files, 9.2 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "dan-zhen-tan-ke",
   collection: "dos-games",
   name: "弹震坦克",
+  nameEn: "Shellshock",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 424 files, 19.7 MB.",

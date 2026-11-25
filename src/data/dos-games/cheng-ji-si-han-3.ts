@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "cheng-ji-si-han-3",
   collection: "dos-games",
   name: "成吉思汗3",
+  nameEn: "Genghis Khan II: Clan of the Gray Wolf",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 34 files, 2.0 MB.",

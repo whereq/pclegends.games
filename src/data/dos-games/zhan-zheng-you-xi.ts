@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-zheng-you-xi",
   collection: "dos-games",
   name: "战争游戏",
+  nameEn: "Airborn",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 294 files, 6.9 MB.",

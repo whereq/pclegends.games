@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-dou-wu-shi",
   collection: "dos-games",
   name: "战斗巫师",
+  nameEn: "WarWizard",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 490 files, 2.1 MB.",

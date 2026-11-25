@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-dou-da-shi",
   collection: "dos-games",
   name: "战斗大师",
+  nameEn: "Battlemaster",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1986 — 142 files, 530 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wei-xing-ji-qi-1",
   collection: "dos-games",
   name: "微型机器1",
+  nameEn: "Micro Machines",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 166 files, 473 KB.",

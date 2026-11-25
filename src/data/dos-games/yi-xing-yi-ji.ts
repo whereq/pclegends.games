@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-xing-yi-ji",
   collection: "dos-games",
   name: "异星遗迹",
+  nameEn: "Alien Legacy",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 340 files, 9.5 MB.",

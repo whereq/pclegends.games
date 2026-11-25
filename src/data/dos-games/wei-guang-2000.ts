@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wei-guang-2000",
   collection: "dos-games",
   name: "微光2000",
+  nameEn: "Twilight 2000",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 136 files, 2.9 MB.",

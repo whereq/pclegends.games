@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "da-zhuan-kuai",
   collection: "dos-games",
   name: "打砖块",
+  nameEn: "Aquanoid",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 12 files, 75 KB.",

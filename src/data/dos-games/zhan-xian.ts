@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-xian",
   collection: "dos-games",
   name: "战线",
+  nameEn: "LineWars II",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 26 files, 725 KB.",

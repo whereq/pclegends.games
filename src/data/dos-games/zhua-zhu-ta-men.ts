@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhua-zhu-ta-men",
   collection: "dos-games",
   name: "抓住他们",
+  nameEn: "Catch 'Em",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 90 files, 316 KB.",

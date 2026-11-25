@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhe-zhi-mi-gong",
   collection: "dos-games",
   name: "折纸迷宫",
+  nameEn: "Origamo",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 40 files, 5.4 MB.",

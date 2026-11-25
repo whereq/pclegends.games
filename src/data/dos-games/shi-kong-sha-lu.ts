@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-kong-sha-lu",
   collection: "dos-games",
   name: "时空杀戮",
+  nameEn: "TimeSlaughter",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 66 files, 12.3 MB.",

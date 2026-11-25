@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "song-shu-ao-si-ka",
   collection: "dos-games",
   name: "松鼠奥斯卡",
+  nameEn: "Oscar",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 243 files, 1.6 MB.",

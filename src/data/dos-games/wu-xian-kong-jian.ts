@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wu-xian-kong-jian",
   collection: "dos-games",
   name: "无限空间",
+  nameEn: "Genesia",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 122 files, 831 KB.",

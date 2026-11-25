@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-xing-yin-mou",
   collection: "dos-games",
   name: "异形阴谋",
+  nameEn: "Alien Cabal",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 16 files, 12.4 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-da-li-zu-qiu-jing-li",
   collection: "dos-games",
   name: "意大利足球经理",
+  nameEn: "Championship Manager Italia",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 58 files, 1.2 MB.",

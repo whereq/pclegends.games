@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "quan-li-zhi-zhan",
   collection: "dos-games",
   name: "权利之战",
+  nameEn: "Dominium",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 49 files, 388 KB.",

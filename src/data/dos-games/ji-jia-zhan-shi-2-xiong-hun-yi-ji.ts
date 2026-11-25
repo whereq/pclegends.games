@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-jia-zhan-shi-2-xiong-hun-yi-ji",
   collection: "dos-games",
   name: "机甲战士2熊魂遗迹",
+  nameEn: "MechWarrior 2: Ghost Bear's Legacy",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 298 files, 30.6 MB.",

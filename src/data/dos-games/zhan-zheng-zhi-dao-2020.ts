@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-zheng-zhi-dao-2020",
   collection: "dos-games",
   name: "战争之岛2020",
+  nameEn: "Battle Isle 2",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2008 — 245 files, 43.3 MB.",

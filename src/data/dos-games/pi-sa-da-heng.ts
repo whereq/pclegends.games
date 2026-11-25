@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "pi-sa-da-heng",
   collection: "dos-games",
   name: "披萨大亨",
+  nameEn: "Pizza Tycoon",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 529 files, 2.5 MB.",

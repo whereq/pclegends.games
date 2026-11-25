@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shu-fu-zhi-guan",
   collection: "dos-games",
   name: "束缚之馆",
+  nameEn: "Kinbaku",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 149 files, 2.4 MB.",

@@ -184,7 +184,12 @@ def main():
     # ── what the mapping agents found ─────────────────────────
     agent_files = sorted(glob.glob(args.results))
     for path in agent_files:
-        results = json.load(open(path, encoding='utf-8'))
+        try:
+            results = json.load(open(path, encoding='utf-8'))
+        except (json.JSONDecodeError, OSError):
+            # A batch that is still being written; take what is readable later.
+            print(f'{os.path.basename(path)}: not readable yet, skipped')
+            continue
         for name, entry in results.items():
             english = (entry.get('en') or '').strip()
             source = entry.get('source')

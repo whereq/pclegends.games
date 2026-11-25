@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-jia-zhan-shi-2-gu-yong-bing",
   collection: "dos-games",
   name: "机甲战士2雇佣兵",
+  nameEn: "MechWarrior 2: Mercenaries",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 580 files, 56.0 MB.",

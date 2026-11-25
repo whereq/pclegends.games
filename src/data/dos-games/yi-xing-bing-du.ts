@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-xing-bing-du",
   collection: "dos-games",
   name: "异星病毒",
+  nameEn: "Alien Virus",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 36 files, 41.1 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-di-ri-ji",
   collection: "dos-games",
   name: "战地日记",
+  nameEn: "War Diary",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 249 files, 12.8 MB.",

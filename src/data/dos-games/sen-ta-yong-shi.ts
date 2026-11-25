@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sen-ta-yong-shi",
   collection: "dos-games",
   name: "森塔勇士",
+  nameEn: "Knights of Xentar",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 128 files, 5.1 MB.",

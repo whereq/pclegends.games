@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-zheng-zhi-dao-1993",
   collection: "dos-games",
   name: "战争之岛1993",
+  nameEn: "Battle Isle 2",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 164 files, 665 KB.",

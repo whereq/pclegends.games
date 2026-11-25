@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sha-lu-ji-qi",
   collection: "dos-games",
   name: "杀戮机器",
+  nameEn: "Amok",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 163 files, 6.9 MB.",

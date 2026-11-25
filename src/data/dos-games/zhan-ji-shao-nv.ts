@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-ji-shao-nv",
   collection: "dos-games",
   name: "战机少女",
+  nameEn: "Metal & Lace: The Battle of the Robo Babes",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 46 files, 11.1 MB.",

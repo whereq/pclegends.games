@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhi-hui-guan-ji-en-10-min-jian-ban",
   collection: "dos-games",
   name: "指挥官基恩10民间版",
+  nameEn: "Commander Keen in Secret of the Oracle",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2007 — 14 files, 438 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-xian-1981",
   collection: "dos-games",
   name: "战线1981",
+  nameEn: "Border Zone",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 3 files, 47 KB.",

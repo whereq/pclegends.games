@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-kong-bei-lun",
   collection: "dos-games",
   name: "时空悖论",
+  nameEn: "Time Paradox",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 5,116 files, 97.0 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jiu-jin-shan-jing-che-da-sai",
   collection: "dos-games",
   name: "旧金山警车大赛",
+  nameEn: "Cisco Heat",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 8 files, 260 KB.",

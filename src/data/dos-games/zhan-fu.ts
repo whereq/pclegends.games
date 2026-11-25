@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-fu",
   collection: "dos-games",
   name: "战斧",
+  nameEn: "Golden Axe",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 89 files, 578 KB.",

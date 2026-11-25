@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-qi-4000",
   collection: "dos-games",
   name: "战棋4000",
+  nameEn: "Battle Chess 4000",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 55 files, 10.4 MB.",

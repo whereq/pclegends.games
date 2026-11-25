@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-dou-zhi-nu",
   collection: "dos-games",
   name: "战斗之怒",
+  nameEn: "Battle Wrath",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 3,475 files, 13.0 MB.",

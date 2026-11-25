@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wei-lai-zhan-zheng-shi-jian-lv-zhe",
   collection: "dos-games",
   name: "未来战争时间旅者",
+  nameEn: "Future Wars - Time Travellers",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 27 files, 2.7 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-jia-bu-dui",
   collection: "dos-games",
   name: "机甲部队",
+  nameEn: "Earthsiege",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 88 files, 14.1 MB.",

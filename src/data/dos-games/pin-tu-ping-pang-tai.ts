@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "pin-tu-ping-pang-tai",
   collection: "dos-games",
   name: "拼图乒乓台",
+  nameEn: "Uncover It!",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 53 files, 1.1 MB.",

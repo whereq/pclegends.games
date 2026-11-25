@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-jiao-wu-shi-hei-an-jiao-tang-de-si-shen",
   collection: "dos-games",
   name: "异教巫师黑暗教堂的死神",
+  nameEn: "Hexen: Deathkings",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 27 files, 12.1 MB.",

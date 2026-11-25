@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-jiao-tu",
   collection: "dos-games",
   name: "异教徒",
+  nameEn: "Heretic",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 21 files, 5.4 MB.",

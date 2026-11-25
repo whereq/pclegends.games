@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zheng-fu-ad1086",
   collection: "dos-games",
   name: "征服：AD1086",
+  nameEn: "Conqueror 1086AD",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 2,270 files, 196.4 MB.",

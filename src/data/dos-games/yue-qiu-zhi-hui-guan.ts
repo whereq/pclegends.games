@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yue-qiu-zhi-hui-guan",
   collection: "dos-games",
   name: "月球指挥官",
+  nameEn: "Lunar Commander",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 29 files, 3.4 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "meng-wang",
   collection: "dos-games",
   name: "梦网",
+  nameEn: "DreamWeb",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 106 files, 14.7 MB.",

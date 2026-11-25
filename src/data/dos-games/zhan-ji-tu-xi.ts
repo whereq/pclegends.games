@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-ji-tu-xi",
   collection: "dos-games",
   name: "战机突袭",
+  nameEn: "JetStrike",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1999 — 366 files, 2.2 MB.",

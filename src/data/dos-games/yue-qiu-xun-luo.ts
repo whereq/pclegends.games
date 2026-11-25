@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yue-qiu-xun-luo",
   collection: "dos-games",
   name: "月球巡逻",
+  nameEn: "Moon Patrol",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1999 — 2 files, 23 KB.",

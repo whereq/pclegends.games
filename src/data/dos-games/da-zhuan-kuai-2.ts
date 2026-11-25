@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "da-zhuan-kuai-2",
   collection: "dos-games",
   name: "打砖块2",
+  nameEn: "Arkanoid II: Revenge of DoH",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1980 — 18 files, 181 KB.",

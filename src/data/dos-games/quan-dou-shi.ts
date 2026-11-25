@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "quan-dou-shi",
   collection: "dos-games",
   name: "拳斗士",
+  nameEn: "Fistfight",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 493 files, 7.0 MB.",

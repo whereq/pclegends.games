@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-xing-luo-ji",
   collection: "dos-games",
   name: "异星逻辑",
+  nameEn: "Alien Logic: SkyRealms of Jorune",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2007 — 101 files, 196.2 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-zheng-zhi-ren",
   collection: "dos-games",
   name: "战争之人",
+  nameEn: "Man of War",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2009 — 118 files, 15.7 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ban-qiu-97",
   collection: "dos-games",
   name: "板球97",
+  nameEn: "Cricket 97",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 68 files, 12.4 MB.",

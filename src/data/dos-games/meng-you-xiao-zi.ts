@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "meng-you-xiao-zi",
   collection: "dos-games",
   name: "梦游小子",
+  nameEn: "Sleepwalker",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 7 files, 6.4 MB.",

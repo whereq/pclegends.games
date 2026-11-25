@@ -31,7 +31,11 @@ def main():
     overrides = {}
     kept = dropped = 0
     for path in sorted(glob.glob(args.results)):
-        results = json.load(open(path, encoding='utf-8'))
+        try:
+            results = json.load(open(path, encoding='utf-8'))
+        except (json.JSONDecodeError, OSError):
+            print(f'{os.path.basename(path)}: not readable yet, skipped')
+            continue
         for name, entry in results.items():
             source = entry.get('source')
             english = (entry.get('en') or '').strip()

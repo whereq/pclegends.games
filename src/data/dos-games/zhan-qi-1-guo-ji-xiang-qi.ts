@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-qi-1-guo-ji-xiang-qi",
   collection: "dos-games",
   name: "战棋1-国际象棋",
+  nameEn: "Battle Chess",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 10 files, 500 KB.",

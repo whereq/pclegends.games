@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yue-liang-shi-qi-shi",
   collection: "dos-games",
   name: "月亮石骑士",
+  nameEn: "Moonstone",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 281 files, 1.7 MB.",

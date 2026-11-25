@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-xian-dan-zhu-tai",
   collection: "dos-games",
   name: "极限弹珠台",
+  nameEn: "Extreme Pinball",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 115 files, 5.8 MB.",

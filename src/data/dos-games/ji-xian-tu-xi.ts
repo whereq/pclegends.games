@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-xian-tu-xi",
   collection: "dos-games",
   name: "极限突袭",
+  nameEn: "Battle Isle 3",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 2,817 files, 52.6 MB.",

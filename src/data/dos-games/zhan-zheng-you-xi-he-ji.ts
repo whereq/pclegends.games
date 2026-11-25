@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-zheng-you-xi-he-ji",
   collection: "dos-games",
   name: "战争游戏合集",
+  nameEn: "The Definitive Wargame Collection",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 1,351 files, 13.9 MB.",

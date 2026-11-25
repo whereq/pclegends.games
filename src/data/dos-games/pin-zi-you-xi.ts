@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "pin-zi-you-xi",
   collection: "dos-games",
   name: "拼字游戏",
+  nameEn: "Phonics Plus",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 27 files, 1.9 MB.",

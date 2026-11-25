@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-zhan-wang-luo",
   collection: "dos-games",
   name: "机战网络",
+  nameEn: "BattleDrome",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 246 files, 2.3 MB.",

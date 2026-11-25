@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "pin-tu-da-shi",
   collection: "dos-games",
   name: "拼图大师",
+  nameEn: "Pixel Puzzle",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 13 files, 633 KB.",

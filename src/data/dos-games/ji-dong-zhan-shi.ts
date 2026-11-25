@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-dong-zhan-shi",
   collection: "dos-games",
   name: "机动战士",
+  nameEn: "Thexder",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 98 files, 215 KB.",

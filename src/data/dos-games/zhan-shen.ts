@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-shen",
   collection: "dos-games",
   name: "战神",
+  nameEn: "Warlords",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 42 files, 540 KB.",

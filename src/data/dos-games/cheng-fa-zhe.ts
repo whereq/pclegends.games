@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "cheng-fa-zhe",
   collection: "dos-games",
   name: "惩罚者",
+  nameEn: "The Punisher",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 66 files, 7.0 MB.",

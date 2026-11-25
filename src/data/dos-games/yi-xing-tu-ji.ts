@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "异星突击",
   nameEn: "Galaxy Commando",
-  nameEnSource: "wiki",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 54 files, 13.4 MB.",

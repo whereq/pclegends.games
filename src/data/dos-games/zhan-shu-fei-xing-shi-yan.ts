@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-shu-fei-xing-shi-yan",
   collection: "dos-games",
   name: "战术飞行试验",
+  nameEn: "TFX",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 37 files, 9.8 MB.",

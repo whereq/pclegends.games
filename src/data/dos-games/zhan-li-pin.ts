@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-li-pin",
   collection: "dos-games",
   name: "战利品",
+  nameEn: "Conquestador",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 127 files, 3.7 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sen-lin-jiu-huo-yuan",
   collection: "dos-games",
   name: "森林救火员",
+  nameEn: "Firestorm",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 31 files, 635 KB.",

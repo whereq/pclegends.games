@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zui-hou-de-ren-zhe",
   collection: "dos-games",
   name: "最后的忍者",
+  nameEn: "The Last Ninja",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1988 — 30 files, 349 KB.",

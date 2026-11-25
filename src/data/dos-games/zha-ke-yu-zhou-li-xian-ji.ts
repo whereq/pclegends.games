@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zha-ke-yu-zhou-li-xian-ji",
   collection: "dos-games",
   name: "扎克宇宙历险记",
+  nameEn: "Cosmo's Cosmic Adventure",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 11 files, 1.3 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-kong-you-xia",
   collection: "dos-games",
   name: "时空游侠",
+  nameEn: "Time Commando",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 88 files, 71.6 MB.",

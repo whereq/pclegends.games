@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "qiang-shou-qi",
   collection: "dos-games",
   name: "强手棋",
+  nameEn: "Monopoly Deluxe",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 40 files, 1.9 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-pin-fei-che",
   collection: "dos-games",
   name: "极品飞车",
+  nameEn: "Need for Speed",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 396 files, 36.1 MB.",

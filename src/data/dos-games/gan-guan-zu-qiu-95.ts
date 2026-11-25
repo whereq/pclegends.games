@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gan-guan-zu-qiu-95",
   collection: "dos-games",
   name: "感官足球95",
+  nameEn: "Sensible World of Soccer",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 657 files, 19.7 MB.",

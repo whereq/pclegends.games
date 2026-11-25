@@ -1213,11 +1213,11 @@
  },
  "异星突击": {
   "en": "Galaxy Commando",
-  "source": "wiki"
+  "source": "bundle"
  },
  "异次元之旅": {
-  "en": "MAAN",
-  "source": "wiki"
+  "en": "Maan",
+  "source": "bundle"
  },
  "快打至尊": {
   "en": "Super Fighter",
@@ -1240,8 +1240,8 @@
   "source": "wiki"
  },
  "战地大亨": {
-  "en": "Battlefield Tycoon- Golden Gate Tour",
-  "source": "wiki"
+  "en": "King-Men",
+  "source": "bundle"
  },
  "战神2": {
   "en": "Warlords 2",
@@ -1277,11 +1277,11 @@
  },
  "日没": {
   "en": "Sunset",
-  "source": "wiki"
+  "source": "bundle"
  },
  "日蚀": {
   "en": "Eclipse",
-  "source": "wiki"
+  "source": "bundle"
  },
  "时空异变": {
   "en": "Space-Time Mutation",
@@ -1300,8 +1300,8 @@
   "source": "wiki"
  },
  "明星志愿": {
-  "en": "Star Dream",
-  "source": "wiki"
+  "en": "Stardom",
+  "source": "bundle"
  },
  "星城绿洲计划": {
   "en": "OASIS Project",
@@ -3258,5 +3258,409 @@
  "工人物语2": {
   "en": "The Settlers II",
   "source": "known"
+ },
+ "异形阴谋": {
+  "en": "Alien Cabal",
+  "source": "bundle"
+ },
+ "异教巫师": {
+  "en": "Hexen",
+  "source": "bundle"
+ },
+ "异教巫师黑暗教堂的死神": {
+  "en": "Hexen: Deathkings",
+  "source": "bundle"
+ },
+ "异教徒": {
+  "en": "Heretic",
+  "source": "bundle"
+ },
+ "异星病毒": {
+  "en": "Alien Virus",
+  "source": "bundle"
+ },
+ "异星逻辑": {
+  "en": "Alien Logic: SkyRealms of Jorune",
+  "source": "bundle"
+ },
+ "异星遗迹": {
+  "en": "Alien Legacy",
+  "source": "bundle"
+ },
+ "弹珠台世界": {
+  "en": "Pinball World",
+  "source": "bundle"
+ },
+ "弹震坦克": {
+  "en": "Shellshock",
+  "source": "bundle"
+ },
+ "强手棋": {
+  "en": "Monopoly Deluxe",
+  "source": "bundle"
+ },
+ "征服：AD1086": {
+  "en": "Conqueror 1086AD",
+  "source": "bundle"
+ },
+ "微光2000": {
+  "en": "Twilight 2000",
+  "source": "bundle"
+ },
+ "微型机器1": {
+  "en": "Micro Machines",
+  "source": "bundle"
+ },
+ "微型机器2": {
+  "en": "Micro Machines 2",
+  "source": "bundle"
+ },
+ "微城争霸": {
+  "en": "Siege",
+  "source": "bundle"
+ },
+ "悠悠大作战": {
+  "en": "Yogho Yogho",
+  "source": "bundle"
+ },
+ "惩罚者": {
+  "en": "The Punisher",
+  "source": "bundle"
+ },
+ "意大利足球经理": {
+  "en": "Championship Manager Italia",
+  "source": "bundle"
+ },
+ "感官足球": {
+  "en": "Sensible Soccer",
+  "source": "bundle"
+ },
+ "感官足球95": {
+  "en": "Sensible World of Soccer",
+  "source": "bundle"
+ },
+ "懒虫大战": {
+  "en": "H.U.R.L.",
+  "source": "bundle"
+ },
+ "成吉思汗3": {
+  "en": "Genghis Khan II: Clan of the Gray Wolf",
+  "source": "known"
+ },
+ "我是米恩": {
+  "en": "I.M. Meen",
+  "source": "bundle"
+ },
+ "战争之人": {
+  "en": "Man of War",
+  "source": "bundle"
+ },
+ "战争之岛": {
+  "en": "Battle Isle",
+  "source": "known"
+ },
+ "战争之岛1993": {
+  "en": "Battle Isle 2",
+  "source": "known"
+ },
+ "战争之岛2020": {
+  "en": "Battle Isle 2",
+  "source": "bundle"
+ },
+ "战争游戏": {
+  "en": "Airborn",
+  "source": "bundle"
+ },
+ "战争游戏合集": {
+  "en": "The Definitive Wargame Collection",
+  "source": "bundle"
+ },
+ "战争王国": {
+  "en": "Kingdom at War",
+  "source": "bundle"
+ },
+ "战利品": {
+  "en": "Conquestador",
+  "source": "bundle"
+ },
+ "战地日记": {
+  "en": "War Diary",
+  "source": "bundle"
+ },
+ "战斗之怒": {
+  "en": "Battle Wrath",
+  "source": "bundle"
+ },
+ "战斗大师": {
+  "en": "Battlemaster",
+  "source": "bundle"
+ },
+ "战斗巫师": {
+  "en": "WarWizard",
+  "source": "bundle"
+ },
+ "战斗行动": {
+  "en": "Operation Combat",
+  "source": "known"
+ },
+ "战斗行动2": {
+  "en": "Operation Combat 2",
+  "source": "bundle"
+ },
+ "战斗起司": {
+  "en": "Battle Cheese",
+  "source": "bundle"
+ },
+ "战斧": {
+  "en": "Golden Axe",
+  "source": "known"
+ },
+ "战术飞行试验": {
+  "en": "TFX",
+  "source": "bundle"
+ },
+ "战机少女": {
+  "en": "Metal & Lace: The Battle of the Robo Babes",
+  "source": "known"
+ },
+ "战机突袭": {
+  "en": "JetStrike",
+  "source": "bundle"
+ },
+ "战棋1-国际象棋": {
+  "en": "Battle Chess",
+  "source": "bundle"
+ },
+ "战棋2-中国象棋": {
+  "en": "Battle Chess 2",
+  "source": "bundle"
+ },
+ "战棋4000": {
+  "en": "Battle Chess 4000",
+  "source": "bundle"
+ },
+ "战甲：月鹰复仇": {
+  "en": "BattleTech: The Crescent Hawks' Revenge",
+  "source": "bundle"
+ },
+ "战神": {
+  "en": "Warlords",
+  "source": "bundle"
+ },
+ "战神2英版+编辑器": {
+  "en": "Warlords II",
+  "source": "bundle"
+ },
+ "战神2豪华版": {
+  "en": "Warlords II",
+  "source": "bundle"
+ },
+ "战线": {
+  "en": "LineWars II",
+  "source": "bundle"
+ },
+ "战线1981": {
+  "en": "Border Zone",
+  "source": "known"
+ },
+ "战虫": {
+  "en": "Battle Bugs",
+  "source": "bundle"
+ },
+ "扎克宇宙历险记": {
+  "en": "Cosmo's Cosmic Adventure",
+  "source": "bundle"
+ },
+ "打砖块": {
+  "en": "Aquanoid",
+  "source": "bundle"
+ },
+ "打砖块2": {
+  "en": "Arkanoid II: Revenge of DoH",
+  "source": "known"
+ },
+ "扫雷": {
+  "en": "Minerva",
+  "source": "bundle"
+ },
+ "抓住他们": {
+  "en": "Catch 'Em",
+  "source": "known"
+ },
+ "折纸迷宫": {
+  "en": "Origamo",
+  "source": "bundle"
+ },
+ "报应": {
+  "en": "Retribution",
+  "source": "bundle"
+ },
+ "披萨大亨": {
+  "en": "Pizza Tycoon",
+  "source": "bundle"
+ },
+ "拳斗士": {
+  "en": "Fistfight",
+  "source": "bundle"
+ },
+ "拼图乒乓台": {
+  "en": "Uncover It!",
+  "source": "bundle"
+ },
+ "拼图大师": {
+  "en": "Pixel Puzzle",
+  "source": "known"
+ },
+ "拼字游戏": {
+  "en": "Phonics Plus",
+  "source": "known"
+ },
+ "指挥官基恩1": {
+  "en": "Commander Keen in Marooned on Mars",
+  "source": "known"
+ },
+ "指挥官基恩10民间版": {
+  "en": "Commander Keen in Secret of the Oracle",
+  "source": "known"
+ },
+ "无限空间": {
+  "en": "Genesia",
+  "source": "bundle"
+ },
+ "日本之战": {
+  "en": "Conquest of Japan",
+  "source": "bundle"
+ },
+ "旧金山警车大赛": {
+  "en": "Cisco Heat",
+  "source": "bundle"
+ },
+ "时空悖论": {
+  "en": "Time Paradox",
+  "source": "bundle"
+ },
+ "时空战士": {
+  "en": "Space Harrier",
+  "source": "bundle"
+ },
+ "时空杀戮": {
+  "en": "TimeSlaughter",
+  "source": "bundle"
+ },
+ "时空游侠": {
+  "en": "Time Commando",
+  "source": "bundle"
+ },
+ "星尘": {
+  "en": "Stardust",
+  "source": "bundle"
+ },
+ "最后的忍者": {
+  "en": "The Last Ninja",
+  "source": "bundle"
+ },
+ "月亮石骑士": {
+  "en": "Moonstone",
+  "source": "bundle"
+ },
+ "月球巡逻": {
+  "en": "Moon Patrol",
+  "source": "bundle"
+ },
+ "月球指挥官": {
+  "en": "Lunar Commander",
+  "source": "known"
+ },
+ "未来战争时间旅者": {
+  "en": "Future Wars - Time Travellers",
+  "source": "bundle"
+ },
+ "末日之牛": {
+  "en": "Apocalypse Cow",
+  "source": "bundle"
+ },
+ "机动战士": {
+  "en": "Thexder",
+  "source": "bundle"
+ },
+ "机战网络": {
+  "en": "BattleDrome",
+  "source": "bundle"
+ },
+ "机械战队": {
+  "en": "Cyberdogs",
+  "source": "bundle"
+ },
+ "机械法师": {
+  "en": "CyberMage",
+  "source": "known"
+ },
+ "机甲战士2熊魂遗迹": {
+  "en": "MechWarrior 2: Ghost Bear's Legacy",
+  "source": "known"
+ },
+ "机甲战士2第31世纪": {
+  "en": "MechWarrior 2: 31st Century Combat",
+  "source": "known"
+ },
+ "机甲战士2雇佣兵": {
+  "en": "MechWarrior 2: Mercenaries",
+  "source": "known"
+ },
+ "机甲部队": {
+  "en": "Earthsiege",
+  "source": "known"
+ },
+ "杀戮机器": {
+  "en": "Amok",
+  "source": "bundle"
+ },
+ "权利之战": {
+  "en": "Dominium",
+  "source": "bundle"
+ },
+ "束缚之馆": {
+  "en": "Kinbaku",
+  "source": "bundle"
+ },
+ "松鼠奥斯卡": {
+  "en": "Oscar",
+  "source": "known"
+ },
+ "板球97": {
+  "en": "Cricket 97",
+  "source": "bundle"
+ },
+ "极品飞车": {
+  "en": "Need for Speed",
+  "source": "bundle"
+ },
+ "极限弹珠台": {
+  "en": "Extreme Pinball",
+  "source": "bundle"
+ },
+ "极限突袭": {
+  "en": "Battle Isle 3",
+  "source": "known"
+ },
+ "梦游小子": {
+  "en": "Sleepwalker",
+  "source": "known"
+ },
+ "梦网": {
+  "en": "DreamWeb",
+  "source": "bundle"
+ },
+ "棒棒糖": {
+  "en": "Lollypop",
+  "source": "bundle"
+ },
+ "森塔勇士": {
+  "en": "Knights of Xentar",
+  "source": "bundle"
+ },
+ "森林救火员": {
+  "en": "Firestorm",
+  "source": "bundle"
  }
 }

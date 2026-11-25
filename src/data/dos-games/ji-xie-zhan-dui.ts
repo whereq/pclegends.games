@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-xie-zhan-dui",
   collection: "dos-games",
   name: "机械战队",
+  nameEn: "Cyberdogs",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 22 files, 258 KB.",

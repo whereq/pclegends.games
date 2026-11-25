@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ri-ben-zhi-zhan",
   collection: "dos-games",
   name: "日本之战",
+  nameEn: "Conquest of Japan",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 70 files, 453 KB.",

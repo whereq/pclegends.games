@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-dou-xing-dong-2",
   collection: "dos-games",
   name: "战斗行动2",
+  nameEn: "Operation Combat 2",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 58 files, 712 KB.",

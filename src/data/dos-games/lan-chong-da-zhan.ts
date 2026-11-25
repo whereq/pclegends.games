@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "lan-chong-da-zhan",
   collection: "dos-games",
   name: "懒虫大战",
+  nameEn: "H.U.R.L.",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 189 files, 11.3 MB.",

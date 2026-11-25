@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhi-hui-guan-ji-en-1",
   collection: "dos-games",
   name: "指挥官基恩1",
+  nameEn: "Commander Keen in Marooned on Mars",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 44 files, 234 KB.",
