@@ -1,0 +1,74 @@
+/**
+ * The language switch: two buttons, one lit.
+ *
+ * The pair is one box with a hairline between the two halves, so it reads
+ * as one control. The radius is the house 2px — a pill-shaped control is a
+ * second control.
+ */
+.switch {
+  display: inline-flex;
+  align-items: stretch;
+  margin-left: 0.5rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 2px;
+  overflow: hidden;
+  line-height: 1.2;
+}
+
+.item,
+.itemActive {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.item + .item,
+.item + .itemActive,
+.itemActive + .item,
+.itemActive + .itemActive {
+  border-left: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.item {
+  color: var(--ifm-color-emphasis-700);
+}
+
+.item:hover {
+  color: var(--ifm-color-primary);
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.itemActive {
+  color: var(--ifm-color-primary);
+  background-color: color-mix(in srgb, var(--ifm-color-primary) 16%, transparent);
+}
+
+/* The mobile drawer lists the languages one under another. */
+.mobileList {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0;
+  list-style: none;
+}
+
+.mobileItem,
+.mobileItemActive {
+  display: block;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.9rem;
+  color: var(--ifm-navbar-link-color);
+  text-decoration: none;
+}
+
+.mobileItem:hover {
+  color: var(--ifm-color-primary);
+}
+
+.mobileItemActive {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}

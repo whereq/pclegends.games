@@ -193,6 +193,43 @@ footer.footer {
   padding: 4px 8px;
 }
 
+/* ── The right-hand controls of the navbar ─────────────────────── */
+
+/*
+ * The colour-mode toggle is a square button with the mark in it, not a
+ * bare icon floating in the bar: it sits beside the language switch, and
+ * the two should read as the same kind of thing.
+ *
+ * The selector is written with the element in front of the class, so that
+ * it beats the theme's own rule wherever the two stylesheets fall.
+ */
+button[class*='colorModeToggle'],
+button[class*='toggleButton'] {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 2px;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+button[class*='toggleButton']:hover {
+  background-color: var(--ifm-color-emphasis-100);
+  border-color: var(--ifm-color-emphasis-400);
+}
+
+[data-theme='dark'] button[class*='toggleButton']:hover {
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+/*
+ * The search box is not a pill either. The house radius is 2px, and a
+ * rounded box in a bar of square buttons reads as another control.
+ */
+.navbar .navbar__search-input,
+.navbar__search-input {
+  border-radius: 2px;
+}
+
 /* ── Blog and Docs: The 3-column layout (sidebar | content | TOC) */
 .docPage_node_modules,
 .docPage__node_modules,

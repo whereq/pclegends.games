@@ -126,12 +126,15 @@ async function createConfig(): Promise<Config> {
           { to: '/about', label: 'About', position: 'left' },
           { to: '/privacy', label: 'Privacy', position: 'left' },
           {
-            type: 'localeDropdown',
+            // The language switch: two buttons, EN and 中, with the one
+            // being read lit. A dropdown with two entries in it costs a
+            // click to say what a pair of buttons says at a glance.
+            type: 'custom-localeSwitch',
             position: 'right',
-            className: 'locale-dropdown',
+            className: 'locale-switch',
           },
           {
-            href: 'https://github.com/whereq/pclegends.games',
+            href: 'https://github.com/whereq/whereq-dosbox',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
