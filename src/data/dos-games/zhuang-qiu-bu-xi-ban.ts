@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "zhuang-qiu-bu-xi-ban",
   collection: "dos-games",
   name: "撞球补习班",
-  nameEn: "Zhuang Qiu Bu Xi Ban",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 26 files, 186 KB.",

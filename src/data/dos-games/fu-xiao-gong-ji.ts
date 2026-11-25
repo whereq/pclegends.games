@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "fu-xiao-gong-ji",
   collection: "dos-games",
   name: "拂晓攻击",
+  nameEn: "Down Raider",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 59 files, 392 KB.",

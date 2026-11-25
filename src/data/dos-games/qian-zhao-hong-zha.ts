@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "qian-zhao-hong-zha",
   collection: "dos-games",
   name: "千兆轰炸",
+  nameEn: "Epic",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 110 files, 1.4 MB.",

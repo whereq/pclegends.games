@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "duo-qi-da-zhan",
   collection: "dos-games",
   name: "夺旗大战",
+  nameEn: "Capture the Flag",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 60 files, 544 KB.",

@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "da-fu-weng-zong-dong-yuan",
   collection: "dos-games",
   name: "大富翁总动员",
-  nameEn: "Dafuwengzongdongyuan",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 2,013 files, 159.8 MB.",

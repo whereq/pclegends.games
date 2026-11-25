@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "guo-wang-de-en-ci",
   collection: "dos-games",
   name: "国王的恩赐",
+  nameEn: "King's Bounty",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 3 files, 653 KB.",

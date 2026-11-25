@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yu-zhou-wang-pai-2",
   collection: "dos-games",
   name: "宇宙王牌2",
+  nameEn: "Space Ace II",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 18 files, 3.1 MB.",

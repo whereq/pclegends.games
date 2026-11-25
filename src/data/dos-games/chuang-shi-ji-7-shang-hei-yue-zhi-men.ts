@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chuang-shi-ji-7-shang-hei-yue-zhi-men",
   collection: "dos-games",
   name: "创世纪7上黑月之门",
+  nameEn: "Ultima VII: The Black Gate",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 219 files, 29.0 MB.",

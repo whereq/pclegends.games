@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xi-xue-gui-zhi-ta",
   collection: "dos-games",
   name: "吸血鬼之塔",
+  nameEn: "Vampiric Tower",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 8 files, 78 KB.",

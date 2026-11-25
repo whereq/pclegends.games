@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "lu-ding-ji",
   collection: "dos-games",
   name: "鹿鼎记",
-  nameEn: "Ludingji",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 1,664 files, 7.0 MB.",

@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "tian-xia-wu-di",
   collection: "dos-games",
   name: "天下无敌",
-  nameEn: "Tian Xia Wu Di",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 415 files, 2.4 MB.",

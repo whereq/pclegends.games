@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wu-ye-ling-zhu",
   collection: "dos-games",
   name: "午夜领主",
+  nameEn: "Midnight Lord",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 243 files, 9.1 MB.",

@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "du-shen-zhi-zun-zhi-zhan",
   collection: "dos-games",
   name: "赌神至尊之战",
-  nameEn: "Dushenzhizunzhizhan",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 1,335 files, 46.7 MB.",

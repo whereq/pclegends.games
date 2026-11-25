@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ming-ling-yu-zheng-fu-zheng-he-ban",
   collection: "dos-games",
   name: "命令与征服整合版",
+  nameEn: "Command & Conquer",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 32 files, 17.4 MB.",

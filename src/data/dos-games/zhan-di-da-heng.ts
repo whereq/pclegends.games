@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-di-da-heng",
   collection: "dos-games",
   name: "战地大亨",
+  nameEn: "Battlefield Tycoon- Golden Gate Tour",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 47 files, 6.8 MB.",

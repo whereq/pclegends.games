@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "tian-wai-jian-sheng-lu",
   collection: "dos-games",
   name: "天外剑圣录",
-  nameEn: "Tian Wai Jian Sheng Lu",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 478 files, 5.9 MB.",

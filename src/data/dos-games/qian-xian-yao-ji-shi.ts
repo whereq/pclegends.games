@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "qian-xian-yao-ji-shi",
   collection: "dos-games",
   name: "前线药剂师",
+  nameEn: "Freddy Pharkas, Frontier Pharmacist",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 52 files, 20.0 MB.",

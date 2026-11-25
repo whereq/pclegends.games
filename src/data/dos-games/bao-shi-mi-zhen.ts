@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bao-shi-mi-zhen",
   collection: "dos-games",
   name: "宝石迷阵",
+  nameEn: "Xixit",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 4 files, 805 KB.",

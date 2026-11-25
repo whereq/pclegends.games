@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yu-zhou-shi-zi-jun",
   collection: "dos-games",
   name: "宇宙十字军",
+  nameEn: "Space Crusade",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 30 files, 1007 KB.",

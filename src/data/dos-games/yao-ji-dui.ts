@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "yao-ji-dui",
   collection: "dos-games",
   name: "妖击队",
-  nameEn: "Yao Ji Dui",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 579 files, 4.4 MB.",

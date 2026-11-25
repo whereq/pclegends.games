@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shao-nian-zhen-tan",
   collection: "dos-games",
   name: "少年侦探",
+  nameEn: "Teen Agent",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 17 files, 3.5 MB.",

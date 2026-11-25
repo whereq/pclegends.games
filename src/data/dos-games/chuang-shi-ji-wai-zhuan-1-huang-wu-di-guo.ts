@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chuang-shi-ji-wai-zhuan-1-huang-wu-di-guo",
   collection: "dos-games",
   name: "创世纪外传1荒芜帝国",
+  nameEn: "The Savage Empire",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 123 files, 5.7 MB.",

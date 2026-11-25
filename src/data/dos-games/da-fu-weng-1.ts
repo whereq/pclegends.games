@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "大富翁1",
   nameEn: "Richman",
-  nameEnSource: "known",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1999 — 47 files, 7.0 MB.",

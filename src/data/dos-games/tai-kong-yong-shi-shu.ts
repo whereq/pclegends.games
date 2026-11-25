@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tai-kong-yong-shi-shu",
   collection: "dos-games",
   name: "太空勇士鼠",
+  nameEn: "Galactic Warrior Rats",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 32 files, 297 KB.",

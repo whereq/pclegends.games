@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chuang-shi-ji-3",
   collection: "dos-games",
   name: "创世纪3",
+  nameEn: "Ultima III: Exodus",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1984 — 48 files, 65 KB.",

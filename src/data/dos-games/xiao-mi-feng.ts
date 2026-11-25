@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xiao-mi-feng",
   collection: "dos-games",
   name: "小蜜蜂",
+  nameEn: "Galaxia",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 19 files, 689 KB.",

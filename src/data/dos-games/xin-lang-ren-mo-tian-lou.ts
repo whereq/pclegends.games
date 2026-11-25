@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "xin-lang-ren-mo-tian-lou",
   collection: "dos-games",
   name: "新狼人摩天楼",
-  nameEn: "Xin Lang Ren Mo Tian Lou",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 148 files, 4.0 MB.",

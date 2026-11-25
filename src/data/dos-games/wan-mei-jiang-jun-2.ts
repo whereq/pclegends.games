@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wan-mei-jiang-jun-2",
   collection: "dos-games",
   name: "完美将军2",
+  nameEn: "Perfect General 2",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 217 files, 57.3 MB.",

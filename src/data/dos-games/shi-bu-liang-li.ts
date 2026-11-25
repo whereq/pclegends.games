@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-bu-liang-li",
   collection: "dos-games",
   name: "势不两立",
+  nameEn: "Bad Blood",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 122 files, 1.1 MB.",

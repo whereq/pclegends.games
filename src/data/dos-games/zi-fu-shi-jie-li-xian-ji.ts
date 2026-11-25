@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zi-fu-shi-jie-li-xian-ji",
   collection: "dos-games",
   name: "字符世界历险记",
+  nameEn: "ZZT",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 27 files, 369 KB.",

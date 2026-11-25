@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-luo-de-shi-zu",
   collection: "dos-games",
   name: "失落的氏族",
+  nameEn: "Lost Tribe",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 35 files, 7.1 MB.",

@@ -53,6 +53,7 @@ PUBLISHED = '/home/whereq/git/dos/published-names.json'
 WIKI = '/home/whereq/git/dos/wiki-english-names.json'
 CATALOGUE = '/home/whereq/git/dos/catalogue-names.json'
 AGENT_RESULTS = '/tmp/name-results/result-*.json'
+OVERRIDES = '/tmp/name-overrides.json'
 EVIDENCE = '/home/whereq/git/dos/title-evidence.json'
 
 # The order a source wins in: the one closest to the artefact first. A title
@@ -243,6 +244,25 @@ def main():
                       if entry['source'] == 'romanised']
     for name in romanised_only:
         del merged[name]
+
+    # ── what the arbitration found ─────────────────────────────
+    # The indexes publish machine output for some of the Chinese games: the
+    # Chinese name in Latin letters, or the Chinese name translated word for
+    # word. A checked game can carry a different title, or none at all.
+    if os.path.exists(OVERRIDES):
+        overrides = json.load(open(OVERRIDES, encoding='utf-8'))
+        for name, entry in overrides.items():
+            english = (entry.get('en') or '').strip()
+            if not english:
+                merged.pop(name, None)
+                continue
+            source = entry.get('source') or 'known'
+            if source == 'bundle':
+                checked += 1
+                if not _verify.says_title(bundle_says(name), english):
+                    source = 'known'
+            merged[name] = {'en': english, 'source': source}
+        print(f'overrides applied: {len(overrides)}')
 
     print(f'\nbundle checks: {checked}')
 

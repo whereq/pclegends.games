@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "qie-ke-si-li-xian-ji-2",
   collection: "dos-games",
   name: "切克斯历险记2",
+  nameEn: "Chex Quest 2",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 19 files, 29.0 MB.",

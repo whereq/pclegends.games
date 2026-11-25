@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chuang-shi-ji-7-xia-ju-she-zhi-dao",
   collection: "dos-games",
   name: "创世纪7下巨蛇之岛",
+  nameEn: "Ultima VII Part Two: The Serpent's Isle",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 418 files, 20.6 MB.",

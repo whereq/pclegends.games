@@ -10,7 +10,7 @@ const entry: AtlasEntry = {
   id: "gang-tie-qi-shi-tuan",
   collection: "dos-games",
   name: "钢铁骑士团",
-  nameEn: "Bible Master",
+  nameEn: "Bible Master 2",
   nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",

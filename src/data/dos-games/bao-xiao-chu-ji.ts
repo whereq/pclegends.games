@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "bao-xiao-chu-ji",
   collection: "dos-games",
   name: "爆笑出击",
-  nameEn: "Bao Xiao Chu Ji",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1980 — 201 files, 2.0 MB.",

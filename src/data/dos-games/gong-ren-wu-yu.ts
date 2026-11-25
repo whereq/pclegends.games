@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gong-ren-wu-yu",
   collection: "dos-games",
   name: "工人物语",
+  nameEn: "The Settlers",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 58 files, 1.2 MB.",

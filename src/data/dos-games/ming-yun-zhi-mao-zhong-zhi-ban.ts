@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ming-yun-zhi-mao-zhong-zhi-ban",
   collection: "dos-games",
   name: "命运之矛重制版",
+  nameEn: "Spear Resurrection",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 23 files, 1.7 MB.",

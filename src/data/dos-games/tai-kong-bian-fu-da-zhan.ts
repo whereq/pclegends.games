@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tai-kong-bian-fu-da-zhan",
   collection: "dos-games",
   name: "太空蝙蝠大战",
+  nameEn: "Invasion of the Mutant Space Bats of Doom",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 6 files, 351 KB.",

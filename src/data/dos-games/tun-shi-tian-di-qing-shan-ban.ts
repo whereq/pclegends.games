@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tun-shi-tian-di-qing-shan-ban",
   collection: "dos-games",
   name: "吞食天地青衫版",
+  nameEn: "Sango Fighter",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 22 files, 1.6 MB.",

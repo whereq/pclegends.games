@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "da-song-ying-hao-yue-fei-chuan",
   collection: "dos-games",
   name: "大宋英豪岳飞传",
-  nameEn: "Dasongyinghaoyuefeichuan",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 457 files, 467.8 MB.",

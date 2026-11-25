@@ -10,7 +10,7 @@ const entry: AtlasEntry = {
   id: "di-guo-de-guang-rong",
   collection: "dos-games",
   name: "帝国的光荣",
-  nameEn: "Pearl Harbor and Midway Island",
+  nameEn: "Pearl Harbor and Midway Island II",
   nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xiao-gui-dang-jia",
   collection: "dos-games",
   name: "小鬼当家",
+  nameEn: "Home Alone",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 43 files, 471 KB.",

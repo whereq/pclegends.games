@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "pen-qi-bei-bao",
   collection: "dos-games",
   name: "喷气背包",
+  nameEn: "Jetpack",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 32 files, 484 KB.",

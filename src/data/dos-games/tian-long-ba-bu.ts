@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tian-long-ba-bu",
   collection: "dos-games",
   name: "天龙八部",
+  nameEn: "Demi-Gods and Semi-Devils",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 1,715 files, 119.4 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chu-ji-fei-long",
   collection: "dos-games",
   name: "出击飞龙",
+  nameEn: "Strider",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 48 files, 174 KB.",

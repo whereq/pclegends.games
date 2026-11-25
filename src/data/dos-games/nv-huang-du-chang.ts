@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "nv-huang-du-chang",
   collection: "dos-games",
   name: "女皇赌场",
+  nameEn: "4 Queens Computer Casino",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 38 files, 352 KB.",

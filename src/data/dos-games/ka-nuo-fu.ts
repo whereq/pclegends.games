@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ka-nuo-fu",
   collection: "dos-games",
   name: "卡诺夫",
+  nameEn: "Karnov",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1988 — 18 files, 236 KB.",

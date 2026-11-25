@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tian-di-wu-yong",
   collection: "dos-games",
   name: "天地无用",
+  nameEn: "TENCHIMUYO!RYO-OHKI",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 568 files, 7.5 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ka-la-han-shi-kong-sha-long",
   collection: "dos-games",
   name: "卡拉汉时空沙龙",
+  nameEn: "Callahan's Crosstime Saloon",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 134 files, 94.8 MB.",

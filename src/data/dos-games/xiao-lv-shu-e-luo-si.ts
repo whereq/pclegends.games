@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xiao-lv-shu-e-luo-si",
   collection: "dos-games",
   name: "小旅鼠俄罗斯",
+  nameEn: "Lemmings",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 7 files, 150 KB.",

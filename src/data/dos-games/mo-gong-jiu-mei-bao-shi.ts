@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-gong-jiu-mei-bao-shi",
   collection: "dos-games",
   name: "魔宫救美宝石",
+  nameEn: "Puzzle Beauty",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 47 files, 5.0 MB.",

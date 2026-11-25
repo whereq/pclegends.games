@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tian-tang-he-ren-jian",
   collection: "dos-games",
   name: "天堂和人间",
+  nameEn: "Heaven & Earth",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 17 files, 2.6 MB.",

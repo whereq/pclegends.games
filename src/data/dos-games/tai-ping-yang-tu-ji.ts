@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tai-ping-yang-tu-ji",
   collection: "dos-games",
   name: "太平洋突击",
+  nameEn: "Pacific General",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 24 files, 17.9 MB.",

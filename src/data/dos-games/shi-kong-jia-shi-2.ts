@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-kong-jia-shi-2",
   collection: "dos-games",
   name: "失控驾驶2",
+  nameEn: "Fire & Forget II",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 22 files, 258 KB.",

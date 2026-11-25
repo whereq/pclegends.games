@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhong-ji-ren-wu",
   collection: "dos-games",
   name: "终极任务",
+  nameEn: "Ultimate mission",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 14 files, 4.3 MB.",

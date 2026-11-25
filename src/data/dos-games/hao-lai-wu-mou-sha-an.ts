@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hao-lai-wu-mou-sha-an",
   collection: "dos-games",
   name: "好莱坞谋杀案",
+  nameEn: "The Hollywood Murders",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 25 files, 1.1 MB.",

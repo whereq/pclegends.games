@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "si-chuan-sheng-2",
   collection: "dos-games",
   name: "四川省2",
+  nameEn: "Sichuan Province",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 97 files, 1.5 MB.",

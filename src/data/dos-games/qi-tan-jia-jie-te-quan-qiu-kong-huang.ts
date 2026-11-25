@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "qi-tan-jia-jie-te-quan-qiu-kong-huang",
   collection: "dos-games",
   name: "奇探加杰特全球恐慌",
+  nameEn: "Inspector Gadget",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 36 files, 4.9 MB.",

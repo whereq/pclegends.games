@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tai-kong-di-9-ji-hua",
   collection: "dos-games",
   name: "太空第9计划",
+  nameEn: "Plan 9",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 22 files, 2.2 MB.",

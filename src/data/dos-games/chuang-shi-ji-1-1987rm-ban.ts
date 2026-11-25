@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chuang-shi-ji-1-1987rm-ban",
   collection: "dos-games",
   name: "创世纪1(1987RM版)",
+  nameEn: "Ultima I: The First Age of Darkness",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1987 — 27 files, 142 KB.",

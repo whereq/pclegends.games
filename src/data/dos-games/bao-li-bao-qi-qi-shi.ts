@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bao-li-bao-qi-qi-shi",
   collection: "dos-games",
   name: "宝里宝气骑士",
+  nameEn: "Eric the Unready",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 124 files, 5.6 MB.",

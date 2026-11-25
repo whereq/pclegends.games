@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-yan-xie-shen",
   collection: "dos-games",
   name: "魔眼邪神",
+  nameEn: "Celtic Tales - Balor of Evil Eye",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 219 files, 12.2 MB.",

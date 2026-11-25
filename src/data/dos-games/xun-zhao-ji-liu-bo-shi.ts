@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xun-zhao-ji-liu-bo-shi",
   collection: "dos-games",
   name: "寻找激流博士",
+  nameEn: "Riptide",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 12 files, 898 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chuang-shi-ji-2",
   collection: "dos-games",
   name: "创世纪2",
+  nameEn: "Ultima II: The Revenge of the Enchantress",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1980 — 91 files, 66 KB.",

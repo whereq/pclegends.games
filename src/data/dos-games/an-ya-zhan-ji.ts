@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "an-ya-zhan-ji",
   collection: "dos-games",
   name: "安雅战机",
+  nameEn: "Arya Vaiv",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 48 files, 409 KB.",

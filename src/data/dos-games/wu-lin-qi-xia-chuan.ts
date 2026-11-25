@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "wu-lin-qi-xia-chuan",
   collection: "dos-games",
   name: "武林奇侠传",
-  nameEn: "Wu Lin Qi Xia Zhuan",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 282 files, 3.7 MB.",

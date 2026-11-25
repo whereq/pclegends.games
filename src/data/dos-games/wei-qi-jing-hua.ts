@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wei-qi-jing-hua",
   collection: "dos-games",
   name: "围棋精华",
+  nameEn: "Nemesis",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 19 files, 351 KB.",

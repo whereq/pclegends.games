@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tou-gu-yu-ku-lou-shi-zi",
   collection: "dos-games",
   name: "头骨与骷髅十字",
+  nameEn: "Skull and Crossbones",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 104 files, 191 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tai-ping-yang-wang-pai-fei-xing-yuan",
   collection: "dos-games",
   name: "太平洋王牌飞行员",
+  nameEn: "Ace of the Pacific",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 56 files, 7.4 MB.",

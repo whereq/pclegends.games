@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tian-xuan-di-zhuan-2",
   collection: "dos-games",
   name: "天旋地转2",
+  nameEn: "Descent II",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 47 files, 27.3 MB.",

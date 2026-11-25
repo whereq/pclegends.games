@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xiao-e-mo",
   collection: "dos-games",
   name: "小恶魔",
+  nameEn: "Little Devil",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 92 files, 16.3 MB.",

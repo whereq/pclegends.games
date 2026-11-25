@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "红色警戒",
   nameEn: "Command & Conquer: Red Alert",
-  nameEnSource: "bundle",
+  nameEnSource: "published",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 65 files, 50.5 MB.",

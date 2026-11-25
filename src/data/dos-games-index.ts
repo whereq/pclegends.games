@@ -401,7 +401,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "es-fang-cheng-shi",
     name: "ES方程式",
-    nameEn: "Esfangchengshi",
+    nameEn: "Es no Houteishiki",
     year: "1996",
     size: 6146009,
     files: 25,
@@ -661,7 +661,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "qq-san-guo-zhi",
     name: "QQ三国志",
-    nameEn: "Qqsanguozhi",
     year: "1997",
     size: 12951875,
     files: 184,
@@ -921,7 +920,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "qi-ying-xiong-wai-zhuan-wang-zhe-zhi-shi",
     name: "七英雄外传王者之师",
-    nameEn: "Qiyingxiongwaichuanwangzhezhishi",
     year: "1997",
     size: 132911604,
     files: 836,
@@ -960,7 +958,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "wan-li-chang-cheng-bian-cheng-qi-xia",
     name: "万里长城边城奇侠",
-    nameEn: "Wan Li Chang Cheng - Bian Cheng Qi Xia",
     year: "1994",
     size: 3769207,
     files: 610,
@@ -1575,7 +1572,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "zhong-hua-zhi-bang",
     name: "中华职棒",
-    nameEn: "Chinese Professional Baseball",
+    nameEn: "Chinese Professional Baseball 2",
     year: "1993",
     size: 8582360,
     files: 503,
@@ -1741,7 +1738,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "wu-long-yuan",
     name: "乌龙院",
-    nameEn: "Wulongyuan",
     year: "1997",
     size: 29742029,
     files: 314,
@@ -2105,7 +2101,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "yi-sa-3-yong-heng-zhi-men",
     name: "以撒3永恒之门",
-    nameEn: "Ishar 3 - The Seven Gates of Infinity",
+    nameEn: "Ishar 3: The Seven Gates of Infinity",
     year: "1994",
     size: 11236687,
     files: 152,
@@ -2157,7 +2153,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "yi-dian-feng-bao",
     name: "伊甸风暴",
-    nameEn: "Yidianfengbao",
     year: "1998",
     size: 22373504,
     files: 436,
@@ -2209,7 +2204,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "wu-zi-xu",
     name: "伍子胥",
-    nameEn: "Wuzixu",
     year: "1980",
     size: 51947273,
     files: 104,
@@ -2752,7 +2746,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "ba-nv-shen-wu-yu",
     name: "八女神物语",
-    nameEn: "Ba Nv Shen Wu Yu",
     year: "1994",
     size: 11620047,
     files: 480,
@@ -2765,7 +2758,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "ba-nv-shen-wu-yu-2",
     name: "八女神物语2",
-    nameEn: "Banüshenwuyu2",
     year: "1996",
     size: 9597550,
     files: 458,
@@ -3142,6 +3134,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "kai-sa-li-zhi-chuan",
     name: "凯撒立志传",
+    nameEn: "Kaiser",
     year: "1994",
     size: 2283922,
     files: 121,
@@ -3154,6 +3147,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "chu-ji-fei-long",
     name: "出击飞龙",
+    nameEn: "Strider",
     year: "1989",
     size: 178350,
     files: 48,
@@ -3178,6 +3172,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "qie-ke-si-li-xian-ji",
     name: "切克斯历险记",
+    nameEn: "Chex Quest",
     year: "1996",
     size: 28213678,
     files: 18,
@@ -3190,6 +3185,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "qie-ke-si-li-xian-ji-2",
     name: "切克斯历险记2",
+    nameEn: "Chex Quest 2",
     year: "1996",
     size: 30448052,
     files: 19,
@@ -3264,6 +3260,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "chuang-shi-ji-1-1987rm-ban",
     name: "创世纪1(1987RM版)",
+    nameEn: "Ultima I: The First Age of Darkness",
     year: "1987",
     size: 145758,
     files: 27,
@@ -3276,6 +3273,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "chuang-shi-ji-2",
     name: "创世纪2",
+    nameEn: "Ultima II: The Revenge of the Enchantress",
     year: "1980",
     size: 67994,
     files: 91,
@@ -3288,6 +3286,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "chuang-shi-ji-3",
     name: "创世纪3",
+    nameEn: "Ultima III: Exodus",
     year: "1984",
     size: 66538,
     files: 48,
@@ -3300,6 +3299,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "chuang-shi-ji-4",
     name: "创世纪4",
+    nameEn: "Ultima IV: Quest of the Avatar",
     year: "1987",
     size: 347478,
     files: 149,
@@ -3312,6 +3312,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "chuang-shi-ji-5",
     name: "创世纪5",
+    nameEn: "Ultima V: Worlds of Ultima",
     year: "1988",
     size: 662373,
     files: 124,
@@ -3324,6 +3325,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "chuang-shi-ji-6",
     name: "创世纪6",
+    nameEn: "Ultima VI: The False Prophet",
     year: "1990",
     size: 1829013,
     files: 171,
@@ -3336,6 +3338,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "chuang-shi-ji-7-shang-hei-yue-zhi-men",
     name: "创世纪7上黑月之门",
+    nameEn: "Ultima VII: The Black Gate",
     year: "1992",
     size: 30403289,
     files: 219,
@@ -3348,6 +3351,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "chuang-shi-ji-7-xia-ju-she-zhi-dao",
     name: "创世纪7下巨蛇之岛",
+    nameEn: "Ultima VII Part Two: The Serpent's Isle",
     year: "1993",
     size: 21571370,
     files: 418,
@@ -3360,6 +3364,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "chuang-shi-ji-8",
     name: "创世纪8",
+    nameEn: "Ultima VIII: Pagan",
     year: "1998",
     size: 32951215,
     files: 60,
@@ -3372,6 +3377,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "chuang-shi-ji-wai-zhuan-1-huang-wu-di-guo",
     name: "创世纪外传1荒芜帝国",
+    nameEn: "The Savage Empire",
     year: "1996",
     size: 5990483,
     files: 123,
@@ -3384,6 +3390,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "chuang-shi-ji-wai-zhuan-2-huo-xing-zhi-lv",
     name: "创世纪外传2火星之旅",
+    nameEn: "Worlds of Ultima: Martian Dreams",
     year: "1996",
     size: 2186164,
     files: 143,
@@ -3396,6 +3403,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "qian-xian-yao-ji-shi",
     name: "前线药剂师",
+    nameEn: "Freddy Pharkas, Frontier Pharmacist",
     year: "1993",
     size: 20982138,
     files: 52,
@@ -3434,6 +3442,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "jian-qiu-luo",
     name: "剪秋罗",
+    nameEn: "Lychnis",
     year: "1995",
     size: 1350035,
     files: 10,
@@ -3446,6 +3455,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "li-zhi-nu-pu",
     name: "力之奴仆",
+    nameEn: "Power Slave",
     year: "2009",
     size: 10507488,
     files: 23,
@@ -3482,6 +3492,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "shi-bu-liang-li",
     name: "势不两立",
+    nameEn: "Bad Blood",
     year: "1990",
     size: 1127661,
     files: 122,
@@ -3633,6 +3644,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "shi-zi-jun-quan-li-zhi-zhan",
     name: "十字军权利之战",
+    nameEn: "Crusade",
     year: "1996",
     size: 13860970,
     files: 39,
@@ -3658,6 +3670,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "qian-zhao-hong-zha",
     name: "千兆轰炸",
+    nameEn: "Epic",
     year: "1996",
     size: 1486487,
     files: 110,
@@ -3670,6 +3683,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "wu-ye-ling-zhu",
     name: "午夜领主",
+    nameEn: "Midnight Lord",
     year: "1996",
     size: 9592571,
     files: 243,
@@ -3770,7 +3784,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "nan-hai-ba-zhu",
     name: "南海霸主",
-    nameEn: "Nan Hai Ba Zhu",
     year: "2007",
     size: 1888619,
     files: 100,
@@ -3809,6 +3822,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "ka-la-han-shi-kong-sha-long",
     name: "卡拉汉时空沙龙",
+    nameEn: "Callahan's Crosstime Saloon",
     year: "1996",
     size: 99390846,
     files: 134,
@@ -3834,6 +3848,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "ka-nuo-fu",
     name: "卡诺夫",
+    nameEn: "Karnov",
     year: "1988",
     size: 241471,
     files: 18,
@@ -4644,6 +4659,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "tun-shi-tian-di-1",
     name: "吞食天地1",
+    nameEn: "Sango Fighter",
     year: "1991",
     size: 2963121,
     files: 15,
@@ -4682,6 +4698,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "tun-shi-tian-di-4",
     name: "吞食天地4",
+    nameEn: "Devour World 4",
     year: "",
     size: 296178498,
     files: 2943,
@@ -4694,6 +4711,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "tun-shi-tian-di-qing-shan-ban",
     name: "吞食天地青衫版",
+    nameEn: "Sango Fighter",
     year: "1991",
     size: 1689116,
     files: 22,
@@ -4706,6 +4724,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "xi-xue-gui-zhi-ta",
     name: "吸血鬼之塔",
+    nameEn: "Vampiric Tower",
     year: "1996",
     size: 79921,
     files: 8,
@@ -4767,6 +4786,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "ming-ling-yu-zheng-fu-zheng-he-ban",
     name: "命令与征服整合版",
+    nameEn: "Command & Conquer",
     year: "1995",
     size: 18259676,
     files: 32,
@@ -4791,6 +4811,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "ming-yun-zhi-mao-zhong-zhi-ban",
     name: "命运之矛重制版",
+    nameEn: "Spear Resurrection",
     year: "1996",
     size: 1735244,
     files: 23,
@@ -4815,6 +4836,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "zhou-yu-jiao-cha",
     name: "咒语交叉",
+    nameEn: "Spellcross",
     year: "1998",
     size: 58007452,
     files: 65,
@@ -4887,6 +4909,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "pen-qi-bei-bao",
     name: "喷气背包",
+    nameEn: "Jetpack",
     year: "1998",
     size: 495199,
     files: 32,
@@ -4960,6 +4983,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "si-chuan-sheng-2",
     name: "四川省2",
+    nameEn: "Sichuan Province",
     year: "1991",
     size: 1546451,
     files: 97,
@@ -4972,6 +4996,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "si-chuan-sheng-3",
     name: "四川省3",
+    nameEn: "Sichuan Province3",
     year: "1993",
     size: 2005071,
     files: 48,
@@ -5032,6 +5057,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "tuan-ju",
     name: "团聚",
+    nameEn: "Reunion",
     year: "2003",
     size: 11628616,
     files: 904,
@@ -5056,6 +5082,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "wei-qi-jing-hua",
     name: "围棋精华",
+    nameEn: "Nemesis",
     year: "1997",
     size: 359162,
     files: 19,
@@ -5158,6 +5185,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "guo-wang-de-en-ci",
     name: "国王的恩赐",
+    nameEn: "King's Bounty",
     year: "1995",
     size: 668382,
     files: 3,
@@ -5242,6 +5270,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "guo-ji-xiang-qi-wu-shu-dui-jue",
     name: "国际象棋巫术对决",
+    nameEn: "Archon Ultra",
     year: "1994",
     size: 4921668,
     files: 10,
@@ -5266,6 +5295,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "guo-ji-chao-ji-che-sai",
     name: "国际超级车赛",
+    nameEn: "Super Cars",
     year: "1996",
     size: 2886140,
     files: 11,
@@ -5809,7 +5839,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "da-tang-ying-xiong-zhuan",
     name: "大唐英雄传",
-    nameEn: "Datangyingxiongchuan",
     year: "1997",
     size: 9429597,
     files: 1002,
@@ -5848,7 +5877,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "da-song-ying-hao-yue-fei-chuan",
     name: "大宋英豪岳飞传",
-    nameEn: "Dasongyinghaoyuefeichuan",
     year: "2010",
     size: 490512036,
     files: 457,
@@ -5912,7 +5940,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "da-fu-weng-zong-dong-yuan",
     name: "大富翁总动员",
-    nameEn: "Dafuwengzongdongyuan",
     year: "",
     size: 167605949,
     files: 2013,
@@ -5964,7 +5991,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "da-zhan-lve",
     name: "大战略",
-    nameEn: "Battle Commander",
+    nameEn: "Battle Commander II - The World War",
     year: "1992",
     size: 5335426,
     files: 572,
@@ -6132,7 +6159,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "da-ye-feng-yun",
     name: "大野风云",
-    nameEn: "Da Ye Feng Yun",
     year: "2007",
     size: 2859014,
     files: 16,
@@ -6195,7 +6221,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "tian-xia-wu-di",
     name: "天下无敌",
-    nameEn: "Tian Xia Wu Di",
     year: "1995",
     size: 2514610,
     files: 415,
@@ -6208,6 +6233,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "tian-shi-q-nv-xue-yuan",
     name: "天使Q女学院",
+    nameEn: "Tianshiqnüxueyuan",
     year: "1997",
     size: 12598806,
     files: 993,
@@ -6258,6 +6284,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "tian-di-wu-yong",
     name: "天地无用",
+    nameEn: "TENCHIMUYO!RYO-OHKI",
     year: "1994",
     size: 7876571,
     files: 568,
@@ -6270,6 +6297,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "tian-tang-he-ren-jian",
     name: "天堂和人间",
+    nameEn: "Heaven & Earth",
     year: "1996",
     size: 2740464,
     files: 17,
@@ -6282,7 +6310,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "tian-wai-jian-sheng-lu",
     name: "天外剑圣录",
-    nameEn: "Tian Wai Jian Sheng Lu",
     year: "1993",
     size: 6208269,
     files: 478,
@@ -6319,7 +6346,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "tian-cai-bao-bao-da-jin-ji",
     name: "天才宝宝大进击",
-    nameEn: "Little Geniuses- Go Home!",
+    nameEn: "Genius",
     year: "1995",
     size: 4696880,
     files: 83,
@@ -6332,6 +6359,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "tian-xuan-di-zhuan",
     name: "天旋地转",
+    nameEn: "Descent",
     year: "1995",
     size: 7442877,
     files: 28,
@@ -6344,6 +6372,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "tian-xuan-di-zhuan-2",
     name: "天旋地转2",
+    nameEn: "Descent II",
     year: "1996",
     size: 28645435,
     files: 47,
@@ -6406,6 +6435,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "tian-long-ba-bu",
     name: "天龙八部",
+    nameEn: "Demi-Gods and Semi-Devils",
     year: "1997",
     size: 125191405,
     files: 1715,
@@ -6443,6 +6473,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "tai-ping-yang-wang-pai-fei-xing-yuan",
     name: "太平洋王牌飞行员",
+    nameEn: "Ace of the Pacific",
     year: "1996",
     size: 7801416,
     files: 56,
@@ -6455,6 +6486,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "tai-ping-yang-wang-pai-fei-xing-yuan-zi-liao-pian",
     name: "太平洋王牌飞行员+资料片",
+    nameEn: "Ace of the Pacific",
     year: "1996",
     size: 4955000,
     files: 35,
@@ -6467,6 +6499,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "tai-ping-yang-tu-ji",
     name: "太平洋突击",
+    nameEn: "Pacific General",
     year: "1994",
     size: 18762450,
     files: 24,
@@ -6479,6 +6512,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "tai-kong-yong-shi-shu",
     name: "太空勇士鼠",
+    nameEn: "Galactic Warrior Rats",
     year: "1996",
     size: 303889,
     files: 32,
@@ -6503,6 +6537,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "tai-kong-di-9-ji-hua",
     name: "太空第9计划",
+    nameEn: "Plan 9",
     year: "1992",
     size: 2257653,
     files: 22,
@@ -6515,6 +6550,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "tai-kong-bian-fu-da-zhan",
     name: "太空蝙蝠大战",
+    nameEn: "Invasion of the Mutant Space Bats of Doom",
     year: "1996",
     size: 359709,
     files: 6,
@@ -6565,6 +6601,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "shi-kong-jia-shi-2",
     name: "失控驾驶2",
+    nameEn: "Fire & Forget II",
     year: "1989",
     size: 264638,
     files: 22,
@@ -6615,6 +6652,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "shi-luo-de-shi-zu",
     name: "失落的氏族",
+    nameEn: "Lost Tribe",
     year: "1992",
     size: 7449346,
     files: 35,
@@ -6639,6 +6677,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "shi-luo-de-wei-jing-ren",
     name: "失落的维京人",
+    nameEn: "The Lost Vikings",
     year: "1993",
     size: 3442878,
     files: 6,
@@ -6651,6 +6690,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "shi-luo-de-wei-jing-ren-2",
     name: "失落的维京人2",
+    nameEn: "The Lost Vikings 2",
     year: "1996",
     size: 167355140,
     files: 834,
@@ -6676,6 +6716,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "tou-gu-yu-ku-lou-shi-zi",
     name: "头骨与骷髅十字",
+    nameEn: "Skull and Crossbones",
     year: "1991",
     size: 195095,
     files: 104,
@@ -6688,6 +6729,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "duo-qi-da-zhan",
     name: "夺旗大战",
+    nameEn: "Capture the Flag",
     year: "1995",
     size: 556648,
     files: 60,
@@ -6700,6 +6742,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "qi-miao-de-zha-ke",
     name: "奇妙的扎克",
+    nameEn: "Zack",
     year: "1993",
     size: 4338123,
     files: 13,
@@ -6724,6 +6767,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "qi-tan-jia-jie-te-quan-qiu-kong-huang",
     name: "奇探加杰特全球恐慌",
+    nameEn: "Inspector Gadget",
     year: "1992",
     size: 5168685,
     files: 36,
@@ -6775,6 +6819,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "nv-huang-du-chang",
     name: "女皇赌场",
+    nameEn: "4 Queens Computer Casino",
     year: "1996",
     size: 360713,
     files: 38,
@@ -6823,6 +6868,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "hao-lai-wu-mou-sha-an",
     name: "好莱坞谋杀案",
+    nameEn: "The Hollywood Murders",
     year: "1996",
     size: 1199858,
     files: 25,
@@ -6848,7 +6894,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "yao-ji-dui",
     name: "妖击队",
-    nameEn: "Yao Ji Dui",
     year: "1997",
     size: 4622107,
     files: 579,
@@ -6873,7 +6918,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "yao-mo-dao",
     name: "妖魔道",
-    nameEn: "Yao Mo Dao",
     year: "1994",
     size: 17856552,
     files: 311,
@@ -6899,6 +6943,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "wei-zi-tu",
     name: "威兹兔",
+    nameEn: "Whizz",
     year: "1994",
     size: 1852110,
     files: 155,
@@ -6935,7 +6980,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "xi-xiao-chun-qiu",
     name: "嬉笑春秋",
-    nameEn: "Xixiaochunqiu",
     year: "1995",
     size: 2812357,
     files: 484,
@@ -6948,6 +6992,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "zi-fu-shi-jie-li-xian-ji",
     name: "字符世界历险记",
+    nameEn: "ZZT",
     year: "1996",
     size: 377378,
     files: 27,
@@ -6985,6 +7030,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "yu-zhou-chuan-qi-7",
     name: "宇宙传奇7",
+    nameEn: "Space Quest V",
     year: "1998",
     size: 7866926,
     files: 46,
@@ -6997,6 +7043,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "yu-zhou-shi-zi-jun",
     name: "宇宙十字军",
+    nameEn: "Space Crusade",
     year: "1996",
     size: 1030841,
     files: 30,
@@ -7033,6 +7080,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "yu-zhou-wang-pai",
     name: "宇宙王牌",
+    nameEn: "Space Ace",
     year: "1996",
     size: 2646468,
     files: 17,
@@ -7045,6 +7093,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "yu-zhou-wang-pai-2",
     name: "宇宙王牌2",
+    nameEn: "Space Ace II",
     year: "1996",
     size: 3299793,
     files: 18,
@@ -7082,6 +7131,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "an-ya-zhan-ji",
     name: "安雅战机",
+    nameEn: "Arya Vaiv",
     year: "1996",
     size: 418326,
     files: 48,
@@ -7094,6 +7144,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "wan-mei-jiang-jun-2",
     name: "完美将军2",
+    nameEn: "Perfect General 2",
     year: "1996",
     size: 60039783,
     files: 217,
@@ -7118,6 +7169,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "bao-shi-mi-zhen",
     name: "宝石迷阵",
+    nameEn: "Xixit",
     year: "1997",
     size: 824098,
     files: 4,
@@ -7142,6 +7194,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "bao-li-bao-qi-qi-shi",
     name: "宝里宝气骑士",
+    nameEn: "Eric the Unready",
     year: "1992",
     size: 5844473,
     files: 124,
@@ -7154,6 +7207,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "shi-ti",
     name: "实体",
+    nameEn: "Entity",
     year: "1996",
     size: 4543641,
     files: 145,
@@ -7166,6 +7220,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "fu-jia-tian-xia",
     name: "富甲天下",
+    nameEn: "The Millionaire of Three Kingdoms",
     year: "1994",
     size: 1771484,
     files: 58,
@@ -7204,6 +7259,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "yu-yan",
     name: "寓言",
+    nameEn: "Fable",
     year: "1996",
     size: 62961994,
     files: 17,
@@ -7216,6 +7272,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "dui-shou",
     name: "对手",
+    nameEn: "Antagony",
     year: "1996",
     size: 11628196,
     files: 112,
@@ -7228,6 +7285,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "dui-kang-zhan-zheng",
     name: "对抗战争",
+    nameEn: "Earthsiege",
     year: "1996",
     size: 1966171,
     files: 284,
@@ -7240,6 +7298,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "xun-zhao-ji-liu-bo-shi",
     name: "寻找激流博士",
+    nameEn: "Riptide",
     year: "1994",
     size: 919844,
     files: 12,
@@ -7252,6 +7311,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "xun-zhao-jing-yu-zuo",
     name: "寻找鲸鱼座",
+    nameEn: "EcoQuest: The Search for Cetus",
     year: "1991",
     size: 6908031,
     files: 55,
@@ -7276,7 +7336,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "feng-shen-yan-yi",
     name: "封神演义",
-    nameEn: "Feng Shen Yan Yi",
     year: "1994",
     size: 2130794,
     files: 41,
@@ -7289,7 +7348,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "she-bo",
     name: "射波",
-    nameEn: "She Bo",
     year: "1992",
     size: 394722,
     files: 6,
@@ -7339,6 +7397,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "xiao-chou-he-mi",
     name: "小丑荷米",
+    nameEn: "Homey",
     year: "2010",
     size: 1160961,
     files: 80,
@@ -7375,6 +7434,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "xiao-e-mo",
     name: "小恶魔",
+    nameEn: "Little Devil",
     year: "1996",
     size: 17045737,
     files: 92,
@@ -7399,6 +7459,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "xiao-lv-shu-e-luo-si",
     name: "小旅鼠俄罗斯",
+    nameEn: "Lemmings",
     year: "2010",
     size: 153420,
     files: 7,
@@ -7448,6 +7509,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "xiao-mi-feng",
     name: "小蜜蜂",
+    nameEn: "Galaxia",
     year: "1997",
     size: 705486,
     files: 19,
@@ -7484,6 +7546,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "xiao-fei-xia",
     name: "小飞侠",
+    nameEn: "Peter Pan",
     year: "1994",
     size: 6831437,
     files: 2,
@@ -7496,6 +7559,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "xiao-gui-dang-jia",
     name: "小鬼当家",
+    nameEn: "Home Alone",
     year: "1991",
     size: 482440,
     files: 43,
@@ -7508,6 +7572,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "xiao-gui-dang-jia-2",
     name: "小鬼当家2",
+    nameEn: "Home Alone 2",
     year: "1985",
     size: 907581,
     files: 43,
@@ -7520,6 +7585,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "xiao-mo-guai-2",
     name: "小魔怪2",
+    nameEn: "Gremlins 2",
     year: "1980",
     size: 230992,
     files: 20,
@@ -7544,6 +7610,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "shao-nian-zhen-tan",
     name: "少年侦探",
+    nameEn: "Teen Agent",
     year: "1995",
     size: 3626636,
     files: 17,
@@ -7580,6 +7647,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "shan-mu-he-ma-ke-si",
     name: "山姆和马克思",
+    nameEn: "Sam & Max Hit the Road",
     year: "1993",
     size: 8707913,
     files: 23,
@@ -7604,6 +7672,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "gong-ren-wu-yu",
     name: "工人物语",
+    nameEn: "The Settlers",
     year: "1994",
     size: 1297909,
     files: 58,
@@ -7616,6 +7685,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "gong-ren-wu-yu-2",
     name: "工人物语2",
+    nameEn: "The Settlers II",
     year: "1997",
     size: 13973573,
     files: 356,
@@ -7907,7 +7977,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "di-guo-de-guang-rong",
     name: "帝国的光荣",
-    nameEn: "Pearl Harbor and Midway Island",
+    nameEn: "Pearl Harbor and Midway Island II",
     year: "1992",
     size: 969152,
     files: 29,
@@ -7932,7 +8002,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "xing-fu-ren-sheng",
     name: "幸福人生",
-    nameEn: "Xing Fu Ren Sheng",
     year: "1992",
     size: 457070,
     files: 5,
@@ -7982,6 +8051,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "huan-xiang-qi-xia-chuan",
     name: "幻想奇侠传",
+    nameEn: "Huanxiangqixiachuan",
     year: "1997",
     size: 51698207,
     files: 255,
@@ -9117,7 +9187,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "bei-lian-hu-sha-ren-shi-jian",
     name: "悲恋湖杀人事件",
-    nameEn: "Bei Lian Hu Sha Ren Shi Jian",
     year: "1994",
     size: 2224593,
     files: 147,
@@ -9360,6 +9429,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "zhan-di-da-heng",
     name: "战地大亨",
+    nameEn: "Battlefield Tycoon- Golden Gate Tour",
     year: "1995",
     size: 7120273,
     files: 47,
@@ -9746,6 +9816,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "fu-xiao-gong-ji",
     name: "拂晓攻击",
+    nameEn: "Down Raider",
     year: "1990",
     size: 401021,
     files: 59,
@@ -10132,7 +10203,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "zhuang-qiu-bu-xi-ban",
     name: "撞球补习班",
-    nameEn: "Zhuang Qiu Bu Xi Ban",
     year: "1992",
     size: 190546,
     files: 26,
@@ -10402,7 +10472,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "xin-lang-ren-mo-tian-lou",
     name: "新狼人摩天楼",
-    nameEn: "Xin Lang Ren Mo Tian Lou",
     year: "1996",
     size: 4210020,
     files: 148,
@@ -11067,7 +11136,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "chun-qiu-zheng-ba-chuan",
     name: "春秋争霸传",
-    nameEn: "Chun Qiu Zheng Ba Zhuan",
     year: "1992",
     size: 2332007,
     files: 259,
@@ -11080,6 +11148,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "chun-qiu-zheng-ba-chuan-2",
     name: "春秋争霸传2",
+    nameEn: "Chunqiuzhengbachuan2",
     year: "1995",
     size: 7252180,
     files: 152,
@@ -11389,7 +11458,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "mo-ri-bao-dian",
     name: "末日宝典",
-    nameEn: "Mo Ri Bao Dian",
     year: "1994",
     size: 8192895,
     files: 989,
@@ -12409,7 +12477,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "wu-lin-qi-xia-chuan",
     name: "武林奇侠传",
-    nameEn: "Wu Lin Qi Xia Zhuan",
     year: "1993",
     size: 3846056,
     files: 282,
@@ -13066,7 +13133,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "jiang-hu-wai-zhuan",
     name: "江湖外传",
-    nameEn: "Jiang Hu Wai Zhuan",
     year: "1993",
     size: 11388713,
     files: 53,
@@ -14171,7 +14237,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "bao-xiao-chu-ji",
     name: "爆笑出击",
-    nameEn: "Bao Xiao Chu Ji",
     year: "1980",
     size: 2054609,
     files: 201,
@@ -15503,7 +15568,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "zhen-hong-de-sha-yi",
     name: "真红的杀意",
-    nameEn: "Zhen Hong De Sha Yi",
     year: "1993",
     size: 1379841,
     files: 390,
@@ -16388,7 +16452,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "mi-lan-si-ji-shi-sheng-yu-chuan-qi",
     name: "米兰斯纪事-圣域传奇",
-    nameEn: "Milansijishi-Shengyuchuanqi",
     year: "1995",
     size: 6427756,
     files: 703,
@@ -16635,7 +16698,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "zong-heng-qi-hai",
     name: "纵横七海",
-    nameEn: "Zong Heng Qi Hai",
     year: "1992",
     size: 5363019,
     files: 153,
@@ -16660,6 +16722,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "zhong-ji-ren-wu",
     name: "终极任务",
+    nameEn: "Ultimate mission",
     year: "1996",
     size: 4527403,
     files: 14,
@@ -17259,6 +17322,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "zhi-ming-du-yao",
     name: "致命毒药",
+    nameEn: "Poison - 6 Nin no Majo",
     year: "1997",
     size: 5610778,
     files: 23,
@@ -17481,6 +17545,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "ying-xiong-zhuan-shuo-2",
     name: "英雄传说2",
+    nameEn: "The Legend Of Heroes 2",
     year: "2009",
     size: 71721264,
     files: 904,
@@ -17493,6 +17558,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "ying-xiong-zhuan-shuo-3",
     name: "英雄传说3",
+    nameEn: "The Legend Of Heroes 3",
     year: "1996",
     size: 91285292,
     files: 129,
@@ -17505,6 +17571,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "ying-xiong-zhuan-shuo-4",
     name: "英雄传说4",
+    nameEn: "The Legend Of Heroes 4",
     year: "",
     size: 75526138,
     files: 238,
@@ -18314,7 +18381,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "xi-you-ji-wai-zhuan",
     name: "西游记外传",
-    nameEn: "Xi You Ji Wai Zhuan",
     year: "1993",
     size: 3949041,
     files: 268,
@@ -18560,7 +18626,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "xiang-qi-da-shi-3-jiang-zu",
     name: "象棋大师3将族",
-    nameEn: "Chinese Chess Master",
+    nameEn: "Chinese Chess Master3",
     year: "1992",
     size: 925378,
     files: 65,
@@ -18645,7 +18711,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "du-shen-zhi-zun-zhi-zhan",
     name: "赌神至尊之战",
-    nameEn: "Dushenzhizunzhizhan",
     year: "1997",
     size: 48933842,
     files: 1335,
@@ -18879,7 +18944,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "chao-ji-wu-zi-qi",
     name: "超级五子棋",
-    nameEn: "Five",
     year: "1998",
     size: 12004100,
     files: 79,
@@ -19795,7 +19859,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "xie-shen-da-di",
     name: "邪神大地",
-    nameEn: "Xie Shen Da Di",
     year: "2006",
     size: 3537011,
     files: 210,
@@ -20173,7 +20236,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "gang-tie-qi-shi-tuan",
     name: "钢铁骑士团",
-    nameEn: "Bible Master",
+    nameEn: "Bible Master 2",
     year: "2005",
     size: 8658786,
     files: 512,
@@ -21710,7 +21773,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "ma-chang-da-heng",
     name: "马场大亨",
-    nameEn: "Machangdaheng",
     year: "1995",
     size: 15171286,
     files: 44,
@@ -22116,6 +22178,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "mo-gong-jiu-mei-bao-shi",
     name: "魔宫救美宝石",
+    nameEn: "Puzzle Beauty",
     year: "1994",
     size: 5285407,
     files: 47,
@@ -22165,7 +22228,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "mo-yi-ru-qin",
     name: "魔异入侵",
-    nameEn: "Mo Yi Ru Qin",
     year: "1992",
     size: 4748483,
     files: 175,
@@ -22178,7 +22240,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "mo-ri-chuan-shuo",
     name: "魔日传说",
-    nameEn: "Morichuanshuo",
     year: "",
     size: 17344190,
     files: 459,
@@ -22717,6 +22778,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "mo-yan-xie-shen",
     name: "魔眼邪神",
+    nameEn: "Celtic Tales - Balor of Evil Eye",
     year: "1996",
     size: 12835270,
     files: 219,
@@ -22754,7 +22816,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "mo-shen-zhan-ji",
     name: "魔神战记",
-    nameEn: "Mo Shen Zhan Ji",
     year: "1992",
     size: 1297375,
     files: 31,
@@ -22767,7 +22828,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "mo-shen-zhan-ji-2",
     name: "魔神战记2",
-    nameEn: "Moshenzhanji2",
     year: "1996",
     size: 6245766,
     files: 431,
@@ -22893,7 +22953,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "lu-ding-ji",
     name: "鹿鼎记",
-    nameEn: "Ludingji",
     year: "1994",
     size: 7388352,
     files: 1664,
@@ -22906,7 +22965,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "qi-lin-chuan-shuo",
     name: "麒麟传说",
-    nameEn: "Legend of Kirin",
     year: "1994",
     size: 4729932,
     files: 367,
@@ -22931,7 +22989,6 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
   {
     id: "ma-jiang-zheng-ba",
     name: "麻将争霸",
-    nameEn: "Majiangzhengba",
     year: "1995",
     size: 52723415,
     files: 35,

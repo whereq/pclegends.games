@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xun-zhao-jing-yu-zuo",
   collection: "dos-games",
   name: "寻找鲸鱼座",
+  nameEn: "EcoQuest: The Search for Cetus",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 55 files, 6.6 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tun-shi-tian-di-4",
   collection: "dos-games",
   name: "吞食天地4",
+  nameEn: "Devour World 4",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 2,943 files, 282.5 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhou-yu-jiao-cha",
   collection: "dos-games",
   name: "咒语交叉",
+  nameEn: "Spellcross",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 65 files, 55.3 MB.",

@@ -10,7 +10,7 @@ const entry: AtlasEntry = {
   id: "da-zhan-lve",
   collection: "dos-games",
   name: "大战略",
-  nameEn: "Battle Commander",
+  nameEn: "Battle Commander II - The World War",
   nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",

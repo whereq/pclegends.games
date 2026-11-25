@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xiao-mo-guai-2",
   collection: "dos-games",
   name: "小魔怪2",
+  nameEn: "Gremlins 2",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1980 — 20 files, 226 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-zi-jun-quan-li-zhi-zhan",
   collection: "dos-games",
   name: "十字军权利之战",
+  nameEn: "Crusade",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 39 files, 13.2 MB.",

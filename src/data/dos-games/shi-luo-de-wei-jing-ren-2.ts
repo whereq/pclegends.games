@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-luo-de-wei-jing-ren-2",
   collection: "dos-games",
   name: "失落的维京人2",
+  nameEn: "The Lost Vikings 2",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 834 files, 159.6 MB.",

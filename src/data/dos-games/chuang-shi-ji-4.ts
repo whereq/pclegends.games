@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chuang-shi-ji-4",
   collection: "dos-games",
   name: "创世纪4",
+  nameEn: "Ultima IV: Quest of the Avatar",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1987 — 149 files, 339 KB.",

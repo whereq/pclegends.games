@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "feng-shen-yan-yi",
   collection: "dos-games",
   name: "封神演义",
-  nameEn: "Feng Shen Yan Yi",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 41 files, 2.0 MB.",

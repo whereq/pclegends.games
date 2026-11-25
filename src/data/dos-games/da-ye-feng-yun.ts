@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "da-ye-feng-yun",
   collection: "dos-games",
   name: "大野风云",
-  nameEn: "Da Ye Feng Yun",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2007 — 16 files, 2.7 MB.",

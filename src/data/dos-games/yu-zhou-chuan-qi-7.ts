@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yu-zhou-chuan-qi-7",
   collection: "dos-games",
   name: "宇宙传奇7",
+  nameEn: "Space Quest V",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 46 files, 7.5 MB.",

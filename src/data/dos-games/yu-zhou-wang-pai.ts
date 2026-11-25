@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yu-zhou-wang-pai",
   collection: "dos-games",
   name: "宇宙王牌",
+  nameEn: "Space Ace",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 17 files, 2.5 MB.",

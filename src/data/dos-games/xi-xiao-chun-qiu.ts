@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "xi-xiao-chun-qiu",
   collection: "dos-games",
   name: "嬉笑春秋",
-  nameEn: "Xixiaochunqiu",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 484 files, 2.7 MB.",

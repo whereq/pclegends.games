@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "qi-lin-chuan-shuo",
   collection: "dos-games",
   name: "麒麟传说",
-  nameEn: "Legend of Kirin",
-  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 367 files, 4.5 MB.",

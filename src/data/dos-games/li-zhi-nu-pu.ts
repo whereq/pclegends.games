@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "li-zhi-nu-pu",
   collection: "dos-games",
   name: "力之奴仆",
+  nameEn: "Power Slave",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2009 — 23 files, 10.0 MB.",

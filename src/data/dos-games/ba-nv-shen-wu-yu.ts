@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "ba-nv-shen-wu-yu",
   collection: "dos-games",
   name: "八女神物语",
-  nameEn: "Ba Nv Shen Wu Yu",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 480 files, 11.1 MB.",

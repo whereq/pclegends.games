@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "chao-ji-wu-zi-qi",
   collection: "dos-games",
   name: "超级五子棋",
-  nameEn: "Five",
-  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 79 files, 11.4 MB.",

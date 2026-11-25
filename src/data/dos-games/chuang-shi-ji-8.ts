@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chuang-shi-ji-8",
   collection: "dos-games",
   name: "创世纪8",
+  nameEn: "Ultima VIII: Pagan",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 60 files, 31.4 MB.",

@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "十面埋伏",
   nameEn: "Ambush at Sorinor",
-  nameEnSource: "wiki",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 889 files, 3.1 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "guo-ji-xiang-qi-wu-shu-dui-jue",
   collection: "dos-games",
   name: "国际象棋巫术对决",
+  nameEn: "Archon Ultra",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 10 files, 4.7 MB.",

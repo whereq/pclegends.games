@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "主题公园光碟版",
   nameEn: "Theme Park",
-  nameEnSource: "known",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 36 files, 89.3 MB.",

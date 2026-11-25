@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "da-tang-ying-xiong-zhuan",
   collection: "dos-games",
   name: "大唐英雄传",
-  nameEn: "Datangyingxiongchuan",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 1,002 files, 9.0 MB.",

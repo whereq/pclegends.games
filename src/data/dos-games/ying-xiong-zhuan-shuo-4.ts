@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ying-xiong-zhuan-shuo-4",
   collection: "dos-games",
   name: "英雄传说4",
+  nameEn: "The Legend Of Heroes 4",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 238 files, 72.0 MB.",

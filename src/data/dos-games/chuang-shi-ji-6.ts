@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chuang-shi-ji-6",
   collection: "dos-games",
   name: "创世纪6",
+  nameEn: "Ultima VI: The False Prophet",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 171 files, 1.7 MB.",

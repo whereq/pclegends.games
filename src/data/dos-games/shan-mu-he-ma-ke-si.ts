@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shan-mu-he-ma-ke-si",
   collection: "dos-games",
   name: "山姆和马克思",
+  nameEn: "Sam & Max Hit the Road",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 23 files, 8.3 MB.",

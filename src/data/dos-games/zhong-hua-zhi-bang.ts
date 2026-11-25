@@ -10,7 +10,7 @@ const entry: AtlasEntry = {
   id: "zhong-hua-zhi-bang",
   collection: "dos-games",
   name: "中华职棒",
-  nameEn: "Chinese Professional Baseball",
+  nameEn: "Chinese Professional Baseball 2",
   nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",

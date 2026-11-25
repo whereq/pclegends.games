@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chuang-shi-ji-wai-zhuan-2-huo-xing-zhi-lv",
   collection: "dos-games",
   name: "创世纪外传2火星之旅",
+  nameEn: "Worlds of Ultima: Martian Dreams",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 143 files, 2.1 MB.",
