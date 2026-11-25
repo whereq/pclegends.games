@@ -110,38 +110,38 @@ def main():
         exact_index.setdefault(key(name), name)
         bare_index.setdefault(bare(name), name)
 
-    def containment(name):
-        """The one archive title this name could be a longer form of.
+    folded = [(name, key(name)) for name in archive]
 
-        "三国志-武将争霸" holds the title of 武将争霸 inside it. It only counts
-        when exactly one archive title fits, and when the name is not a short
-        fragment of it — 中国 is part of 中国武将列传, and is not that game.
+    def containment(name):
+        """The archive title this name is a longer form of.
+
+        The wiki writes "三国志-武将争霸" for the game the archive files
+        under 武将争霸, and "吞食天地4 楚汉光辉" for 吞食天地4. The archive title
+        is the one the longer name carries, at its start or at its end, and
+        it has to be three characters or more — 中国 is part of 中国武将列传
+        and is not that game.
         """
         probe = bare(name)
         if len(probe) < 3:
             return None
-        fits = []
-        for other in archive:
-            folded = key(other)
-            if probe == folded:
+
+        for other, text in folded:
+            if len(text) < 3 or text == probe:
                 continue
-            if probe in folded or folded in probe:
-                if abs(len(folded) - len(probe)) > 6:
-                    continue
-                if len(folded) < 3 or len(probe) < 3:
-                    continue
-                fits.append(other)
-        if len(fits) != 1:
-            return None
-        return fits[0]
+            if text.startswith(probe) and len(text) - len(probe) <= 8:
+                return other
+            if probe.startswith(text) and len(probe) - len(text) <= 8:
+                return other
+        return None
 
     candidates = []   # (archive name, english, trust, provenance)
 
-    def add(name, english, trust, provenance):
+    def add(name, english, trust, provenance, source_zh=None):
         if not english:
             return
         candidates.append({'name': name, 'en': english.strip(),
-                           'trust': trust, 'from': provenance})
+                           'trust': trust, 'from': provenance,
+                           'source_zh': source_zh})
 
     # ── the archive's own index ────────────────────────────────
     if os.path.exists(PUBLISHED):
@@ -157,14 +157,14 @@ def main():
             name = name.split(' (')[0].strip()
             hit = exact_index.get(key(name))
             if hit:
-                add(hit, english, 'wiki', 'wiki')
+                add(hit, english, 'wiki', 'wiki', name)
             else:
                 # The wiki writes the title with a prefix or a suffix — "三国志-
                 # 武将争霸" for the game the archive files under 武将争霸. That
                 # guess is only good enough if the bundle says so.
                 loose = containment(name)
                 if loose:
-                    add(loose, english, 'loose', 'wiki')
+                    add(loose, english, 'wiki', 'wiki', name)
         print(f'wiki: {len(wiki)}')
 
     # ── the chiuinan catalogue: a candidate, not a source ──────
@@ -173,11 +173,11 @@ def main():
         for row in catalogue:
             hit = exact_index.get(key(row['zh']))
             if hit:
-                add(hit, row['en'], 'catalogue', 'catalogue')
+                add(hit, row['en'], 'catalogue', 'catalogue', row['zh'])
             else:
                 loose = containment(row['zh'])
                 if loose:
-                    add(loose, row['en'], 'loose', 'catalogue')
+                    add(loose, row['en'], 'loose', 'catalogue', row['zh'])
         print(f'catalogue: {len(catalogue)} rows')
 
     # ── what the mapping agents found ─────────────────────────
@@ -222,7 +222,8 @@ def main():
                 continue
 
         if trust in ('published', 'wiki', 'known') and \
-                _romanised.is_romanised(name, english):
+                _romanised.is_romanised(name, english,
+                                       candidate.get('source_zh') or ''):
             # The Chinese name in Latin letters, not an English release title.
             trust = 'romanised'
 

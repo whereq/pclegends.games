@@ -38,10 +38,43 @@ def pinyin_words(chinese: str) -> set[str]:
     words = set()
     for piece in lazy_pinyin(chinese, style=Style.NORMAL):
         words.update(part for part in re.split(r'[\s\-_]+', piece) if part)
-    return {w.lower() for w in words if len(w) >= 3}
+    return {w.lower() for w in words if len(w) >= 2}
 
 
-def is_romanised(chinese: str, title: str) -> bool:
+def covered_by(word: str, syllables: set[str]) -> bool:
+    """Can this word be read as the syllables of a Chinese name?
+
+    "chuliuxiangchuanqi" is 楚留香传奇 written without spaces: it falls
+    apart into chu, liu, xiang, chuan, qi. A word that cannot be read that
+    way is an English word, or a name of its own.
+    """
+    word = word.lower()
+    if len(word) < 2:
+        return False
+    for syllable in syllables:
+        if word == syllable or difflib.SequenceMatcher(
+                None, word, syllable).ratio() >= 0.8:
+            return True
+
+    # Walk the word, taking the longest syllable that fits at each step.
+    left = word
+    while left:
+        for syllable in sorted(syllables, key=len, reverse=True):
+            if len(syllable) < 2:
+                continue
+            if left.startswith(syllable):
+                left = left[len(syllable):]
+                break
+            if difflib.SequenceMatcher(
+                    None, left[:len(syllable)], syllable).ratio() >= 0.8:
+                left = left[len(syllable):]
+                break
+        else:
+            return False
+    return True
+
+
+def is_romanised(chinese: str, title: str, extra: str = '') -> bool:
     """Is this title the Chinese name written in Latin letters?
 
     Every word of it has to come from the pinyin of the Chinese title. One
@@ -55,23 +88,14 @@ def is_romanised(chinese: str, title: str) -> bool:
     if not CJK.search(chinese):
         return False          # the Chinese name is already in Latin letters
     syllables = pinyin_words(chinese)
+    if extra:
+        syllables |= pinyin_words(extra)
     if not syllables:
         return False
     words = [w.lower() for w in WORD.findall(title) if len(w) >= 2]
     if not words:
         return False
-
-    def same(word: str, syllable: str) -> bool:
-        if word == syllable:
-            return True
-        shorter, longer = sorted((word, syllable), key=len)
-        if len(shorter) >= 3 and longer.startswith(shorter):
-            return True
-        # 传 is read "chuan" or "zhuan"; the index prints either.
-        return difflib.SequenceMatcher(None, word, syllable).ratio() >= 0.8
-
-    return all(any(same(word, syllable) for syllable in syllables)
-               for word in words)
+    return all(covered_by(word, syllables) for word in words)
 
 
 def main():
