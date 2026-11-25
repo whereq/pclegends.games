@@ -145,6 +145,17 @@ Sabe" for 倚天屠龙记; neither is a release title. `scripts/make-arbitration
 writes out the games whose name came from an index, with what the bundle says
 about itself, so that each one can be checked and replaced.
 
+**The arbitration writes an override file.** `scripts/collect-arbitration-overrides.py`
+turns what the arbitration found into `/tmp/name-overrides.json`, which the
+builder reads last: a checked title beats an index's, and a game the check
+found no English title for loses the name it had.
+
+**The mapping work is done in batches, and it can be picked up again.**
+`scripts/remaining-batches.py` writes out the records no result file covers
+yet, so an interrupted batch does not have to be done twice. The results
+themselves live in `/tmp/name-results/` — `result-*.json` for the mapping,
+`arbitration-*.json` for the arbitration.
+
 ## Content conventions
 
 - **The game pages are generated, not written.** `scripts/generate-dos-games.py`
