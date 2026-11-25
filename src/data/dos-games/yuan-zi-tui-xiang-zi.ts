@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yuan-zi-tui-xiang-zi",
   collection: "dos-games",
   name: "原子推箱子",
+  nameEn: "Atomix",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 10 files, 67 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "kuang-long-chuan",
   collection: "dos-games",
   name: "狂龙传",
+  nameEn: "Mad Dragon Story",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 21 files, 2.3 MB.",

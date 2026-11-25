@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sheng-jing-dui-zhang",
   collection: "dos-games",
   name: "圣经队长",
+  nameEn: "Captain Bible in Dome of Darkness",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2006 — 96 files, 2.1 MB.",

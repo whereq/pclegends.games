@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chuan-shuo-kong-ju-zhi-ye",
   collection: "dos-games",
   name: "传说恐惧之夜",
+  nameEn: "The Legacy",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 339 files, 9.8 MB.",

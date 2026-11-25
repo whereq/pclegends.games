@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wei-xian-cong-lin",
   collection: "dos-games",
   name: "危险丛林",
+  nameEn: "Risky Woods",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 7 files, 616 KB.",

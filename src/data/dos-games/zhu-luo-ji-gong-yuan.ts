@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhu-luo-ji-gong-yuan",
   collection: "dos-games",
   name: "侏罗纪公园",
+  nameEn: "Jurassic Park",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 18 files, 4.1 MB.",

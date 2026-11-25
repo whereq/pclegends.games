@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-fa-gong-zhu-da-mao-xian",
   collection: "dos-games",
   name: "魔法公主大冒险",
+  nameEn: "Princess Mononoke Adventure",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 95 files, 3.7 MB.",

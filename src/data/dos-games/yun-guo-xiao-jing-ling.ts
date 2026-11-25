@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yun-guo-xiao-jing-ling",
   collection: "dos-games",
   name: "云国小精灵",
+  nameEn: "Cloud Kingdom",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 17 files, 56 KB.",

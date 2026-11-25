@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wang-hun-fu-chou",
   collection: "dos-games",
   name: "亡魂复仇",
+  nameEn: "Cadaver",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 85 files, 1.3 MB.",

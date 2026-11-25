@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "di-yu-sai-bo-peng-ke",
   collection: "dos-games",
   name: "地狱赛博朋克",
+  nameEn: "Hell: A Cyberpunk Thriller",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 21 files, 372.6 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "3d-mo-fang",
   collection: "dos-games",
   name: "3D魔方",
+  nameEn: "3DCUBE",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2000 — 3 files, 52 KB.",

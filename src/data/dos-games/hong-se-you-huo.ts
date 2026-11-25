@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hong-se-you-huo",
   collection: "dos-games",
   name: "红色诱惑",
+  nameEn: "RED",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 653 files, 5.5 MB.",

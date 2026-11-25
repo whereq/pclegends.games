@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "da-li-shui-shou-2",
   collection: "dos-games",
   name: "大力水手2",
+  nameEn: "Popeye 2",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 28 files, 153 KB.",

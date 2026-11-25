@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shen-yu",
   collection: "dos-games",
   name: "神谕",
+  nameEn: "Oracle",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 809 files, 153.9 MB.",

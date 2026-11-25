@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-ni-da-lou",
   collection: "dos-games",
   name: "模拟大楼",
+  nameEn: "HR2",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 474 files, 2.0 MB.",

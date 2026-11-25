@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "lie-yan-gang-lang-chuan",
   collection: "dos-games",
   name: "烈焰钢狼传",
+  nameEn: "Metal Wolf",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 171 files, 11.6 MB.",

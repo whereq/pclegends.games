@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yab-bang-qiu",
   collection: "dos-games",
   name: "YAB棒球",
+  nameEn: "Y.A.B. Baseball",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 9 files, 348 KB.",

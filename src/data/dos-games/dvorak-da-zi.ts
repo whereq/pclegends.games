@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "dvorak-da-zi",
   collection: "dos-games",
   name: "Dvorak打字",
+  nameEn: "Dvorak on Typing",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 178 files, 1.1 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "san-jie-mei",
   collection: "dos-games",
   name: "三姐妹",
+  nameEn: "Three Sisters' Sotry",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 504 files, 2.7 MB.",

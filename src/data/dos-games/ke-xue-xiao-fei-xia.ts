@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ke-xue-xiao-fei-xia",
   collection: "dos-games",
   name: "科学小飞侠",
+  nameEn: "Gatchaman",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2007 — 496 files, 1.9 MB.",

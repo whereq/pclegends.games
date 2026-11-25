@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-xian-sheng-ji",
   collection: "dos-games",
   name: "一线生机",
+  nameEn: "Danger Zone",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 320 files, 6.1 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "liu-bei-chuan",
   collection: "dos-games",
   name: "刘备传",
+  nameEn: "Liubeichuan",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2007 — 1,312 files, 539.3 MB.",

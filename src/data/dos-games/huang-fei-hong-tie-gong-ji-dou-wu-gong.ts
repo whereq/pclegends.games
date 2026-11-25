@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "huang-fei-hong-tie-gong-ji-dou-wu-gong",
   collection: "dos-games",
   name: "黄飞鸿铁公鸡斗蜈蚣",
+  nameEn: "The Last Hero in China",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 762 files, 3.5 MB.",

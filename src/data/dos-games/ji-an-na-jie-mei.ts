@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-an-na-jie-mei",
   collection: "dos-games",
   name: "吉安娜姐妹",
+  nameEn: "Giana Sisters 32K",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 2 files, 30 KB.",

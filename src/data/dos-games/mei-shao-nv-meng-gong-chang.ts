@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mei-shao-nv-meng-gong-chang",
   collection: "dos-games",
   name: "美少女梦工厂",
+  nameEn: "Princess Maker",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 445 files, 5.6 MB.",

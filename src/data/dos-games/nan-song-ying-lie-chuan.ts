@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "nan-song-ying-lie-chuan",
   collection: "dos-games",
   name: "南宋英烈传",
+  nameEn: "Nan Song Ying Lie Zhuan",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 20 files, 1.2 MB.",

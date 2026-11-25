@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-tai",
   collection: "dos-games",
   name: "魔胎",
+  nameEn: "The Dark Half",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 111 files, 6.2 MB.",

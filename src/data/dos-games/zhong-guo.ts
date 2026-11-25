@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhong-guo",
   collection: "dos-games",
   name: "中国",
+  nameEn: "Everlasting Empire- China",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 450 files, 5.3 MB.",

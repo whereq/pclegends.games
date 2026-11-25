@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wei-xian-de-li-ke-1",
   collection: "dos-games",
   name: "危险的里克1",
+  nameEn: "Rick Dangerous",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 6 files, 221 KB.",

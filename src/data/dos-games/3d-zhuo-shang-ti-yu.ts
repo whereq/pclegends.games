@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "3d-zhuo-shang-ti-yu",
   collection: "dos-games",
   name: "3D桌上体育",
+  nameEn: "Table Sports",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 24 files, 6.0 MB.",

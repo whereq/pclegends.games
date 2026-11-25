@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sheng-dan-xiao-lv-shu",
   collection: "dos-games",
   name: "圣诞小旅鼠",
+  nameEn: "Xmas Lemmings",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 18 files, 209 KB.",

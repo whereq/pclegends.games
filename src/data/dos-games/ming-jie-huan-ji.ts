@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ming-jie-huan-ji",
   collection: "dos-games",
   name: "冥界幻姬",
+  nameEn: "The Ghosts",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 414 files, 9.8 MB.",

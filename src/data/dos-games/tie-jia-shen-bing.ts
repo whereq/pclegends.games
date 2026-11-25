@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tie-jia-shen-bing",
   collection: "dos-games",
   name: "铁甲神兵",
+  nameEn: "Full Metal Jacket",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 103 files, 6.8 MB.",

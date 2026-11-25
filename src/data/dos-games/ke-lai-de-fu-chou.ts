@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ke-lai-de-fu-chou",
   collection: "dos-games",
   name: "克莱德复仇",
+  nameEn: "Clyde's Revenge",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 6 files, 2.3 MB.",

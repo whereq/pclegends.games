@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-su",
   collection: "dos-games",
   name: "伊苏",
+  nameEn: "Ys I",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 151 files, 360 KB.",

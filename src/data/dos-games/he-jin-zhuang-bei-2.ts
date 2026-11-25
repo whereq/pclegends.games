@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "he-jin-zhuang-bei-2",
   collection: "dos-games",
   name: "合金装备2",
+  nameEn: "Metal Gear 2: Solid Snake",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 20 files, 658 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "san-guo-ma-jiang",
   collection: "dos-games",
   name: "三国麻将",
+  nameEn: "Three Kingdoms Mahjong",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 451 files, 4.5 MB.",

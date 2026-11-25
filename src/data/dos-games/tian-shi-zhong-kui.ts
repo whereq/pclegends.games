@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tian-shi-zhong-kui",
   collection: "dos-games",
   name: "天师钟馗",
+  nameEn: "Tianshizhongkui",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 748 files, 70.5 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "peng-peng-qiu",
   collection: "dos-games",
   name: "碰碰球",
+  nameEn: "Hitball",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1980 — 76 files, 4.0 MB.",

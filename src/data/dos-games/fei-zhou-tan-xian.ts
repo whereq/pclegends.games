@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "fei-zhou-tan-xian",
   collection: "dos-games",
   name: "非洲探险",
+  nameEn: "Crazy Adventure in Africa",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 38 files, 2.3 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sheng-zhan-wu-yu",
   collection: "dos-games",
   name: "圣战物语",
+  nameEn: "Duel Succession",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 150 files, 4.3 MB.",

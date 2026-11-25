@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "pc-yuan-ren",
   collection: "dos-games",
   name: "PC原人",
+  nameEn: "Prehistorik",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 8 files, 614 KB.",

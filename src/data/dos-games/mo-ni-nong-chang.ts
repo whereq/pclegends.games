@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-ni-nong-chang",
   collection: "dos-games",
   name: "模拟农场",
+  nameEn: "Sim Farm",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 64 files, 1.4 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-kong-yi-bian",
   collection: "dos-games",
   name: "时空异变",
+  nameEn: "Space-Time Mutation",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 212 files, 3.0 MB.",

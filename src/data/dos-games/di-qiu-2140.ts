@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "di-qiu-2140",
   collection: "dos-games",
   name: "地球2140",
+  nameEn: "Earth 2140",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 73 files, 49.5 MB.",

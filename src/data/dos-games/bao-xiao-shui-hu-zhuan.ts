@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bao-xiao-shui-hu-zhuan",
   collection: "dos-games",
   name: "爆笑水浒传",
+  nameEn: "Rhapsody of Bandits",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 537 files, 91.1 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shuang-lu-qi",
   collection: "dos-games",
   name: "双陆棋",
+  nameEn: "eXtreme Gammon",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 45 files, 2.4 MB.",

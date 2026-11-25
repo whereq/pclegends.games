@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "da-ming-ying-xiong-zhuan",
   collection: "dos-games",
   name: "大明英雄传",
+  nameEn: "Da Ming Ying Xiong Zhuan - Long Teng Tian Xia",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1981 — 124 files, 2.3 MB.",

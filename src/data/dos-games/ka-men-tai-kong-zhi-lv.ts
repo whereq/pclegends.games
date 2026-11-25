@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ka-men-tai-kong-zhi-lv",
   collection: "dos-games",
   name: "卡门太空之旅",
+  nameEn: "Carmen Sandiego's Space Chase",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 45 files, 4.8 MB.",

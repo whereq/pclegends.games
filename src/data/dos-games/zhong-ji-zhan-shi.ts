@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhong-ji-zhan-shi",
   collection: "dos-games",
   name: "终极战士",
+  nameEn: "Mars 3D",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 132 files, 131.0 MB.",

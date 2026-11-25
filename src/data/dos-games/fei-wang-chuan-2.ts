@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "fei-wang-chuan-2",
   collection: "dos-games",
   name: "绯王传2",
+  nameEn: "Hiouden - Maou Tachi tono Chikai II",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 344 files, 3.6 MB.",

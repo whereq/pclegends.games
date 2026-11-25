@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-yin-ji-qi",
   collection: "dos-games",
   name: "基因机器",
+  nameEn: "The Gene Machine",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 324 files, 54.9 MB.",

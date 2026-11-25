@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bing-qiu-lian-sai-97",
   collection: "dos-games",
   name: "冰球联赛97",
+  nameEn: "NHL 97",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 143 files, 56.6 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xie-ling-shi-ji",
   collection: "dos-games",
   name: "邪灵世纪",
+  nameEn: "Xielingshiji",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 997 files, 188.4 MB.",

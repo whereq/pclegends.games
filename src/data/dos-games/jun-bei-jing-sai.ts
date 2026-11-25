@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jun-bei-jing-sai",
   collection: "dos-games",
   name: "军备竞赛",
+  nameEn: "A.R.S.E.N.A.L - Taste the Power",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2008 — 26 files, 23.4 MB.",

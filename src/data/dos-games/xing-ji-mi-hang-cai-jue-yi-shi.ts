@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-ji-mi-hang-cai-jue-yi-shi",
   collection: "dos-games",
   name: "星际迷航裁决仪式",
+  nameEn: "Star Trek: Judgment Rites",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 288 files, 24.0 MB.",

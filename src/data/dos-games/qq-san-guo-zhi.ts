@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "qq-san-guo-zhi",
   collection: "dos-games",
   name: "QQ三国志",
+  nameEn: "Qqsanguozhi",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 184 files, 12.4 MB.",

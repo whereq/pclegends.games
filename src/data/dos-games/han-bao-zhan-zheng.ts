@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "han-bao-zhan-zheng",
   collection: "dos-games",
   name: "汉堡战争",
+  nameEn: "Hamburger War",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 44 files, 10.2 MB.",

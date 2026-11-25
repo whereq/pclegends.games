@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xie-shen-da-di",
   collection: "dos-games",
   name: "邪神大地",
+  nameEn: "Xie Shen Da Di",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2006 — 210 files, 3.4 MB.",

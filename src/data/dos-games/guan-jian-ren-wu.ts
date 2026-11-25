@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "guan-jian-ren-wu",
   collection: "dos-games",
   name: "关键任务",
+  nameEn: "Mission Critical",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 169 files, 337.0 MB.",

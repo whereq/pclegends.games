@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "geek-you-xi-ji",
   collection: "dos-games",
   name: "GEEK游戏集",
+  nameEn: "The Geekwad: Games of the Galaxy",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 8 files, 1.9 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ren-lei-jin-hua-3",
   collection: "dos-games",
   name: "人类进化3",
+  nameEn: "Evolution",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2009 — 352 files, 4.1 MB.",

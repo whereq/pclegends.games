@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zheng-fen-duo-miao",
   collection: "dos-games",
   name: "争分夺秒",
+  nameEn: "Clockwiser",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 7 files, 1009 KB.",

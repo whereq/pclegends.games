@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "1869-da-hang-hai",
   collection: "dos-games",
   name: "1869大航海",
+  nameEn: "1869",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 143 files, 1.1 MB.",

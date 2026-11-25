@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-ri-chuan-shuo",
   collection: "dos-games",
   name: "魔日传说",
+  nameEn: "Morichuanshuo",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 459 files, 16.5 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "688-gong-ji-qian-ting",
   collection: "dos-games",
   name: "688攻击潜艇",
+  nameEn: "688 Attack Sub",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 15 files, 573 KB.",

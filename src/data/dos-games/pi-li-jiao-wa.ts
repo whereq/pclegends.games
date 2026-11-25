@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "pi-li-jiao-wa",
   collection: "dos-games",
   name: "霹雳娇娃",
+  nameEn: "Dies Irae",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 17 files, 5.4 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xiang-qi-e-luo-si",
   collection: "dos-games",
   name: "象棋俄罗斯",
+  nameEn: "Chetris",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 37 files, 1.1 MB.",

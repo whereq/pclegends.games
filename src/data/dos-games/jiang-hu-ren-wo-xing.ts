@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jiang-hu-ren-wo-xing",
   collection: "dos-games",
   name: "江湖任我行",
+  nameEn: "Jiang Hu Stalker",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 319 files, 38.6 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhong-cai-zhe",
   collection: "dos-games",
   name: "仲裁者",
+  nameEn: "Interpose",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2001 — 8 files, 13.0 MB.",

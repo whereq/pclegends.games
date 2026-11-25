@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "li-shou",
   collection: "dos-games",
   name: "丽兽",
+  nameEn: "Twin Road",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 523 files, 4.9 MB.",

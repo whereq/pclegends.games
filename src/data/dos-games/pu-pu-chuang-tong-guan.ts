@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "pu-pu-chuang-tong-guan",
   collection: "dos-games",
   name: "噗噗闯通关",
+  nameEn: "Bubu",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 205 files, 2.0 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shou-zhao-kuai-da",
   collection: "dos-games",
   name: "兽爪快打",
+  nameEn: "Brutal: Paws of Fury",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 205 files, 2.6 MB.",

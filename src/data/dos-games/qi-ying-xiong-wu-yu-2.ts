@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "qi-ying-xiong-wu-yu-2",
   collection: "dos-games",
   name: "七英雄物语2",
+  nameEn: "Nanaei 2",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 159 files, 80.6 MB.",

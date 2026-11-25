@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-lei-cha-li-xian-ji",
   collection: "dos-games",
   name: "伊雷查历险记",
+  nameEn: "Eracha",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 176 files, 2.7 MB.",

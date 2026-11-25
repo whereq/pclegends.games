@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zong-heng-qi-hai",
   collection: "dos-games",
   name: "纵横七海",
+  nameEn: "Zong Heng Qi Hai",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 153 files, 5.1 MB.",

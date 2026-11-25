@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhen-tan-lao-la-2",
   collection: "dos-games",
   name: "侦探劳拉2",
+  nameEn: "Laura Bow II: The Dagger of Amon Ra",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 83 files, 6.1 MB.",

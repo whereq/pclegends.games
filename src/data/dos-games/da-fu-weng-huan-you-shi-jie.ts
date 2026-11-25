@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "da-fu-weng-huan-you-shi-jie",
   collection: "dos-games",
   name: "大富翁环游世界",
+  nameEn: "Monopoly Around the World",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 22 files, 230 KB.",

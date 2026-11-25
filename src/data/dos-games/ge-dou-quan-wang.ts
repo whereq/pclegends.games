@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ge-dou-quan-wang",
   collection: "dos-games",
   name: "格斗拳王",
+  nameEn: "Act of Fighter",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 293 files, 1.7 MB.",

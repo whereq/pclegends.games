@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ma-jiang-qing-qu-wu-2",
   collection: "dos-games",
   name: "麻将情趣屋2",
+  nameEn: "Mahjong House 2",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 200 files, 6.5 MB.",

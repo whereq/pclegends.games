@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "v-zi-zhan-ji",
   collection: "dos-games",
   name: "V字战机",
+  nameEn: "V-Wing",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 19 files, 488 KB.",

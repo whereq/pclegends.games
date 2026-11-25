@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tun-dou-ren",
   collection: "dos-games",
   name: "吞豆人",
+  nameEn: "Gobman",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 2 files, 71 KB.",

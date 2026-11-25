@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-fa-huang-guan",
   collection: "dos-games",
   name: "魔法皇冠",
+  nameEn: "Royal Blood",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 25 files, 601 KB.",

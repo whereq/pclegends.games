@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ge-sha-ling",
   collection: "dos-games",
   name: "格杀令",
+  nameEn: "Black Sign",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 21 files, 36.8 MB.",

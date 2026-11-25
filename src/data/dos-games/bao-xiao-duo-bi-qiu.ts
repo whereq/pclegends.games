@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bao-xiao-duo-bi-qiu",
   collection: "dos-games",
   name: "爆笑躲避球",
+  nameEn: "Panda Dodgeball",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 23 files, 2.0 MB.",

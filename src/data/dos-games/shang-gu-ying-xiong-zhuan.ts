@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shang-gu-ying-xiong-zhuan",
   collection: "dos-games",
   name: "上古英雄传",
+  nameEn: "King War",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 472 files, 15.5 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chi-dou-ren-chu-dai",
   collection: "dos-games",
   name: "吃豆人初代",
+  nameEn: "Pac-Man",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2006 — 2 files, 10 KB.",

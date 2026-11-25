@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ding-ding-li-xian-ji-tai-yang-zhi-zui",
   collection: "dos-games",
   name: "丁丁历险记太阳之罪",
+  nameEn: "Tintin: Prisoners of the Sun",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1999 — 49 files, 4.8 MB.",

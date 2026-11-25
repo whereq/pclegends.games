@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wu-ji-shen-chuan-shuo",
   collection: "dos-games",
   name: "武姬神传说",
+  nameEn: "Variable Geo",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 644 files, 14.4 MB.",

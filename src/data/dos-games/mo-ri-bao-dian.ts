@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-ri-bao-dian",
   collection: "dos-games",
   name: "末日宝典",
+  nameEn: "Mo Ri Bao Dian",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 989 files, 7.8 MB.",

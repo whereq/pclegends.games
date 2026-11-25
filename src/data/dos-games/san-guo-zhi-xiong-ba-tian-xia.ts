@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "san-guo-zhi-xiong-ba-tian-xia",
   collection: "dos-games",
   name: "三国志雄霸天下",
+  nameEn: "The Conqueror",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 72 files, 2.7 MB.",

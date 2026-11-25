@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sheng-dan-can-sha",
   collection: "dos-games",
   name: "圣诞残杀",
+  nameEn: "Xmas Carnage",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 11 files, 9.5 MB.",

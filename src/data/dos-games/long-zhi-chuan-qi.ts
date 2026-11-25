@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "long-zhi-chuan-qi",
   collection: "dos-games",
   name: "龙之传奇",
+  nameEn: "The Legend of Dragon",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 206 files, 9.1 MB.",

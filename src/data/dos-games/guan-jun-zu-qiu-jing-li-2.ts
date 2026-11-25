@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "guan-jun-zu-qiu-jing-li-2",
   collection: "dos-games",
   name: "冠军足球经理2",
+  nameEn: "Championship Manager 2",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 165 files, 13.0 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "da-hai-zhan",
   collection: "dos-games",
   name: "大海战",
+  nameEn: "Battleship",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 12 files, 123 KB.",

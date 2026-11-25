@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chuan-shuo-shi-dai",
   collection: "dos-games",
   name: "传说时代",
+  nameEn: "Times of Lore",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 73 files, 266 KB.",

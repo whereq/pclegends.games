@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ke-li-mu-lin-gong-wei-ji",
   collection: "dos-games",
   name: "克里姆林宫危机",
+  nameEn: "Crisis in the Kremlin",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 178 files, 5.7 MB.",

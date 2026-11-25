@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-shi-kong-g-dian",
   collection: "dos-games",
   name: "超时空G点",
+  nameEn: "Quintia Road",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 215 files, 2.3 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "kuai-da-zhi-zun",
   collection: "dos-games",
   name: "快打至尊",
+  nameEn: "Super Fighter",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 126 files, 1.2 MB.",

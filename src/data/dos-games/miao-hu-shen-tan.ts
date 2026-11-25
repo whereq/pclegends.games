@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "miao-hu-shen-tan",
   collection: "dos-games",
   name: "妙狐神探",
+  nameEn: "Inherit the Earth-Quest for the Orb",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 46 files, 8.0 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ai-ji-tong-zhi-zhe",
   collection: "dos-games",
   name: "埃及统治者",
+  nameEn: "Ramses",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 61 files, 401 KB.",

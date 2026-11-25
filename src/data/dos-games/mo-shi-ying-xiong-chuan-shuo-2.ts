@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-shi-ying-xiong-chuan-shuo-2",
   collection: "dos-games",
   name: "魔石英雄传说2",
+  nameEn: "Mirage 2",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 537 files, 4.5 MB.",

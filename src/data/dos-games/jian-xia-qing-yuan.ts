@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jian-xia-qing-yuan",
   collection: "dos-games",
   name: "剑侠情缘",
+  nameEn: "The Legend of Swordman",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2009 — 1,071 files, 74.8 MB.",

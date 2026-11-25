@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gao-xiao-mo-ying",
   collection: "dos-games",
   name: "高校魔影",
+  nameEn: "High School Devil's Shadow",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 105 files, 3.8 MB.",

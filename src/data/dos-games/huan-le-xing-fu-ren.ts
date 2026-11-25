@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "huan-le-xing-fu-ren",
   collection: "dos-games",
   name: "欢乐幸福人",
+  nameEn: "Happy Go Lucky",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 182 files, 3.3 MB.",

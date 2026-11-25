@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jiang-hu-wai-zhuan",
   collection: "dos-games",
   name: "江湖外传",
+  nameEn: "Jiang Hu Wai Zhuan",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 53 files, 10.9 MB.",

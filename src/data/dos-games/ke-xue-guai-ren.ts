@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ke-xue-guai-ren",
   collection: "dos-games",
   name: "科学怪人",
+  nameEn: "Frankenstein",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 184 files, 5.1 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-jie-xun-hui-sai-che",
   collection: "dos-games",
   name: "世界巡回赛车",
+  nameEn: "World Circuit",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 73 files, 3.8 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "meng-huan-tian-shi",
   collection: "dos-games",
   name: "梦幻天使",
+  nameEn: "Fancy Angels",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 293 files, 9.0 MB.",

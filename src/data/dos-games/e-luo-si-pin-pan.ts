@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "e-luo-si-pin-pan",
   collection: "dos-games",
   name: "俄罗斯拼盘",
+  nameEn: "Russian 6 Pak",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 28 files, 1.5 MB.",

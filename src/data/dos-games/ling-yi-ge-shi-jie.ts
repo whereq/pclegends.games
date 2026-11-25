@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ling-yi-ge-shi-jie",
   collection: "dos-games",
   name: "另一个世界",
+  nameEn: "Another World",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 28 files, 1.1 MB.",

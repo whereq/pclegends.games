@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tian-cai-bao-bao-da-jin-ji",
   collection: "dos-games",
   name: "天才宝宝大进击",
+  nameEn: "Little Geniuses- Go Home!",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 83 files, 4.5 MB.",

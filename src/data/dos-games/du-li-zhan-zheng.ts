@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "du-li-zhan-zheng",
   collection: "dos-games",
   name: "独立战争",
+  nameEn: "Liberty or Death",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 31 files, 1.6 MB.",

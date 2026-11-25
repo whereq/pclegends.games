@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sheng-guang-dao",
   collection: "dos-games",
   name: "圣光岛",
+  nameEn: "Holy Island",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 1,557 files, 148.1 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tai-wan-mo-ni-xuan-zhan",
   collection: "dos-games",
   name: "台湾模拟选战",
+  nameEn: "Taiwan Elections Simulator",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 203 files, 4.3 MB.",

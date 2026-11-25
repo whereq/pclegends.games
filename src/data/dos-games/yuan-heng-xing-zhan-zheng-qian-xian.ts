@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yuan-heng-xing-zhan-zheng-qian-xian",
   collection: "dos-games",
   name: "原恒星战争前线",
+  nameEn: "Protostar: War on the Frontier",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 9 files, 4.6 MB.",

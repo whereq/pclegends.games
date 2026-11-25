@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mei-gui-qi-shi",
   collection: "dos-games",
   name: "玫瑰骑士",
+  nameEn: "Rose Knight",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 1,223 files, 84.8 MB.",

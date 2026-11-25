@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "da-mo-wang-wu-yu",
   collection: "dos-games",
   name: "大魔王物语",
+  nameEn: "Beelzebub",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2008 — 96 files, 84.4 MB.",

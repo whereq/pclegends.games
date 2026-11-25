@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "guang-ming-sheng-shi-tuan",
   collection: "dos-games",
   name: "光明圣使团",
+  nameEn: "Mission",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 948 files, 5.4 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xian-jian-qi-xia-chuan-meng-huan-ban",
   collection: "dos-games",
   name: "仙剑奇侠传梦幻版",
+  nameEn: "The Legend of Sword and Fairy",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2005 — 38 files, 17.2 MB.",

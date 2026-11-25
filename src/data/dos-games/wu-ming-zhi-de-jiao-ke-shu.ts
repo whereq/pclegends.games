@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wu-ming-zhi-de-jiao-ke-shu",
   collection: "dos-games",
   name: "无名指的教科书",
+  nameEn: "A text book of Ring Finger",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 72 files, 3.1 MB.",

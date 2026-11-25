@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tou-jin-zi",
   collection: "dos-games",
   name: "偷金子",
+  nameEn: "Lode Runner",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 2 files, 49 KB.",

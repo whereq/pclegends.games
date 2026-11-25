@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-shu-cai-qiu",
   collection: "dos-games",
   name: "魔术彩球",
+  nameEn: "X-ROCK",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1980 — 62 files, 778 KB.",

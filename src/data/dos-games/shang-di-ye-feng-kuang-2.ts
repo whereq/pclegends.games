@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shang-di-ye-feng-kuang-2",
   collection: "dos-games",
   name: "上帝也疯狂2",
+  nameEn: "Populous II: Trials of the Olympian Gods",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 91 files, 5.3 MB.",

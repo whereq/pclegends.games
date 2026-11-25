@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wai-xing-ao-lin-pi-ke",
   collection: "dos-games",
   name: "外星奥林匹克",
+  nameEn: "Alien Olympics",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 481 files, 2.5 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "alpha-feng-bao",
   collection: "dos-games",
   name: "ALPHA风暴",
+  nameEn: "Alpha Storm",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 200 files, 15.5 MB.",

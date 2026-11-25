@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chi-dou-ren-shan-zhai-ban",
   collection: "dos-games",
   name: "吃豆人山寨版",
+  nameEn: "CD-Man",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 13 files, 200 KB.",

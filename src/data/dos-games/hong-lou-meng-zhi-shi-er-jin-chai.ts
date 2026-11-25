@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hong-lou-meng-zhi-shi-er-jin-chai",
   collection: "dos-games",
   name: "红楼梦之十二金钗",
+  nameEn: "The dream of red chamber",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2007 — 174 files, 390.9 MB.",

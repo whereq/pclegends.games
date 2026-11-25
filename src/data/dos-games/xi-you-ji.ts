@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xi-you-ji",
   collection: "dos-games",
   name: "西游记",
+  nameEn: "Journey to the West",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 36 files, 2.6 MB.",

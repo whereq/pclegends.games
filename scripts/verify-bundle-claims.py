@@ -36,6 +36,53 @@ def norm(text):
     return re.sub(r'[^a-z0-9一-鿿]+', '', text)
 
 
+def bundle_strings(name):
+    """Every file name and every printable string in the bundle, as it is."""
+    path = os.path.join(GAMES, name + '.zip')
+    if not os.path.exists(path):
+        return []
+    parts = []
+    try:
+        archive = zipfile.ZipFile(path)
+    except zipfile.BadZipFile:
+        return []
+    with archive:
+        for member in archive.namelist():
+            parts.append(member)
+            if not member.lower().endswith(TEXT_SUFFIXES):
+                continue
+            try:
+                info = archive.getinfo(member)
+                if info.file_size > MAX_FILE:
+                    continue
+                data = archive.read(member)[: MAX_FILE]
+            except Exception:  # noqa: BLE001
+                continue
+            for chunk in PRINTABLE.findall(data):
+                parts.append(chunk.decode('ascii', 'ignore'))
+    return parts
+
+
+def says_title(parts, title):
+    """Does the bundle call the game that, as a whole title?
+
+    The title has to stand on its own: a word boundary on both sides, with
+    any run of spaces between its words. "Five" inside "Fifteen" is not the
+    game called Five.
+    """
+    if not title:
+        return False
+    words = [re.escape(word) for word in title.split() if word]
+    if not words:
+        return False
+    pattern = re.compile(r'(?<![A-Za-z0-9])' + r'[\s\-_]+'.join(words) +
+                         r'(?![A-Za-z0-9])', re.I)
+    for part in parts:
+        if pattern.search(part):
+            return True
+    return False
+
+
 def bundle_blob(name):
     """Every file name and every printable string in the bundle, folded."""
     path = os.path.join(GAMES, name + '.zip')

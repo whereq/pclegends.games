@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ma-li-jie-mei",
   collection: "dos-games",
   name: "玛丽姐妹",
+  nameEn: "Sister Mary",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2007 — 46 files, 595 KB.",

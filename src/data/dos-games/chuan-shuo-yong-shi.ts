@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chuan-shuo-yong-shi",
   collection: "dos-games",
   name: "传说勇士",
+  nameEn: "Warriors of Legend",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 77 files, 3.0 MB.",

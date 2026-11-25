@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "nba-jia-nian-hua",
   collection: "dos-games",
   name: "NBA嘉年华",
+  nameEn: "NBA Jam Tournament Edition",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 506 files, 348.0 MB.",

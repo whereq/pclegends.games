@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gang-tie-qi-shi-tuan",
   collection: "dos-games",
   name: "钢铁骑士团",
+  nameEn: "Bible Master",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2005 — 512 files, 8.3 MB.",

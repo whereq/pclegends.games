@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-yan-feng-yin",
   collection: "dos-games",
   name: "魔眼封印",
+  nameEn: "Seal Magic Eye",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 88 files, 8.2 MB.",

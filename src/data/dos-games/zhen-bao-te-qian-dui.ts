@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhen-bao-te-qian-dui",
   collection: "dos-games",
   name: "镇暴特遣队",
+  nameEn: "Counter Rebellion War Metal Jacket",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 14 files, 301.9 MB.",

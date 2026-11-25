@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shen-diao-xia-lv",
   collection: "dos-games",
   name: "神雕侠侣",
+  nameEn: "The Return of the Condor Heroes",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2009 — 85 files, 88.3 MB.",

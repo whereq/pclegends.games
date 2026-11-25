@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "fu-jia-tian-xia-2",
   collection: "dos-games",
   name: "富甲天下2",
+  nameEn: "The Millionaire of 3 Kingdoms2",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 250 files, 15.8 MB.",

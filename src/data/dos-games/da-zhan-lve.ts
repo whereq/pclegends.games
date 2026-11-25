@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "da-zhan-lve",
   collection: "dos-games",
   name: "大战略",
+  nameEn: "Battle Commander",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 572 files, 5.1 MB.",

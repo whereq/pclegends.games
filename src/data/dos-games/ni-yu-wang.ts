@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ni-yu-wang",
   collection: "dos-games",
   name: "逆玉王",
+  nameEn: "Wedding Errantry",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 566 files, 4.2 MB.",

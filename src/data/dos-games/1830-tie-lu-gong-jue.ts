@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "1830-tie-lu-gong-jue",
   collection: "dos-games",
   name: "1830铁路公爵",
+  nameEn: "1830",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 41 files, 3.9 MB.",

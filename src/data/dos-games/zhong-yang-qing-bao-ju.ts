@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhong-yang-qing-bao-ju",
   collection: "dos-games",
   name: "中央情报局",
+  nameEn: "Central Intelligence",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 700 files, 46.3 MB.",

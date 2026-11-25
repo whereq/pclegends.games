@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chi-dou-ren-shi-kong-zhi-lv",
   collection: "dos-games",
   name: "吃豆人时空之旅",
+  nameEn: "Pac-in-Time",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 291 files, 1.5 MB.",

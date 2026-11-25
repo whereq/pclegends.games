@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jue-dai-shuang-jiao",
   collection: "dos-games",
   name: "绝代双骄",
+  nameEn: "The Twin Heroes",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 716 files, 12.2 MB.",

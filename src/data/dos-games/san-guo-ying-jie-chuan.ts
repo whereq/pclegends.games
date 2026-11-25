@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "san-guo-ying-jie-chuan",
   collection: "dos-games",
   name: "三国英杰传",
+  nameEn: "Romance of the Three Kingdoms Heroic Legend",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 60 files, 3.3 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ke-lai-de-mao-xian",
   collection: "dos-games",
   name: "克莱德冒险",
+  nameEn: "Clyde's Adventure",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2002 — 14 files, 290 KB.",

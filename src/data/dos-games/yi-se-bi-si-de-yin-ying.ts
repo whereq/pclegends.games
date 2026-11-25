@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-se-bi-si-de-yin-ying",
   collection: "dos-games",
   name: "伊瑟比斯的阴影",
+  nameEn: "Shadow of Yserbius",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 137 files, 3.5 MB.",

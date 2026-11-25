@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tun-shi-tian-di-3",
   collection: "dos-games",
   name: "吞食天地3",
+  nameEn: "Devour World 3",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 1,430 files, 103.8 MB.",

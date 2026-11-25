@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ya-li-shi-wang-wu-yu",
   collection: "dos-games",
   name: "亚里士王物语",
+  nameEn: "The Story of King Aress",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 9 files, 6.1 MB.",

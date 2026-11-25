@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xin-mei-nv-quan",
   collection: "dos-games",
   name: "新美女拳",
+  nameEn: "SR907 Mission Impossible",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 14 files, 1.4 MB.",

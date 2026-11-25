@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sheng-shao-nv-zhan-dui-3",
   collection: "dos-games",
   name: "圣少女战队3",
+  nameEn: "Lakers 3",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 1,381 files, 10.2 MB.",

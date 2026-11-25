@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-ni-dong-wu-yuan",
   collection: "dos-games",
   name: "模拟动物园",
+  nameEn: "Simulation Zoo",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 77 files, 2.9 MB.",

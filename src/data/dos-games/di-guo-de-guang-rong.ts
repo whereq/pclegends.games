@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "di-guo-de-guang-rong",
   collection: "dos-games",
   name: "帝国的光荣",
+  nameEn: "Pearl Harbor and Midway Island",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 29 files, 946 KB.",

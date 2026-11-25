@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "pu-ke-ju-le-bu",
   collection: "dos-games",
   name: "扑克俱乐部",
+  nameEn: "Poker Club",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 127 files, 1.3 MB.",

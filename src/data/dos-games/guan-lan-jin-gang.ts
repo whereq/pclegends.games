@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "guan-lan-jin-gang",
   collection: "dos-games",
   name: "灌篮金刚",
+  nameEn: "King Kong 10",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 168 files, 24.2 MB.",

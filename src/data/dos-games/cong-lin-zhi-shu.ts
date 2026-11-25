@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "cong-lin-zhi-shu",
   collection: "dos-games",
   name: "丛林之书",
+  nameEn: "The Jungle Book",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 35 files, 5.3 MB.",

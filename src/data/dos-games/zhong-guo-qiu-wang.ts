@@ -10,7 +10,7 @@ const entry: AtlasEntry = {
   id: "zhong-guo-qiu-wang",
   collection: "dos-games",
   name: "中国球王",
-  nameEn: "Chinese king of soccer ",
+  nameEn: "Chinese king of soccer",
   nameEnSource: "published",
   role: "DOS Game",
   roleZh: "DOS 游戏",

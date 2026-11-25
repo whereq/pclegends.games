@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "feng-yun-tian-xia-san-guo-pian",
   collection: "dos-games",
   name: "风云天下三国篇",
+  nameEn: "Fengyuntianxiasanguopian",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 5 files, 3.2 MB.",

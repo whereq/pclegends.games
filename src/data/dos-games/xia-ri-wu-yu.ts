@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xia-ri-wu-yu",
   collection: "dos-games",
   name: "夏日物语",
+  nameEn: "Summer Story",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 541 files, 1.8 MB.",

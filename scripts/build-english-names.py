@@ -1,22 +1,22 @@
 #!/usr/bin/env python3
 """Build the archive's English-title table.
 
-Four sources, in the order they are trusted:
+Every game in the archive is filed under a Chinese title. The site shows the
+title the game was actually released under in English, and says where that
+name comes from. Four kinds of name are trusted, in this order:
 
-  1. **published** — the archive's own index (`dos.lol`) records an English
-     name for 194 of the games.
-  2. **wiki** — the CN DOS Games Wiki records the original English title of
+  1. **bundle** — the bundle says what it is called: the English title is in
+     the game's own strings or in the name of one of its files. This is the
+     strongest evidence and the one the site quotes.
+  2. **published** — the archive's own index (`dos.lol`) records an English
+     name for the game.
+  3. **wiki** — the CN DOS Games Wiki records the original English title of
      each of the Chinese releases it covers.
-  3. **bundle** — the game says what it is called: the title is inside the
-     bundle's own strings or in the name of one of its files. This is the
-     strongest evidence of the three, and the one the site quotes.
   4. **known** — the title the game is established under, which this bundle
-     does not carry.
+     does not carry and no index publishes.
 
-Every `bundle` claim is checked here against the bundle before it is
-written: the title has to actually be in the strings or the file names.
-A claim that does not check out is kept as `known` instead, so a wrong
-title never reaches the site as fact.
+A name that only a loose catalogue match offers is not taken on trust: it is
+read out of the bundle first, and only published if the bundle carries it.
 
 Run:  python3 scripts/build-english-names.py
 Out:  data/english-names.json
@@ -26,87 +26,188 @@ from __future__ import annotations
 
 import argparse
 import glob
+import importlib.util
 import json
 import os
 import re
+import sys
 import unicodedata
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
+sys.path.insert(0, HERE)
 
-WIKI = '/home/whereq/git/dos/wiki-matched.json'
+from opencc import OpenCC
+
+_spec = importlib.util.spec_from_file_location(
+    'verify_bundle_claims', os.path.join(HERE, 'verify-bundle-claims.py'))
+_verify = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(_verify)
+
+_rom_spec = importlib.util.spec_from_file_location(
+    'find_romanised', os.path.join(HERE, 'find-romanised.py'))
+_romanised = importlib.util.module_from_spec(_rom_spec)
+_rom_spec.loader.exec_module(_romanised)
+
 PUBLISHED = '/home/whereq/git/dos/published-names.json'
+WIKI = '/home/whereq/git/dos/wiki-english-names.json'
+CATALOGUE = '/home/whereq/git/dos/catalogue-names.json'
 AGENT_RESULTS = '/tmp/name-results/result-*.json'
 EVIDENCE = '/home/whereq/git/dos/title-evidence.json'
-VERIFIED = '/home/whereq/git/dos/verified-bundle-claims.json'
 
-# The order a source wins in: the one closest to the artefact first.
-PRECEDENCE = ['bundle', 'published', 'wiki', 'known']
+# The order a source wins in: the one closest to the artefact first. A title
+# that is only the Chinese name in Latin letters comes last of all — it is
+# not an English title, and the site does not offer it as one.
+PRECEDENCE = ['bundle', 'published', 'wiki', 'known', 'romanised']
+
+# The words a Chinese title carries to say which edition of a game it is.
+MARKERS = ['威力加强版', '加强版', '完美版', '豪华版', '繁体版', '简体版', '中文版',
+           '英文版', '民间改版', '民间版', '移植版', '资料片', '合集', '完全版',
+           '加强型', '豪华型', '资料篇', '外传', '前传', '试玩版', 'demo',
+           'DOS', 'PC', '简体中文版', '繁体中文版']
+
+_converter = OpenCC('t2s')
 
 
-def norm(text):
+def fold(text: str) -> str:
     """A name, folded down to what a string search can match."""
     text = unicodedata.normalize('NFKC', text).lower()
-    return re.sub(r'[^a-z0-9一-鿿]+', '', text)
+    text = re.sub(r'[（(]\s*(19|20)\d{2}\s*[)）]', '', text)
+    text = re.sub(r'[^a-z0-9一-鿿]+', '', text)
+    return text
+
+
+def key(text: str) -> str:
+    """A Chinese title, folded and brought into simplified characters."""
+    return fold(_converter.convert(text))
+
+
+def bare(text: str) -> str:
+    """A Chinese title with its edition markers taken off."""
+    out = key(text)
+    changed = True
+    while changed:
+        changed = False
+        for marker in MARKERS:
+            if marker in out:
+                out = out.replace(marker, '')
+                changed = True
+    return out
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--out', default=os.path.join(ROOT, 'data', 'english-names.json'))
-    parser.add_argument('--evidence', default=EVIDENCE)
     parser.add_argument('--results', default=AGENT_RESULTS)
+    parser.add_argument('--report', default='/tmp/name-conflicts.json')
     args = parser.parse_args()
 
-    merged = {}
+    archive = [record['zh'] for record in
+               json.load(open(EVIDENCE, encoding='utf-8'))]
 
-    def offer(name, english, source):
+    exact_index, bare_index = {}, {}
+    for name in archive:
+        exact_index.setdefault(key(name), name)
+        bare_index.setdefault(bare(name), name)
+
+    candidates = []   # (archive name, english, trust, provenance)
+
+    def add(name, english, trust, provenance):
         if not english:
             return
-        current = merged.get(name)
-        if current is None or PRECEDENCE.index(source) < PRECEDENCE.index(current['source']):
-            merged[name] = {'en': english, 'source': source}
+        candidates.append({'name': name, 'en': english.strip(),
+                           'trust': trust, 'from': provenance})
 
     # ── the archive's own index ────────────────────────────────
     if os.path.exists(PUBLISHED):
         published = json.load(open(PUBLISHED, encoding='utf-8'))
         for name, english in published.items():
-            offer(name, english, 'published')
+            add(name, english, 'published', 'published')
         print(f'published: {len(published)}')
 
     # ── the CN DOS Games Wiki ──────────────────────────────────
     if os.path.exists(WIKI):
         wiki = json.load(open(WIKI, encoding='utf-8'))
         for name, english in wiki.items():
-            offer(name, english, 'wiki')
+            name = name.split(' (')[0].strip()
+            hit = exact_index.get(key(name))
+            if hit:
+                add(hit, english, 'wiki', 'wiki')
         print(f'wiki: {len(wiki)}')
 
-    # ── what the mapping agents found, checked against the bundles ──
-    # The bundle claims that `verify-bundle-claims.py` checked against the
-    # bundles themselves. A claim that is not in here did not check out.
-    verified = {}
-    if os.path.exists(VERIFIED):
-        verified = json.load(open(VERIFIED, encoding='utf-8'))
-        print(f'verified bundle claims: {len(verified)}')
+    # ── the chiuinan catalogue: a candidate, not a source ──────
+    if os.path.exists(CATALOGUE):
+        catalogue = json.load(open(CATALOGUE, encoding='utf-8'))
+        for row in catalogue:
+            hit = exact_index.get(key(row['zh'])) or bare_index.get(bare(row['zh']))
+            if hit:
+                add(hit, row['en'], 'catalogue', 'catalogue')
+        print(f'catalogue: {len(catalogue)} rows')
 
-    checked = unverified = 0
-    for path in sorted(glob.glob(args.results)):
+    # ── what the mapping agents found ─────────────────────────
+    agent_files = sorted(glob.glob(args.results))
+    for path in agent_files:
         results = json.load(open(path, encoding='utf-8'))
         for name, entry in results.items():
             english = (entry.get('en') or '').strip()
             source = entry.get('source')
             if not english or source == 'none':
                 continue
-            if source == 'bundle':
-                if name in verified:
-                    checked += 1
-                else:
-                    # The claim did not check out against the bundle. Keep the
-                    # title, but say where it came from honestly.
-                    source = 'known'
-                    unverified += 1
-            offer(name, english, source)
+            add(name, english, source, os.path.basename(path))
         print(f'{os.path.basename(path)}: {len(results)} records')
 
-    print(f'\nbundle claims verified: {checked}   not verified: {unverified}')
+    # ── check every claim against the bundle it is a claim about ─
+    merged = {}
+    conflicts = []
+    bundles = {}
+    checked = 0
+
+    def bundle_says(name):
+        if name not in bundles:
+            bundles[name] = _verify.bundle_strings(name)
+        return bundles[name]
+
+    for candidate in candidates:
+        name = candidate['name']
+        english = candidate['en']
+        trust = candidate['trust']
+
+        if trust == 'bundle':
+            # An agent said the title is in the bundle. Look for it there.
+            checked += 1
+            if not _verify.says_title(bundle_says(name), english):
+                trust = 'known'          # keep the name, drop the claim
+        elif trust == 'catalogue':
+            # The catalogue is not a source on its own: the bundle has to say it.
+            checked += 1
+            if _verify.says_title(bundle_says(name), english):
+                trust = 'bundle'
+            else:
+                continue
+
+        if trust in ('published', 'wiki', 'known') and \
+                _romanised.is_romanised(name, english):
+            # The Chinese name in Latin letters, not an English release title.
+            trust = 'romanised'
+
+        current = merged.get(name)
+        if current is None:
+            merged[name] = {'en': english, 'source': trust}
+        else:
+            if current['en'] != english:
+                conflicts.append({'name': name, 'kept': current,
+                                  'dropped': {'en': english, 'source': trust}})
+            if PRECEDENCE.index(trust) < PRECEDENCE.index(current['source']):
+                merged[name] = {'en': english, 'source': trust}
+
+    # A game whose only name is the Chinese one in Latin letters has no
+    # English title to show. It keeps its place in the catalogue without one.
+    romanised_only = [name for name, entry in merged.items()
+                      if entry['source'] == 'romanised']
+    for name in romanised_only:
+        del merged[name]
+
+    print(f'\nbundle checks: {checked}')
 
     counts = {}
     for entry in merged.values():
@@ -115,9 +216,18 @@ def main():
     for source, count in sorted(counts.items(), key=lambda kv: -kv[1]):
         print(f'  {source:10s} {count}')
 
+    missing = [name for name in archive if name not in merged]
+    print(f'games still without a title: {len(missing)}')
+    print(f'names dropped as romanised: {len(romanised_only)}')
+
     with open(args.out, 'w', encoding='utf-8') as handle:
         json.dump(merged, handle, ensure_ascii=False, indent=1)
     print('wrote', args.out)
+
+    with open(args.report, 'w', encoding='utf-8') as handle:
+        json.dump({'conflicts': conflicts, 'missing': missing}, handle,
+                  ensure_ascii=False, indent=1)
+    print('wrote', args.report)
 
 
 if __name__ == '__main__':

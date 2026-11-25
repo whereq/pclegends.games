@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "huan-le-jie-long",
   collection: "dos-games",
   name: "欢乐接龙",
+  nameEn: "Poker Relay",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 109 files, 498 KB.",

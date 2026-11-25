@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "1-0-zu-qiu-jing-li",
   collection: "dos-games",
   name: "1-0足球经理",
+  nameEn: "One Nil",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 10 files, 390 KB.",

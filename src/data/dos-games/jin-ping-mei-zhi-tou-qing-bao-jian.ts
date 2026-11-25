@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jin-ping-mei-zhi-tou-qing-bao-jian",
   collection: "dos-games",
   name: "金瓶梅之偷情宝鉴",
+  nameEn: "Jinpingmeizhitouqingbaojian",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 248 files, 31.0 MB.",

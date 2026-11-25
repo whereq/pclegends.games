@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ke-su-lu-chuan-shuo-mo-ying-ha-lei",
   collection: "dos-games",
   name: "克苏鲁传说魔影哈雷",
+  nameEn: "Shadow of the Comet: Call of the Cthulhu",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 59 files, 7.3 MB.",

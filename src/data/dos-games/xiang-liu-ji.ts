@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xiang-liu-ji",
   collection: "dos-games",
   name: "项刘记",
+  nameEn: "Rise of the Phoenix",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 54 files, 2.2 MB.",

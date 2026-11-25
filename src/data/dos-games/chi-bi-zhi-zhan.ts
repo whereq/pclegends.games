@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chi-bi-zhi-zhan",
   collection: "dos-games",
   name: "赤壁之战",
+  nameEn: "Red Cliff Battle",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 86 files, 3.6 MB.",

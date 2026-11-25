@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yong-shi-chuan-qi",
   collection: "dos-games",
   name: "勇士传奇",
+  nameEn: "Legends of Valour",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 270 files, 4.3 MB.",

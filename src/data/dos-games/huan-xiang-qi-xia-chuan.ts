@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "huan-xiang-qi-xia-chuan",
   collection: "dos-games",
   name: "幻想奇侠传",
+  nameEn: "Huanxiangqixiachuan",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 255 files, 49.3 MB.",

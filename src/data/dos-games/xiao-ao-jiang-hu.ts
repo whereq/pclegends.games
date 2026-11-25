@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xiao-ao-jiang-hu",
   collection: "dos-games",
   name: "笑傲江湖",
+  nameEn: "Swordsman",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 149 files, 7.9 MB.",

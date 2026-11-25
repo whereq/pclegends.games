@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ya-ma-xun-xiao-dao",
   collection: "dos-games",
   name: "亚马逊小道",
+  nameEn: "The Amazon Trail",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 16 files, 3.4 MB.",

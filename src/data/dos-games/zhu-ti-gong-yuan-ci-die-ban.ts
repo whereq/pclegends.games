@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhu-ti-gong-yuan-ci-die-ban",
   collection: "dos-games",
   name: "主题公园磁碟版",
+  nameEn: "Theme Park",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2009 — 221 files, 7.6 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "huan-jie-ba-zhe",
   collection: "dos-games",
   name: "幻界霸者",
+  nameEn: "Alchemist",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 346 files, 21.2 MB.",

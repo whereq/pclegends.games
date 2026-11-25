@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "da-hai-zhan-13",
   collection: "dos-games",
   name: "大海战13",
+  nameEn: "Operation Just Because",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 19 files, 323 KB.",

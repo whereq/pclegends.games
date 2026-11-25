@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "san-bing-da-zhan",
   collection: "dos-games",
   name: "伞兵大战",
+  nameEn: "Night Raid",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 7 files, 589 KB.",

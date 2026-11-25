@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "guang-ming-zhan-shi",
   collection: "dos-games",
   name: "光明战史",
+  nameEn: "Dragon Force",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 69 files, 5.7 MB.",

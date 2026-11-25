@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tie-xue-lian-meng",
   collection: "dos-games",
   name: "铁血联盟",
+  nameEn: "Jagged Alliance",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 227 files, 12.9 MB.",

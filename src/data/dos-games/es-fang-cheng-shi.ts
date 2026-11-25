@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "es-fang-cheng-shi",
   collection: "dos-games",
   name: "ES方程式",
+  nameEn: "Esfangchengshi",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 25 files, 5.9 MB.",

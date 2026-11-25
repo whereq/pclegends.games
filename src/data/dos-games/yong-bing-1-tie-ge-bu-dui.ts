@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yong-bing-1-tie-ge-bu-dui",
   collection: "dos-games",
   name: "佣兵1铁格部队",
+  nameEn: "Tegel's Mercenaries",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 370 files, 1.8 MB.",

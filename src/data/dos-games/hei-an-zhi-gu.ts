@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hei-an-zhi-gu",
   collection: "dos-games",
   name: "黑暗之蛊",
+  nameEn: "Dark Seed",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 646 files, 5.6 MB.",

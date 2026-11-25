@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shang-gu-juan-zhou-chuan-qi",
   collection: "dos-games",
   name: "上古卷轴传奇",
+  nameEn: "An Elder Scrolls Legend: Battlespire",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 111 files, 64.2 MB.",

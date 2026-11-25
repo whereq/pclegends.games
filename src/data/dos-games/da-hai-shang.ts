@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "da-hai-shang",
   collection: "dos-games",
   name: "大海商",
+  nameEn: "High Seas Trader",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 378 files, 14.0 MB.",

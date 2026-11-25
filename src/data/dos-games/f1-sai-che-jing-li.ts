@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "f1-sai-che-jing-li",
   collection: "dos-games",
   name: "F1赛车经理",
+  nameEn: "F1 Manager",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 552 files, 19.8 MB.",

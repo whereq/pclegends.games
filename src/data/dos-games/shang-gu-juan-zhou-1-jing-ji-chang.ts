@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shang-gu-juan-zhou-1-jing-ji-chang",
   collection: "dos-games",
   name: "上古卷轴1竞技场",
+  nameEn: "The Elder Scrolls: Arena",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 149 files, 10.7 MB.",

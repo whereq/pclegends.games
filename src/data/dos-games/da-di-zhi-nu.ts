@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "da-di-zhi-nu",
   collection: "dos-games",
   name: "大地之怒",
+  nameEn: "Wrath of Earth",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 5 files, 10.9 MB.",

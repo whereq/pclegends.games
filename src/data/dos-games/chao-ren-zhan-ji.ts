@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-ren-zhan-ji",
   collection: "dos-games",
   name: "超人战记",
+  nameEn: "Heroic Poetry - Super Mars",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2008 — 635 files, 1.4 MB.",

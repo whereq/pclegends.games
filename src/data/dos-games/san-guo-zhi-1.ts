@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "san-guo-zhi-1",
   collection: "dos-games",
   name: "三国志1",
+  nameEn: "Romance of the Three Kingdoms",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 13 files, 271 KB.",

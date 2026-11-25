@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-dao-da-fu-weng",
   collection: "dos-games",
   name: "魔岛大富翁",
+  nameEn: "Evil Island's Richman",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 81 files, 12.4 MB.",

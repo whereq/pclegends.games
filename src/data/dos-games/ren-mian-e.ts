@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ren-mian-e",
   collection: "dos-games",
   name: "人面蛾",
+  nameEn: "Moth",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 84 files, 57.5 MB.",

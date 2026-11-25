@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xian-jing-chuan-qi-2-wang-zhe-zhi-ting",
   collection: "dos-games",
   name: "仙境传奇2亡者之庁",
+  nameEn: "Faery Tale Adventure II: Halls of the Dead",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 51 files, 297.8 MB.",

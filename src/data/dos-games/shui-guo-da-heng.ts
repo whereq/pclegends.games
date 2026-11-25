@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shui-guo-da-heng",
   collection: "dos-games",
   name: "水果大亨",
+  nameEn: "King of Fruit",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 47 files, 1.2 MB.",

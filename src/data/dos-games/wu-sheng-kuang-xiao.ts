@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wu-sheng-kuang-xiao",
   collection: "dos-games",
   name: "无声狂啸",
+  nameEn: "I Have No Mouth, and I Must Scream",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2007 — 50 files, 60.6 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tu-ji-mei-shao-nv",
   collection: "dos-games",
   name: "突击美少女",
+  nameEn: "Totsugeki! Mix",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 294 files, 2.5 MB.",

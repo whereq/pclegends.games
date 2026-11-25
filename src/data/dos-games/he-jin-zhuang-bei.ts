@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "he-jin-zhuang-bei",
   collection: "dos-games",
   name: "合金装备",
+  nameEn: "Metal Gear",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1980 — 100 files, 239 KB.",

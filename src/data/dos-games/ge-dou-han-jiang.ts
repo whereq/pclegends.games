@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ge-dou-han-jiang",
   collection: "dos-games",
   name: "格斗悍将",
+  nameEn: "Tough Guy",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2005 — 52 files, 7.3 MB.",

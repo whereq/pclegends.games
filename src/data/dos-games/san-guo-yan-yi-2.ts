@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "san-guo-yan-yi-2",
   collection: "dos-games",
   name: "三国演义2",
+  nameEn: "The Rising Dinasty2",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 101 files, 125.9 MB.",

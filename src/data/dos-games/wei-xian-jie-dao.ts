@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wei-xian-jie-dao",
   collection: "dos-games",
   name: "危险街道",
+  nameEn: "Dangerous Streets",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 284 files, 1.1 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sheng-shao-nv-zhan-dui-2",
   collection: "dos-games",
   name: "圣少女战队2",
+  nameEn: "Lakers 2",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 588 files, 5.8 MB.",

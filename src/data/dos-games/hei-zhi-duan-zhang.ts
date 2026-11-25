@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hei-zhi-duan-zhang",
   collection: "dos-games",
   name: "黑之断章",
+  nameEn: "The Literary Fragment",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2003 — 33 files, 3.8 MB.",

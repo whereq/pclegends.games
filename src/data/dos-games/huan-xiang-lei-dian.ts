@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "huan-xiang-lei-dian",
   collection: "dos-games",
   name: "幻象雷电",
+  nameEn: "Mirage Thunder",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 285 files, 5.3 MB.",

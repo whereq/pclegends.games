@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jing-ling-wu-yu",
   collection: "dos-games",
   name: "精灵物语",
+  nameEn: "Elf Story",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2007 — 196 files, 4.7 MB.",

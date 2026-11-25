@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "da-zhan-yi-2",
   collection: "dos-games",
   name: "大战役2",
+  nameEn: "Campaign II",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2009 — 83 files, 1.0 MB.",

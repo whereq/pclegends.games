@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "di-xia-ke-li-mu-lin-gong",
   collection: "dos-games",
   name: "地下克里姆林宫",
+  nameEn: "Dungeons of Kremlin",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 7 files, 443.3 MB.",

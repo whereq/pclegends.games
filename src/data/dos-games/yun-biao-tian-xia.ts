@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yun-biao-tian-xia",
   collection: "dos-games",
   name: "运镖天下",
+  nameEn: "Yunbiaotianxia",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 90 files, 5.2 MB.",

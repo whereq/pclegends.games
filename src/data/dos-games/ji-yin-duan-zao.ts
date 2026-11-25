@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-yin-duan-zao",
   collection: "dos-games",
   name: "基因锻造",
+  nameEn: "Bioforge",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 368 files, 117.4 MB.",

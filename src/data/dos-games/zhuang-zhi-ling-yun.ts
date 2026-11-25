@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhuang-zhi-ling-yun",
   collection: "dos-games",
   name: "壮志凌云",
+  nameEn: "Top Gun: Fire at Will",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 51 files, 13.8 MB.",

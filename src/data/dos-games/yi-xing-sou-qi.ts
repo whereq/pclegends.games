@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-xing-sou-qi",
   collection: "dos-games",
   name: "异星搜奇",
+  nameEn: "The Dig",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2007 — 4 files, 493.7 MB.",

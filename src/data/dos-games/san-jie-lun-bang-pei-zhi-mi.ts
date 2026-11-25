@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "san-jie-lun-bang-pei-zhi-mi",
   collection: "dos-games",
   name: "三界论-邦沛之谜",
+  nameEn: "Three Realms encyclical: Bangpei Mystery",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 93 files, 3.2 MB.",

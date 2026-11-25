@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhu-luo-ji-sheng-zhan",
   collection: "dos-games",
   name: "侏罗纪圣战",
+  nameEn: "Jurassic War",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 24 files, 18.3 MB.",

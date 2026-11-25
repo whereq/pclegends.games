@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "3x3-zhi-yan",
   collection: "dos-games",
   name: "3x3只眼",
+  nameEn: "3x3 Eyes",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 673 files, 10.9 MB.",

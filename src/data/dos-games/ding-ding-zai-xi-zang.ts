@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ding-ding-zai-xi-zang",
   collection: "dos-games",
   name: "丁丁在西藏",
+  nameEn: "Tintin in Tibet",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 50 files, 3.5 MB.",

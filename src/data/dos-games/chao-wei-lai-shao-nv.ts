@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-wei-lai-shao-nv",
   collection: "dos-games",
   name: "超未来少女",
+  nameEn: "Foresight Dolly",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 83 files, 4.8 MB.",

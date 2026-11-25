@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jin-yong-kuai-da",
   collection: "dos-games",
   name: "金庸快打",
+  nameEn: "Jinyong Fighter",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 583 files, 11.0 MB.",

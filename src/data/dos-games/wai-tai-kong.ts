@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wai-tai-kong",
   collection: "dos-games",
   name: "外太空",
+  nameEn: "Outer Ridge",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 17 files, 2.9 MB.",

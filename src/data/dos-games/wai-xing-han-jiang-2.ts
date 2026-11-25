@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wai-xing-han-jiang-2",
   collection: "dos-games",
   name: "外星悍将2",
+  nameEn: "Turrican II",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2006 — 30 files, 2.1 MB.",

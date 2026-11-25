@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "4d-wang-qiu",
   collection: "dos-games",
   name: "4D网球",
+  nameEn: "4D Sports Tennis",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 191 files, 1.2 MB.",

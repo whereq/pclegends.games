@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "e-lei-gang-xiao-dao",
   collection: "dos-games",
   name: "俄勒冈小道",
+  nameEn: "The Oregon Trail",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 15 files, 1.8 MB.",

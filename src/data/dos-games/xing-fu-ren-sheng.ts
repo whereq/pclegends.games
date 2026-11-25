@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-fu-ren-sheng",
   collection: "dos-games",
   name: "幸福人生",
+  nameEn: "Xing Fu Ren Sheng",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 5 files, 446 KB.",

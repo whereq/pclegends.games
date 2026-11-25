@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "dan-sheng",
   collection: "dos-games",
   name: "诞生",
+  nameEn: "Debut",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 13 files, 10.0 MB.",

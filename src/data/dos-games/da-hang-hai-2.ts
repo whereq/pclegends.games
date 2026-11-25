@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "da-hang-hai-2",
   collection: "dos-games",
   name: "大航海2",
+  nameEn: "Uncharted Waters II",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 61 files, 2.9 MB.",

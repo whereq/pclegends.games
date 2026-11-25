@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chen-mo-de-jian-dui",
   collection: "dos-games",
   name: "沉默的舰队",
+  nameEn: "The Silence Service",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 121 files, 2.8 MB.",

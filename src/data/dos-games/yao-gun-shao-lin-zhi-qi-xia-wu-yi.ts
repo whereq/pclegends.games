@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yao-gun-shao-lin-zhi-qi-xia-wu-yi",
   collection: "dos-games",
   name: "摇滚少林之七侠五义",
+  nameEn: "The Legend of the Seven Paladines",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 19 files, 7.8 MB.",

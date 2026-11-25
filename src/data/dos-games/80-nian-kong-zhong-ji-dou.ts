@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "80-nian-kong-zhong-ji-dou",
   collection: "dos-games",
   name: "80年空中激斗",
+  nameEn: "Dogfight: 80 Years of Aerial Warfare",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 59 files, 4.6 MB.",

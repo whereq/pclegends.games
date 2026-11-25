@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shang-di-zhi-chui",
   collection: "dos-games",
   name: "上帝之锤",
+  nameEn: "Hammer of the Gods",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 331 files, 26.0 MB.",

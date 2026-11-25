@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ou-lu-zhan-xian",
   collection: "dos-games",
   name: "欧陆战线",
+  nameEn: "Operation Europe: Path to Victory",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 31 files, 1.3 MB.",

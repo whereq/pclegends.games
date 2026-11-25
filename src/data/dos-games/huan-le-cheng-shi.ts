@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "huan-le-cheng-shi",
   collection: "dos-games",
   name: "欢乐城市",
+  nameEn: "Happy City",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 236 files, 3.1 MB.",

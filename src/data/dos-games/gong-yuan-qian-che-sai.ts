@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gong-yuan-qian-che-sai",
   collection: "dos-games",
   name: "公元前车赛",
+  nameEn: "B.C. Racers",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 394 files, 2.1 MB.",

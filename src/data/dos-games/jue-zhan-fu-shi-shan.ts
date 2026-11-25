@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jue-zhan-fu-shi-shan",
   collection: "dos-games",
   name: "决战富士山",
+  nameEn: "Karateka",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1986 — 92 files, 80 KB.",

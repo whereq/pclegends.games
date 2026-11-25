@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yong-zhe-dou-e-long",
   collection: "dos-games",
   name: "勇者斗恶龙",
+  nameEn: "Dragon Fighter",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 34 files, 111 KB.",

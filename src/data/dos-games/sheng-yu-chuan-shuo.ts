@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sheng-yu-chuan-shuo",
   collection: "dos-games",
   name: "圣域传说",
+  nameEn: "The Legend of Mystic Zone",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2005 — 302 files, 887 KB.",

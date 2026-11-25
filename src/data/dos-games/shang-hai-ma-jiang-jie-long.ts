@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shang-hai-ma-jiang-jie-long",
   collection: "dos-games",
   name: "上海麻将接龙",
+  nameEn: "Shanghai II: Dragon's Eye",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 55 files, 941 KB.",

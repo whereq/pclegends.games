@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "long-teng-san-guo",
   collection: "dos-games",
   name: "龙腾三国",
+  nameEn: "Dragon Three Kingdoms",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 1,057 files, 6.3 MB.",

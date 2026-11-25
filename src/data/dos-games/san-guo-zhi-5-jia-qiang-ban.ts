@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "san-guo-zhi-5-jia-qiang-ban",
   collection: "dos-games",
   name: "三国志5加强版",
+  nameEn: "Romance of the Three Kingdoms V",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 87 files, 9.3 MB.",

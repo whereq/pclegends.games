@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "e-luo-si-fang-kuai",
   collection: "dos-games",
   name: "俄罗斯方块",
+  nameEn: "Tetris",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1987 — 15 files, 75 KB.",

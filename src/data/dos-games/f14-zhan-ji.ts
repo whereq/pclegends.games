@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "f14-zhan-ji",
   collection: "dos-games",
   name: "F14战机",
+  nameEn: "Fleet Defender: F-14 Tomcat",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 482 files, 5.5 MB.",

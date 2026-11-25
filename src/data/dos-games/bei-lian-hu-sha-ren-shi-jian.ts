@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bei-lian-hu-sha-ren-shi-jian",
   collection: "dos-games",
   name: "悲恋湖杀人事件",
+  nameEn: "Bei Lian Hu Sha Ren Shi Jian",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 147 files, 2.1 MB.",

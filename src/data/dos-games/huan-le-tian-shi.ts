@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "huan-le-tian-shi",
   collection: "dos-games",
   name: "欢乐天使",
+  nameEn: "Ayumi's Adventure",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 337 files, 5.1 MB.",

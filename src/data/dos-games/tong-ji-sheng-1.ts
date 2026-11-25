@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tong-ji-sheng-1",
   collection: "dos-games",
   name: "同级生1",
+  nameEn: "Nanpa",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 40 files, 11.2 MB.",

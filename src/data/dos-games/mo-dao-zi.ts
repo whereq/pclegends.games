@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-dao-zi",
   collection: "dos-games",
   name: "魔道子",
+  nameEn: "Prince of Evil",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 98 files, 4.7 MB.",

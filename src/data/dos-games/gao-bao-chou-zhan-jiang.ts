@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gao-bao-chou-zhan-jiang",
   collection: "dos-games",
   name: "高报酬战将",
+  nameEn: "High Reward",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 148 files, 2.4 MB.",

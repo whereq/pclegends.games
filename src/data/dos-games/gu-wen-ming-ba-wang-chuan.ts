@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gu-wen-ming-ba-wang-chuan",
   collection: "dos-games",
   name: "古文明霸王传",
+  nameEn: "Lord Of Ancient Kingdom",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 89 files, 354.1 MB.",

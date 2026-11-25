@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "da-zhan-lve-sp",
   collection: "dos-games",
   name: "大战略SP",
+  nameEn: "The World War Commander in Chief",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 715 files, 5.5 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "nong-nu-cheng-shi",
   collection: "dos-games",
   name: "农奴城市",
+  nameEn: "Serf City: Life is Feudal",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 57 files, 1.2 MB.",

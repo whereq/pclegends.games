@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-bu-zhi-yao",
   collection: "dos-games",
   name: "一步之遥",
+  nameEn: "One Step Beyond",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 88 files, 1.0 MB.",

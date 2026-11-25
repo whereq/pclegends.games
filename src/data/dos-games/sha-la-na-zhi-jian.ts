@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sha-la-na-zhi-jian",
   collection: "dos-games",
   name: "沙拉那之剑",
+  nameEn: "Shannara",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 98 files, 36.4 MB.",

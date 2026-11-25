@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "qiu-hun-365-ri",
   collection: "dos-games",
   name: "求婚365日",
+  nameEn: "Wooing 365 Days",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 112 files, 2.6 MB.",

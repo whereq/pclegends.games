@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-jie-shuai-jiao-lian-meng",
   collection: "dos-games",
   name: "世界摔角联盟",
+  nameEn: "WWF in Your House",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 137 files, 16.2 MB.",

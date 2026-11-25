@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jin-ji",
   collection: "dos-games",
   name: "禁忌",
+  nameEn: "Taboo",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 1,840 files, 6.5 MB.",

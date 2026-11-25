@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "da-fu-weng-cheng-shi-ying-xiong",
   collection: "dos-games",
   name: "大富翁城市英雄",
+  nameEn: "Chengshiyingxiongdafuweng",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 1,654 files, 15.6 MB.",

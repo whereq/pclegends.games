@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "san-guo-zhi-4-jia-qiang-ban",
   collection: "dos-games",
   name: "三国志4加强版",
+  nameEn: "Romance of the Three Kingdoms IV: Wall of Fire",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 60 files, 5.8 MB.",

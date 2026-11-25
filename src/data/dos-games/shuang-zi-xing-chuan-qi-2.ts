@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shuang-zi-xing-chuan-qi-2",
   collection: "dos-games",
   name: "双子星传奇2",
+  nameEn: "Twinsen's Odyssey",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2009 — 83 files, 689.3 MB.",

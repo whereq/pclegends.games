@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "psy-you-ji",
   collection: "dos-games",
   name: "PSY幽记",
+  nameEn: "Manji",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 1,901 files, 11.5 MB.",

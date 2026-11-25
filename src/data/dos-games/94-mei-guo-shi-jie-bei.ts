@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "94-mei-guo-shi-jie-bei",
   collection: "dos-games",
   name: "94美国世界杯",
+  nameEn: "World Cup USA 1994",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 86 files, 828 KB.",

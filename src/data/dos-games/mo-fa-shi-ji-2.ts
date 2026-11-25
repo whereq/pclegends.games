@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-fa-shi-ji-2",
   collection: "dos-games",
   name: "魔法世纪2",
+  nameEn: "Magic Century 2",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 65 files, 2.8 MB.",

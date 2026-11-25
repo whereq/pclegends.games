@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-gong-de-jia-qi",
   collection: "dos-games",
   name: "伊贡的假期",
+  nameEn: "Igor: Objective Uikokahonia",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 4 files, 4.1 MB.",

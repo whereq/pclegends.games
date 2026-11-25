@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wai-xing-da-fu-weng",
   collection: "dos-games",
   name: "外星大富翁",
+  nameEn: "Traders",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 44 files, 545 KB.",

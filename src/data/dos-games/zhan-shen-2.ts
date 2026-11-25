@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-shen-2",
   collection: "dos-games",
   name: "战神2",
+  nameEn: "Warlords 2",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 463 files, 4.2 MB.",

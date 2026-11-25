@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "po-huai-shen-chuan-shuo",
   collection: "dos-games",
   name: "破坏神传说",
+  nameEn: "Legend of the Zyca",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 18 files, 2.4 MB.",

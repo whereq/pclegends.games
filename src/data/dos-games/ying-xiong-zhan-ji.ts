@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ying-xiong-zhan-ji",
   collection: "dos-games",
   name: "英雄战记",
+  nameEn: "Yingxiongzhanji",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2009 — 13 files, 51.0 MB.",

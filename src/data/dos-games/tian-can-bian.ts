@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tian-can-bian",
   collection: "dos-games",
   name: "天蚕变",
+  nameEn: "Silk",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 209 files, 782 KB.",

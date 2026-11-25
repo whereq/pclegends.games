@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zheng-zong-tai-wan-16-zhang-ma-jiang",
   collection: "dos-games",
   name: "正宗台湾16张麻将",
+  nameEn: "Taiwan 16brands Mahjong",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 27 files, 3.3 MB.",

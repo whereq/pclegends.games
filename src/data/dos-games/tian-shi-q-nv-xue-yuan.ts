@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tian-shi-q-nv-xue-yuan",
   collection: "dos-games",
   name: "天使Q女学院",
+  nameEn: "Tianshiqnüxueyuan",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 993 files, 12.0 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-shen-zhan-ji",
   collection: "dos-games",
   name: "魔神战记",
+  nameEn: "Mo Shen Zhan Ji",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 31 files, 1.2 MB.",

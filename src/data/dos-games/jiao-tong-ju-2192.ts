@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jiao-tong-ju-2192",
   collection: "dos-games",
   name: "交通局2192",
+  nameEn: "Traffic Department 2192",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 222 files, 2.4 MB.",

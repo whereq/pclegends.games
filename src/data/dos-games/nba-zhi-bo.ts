@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "nba-zhi-bo",
   collection: "dos-games",
   name: "NBA直播",
+  nameEn: "TV Sports Basketball",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 16 files, 419 KB.",

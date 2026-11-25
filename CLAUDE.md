@@ -113,13 +113,37 @@ one of four places, in the order they are trusted:
 `data/english-names.json` is the table the generator reads. To rebuild it:
 
 ```bash
-python3 scripts/collect-wiki-names.py      # the wiki's own English titles
-python3 scripts/verify-bundle-claims.py     # check every "bundle" claim against the bundle
-python3 scripts/build-english-names.py      # merge into data/english-names.json
+python3 scripts/collect-wiki-names.py        # the wiki's own English titles
+python3 scripts/collect-catalogue-names.py   # the chiuinan catalogue's titles
+python3 scripts/build-english-names.py       # merge into data/english-names.json
 ```
+
+The builder does the checking itself: it opens every bundle that carries a
+claim and looks for the title inside it.
 
 **A `bundle` claim that does not check out is downgraded to `known`**, so a
 wrong English title never reaches the site as fact.
+
+**The catalogue is a candidate, not a source.** The
+[chiuinan catalogue](https://chiuinan.github.io/game/game/cgame11.htm) lists
+the Chinese games in traditional Chinese with an English title beside each
+one, and it is useful — but its rows are not aligned with the archive's, and
+its names are sometimes the Chinese name in Latin letters. So a catalogue
+name is only published when the bundle itself carries it; otherwise it is
+dropped.
+
+**A title that is only the Chinese name in Latin letters is not an English
+title.** `scripts/find-romanised.py` compares a title with the pinyin of the
+Chinese title it belongs to: "Jin Yong Qun Xia Zhuan" is 金庸群侠传 written
+in Latin letters, and the site does not offer it as the game's English
+title. A real title that happens to contain a syllable — "Xuan-Yuan Sword" —
+is left alone.
+
+**Two indexes publish machine output for Chinese games.** `dos.lol` prints
+"Jin Yong Qun Xia Zhuan" for 金庸群侠传 and "Heavenly Sword Dragon Slaying
+Sabe" for 倚天屠龙记; neither is a release title. `scripts/make-arbitration-batches.py`
+writes out the games whose name came from an index, with what the bundle says
+about itself, so that each one can be checked and replaced.
 
 ## Content conventions
 

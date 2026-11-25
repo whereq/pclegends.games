@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shou-xiang-shou-wei-zhe",
   collection: "dos-games",
   name: "兽乡守卫者",
+  nameEn: "Last Guardian",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 143 files, 9.6 MB.",

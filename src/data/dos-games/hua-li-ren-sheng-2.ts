@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hua-li-ren-sheng-2",
   collection: "dos-games",
   name: "华丽人生2",
+  nameEn: "Karei naru Jinsei 2",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 436 files, 2.6 MB.",

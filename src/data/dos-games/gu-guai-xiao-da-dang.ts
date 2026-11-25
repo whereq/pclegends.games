@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gu-guai-xiao-da-dang",
   collection: "dos-games",
   name: "古怪小搭档",
+  nameEn: "Doofus",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 3 files, 688 KB.",

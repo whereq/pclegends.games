@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zuo-zhan-ji-tuan",
   collection: "dos-games",
   name: "作战集团",
+  nameEn: "Corporation",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 26 files, 510 KB.",

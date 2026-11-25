@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "kai-sa-da-di",
   collection: "dos-games",
   name: "凯撒大帝",
+  nameEn: "Centurion: Defender of Rome",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 33 files, 911 KB.",

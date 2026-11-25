@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "3d-yun-shi",
   collection: "dos-games",
   name: "3D陨石",
+  nameEn: "Astro3D",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 10 files, 2.3 MB.",

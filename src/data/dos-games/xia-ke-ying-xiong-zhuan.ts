@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xia-ke-ying-xiong-zhuan",
   collection: "dos-games",
   name: "侠客英雄传",
+  nameEn: "Paladin of the Ancient China",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 355 files, 1.2 MB.",

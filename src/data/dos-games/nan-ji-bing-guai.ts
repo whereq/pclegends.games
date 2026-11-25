@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "nan-ji-bing-guai",
   collection: "dos-games",
   name: "南极冰怪",
+  nameEn: "Call of Cthulhu- Prisoner of Ice",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 53 files, 184.8 MB.",

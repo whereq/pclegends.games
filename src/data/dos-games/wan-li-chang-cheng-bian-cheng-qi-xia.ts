@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wan-li-chang-cheng-bian-cheng-qi-xia",
   collection: "dos-games",
   name: "万里长城边城奇侠",
+  nameEn: "Wan Li Chang Cheng - Bian Cheng Qi Xia",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 610 files, 3.6 MB.",

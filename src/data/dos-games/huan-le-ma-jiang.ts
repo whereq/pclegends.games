@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "huan-le-ma-jiang",
   collection: "dos-games",
   name: "欢乐麻将",
+  nameEn: "Happy Mahjong",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 88 files, 620 KB.",

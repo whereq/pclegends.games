@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xin-zhang-zhi-ye-wang-5",
   collection: "dos-games",
   name: "信长之野望5",
+  nameEn: "Nobunaga no Yabō: Haouden",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 38 files, 2.5 MB.",

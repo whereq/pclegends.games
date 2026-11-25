@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wu-tuo-bang-guo-jia-jue-qi",
   collection: "dos-games",
   name: "乌托邦国家崛起",
+  nameEn: "Utopia: The Creation of a Nation",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 163 files, 883 KB.",

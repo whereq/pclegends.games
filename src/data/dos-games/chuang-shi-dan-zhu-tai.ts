@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chuang-shi-dan-zhu-tai",
   collection: "dos-games",
   name: "创世弹珠台",
+  nameEn: "Tsumera",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 84 files, 2.6 MB.",

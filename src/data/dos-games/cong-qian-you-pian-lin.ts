@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "cong-qian-you-pian-lin",
   collection: "dos-games",
   name: "从前有片林",
+  nameEn: "Once Upon a Forest",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 28 files, 8.4 MB.",

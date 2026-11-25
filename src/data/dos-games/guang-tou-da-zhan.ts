@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "guang-tou-da-zhan",
   collection: "dos-games",
   name: "光头大战",
+  nameEn: "Baldies",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 809 files, 35.7 MB.",

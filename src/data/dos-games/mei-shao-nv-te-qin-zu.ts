@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mei-shao-nv-te-qin-zu",
   collection: "dos-games",
   name: "美少女特勤组",
+  nameEn: "Gun Blaze",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 457 files, 3.5 MB.",

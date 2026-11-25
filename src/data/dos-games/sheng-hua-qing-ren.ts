@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sheng-hua-qing-ren",
   collection: "dos-games",
   name: "生化情人",
+  nameEn: "Electric Device Marian",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 223 files, 3.9 MB.",

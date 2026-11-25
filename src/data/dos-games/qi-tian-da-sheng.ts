@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "qi-tian-da-sheng",
   collection: "dos-games",
   name: "齐天大圣",
+  nameEn: "Xiyoujiqitiandashengpian",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 69 files, 3.2 MB.",

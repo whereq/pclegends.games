@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhen-hong-de-sha-yi",
   collection: "dos-games",
   name: "真红的杀意",
+  nameEn: "Zhen Hong De Sha Yi",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 390 files, 1.3 MB.",

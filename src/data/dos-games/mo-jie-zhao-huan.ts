@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-jie-zhao-huan",
   collection: "dos-games",
   name: "魔界召唤",
+  nameEn: "The Summoning",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 35 files, 2.4 MB.",

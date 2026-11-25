@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "pce-he-ji-zhi-xing-pce-wen-jian-ming",
   collection: "dos-games",
   name: "PCE合集(执行PCE+文件名)",
+  nameEn: "Magic Engine",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 301 files, 68.4 MB.",

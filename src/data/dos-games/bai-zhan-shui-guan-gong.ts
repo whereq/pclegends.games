@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bai-zhan-shui-guan-gong",
   collection: "dos-games",
   name: "百战水管工",
+  nameEn: "Pipe Fight",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 14 files, 537 KB.",

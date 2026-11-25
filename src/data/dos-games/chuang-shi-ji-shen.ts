@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chuang-shi-ji-shen",
   collection: "dos-games",
   name: "创世机神",
+  nameEn: "Cyber Guardian",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 98 files, 8.6 MB.",

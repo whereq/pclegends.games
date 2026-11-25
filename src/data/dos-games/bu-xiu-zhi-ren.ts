@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bu-xiu-zhi-ren",
   collection: "dos-games",
   name: "不朽之人",
+  nameEn: "The Immortal",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 5 files, 548 KB.",

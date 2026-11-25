@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "fu-gui-lie-che",
   collection: "dos-games",
   name: "富贵列车",
+  nameEn: "Millionaires' Express",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 27 files, 14.0 MB.",

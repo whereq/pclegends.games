@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-shi-kong-ying-xiong-zhuan-shuo",
   collection: "dos-games",
   name: "超时空英雄传说",
+  nameEn: "Chaoshikongyingxiongchuanshuo",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 146 files, 199.1 MB.",

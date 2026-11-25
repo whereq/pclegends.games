@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-xing-fang-kuai",
   collection: "dos-games",
   name: "异形方块",
+  nameEn: "Alien Block",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 111 files, 132 KB.",

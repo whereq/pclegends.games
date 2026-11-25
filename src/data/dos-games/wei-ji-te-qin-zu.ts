@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wei-ji-te-qin-zu",
   collection: "dos-games",
   name: "危机特勤组",
+  nameEn: "A.D Cop",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 32 files, 5.6 MB.",

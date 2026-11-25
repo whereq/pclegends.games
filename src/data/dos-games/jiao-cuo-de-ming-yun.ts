@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jiao-cuo-de-ming-yun",
   collection: "dos-games",
   name: "交错的命运",
+  nameEn: "Altered Destiny",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 15 files, 2.0 MB.",

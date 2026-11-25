@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ming-ri-zhi-xing-2",
   collection: "dos-games",
   name: "明日之星2",
+  nameEn: "Star Maker2",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2007 — 204 files, 527.7 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bao-xiao-bao-ling-qiu",
   collection: "dos-games",
   name: "爆笑保龄球",
+  nameEn: "Panda Bowling",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 25 files, 1023 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "liu-bo-wen-chuan-qi",
   collection: "dos-games",
   name: "刘伯温传奇",
+  nameEn: "Liubowenchuanqi",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 574 files, 15.2 MB.",

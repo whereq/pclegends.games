@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jia-a-feng-yun",
   collection: "dos-games",
   name: "甲A风云",
+  nameEn: "Football China 96",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 174 files, 3.0 MB.",

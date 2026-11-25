@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "feng-xue-jiang-shan",
   collection: "dos-games",
   name: "风雪江山",
+  nameEn: "War Diary",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 305 files, 11.6 MB.",

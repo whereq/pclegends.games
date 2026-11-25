@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-luo-de-feng-yin",
   collection: "dos-games",
   name: "失落的封印",
+  nameEn: "Lost Seal",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 992 files, 5.6 MB.",

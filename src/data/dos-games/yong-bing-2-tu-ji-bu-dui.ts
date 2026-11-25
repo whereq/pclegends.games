@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yong-bing-2-tu-ji-bu-dui",
   collection: "dos-games",
   name: "佣兵2突击部队",
+  nameEn: "Strike Squad",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 396 files, 7.1 MB.",

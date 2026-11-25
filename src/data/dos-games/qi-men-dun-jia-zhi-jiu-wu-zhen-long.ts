@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "qi-men-dun-jia-zhi-jiu-wu-zhen-long",
   collection: "dos-games",
   name: "奇门遁甲之九五真龙",
+  nameEn: "Ming - Born Emperor",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 568 files, 3.9 MB.",

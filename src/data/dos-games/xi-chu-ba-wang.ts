@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xi-chu-ba-wang",
   collection: "dos-games",
   name: "西楚霸王",
+  nameEn: "Xiang Yu- The Overlord of Western Chu",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 290 files, 368.1 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "3d-zha-dan-ren",
   collection: "dos-games",
   name: "3D炸弹人",
+  nameEn: "3D Bomber",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 23 files, 208 KB.",

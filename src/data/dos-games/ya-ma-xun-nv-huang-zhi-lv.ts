@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ya-ma-xun-nv-huang-zhi-lv",
   collection: "dos-games",
   name: "亚马逊女皇之旅",
+  nameEn: "Flight of the Amazon Queen",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 13 files, 8.7 MB.",

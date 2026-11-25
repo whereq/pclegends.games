@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-jie-quan-ji-jing-li",
   collection: "dos-games",
   name: "世界拳击经理",
+  nameEn: "World Championship Boxing Manager",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 59 files, 529 KB.",

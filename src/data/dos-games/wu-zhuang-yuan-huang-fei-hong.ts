@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wu-zhuang-yuan-huang-fei-hong",
   collection: "dos-games",
   name: "武状元黄飞鸿",
+  nameEn: "Once Upon a Time in China",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 1,165 files, 5.3 MB.",

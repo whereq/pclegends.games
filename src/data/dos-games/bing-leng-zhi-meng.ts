@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bing-leng-zhi-meng",
   collection: "dos-games",
   name: "冰冷之梦",
+  nameEn: "Cold Dreams",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2007 — 9 files, 3.1 MB.",

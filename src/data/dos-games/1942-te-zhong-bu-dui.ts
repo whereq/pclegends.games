@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "1942-te-zhong-bu-dui",
   collection: "dos-games",
   name: "1942特种部队",
+  nameEn: "Task Force 1942",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 63 files, 18.7 MB.",

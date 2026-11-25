@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "2601-di-guo-lian-he-jian-dui",
   collection: "dos-games",
   name: "2601帝国联合舰队",
+  nameEn: "2601",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 131 files, 8.9 MB.",

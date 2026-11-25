@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mi-lan-si-ji-shi-sheng-yu-chuan-qi",
   collection: "dos-games",
   name: "米兰斯纪事-圣域传奇",
+  nameEn: "Milansijishi-Shengyuchuanqi",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 703 files, 6.1 MB.",

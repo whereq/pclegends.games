@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "e-luo-si-fang-kuai-jing-dian-ban",
   collection: "dos-games",
   name: "俄罗斯方块经典版",
+  nameEn: "Tetris Classic",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 33 files, 1.3 MB.",

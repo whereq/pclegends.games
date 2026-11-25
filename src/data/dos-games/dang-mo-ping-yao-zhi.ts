@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "dang-mo-ping-yao-zhi",
   collection: "dos-games",
   name: "荡魔平妖志",
+  nameEn: "Warth of the Demon",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 15 files, 2.1 MB.",

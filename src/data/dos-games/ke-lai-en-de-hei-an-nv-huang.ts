@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ke-lai-en-de-hei-an-nv-huang",
   collection: "dos-games",
   name: "克莱恩的黑暗女皇",
+  nameEn: "Dark Queen of Krynn",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 54 files, 2.0 MB.",

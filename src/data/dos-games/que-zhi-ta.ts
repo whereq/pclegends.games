@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "que-zhi-ta",
   collection: "dos-games",
   name: "雀之塔",
+  nameEn: "Tower Of Mahjong",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 29 files, 382 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sheng-cheng-jie",
   collection: "dos-games",
   name: "圣城劫",
+  nameEn: "Forbidden City Robbery",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 12 files, 510 KB.",

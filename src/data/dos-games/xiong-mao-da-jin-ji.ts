@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xiong-mao-da-jin-ji",
   collection: "dos-games",
   name: "熊猫大进击",
+  nameEn: "Panda- Go Home!",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 54 files, 4.2 MB.",

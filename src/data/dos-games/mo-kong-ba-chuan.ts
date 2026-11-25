@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-kong-ba-chuan",
   collection: "dos-games",
   name: "魔空霸传",
+  nameEn: "The End of the World",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 102 files, 492.7 MB.",

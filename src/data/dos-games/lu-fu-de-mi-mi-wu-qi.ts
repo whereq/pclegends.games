@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "lu-fu-de-mi-mi-wu-qi",
   collection: "dos-games",
   name: "卢夫的秘密武器",
+  nameEn: "Secret Weapons of the Luftwaffe",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 544 files, 1.9 MB.",

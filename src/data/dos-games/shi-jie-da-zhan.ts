@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-jie-da-zhan",
   collection: "dos-games",
   name: "世界大战",
+  nameEn: "Evasive Action",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 638 files, 2.9 MB.",

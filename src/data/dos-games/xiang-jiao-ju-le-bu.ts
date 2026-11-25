@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xiang-jiao-ju-le-bu",
   collection: "dos-games",
   name: "香蕉俱乐部",
+  nameEn: "Kouryaku Banana",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 53 files, 2.1 MB.",

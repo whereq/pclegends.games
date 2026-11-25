@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-jie-zhi-quan-dong-luan-mo-dou",
   collection: "dos-games",
   name: "魔界之泉动乱魔都",
+  nameEn: "Graystone Saga The Dark Storm Of Morza",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 1,675 files, 7.0 MB.",

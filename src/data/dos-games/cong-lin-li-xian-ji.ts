@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "cong-lin-li-xian-ji",
   collection: "dos-games",
   name: "丛林历险记",
+  nameEn: "Hugo III: Jungle of Doom!",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 316 files, 3.9 MB.",

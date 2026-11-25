@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ren-sheng-ju-chang",
   collection: "dos-games",
   name: "人生剧场",
+  nameEn: "Jones in the Fast Lane",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 27 files, 588 KB.",

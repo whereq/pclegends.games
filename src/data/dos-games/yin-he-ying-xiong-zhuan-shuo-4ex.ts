@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yin-he-ying-xiong-zhuan-shuo-4ex",
   collection: "dos-games",
   name: "银河英雄传说4EX",
+  nameEn: "Space War Simulation 4 EX",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 14 files, 11.4 MB.",

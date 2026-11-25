@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bing-yu-huo",
   collection: "dos-games",
   name: "冰与火",
+  nameEn: "Fire & Ice",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 2 files, 733 KB.",

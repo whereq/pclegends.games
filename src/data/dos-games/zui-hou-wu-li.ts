@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zui-hou-wu-li",
   collection: "dos-games",
   name: "最后武力",
+  nameEn: "Final Force",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1980 — 190 files, 483 KB.",

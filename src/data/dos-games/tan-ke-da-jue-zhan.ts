@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tan-ke-da-jue-zhan",
   collection: "dos-games",
   name: "坦克大决战",
+  nameEn: "Battle Europe",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 49 files, 716 KB.",

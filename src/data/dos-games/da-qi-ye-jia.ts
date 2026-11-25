@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "da-qi-ye-jia",
   collection: "dos-games",
   name: "大企业家",
+  nameEn: "Big Business",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 52 files, 834 KB.",

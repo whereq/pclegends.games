@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "di-yu-fu-fei-zhi-lv",
   collection: "dos-games",
   name: "地狱付费之旅",
+  nameEn: "Hell to Pay",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 31 files, 46.4 MB.",

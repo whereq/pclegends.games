@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jue-zhan-e-luo-si",
   collection: "dos-games",
   name: "决战俄罗斯",
+  nameEn: "Face to Face",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 11 files, 360 KB.",

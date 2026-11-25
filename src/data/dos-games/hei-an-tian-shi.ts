@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hei-an-tian-shi",
   collection: "dos-games",
   name: "黑暗天使",
+  nameEn: "Dark Seraphim",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 71 files, 5.0 MB.",

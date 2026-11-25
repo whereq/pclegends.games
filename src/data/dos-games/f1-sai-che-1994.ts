@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "f1-sai-che-1994",
   collection: "dos-games",
   name: "F1赛车1994",
+  nameEn: "Formula One",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 40 files, 742 KB.",

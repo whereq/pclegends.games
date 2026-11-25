@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "pan-bian-ke-lang-duo",
   collection: "dos-games",
   name: "叛变克朗多",
+  nameEn: "Betrayal at Krondor",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 33 files, 10.1 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "97-chao-shao-nv",
   collection: "dos-games",
   name: "97超少女",
+  nameEn: "Super Girl",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 132 files, 1.3 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ru-lai-jin-gang-quan-chuan-qi",
   collection: "dos-games",
   name: "如来金刚拳传奇",
+  nameEn: "Legend Of Power Book",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 62 files, 1.2 MB.",

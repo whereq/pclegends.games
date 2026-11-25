@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bing-qiu-95",
   collection: "dos-games",
   name: "冰球95",
+  nameEn: "Brett Hull Hockey '95",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 166 files, 4.9 MB.",

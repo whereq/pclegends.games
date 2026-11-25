@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-long-ji-shi",
   collection: "dos-games",
   name: "魔龙纪事",
+  nameEn: "Quintia Road 2",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 294 files, 3.6 MB.",

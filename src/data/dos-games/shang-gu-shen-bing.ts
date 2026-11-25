@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shang-gu-shen-bing",
   collection: "dos-games",
   name: "上古神兵",
+  nameEn: "Conquered Kingdoms",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 286 files, 2.7 MB.",

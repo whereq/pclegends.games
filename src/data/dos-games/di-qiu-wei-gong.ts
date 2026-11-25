@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "di-qiu-wei-gong",
   collection: "dos-games",
   name: "地球围攻",
+  nameEn: "Metaltech: Earthsiege",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 77 files, 20.6 MB.",

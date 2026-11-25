@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ye-zhi-wang-ling",
   collection: "dos-games",
   name: "夜之亡灵",
+  nameEn: "Dylan Dog",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 236 files, 1.4 MB.",

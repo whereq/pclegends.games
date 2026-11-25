@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-fa-men-3-huan-dao-li-xian-ji",
   collection: "dos-games",
   name: "魔法门3幻岛历险记",
+  nameEn: "Might and Magic 3 - Isles of Terra",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 14 files, 3.9 MB.",

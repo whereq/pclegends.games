@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xiao-hui-de-xing-zhi-shi",
   collection: "dos-games",
   name: "小惠的性知识",
+  nameEn: "Xiaohuidexingzhishi",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 422 files, 8.2 MB.",

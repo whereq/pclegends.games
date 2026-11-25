@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xian-jing-chuan-qi-1",
   collection: "dos-games",
   name: "仙境传奇1",
+  nameEn: "Faery Tale Adventure",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 127 files, 667 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hua-mu-lan",
   collection: "dos-games",
   name: "花木兰",
+  nameEn: "Huamulan",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 341 files, 38.0 MB.",

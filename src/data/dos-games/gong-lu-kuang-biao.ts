@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gong-lu-kuang-biao",
   collection: "dos-games",
   name: "公路狂飙",
+  nameEn: "Carnage",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 30 files, 248 KB.",

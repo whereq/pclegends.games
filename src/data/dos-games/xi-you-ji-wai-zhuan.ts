@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xi-you-ji-wai-zhuan",
   collection: "dos-games",
   name: "西游记外传",
+  nameEn: "Xi You Ji Wai Zhuan",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 268 files, 3.8 MB.",

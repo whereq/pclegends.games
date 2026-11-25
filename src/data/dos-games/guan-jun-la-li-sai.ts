@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "guan-jun-la-li-sai",
   collection: "dos-games",
   name: "冠军拉力赛",
+  nameEn: "Rally Championships",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1980 — 37 files, 2.9 MB.",

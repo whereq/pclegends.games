@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jue-di-zhong-shen-de-zu-zhou",
   collection: "dos-games",
   name: "绝地-众神的诅咒",
+  nameEn: "Heaven's Dawn",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2007 — 233 files, 57.3 MB.",

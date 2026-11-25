@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "boppin-wu-li-you-xi",
   collection: "dos-games",
   name: "BOPPIN物理游戏",
+  nameEn: "Boppin'",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 13 files, 1.4 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "feng-kuang-shuang-xiang-pao",
   collection: "dos-games",
   name: "疯狂双响炮",
+  nameEn: "Crazy Bomber",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 3 files, 3.1 MB.",

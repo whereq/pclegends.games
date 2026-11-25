@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "qi-xi-xiao-zi",
   collection: "dos-games",
   name: "七喜小子",
+  nameEn: "Cool Spot",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 188 files, 654 KB.",

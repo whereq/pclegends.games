@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jue-di-feng-bao",
   collection: "dos-games",
   name: "绝地风暴",
+  nameEn: "KKND",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 87 files, 377.6 MB.",

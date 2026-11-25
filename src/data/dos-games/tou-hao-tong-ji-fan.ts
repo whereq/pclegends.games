@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tou-hao-tong-ji-fan",
   collection: "dos-games",
   name: "头号通缉犯",
+  nameEn: "The Most Wanted Man",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 576 files, 78.3 MB.",

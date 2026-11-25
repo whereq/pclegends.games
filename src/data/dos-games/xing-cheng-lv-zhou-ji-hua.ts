@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-cheng-lv-zhou-ji-hua",
   collection: "dos-games",
   name: "星城绿洲计划",
+  nameEn: "OASIS Project",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 83 files, 4.7 MB.",

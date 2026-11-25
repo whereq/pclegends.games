@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ka-nai-ji-ren-sheng-zhi-nan",
   collection: "dos-games",
   name: "卡耐鸡人生指南",
+  nameEn: "The Designer of Life",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 107 files, 2.8 MB.",

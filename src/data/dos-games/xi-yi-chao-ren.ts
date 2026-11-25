@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xi-yi-chao-ren",
   collection: "dos-games",
   name: "蜥蜴超人",
+  nameEn: "L-Man",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 24 files, 17.6 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mu-di-sang-shi",
   collection: "dos-games",
   name: "墓地丧尸",
+  nameEn: "Horror Zombies from the Crypt",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 67 files, 630 KB.",

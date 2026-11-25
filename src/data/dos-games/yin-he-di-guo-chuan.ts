@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yin-he-di-guo-chuan",
   collection: "dos-games",
   name: "银河帝国传",
+  nameEn: "The History of the Empires of the Milky Way",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 167 files, 590 KB.",

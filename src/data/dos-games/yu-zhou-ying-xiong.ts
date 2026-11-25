@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yu-zhou-ying-xiong",
   collection: "dos-games",
   name: "宇宙英雄",
+  nameEn: "The Universe Hero",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 7 files, 5.8 MB.",

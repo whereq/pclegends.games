@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ka-men-mei-guo-shi-kong-zhi-lv",
   collection: "dos-games",
   name: "卡门美国时空之旅",
+  nameEn: "Where in Time and America Is Carmen Sandiego?",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 12 files, 1.7 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhuan-xiao-sheng",
   collection: "dos-games",
   name: "转校生",
+  nameEn: "Tenkou",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 677 files, 17.1 MB.",

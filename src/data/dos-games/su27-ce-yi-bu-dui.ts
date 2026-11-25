@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "su27-ce-yi-bu-dui",
   collection: "dos-games",
   name: "SU27侧翼部队",
+  nameEn: "Su-27 Flanker",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 138 files, 5.1 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tie-lu-a-ji-hua-zi-liao-pian",
   collection: "dos-games",
   name: "铁路A计划+资料篇",
+  nameEn: "A-Train",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2007 — 32 files, 2.1 MB.",

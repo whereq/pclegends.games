@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yes-hg",
   collection: "dos-games",
   name: "YES！HG",
+  nameEn: "YES!HG",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 63 files, 6.0 MB.",

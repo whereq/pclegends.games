@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-yin-fen-lie",
   collection: "dos-games",
   name: "基因分裂",
+  nameEn: "Gene Splicing",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 244 files, 1.9 MB.",

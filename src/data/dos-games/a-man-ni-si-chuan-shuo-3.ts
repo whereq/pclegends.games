@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "a-man-ni-si-chuan-shuo-3",
   collection: "dos-games",
   name: "阿曼尼斯传说3",
+  nameEn: "Amaranth III",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 101 files, 4.5 MB.",

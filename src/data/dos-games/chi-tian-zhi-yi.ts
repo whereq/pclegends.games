@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chi-tian-zhi-yi",
   collection: "dos-games",
   name: "炽天之翼",
+  nameEn: "Fire Wing- The Endless Legend",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 2,074 files, 16.7 MB.",

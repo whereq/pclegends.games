@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-jie-sheng-nv-chuan",
   collection: "dos-games",
   name: "魔界圣女传",
+  nameEn: "Kumi",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 371 files, 1.7 MB.",

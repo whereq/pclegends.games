@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ren-lei-jin-hua-1-2",
   collection: "dos-games",
   name: "人类进化1+2",
+  nameEn: "The Humans",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 12 files, 2.3 MB.",

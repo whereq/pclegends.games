@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "1000-gong-li",
   collection: "dos-games",
   name: "1000公里",
+  nameEn: "1000 Miglia",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 124 files, 1.1 MB.",

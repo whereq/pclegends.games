@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "da-di-chuan-shuo-hei-an-wang-zuo",
   collection: "dos-games",
   name: "大地传说黑暗王座",
+  nameEn: "Lands of Lore- Throne of Chaos",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2007 — 59 files, 15.3 MB.",

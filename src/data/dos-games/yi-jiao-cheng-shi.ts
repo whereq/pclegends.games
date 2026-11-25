@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-jiao-cheng-shi",
   collection: "dos-games",
   name: "一角城市",
+  nameEn: "Dime City",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 283 files, 22.9 MB.",

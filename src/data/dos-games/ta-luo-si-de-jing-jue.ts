@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ta-luo-si-de-jing-jue",
   collection: "dos-games",
   name: "塔罗斯的警觉",
+  nameEn: "Vigilance on Talos V",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1988 — 215 files, 7.1 MB.",

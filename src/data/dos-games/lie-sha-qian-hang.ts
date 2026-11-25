@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "lie-sha-qian-hang",
   collection: "dos-games",
   name: "猎杀潜航",
+  nameEn: "Silent Hunter",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 816 files, 65.4 MB.",

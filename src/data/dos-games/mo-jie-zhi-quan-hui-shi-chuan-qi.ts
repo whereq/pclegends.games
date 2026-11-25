@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-jie-zhi-quan-hui-shi-chuan-qi",
   collection: "dos-games",
   name: "魔界之泉灰石传奇",
+  nameEn: "Demon's Fountain - Gray Stone",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 638 files, 3.4 MB.",

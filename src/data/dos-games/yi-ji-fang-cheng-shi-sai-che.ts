@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-ji-fang-cheng-shi-sai-che",
   collection: "dos-games",
   name: "一级方程式赛车",
+  nameEn: "Grand Prix Unlimited",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 62 files, 881 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "3d-e-luo-si",
   collection: "dos-games",
   name: "3D俄罗斯",
+  nameEn: "Welltris",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 40 files, 631 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ren-jian-dao-shao-nian-yan-chi-xia",
   collection: "dos-games",
   name: "人间道少年燕赤霞",
+  nameEn: "Tao",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 214 files, 16.0 MB.",

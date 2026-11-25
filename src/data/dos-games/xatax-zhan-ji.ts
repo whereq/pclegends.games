@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xatax-zhan-ji",
   collection: "dos-games",
   name: "XATAX战机",
+  nameEn: "Xatax",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2005 — 7 files, 810 KB.",

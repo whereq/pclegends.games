@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shen-zhou-ba-jian",
   collection: "dos-games",
   name: "神州八剑",
+  nameEn: "The Other Side of the Predella",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 158 files, 1.4 MB.",

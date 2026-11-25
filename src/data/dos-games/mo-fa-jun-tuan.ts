@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-fa-jun-tuan",
   collection: "dos-games",
   name: "魔法军团",
+  nameEn: "Warlocks",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 40 files, 208.7 MB.",

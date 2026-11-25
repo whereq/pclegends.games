@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xian-jian-qi-xia-chuan-guang-pan-ban",
   collection: "dos-games",
   name: "仙剑奇侠传光盘版",
+  nameEn: "The Legend of Sword and Fairy",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 90 files, 234.0 MB.",

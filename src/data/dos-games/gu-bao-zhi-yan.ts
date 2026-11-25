@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gu-bao-zhi-yan",
   collection: "dos-games",
   name: "古堡之宴",
+  nameEn: "Uninvited",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1988 — 18 files, 5.7 MB.",

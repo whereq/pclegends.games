@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "qi-ying-xiong-wai-zhuan-wang-zhe-zhi-shi",
   collection: "dos-games",
   name: "七英雄外传王者之师",
+  nameEn: "Qiyingxiongwaichuanwangzhezhishi",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 836 files, 126.8 MB.",

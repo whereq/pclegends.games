@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "she-diao-ying-xiong-zhuan",
   collection: "dos-games",
   name: "射雕英雄传",
+  nameEn: "The Legend of the Condor Heroes",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 169 files, 8.1 MB.",

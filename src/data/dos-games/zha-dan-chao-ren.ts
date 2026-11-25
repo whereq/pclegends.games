@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zha-dan-chao-ren",
   collection: "dos-games",
   name: "炸弹超人",
+  nameEn: "Super Bomberman",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 25 files, 361 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "da-jin-gang",
   collection: "dos-games",
   name: "大金刚",
+  nameEn: "Donkey Kong",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 14 files, 269 KB.",

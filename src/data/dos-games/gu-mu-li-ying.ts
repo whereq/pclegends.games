@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gu-mu-li-ying",
   collection: "dos-games",
   name: "古墓丽影",
+  nameEn: "Tomb Raider",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 55 files, 32.8 MB.",

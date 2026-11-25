@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mi-zou-du-shi",
   collection: "dos-games",
   name: "迷走都市",
+  nameEn: "Runaway City",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 494 files, 3.7 MB.",

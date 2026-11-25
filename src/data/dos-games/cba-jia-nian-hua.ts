@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "cba-jia-nian-hua",
   collection: "dos-games",
   name: "CBA嘉年华",
+  nameEn: "College Slam",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 161 files, 5.9 MB.",

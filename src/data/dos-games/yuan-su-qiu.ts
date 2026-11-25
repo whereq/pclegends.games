@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yuan-su-qiu",
   collection: "dos-games",
   name: "元素球",
+  nameEn: "Elements",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 49 files, 393 KB.",

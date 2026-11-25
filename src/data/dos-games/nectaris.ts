@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "nectaris",
   collection: "dos-games",
   name: "Nectaris",
+  nameEn: "Nectaris",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 164 files, 1.2 MB.",

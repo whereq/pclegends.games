@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-jie-xun-hui-che-sai-2",
   collection: "dos-games",
   name: "世界巡回车赛2",
+  nameEn: "Grand Prix 2",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2002 — 290 files, 21.9 MB.",

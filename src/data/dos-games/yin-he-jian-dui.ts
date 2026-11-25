@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yin-he-jian-dui",
   collection: "dos-games",
   name: "银河舰队",
+  nameEn: "Galaxy Fleet",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 247 files, 1.5 MB.",

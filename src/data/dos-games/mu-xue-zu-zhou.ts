@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mu-xue-zu-zhou",
   collection: "dos-games",
   name: "墓穴诅咒",
+  nameEn: "Curse of the Catacombs",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 80 files, 1.3 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-shi-dan-zhu-tai",
   collection: "dos-games",
   name: "史诗弹珠台",
+  nameEn: "Epic Pinball",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 102 files, 3.5 MB.",

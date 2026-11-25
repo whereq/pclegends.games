@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "qing-se-de-guo-shi",
   collection: "dos-games",
   name: "青涩的果实",
+  nameEn: "Qingsedeguoshi",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 2 files, 12.2 MB.",

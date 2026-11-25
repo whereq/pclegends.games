@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chu-han-zhi-zheng-2",
   collection: "dos-games",
   name: "楚汉之争2",
+  nameEn: "King of the Dragon Land2",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 12 files, 1.5 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ying-lun-ba-zhu",
   collection: "dos-games",
   name: "英伦霸主",
+  nameEn: "Lords of the Realm",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 277 files, 4.6 MB.",

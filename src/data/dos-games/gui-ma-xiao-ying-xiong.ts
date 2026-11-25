@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gui-ma-xiao-ying-xiong",
   collection: "dos-games",
   name: "鬼马小英雄",
+  nameEn: "Guimaxiaoyingxiong",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 82 files, 8.1 MB.",

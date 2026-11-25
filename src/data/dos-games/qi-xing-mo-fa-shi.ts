@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "qi-xing-mo-fa-shi",
   collection: "dos-games",
   name: "七星魔法使",
+  nameEn: "Sorcerian",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 504 files, 1.3 MB.",

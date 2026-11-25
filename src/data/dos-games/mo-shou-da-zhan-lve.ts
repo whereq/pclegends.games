@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-shou-da-zhan-lve",
   collection: "dos-games",
   name: "魔兽大战略",
+  nameEn: "Mo Shou Da Zhan Lue",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 32 files, 2.2 MB.",

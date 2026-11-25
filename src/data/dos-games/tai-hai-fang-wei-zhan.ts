@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tai-hai-fang-wei-zhan",
   collection: "dos-games",
   name: "台海防卫战",
+  nameEn: "Taiwan Defense",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1980 — 108 files, 1004 KB.",

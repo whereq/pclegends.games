@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chuan-shuo-da-lu-di-wang-zhi-zi",
   collection: "dos-games",
   name: "传说大陆帝王之子",
+  nameEn: "Worlds of Legend: Son of the Empire",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1985 — 105 files, 1.9 MB.",

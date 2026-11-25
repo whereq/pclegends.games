@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ya-ma-xun-yi-dian-yuan-shou-wei-zhe",
   collection: "dos-games",
   name: "亚马逊伊甸园守卫者",
+  nameEn: "Amazon: Guardians of Eden",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 111 files, 8.0 MB.",

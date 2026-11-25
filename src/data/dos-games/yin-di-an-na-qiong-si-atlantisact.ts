@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yin-di-an-na-qiong-si-atlantisact",
   collection: "dos-games",
   name: "印第安那琼斯AtlantisAct",
+  nameEn: "Indiana Jones and the Fate of Atlantis: The Action Game",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 12 files, 778 KB.",

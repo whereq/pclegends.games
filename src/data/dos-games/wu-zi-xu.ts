@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wu-zi-xu",
   collection: "dos-games",
   name: "伍子胥",
+  nameEn: "Wuzixu",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1980 — 104 files, 49.5 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhong-guo-zhi-xin",
   collection: "dos-games",
   name: "中国之心",
+  nameEn: "Heart of China",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 13 files, 6.6 MB.",

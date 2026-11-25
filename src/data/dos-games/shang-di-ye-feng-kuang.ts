@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shang-di-ye-feng-kuang",
   collection: "dos-games",
   name: "上帝也疯狂",
+  nameEn: "Populous",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 24 files, 172 KB.",

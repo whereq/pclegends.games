@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "fifa1996",
   collection: "dos-games",
   name: "FIFA1996",
+  nameEn: "FIFA International Soccer 96",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 233 files, 28.2 MB.",

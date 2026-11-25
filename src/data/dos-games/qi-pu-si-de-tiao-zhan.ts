@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "qi-pu-si-de-tiao-zhan",
   collection: "dos-games",
   name: "其普斯的挑战",
+  nameEn: "Chip's Challenge",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 175 files, 177 KB.",

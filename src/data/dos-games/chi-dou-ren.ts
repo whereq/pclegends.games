@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chi-dou-ren",
   collection: "dos-games",
   name: "吃豆人",
+  nameEn: "CHAMP Pac-em",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 19 files, 654 KB.",

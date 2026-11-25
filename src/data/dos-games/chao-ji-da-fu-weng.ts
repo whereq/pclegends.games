@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chao-ji-da-fu-weng",
   collection: "dos-games",
   name: "超级大富翁",
+  nameEn: "Super Monopoly",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 470 files, 5.2 MB.",

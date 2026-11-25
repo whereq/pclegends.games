@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gt-sai-che-97",
   collection: "dos-games",
   name: "GT赛车97",
+  nameEn: "GT Racing 97",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 533 files, 40.8 MB.",

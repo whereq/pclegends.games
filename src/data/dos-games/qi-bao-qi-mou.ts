@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "qi-bao-qi-mou",
   collection: "dos-games",
   name: "七宝奇谋",
+  nameEn: "The Goonies",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 6 files, 46 KB.",

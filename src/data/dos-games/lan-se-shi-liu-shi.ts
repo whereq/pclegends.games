@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "lan-se-shi-liu-shi",
   collection: "dos-games",
   name: "蓝色石榴石",
+  nameEn: "Blue Garnet",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 17 files, 4.3 MB.",

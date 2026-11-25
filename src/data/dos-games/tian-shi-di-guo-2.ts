@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tian-shi-di-guo-2",
   collection: "dos-games",
   name: "天使帝国2",
+  nameEn: "Empire of Angels 2",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 28 files, 6.0 MB.",

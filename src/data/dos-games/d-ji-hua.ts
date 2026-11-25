@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "d-ji-hua",
   collection: "dos-games",
   name: "D计划",
+  nameEn: "D/Generation",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 376 files, 1.3 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "2001-te-qian-dui",
   collection: "dos-games",
   name: "2001特遣队",
+  nameEn: "Mission- The Spirit of Justice",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 210 files, 9.2 MB.",

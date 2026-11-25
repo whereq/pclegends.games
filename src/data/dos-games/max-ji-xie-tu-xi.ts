@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "max-ji-xie-tu-xi",
   collection: "dos-games",
   name: "MAX机械突袭",
+  nameEn: "M.A.X",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2007 — 368 files, 520.4 MB.",

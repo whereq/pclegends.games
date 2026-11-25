@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yan-jing-she-ren-wu",
   collection: "dos-games",
   name: "眼镜蛇任务",
+  nameEn: "Cobra Mission - Panic in Cobra City",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 29 files, 6.6 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "an-qi-zhu-luo-ji",
   collection: "dos-games",
   name: "暗棋侏罗纪",
+  nameEn: "Jurassic Chess",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 113 files, 2.8 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "nan-hai-ba-zhu",
   collection: "dos-games",
   name: "南海霸主",
+  nameEn: "Nan Hai Ba Zhu",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2007 — 100 files, 1.8 MB.",

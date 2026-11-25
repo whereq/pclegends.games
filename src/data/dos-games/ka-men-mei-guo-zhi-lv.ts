@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ka-men-mei-guo-zhi-lv",
   collection: "dos-games",
   name: "卡门美国之旅",
+  nameEn: "Where in the USA Is Carmen Sandiego?",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 8 files, 579 KB.",

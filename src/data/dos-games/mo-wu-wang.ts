@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-wu-wang",
   collection: "dos-games",
   name: "魔武王",
+  nameEn: "Dark Knight Saga",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 39 files, 4.3 MB.",

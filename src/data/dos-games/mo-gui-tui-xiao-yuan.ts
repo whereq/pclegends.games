@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-gui-tui-xiao-yuan",
   collection: "dos-games",
   name: "魔鬼推销员",
+  nameEn: "King of Sales",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 101 files, 5.7 MB.",

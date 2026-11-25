@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xia-dao-lie-che-shou",
   collection: "dos-games",
   name: "侠盗猎车手",
+  nameEn: "Grand Theft Auto",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 439 files, 153.2 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "fx-zhan-shi",
   collection: "dos-games",
   name: "FX战士",
+  nameEn: "FX Fighter",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 392 files, 9.6 MB.",

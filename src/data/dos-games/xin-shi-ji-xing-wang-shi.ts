@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xin-shi-ji-xing-wang-shi",
   collection: "dos-games",
   name: "新世纪兴亡史",
+  nameEn: "Dead Force",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 73 files, 3.2 MB.",

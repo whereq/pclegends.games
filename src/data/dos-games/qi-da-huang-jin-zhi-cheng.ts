@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "qi-da-huang-jin-zhi-cheng",
   collection: "dos-games",
   name: "七大黄金之城",
+  nameEn: "Seven Cities of Gold",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 157 files, 1.1 MB.",

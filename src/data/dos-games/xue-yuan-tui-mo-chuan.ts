@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xue-yuan-tui-mo-chuan",
   collection: "dos-games",
   name: "学园退魔传",
+  nameEn: "Gakuen Taimaden Reiko",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 140 files, 5.4 MB.",

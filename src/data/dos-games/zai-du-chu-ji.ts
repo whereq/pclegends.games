@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zai-du-chu-ji",
   collection: "dos-games",
   name: "再度出击",
+  nameEn: "Strike II",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 72 files, 507 KB.",

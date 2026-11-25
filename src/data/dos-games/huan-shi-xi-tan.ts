@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "huan-shi-xi-tan",
   collection: "dos-games",
   name: "幻世喜谭",
+  nameEn: "Gensei Kitan - Disc Saga III",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 73 files, 2.7 MB.",

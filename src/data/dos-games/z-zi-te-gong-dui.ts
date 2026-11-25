@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "z-zi-te-gong-dui",
   collection: "dos-games",
   name: "Z字特工队",
+  nameEn: "Z",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 535 files, 11.5 MB.",

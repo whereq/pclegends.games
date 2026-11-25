@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "da-hong-da-mao-xian",
   collection: "dos-games",
   name: "大红大冒险",
+  nameEn: "Big Red Adventure",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 2,368 files, 23.0 MB.",

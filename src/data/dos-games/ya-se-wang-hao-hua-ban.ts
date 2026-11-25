@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ya-se-wang-hao-hua-ban",
   collection: "dos-games",
   name: "亚瑟王豪华版",
+  nameEn: "King Arthur's K.O.R.T.",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 25 files, 599 KB.",

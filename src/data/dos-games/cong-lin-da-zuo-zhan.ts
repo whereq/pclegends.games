@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "cong-lin-da-zuo-zhan",
   collection: "dos-games",
   name: "丛林大作战",
+  nameEn: "Body Harvest",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 3 files, 2.8 MB.",

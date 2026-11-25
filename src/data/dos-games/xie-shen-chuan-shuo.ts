@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xie-shen-chuan-shuo",
   collection: "dos-games",
   name: "邪神传说",
+  nameEn: "Legend of Evil God",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 26 files, 1.8 MB.",

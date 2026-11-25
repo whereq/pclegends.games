@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shen-shi-lu-bei-pan-yu-hui-mie",
   collection: "dos-games",
   name: "神示录背叛与毁灭",
+  nameEn: "God Said- Betrayal and Destruction",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 51 files, 4.8 MB.",

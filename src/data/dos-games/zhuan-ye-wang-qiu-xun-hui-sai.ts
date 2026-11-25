@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhuan-ye-wang-qiu-xun-hui-sai",
   collection: "dos-games",
   name: "专业网球巡回赛",
+  nameEn: "Pro Tennis Tour 2",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 47 files, 340 KB.",

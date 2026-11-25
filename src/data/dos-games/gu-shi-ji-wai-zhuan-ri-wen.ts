@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "gu-shi-ji-wai-zhuan-ri-wen",
   collection: "dos-games",
   name: "古事记外传(日文)",
+  nameEn: "Kamigami no Daichi",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 55 files, 2.3 MB.",

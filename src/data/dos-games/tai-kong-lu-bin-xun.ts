@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tai-kong-lu-bin-xun",
   collection: "dos-games",
   name: "太空鲁宾逊",
+  nameEn: "Robinson's Requiem",
+  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 142 files, 5.5 MB.",
