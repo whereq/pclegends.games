@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E7%81%AB%E6%98%9F%E4%BA%BA%E5%A4%87%E5%BF%98%E5%BD%95.zip",
+  logo: "/img/dos-games/huo-xing-ren-bei-wang-lu.jpg",
+  wiki: {
+    title: "Martian Memorandum",
+    url: "https://en.wikipedia.org/wiki/Martian_Memorandum",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

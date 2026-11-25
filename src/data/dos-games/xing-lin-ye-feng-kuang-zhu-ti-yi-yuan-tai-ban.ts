@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E6%9D%8F%E6%9E%97%E4%B9%9F%E7%96%AF%E7%8B%82%28%E4%B8%BB%E9%A2%98%E5%8C%BB%E9%99%A2%E5%8F%B0%E7%89%88%29.zip",
+  logo: "/img/dos-games/xing-lin-ye-feng-kuang-zhu-ti-yi-yuan-tai-ban.jpg",
+  wiki: {
+    title: "Theme Hospital",
+    url: "https://en.wikipedia.org/wiki/Theme_Hospital",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},

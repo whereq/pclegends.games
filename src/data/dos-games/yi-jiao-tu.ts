@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E5%BC%82%E6%95%99%E5%BE%92.zip",
+  logo: "/img/dos-games/yi-jiao-tu.jpg",
+  wiki: {
+    title: "Heretic (video game)",
+    url: "https://en.wikipedia.org/wiki/Heretic_(video_game)",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1994"},

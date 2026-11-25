@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E9%A3%9E%E7%8B%BC%E7%AA%81%E5%87%BB%E9%98%9F.zip",
+  logo: "/img/dos-games/fei-lang-tu-ji-dui.jpg",
+  wiki: {
+    title: "Armor Alley",
+    url: "https://en.wikipedia.org/wiki/Armor_Alley",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1997"},

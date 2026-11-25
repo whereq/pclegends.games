@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%8D%A2%E5%A4%AB%E7%9A%84%E7%A7%98%E5%AF%86%E6%AD%A6%E5%99%A8.zip",
+  logo: "/img/dos-games/lu-fu-de-mi-mi-wu-qi.jpg",
+  wiki: {
+    title: "Secret Weapons of the Luftwaffe",
+    url: "https://en.wikipedia.org/wiki/Secret_Weapons_of_the_Luftwaffe",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

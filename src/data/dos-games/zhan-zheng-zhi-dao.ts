@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E6%88%98%E4%BA%89%E4%B9%8B%E5%B2%9B.zip",
+  logo: "/img/dos-games/zhan-zheng-zhi-dao.jpg",
+  wiki: {
+    title: "Battle Isle",
+    url: "https://en.wikipedia.org/wiki/Battle_Isle",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

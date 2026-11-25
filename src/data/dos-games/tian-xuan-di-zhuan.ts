@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E5%A4%A9%E6%97%8B%E5%9C%B0%E8%BD%AC.zip",
+  wikiZh: {
+    title: "天旋地轉",
+    url: "https://zh.wikipedia.org/wiki/%E5%A4%A9%E6%97%8B%E5%9C%B0%E8%BD%89",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "2000",
   statusZh: "2000",
   url: "https://dos-bin.zczc.cz/%E6%B3%A2%E6%96%AF%E7%8E%8B%E5%AD%902.zip",
+  logo: "/img/dos-games/bo-si-wang-zi-2.jpg",
+  wiki: {
+    title: "Prince of Persia 2: The Shadow and the Flame",
+    url: "https://en.wikipedia.org/wiki/Prince_of_Persia_2%3A_The_Shadow_and_the_Flame",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "2000"},

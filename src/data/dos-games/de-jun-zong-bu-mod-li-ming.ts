@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "Archive",
   statusZh: "归档",
   url: "https://dos-bin.zczc.cz/%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A8MOD-%E9%BB%8E%E6%98%8E.zip",
+  logo: "/img/dos-games/de-jun-zong-bu-mod-li-ming.jpg",
+  wiki: {
+    title: "Wolfenstein 3D",
+    url: "https://en.wikipedia.org/wiki/Wolfenstein_3D",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},

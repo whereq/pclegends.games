@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E6%87%92%E8%99%AB%E5%A4%A7%E6%88%98.zip",
+  logo: "/img/dos-games/lan-chong-da-zhan.jpg",
+  wiki: {
+    title: "H.U.R.L.",
+    url: "https://en.wikipedia.org/wiki/H.U.R.L.",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

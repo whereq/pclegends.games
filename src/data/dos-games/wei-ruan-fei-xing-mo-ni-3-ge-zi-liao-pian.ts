@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%BE%AE%E8%BD%AF%E9%A3%9E%E8%A1%8C%E6%A8%A1%E6%8B%9F%2B3%E4%B8%AA%E8%B5%84%E6%96%99%E7%89%87.zip",
+  logo: "/img/dos-games/wei-ruan-fei-xing-mo-ni-3-ge-zi-liao-pian.jpg",
+  wiki: {
+    title: "Microsoft Flight Simulator 5.0",
+    url: "https://en.wikipedia.org/wiki/Microsoft_Flight_Simulator_5.0",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "Archive",
   statusZh: "归档",
   url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A8%E8%8B%B1%E9%9B%84%E6%97%A0%E6%95%8C2%E4%B8%AD%E6%96%87.zip",
+  logo: "/img/dos-games/mo-fa-men-ying-xiong-wu-di-2-zhong-wen.jpg",
+  wiki: {
+    title: "Heroes of Might and Magic II",
+    url: "https://en.wikipedia.org/wiki/Heroes_of_Might_and_Magic_II",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "Not dated"},

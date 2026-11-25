@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E7%AB%9E%E6%8A%80%E5%9C%BA.zip",
+  logo: "/img/dos-games/hui-mie-jing-ji-chang.jpg",
+  wiki: {
+    title: "Destruction Derby",
+    url: "https://en.wikipedia.org/wiki/Destruction_Derby",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

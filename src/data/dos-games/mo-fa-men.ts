@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1987",
   statusZh: "1987",
   url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A8.zip",
+  logo: "/img/dos-games/mo-fa-men.jpg",
+  wiki: {
+    title: "Might and Magic Book One: The Secret of the Inner Sanctum",
+    url: "https://en.wikipedia.org/wiki/Might_and_Magic_Book_One%3A_The_Secret_of_the_Inner_Sanctum",
+  },
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1987"},

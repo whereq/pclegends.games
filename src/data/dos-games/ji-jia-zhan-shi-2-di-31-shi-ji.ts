@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E6%9C%BA%E7%94%B2%E6%88%98%E5%A3%AB2%E7%AC%AC31%E4%B8%96%E7%BA%AA.zip",
+  logo: "/img/dos-games/ji-jia-zhan-shi-2-di-31-shi-ji.jpg",
+  wiki: {
+    title: "MechWarrior 2: 31st Century Combat",
+    url: "https://en.wikipedia.org/wiki/MechWarrior_2%3A_31st_Century_Combat",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

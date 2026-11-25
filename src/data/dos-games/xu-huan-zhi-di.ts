@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E8%99%9A%E5%B9%BB%E4%B9%8B%E5%9C%B0.zip",
+  logo: "/img/dos-games/xu-huan-zhi-di.jpg",
+  wiki: {
+    title: "UnReal World",
+    url: "https://en.wikipedia.org/wiki/UnReal_World",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

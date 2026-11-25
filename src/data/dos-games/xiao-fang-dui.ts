@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%B6%88%E9%98%B2%E9%98%9F.zip",
+  logo: "/img/dos-games/xiao-fang-dui.jpg",
+  wiki: {
+    title: "Fireteam 2200",
+    url: "https://en.wikipedia.org/wiki/Fireteam_2200",
+  },
   facts: [
     {label: "Developer", value: "PROBE"},
     {label: "Published", value: "1996"},

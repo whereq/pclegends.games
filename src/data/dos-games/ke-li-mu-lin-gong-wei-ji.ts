@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E5%85%8B%E9%87%8C%E5%A7%86%E6%9E%97%E5%AE%AB%E5%8D%B1%E6%9C%BA.zip",
+  logo: "/img/dos-games/ke-li-mu-lin-gong-wei-ji.jpg",
+  wiki: {
+    title: "Crisis in the Kremlin",
+    url: "https://en.wikipedia.org/wiki/Crisis_in_the_Kremlin",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1991"},

@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1988",
   statusZh: "1988",
   url: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E5%A4%A7%E8%BF%9B%E5%87%BB.zip",
+  logo: "/img/dos-games/yi-xing-da-jin-ji.jpg",
+  wiki: {
+    title: "Zak McKracken and the Alien Mindbenders",
+    url: "https://en.wikipedia.org/wiki/Zak_McKracken_and_the_Alien_Mindbenders",
+  },
+  wikiZh: {
+    title: "異形大進擊",
+    url: "https://zh.wikipedia.org/wiki/%E7%95%B0%E5%BD%A2%E5%A4%A7%E9%80%B2%E6%93%8A",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1988"},

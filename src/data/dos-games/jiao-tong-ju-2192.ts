@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "Archive",
   statusZh: "归档",
   url: "https://dos-bin.zczc.cz/%E4%BA%A4%E9%80%9A%E5%B1%802192.zip",
+  logo: "/img/dos-games/jiao-tong-ju-2192.jpg",
+  wiki: {
+    title: "Traffic Department 2192",
+    url: "https://en.wikipedia.org/wiki/Traffic_Department_2192",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "Not dated"},

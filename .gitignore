@@ -26,3 +26,8 @@ tmp/
 # Python bytecode — the scripts import each other
 __pycache__/
 *.pyc
+
+# The Wikipedia cache and the list of games still to look for: both are
+# working files, rebuilt by the scripts and not worth carrying.
+data/wiki-summaries.json
+data/wiki-needs-research.json

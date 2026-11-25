@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "1980",
   statusZh: "1980",
   url: "https://dos-bin.zczc.cz/%E5%90%88%E9%87%91%E8%A3%85%E5%A4%87.zip",
+  wikiZh: {
+    title: "合金装备 (1987年游戏)",
+    url: "https://zh.wikipedia.org/wiki/%E5%90%88%E9%87%91%E8%A3%85%E5%A4%87_(1987%E5%B9%B4%E6%B8%B8%E6%88%8F)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1980"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%9E%81%E9%99%90%E5%BC%B9%E7%8F%A0%E5%8F%B0.zip",
+  logo: "/img/dos-games/ji-xian-dan-zhu-tai.jpg",
+  wiki: {
+    title: "Extreme Pinball",
+    url: "https://en.wikipedia.org/wiki/Extreme_Pinball",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},

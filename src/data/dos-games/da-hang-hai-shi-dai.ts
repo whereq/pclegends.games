@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E5%A4%A7%E8%88%AA%E6%B5%B7%E6%97%B6%E4%BB%A3.zip",
+  logo: "/img/dos-games/da-hang-hai-shi-dai.jpg",
+  wikiZh: {
+    title: "大航海时代Online",
+    url: "https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%88%AA%E6%B5%B7%E6%97%B6%E4%BB%A3Online",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

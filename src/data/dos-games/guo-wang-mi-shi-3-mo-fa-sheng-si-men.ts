@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1986",
   statusZh: "1986",
   url: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF3%E9%AD%94%E6%B3%95%E7%94%9F%E6%AD%BB%E9%97%A8.zip",
+  logo: "/img/dos-games/guo-wang-mi-shi-3-mo-fa-sheng-si-men.jpg",
+  wiki: {
+    title: "King's Quest III",
+    url: "https://en.wikipedia.org/wiki/King%27s_Quest_III",
+  },
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1986"},

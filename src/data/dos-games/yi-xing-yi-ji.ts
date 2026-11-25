@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E5%BC%82%E6%98%9F%E9%81%97%E8%BF%B9.zip",
+  logo: "/img/dos-games/yi-xing-yi-ji.jpg",
+  wiki: {
+    title: "Alien Legacy",
+    url: "https://en.wikipedia.org/wiki/Alien_Legacy",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1994"},

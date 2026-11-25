@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E5%85%8B%E8%8B%8F%E9%B2%81%E4%BC%A0%E8%AF%B4%E9%AD%94%E5%BD%B1%E5%93%88%E9%9B%B7.zip",
+  logo: "/img/dos-games/ke-su-lu-chuan-shuo-mo-ying-ha-lei.jpg",
+  wiki: {
+    title: "Shadow of the Comet",
+    url: "https://en.wikipedia.org/wiki/Shadow_of_the_Comet",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E5%B7%A5%E4%BA%BA%E7%89%A9%E8%AF%AD2.zip",
+  logo: "/img/dos-games/gong-ren-wu-yu-2.jpg",
+  wiki: {
+    title: "The Settlers II",
+    url: "https://en.wikipedia.org/wiki/The_Settlers_II",
+  },
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1997"},

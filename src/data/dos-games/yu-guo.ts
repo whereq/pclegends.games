@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E9%9B%A8%E6%9E%9C.zip",
+  logo: "/img/dos-games/yu-guo.jpg",
+  wiki: {
+    title: "Hugo's House of Horrors",
+    url: "https://en.wikipedia.org/wiki/Hugo%27s_House_of_Horrors",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

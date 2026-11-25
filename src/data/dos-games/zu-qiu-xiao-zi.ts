@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E8%B6%B3%E7%90%83%E5%B0%8F%E5%AD%90.zip",
+  logo: "/img/dos-games/zu-qiu-xiao-zi.jpg",
+  wiki: {
+    title: "Soccer Kid",
+    url: "https://en.wikipedia.org/wiki/Soccer_Kid",
+  },
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "1996"},

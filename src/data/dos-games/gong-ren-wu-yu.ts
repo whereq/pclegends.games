@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E5%B7%A5%E4%BA%BA%E7%89%A9%E8%AF%AD.zip",
+  logo: "/img/dos-games/gong-ren-wu-yu.jpg",
+  wiki: {
+    title: "The Settlers",
+    url: "https://en.wikipedia.org/wiki/The_Settlers",
+  },
+  wikiZh: {
+    title: "工人物语系列",
+    url: "https://zh.wikipedia.org/wiki/%E5%B7%A5%E4%BA%BA%E7%89%A9%E8%AF%AD%E7%B3%BB%E5%88%97",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1994"},

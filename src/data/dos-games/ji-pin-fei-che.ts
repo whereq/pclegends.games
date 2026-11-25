@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%9E%81%E5%93%81%E9%A3%9E%E8%BD%A6.zip",
+  wikiZh: {
+    title: "极品飞车系列",
+    url: "https://zh.wikipedia.org/wiki/%E6%9E%81%E5%93%81%E9%A3%9E%E8%BD%A6%E7%B3%BB%E5%88%97",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

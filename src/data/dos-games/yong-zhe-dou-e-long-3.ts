@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E5%8B%87%E8%80%85%E6%96%97%E6%81%B6%E9%BE%993.zip",
+  logo: "/img/dos-games/yong-zhe-dou-e-long-3.jpg",
+  wiki: {
+    title: "Dragon Quest III",
+    url: "https://en.wikipedia.org/wiki/Dragon_Quest_III",
+  },
+  wikiZh: {
+    title: "勇者鬥惡龍III 接著邁向傳說",
+    url: "https://zh.wikipedia.org/wiki/%E5%8B%87%E8%80%85%E9%AC%A5%E6%83%A1%E9%BE%8DIII_%E6%8E%A5%E8%91%97%E9%82%81%E5%90%91%E5%82%B3%E8%AA%AA",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

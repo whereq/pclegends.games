@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E8%A2%AB%E9%81%97%E5%BF%98%E7%9A%84%E4%B8%96%E7%95%8C.zip",
+  logo: "/img/dos-games/bei-yi-wang-de-shi-jie.jpg",
+  wiki: {
+    title: "Forgotten Worlds",
+    url: "https://en.wikipedia.org/wiki/Forgotten_Worlds",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

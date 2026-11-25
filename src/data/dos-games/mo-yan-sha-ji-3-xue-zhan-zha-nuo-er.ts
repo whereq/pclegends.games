@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E6%9D%80%E6%9C%BA3%E8%A1%80%E6%88%98%E6%89%8E%E8%AF%BA%E5%B0%94.zip",
+  logo: "/img/dos-games/mo-yan-sha-ji-3-xue-zhan-zha-nuo-er.jpg",
+  wiki: {
+    title: "Eye of the Beholder III: Assault on Myth Drannor",
+    url: "https://en.wikipedia.org/wiki/Eye_of_the_Beholder_III%3A_Assault_on_Myth_Drannor",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

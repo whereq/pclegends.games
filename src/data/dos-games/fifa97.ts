@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "2004",
   statusZh: "2004",
   url: "https://dos-bin.zczc.cz/FIFA97.zip",
+  logo: "/img/dos-games/fifa97.jpg",
+  wikiZh: {
+    title: "FIFA 97",
+    url: "https://zh.wikipedia.org/wiki/FIFA_97",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "2004"},

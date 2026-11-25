@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E4%BA%89%E5%88%86%E5%A4%BA%E7%A7%92.zip",
+  logo: "/img/dos-games/zheng-fen-duo-miao.jpg",
+  wiki: {
+    title: "Clockwiser",
+    url: "https://en.wikipedia.org/wiki/Clockwiser",
+  },
+  wikiZh: {
+    title: "争分夺秒 (游戏)",
+    url: "https://zh.wikipedia.org/wiki/%E4%BA%89%E5%88%86%E5%A4%BA%E7%A7%92_(%E6%B8%B8%E6%88%8F)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

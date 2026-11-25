@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E5%86%B0%E7%90%8395.zip",
+  logo: "/img/dos-games/bing-qiu-95.jpg",
+  wiki: {
+    title: "Brett Hull Hockey '95",
+    url: "https://en.wikipedia.org/wiki/Brett_Hull_Hockey_%2795",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},

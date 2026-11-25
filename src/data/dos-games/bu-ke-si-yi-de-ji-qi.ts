@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E4%B8%8D%E5%8F%AF%E6%80%9D%E8%AE%AE%E7%9A%84%E6%9C%BA%E5%99%A8.zip",
+  logo: "/img/dos-games/bu-ke-si-yi-de-ji-qi.jpg",
+  wiki: {
+    title: "The Incredible Machine",
+    url: "https://en.wikipedia.org/wiki/The_Incredible_Machine",
+  },
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1992"},

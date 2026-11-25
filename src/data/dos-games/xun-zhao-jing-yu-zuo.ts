@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E5%AF%BB%E6%89%BE%E9%B2%B8%E9%B1%BC%E5%BA%A7.zip",
+  logo: "/img/dos-games/xun-zhao-jing-yu-zuo.jpg",
+  wiki: {
+    title: "EcoQuest: The Search for Cetus",
+    url: "https://en.wikipedia.org/wiki/EcoQuest%3A_The_Search_for_Cetus",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

@@ -21,6 +21,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E6%88%98%E7%94%B2%EF%BC%9A%E6%9C%88%E9%B9%B0%E5%A4%8D%E4%BB%87.zip",
+  logo: "/img/dos-games/zhan-jia-yue-ying-fu-chou.jpg",
+  wiki: {
+    title: "BattleTech: The Crescent Hawk's Revenge",
+    url: "https://en.wikipedia.org/wiki/BattleTech%3A_The_Crescent_Hawk%27s_Revenge",
+  },
   facts: [
     {label: "Developer", value: "INFOCOM"},
     {label: "Published", value: "1990"},

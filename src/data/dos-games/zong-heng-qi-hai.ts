@@ -21,6 +21,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E7%BA%B5%E6%A8%AA%E4%B8%83%E6%B5%B7.zip",
+  logo: "/img/dos-games/zong-heng-qi-hai.jpg",
+  wikiZh: {
+    title: "縱橫七海",
+    url: "https://zh.wikipedia.org/wiki/%E7%B8%B1%E6%A9%AB%E4%B8%83%E6%B5%B7",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E5%B1%B1%E5%A7%86%E5%92%8C%E9%A9%AC%E5%85%8B%E6%80%9D.zip",
+  logo: "/img/dos-games/shan-mu-he-ma-ke-si.jpg",
+  wiki: {
+    title: "Sam & Max Hit the Road",
+    url: "https://en.wikipedia.org/wiki/Sam_%26_Max_Hit_the_Road",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1993"},

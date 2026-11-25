@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E7%A7%91%E6%9B%BC%E5%A5%87.zip",
+  logo: "/img/dos-games/chao-ji-ke-man-qi.jpg",
+  wiki: {
+    title: "Comanche (video game series)",
+    url: "https://en.wikipedia.org/wiki/Comanche_(video_game_series)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

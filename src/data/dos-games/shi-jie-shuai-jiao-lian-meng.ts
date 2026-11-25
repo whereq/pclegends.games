@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E4%B8%96%E7%95%8C%E6%91%94%E8%A7%92%E8%81%94%E7%9B%9F.zip",
+  wikiZh: {
+    title: "世界摔角联盟 绝不宽恕",
+    url: "https://zh.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E6%91%94%E8%A7%92%E8%81%94%E7%9B%9F_%E7%BB%9D%E4%B8%8D%E5%AE%BD%E6%81%95",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},

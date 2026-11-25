@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E7%AC%AC%E4%B8%80%E6%AD%A6%E5%A3%AB.zip",
+  logo: "/img/dos-games/di-yi-wu-shi.jpg",
+  wiki: {
+    title: "First Samurai",
+    url: "https://en.wikipedia.org/wiki/First_Samurai",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

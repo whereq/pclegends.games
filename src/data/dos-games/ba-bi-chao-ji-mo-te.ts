@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E8%8A%AD%E6%AF%94%E8%B6%85%E7%BA%A7%E6%A8%A1%E7%89%B9.zip",
+  logo: "/img/dos-games/ba-bi-chao-ji-mo-te.jpg",
+  wiki: {
+    title: "Barbie: Super Model",
+    url: "https://en.wikipedia.org/wiki/Barbie%3A_Super_Model",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

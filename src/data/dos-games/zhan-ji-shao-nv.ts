@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E6%88%98%E6%9C%BA%E5%B0%91%E5%A5%B3.zip",
+  logo: "/img/dos-games/zhan-ji-shao-nv.jpg",
+  wiki: {
+    title: "Metal & Lace: The Battle of the Robo Babes",
+    url: "https://en.wikipedia.org/wiki/Metal_%26_Lace%3A_The_Battle_of_the_Robo_Babes",
+  },
+  wikiZh: {
+    title: "戰機少女系列",
+    url: "https://zh.wikipedia.org/wiki/%E6%88%B0%E6%A9%9F%E5%B0%91%E5%A5%B3%E7%B3%BB%E5%88%97",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

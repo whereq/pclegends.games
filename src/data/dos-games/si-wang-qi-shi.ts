@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E9%AA%91%E5%A3%AB.zip",
+  logo: "/img/dos-games/si-wang-qi-shi.jpg",
+  wiki: {
+    title: "Death Knights of Krynn",
+    url: "https://en.wikipedia.org/wiki/Death_Knights_of_Krynn",
+  },
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1996"},

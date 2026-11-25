@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%B7%AB%E6%9C%AF4.zip",
+  logo: "/img/dos-games/wu-shu-4.jpg",
+  wiki: {
+    title: "Wizardry IV: The Return of Werdna",
+    url: "https://en.wikipedia.org/wiki/Wizardry_IV%3A_The_Return_of_Werdna",
+  },
+  wikiZh: {
+    title: "巫术IV：瓦德纳的复仇",
+    url: "https://zh.wikipedia.org/wiki/%E5%B7%AB%E6%9C%AFIV%EF%BC%9A%E7%93%A6%E5%BE%B7%E7%BA%B3%E7%9A%84%E5%A4%8D%E4%BB%87",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

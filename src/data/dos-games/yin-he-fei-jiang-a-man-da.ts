@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%A3%9E%E5%B0%86%E9%98%BF%E6%9B%BC%E8%BE%BE.zip",
+  logo: "/img/dos-games/yin-he-fei-jiang-a-man-da.jpg",
+  wiki: {
+    title: "Wing Commander: Armada",
+    url: "https://en.wikipedia.org/wiki/Wing_Commander%3A_Armada",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1994"},

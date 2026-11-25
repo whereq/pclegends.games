@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E9%BE%99%E9%9C%B8%E4%B8%89%E5%90%88%E4%BC%9A.zip",
+  logo: "/img/dos-games/long-ba-san-he-hui.jpg",
+  wiki: {
+    title: "Rise of the Triad",
+    url: "https://en.wikipedia.org/wiki/Rise_of_the_Triad",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},

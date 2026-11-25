@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E9%A3%9E%E8%BD%A6.zip",
+  logo: "/img/dos-games/si-wang-fei-che.jpg",
+  wiki: {
+    title: "Carmageddon",
+    url: "https://en.wikipedia.org/wiki/Carmageddon",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1997"},

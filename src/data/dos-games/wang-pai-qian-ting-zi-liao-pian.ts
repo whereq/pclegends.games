@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E7%8E%8B%E7%89%8C%E6%BD%9C%E8%89%87%2B%E8%B5%84%E6%96%99%E7%89%87.zip",
+  logo: "/img/dos-games/wang-pai-qian-ting-zi-liao-pian.jpg",
+  wiki: {
+    title: "Aces of the Deep",
+    url: "https://en.wikipedia.org/wiki/Aces_of_the_Deep",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA7%E4%B8%8B%E5%B7%A8%E8%9B%87%E4%B9%8B%E5%B2%9B.zip",
+  logo: "/img/dos-games/chuang-shi-ji-7-xia-ju-she-zhi-dao.jpg",
+  wiki: {
+    title: "Ultima VII Part Two: Serpent Isle",
+    url: "https://en.wikipedia.org/wiki/Ultima_VII_Part_Two%3A_Serpent_Isle",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1993"},

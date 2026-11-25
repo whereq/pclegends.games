@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%B7%AB%E6%9C%AF5.zip",
+  logo: "/img/dos-games/wu-shu-5.jpg",
+  wiki: {
+    title: "Wizardry V: Heart of the Maelstrom",
+    url: "https://en.wikipedia.org/wiki/Wizardry_V%3A_Heart_of_the_Maelstrom",
+  },
+  wikiZh: {
+    title: "巫术V：漩涡之心",
+    url: "https://zh.wikipedia.org/wiki/%E5%B7%AB%E6%9C%AFV%EF%BC%9A%E6%BC%A9%E6%B6%A1%E4%B9%8B%E5%BF%83",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

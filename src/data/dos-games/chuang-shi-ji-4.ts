@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1987",
   statusZh: "1987",
   url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA4.zip",
+  logo: "/img/dos-games/chuang-shi-ji-4.jpg",
+  wiki: {
+    title: "Ultima IV: Quest of the Avatar",
+    url: "https://en.wikipedia.org/wiki/Ultima_IV%3A_Quest_of_the_Avatar",
+  },
+  wikiZh: {
+    title: "创世纪IV：圣者传奇",
+    url: "https://zh.wikipedia.org/wiki/%E5%88%9B%E4%B8%96%E7%BA%AAIV%EF%BC%9A%E5%9C%A3%E8%80%85%E4%BC%A0%E5%A5%87",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1987"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "Archive",
   statusZh: "归档",
   url: "https://dos-bin.zczc.cz/%E5%B7%AB%E9%AD%94%E5%A4%A9%E5%A2%83.zip",
+  logo: "/img/dos-games/wu-mo-tian-jing.jpg",
+  wiki: {
+    title: "Witchaven",
+    url: "https://en.wikipedia.org/wiki/Witchaven",
+  },
   facts: [
     {label: "Developer", value: "WARP"},
     {label: "Published", value: "Not dated"},

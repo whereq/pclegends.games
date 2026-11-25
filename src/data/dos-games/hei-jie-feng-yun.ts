@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1988",
   statusZh: "1988",
   url: "https://dos-bin.zczc.cz/%E9%BB%91%E8%A1%97%E9%A3%8E%E4%BA%91.zip",
+  logo: "/img/dos-games/hei-jie-feng-yun.jpg",
+  wiki: {
+    title: "Bad Street Brawler",
+    url: "https://en.wikipedia.org/wiki/Bad_Street_Brawler",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1988"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E7%A6%8F%E5%B0%94%E6%91%A9%E6%96%AF2%E7%8E%AB%E7%91%B0%E7%BA%B9%E8%BA%AB.zip",
+  logo: "/img/dos-games/fu-er-mo-si-2-mei-gui-wen-shen.jpg",
+  wiki: {
+    title: "The Lost Files of Sherlock Holmes",
+    url: "https://en.wikipedia.org/wiki/The_Lost_Files_of_Sherlock_Holmes",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

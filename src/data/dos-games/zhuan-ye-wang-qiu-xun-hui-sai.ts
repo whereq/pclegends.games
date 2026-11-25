@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E4%B8%93%E4%B8%9A%E7%BD%91%E7%90%83%E5%B7%A1%E5%9B%9E%E8%B5%9B.zip",
+  logo: "/img/dos-games/zhuan-ye-wang-qiu-xun-hui-sai.jpg",
+  wiki: {
+    title: "Pro Tennis Tour 2",
+    url: "https://en.wikipedia.org/wiki/Pro_Tennis_Tour_2",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

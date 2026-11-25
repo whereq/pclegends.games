@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E4%B8%8A%E5%8F%A4%E7%A5%9E%E5%85%B5.zip",
+  logo: "/img/dos-games/shang-gu-shen-bing.jpg",
+  wiki: {
+    title: "Conquered Kingdoms",
+    url: "https://en.wikipedia.org/wiki/Conquered_Kingdoms",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

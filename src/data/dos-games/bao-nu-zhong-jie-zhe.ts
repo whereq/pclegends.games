@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E6%9A%B4%E6%80%92%E7%BB%88%E7%BB%93%E8%80%85.zip",
+  logo: "/img/dos-games/bao-nu-zhong-jie-zhe.jpg",
+  wiki: {
+    title: "The Terminator: Rampage",
+    url: "https://en.wikipedia.org/wiki/The_Terminator%3A_Rampage",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

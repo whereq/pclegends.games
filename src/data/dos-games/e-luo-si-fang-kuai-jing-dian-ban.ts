@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97%E7%BB%8F%E5%85%B8%E7%89%88.zip",
+  logo: "/img/dos-games/e-luo-si-fang-kuai-jing-dian-ban.jpg",
+  wiki: {
+    title: "Tetris Classic",
+    url: "https://en.wikipedia.org/wiki/Tetris_Classic",
+  },
+  wikiZh: {
+    title: "俄罗斯方块 (电影)",
+    url: "https://zh.wikipedia.org/wiki/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97_(%E7%94%B5%E5%BD%B1)",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},

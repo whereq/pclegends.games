@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%AE%89%E9%9B%85%E6%88%98%E6%9C%BA.zip",
+  logo: "/img/dos-games/an-ya-zhan-ji.jpg",
+  wiki: {
+    title: "Arya Vaiv",
+    url: "https://en.wikipedia.org/wiki/Arya_Vaiv",
+  },
   facts: [
     {label: "Developer", value: "NCS"},
     {label: "Published", value: "1996"},

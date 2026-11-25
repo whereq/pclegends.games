@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E5%85%8B%E8%8E%B1%E6%81%A9%E7%9A%84%E9%BB%91%E6%9A%97%E5%A5%B3%E7%9A%87.zip",
+  logo: "/img/dos-games/ke-lai-en-de-hei-an-nv-huang.jpg",
+  wiki: {
+    title: "The Dark Queen of Krynn",
+    url: "https://en.wikipedia.org/wiki/The_Dark_Queen_of_Krynn",
+  },
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1992"},

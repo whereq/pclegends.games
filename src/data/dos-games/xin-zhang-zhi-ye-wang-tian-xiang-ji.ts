@@ -21,6 +21,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B%E5%A4%A9%E7%BF%94%E8%AE%B0.zip",
+  logo: "/img/dos-games/xin-zhang-zhi-ye-wang-tian-xiang-ji.jpg",
+  wikiZh: {
+    title: "信长之野望·天翔记",
+    url: "https://zh.wikipedia.org/wiki/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B%C2%B7%E5%A4%A9%E7%BF%94%E8%AE%B0",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

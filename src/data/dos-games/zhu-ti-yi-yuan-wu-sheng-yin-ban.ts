@@ -21,6 +21,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E4%B8%BB%E9%A2%98%E5%8C%BB%E9%99%A2.zip",
+  logo: "/img/dos-games/zhu-ti-yi-yuan-wu-sheng-yin-ban.jpg",
+  wiki: {
+    title: "Theme Hospital",
+    url: "https://en.wikipedia.org/wiki/Theme_Hospital",
+  },
   facts: [
     {label: "Developer", value: "TOSE"},
     {label: "Published", value: "1997"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1987",
   statusZh: "1987",
   url: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF2%E7%9A%87%E5%AE%B6%E7%BD%97%E6%9B%BC%E5%8F%B2.zip",
+  logo: "/img/dos-games/guo-wang-mi-shi-2-huang-jia-luo-man-shi.jpg",
+  wiki: {
+    title: "King's Quest II",
+    url: "https://en.wikipedia.org/wiki/King%27s_Quest_II",
+  },
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1987"},

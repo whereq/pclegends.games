@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "Archive",
   statusZh: "归档",
   url: "https://binary.dos.lol/88777ec4ea921f9b6826fbf00556b8fbd975dddc4de13a7e9ea9590abbfaab63.zip",
+  logo: "/img/dos-games/zhi-huan-wang.jpg",
+  wikiZh: {
+    title: "指环王Online：安格玛之影",
+    url: "https://zh.wikipedia.org/wiki/%E6%8C%87%E7%8E%AF%E7%8E%8BOnline%EF%BC%9A%E5%AE%89%E6%A0%BC%E7%8E%9B%E4%B9%8B%E5%BD%B1",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "Not dated"},

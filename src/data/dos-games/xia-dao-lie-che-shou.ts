@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E4%BE%A0%E7%9B%97%E7%8C%8E%E8%BD%A6%E6%89%8B.zip",
+  logo: "/img/dos-games/xia-dao-lie-che-shou.jpg",
+  wiki: {
+    title: "Grand Theft Auto",
+    url: "https://en.wikipedia.org/wiki/Grand_Theft_Auto",
+  },
+  wikiZh: {
+    title: "俠盜獵車手系列",
+    url: "https://zh.wikipedia.org/wiki/%E4%BF%A0%E7%9B%9C%E7%8D%B5%E8%BB%8A%E6%89%8B%E7%B3%BB%E5%88%97",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},

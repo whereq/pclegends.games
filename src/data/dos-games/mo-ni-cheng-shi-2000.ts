@@ -21,6 +21,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%9F%8E%E5%B8%822000.zip",
+  logo: "/img/dos-games/mo-ni-cheng-shi-2000.jpg",
+  wiki: {
+    title: "SimCity 2000",
+    url: "https://en.wikipedia.org/wiki/SimCity_2000",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},

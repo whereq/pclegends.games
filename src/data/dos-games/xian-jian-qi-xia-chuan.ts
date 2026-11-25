@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E4%BB%99%E5%89%91%E5%A5%87%E4%BE%A0%E4%BC%A0.zip",
+  logo: "/img/dos-games/xian-jian-qi-xia-chuan.jpg",
+  wikiZh: {
+    title: "仙剑奇侠传 (游戏)",
+    url: "https://zh.wikipedia.org/wiki/%E4%BB%99%E5%89%91%E5%A5%87%E4%BE%A0%E4%BC%A0_(%E6%B8%B8%E6%88%8F)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},

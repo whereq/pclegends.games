@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1998",
   statusZh: "1998",
   url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA8.zip",
+  logo: "/img/dos-games/chuang-shi-ji-8.jpg",
+  wiki: {
+    title: "Ultima VIII: Pagan",
+    url: "https://en.wikipedia.org/wiki/Ultima_VIII%3A_Pagan",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1998"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E9%BB%8E%E6%98%8E%E9%93%81%E7%A0%A7.zip",
+  logo: "/img/dos-games/li-ming-tie-zhen.jpg",
+  wiki: {
+    title: "Anvil of Dawn",
+    url: "https://en.wikipedia.org/wiki/Anvil_of_Dawn",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},

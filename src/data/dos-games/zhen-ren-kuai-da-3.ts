@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E7%9C%9F%E4%BA%BA%E5%BF%AB%E6%89%933.zip",
+  logo: "/img/dos-games/zhen-ren-kuai-da-3.jpg",
+  wiki: {
+    title: "Mortal Kombat 3",
+    url: "https://en.wikipedia.org/wiki/Mortal_Kombat_3",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},

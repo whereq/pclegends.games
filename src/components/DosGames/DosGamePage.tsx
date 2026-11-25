@@ -84,6 +84,13 @@ export default function DosGamePage({
   const sections = page.sections;
   const facts = page.facts ?? [];
 
+  /**
+   * The article the reader is sent to. The Chinese locale reads the Chinese
+   * article where the game has one, and the English article where it does
+   * not — a link is always there.
+   */
+  const wiki = chinese ? (page.wikiZh ?? page.wiki) : page.wiki;
+
   const seeAlso = (page.related ?? [])
     .map((id) => EXTERNAL_ENTRIES[id])
     .filter((item): item is {label: string; href: string} => Boolean(item));
@@ -125,6 +132,15 @@ export default function DosGamePage({
             <Link className={styles.btn} to="/played/">
               {copy.game.playedThrough}
             </Link>
+            {wiki && (
+              <a
+                className={styles.btn}
+                href={wiki.url}
+                target="_blank"
+                rel="noopener noreferrer">
+                {copy.game.readOnWikipedia}
+              </a>
+            )}
           </div>
         </div>
       </header>
@@ -143,6 +159,19 @@ export default function DosGamePage({
             <div className={styles.infoboxRow}>
               <div className={styles.infoboxTerm}>{copy.game.originalTitle}</div>
               <div className={styles.infoboxDesc}>{page.nameEn}</div>
+            </div>
+          )}
+          {wiki && (
+            <div className={styles.infoboxRow}>
+              <div className={styles.infoboxTerm}>{copy.game.wikipedia}</div>
+              <div className={styles.infoboxDesc}>
+                <a
+                  href={wiki.url}
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  {wiki.title}
+                </a>
+              </div>
             </div>
           )}
           {facts.map((fact) => (

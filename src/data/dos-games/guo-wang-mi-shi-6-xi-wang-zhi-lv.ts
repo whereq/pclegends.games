@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF6%E5%B8%8C%E6%9C%9B%E4%B9%8B%E6%97%85.zip",
+  logo: "/img/dos-games/guo-wang-mi-shi-6-xi-wang-zhi-lv.jpg",
+  wiki: {
+    title: "King's Quest VI",
+    url: "https://en.wikipedia.org/wiki/King%27s_Quest_VI",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

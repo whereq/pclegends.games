@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/BOPPIN%E7%89%A9%E7%90%86%E6%B8%B8%E6%88%8F.zip",
+  logo: "/img/dos-games/boppin-wu-li-you-xi.jpg",
+  wiki: {
+    title: "Boppin'",
+    url: "https://en.wikipedia.org/wiki/Boppin%27",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},

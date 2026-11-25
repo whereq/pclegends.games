@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%B3%B0%E5%85%8B%E6%88%98%E4%BA%89.zip",
+  logo: "/img/dos-games/tai-ke-zhan-zheng.jpg",
+  wiki: {
+    title: "William Shatner's TekWar",
+    url: "https://en.wikipedia.org/wiki/William_Shatner%27s_TekWar",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

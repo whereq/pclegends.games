@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E5%8F%8C%E6%88%AA%E9%BE%993.zip",
+  logo: "/img/dos-games/shuang-jie-long-3.jpg",
+  wiki: {
+    title: "Double Dragon 3: The Rosetta Stone",
+    url: "https://en.wikipedia.org/wiki/Double_Dragon_3%3A_The_Rosetta_Stone",
+  },
+  wikiZh: {
+    title: "双截龙3 罗塞塔之石",
+    url: "https://zh.wikipedia.org/wiki/%E5%8F%8C%E6%88%AA%E9%BE%993_%E7%BD%97%E5%A1%9E%E5%A1%94%E4%B9%8B%E7%9F%B3",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

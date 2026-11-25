@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E8%A9%B9%E5%A7%86%E6%96%AF%E5%BA%9E%E5%BE%B72.zip",
+  logo: "/img/dos-games/zhan-mu-si-pang-de-2.jpg",
+  wiki: {
+    title: "James Pond 2",
+    url: "https://en.wikipedia.org/wiki/James_Pond_2",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

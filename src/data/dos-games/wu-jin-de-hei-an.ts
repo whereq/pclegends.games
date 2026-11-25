@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "2010",
   statusZh: "2010",
   url: "https://dos-bin.zczc.cz/%E6%97%A0%E5%B0%BD%E7%9A%84%E9%BB%91%E6%9A%97.zip",
+  logo: "/img/dos-games/wu-jin-de-hei-an.jpg",
+  wiki: {
+    title: "Last Half of Darkness",
+    url: "https://en.wikipedia.org/wiki/Last_Half_of_Darkness",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2010"},

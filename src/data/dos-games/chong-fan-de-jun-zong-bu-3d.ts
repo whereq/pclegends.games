@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E9%87%8D%E8%BF%94%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A83D.zip",
+  logo: "/img/dos-games/chong-fan-de-jun-zong-bu-3d.jpg",
+  wiki: {
+    title: "Wolfenstein 3D",
+    url: "https://en.wikipedia.org/wiki/Wolfenstein_3D",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

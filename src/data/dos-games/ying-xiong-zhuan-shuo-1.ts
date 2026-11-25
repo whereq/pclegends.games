@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "2009",
   statusZh: "2009",
   url: "https://dos-bin.zczc.cz/%E8%8B%B1%E9%9B%84%E4%BC%A0%E8%AF%B41.zip",
+  logo: "/img/dos-games/ying-xiong-zhuan-shuo-1.jpg",
+  wiki: {
+    title: "The Legend of Heroes",
+    url: "https://en.wikipedia.org/wiki/The_Legend_of_Heroes",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2009"},

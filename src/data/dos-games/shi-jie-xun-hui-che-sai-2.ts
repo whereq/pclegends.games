@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "2002",
   statusZh: "2002",
   url: "https://dos-bin.zczc.cz/%E4%B8%96%E7%95%8C%E5%B7%A1%E5%9B%9E%E8%BD%A6%E8%B5%9B2.zip",
+  logo: "/img/dos-games/shi-jie-xun-hui-che-sai-2.jpg",
+  wiki: {
+    title: "Grand Prix 2",
+    url: "https://en.wikipedia.org/wiki/Grand_Prix_2",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "2002"},

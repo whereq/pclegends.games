@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E8%BF%B7%E5%AE%AB.zip",
+  logo: "/img/dos-games/hei-an-mi-gong.jpg",
+  wiki: {
+    title: "DarkSpyre",
+    url: "https://en.wikipedia.org/wiki/DarkSpyre",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E7%8B%82%E6%9A%B4%E5%BC%82%E5%BD%A2.zip",
+  logo: "/img/dos-games/kuang-bao-yi-xing.jpg",
+  wiki: {
+    title: "Alien Rampage",
+    url: "https://en.wikipedia.org/wiki/Alien_Rampage",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1997"},

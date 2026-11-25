@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E8%81%94%E7%9B%9F.zip",
+  logo: "/img/dos-games/tie-xue-lian-meng.jpg",
+  wiki: {
+    title: "Jagged Alliance",
+    url: "https://en.wikipedia.org/wiki/Jagged_Alliance",
+  },
   facts: [
     {label: "Developer", value: "SIR-TECH"},
     {label: "Published", value: "1995"},

@@ -77,6 +77,8 @@ export type SiteCopy = {
     noticeTitle: string;
     noticeText: string;
     originalTitle: string;
+    wikipedia: string;
+    readOnWikipedia: string;
     developer: string;
     published: string;
     type: string;
@@ -197,6 +199,8 @@ const en: SiteCopy = {
     noticeText:
       'The archive on this page is published for study, communication and preservation only. It is the work of its authors and publishers, who hold the rights in it; publishing it here claims none of those rights and waives none of them. If you believe this download breaks a licence, a copyright or any other right, tell us and we will take it down.',
     originalTitle: 'Original title',
+    wikipedia: 'Wikipedia',
+    readOnWikipedia: 'Read more on Wikipedia',
     developer: 'Developer',
     published: 'Published',
     type: 'Type',
@@ -364,6 +368,8 @@ const zhCN: SiteCopy = {
     noticeText:
       '本页的归档文件仅供学习、交流与保存之用。它是原作者与出版方的作品，相关权利归其所有；在此发布既不主张这些权利，也不放弃这些权利。如果你认为这个下载侵犯了许可、著作权或其他权利，请与我们联系，我们会将其下架。',
     originalTitle: '原名',
+    wikipedia: '维基百科',
+    readOnWikipedia: '在维基百科上阅读',
     developer: '开发',
     published: '发行',
     type: '类型',

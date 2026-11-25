@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E5%B0%84%E9%9B%95%E8%8B%B1%E9%9B%84%E4%BC%A0.zip",
+  wikiZh: {
+    title: "射鵰英雄傳 (遊戲)",
+    url: "https://zh.wikipedia.org/wiki/%E5%B0%84%E9%B5%B0%E8%8B%B1%E9%9B%84%E5%82%B3_(%E9%81%8A%E6%88%B2)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

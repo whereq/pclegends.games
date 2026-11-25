@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/D%E8%AE%A1%E5%88%92.zip",
+  logo: "/img/dos-games/d-ji-hua.jpg",
+  wiki: {
+    title: "D/Generation",
+    url: "https://en.wikipedia.org/wiki/D%2FGeneration",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

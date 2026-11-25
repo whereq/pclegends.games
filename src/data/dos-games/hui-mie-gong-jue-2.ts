@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E5%85%AC%E7%88%B52.zip",
+  logo: "/img/dos-games/hui-mie-gong-jue-2.jpg",
+  wiki: {
+    title: "Duke Nukem II",
+    url: "https://en.wikipedia.org/wiki/Duke_Nukem_II",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

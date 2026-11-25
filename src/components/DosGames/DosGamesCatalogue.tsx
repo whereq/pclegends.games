@@ -282,8 +282,10 @@ function Group({
 /**
  * One game.
  *
- * The card carries the facts read out of the bundle, the mark the archive
- * gave the game, and the two ways out of it: the page, and the download.
+ * The card shows the game: its picture, its name in the reader's language,
+ * and the categories it sits in. The facts read out of the bundle — the
+ * year, the entry point, how many files it holds, how big it is — are on the
+ * game's own page, where there is room for them.
  */
 function GameCard({
   game,
@@ -299,7 +301,7 @@ function GameCard({
       <Link className={styles.cardLink} to={game.page}>
         <span className={styles.cardMark}>
           <img
-            src={`/img/dos-games/${game.id}.svg`}
+            src={game.image ?? `/img/dos-games/${game.id}.svg`}
             alt=""
             width={44}
             height={44}
@@ -309,9 +311,6 @@ function GameCard({
         </span>
         <span className={styles.cardHead}>
           <span className={styles.cardName}>{names.primary}</span>
-          {names.secondary && (
-            <span className={styles.cardAltName}>{names.secondary}</span>
-          )}
           <span className={styles.cardTypes}>
             {game.types.map((type, index) => {
               const category = DOS_GAME_CATEGORY_BY_ID[type];
@@ -325,27 +324,6 @@ function GameCard({
           </span>
         </span>
       </Link>
-
-      <dl className={styles.cardFacts}>
-        <div className={styles.cardFact}>
-          <dt>{copy.common.year}</dt>
-          <dd>{game.year || '—'}</dd>
-        </div>
-        <div className={styles.cardFact}>
-          <dt>{copy.common.entryPoint}</dt>
-          <dd>
-            <code className={styles.cardEntry}>{game.entry}</code>
-          </dd>
-        </div>
-        <div className={styles.cardFact}>
-          <dt>{copy.common.files}</dt>
-          <dd>{game.files.toLocaleString('en-US')}</dd>
-        </div>
-        <div className={styles.cardFact}>
-          <dt>{copy.common.size}</dt>
-          <dd>{formatSize(game.size)}</dd>
-        </div>
-      </dl>
 
       <div className={styles.cardActions}>
         <Link className={styles.cardRead} to={game.page}>
@@ -361,15 +339,4 @@ function GameCard({
       </div>
     </article>
   );
-}
-
-/** A file size, the way a person reads it. */
-function formatSize(bytes: number): string {
-  if (bytes >= 1024 * 1024 * 1024) {
-    return `${(bytes / 1024 / 1024 / 1024).toFixed(2)} GB`;
-  }
-  if (bytes >= 1024 * 1024) {
-    return `${(bytes / 1024 / 1024).toFixed(1)} MB`;
-  }
-  return `${Math.round(bytes / 1024)} KB`;
 }

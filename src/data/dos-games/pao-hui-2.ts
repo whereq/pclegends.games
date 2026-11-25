@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E7%82%AE%E7%81%B02.zip",
+  logo: "/img/dos-games/pao-hui-2.jpg",
+  wiki: {
+    title: "Cannon Fodder 2",
+    url: "https://en.wikipedia.org/wiki/Cannon_Fodder_2",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

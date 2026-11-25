@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1989",
   statusZh: "1989",
   url: "https://dos-bin.zczc.cz/%E6%B0%99%E6%98%9F%E5%BC%82%E5%BD%A22.zip",
+  logo: "/img/dos-games/xian-xing-yi-xing-2.jpg",
+  wiki: {
+    title: "Xenon 2: Megablast",
+    url: "https://en.wikipedia.org/wiki/Xenon_2%3A_Megablast",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},

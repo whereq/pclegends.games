@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E5%A4%A9%E9%BE%99%E5%85%AB%E9%83%A8.zip",
+  wikiZh: {
+    title: "天龙八部 (2007年游戏)",
+    url: "https://zh.wikipedia.org/wiki/%E5%A4%A9%E9%BE%99%E5%85%AB%E9%83%A8_(2007%E5%B9%B4%E6%B8%B8%E6%88%8F)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},

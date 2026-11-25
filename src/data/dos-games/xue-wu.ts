@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E8%A1%80%E5%B7%AB.zip",
+  logo: "/img/dos-games/xue-wu.jpg",
+  wiki: {
+    title: "Bloodwych",
+    url: "https://en.wikipedia.org/wiki/Bloodwych",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

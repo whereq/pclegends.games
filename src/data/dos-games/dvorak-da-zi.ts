@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/Dvorak%E6%89%93%E5%AD%97.zip",
+  logo: "/img/dos-games/dvorak-da-zi.jpg",
+  wiki: {
+    title: "Dvorak on Typing",
+    url: "https://en.wikipedia.org/wiki/Dvorak_on_Typing",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

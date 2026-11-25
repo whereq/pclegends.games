@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E5%BC%80%E7%90%8397.zip",
+  logo: "/img/dos-games/kai-qiu-97.jpg",
+  wiki: {
+    title: "Kickoff '97",
+    url: "https://en.wikipedia.org/wiki/Kickoff_%2797",
+  },
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1997"},

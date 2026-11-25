@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E4%BD%90%E7%BD%97.zip",
+  logo: "/img/dos-games/zuo-luo.jpg",
+  wiki: {
+    title: "Zorro (1995 video game)",
+    url: "https://en.wikipedia.org/wiki/Zorro_(1995_video_game)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

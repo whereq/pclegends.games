@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "2009",
   statusZh: "2009",
   url: "https://dos-bin.zczc.cz/%E5%89%91%E4%BE%A0%E6%83%85%E7%BC%98.zip",
+  wikiZh: {
+    title: "剑侠情缘系列",
+    url: "https://zh.wikipedia.org/wiki/%E5%89%91%E4%BE%A0%E6%83%85%E7%BC%98%E7%B3%BB%E5%88%97",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2009"},

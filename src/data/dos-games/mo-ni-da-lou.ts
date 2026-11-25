@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "Archive",
   statusZh: "归档",
   url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%A4%A7%E6%A5%BC.zip",
+  wikiZh: {
+    title: "模拟大楼",
+    url: "https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%8B%9F%E5%A4%A7%E6%A5%BC",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "Not dated"},

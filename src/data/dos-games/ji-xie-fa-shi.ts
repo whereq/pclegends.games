@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "Archive",
   statusZh: "归档",
   url: "https://dos-bin.zczc.cz/%E6%9C%BA%E6%A2%B0%E6%B3%95%E5%B8%88.zip",
+  logo: "/img/dos-games/ji-xie-fa-shi.jpg",
+  wiki: {
+    title: "CyberMage: Darklight Awakening",
+    url: "https://en.wikipedia.org/wiki/CyberMage%3A_Darklight_Awakening",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},

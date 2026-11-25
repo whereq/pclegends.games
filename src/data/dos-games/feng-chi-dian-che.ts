@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1989",
   statusZh: "1989",
   url: "https://dos-bin.zczc.cz/%E9%A3%8E%E9%A9%B0%E7%94%B5%E6%8E%A3.zip",
+  logo: "/img/dos-games/feng-chi-dian-che.jpg",
+  wiki: {
+    title: "Indianapolis 500: The Simulation",
+    url: "https://en.wikipedia.org/wiki/Indianapolis_500%3A_The_Simulation",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},

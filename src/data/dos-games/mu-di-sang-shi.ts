@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E5%A2%93%E5%9C%B0%E4%B8%A7%E5%B0%B8.zip",
+  logo: "/img/dos-games/mu-di-sang-shi.jpg",
+  wiki: {
+    title: "Horror Zombies from the Crypt",
+    url: "https://en.wikipedia.org/wiki/Horror_Zombies_from_the_Crypt",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1991"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E8%AF%B8%E7%A5%9E%E7%9A%84%E9%BB%84%E6%98%8F.zip",
+  logo: "/img/dos-games/zhu-shen-de-huang-hun.jpg",
+  wiki: {
+    title: "Dusk of the Gods",
+    url: "https://en.wikipedia.org/wiki/Dusk_of_the_Gods",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

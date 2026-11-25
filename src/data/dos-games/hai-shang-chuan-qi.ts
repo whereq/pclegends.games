@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E6%B5%B7%E4%B8%8A%E4%BC%A0%E5%A5%87.zip",
+  logo: "/img/dos-games/hai-shang-chuan-qi.jpg",
+  wiki: {
+    title: "Sea Legends",
+    url: "https://en.wikipedia.org/wiki/Sea_Legends",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E6%AE%96%E6%B0%91%E5%B8%9D%E5%9B%BD.zip",
+  logo: "/img/dos-games/zhi-min-di-guo.jpg",
+  wiki: {
+    title: "Sid Meier's Colonization",
+    url: "https://en.wikipedia.org/wiki/Sid_Meier%27s_Colonization",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

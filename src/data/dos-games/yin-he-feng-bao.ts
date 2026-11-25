@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%A3%8E%E6%9A%B4.zip",
+  logo: "/img/dos-games/yin-he-feng-bao.jpg",
+  wiki: {
+    title: "Renegade Legion: Interceptor",
+    url: "https://en.wikipedia.org/wiki/Renegade_Legion%3A_Interceptor",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},

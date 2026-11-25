@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/B17%E9%A3%9E%E8%A1%8C%E5%A0%A1%E5%9E%92.zip",
+  logo: "/img/dos-games/b17-fei-xing-bao-lei.jpg",
+  wiki: {
+    title: "B-17 Flying Fortress (video game)",
+    url: "https://en.wikipedia.org/wiki/B-17_Flying_Fortress_(video_game)",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1993"},

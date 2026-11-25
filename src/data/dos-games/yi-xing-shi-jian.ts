@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "2001",
   statusZh: "2001",
   url: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E4%BA%8B%E4%BB%B6.zip",
+  logo: "/img/dos-games/yi-xing-shi-jian.jpg",
+  wiki: {
+    title: "Alien Incident",
+    url: "https://en.wikipedia.org/wiki/Alien_Incident",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2001"},

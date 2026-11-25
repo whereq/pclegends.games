@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E4%BC%8F%E5%87%BB.zip",
+  logo: "/img/dos-games/mo-fa-fu-ji.jpg",
+  wiki: {
+    title: "Ambush at Sorinor",
+    url: "https://en.wikipedia.org/wiki/Ambush_at_Sorinor",
+  },
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "1996"},

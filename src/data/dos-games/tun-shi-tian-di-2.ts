@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E5%90%9E%E9%A3%9F%E5%A4%A9%E5%9C%B02.zip",
+  logo: "/img/dos-games/tun-shi-tian-di-2.jpg",
+  wikiZh: {
+    title: "吞食天地II 諸葛孔明傳",
+    url: "https://zh.wikipedia.org/wiki/%E5%90%9E%E9%A3%9F%E5%A4%A9%E5%9C%B0II_%E8%AB%B8%E8%91%9B%E5%AD%94%E6%98%8E%E5%82%B3",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E8%BE%9B%E6%99%AE%E6%A3%AE%E4%B8%80%E5%AE%B6.zip",
+  logo: "/img/dos-games/xin-pu-sen-yi-jia.jpg",
+  wiki: {
+    title: "The Simpsons (video game)",
+    url: "https://en.wikipedia.org/wiki/The_Simpsons_(video_game)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

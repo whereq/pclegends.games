@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E5%89%8D%E7%BA%BF%E8%8D%AF%E5%89%82%E5%B8%88.zip",
+  logo: "/img/dos-games/qian-xian-yao-ji-shi.jpg",
+  wiki: {
+    title: "Freddy Pharkas: Frontier Pharmacist",
+    url: "https://en.wikipedia.org/wiki/Freddy_Pharkas%3A_Frontier_Pharmacist",
+  },
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1993"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1989",
   statusZh: "1989",
   url: "https://dos-bin.zczc.cz/%E5%B9%BD%E5%9F%8E%E5%AE%9D%E8%97%8F.zip",
+  logo: "/img/dos-games/you-cheng-bao-zang.jpg",
+  wiki: {
+    title: "Hillsfar",
+    url: "https://en.wikipedia.org/wiki/Hillsfar",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%B9%BD%E6%B5%AE3%E5%A4%A9%E5%90%AF%E5%85%89%E7%A2%9F%E7%89%88.zip",
+  logo: "/img/dos-games/you-fu-3-tian-qi-guang-die-ban.jpg",
+  wiki: {
+    title: "X-COM: Apocalypse",
+    url: "https://en.wikipedia.org/wiki/X-COM%3A_Apocalypse",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E9%A9%AC%E9%87%8C%E5%A5%A5%E6%B8%B8%E6%88%8F%E5%B1%95.zip",
+  logo: "/img/dos-games/ma-li-ao-you-xi-zhan.jpg",
+  wiki: {
+    title: "Mario's Game Gallery",
+    url: "https://en.wikipedia.org/wiki/Mario%27s_Game_Gallery",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

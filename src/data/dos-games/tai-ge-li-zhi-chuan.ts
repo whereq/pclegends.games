@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E5%A4%AA%E9%98%81%E7%AB%8B%E5%BF%97%E4%BC%A0.zip",
+  wikiZh: {
+    title: "太阁立志传 (游戏)",
+    url: "https://zh.wikipedia.org/wiki/%E5%A4%AA%E9%98%81%E7%AB%8B%E5%BF%97%E4%BC%A0_(%E6%B8%B8%E6%88%8F)",
+  },
   facts: [
     {label: "Developer", value: "KOEI"},
     {label: "Published", value: "1995"},

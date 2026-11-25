@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E8%BE%B9%E5%A2%83%E5%AE%9D%E8%97%8F.zip",
+  logo: "/img/dos-games/bian-jing-bao-zang.jpg",
+  wiki: {
+    title: "Gateway to the Savage Frontier",
+    url: "https://en.wikipedia.org/wiki/Gateway_to_the_Savage_Frontier",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

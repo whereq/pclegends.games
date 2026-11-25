@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E5%B7%AB%E6%9C%AF7%E5%A4%B1%E8%90%BD%E7%9A%84%E5%8A%A0%E5%B8%9D%E4%BA%9A.zip",
+  logo: "/img/dos-games/wu-shu-7-shi-luo-de-jia-di-ya.jpg",
+  wiki: {
+    title: "Wizardry VII: Crusaders of the Dark Savant",
+    url: "https://en.wikipedia.org/wiki/Wizardry_VII%3A_Crusaders_of_the_Dark_Savant",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

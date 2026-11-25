@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E7%88%B5%E5%A3%AB%E5%85%94%E5%AE%8C%E6%95%B4%E7%89%88.zip",
+  logo: "/img/dos-games/jue-shi-tu-wan-zheng-ban.jpg",
+  wiki: {
+    title: "Jazz Jackrabbit",
+    url: "https://en.wikipedia.org/wiki/Jazz_Jackrabbit",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

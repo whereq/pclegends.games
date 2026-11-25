@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E5%A6%99%E7%8B%90%E7%A5%9E%E6%8E%A2.zip",
+  logo: "/img/dos-games/miao-hu-shen-tan.jpg",
+  wiki: {
+    title: "Inherit the Earth",
+    url: "https://en.wikipedia.org/wiki/Inherit_the_Earth",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%AF%93%E8%A8%80.zip",
+  logo: "/img/dos-games/yu-yan.jpg",
+  wiki: {
+    title: "Fable (2027 video game)",
+    url: "https://en.wikipedia.org/wiki/Fable_(2027_video_game)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

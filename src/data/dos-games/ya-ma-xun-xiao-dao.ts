@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E4%BA%9A%E9%A9%AC%E9%80%8A%E5%B0%8F%E9%81%93.zip",
+  logo: "/img/dos-games/ya-ma-xun-xiao-dao.jpg",
+  wiki: {
+    title: "The Amazon Trail",
+    url: "https://en.wikipedia.org/wiki/The_Amazon_Trail",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

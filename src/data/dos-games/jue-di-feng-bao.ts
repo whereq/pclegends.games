@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E7%BB%9D%E5%9C%B0%E9%A3%8E%E6%9A%B4.zip",
+  logo: "/img/dos-games/jue-di-feng-bao.jpg",
+  wiki: {
+    title: "KKnD (series)",
+    url: "https://en.wikipedia.org/wiki/KKnD_(series)",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1997"},

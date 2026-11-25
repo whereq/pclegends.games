@@ -21,6 +21,10 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E5%B0%8F%E6%9C%8B%E5%8F%8B%E9%BD%90%E6%89%93%E4%BA%A4.zip",
+  wikiZh: {
+    title: "小朋友齊打交",
+    url: "https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%9C%8B%E5%8F%8B%E9%BD%8A%E6%89%93%E4%BA%A4",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},

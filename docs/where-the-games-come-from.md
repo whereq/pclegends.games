@@ -30,6 +30,25 @@ up to more than the number of games for exactly that reason.
 The manifest decides the first category. A description may add a second.
 Neither ever takes a category away.
 
+## The pictures and the Wikipedia articles
+
+The picture on a card is the game's own — the cover art or the screenshot
+from its Wikipedia article — and the game's page links to that article, so a
+reader who wants to know more can go and read more.
+
+Both come from Wikipedia, and neither is taken on trust. A search for a
+game's name turns up whatever else carries that name: the film *Jurassic
+Park*, the song *Danger Zone*, the bomber *Boeing B-17 Flying Fortress*. So
+every article is checked before it is used. It has to be about a game — the
+description Wikipedia writes under the title settles it, "1992 video game"
+against "American heavy bomber aircraft" — it has to carry the game's name,
+and it has to be about the right years. An article that fails any of those
+checks is not used, and the game keeps the letter on a plate instead.
+
+Where Wikipedia has no article for a game, the card shows the letter on a
+plate and the page carries no link. That is the honest outcome: a card that
+showed the wrong game's box would be worse than one that showed no box.
+
 ## The generated pages
 
 Every page except five is generated from its bundle by a script in the

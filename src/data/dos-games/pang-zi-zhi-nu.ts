@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1989",
   statusZh: "1989",
   url: "https://dos-bin.zczc.cz/%E8%83%96%E5%AD%90%E4%B9%8B%E6%80%92.zip",
+  logo: "/img/dos-games/pang-zi-zhi-nu.jpg",
+  wiki: {
+    title: "Tongue of the Fatman",
+    url: "https://en.wikipedia.org/wiki/Tongue_of_the_Fatman",
+  },
   facts: [
     {label: "Developer", value: "ACTIVISION"},
     {label: "Published", value: "1989"},

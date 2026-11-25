@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1989",
   statusZh: "1989",
   url: "https://dos-bin.zczc.cz/%E6%B9%96%E4%BA%BA%E5%AF%B9%E5%87%AF%E5%B0%94%E7%89%B9%E4%BA%BA.zip",
+  logo: "/img/dos-games/hu-ren-dui-kai-er-te-ren.jpg",
+  wiki: {
+    title: "Lakers versus Celtics and the NBA Playoffs",
+    url: "https://en.wikipedia.org/wiki/Lakers_versus_Celtics_and_the_NBA_Playoffs",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},

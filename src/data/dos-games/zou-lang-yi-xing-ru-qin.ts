@@ -21,6 +21,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E8%B5%B0%E5%BB%8A%EF%BC%9A%E5%BC%82%E5%BD%A2%E5%85%A5%E4%BE%B5.zip",
+  logo: "/img/dos-games/zou-lang-yi-xing-ru-qin.jpg",
+  wiki: {
+    title: "Corridor 7: Alien Invasion",
+    url: "https://en.wikipedia.org/wiki/Corridor_7%3A_Alien_Invasion",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

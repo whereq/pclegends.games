@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E5%8B%87%E8%80%85%E6%96%97%E6%81%B6%E9%BE%99.zip",
+  logo: "/img/dos-games/yong-zhe-dou-e-long.jpg",
+  wiki: {
+    title: "Dragon Fighter (video game)",
+    url: "https://en.wikipedia.org/wiki/Dragon_Fighter_(video_game)",
+  },
+  wikiZh: {
+    title: "勇者鬥惡龍系列",
+    url: "https://zh.wikipedia.org/wiki/%E5%8B%87%E8%80%85%E9%AC%A5%E6%83%A1%E9%BE%8D%E7%B3%BB%E5%88%97",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

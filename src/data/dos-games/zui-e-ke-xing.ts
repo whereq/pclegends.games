@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E7%BD%AA%E6%81%B6%E5%85%8B%E6%98%9F.zip",
+  logo: "/img/dos-games/zui-e-ke-xing.jpg",
+  wiki: {
+    title: "Crime Fighters",
+    url: "https://en.wikipedia.org/wiki/Crime_Fighters",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

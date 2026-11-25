@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%971.zip",
+  logo: "/img/dos-games/san-guo-zhi-1.jpg",
+  wiki: {
+    title: "Romance of the Three Kingdoms (video game series)",
+    url: "https://en.wikipedia.org/wiki/Romance_of_the_Three_Kingdoms_(video_game_series)",
+  },
   facts: [
     {label: "Developer", value: "ENIX"},
     {label: "Published", value: "1996"},

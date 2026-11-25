@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E7%BA%A2%E8%89%B2%E8%B6%8A%E9%87%8E%E6%8B%89%E5%8A%9B%E8%B5%9B.zip",
+  logo: "/img/dos-games/hong-se-yue-ye-la-li-sai.jpg",
+  wiki: {
+    title: "Big Red Racing",
+    url: "https://en.wikipedia.org/wiki/Big_Red_Racing",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

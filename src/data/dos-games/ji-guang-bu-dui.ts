@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E6%BF%80%E5%85%89%E9%83%A8%E9%98%9F.zip",
+  logo: "/img/dos-games/ji-guang-bu-dui.jpg",
+  wiki: {
+    title: "Laser Squad",
+    url: "https://en.wikipedia.org/wiki/Laser_Squad",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

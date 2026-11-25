@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E9%BE%99%E9%AA%91%E5%A3%AB4.zip",
+  logo: "/img/dos-games/long-qi-shi-4.jpg",
+  wiki: {
+    title: "Dragon Knight 4",
+    url: "https://en.wikipedia.org/wiki/Dragon_Knight_4",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

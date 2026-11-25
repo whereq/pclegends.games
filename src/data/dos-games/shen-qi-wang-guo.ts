@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1987",
   statusZh: "1987",
   url: "https://dos-bin.zczc.cz/%E7%A5%9E%E5%A5%87%E7%8E%8B%E5%9B%BD.zip",
+  logo: "/img/dos-games/shen-qi-wang-guo.jpg",
+  wiki: {
+    title: "King's Quest",
+    url: "https://en.wikipedia.org/wiki/King%27s_Quest",
+  },
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1987"},

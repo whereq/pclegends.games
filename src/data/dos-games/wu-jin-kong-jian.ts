@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%97%A0%E5%B0%BD%E7%A9%BA%E9%97%B4.zip",
+  logo: "/img/dos-games/wu-jin-kong-jian.jpg",
+  wiki: {
+    title: "Ultimate Domain",
+    url: "https://en.wikipedia.org/wiki/Ultimate_Domain",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

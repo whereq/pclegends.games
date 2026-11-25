@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E5%8C%BB%E7%94%9F%E4%B9%9F%E7%96%AF%E7%8B%82.zip",
+  logo: "/img/dos-games/yi-sheng-ye-feng-kuang.jpg",
+  wiki: {
+    title: "Life & Death",
+    url: "https://en.wikipedia.org/wiki/Life_%26_Death",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1991"},

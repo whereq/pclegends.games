@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "Archive",
   statusZh: "归档",
   url: "https://dos-bin.zczc.cz/%E6%AD%BB%E4%BA%A1%E6%8B%89%E5%8A%9B%E8%B5%9B.zip",
+  logo: "/img/dos-games/si-wang-la-li-sai.jpg",
+  wiki: {
+    title: "Death Rally",
+    url: "https://en.wikipedia.org/wiki/Death_Rally",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},

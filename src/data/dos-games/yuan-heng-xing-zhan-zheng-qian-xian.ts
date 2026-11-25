@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E5%8E%9F%E6%81%92%E6%98%9F%E6%88%98%E4%BA%89%E5%89%8D%E7%BA%BF.zip",
+  logo: "/img/dos-games/yuan-heng-xing-zhan-zheng-qian-xian.jpg",
+  wiki: {
+    title: "Protostar: War on the Frontier",
+    url: "https://en.wikipedia.org/wiki/Protostar%3A_War_on_the_Frontier",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1993"},

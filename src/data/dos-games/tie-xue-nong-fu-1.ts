@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E9%93%81%E8%A1%80%E5%86%9C%E5%A4%AB1.zip",
+  logo: "/img/dos-games/tie-xue-nong-fu-1.jpg",
+  wiki: {
+    title: "Redneck Rampage",
+    url: "https://en.wikipedia.org/wiki/Redneck_Rampage",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1997"},

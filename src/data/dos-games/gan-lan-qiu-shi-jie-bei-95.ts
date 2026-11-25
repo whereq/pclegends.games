@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%A9%84%E6%A6%84%E7%90%83%E4%B8%96%E7%95%8C%E6%9D%AF95.zip",
+  logo: "/img/dos-games/gan-lan-qiu-shi-jie-bei-95.jpg",
+  wiki: {
+    title: "Rugby World Cup '95",
+    url: "https://en.wikipedia.org/wiki/Rugby_World_Cup_%2795",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

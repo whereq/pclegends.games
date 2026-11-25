@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E4%BE%A0%E5%AE%A2%E8%8B%B1%E9%9B%84%E4%BC%A0.zip",
+  wikiZh: {
+    title: "俠客英雄傳",
+    url: "https://zh.wikipedia.org/wiki/%E4%BF%A0%E5%AE%A2%E8%8B%B1%E9%9B%84%E5%82%B3",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

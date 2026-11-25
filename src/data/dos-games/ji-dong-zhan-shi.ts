@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "Archive",
   statusZh: "归档",
   url: "https://dos-bin.zczc.cz/%E6%9C%BA%E5%8A%A8%E6%88%98%E5%A3%AB.zip",
+  logo: "/img/dos-games/ji-dong-zhan-shi.jpg",
+  wiki: {
+    title: "Thexder",
+    url: "https://en.wikipedia.org/wiki/Thexder",
+  },
+  wikiZh: {
+    title: "机动战士Z高达：HOT SCRAMBLE",
+    url: "https://zh.wikipedia.org/wiki/%E6%9C%BA%E5%8A%A8%E6%88%98%E5%A3%ABZ%E9%AB%98%E8%BE%BE%EF%BC%9AHOT_SCRAMBLE",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},

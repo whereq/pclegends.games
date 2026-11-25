@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E7%A9%BF%E8%B6%8A%E4%B9%8B%E6%88%98.zip",
+  logo: "/img/dos-games/chuan-yue-zhi-zhan.jpg",
+  wiki: {
+    title: "Battles in Time",
+    url: "https://en.wikipedia.org/wiki/Battles_in_Time",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

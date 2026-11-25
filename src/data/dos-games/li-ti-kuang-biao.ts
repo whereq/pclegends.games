@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E7%AB%8B%E4%BD%93%E7%8B%82%E9%A3%9A.zip",
+  logo: "/img/dos-games/li-ti-kuang-biao.jpg",
+  wiki: {
+    title: "Hi-Octane",
+    url: "https://en.wikipedia.org/wiki/Hi-Octane",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E7%99%BE%E5%A4%AB%E9%95%BF%E7%BD%97%E9%A9%AC%E9%98%B2%E5%BE%A1.zip",
+  logo: "/img/dos-games/bai-fu-zhang-luo-ma-fang-yu.jpg",
+  wiki: {
+    title: "Centurion: Defender of Rome",
+    url: "https://en.wikipedia.org/wiki/Centurion%3A_Defender_of_Rome",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},

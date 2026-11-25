@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E4%BE%8F%E7%BD%97%E7%BA%AA%E5%85%AC%E5%9B%AD.zip",
+  logo: "/img/dos-games/zhu-luo-ji-gong-yuan.jpg",
+  wiki: {
+    title: "Jurassic Park video games",
+    url: "https://en.wikipedia.org/wiki/Jurassic_Park_video_games",
+  },
+  wikiZh: {
+    title: "侏罗纪公园互动",
+    url: "https://zh.wikipedia.org/wiki/%E4%BE%8F%E7%BD%97%E7%BA%AA%E5%85%AC%E5%9B%AD%E4%BA%92%E5%8A%A8",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

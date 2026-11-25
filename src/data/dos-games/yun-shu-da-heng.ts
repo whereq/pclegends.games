@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E8%BF%90%E8%BE%93%E5%A4%A7%E4%BA%A8.zip",
+  logo: "/img/dos-games/yun-shu-da-heng.jpg",
+  wiki: {
+    title: "Transport Tycoon",
+    url: "https://en.wikipedia.org/wiki/Transport_Tycoon",
+  },
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "1994"},

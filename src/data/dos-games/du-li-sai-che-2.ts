@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E7%8B%AC%E7%AB%8B%E8%B5%9B%E8%BD%A62.zip",
+  logo: "/img/dos-games/du-li-sai-che-2.jpg",
+  wiki: {
+    title: "Indianapolis 500: The Simulation",
+    url: "https://en.wikipedia.org/wiki/Indianapolis_500%3A_The_Simulation",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},

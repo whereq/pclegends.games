@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E9%BE%99%E4%B9%8B%E7%8E%8B%E5%9B%BD.zip",
+  logo: "/img/dos-games/long-zhi-wang-guo.jpg",
+  wiki: {
+    title: "Dragonsphere",
+    url: "https://en.wikipedia.org/wiki/Dragonsphere",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

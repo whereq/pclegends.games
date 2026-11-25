@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E8%8B%B1%E4%BC%A6%E9%9C%B8%E4%B8%BB.zip",
+  logo: "/img/dos-games/ying-lun-ba-zhu.jpg",
+  wiki: {
+    title: "Lords of the Realm",
+    url: "https://en.wikipedia.org/wiki/Lords_of_the_Realm",
+  },
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1994"},

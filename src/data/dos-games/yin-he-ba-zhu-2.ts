@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%9C%B8%E4%B8%BB2.zip",
+  logo: "/img/dos-games/yin-he-ba-zhu-2.jpg",
+  wiki: {
+    title: "Master of Orion II: Battle at Antares",
+    url: "https://en.wikipedia.org/wiki/Master_of_Orion_II%3A_Battle_at_Antares",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},

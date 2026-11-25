@@ -53,7 +53,11 @@ PUBLISHED = '/home/whereq/git/dos/published-names.json'
 WIKI = '/home/whereq/git/dos/wiki-english-names.json'
 CATALOGUE = '/home/whereq/git/dos/catalogue-names.json'
 AGENT_RESULTS = '/tmp/name-results/result-*.json'
-OVERRIDES = '/tmp/name-overrides.json'
+# The overrides live in the repository, so a rebuilt title table is the same
+# table and not a fresh guess. The file in /tmp is where the arbitration
+# writes its results; it is read as well, so a run in progress is not lost.
+OVERRIDES = os.path.join(ROOT, 'data', 'name-overrides.json')
+OVERRIDES_TMP = '/tmp/name-overrides.json'
 EVIDENCE = '/home/whereq/git/dos/title-evidence.json'
 
 # The order a source wins in: the one closest to the artefact first. A title
@@ -254,8 +258,16 @@ def main():
     # The indexes publish machine output for some of the Chinese games: the
     # Chinese name in Latin letters, or the Chinese name translated word for
     # word. A checked game can carry a different title, or none at all.
-    if os.path.exists(OVERRIDES):
-        overrides = json.load(open(OVERRIDES, encoding='utf-8'))
+    #
+    # The file in the repository is the one that counts; the file in /tmp is
+    # where the arbitration writes as it goes, so a run in progress is read
+    # as well and its results are not lost.
+    overrides = {}
+    for path in (OVERRIDES, OVERRIDES_TMP):
+        if os.path.exists(path):
+            for name, entry in json.load(open(path, encoding='utf-8')).items():
+                overrides[name] = entry
+    if overrides:
         for name, entry in overrides.items():
             english = (entry.get('en') or '').strip()
             if not english:

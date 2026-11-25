@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%88%98%E7%95%A5.zip",
+  wikiZh: {
+    title: "大战略 ～钢铁战风～",
+    url: "https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%88%98%E7%95%A5_%EF%BD%9E%E9%92%A2%E9%93%81%E6%88%98%E9%A3%8E%EF%BD%9E",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

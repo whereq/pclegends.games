@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%88%98%E5%88%A9%E5%93%81.zip",
+  logo: "/img/dos-games/zhan-li-pin.jpg",
+  wikiZh: {
+    title: "战利品 (电子游戏)",
+    url: "https://zh.wikipedia.org/wiki/%E6%88%98%E5%88%A9%E5%93%81_(%E7%94%B5%E5%AD%90%E6%B8%B8%E6%88%8F)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

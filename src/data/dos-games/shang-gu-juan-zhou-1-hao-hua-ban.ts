@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B41%E8%B1%AA%E5%8D%8E%E7%89%88.zip",
+  logo: "/img/dos-games/shang-gu-juan-zhou-1-hao-hua-ban.jpg",
+  wiki: {
+    title: "The Elder Scrolls: Arena",
+    url: "https://en.wikipedia.org/wiki/The_Elder_Scrolls%3A_Arena",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

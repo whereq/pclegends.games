@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%B9%BB%E5%B0%86%E5%86%9B.zip",
+  logo: "/img/dos-games/mo-huan-jiang-jun.jpg",
+  wiki: {
+    title: "Fantasy General",
+    url: "https://en.wikipedia.org/wiki/Fantasy_General",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

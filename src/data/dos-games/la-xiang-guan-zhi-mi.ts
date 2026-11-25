@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E8%9C%A1%E5%83%8F%E9%A6%86%E4%B9%8B%E8%B0%9C.zip",
+  logo: "/img/dos-games/la-xiang-guan-zhi-mi.jpg",
+  wiki: {
+    title: "Waxworks (1992 video game)",
+    url: "https://en.wikipedia.org/wiki/Waxworks_(1992_video_game)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

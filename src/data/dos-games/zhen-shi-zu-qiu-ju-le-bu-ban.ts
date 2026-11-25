@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E7%9C%9F%E5%AE%9E%E8%B6%B3%E7%90%83%E4%BF%B1%E4%B9%90%E9%83%A8%E7%89%88.zip",
+  logo: "/img/dos-games/zhen-shi-zu-qiu-ju-le-bu-ban.jpg",
+  wiki: {
+    title: "Actua Soccer",
+    url: "https://en.wikipedia.org/wiki/Actua_Soccer",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},

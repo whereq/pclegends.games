@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E8%A7%A3%E6%95%91%E5%8D%8E%E7%9B%9B%E9%A1%BF.zip",
+  logo: "/img/dos-games/jie-jiu-hua-sheng-dun.jpg",
+  wiki: {
+    title: "Free D.C!",
+    url: "https://en.wikipedia.org/wiki/Free_D.C%21",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},

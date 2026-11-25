@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E6%B7%98%E9%87%91%E8%80%85.zip",
+  logo: "/img/dos-games/tao-jin-zhe.jpg",
+  wiki: {
+    title: "Lode Runner: The Legend Returns",
+    url: "https://en.wikipedia.org/wiki/Lode_Runner%3A_The_Legend_Returns",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

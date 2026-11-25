@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1988",
   statusZh: "1988",
   url: "https://dos-bin.zczc.cz/%E6%9C%80%E5%90%8E%E7%9A%84%E5%BF%8D%E8%80%85.zip",
+  logo: "/img/dos-games/zui-hou-de-ren-zhe.jpg",
+  wiki: {
+    title: "The Last Ninja",
+    url: "https://en.wikipedia.org/wiki/The_Last_Ninja",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1988"},

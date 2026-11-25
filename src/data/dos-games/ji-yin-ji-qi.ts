@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%9F%BA%E5%9B%A0%E6%9C%BA%E5%99%A8.zip",
+  logo: "/img/dos-games/ji-yin-ji-qi.jpg",
+  wiki: {
+    title: "The Gene Machine",
+    url: "https://en.wikipedia.org/wiki/The_Gene_Machine",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

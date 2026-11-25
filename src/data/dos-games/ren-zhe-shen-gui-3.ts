@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E5%BF%8D%E8%80%85%E7%A5%9E%E9%BE%9F3.zip",
+  wikiZh: {
+    title: "忍者神龜III",
+    url: "https://zh.wikipedia.org/wiki/%E5%BF%8D%E8%80%85%E7%A5%9E%E9%BE%9CIII",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

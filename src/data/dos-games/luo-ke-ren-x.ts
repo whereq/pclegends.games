@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E6%B4%9B%E5%85%8B%E4%BA%BAX.zip",
+  logo: "/img/dos-games/luo-ke-ren-x.jpg",
+  wiki: {
+    title: "Mega Man X",
+    url: "https://en.wikipedia.org/wiki/Mega_Man_X",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

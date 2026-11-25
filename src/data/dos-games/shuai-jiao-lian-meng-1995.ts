@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%91%94%E8%A7%92%E8%81%94%E7%9B%9F1995.zip",
+  logo: "/img/dos-games/shuai-jiao-lian-meng-1995.jpg",
+  wiki: {
+    title: "WWF WrestleMania: The Arcade Game",
+    url: "https://en.wikipedia.org/wiki/WWF_WrestleMania%3A_The_Arcade_Game",
+  },
   facts: [
     {label: "Developer", value: "ACCLAIM"},
     {label: "Published", value: "1996"},

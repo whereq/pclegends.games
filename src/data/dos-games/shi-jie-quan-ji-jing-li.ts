@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E4%B8%96%E7%95%8C%E6%8B%B3%E5%87%BB%E7%BB%8F%E7%90%86.zip",
+  logo: "/img/dos-games/shi-jie-quan-ji-jing-li.jpg",
+  wiki: {
+    title: "World Championship Boxing Manager",
+    url: "https://en.wikipedia.org/wiki/World_Championship_Boxing_Manager",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

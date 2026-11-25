@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E4%BB%A5%E6%92%922%E6%9C%AB%E6%97%A5%E4%BD%BF%E8%80%85.zip",
+  logo: "/img/dos-games/yi-sa-2-mo-ri-shi-zhe.jpg",
+  wiki: {
+    title: "Ishar 2: Messengers of Doom",
+    url: "https://en.wikipedia.org/wiki/Ishar_2%3A_Messengers_of_Doom",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

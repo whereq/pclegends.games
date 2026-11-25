@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "2010",
   statusZh: "2010",
   url: "https://dos-bin.zczc.cz/%E8%92%82%E6%96%AF%E8%9B%8B%E8%9B%8B%E9%BB%84%E7%8E%8B%E5%AD%90.zip",
+  logo: "/img/dos-games/di-si-dan-dan-huang-wang-zi.jpg",
+  wiki: {
+    title: "Dizzy (series)",
+    url: "https://en.wikipedia.org/wiki/Dizzy_(series)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2010"},

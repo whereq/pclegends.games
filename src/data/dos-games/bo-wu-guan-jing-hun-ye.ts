@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E5%8D%9A%E7%89%A9%E9%A6%86%E6%83%8A%E9%AD%82%E5%A4%9C.zip",
+  logo: "/img/dos-games/bo-wu-guan-jing-hun-ye.jpg",
+  wiki: {
+    title: "Museum Madness",
+    url: "https://en.wikipedia.org/wiki/Museum_Madness",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1994"},

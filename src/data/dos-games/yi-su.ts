@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1989",
   statusZh: "1989",
   url: "https://dos-bin.zczc.cz/%E4%BC%8A%E8%8B%8F.zip",
+  logo: "/img/dos-games/yi-su.jpg",
+  wiki: {
+    title: "Ys I",
+    url: "https://en.wikipedia.org/wiki/Ys_I",
+  },
+  wikiZh: {
+    title: "伊苏 失落的伊苏古国 序章",
+    url: "https://zh.wikipedia.org/wiki/%E4%BC%8A%E8%8B%8F_%E5%A4%B1%E8%90%BD%E7%9A%84%E4%BC%8A%E8%8B%8F%E5%8F%A4%E5%9B%BD_%E5%BA%8F%E7%AB%A0",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1989"},

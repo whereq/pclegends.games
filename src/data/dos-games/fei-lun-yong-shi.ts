@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1988",
   statusZh: "1988",
   url: "https://dos-bin.zczc.cz/%E9%A3%9E%E8%BD%AE%E5%8B%87%E5%A3%AB.zip",
+  logo: "/img/dos-games/fei-lun-yong-shi.jpg",
+  wiki: {
+    title: "Autoduel",
+    url: "https://en.wikipedia.org/wiki/Autoduel",
+  },
   facts: [
     {label: "Developer", value: "ENIX"},
     {label: "Published", value: "1988"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E9%A3%93%E9%A3%8E%E6%9C%BA%E7%94%B2.zip",
+  logo: "/img/dos-games/ju-feng-ji-jia.jpg",
+  wiki: {
+    title: "CyClones",
+    url: "https://en.wikipedia.org/wiki/CyClones",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E5%8D%92%E4%B8%9A.zip",
+  logo: "/img/dos-games/zu-ye.jpg",
+  wikiZh: {
+    title: "卒業 ～Next Graduation～",
+    url: "https://zh.wikipedia.org/wiki/%E5%8D%92%E6%A5%AD_%EF%BD%9ENext_Graduation%EF%BD%9E",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

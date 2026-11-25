@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%A3%AE%E5%BF%97%E5%87%8C%E4%BA%91.zip",
+  logo: "/img/dos-games/zhuang-zhi-ling-yun.jpg",
+  wiki: {
+    title: "Top Gun: Fire at Will",
+    url: "https://en.wikipedia.org/wiki/Top_Gun%3A_Fire_at_Will",
+  },
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1996"},

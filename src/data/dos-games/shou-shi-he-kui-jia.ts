@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E9%A6%96%E9%A5%B0%E5%92%8C%E7%9B%94%E7%94%B2.zip",
+  logo: "/img/dos-games/shou-shi-he-kui-jia.jpg",
+  wiki: {
+    title: "Amulets & Armor",
+    url: "https://en.wikipedia.org/wiki/Amulets_%26_Armor",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

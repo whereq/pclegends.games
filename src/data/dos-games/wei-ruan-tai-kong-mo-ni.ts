@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%BE%AE%E8%BD%AF%E5%A4%AA%E7%A9%BA%E6%A8%A1%E6%8B%9F.zip",
+  logo: "/img/dos-games/wei-ruan-tai-kong-mo-ni.jpg",
+  wiki: {
+    title: "Microsoft Space Simulator",
+    url: "https://en.wikipedia.org/wiki/Microsoft_Space_Simulator",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},

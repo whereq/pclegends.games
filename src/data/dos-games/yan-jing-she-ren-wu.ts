@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E7%9C%BC%E9%95%9C%E8%9B%87%E4%BB%BB%E5%8A%A1.zip",
+  logo: "/img/dos-games/yan-jing-she-ren-wu.jpg",
+  wiki: {
+    title: "Cobra Mission: Panic in Cobra City",
+    url: "https://en.wikipedia.org/wiki/Cobra_Mission%3A_Panic_in_Cobra_City",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

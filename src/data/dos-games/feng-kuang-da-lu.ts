@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E5%A4%A7%E9%99%86.zip",
+  logo: "/img/dos-games/feng-kuang-da-lu.jpg",
+  wiki: {
+    title: "Mega-Lo-Mania",
+    url: "https://en.wikipedia.org/wiki/Mega-Lo-Mania",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

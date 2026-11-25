@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E6%BF%80%E6%88%98M%E6%98%9F%E4%BA%91.zip",
+  logo: "/img/dos-games/ji-zhan-m-xing-yun.jpg",
+  wiki: {
+    title: "Star Control",
+    url: "https://en.wikipedia.org/wiki/Star_Control",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},

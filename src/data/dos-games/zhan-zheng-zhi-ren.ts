@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "2009",
   statusZh: "2009",
   url: "https://dos-bin.zczc.cz/%E6%88%98%E4%BA%89%E4%B9%8B%E4%BA%BA.zip",
+  logo: "/img/dos-games/zhan-zheng-zhi-ren.jpg",
+  wikiZh: {
+    title: "战争之人 (游戏)",
+    url: "https://zh.wikipedia.org/wiki/%E6%88%98%E4%BA%89%E4%B9%8B%E4%BA%BA_(%E6%B8%B8%E6%88%8F)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2009"},

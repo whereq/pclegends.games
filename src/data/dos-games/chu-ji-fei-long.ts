@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "1989",
   statusZh: "1989",
   url: "https://dos-bin.zczc.cz/%E5%87%BA%E5%87%BB%E9%A3%9E%E9%BE%99.zip",
+  wikiZh: {
+    title: "出擊飛龍",
+    url: "https://zh.wikipedia.org/wiki/%E5%87%BA%E6%93%8A%E9%A3%9B%E9%BE%8D",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E7%AB%A5%E8%AF%9D%E6%96%B0%E7%BC%96.zip",
+  logo: "/img/dos-games/tong-hua-xin-bian.jpg",
+  wiki: {
+    title: "Mixed-Up Fairy Tales",
+    url: "https://en.wikipedia.org/wiki/Mixed-Up_Fairy_Tales",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

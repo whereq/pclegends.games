@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E5%9D%A6%E5%85%8B%E5%A4%A7%E5%86%B3%E6%88%98.zip",
+  logo: "/img/dos-games/tan-ke-da-jue-zhan.jpg",
+  wikiZh: {
+    title: "坦克大決戰",
+    url: "https://zh.wikipedia.org/wiki/%E5%9D%A6%E5%85%8B%E5%A4%A7%E6%B1%BA%E6%88%B0",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

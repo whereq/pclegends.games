@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/F1%E8%B5%9B%E8%BD%A61994.zip",
+  logo: "/img/dos-games/f1-sai-che-1994.jpg",
+  wiki: {
+    title: "Formula One (video game)",
+    url: "https://en.wikipedia.org/wiki/Formula_One_(video_game)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

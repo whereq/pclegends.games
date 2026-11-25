@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E9%80%83%E7%A6%BB%E8%84%91%E5%8D%9A%E5%A3%AB%E7%9A%84%E5%9F%8E%E5%A0%A1.zip",
+  logo: "/img/dos-games/tao-li-nao-bo-shi-de-cheng-bao.jpg",
+  wiki: {
+    title: "Castle of Dr. Brain",
+    url: "https://en.wikipedia.org/wiki/Castle_of_Dr._Brain",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

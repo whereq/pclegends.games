@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/66%E5%8C%BA.zip",
+  logo: "/img/dos-games/66-qu.jpg",
+  wiki: {
+    title: "Zone 66",
+    url: "https://en.wikipedia.org/wiki/Zone_66",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

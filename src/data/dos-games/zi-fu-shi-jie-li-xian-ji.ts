@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%AD%97%E7%AC%A6%E4%B8%96%E7%95%8C%E5%8E%86%E9%99%A9%E8%AE%B0.zip",
+  logo: "/img/dos-games/zi-fu-shi-jie-li-xian-ji.jpg",
+  wiki: {
+    title: "ZZT",
+    url: "https://en.wikipedia.org/wiki/ZZT",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

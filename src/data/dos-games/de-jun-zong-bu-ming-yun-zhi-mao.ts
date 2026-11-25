@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "2010",
   statusZh: "2010",
   url: "https://dos-bin.zczc.cz/%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A8%E5%91%BD%E8%BF%90%E4%B9%8B%E7%9F%9B.zip",
+  wikiZh: {
+    title: "德軍總部系列",
+    url: "https://zh.wikipedia.org/wiki/%E5%BE%B7%E8%BB%8D%E7%B8%BD%E9%83%A8%E7%B3%BB%E5%88%97",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2010"},

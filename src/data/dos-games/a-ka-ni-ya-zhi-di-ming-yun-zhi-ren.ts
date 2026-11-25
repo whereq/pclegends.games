@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E9%98%BF%E5%8D%A1%E5%B0%BC%E4%BA%9A%E4%B9%8B%E5%9C%B0%E5%91%BD%E8%BF%90%E4%B9%8B%E5%88%83.zip",
+  logo: "/img/dos-games/a-ka-ni-ya-zhi-di-ming-yun-zhi-ren.jpg",
+  wiki: {
+    title: "Realms of Arkania: Blade of Destiny",
+    url: "https://en.wikipedia.org/wiki/Realms_of_Arkania%3A_Blade_of_Destiny",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

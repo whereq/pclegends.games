@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E5%BF%8D%E8%80%85%E7%A5%9E%E9%BE%9F.zip",
+  logo: "/img/dos-games/ren-zhe-shen-gui.jpg",
+  wikiZh: {
+    title: "忍者神龟 (2003年游戏)",
+    url: "https://zh.wikipedia.org/wiki/%E5%BF%8D%E8%80%85%E7%A5%9E%E9%BE%9F_(2003%E5%B9%B4%E6%B8%B8%E6%88%8F)",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1990"},

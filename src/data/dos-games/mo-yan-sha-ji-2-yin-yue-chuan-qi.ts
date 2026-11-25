@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E6%9D%80%E6%9C%BA2%E9%9A%90%E6%9C%88%E4%BC%A0%E5%A5%87.zip",
+  logo: "/img/dos-games/mo-yan-sha-ji-2-yin-yue-chuan-qi.jpg",
+  wiki: {
+    title: "Eye of the Beholder II: The Legend of Darkmoon",
+    url: "https://en.wikipedia.org/wiki/Eye_of_the_Beholder_II%3A_The_Legend_of_Darkmoon",
+  },
   facts: [
     {label: "Developer", value: "智冠科技"},
     {label: "Published", value: "1991"},

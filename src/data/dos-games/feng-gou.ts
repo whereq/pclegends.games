@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%97.zip",
+  logo: "/img/dos-games/feng-gou.jpg",
+  wiki: {
+    title: "Mad Dog McCree",
+    url: "https://en.wikipedia.org/wiki/Mad_Dog_McCree",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

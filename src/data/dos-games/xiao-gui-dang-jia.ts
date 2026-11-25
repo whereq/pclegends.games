@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E5%B0%8F%E9%AC%BC%E5%BD%93%E5%AE%B6.zip",
+  logo: "/img/dos-games/xiao-gui-dang-jia.jpg",
+  wiki: {
+    title: "Home Alone (video game)",
+    url: "https://en.wikipedia.org/wiki/Home_Alone_(video_game)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

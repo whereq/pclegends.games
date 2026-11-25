@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA7%E4%B8%8A%E9%BB%91%E6%9C%88%E4%B9%8B%E9%97%A8.zip",
+  logo: "/img/dos-games/chuang-shi-ji-7-shang-hei-yue-zhi-men.jpg",
+  wiki: {
+    title: "Ultima VII: The Black Gate",
+    url: "https://en.wikipedia.org/wiki/Ultima_VII%3A_The_Black_Gate",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

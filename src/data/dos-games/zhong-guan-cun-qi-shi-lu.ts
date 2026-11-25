@@ -21,6 +21,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E4%B8%AD%E5%85%B3%E6%9D%91%E5%90%AF%E7%A4%BA%E5%BD%95.zip",
+  logo: "/img/dos-games/zhong-guan-cun-qi-shi-lu.jpg",
+  wikiZh: {
+    title: "中关村启示录",
+    url: "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%85%B3%E6%9D%91%E5%90%AF%E7%A4%BA%E5%BD%95",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

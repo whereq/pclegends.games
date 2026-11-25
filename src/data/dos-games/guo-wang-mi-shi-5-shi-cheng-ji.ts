@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF5%E5%A4%B1%E5%9F%8E%E8%AE%B0.zip",
+  logo: "/img/dos-games/guo-wang-mi-shi-5-shi-cheng-ji.jpg",
+  wiki: {
+    title: "King's Quest V",
+    url: "https://en.wikipedia.org/wiki/King%27s_Quest_V",
+  },
+  wikiZh: {
+    title: "国王密使V：失城记",
+    url: "https://zh.wikipedia.org/wiki/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BFV%EF%BC%9A%E5%A4%B1%E5%9F%8E%E8%AE%B0",
+  },
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1990"},

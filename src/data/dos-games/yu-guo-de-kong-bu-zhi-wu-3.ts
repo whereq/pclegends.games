@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E9%9B%A8%E6%9E%9C%E7%9A%84%E6%81%90%E6%80%96%E4%B9%8B%E5%B1%8B3.zip",
+  logo: "/img/dos-games/yu-guo-de-kong-bu-zhi-wu-3.jpg",
+  wiki: {
+    title: "Hugo III, Jungle of Doom!",
+    url: "https://en.wikipedia.org/wiki/Hugo_III%2C_Jungle_of_Doom%21",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1992"},

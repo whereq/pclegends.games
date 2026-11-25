@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E4%B8%83%E6%98%9F%E9%AD%94%E6%B3%95%E4%BD%BF.zip",
+  logo: "/img/dos-games/qi-xing-mo-fa-shi.jpg",
+  wiki: {
+    title: "Sorcerian",
+    url: "https://en.wikipedia.org/wiki/Sorcerian",
+  },
+  wikiZh: {
+    title: "七星魔法使",
+    url: "https://zh.wikipedia.org/wiki/%E4%B8%83%E6%98%9F%E9%AD%94%E6%B3%95%E4%BD%BF",
+  },
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1990"},

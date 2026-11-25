@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E6%88%98%E5%A3%AB2%E7%BB%88%E7%BB%93%E7%89%88.zip",
+  logo: "/img/dos-games/hui-mie-zhan-shi-2-zhong-jie-ban.jpg",
+  wiki: {
+    title: "Doom II",
+    url: "https://en.wikipedia.org/wiki/Doom_II",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},

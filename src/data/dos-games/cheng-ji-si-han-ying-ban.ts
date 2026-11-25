@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E6%88%90%E5%90%89%E6%80%9D%E6%B1%97%E8%8B%B1%E7%89%88.zip",
+  logo: "/img/dos-games/cheng-ji-si-han-ying-ban.jpg",
+  wiki: {
+    title: "Genghis Khan II: Clan of the Gray Wolf",
+    url: "https://en.wikipedia.org/wiki/Genghis_Khan_II%3A_Clan_of_the_Gray_Wolf",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

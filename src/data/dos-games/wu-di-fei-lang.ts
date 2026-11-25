@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1999",
   statusZh: "1999",
   url: "https://dos-bin.zczc.cz/%E6%97%A0%E6%95%8C%E9%A3%9E%E7%8B%BC.zip",
+  logo: "/img/dos-games/wu-di-fei-lang.jpg",
+  wiki: {
+    title: "Gunship 2000",
+    url: "https://en.wikipedia.org/wiki/Gunship_2000",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1999"},

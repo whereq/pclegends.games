@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E4%B8%8A%E5%B8%9D.zip",
+  logo: "/img/dos-games/shang-di.jpg",
+  wiki: {
+    title: "God Eater (video game)",
+    url: "https://en.wikipedia.org/wiki/God_Eater_(video_game)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

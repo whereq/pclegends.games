@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%A4%B1%E8%90%BD%E7%9A%84%E7%BB%B4%E4%BA%AC%E4%BA%BA2.zip",
+  logo: "/img/dos-games/shi-luo-de-wei-jing-ren-2.jpg",
+  wiki: {
+    title: "The Lost Vikings 2",
+    url: "https://en.wikipedia.org/wiki/The_Lost_Vikings_2",
+  },
+  wikiZh: {
+    title: "失落的维京人2",
+    url: "https://zh.wikipedia.org/wiki/%E5%A4%B1%E8%90%BD%E7%9A%84%E7%BB%B4%E4%BA%AC%E4%BA%BA2",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

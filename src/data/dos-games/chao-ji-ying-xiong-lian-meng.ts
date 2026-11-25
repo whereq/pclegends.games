@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F.zip",
+  logo: "/img/dos-games/chao-ji-ying-xiong-lian-meng.jpg",
+  wiki: {
+    title: "Superhero League of Hoboken",
+    url: "https://en.wikipedia.org/wiki/Superhero_League_of_Hoboken",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

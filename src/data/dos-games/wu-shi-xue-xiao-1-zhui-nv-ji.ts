@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E5%B7%AB%E5%B8%88%E5%AD%A6%E6%A0%A11%E8%BF%BD%E5%A5%B3%E8%AE%B0.zip",
+  logo: "/img/dos-games/wu-shi-xue-xiao-1-zhui-nv-ji.jpg",
+  wiki: {
+    title: "Spellcasting 101: Sorcerers Get All the Girls",
+    url: "https://en.wikipedia.org/wiki/Spellcasting_101%3A_Sorcerers_Get_All_the_Girls",
+  },
   facts: [
     {label: "Developer", value: "ENIX"},
     {label: "Published", value: "1990"},

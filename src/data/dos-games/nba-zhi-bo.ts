@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/NBA%E7%9B%B4%E6%92%AD.zip",
+  logo: "/img/dos-games/nba-zhi-bo.jpg",
+  wiki: {
+    title: "TV Sports: Basketball",
+    url: "https://en.wikipedia.org/wiki/TV_Sports%3A_Basketball",
+  },
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1997"},

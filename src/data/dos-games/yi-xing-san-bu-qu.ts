@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E4%B8%89%E9%83%A8%E6%9B%B2.zip",
+  logo: "/img/dos-games/yi-xing-san-bu-qu.jpg",
+  wiki: {
+    title: "Alien Trilogy",
+    url: "https://en.wikipedia.org/wiki/Alien_Trilogy",
+  },
   facts: [
     {label: "Developer", value: "ACCLAIM"},
     {label: "Published", value: "1996"},

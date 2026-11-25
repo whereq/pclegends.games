@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E7%9C%9F%E4%BA%BA%E5%BF%AB%E6%89%932.zip",
+  logo: "/img/dos-games/zhen-ren-kuai-da-2.jpg",
+  wiki: {
+    title: "Mortal Kombat II",
+    url: "https://en.wikipedia.org/wiki/Mortal_Kombat_II",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1994"},

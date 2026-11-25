@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E9%80%9A%E8%B7%AF2.zip",
+  logo: "/img/dos-games/tong-lu-2.jpg",
+  wiki: {
+    title: "Gateway II: Homeworld",
+    url: "https://en.wikipedia.org/wiki/Gateway_II%3A_Homeworld",
+  },
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1993"},

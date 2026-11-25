@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E9%93%81%E8%B7%AF%E5%A4%A7%E4%BA%A8%E8%B1%AA%E5%8D%8E%E7%89%88.zip",
+  logo: "/img/dos-games/tie-lu-da-heng-hao-hua-ban.jpg",
+  wiki: {
+    title: "Railroad Tycoon",
+    url: "https://en.wikipedia.org/wiki/Railroad_Tycoon",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

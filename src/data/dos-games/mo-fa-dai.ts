@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E8%A2%8B.zip",
+  logo: "/img/dos-games/mo-fa-dai.jpg",
+  wiki: {
+    title: "Magic Pockets",
+    url: "https://en.wikipedia.org/wiki/Magic_Pockets",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

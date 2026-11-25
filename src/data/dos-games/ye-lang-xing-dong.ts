@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1989",
   statusZh: "1989",
   url: "https://dos-bin.zczc.cz/%E9%87%8E%E7%8B%BC%E8%A1%8C%E5%8A%A8.zip",
+  logo: "/img/dos-games/ye-lang-xing-dong.jpg",
+  wiki: {
+    title: "Operation Wolf",
+    url: "https://en.wikipedia.org/wiki/Operation_Wolf",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1999",
   statusZh: "1999",
   url: "https://dos-bin.zczc.cz/%E7%99%BE%E6%88%98%E5%9C%B0%E8%99%AB.zip",
+  logo: "/img/dos-games/bai-zhan-di-chong.jpg",
+  wiki: {
+    title: "Liero",
+    url: "https://en.wikipedia.org/wiki/Liero",
+  },
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1999"},

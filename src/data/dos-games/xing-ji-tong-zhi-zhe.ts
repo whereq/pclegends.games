@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E7%BB%9F%E6%B2%BB%E8%80%85.zip",
+  logo: "/img/dos-games/xing-ji-tong-zhi-zhe.jpg",
+  wiki: {
+    title: "Imperium Galactica",
+    url: "https://en.wikipedia.org/wiki/Imperium_Galactica",
+  },
   facts: [
     {label: "Developer", value: "NCS"},
     {label: "Published", value: "1996"},

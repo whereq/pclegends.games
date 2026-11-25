@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E4%B8%AD%E5%9B%BD%E4%B9%8B%E5%BF%83.zip",
+  logo: "/img/dos-games/zhong-guo-zhi-xin.jpg",
+  wiki: {
+    title: "Heart of China",
+    url: "https://en.wikipedia.org/wiki/Heart_of_China",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},

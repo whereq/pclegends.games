@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "2010",
   statusZh: "2010",
   url: "https://dos-bin.zczc.cz/%E5%B0%8F%E6%97%85%E9%BC%A0%E4%BF%84%E7%BD%97%E6%96%AF.zip",
+  logo: "/img/dos-games/xiao-lv-shu-e-luo-si.jpg",
+  wiki: {
+    title: "Lemmings (2006 video game)",
+    url: "https://en.wikipedia.org/wiki/Lemmings_(2006_video_game)",
+  },
   facts: [
     {label: "Developer", value: "THQ"},
     {label: "Published", value: "2010"},

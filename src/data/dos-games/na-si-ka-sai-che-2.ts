@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E7%BA%B3%E6%96%AF%E5%8D%A1%E8%B5%9B%E8%BD%A62.zip",
+  logo: "/img/dos-games/na-si-ka-sai-che-2.jpg",
+  wiki: {
+    title: "NASCAR Racing 2",
+    url: "https://en.wikipedia.org/wiki/NASCAR_Racing_2",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

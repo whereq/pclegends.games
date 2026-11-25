@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E5%90%83%E8%B1%86%E4%BA%BA%E6%97%B6%E7%A9%BA%E4%B9%8B%E6%97%85.zip",
+  logo: "/img/dos-games/chi-dou-ren-shi-kong-zhi-lv.jpg",
+  wiki: {
+    title: "Pac-In-Time",
+    url: "https://en.wikipedia.org/wiki/Pac-In-Time",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

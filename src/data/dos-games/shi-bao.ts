@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E7%9F%B3%E5%A0%A1.zip",
+  logo: "/img/dos-games/shi-bao.jpg",
+  wiki: {
+    title: "Stonekeep",
+    url: "https://en.wikipedia.org/wiki/Stonekeep",
+  },
   facts: [
     {label: "Developer", value: "IREM"},
     {label: "Published", value: "1995"},

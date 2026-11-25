@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E6%83%A9%E7%BD%9A%E8%80%85.zip",
+  logo: "/img/dos-games/cheng-fa-zhe.jpg",
+  wiki: {
+    title: "The Punisher (1990 computer game)",
+    url: "https://en.wikipedia.org/wiki/The_Punisher_(1990_computer_game)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1989",
   statusZh: "1989",
   url: "https://dos-bin.zczc.cz/%E8%AF%95%E9%AA%8C%E9%A9%BE%E9%A9%B62.zip",
+  logo: "/img/dos-games/shi-yan-jia-shi-2.jpg",
+  wiki: {
+    title: "The Duel: Test Drive II",
+    url: "https://en.wikipedia.org/wiki/The_Duel%3A_Test_Drive_II",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},

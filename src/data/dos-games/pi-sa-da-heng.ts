@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E6%8A%AB%E8%90%A8%E5%A4%A7%E4%BA%A8.zip",
+  logo: "/img/dos-games/pi-sa-da-heng.jpg",
+  wiki: {
+    title: "Pizza Tycoon",
+    url: "https://en.wikipedia.org/wiki/Pizza_Tycoon",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1994"},

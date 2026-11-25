@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%86%B0%E5%9F%8E%E4%BC%A0%E5%A5%873.zip",
+  logo: "/img/dos-games/bing-cheng-chuan-qi-3.jpg",
+  wiki: {
+    title: "The Bard's Tale III: Thief of Fate",
+    url: "https://en.wikipedia.org/wiki/The_Bard%27s_Tale_III%3A_Thief_of_Fate",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},

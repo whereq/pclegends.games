@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E4%B9%8B%E5%BF%83.zip",
+  logo: "/img/dos-games/hei-an-zhi-xin.jpg",
+  wiki: {
+    title: "The Dark Heart of Uukrul",
+    url: "https://en.wikipedia.org/wiki/The_Dark_Heart_of_Uukrul",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1990"},

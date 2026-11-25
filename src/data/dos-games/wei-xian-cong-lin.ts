@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E5%8D%B1%E9%99%A9%E4%B8%9B%E6%9E%97.zip",
+  logo: "/img/dos-games/wei-xian-cong-lin.jpg",
+  wiki: {
+    title: "Risky Woods",
+    url: "https://en.wikipedia.org/wiki/Risky_Woods",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

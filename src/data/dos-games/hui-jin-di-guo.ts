@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E7%81%B0%E7%83%AC%E5%B8%9D%E5%9B%BD.zip",
+  logo: "/img/dos-games/hui-jin-di-guo.jpg",
+  wiki: {
+    title: "Ashes of Empire",
+    url: "https://en.wikipedia.org/wiki/Ashes_of_Empire",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

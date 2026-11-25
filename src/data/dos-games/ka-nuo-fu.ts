@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1988",
   statusZh: "1988",
   url: "https://dos-bin.zczc.cz/%E5%8D%A1%E8%AF%BA%E5%A4%AB.zip",
+  logo: "/img/dos-games/ka-nuo-fu.jpg",
+  wiki: {
+    title: "Karnov",
+    url: "https://en.wikipedia.org/wiki/Karnov",
+  },
   facts: [
     {label: "Developer", value: "DATA EAST"},
     {label: "Published", value: "1988"},

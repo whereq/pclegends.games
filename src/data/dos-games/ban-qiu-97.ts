@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E6%9D%BF%E7%90%8397.zip",
+  logo: "/img/dos-games/ban-qiu-97.jpg",
+  wiki: {
+    title: "Cricket 97",
+    url: "https://en.wikipedia.org/wiki/Cricket_97",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},

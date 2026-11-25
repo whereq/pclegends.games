@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E7%BE%8E%E6%9D%9C%E8%8E%8E%E5%BD%92%E6%9D%A5.zip",
+  logo: "/img/dos-games/mei-du-sha-gui-lai.jpg",
+  wiki: {
+    title: "The Return of Medusa",
+    url: "https://en.wikipedia.org/wiki/The_Return_of_Medusa",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

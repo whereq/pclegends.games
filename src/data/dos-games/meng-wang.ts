@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E6%A2%A6%E7%BD%91.zip",
+  logo: "/img/dos-games/meng-wang.jpg",
+  wiki: {
+    title: "DreamWeb",
+    url: "https://en.wikipedia.org/wiki/DreamWeb",
+  },
   facts: [
     {label: "Developer", value: "NCS"},
     {label: "Published", value: "1994"},

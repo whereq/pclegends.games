@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1988",
   statusZh: "1988",
   url: "https://dos-bin.zczc.cz/%E8%AD%A6%E5%AF%9F%E6%95%85%E4%BA%8B2.zip",
+  logo: "/img/dos-games/jing-cha-gu-shi-2.jpg",
+  wiki: {
+    title: "Police Quest II: The Vengeance",
+    url: "https://en.wikipedia.org/wiki/Police_Quest_II%3A_The_Vengeance",
+  },
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1988"},

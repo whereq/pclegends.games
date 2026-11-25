@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "2008",
   statusZh: "2008",
   url: "https://dos-bin.zczc.cz/%E6%92%BC%E5%A4%A9%E7%A5%9E%E5%A1%94.zip",
+  wikiZh: {
+    title: "撼天神塔系列",
+    url: "https://zh.wikipedia.org/wiki/%E6%92%BC%E5%A4%A9%E7%A5%9E%E5%A1%94%E7%B3%BB%E5%88%97",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2008"},

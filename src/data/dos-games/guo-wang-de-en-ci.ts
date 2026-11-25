@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E7%9A%84%E6%81%A9%E8%B5%90.zip",
+  logo: "/img/dos-games/guo-wang-de-en-ci.jpg",
+  wiki: {
+    title: "King's Bounty",
+    url: "https://en.wikipedia.org/wiki/King%27s_Bounty",
+  },
+  wikiZh: {
+    title: "国王的恩赐",
+    url: "https://zh.wikipedia.org/wiki/%E5%9B%BD%E7%8E%8B%E7%9A%84%E6%81%A9%E8%B5%90",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

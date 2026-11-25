@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E4%B9%8C%E6%89%98%E9%82%A6%E5%9B%BD%E5%AE%B6%E5%B4%9B%E8%B5%B7.zip",
+  logo: "/img/dos-games/wu-tuo-bang-guo-jia-jue-qi.jpg",
+  wiki: {
+    title: "Utopia: The Creation of a Nation",
+    url: "https://en.wikipedia.org/wiki/Utopia%3A_The_Creation_of_a_Nation",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

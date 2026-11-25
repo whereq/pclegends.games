@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E8%A3%85%E7%94%B2%E5%85%83%E5%B8%85.zip",
+  logo: "/img/dos-games/zhuang-jia-yuan-shuai.jpg",
+  wiki: {
+    title: "Panzer General",
+    url: "https://en.wikipedia.org/wiki/Panzer_General",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

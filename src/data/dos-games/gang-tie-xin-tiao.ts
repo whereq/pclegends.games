@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%BF%A1%E6%9D%A1.zip",
+  logo: "/img/dos-games/gang-tie-xin-tiao.jpg",
+  wiki: {
+    title: "Disciples of Steel",
+    url: "https://en.wikipedia.org/wiki/Disciples_of_Steel",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

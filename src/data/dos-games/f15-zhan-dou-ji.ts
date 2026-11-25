@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/F15%E6%88%98%E6%96%97%E6%9C%BA.zip",
+  logo: "/img/dos-games/f15-zhan-dou-ji.jpg",
+  wiki: {
+    title: "F-15 Strike Eagle III",
+    url: "https://en.wikipedia.org/wiki/F-15_Strike_Eagle_III",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

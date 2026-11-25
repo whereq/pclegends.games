@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%B0%B4%E6%B5%92%E4%BC%A0.zip",
+  logo: "/img/dos-games/shui-hu-zhuan.jpg",
+  wiki: {
+    title: "Bandit Kings of Ancient China",
+    url: "https://en.wikipedia.org/wiki/Bandit_Kings_of_Ancient_China",
+  },
+  wikiZh: {
+    title: "水滸傳·天命之誓",
+    url: "https://zh.wikipedia.org/wiki/%E6%B0%B4%E6%BB%B8%E5%82%B3%C2%B7%E5%A4%A9%E5%91%BD%E4%B9%8B%E8%AA%93",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

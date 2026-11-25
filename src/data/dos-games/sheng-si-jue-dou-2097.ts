@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E7%94%9F%E6%AD%BB%E5%86%B3%E6%96%972097.zip",
+  logo: "/img/dos-games/sheng-si-jue-dou-2097.jpg",
+  wiki: {
+    title: "One Must Fall: 2097",
+    url: "https://en.wikipedia.org/wiki/One_Must_Fall%3A_2097",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1994"},

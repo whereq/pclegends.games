@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1988",
   statusZh: "1988",
   url: "https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E6%88%98%E5%A3%AB.zip",
+  logo: "/img/dos-games/shi-kong-zhan-shi.jpg",
+  wiki: {
+    title: "Space Harrier",
+    url: "https://en.wikipedia.org/wiki/Space_Harrier",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1988"},

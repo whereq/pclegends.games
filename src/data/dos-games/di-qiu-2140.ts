@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E5%9C%B0%E7%90%832140.zip",
+  logo: "/img/dos-games/di-qiu-2140.jpg",
+  wiki: {
+    title: "Earth 2140",
+    url: "https://en.wikipedia.org/wiki/Earth_2140",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E9%80%9F%E5%BA%A6%E7%90%832.zip",
+  logo: "/img/dos-games/su-du-qiu-2.jpg",
+  wiki: {
+    title: "Speedball 2: Brutal Deluxe",
+    url: "https://en.wikipedia.org/wiki/Speedball_2%3A_Brutal_Deluxe",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

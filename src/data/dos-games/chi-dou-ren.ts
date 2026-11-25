@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E5%90%83%E8%B1%86%E4%BA%BA.zip",
+  logo: "/img/dos-games/chi-dou-ren.jpg",
+  wikiZh: {
+    title: "吃豆人 (角色)",
+    url: "https://zh.wikipedia.org/wiki/%E5%90%83%E8%B1%86%E4%BA%BA_(%E8%A7%92%E8%89%B2)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},

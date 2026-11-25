@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%A4%AA%E7%A9%BA%E5%8B%87%E5%A3%AB%E9%BC%A0.zip",
+  logo: "/img/dos-games/tai-kong-yong-shi-shu.jpg",
+  wiki: {
+    title: "Galactic Warrior Rats",
+    url: "https://en.wikipedia.org/wiki/Galactic_Warrior_Rats",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

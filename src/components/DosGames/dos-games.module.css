@@ -378,18 +378,6 @@
   overflow-wrap: anywhere;
 }
 
-/*
- * The other name of the same game — the Chinese one the bundle is filed
- * under, under the English title in the English locale and the other way
- * round in the Chinese one. It is a line of context, not a second heading.
- */
-.cardAltName {
-  font-size: 0.78rem;
-  color: #8b949e;
-  line-height: 1.35;
-  overflow-wrap: anywhere;
-}
-
 .cardTypes {
   display: flex;
   flex-wrap: wrap;
@@ -405,44 +393,6 @@
   border: 1px solid var(--ifm-hr-border-color);
   border-radius: 2px;
   padding: 1px 5px;
-}
-
-.cardFacts {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.4rem 0.75rem;
-  margin: 0;
-  padding: 0.6rem 0;
-  border-top: 1px solid var(--ifm-hr-border-color);
-  border-bottom: 1px solid var(--ifm-hr-border-color);
-}
-
-.cardFact {
-  min-width: 0;
-}
-
-.cardFact dt {
-  font-size: 0.58rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--ifm-color-emphasis-600);
-}
-
-.cardFact dd {
-  margin: 0.1rem 0 0;
-  font-size: 0.78rem;
-  color: var(--ifm-font-color-base);
-  font-variant-numeric: tabular-nums;
-  overflow-wrap: anywhere;
-}
-
-.cardEntry {
-  font-size: 0.72rem;
-  background: color-mix(in srgb, var(--ifm-color-emphasis-700) 8%, transparent);
-  border: 1px solid var(--ifm-hr-border-color);
-  border-radius: 2px;
-  padding: 0 4px;
 }
 
 .cardActions {
@@ -810,9 +760,5 @@
 
   .cardDownload {
     padding: 5px 11px;
-  }
-
-  .cardFacts {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

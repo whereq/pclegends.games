@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%BE%81%E6%9C%8D.zip",
+  wikiZh: {
+    title: "命令与征服 (2013年游戏)",
+    url: "https://zh.wikipedia.org/wiki/%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%BE%81%E6%9C%8D_(2013%E5%B9%B4%E6%B8%B8%E6%88%8F)",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},

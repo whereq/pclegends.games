@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E5%B7%B4%E5%85%8B%E7%BD%97%E6%9D%B0%E6%9C%AB%E6%97%A5%E5%80%92%E6%95%B0.zip",
+  logo: "/img/dos-games/ba-ke-luo-jie-mo-ri-dao-shu.jpg",
+  wiki: {
+    title: "Buck Rogers: Countdown to Doomsday",
+    url: "https://en.wikipedia.org/wiki/Buck_Rogers%3A_Countdown_to_Doomsday",
+  },
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1990"},

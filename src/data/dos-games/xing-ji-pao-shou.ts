@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E7%82%AE%E6%89%8B.zip",
+  logo: "/img/dos-games/xing-ji-pao-shou.jpg",
+  wiki: {
+    title: "Stargunner",
+    url: "https://en.wikipedia.org/wiki/Stargunner",
+  },
   facts: [
     {label: "Developer", value: "NCS"},
     {label: "Published", value: "1996"},

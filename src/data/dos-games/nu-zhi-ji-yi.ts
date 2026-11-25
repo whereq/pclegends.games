@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E6%80%92%E4%B9%8B%E6%9C%BA%E7%BF%BC.zip",
+  logo: "/img/dos-games/nu-zhi-ji-yi.jpg",
+  wiki: {
+    title: "Wings of Fury",
+    url: "https://en.wikipedia.org/wiki/Wings_of_Fury",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1990"},

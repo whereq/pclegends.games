@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E8%8B%B1%E4%BC%A6%E9%9C%B8%E4%B8%BB2%2B%E8%B5%84%E6%96%99%E7%89%87.zip",
+  logo: "/img/dos-games/ying-lun-ba-zhu-2-zi-liao-pian.jpg",
+  wiki: {
+    title: "Lords of the Realm II",
+    url: "https://en.wikipedia.org/wiki/Lords_of_the_Realm_II",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E5%B9%BD%E6%B5%AE1%E6%9C%AA%E7%9F%A5%E6%95%8C%E4%BA%BA.zip",
+  logo: "/img/dos-games/you-fu-1-wei-zhi-di-ren.jpg",
+  wiki: {
+    title: "UFO: Enemy Unknown",
+    url: "https://en.wikipedia.org/wiki/UFO%3A_Enemy_Unknown",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

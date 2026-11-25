@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1986",
   statusZh: "1986",
   url: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E8%88%AA%E8%88%B0.zip",
+  logo: "/img/dos-games/xing-ji-hang-jian.jpg",
+  wiki: {
+    title: "Starflight",
+    url: "https://en.wikipedia.org/wiki/Starflight",
+  },
+  wikiZh: {
+    title: "星際航艦",
+    url: "https://zh.wikipedia.org/wiki/%E6%98%9F%E9%9A%9B%E8%88%AA%E8%89%A6",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1986"},

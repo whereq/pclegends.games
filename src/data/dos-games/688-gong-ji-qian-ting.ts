@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1989",
   statusZh: "1989",
   url: "https://dos-bin.zczc.cz/688%E6%94%BB%E5%87%BB%E6%BD%9C%E8%89%87.zip",
+  logo: "/img/dos-games/688-gong-ji-qian-ting.jpg",
+  wiki: {
+    title: "688 Attack Sub",
+    url: "https://en.wikipedia.org/wiki/688_Attack_Sub",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},

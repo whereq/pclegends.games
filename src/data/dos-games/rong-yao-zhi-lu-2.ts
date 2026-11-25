@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E8%8D%A3%E8%80%80%E4%B9%8B%E8%B7%AF2.zip",
+  logo: "/img/dos-games/rong-yao-zhi-lu-2.jpg",
+  wiki: {
+    title: "Quest for Glory II: Trial by Fire",
+    url: "https://en.wikipedia.org/wiki/Quest_for_Glory_II%3A_Trial_by_Fire",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},

@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E5%A4%A7%E8%88%AA%E6%B5%B7%E6%97%B6%E4%BB%A32.zip",
+  wikiZh: {
+    title: "大航海时代II",
+    url: "https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%88%AA%E6%B5%B7%E6%97%B6%E4%BB%A3II",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

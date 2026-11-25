@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%B5%B7%E6%88%98.zip",
+  logo: "/img/dos-games/da-hai-zhan.jpg",
+  wiki: {
+    title: "Battleship (1993 video game)",
+    url: "https://en.wikipedia.org/wiki/Battleship_(1993_video_game)",
+  },
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1997"},

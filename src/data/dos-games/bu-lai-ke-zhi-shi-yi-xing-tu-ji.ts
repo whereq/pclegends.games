@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E5%B8%83%E8%8E%B1%E5%85%8B%E4%B9%8B%E7%9F%B3%E5%BC%82%E6%98%9F%E7%AA%81%E5%87%BB.zip",
+  logo: "/img/dos-games/bu-lai-ke-zhi-shi-yi-xing-tu-ji.jpg",
+  wiki: {
+    title: "Blake Stone: Planet Strike",
+    url: "https://en.wikipedia.org/wiki/Blake_Stone%3A_Planet_Strike",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

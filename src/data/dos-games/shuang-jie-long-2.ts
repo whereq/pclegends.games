@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1989",
   statusZh: "1989",
   url: "https://dos-bin.zczc.cz/%E5%8F%8C%E6%88%AA%E9%BE%992.zip",
+  logo: "/img/dos-games/shuang-jie-long-2.jpg",
+  wiki: {
+    title: "Double Dragon II: The Revenge",
+    url: "https://en.wikipedia.org/wiki/Double_Dragon_II%3A_The_Revenge",
+  },
   facts: [
     {label: "Developer", value: "VIRGIN"},
     {label: "Published", value: "1989"},

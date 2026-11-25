@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E5%BE%B7%E9%B2%81%E4%BC%8A%E6%81%B6%E9%AD%94%E4%B9%8B%E5%BF%83.zip",
+  logo: "/img/dos-games/de-lu-yi-e-mo-zhi-xin.jpg",
+  wiki: {
+    title: "Druid: Daemons of the Mind",
+    url: "https://en.wikipedia.org/wiki/Druid%3A_Daemons_of_the_Mind",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

@@ -73,6 +73,35 @@ index, the stats or a generated module. The plain `python3` lacks
 The categories come from the manifest of the project the bundles were
 mirrored from — see `scripts/dos_game_categories.py` in the docs hub.
 
+## The pictures and the Wikipedia articles
+
+A card shows the game itself: the cover art or the screenshot from the
+game's Wikipedia article, and the name in the reader's language. A game's
+own page links to the same article, so a reader can go and read more.
+
+Both come from Wikipedia, and both are checked before they are used:
+
+- `scripts/collect-game-images.py` finds the article. The plain search for a
+  game's name turns up whatever else carries it — the film *Jurassic Park*,
+  the song *Danger Zone*, the bomber *Boeing B-17 Flying Fortress* — so the
+  search asks for the game ("*Jurassic Park* video game") and for the
+  category of its year ("*Jurassic Park* incategory:"1993 video games"").
+- `scripts/verify-wiki-articles.py` checks the article that was found. It
+  has to be about a game (the description Wikipedia writes under the title
+  settles it — "1992 video game" against "American heavy bomber aircraft" —
+  and the categories settle it where the description is empty), it has to
+  carry the game's name, and it has to sit in the right years. An article
+  that fails any of these is dropped, and the game is looked for again.
+- `scripts/wiki_rules.py` holds the rules the two scripts share, so that the
+  collector and the verifier cannot disagree about what a game's article is.
+
+The Chinese locale links to the Chinese article where the game has one, and
+to the English article where it does not.
+
+**The interpreter matters here too.** The slugs the pictures are filed under
+are the pinyin slugs the generator gives, and pinyin comes from `pypinyin`,
+which is in the venv and not in the system python.
+
 ## The dependencies are pinned
 
 `package.json` carries an `overrides` block. It is not decoration:

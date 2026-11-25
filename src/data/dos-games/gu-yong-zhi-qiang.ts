@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E9%9B%87%E4%BD%A3%E4%B9%8B%E6%9E%AA.zip",
+  logo: "/img/dos-games/gu-yong-zhi-qiang.jpg",
+  wiki: {
+    title: "Hired Guns",
+    url: "https://en.wikipedia.org/wiki/Hired_Guns",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

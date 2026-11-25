@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1984",
   statusZh: "1984",
   url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA3.zip",
+  logo: "/img/dos-games/chuang-shi-ji-3.jpg",
+  wiki: {
+    title: "Ultima III: Exodus",
+    url: "https://en.wikipedia.org/wiki/Ultima_III%3A_Exodus",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1984"},

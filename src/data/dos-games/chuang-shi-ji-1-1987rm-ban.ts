@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1987",
   statusZh: "1987",
   url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA1%281987RM%E7%89%88%29.zip",
+  logo: "/img/dos-games/chuang-shi-ji-1-1987rm-ban.jpg",
+  wiki: {
+    title: "Ultima I: The First Age of Darkness",
+    url: "https://en.wikipedia.org/wiki/Ultima_I%3A_The_First_Age_of_Darkness",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1987"},

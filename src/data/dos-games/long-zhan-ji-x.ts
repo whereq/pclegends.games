@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E9%BE%99%E6%88%98%E8%AE%B0X.zip",
+  logo: "/img/dos-games/long-zhan-ji-x.jpg",
+  wiki: {
+    title: "Xargon",
+    url: "https://en.wikipedia.org/wiki/Xargon",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

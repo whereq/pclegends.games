@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E4%B8%81%E4%B8%81%E5%9C%A8%E8%A5%BF%E8%97%8F.zip",
+  logo: "/img/dos-games/ding-ding-zai-xi-zang.jpg",
+  wiki: {
+    title: "Tintin in Tibet (video game)",
+    url: "https://en.wikipedia.org/wiki/Tintin_in_Tibet_(video_game)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

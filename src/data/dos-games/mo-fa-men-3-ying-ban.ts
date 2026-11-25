@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A83%E8%8B%B1%E7%89%88.zip",
+  logo: "/img/dos-games/mo-fa-men-3-ying-ban.jpg",
+  wiki: {
+    title: "Might and Magic III: Isles of Terra",
+    url: "https://en.wikipedia.org/wiki/Might_and_Magic_III%3A_Isles_of_Terra",
+  },
   facts: [
     {label: "Developer", value: "IREM"},
     {label: "Published", value: "1996"},

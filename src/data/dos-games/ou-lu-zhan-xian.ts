@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E6%AC%A7%E9%99%86%E6%88%98%E7%BA%BF.zip",
+  logo: "/img/dos-games/ou-lu-zhan-xian.jpg",
+  wiki: {
+    title: "Operation Europe: Path to Victory",
+    url: "https://en.wikipedia.org/wiki/Operation_Europe%3A_Path_to_Victory",
+  },
   facts: [
     {label: "Developer", value: "KOEI"},
     {label: "Published", value: "1994"},

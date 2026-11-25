@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%B0%8F%E6%81%B6%E9%AD%94.zip",
+  logo: "/img/dos-games/xiao-e-mo.jpg",
+  wiki: {
+    title: "Little Devil Inside",
+    url: "https://en.wikipedia.org/wiki/Little_Devil_Inside",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

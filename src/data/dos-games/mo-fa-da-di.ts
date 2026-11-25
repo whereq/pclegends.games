@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%A4%A7%E5%B8%9D.zip",
+  logo: "/img/dos-games/mo-fa-da-di.jpg",
+  wiki: {
+    title: "Master of Magic",
+    url: "https://en.wikipedia.org/wiki/Master_of_Magic",
+  },
   facts: [
     {label: "Developer", value: "IREM"},
     {label: "Published", value: "1994"},

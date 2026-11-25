@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%96%97%E7%A5%9E%E4%BC%A0.zip",
+  logo: "/img/dos-games/dou-shen-chuan.jpg",
+  wiki: {
+    title: "Battle Arena Toshinden",
+    url: "https://en.wikipedia.org/wiki/Battle_Arena_Toshinden",
+  },
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "1996"},

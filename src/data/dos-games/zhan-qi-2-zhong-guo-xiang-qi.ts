@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E6%88%98%E6%A3%8B2-%E4%B8%AD%E5%9B%BD%E8%B1%A1%E6%A3%8B.zip",
+  logo: "/img/dos-games/zhan-qi-2-zhong-guo-xiang-qi.jpg",
+  wiki: {
+    title: "Battle Chess II: Chinese Chess",
+    url: "https://en.wikipedia.org/wiki/Battle_Chess_II%3A_Chinese_Chess",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1990"},

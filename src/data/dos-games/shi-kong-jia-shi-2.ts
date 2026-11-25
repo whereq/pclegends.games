@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1989",
   statusZh: "1989",
   url: "https://dos-bin.zczc.cz/%E5%A4%B1%E6%8E%A7%E9%A9%BE%E9%A9%B62.zip",
+  logo: "/img/dos-games/shi-kong-jia-shi-2.jpg",
+  wiki: {
+    title: "Fire & Forget II",
+    url: "https://en.wikipedia.org/wiki/Fire_%26_Forget_II",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},

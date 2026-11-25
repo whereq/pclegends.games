@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E6%9C%BA%E6%A2%B0%E5%B8%9D%E5%9B%BD.zip",
+  logo: "/img/dos-games/ji-xie-di-guo.jpg",
+  wiki: {
+    title: "Cyber Empires",
+    url: "https://en.wikipedia.org/wiki/Cyber_Empires",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

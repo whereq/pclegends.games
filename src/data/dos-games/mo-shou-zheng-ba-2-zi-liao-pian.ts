@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B82%E8%B5%84%E6%96%99%E7%AF%87.zip",
+  logo: "/img/dos-games/mo-shou-zheng-ba-2-zi-liao-pian.jpg",
+  wiki: {
+    title: "Warcraft II: Tides of Darkness",
+    url: "https://en.wikipedia.org/wiki/Warcraft_II%3A_Tides_of_Darkness",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},

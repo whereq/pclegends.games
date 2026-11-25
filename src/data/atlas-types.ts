@@ -85,6 +85,28 @@ export type AtlasEntry = {
   status?: string;
   /** The live thing, when it has a hosted instance or a home page. */
   url?: string;
+  /**
+   * The Wikipedia article about the subject, where there is one.
+   *
+   * The DOS games carry one when the game has an article: the picture on
+   * the card is taken from it, and the page links to it so a reader can go
+   * and read more about the game than the archive knows.
+   */
+  wiki?: {
+    title: string;
+    url: string;
+  };
+  /**
+   * The Chinese Wikipedia article, where there is one.
+   *
+   * The Chinese locale reads this in place of the English one; where a game
+   * has no Chinese article, the English one is read instead, so the link is
+   * never missing.
+   */
+  wikiZh?: {
+    title: string;
+    url: string;
+  };
   /** The GitHub repository — set only for the open source projects. */
   repo?: string;
   /** What it does, as a flat list. */

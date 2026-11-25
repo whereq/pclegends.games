@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1988",
   statusZh: "1988",
   url: "https://dos-bin.zczc.cz/%E5%86%B0%E5%9F%8E%E4%BC%A0%E5%A5%872.zip",
+  logo: "/img/dos-games/bing-cheng-chuan-qi-2.jpg",
+  wiki: {
+    title: "The Bard's Tale II: The Destiny Knight",
+    url: "https://en.wikipedia.org/wiki/The_Bard%27s_Tale_II%3A_The_Destiny_Knight",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1988"},

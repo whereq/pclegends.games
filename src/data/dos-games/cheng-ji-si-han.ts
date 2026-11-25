@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1987",
   statusZh: "1987",
   url: "https://dos-bin.zczc.cz/%E6%88%90%E5%90%89%E6%80%9D%E6%B1%97.zip",
+  logo: "/img/dos-games/cheng-ji-si-han.jpg",
+  wiki: {
+    title: "Genghis Khan (video game)",
+    url: "https://en.wikipedia.org/wiki/Genghis_Khan_(video_game)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1987"},

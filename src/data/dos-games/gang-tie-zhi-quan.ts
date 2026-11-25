@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%B9%8B%E6%8B%B3.zip",
+  logo: "/img/dos-games/gang-tie-zhi-quan.jpg",
+  wiki: {
+    title: "Armored Fist",
+    url: "https://en.wikipedia.org/wiki/Armored_Fist",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E6%88%98%E6%A3%8B4000.zip",
+  logo: "/img/dos-games/zhan-qi-4000.jpg",
+  wiki: {
+    title: "Battle Chess 4000",
+    url: "https://en.wikipedia.org/wiki/Battle_Chess_4000",
+  },
   facts: [
     {label: "Developer", value: "INTERPLAY"},
     {label: "Published", value: "1992"},

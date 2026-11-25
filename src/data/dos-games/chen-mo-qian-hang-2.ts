@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E6%B2%89%E9%BB%98%E6%BD%9C%E8%88%AA2.zip",
+  logo: "/img/dos-games/chen-mo-qian-hang-2.jpg",
+  wiki: {
+    title: "Silent Service II",
+    url: "https://en.wikipedia.org/wiki/Silent_Service_II",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1992"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E7%AA%81%E7%A0%B43.zip",
+  logo: "/img/dos-games/tu-po-3.jpg",
+  wiki: {
+    title: "Breach 3",
+    url: "https://en.wikipedia.org/wiki/Breach_3",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

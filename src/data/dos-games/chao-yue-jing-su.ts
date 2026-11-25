@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1989",
   statusZh: "1989",
   url: "https://dos-bin.zczc.cz/%E8%B6%85%E8%B6%8A%E7%AB%9E%E9%80%9F.zip",
+  logo: "/img/dos-games/chao-yue-jing-su.jpg",
+  wiki: {
+    title: "Out Run",
+    url: "https://en.wikipedia.org/wiki/Out_Run",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},

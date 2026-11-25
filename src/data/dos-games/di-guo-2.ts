@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "2009",
   statusZh: "2009",
   url: "https://dos-bin.zczc.cz/%E5%B8%9D%E5%9B%BD2.zip",
+  logo: "/img/dos-games/di-guo-2.jpg",
+  wiki: {
+    title: "Empire Earth II",
+    url: "https://en.wikipedia.org/wiki/Empire_Earth_II",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2009"},

@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E5%BF%8D.zip",
+  logo: "/img/dos-games/ren.jpg",
+  wiki: {
+    title: "Shinobi (series)",
+    url: "https://en.wikipedia.org/wiki/Shinobi_(series)",
+  },
+  wikiZh: {
+    title: "忍者外傳系列",
+    url: "https://zh.wikipedia.org/wiki/%E5%BF%8D%E8%80%85%E5%A4%96%E5%82%B3%E7%B3%BB%E5%88%97",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1990"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E9%AD%94%E7%9C%BC%E9%82%AA%E7%A5%9E.zip",
+  logo: "/img/dos-games/mo-yan-xie-shen.jpg",
+  wiki: {
+    title: "Celtic Tales: Balor of the Evil Eye",
+    url: "https://en.wikipedia.org/wiki/Celtic_Tales%3A_Balor_of_the_Evil_Eye",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

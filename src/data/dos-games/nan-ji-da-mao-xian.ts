@@ -21,6 +21,10 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E5%8D%97%E6%9E%81%E5%A4%A7%E5%86%92%E9%99%A9.zip",
+  wikiZh: {
+    title: "南极大冒险 (游戏)",
+    url: "https://zh.wikipedia.org/wiki/%E5%8D%97%E6%9E%81%E5%A4%A7%E5%86%92%E9%99%A9_(%E6%B8%B8%E6%88%8F)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

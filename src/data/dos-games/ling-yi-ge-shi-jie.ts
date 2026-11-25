@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E5%8F%A6%E4%B8%80%E4%B8%AA%E4%B8%96%E7%95%8C.zip",
+  logo: "/img/dos-games/ling-yi-ge-shi-jie.jpg",
+  wikiZh: {
+    title: "另一个世界 (游戏)",
+    url: "https://zh.wikipedia.org/wiki/%E5%8F%A6%E4%B8%80%E4%B8%AA%E4%B8%96%E7%95%8C_(%E6%B8%B8%E6%88%8F)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

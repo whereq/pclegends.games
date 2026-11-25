@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E5%90%89%E5%B0%94%E5%9C%A8%E4%B8%9B%E6%9E%973%E6%8B%AF%E6%95%91%E7%8E%8B%E5%AD%90.zip",
+  logo: "/img/dos-games/ji-er-zai-cong-lin-3-zheng-jiu-wang-zi.jpg",
+  wiki: {
+    title: "Jill of the Jungle",
+    url: "https://en.wikipedia.org/wiki/Jill_of_the_Jungle",
+  },
   facts: [
     {label: "Developer", value: "ENIX"},
     {label: "Published", value: "1992"},

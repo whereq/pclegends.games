@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%A4%96%E6%98%9F%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B.zip",
+  logo: "/img/dos-games/wai-xing-ao-lin-pi-ke.jpg",
+  wiki: {
+    title: "Alien Olympics",
+    url: "https://en.wikipedia.org/wiki/Alien_Olympics",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

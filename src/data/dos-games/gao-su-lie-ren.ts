@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E9%AB%98%E9%80%9F%E7%8C%8E%E4%BA%BA.zip",
+  logo: "/img/dos-games/gao-su-lie-ren.jpg",
+  wiki: {
+    title: "Highway Hunter",
+    url: "https://en.wikipedia.org/wiki/Highway_Hunter",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

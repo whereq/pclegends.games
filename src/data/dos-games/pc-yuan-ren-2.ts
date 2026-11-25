@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/PC%E5%8E%9F%E4%BA%BA2.zip",
+  logo: "/img/dos-games/pc-yuan-ren-2.jpg",
+  wiki: {
+    title: "Prehistorik 2",
+    url: "https://en.wikipedia.org/wiki/Prehistorik_2",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

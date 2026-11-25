@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E4%B8%8A%E5%B8%9D%E4%B9%9F%E7%96%AF%E7%8B%822.zip",
+  logo: "/img/dos-games/shang-di-ye-feng-kuang-2.jpg",
+  wiki: {
+    title: "Populous II: Trials of the Olympian Gods",
+    url: "https://en.wikipedia.org/wiki/Populous_II%3A_Trials_of_the_Olympian_Gods",
+  },
+  wikiZh: {
+    title: "上帝也疯狂2：诸神的审判",
+    url: "https://zh.wikipedia.org/wiki/%E4%B8%8A%E5%B8%9D%E4%B9%9F%E7%96%AF%E7%8B%822%EF%BC%9A%E8%AF%B8%E7%A5%9E%E7%9A%84%E5%AE%A1%E5%88%A4",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

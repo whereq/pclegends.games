@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1998",
   statusZh: "1998",
   url: "https://dos-bin.zczc.cz/%E5%92%92%E8%AF%AD%E4%BA%A4%E5%8F%89.zip",
+  logo: "/img/dos-games/zhou-yu-jiao-cha.jpg",
+  wiki: {
+    title: "Spellcross",
+    url: "https://en.wikipedia.org/wiki/Spellcross",
+  },
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "1998"},

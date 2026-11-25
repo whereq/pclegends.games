@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E9%98%BF%E5%8D%A1%E5%B0%BC%E4%BA%9A%E4%B9%8B%E5%9C%B0%E6%98%9F%E7%97%95.zip",
+  logo: "/img/dos-games/a-ka-ni-ya-zhi-di-xing-hen.jpg",
+  wiki: {
+    title: "Realms of Arkania: Star Trail",
+    url: "https://en.wikipedia.org/wiki/Realms_of_Arkania%3A_Star_Trail",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

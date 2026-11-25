@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E6%98%9F%E7%90%83%E5%A4%A7%E6%88%98%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B.zip",
+  logo: "/img/dos-games/xing-qiu-da-zhan-guo-ji-xiang-qi.jpg",
+  wiki: {
+    title: "Star Wars Chess",
+    url: "https://en.wikipedia.org/wiki/Star_Wars_Chess",
+  },
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "1995"},

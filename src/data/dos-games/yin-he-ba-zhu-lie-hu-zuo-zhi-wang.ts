@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%9C%B8%E4%B8%BB%28%E7%8C%8E%E6%88%B7%E5%BA%A7%E4%B9%8B%E7%8E%8B%29.zip",
+  logo: "/img/dos-games/yin-he-ba-zhu-lie-hu-zuo-zhi-wang.jpg",
+  wiki: {
+    title: "Master of Orion",
+    url: "https://en.wikipedia.org/wiki/Master_of_Orion",
+  },
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1993"},

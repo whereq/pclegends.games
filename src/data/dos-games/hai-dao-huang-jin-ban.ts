@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "Archive",
   statusZh: "归档",
   url: "https://dos-bin.zczc.cz/%E6%B5%B7%E7%9B%97%E9%BB%84%E9%87%91%E7%89%88.zip",
+  logo: "/img/dos-games/hai-dao-huang-jin-ban.jpg",
+  wiki: {
+    title: "Pirates! Gold",
+    url: "https://en.wikipedia.org/wiki/Pirates%21_Gold",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},

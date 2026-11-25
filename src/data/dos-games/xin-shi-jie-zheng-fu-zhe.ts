@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "2001",
   statusZh: "2001",
   url: "https://dos-bin.zczc.cz/%E6%96%B0%E4%B8%96%E7%95%8C%E5%BE%81%E6%9C%8D%E8%80%85.zip",
+  logo: "/img/dos-games/xin-shi-jie-zheng-fu-zhe.jpg",
+  wiki: {
+    title: "Conquest of the New World",
+    url: "https://en.wikipedia.org/wiki/Conquest_of_the_New_World",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2001"},

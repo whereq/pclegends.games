@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "Archive",
   statusZh: "归档",
   url: "https://dos-bin.zczc.cz/%E5%9F%BA%E5%9B%A0%E9%94%BB%E9%80%A0.zip",
+  logo: "/img/dos-games/ji-yin-duan-zao.jpg",
+  wiki: {
+    title: "BioForge",
+    url: "https://en.wikipedia.org/wiki/BioForge",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "Not dated"},

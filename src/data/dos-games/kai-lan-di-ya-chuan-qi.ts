@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E5%87%AF%E5%85%B0%E8%92%82%E4%BA%9A%E4%BC%A0%E5%A5%87.zip",
+  logo: "/img/dos-games/kai-lan-di-ya-chuan-qi.jpg",
+  wiki: {
+    title: "The Legend of Kyrandia",
+    url: "https://en.wikipedia.org/wiki/The_Legend_of_Kyrandia",
+  },
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "1992"},

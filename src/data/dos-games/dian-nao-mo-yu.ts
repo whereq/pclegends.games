@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E7%94%B5%E8%84%91%E9%AD%94%E5%9F%9F.zip",
+  logo: "/img/dos-games/dian-nao-mo-yu.jpg",
+  wiki: {
+    title: "Fantasy Zone",
+    url: "https://en.wikipedia.org/wiki/Fantasy_Zone",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "2010",
   statusZh: "2010",
   url: "https://dos-bin.zczc.cz/%E5%A4%A7%E9%87%91%E5%88%9A.zip",
+  logo: "/img/dos-games/da-jin-gang.jpg",
+  wikiZh: {
+    title: "大金刚 (角色)",
+    url: "https://zh.wikipedia.org/wiki/%E5%A4%A7%E9%87%91%E5%88%9A_(%E8%A7%92%E8%89%B2)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2010"},

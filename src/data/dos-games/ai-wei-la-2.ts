@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E8%89%BE%E8%96%87%E6%8B%892.zip",
+  logo: "/img/dos-games/ai-wei-la-2.jpg",
+  wiki: {
+    title: "Elvira II: The Jaws of Cerberus",
+    url: "https://en.wikipedia.org/wiki/Elvira_II%3A_The_Jaws_of_Cerberus",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},

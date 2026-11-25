@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E6%B8%85%E7%99%BD%E6%97%A0%E7%BD%AA.zip",
+  logo: "/img/dos-games/qing-bai-wu-zui.jpg",
+  wiki: {
+    title: "Innocent Until Caught",
+    url: "https://en.wikipedia.org/wiki/Innocent_Until_Caught",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

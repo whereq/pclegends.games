@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E7%A6%8F%E7%89%B9%E6%A8%A1%E6%8B%9F%E9%A9%BE%E9%A9%B6.zip",
+  logo: "/img/dos-games/fu-te-mo-ni-jia-shi.jpg",
+  wiki: {
+    title: "The Ford Simulator",
+    url: "https://en.wikipedia.org/wiki/The_Ford_Simulator",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

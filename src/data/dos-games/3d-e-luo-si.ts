@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/3D%E4%BF%84%E7%BD%97%E6%96%AF.zip",
+  logo: "/img/dos-games/3d-e-luo-si.jpg",
+  wiki: {
+    title: "Welltris",
+    url: "https://en.wikipedia.org/wiki/Welltris",
+  },
+  wikiZh: {
+    title: "3D俄罗斯方块",
+    url: "https://zh.wikipedia.org/wiki/3D%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},

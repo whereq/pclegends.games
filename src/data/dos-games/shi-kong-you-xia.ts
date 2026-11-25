@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%97%B6%E7%A9%BA%E6%B8%B8%E4%BE%A0.zip",
+  logo: "/img/dos-games/shi-kong-you-xia.jpg",
+  wiki: {
+    title: "Time Commando",
+    url: "https://en.wikipedia.org/wiki/Time_Commando",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

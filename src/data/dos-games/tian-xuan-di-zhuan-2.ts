@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%A4%A9%E6%97%8B%E5%9C%B0%E8%BD%AC2.zip",
+  logo: "/img/dos-games/tian-xuan-di-zhuan-2.jpg",
+  wiki: {
+    title: "Descent II",
+    url: "https://en.wikipedia.org/wiki/Descent_II",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},

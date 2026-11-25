@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E5%A4%A7%E6%B5%B7%E5%95%86.zip",
+  logo: "/img/dos-games/da-hai-shang.jpg",
+  wiki: {
+    title: "High Seas Trader",
+    url: "https://en.wikipedia.org/wiki/High_Seas_Trader",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},

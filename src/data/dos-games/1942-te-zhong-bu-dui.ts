@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/1942%E7%89%B9%E7%A7%8D%E9%83%A8%E9%98%9F.zip",
+  logo: "/img/dos-games/1942-te-zhong-bu-dui.jpg",
+  wiki: {
+    title: "Task Force 1942",
+    url: "https://en.wikipedia.org/wiki/Task_Force_1942",
+  },
   facts: [
     {label: "Developer", value: "WARP"},
     {label: "Published", value: "1996"},

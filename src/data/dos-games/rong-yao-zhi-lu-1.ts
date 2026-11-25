@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E8%8D%A3%E8%80%80%E4%B9%8B%E8%B7%AF1.zip",
+  logo: "/img/dos-games/rong-yao-zhi-lu-1.jpg",
+  wiki: {
+    title: "Quest for Glory: So You Want to Be a Hero",
+    url: "https://en.wikipedia.org/wiki/Quest_for_Glory%3A_So_You_Want_to_Be_a_Hero",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

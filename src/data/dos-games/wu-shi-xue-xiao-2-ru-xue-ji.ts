@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E5%B7%AB%E5%B8%88%E5%AD%A6%E6%A0%A12%E5%85%A5%E5%AD%A6%E8%AE%B0.zip",
+  logo: "/img/dos-games/wu-shi-xue-xiao-2-ru-xue-ji.jpg",
+  wiki: {
+    title: "Spellcasting 201: The Sorcerer's Appliance",
+    url: "https://en.wikipedia.org/wiki/Spellcasting_201%3A_The_Sorcerer%27s_Appliance",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

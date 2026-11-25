@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1999",
   statusZh: "1999",
   url: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E5%B7%B4%E8%B4%A1.zip",
+  logo: "/img/dos-games/yi-xing-ba-gong.jpg",
+  wiki: {
+    title: "Bargon Attack",
+    url: "https://en.wikipedia.org/wiki/Bargon_Attack",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1999"},

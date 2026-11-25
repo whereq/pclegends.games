@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E4%BB%A5%E6%92%923%E6%B0%B8%E6%81%92%E4%B9%8B%E9%97%A8.zip",
+  logo: "/img/dos-games/yi-sa-3-yong-heng-zhi-men.jpg",
+  wiki: {
+    title: "Ishar 3: The Seven Gates of Infinity",
+    url: "https://en.wikipedia.org/wiki/Ishar_3%3A_The_Seven_Gates_of_Infinity",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

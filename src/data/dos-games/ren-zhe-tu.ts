@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%BF%8D%E8%80%85%E5%85%94.zip",
+  logo: "/img/dos-games/ren-zhe-tu.jpg",
+  wiki: {
+    title: "Ninja Rabbits",
+    url: "https://en.wikipedia.org/wiki/Ninja_Rabbits",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

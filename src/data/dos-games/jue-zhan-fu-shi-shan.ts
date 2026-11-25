@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1986",
   statusZh: "1986",
   url: "https://dos-bin.zczc.cz/%E5%86%B3%E6%88%98%E5%AF%8C%E5%A3%AB%E5%B1%B1.zip",
+  logo: "/img/dos-games/jue-zhan-fu-shi-shan.jpg",
+  wikiZh: {
+    title: "決戰富士山",
+    url: "https://zh.wikipedia.org/wiki/%E6%B1%BA%E6%88%B0%E5%AF%8C%E5%A3%AB%E5%B1%B1",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1986"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%9C%BA%E7%94%B2%E6%88%98%E5%A3%AB2%E9%9B%87%E4%BD%A3%E5%85%B5.zip",
+  logo: "/img/dos-games/ji-jia-zhan-shi-2-gu-yong-bing.jpg",
+  wiki: {
+    title: "MechWarrior 2: Mercenaries",
+    url: "https://en.wikipedia.org/wiki/MechWarrior_2%3A_Mercenaries",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

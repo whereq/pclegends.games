@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E5%85%A8%E7%90%83%E6%95%88%E5%BA%94.zip",
+  logo: "/img/dos-games/quan-qiu-xiao-ying.jpg",
+  wiki: {
+    title: "Global Effect",
+    url: "https://en.wikipedia.org/wiki/Global_Effect",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

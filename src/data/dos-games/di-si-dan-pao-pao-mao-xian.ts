@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E8%92%82%E6%96%AF%E8%9B%8B%E6%B3%A1%E6%B3%A1%E5%86%92%E9%99%A9.zip",
+  logo: "/img/dos-games/di-si-dan-pao-pao-mao-xian.jpg",
+  wiki: {
+    title: "Bubble Dizzy",
+    url: "https://en.wikipedia.org/wiki/Bubble_Dizzy",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

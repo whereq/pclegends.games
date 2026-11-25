@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A85%E9%BB%91%E6%9A%97%E9%AD%94%E5%90%9B.zip",
+  logo: "/img/dos-games/mo-fa-men-5-hei-an-mo-jun.jpg",
+  wiki: {
+    title: "Might and Magic V: Darkside of Xeen",
+    url: "https://en.wikipedia.org/wiki/Might_and_Magic_V%3A_Darkside_of_Xeen",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

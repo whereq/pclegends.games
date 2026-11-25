@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E5%B7%AB%E5%B8%88%E5%A4%A7%E5%9D%A9%E5%9F%9A.zip",
+  logo: "/img/dos-games/wu-shi-da-gan-guo.jpg",
+  wiki: {
+    title: "Super Cauldron",
+    url: "https://en.wikipedia.org/wiki/Super_Cauldron",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

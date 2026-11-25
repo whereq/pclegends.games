@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%86%9C%E5%9C%BA.zip",
+  logo: "/img/dos-games/mo-ni-nong-chang.jpg",
+  wiki: {
+    title: "SimFarm",
+    url: "https://en.wikipedia.org/wiki/SimFarm",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

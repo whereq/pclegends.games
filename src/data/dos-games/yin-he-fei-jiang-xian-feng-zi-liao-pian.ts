@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%A3%9E%E5%B0%86%E5%85%88%E9%94%8B%2B%E8%B5%84%E6%96%99%E7%89%87.zip",
+  logo: "/img/dos-games/yin-he-fei-jiang-xian-feng-zi-liao-pian.jpg",
+  wiki: {
+    title: "Wing Commander: Privateer",
+    url: "https://en.wikipedia.org/wiki/Wing_Commander%3A_Privateer",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1993"},

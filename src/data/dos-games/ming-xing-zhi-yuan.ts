@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E6%98%8E%E6%98%9F%E5%BF%97%E6%84%BF.zip",
+  logo: "/img/dos-games/ming-xing-zhi-yuan.jpg",
+  wikiZh: {
+    title: "明星志願系列",
+    url: "https://zh.wikipedia.org/wiki/%E6%98%8E%E6%98%9F%E5%BF%97%E9%A1%98%E7%B3%BB%E5%88%97",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E5%B0%8F%E6%97%85%E9%BC%A02.zip",
+  logo: "/img/dos-games/feng-kuang-xiao-lv-shu-2.jpg",
+  wiki: {
+    title: "Lemmings 2: The Tribes",
+    url: "https://en.wikipedia.org/wiki/Lemmings_2%3A_The_Tribes",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

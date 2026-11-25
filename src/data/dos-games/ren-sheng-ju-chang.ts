@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E4%BA%BA%E7%94%9F%E5%89%A7%E5%9C%BA.zip",
+  logo: "/img/dos-games/ren-sheng-ju-chang.jpg",
+  wiki: {
+    title: "Jones in the Fast Lane",
+    url: "https://en.wikipedia.org/wiki/Jones_in_the_Fast_Lane",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},

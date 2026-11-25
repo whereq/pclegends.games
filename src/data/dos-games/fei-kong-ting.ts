@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E9%A3%9E%E7%A9%BA%E8%89%87.zip",
+  logo: "/img/dos-games/fei-kong-ting.jpg",
+  wiki: {
+    title: "Zeppelin (video game)",
+    url: "https://en.wikipedia.org/wiki/Zeppelin_(video_game)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

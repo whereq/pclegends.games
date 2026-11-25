@@ -181,7 +181,8 @@ def language_sentence(meta, lang):
     return None
 
 
-def build_entry(game, meta, slug, tag, accent, types, name_en=None, name_en_source=None):
+def build_entry(game, meta, slug, tag, accent, types, name_en=None, name_en_source=None,
+                wiki=None):
     """One catalogue entry, as the Atlas wants it.
 
     The page carries both languages: the English text the English locale
@@ -494,12 +495,31 @@ def build_entry(game, meta, slug, tag, accent, types, name_en=None, name_en_sour
     english = build('en')
     chinese = build('zh')
 
+    wiki = wiki or {}
+    # A record names one article and may name a second. The English article
+    # is the one the English locale links to and the Chinese one is what the
+    # Chinese locale links to; when only one of them was found, it is the
+    # article for the language it is written in, and the other side has
+    # none.
+    english_article = None
+    chinese_article = None
+    if wiki.get('wikiUrlZh'):
+        chinese_article = {'title': wiki.get('wikiZh'), 'url': wiki.get('wikiUrlZh')}
+    if wiki.get('wikiUrl'):
+        if wiki.get('lang') == 'zh':
+            chinese_article = {'title': wiki.get('wiki'), 'url': wiki.get('wikiUrl')}
+        else:
+            english_article = {'title': wiki.get('wiki'), 'url': wiki.get('wikiUrl')}
+
     return {
         'id': slug,
         'collection': 'dos-games',
         'name': name,
         'nameEn': name_en,
         'nameEnSource': name_en_source,
+        'logo': wiki.get('image'),
+        'wiki': english_article,
+        'wikiZh': chinese_article,
         'role': 'DOS Game',
         'roleZh': 'DOS 游戏',
         'tagline': english['tagline'],
@@ -585,6 +605,18 @@ const entry: AtlasEntry = {
     handle.write(f'  status: {ts(entry["status"])},\n')
     handle.write(f'  statusZh: {ts(entry["statusZh"])},\n')
     handle.write(f'  url: {ts(entry["url"])},\n')
+    if entry.get('logo'):
+        handle.write(f'  logo: {ts(entry["logo"])},\n')
+    if entry.get('wiki'):
+        handle.write('  wiki: {\n')
+        handle.write(f'    title: {ts(entry["wiki"]["title"])},\n')
+        handle.write(f'    url: {ts(entry["wiki"]["url"])},\n')
+        handle.write('  },\n')
+    if entry.get('wikiZh'):
+        handle.write('  wikiZh: {\n')
+        handle.write(f'    title: {ts(entry["wikiZh"]["title"])},\n')
+        handle.write(f'    url: {ts(entry["wikiZh"]["url"])},\n')
+        handle.write('  },\n')
     handle.write('  facts: [\n')
     for fact in entry['facts']:
         handle.write(f'    {{label: {ts(fact["label"])}, value: {ts(fact["value"])}}},\n')
@@ -607,6 +639,7 @@ def main():
     parser.add_argument('--manifest', default='/home/whereq/git/whereq-dosbox-claude/data/dos-games-manifest.json')
     parser.add_argument('--categories', default=os.path.expanduser('~/git/dos/games_categories.json'))
     parser.add_argument('--english-names', default=os.path.join(ROOT, 'data', 'english-names.json'))
+    parser.add_argument('--game-images', default=os.path.join(ROOT, 'data', 'game-images.json'))
     parser.add_argument('--routes', default=os.path.join(ROOT, 'src/pages/dos-games'))
     parser.add_argument('--pages', default=os.path.join(ROOT, 'src/data/dos-games'))
     parser.add_argument('--images', default=os.path.join(ROOT, 'static/img/dos-games'))
@@ -631,6 +664,15 @@ def main():
     else:
         print(f'warning: no English names at {args.english_names} — the cards will show the '
               'Chinese name only')
+
+    # The picture each game has, and the Wikipedia article it came from.
+    # Where there is no article the game keeps the letter on a plate.
+    game_images = {}
+    if os.path.exists(args.game_images):
+        game_images = json.load(open(args.game_images, encoding='utf-8'))
+    else:
+        print(f'warning: no game images at {args.game_images} — the cards will show the '
+              'letter on a plate')
 
     categories = {}
     if os.path.exists(args.categories):
@@ -714,13 +756,17 @@ def main():
         english = english_names.get(name)
         name_en = english.get('en') if english else None
         name_en_source = english.get('source') if english else None
-        entry = build_entry(game, meta, slug, tag, accent, types, name_en, name_en_source)
+        wiki = game_images.get(slug, {})
+        entry = build_entry(game, meta, slug, tag, accent, types, name_en, name_en_source,
+                            wiki)
         entries.append(entry)
         year = meta.get('yearFiles')
         index_rows.append({
             'id': slug,
             'name': name,
             'nameEn': name_en,
+            'image': wiki.get('image'),
+            'wiki': wiki.get('wikiUrl'),
             'year': str(year) if year else '',
             'size': game['bytes'],
             'files': game['files'],
@@ -820,9 +866,13 @@ def main():
             'path': path,
             'year': None,
         })
+        english = english_names.get(identifier) or {}
         index_rows.append({
             'id': slug,
             'name': row['name_zh'] or identifier,
+            'nameEn': english.get('en'),
+            'image': (game_images.get(slug) or {}).get('image'),
+            'wiki': (game_images.get(slug) or {}).get('wikiUrl'),
             'year': MANUAL_YEARS.get(slug, ''),
             'size': size,
             'files': files,
@@ -888,6 +938,13 @@ export type DosGameIndexEntry = {
    * Chinese name. The search box looks for both.
    */
   nameEn?: string;
+  /**
+   * The game's picture, where it has one — the cover art or the screenshot
+   * from its Wikipedia article. Empty for a game with no article.
+   */
+  image?: string;
+  /** The Wikipedia article about the game, where there is one. */
+  wiki?: string;
   /** The year the bundle's own files are dated. */
   year: string;
   /** The size of the bundle, in bytes. */
@@ -915,6 +972,10 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
             handle.write(f'    name: {ts(row["name"])},\n')
             if row.get('nameEn'):
                 handle.write(f'    nameEn: {ts(row["nameEn"])},\n')
+            if row.get('image'):
+                handle.write(f'    image: {ts(row["image"])},\n')
+            if row.get('wiki'):
+                handle.write(f'    wiki: {ts(row["wiki"])},\n')
             handle.write(f'    year: {ts(row["year"])},\n')
             handle.write(f'    size: {row["size"]},\n')
             handle.write(f'    files: {row["files"]},\n')

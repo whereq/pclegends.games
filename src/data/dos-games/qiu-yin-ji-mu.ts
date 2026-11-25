@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E8%9A%AF%E8%9A%93%E5%90%89%E5%A7%86.zip",
+  logo: "/img/dos-games/qiu-yin-ji-mu.jpg",
+  wiki: {
+    title: "Earthworm Jim",
+    url: "https://en.wikipedia.org/wiki/Earthworm_Jim",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},

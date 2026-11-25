@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E4%B9%8B%E5%BF%83.zip",
+  logo: "/img/dos-games/gang-tie-zhi-xin.jpg",
+  wiki: {
+    title: "Ironseed",
+    url: "https://en.wikipedia.org/wiki/Ironseed",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E9%80%81%E6%8A%A5%E7%AB%A5.zip",
+  logo: "/img/dos-games/song-bao-tong.jpg",
+  wiki: {
+    title: "Paperboy 2",
+    url: "https://en.wikipedia.org/wiki/Paperboy_2",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

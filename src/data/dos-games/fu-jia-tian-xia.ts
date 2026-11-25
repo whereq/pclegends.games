@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E5%AF%8C%E7%94%B2%E5%A4%A9%E4%B8%8B.zip",
+  wikiZh: {
+    title: "富甲天下系列",
+    url: "https://zh.wikipedia.org/wiki/%E5%AF%8C%E7%94%B2%E5%A4%A9%E4%B8%8B%E7%B3%BB%E5%88%97",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

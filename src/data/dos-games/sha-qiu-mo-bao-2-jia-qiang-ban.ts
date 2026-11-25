@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E6%B2%99%E4%B8%98%E9%AD%94%E5%A0%A12%E5%8A%A0%E5%BC%BA%E7%89%88.zip",
+  logo: "/img/dos-games/sha-qiu-mo-bao-2-jia-qiang-ban.jpg",
+  wiki: {
+    title: "Dune II",
+    url: "https://en.wikipedia.org/wiki/Dune_II",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

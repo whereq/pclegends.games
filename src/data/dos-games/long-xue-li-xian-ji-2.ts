@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E9%BE%99%E7%A9%B4%E5%8E%86%E9%99%A9%E8%AE%B02.zip",
+  logo: "/img/dos-games/long-xue-li-xian-ji-2.jpg",
+  wiki: {
+    title: "Dragon's Lair II: Time Warp",
+    url: "https://en.wikipedia.org/wiki/Dragon%27s_Lair_II%3A_Time_Warp",
+  },
   facts: [
     {label: "Developer", value: "WARP"},
     {label: "Published", value: "1991"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%97%A7%E9%87%91%E5%B1%B1%E8%AD%A6%E8%BD%A6%E5%A4%A7%E8%B5%9B.zip",
+  logo: "/img/dos-games/jiu-jin-shan-jing-che-da-sai.jpg",
+  wiki: {
+    title: "Cisco Heat",
+    url: "https://en.wikipedia.org/wiki/Cisco_Heat",
+  },
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "1996"},

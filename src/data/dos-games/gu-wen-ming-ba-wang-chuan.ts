@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "Archive",
   statusZh: "归档",
   url: "https://dos-bin.zczc.cz/%E5%8F%A4%E6%96%87%E6%98%8E%E9%9C%B8%E7%8E%8B%E4%BC%A0.zip",
+  logo: "/img/dos-games/gu-wen-ming-ba-wang-chuan.jpg",
+  wikiZh: {
+    title: "古文明霸王传",
+    url: "https://zh.wikipedia.org/wiki/%E5%8F%A4%E6%96%87%E6%98%8E%E9%9C%B8%E7%8E%8B%E4%BC%A0",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},

@@ -21,6 +21,10 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E6%8F%90%E7%9D%A3%E4%B9%8B%E5%86%B3%E6%96%AD2.zip",
+  wikiZh: {
+    title: "提督之決斷II",
+    url: "https://zh.wikipedia.org/wiki/%E6%8F%90%E7%9D%A3%E4%B9%8B%E6%B1%BA%E6%96%B7II",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

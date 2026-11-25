@@ -21,6 +21,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E4%B8%AD%E5%9B%BD%E6%B0%91%E8%88%AA.zip",
+  logo: "/img/dos-games/zhong-guo-min-hang.jpg",
+  wikiZh: {
+    title: "中国民航 (游戏)",
+    url: "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E6%B0%91%E8%88%AA_(%E6%B8%B8%E6%88%8F)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

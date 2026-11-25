@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E4%BA%BF%E5%85%86%E6%97%85%E8%A1%8C%E8%80%852.zip",
+  logo: "/img/dos-games/yi-zhao-lv-xing-zhe-2.jpg",
+  wiki: {
+    title: "MegaTraveller 2: Quest for the Ancients",
+    url: "https://en.wikipedia.org/wiki/MegaTraveller_2%3A_Quest_for_the_Ancients",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

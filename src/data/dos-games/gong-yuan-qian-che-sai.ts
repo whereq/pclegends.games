@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E5%85%AC%E5%85%83%E5%89%8D%E8%BD%A6%E8%B5%9B.zip",
+  logo: "/img/dos-games/gong-yuan-qian-che-sai.jpg",
+  wiki: {
+    title: "BC Racers",
+    url: "https://en.wikipedia.org/wiki/BC_Racers",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

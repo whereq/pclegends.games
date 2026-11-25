@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E9%A1%BA%E6%97%B6%E9%92%88%E8%B0%9C%E9%A2%98.zip",
+  logo: "/img/dos-games/shun-shi-zhen-mi-ti.jpg",
+  wiki: {
+    title: "Clockwiser",
+    url: "https://en.wikipedia.org/wiki/Clockwiser",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

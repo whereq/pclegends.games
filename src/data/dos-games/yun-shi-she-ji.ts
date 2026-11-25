@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E9%99%A8%E7%9F%B3%E5%B0%84%E5%87%BB.zip",
+  logo: "/img/dos-games/yun-shi-she-ji.jpg",
+  wiki: {
+    title: "AstroFire",
+    url: "https://en.wikipedia.org/wiki/AstroFire",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

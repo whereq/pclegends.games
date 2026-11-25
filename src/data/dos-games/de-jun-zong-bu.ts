@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1984",
   statusZh: "1984",
   url: "https://dos-bin.zczc.cz/%E5%BE%B7%E5%86%9B%E6%80%BB%E9%83%A8.zip",
+  logo: "/img/dos-games/de-jun-zong-bu.jpg",
+  wiki: {
+    title: "Castle Wolfenstein",
+    url: "https://en.wikipedia.org/wiki/Castle_Wolfenstein",
+  },
+  wikiZh: {
+    title: "德軍總部：新秩序",
+    url: "https://zh.wikipedia.org/wiki/%E5%BE%B7%E8%BB%8D%E7%B8%BD%E9%83%A8%EF%BC%9A%E6%96%B0%E7%A7%A9%E5%BA%8F",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1984"},

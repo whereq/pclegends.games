@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%98%9F%E7%90%83%E5%A4%A7%E6%88%98%E7%BB%9D%E5%9C%B0%E5%8F%8D%E5%87%BB.zip",
+  logo: "/img/dos-games/xing-qiu-da-zhan-jue-di-fan-ji.jpg",
+  wiki: {
+    title: "Super Star Wars",
+    url: "https://en.wikipedia.org/wiki/Super_Star_Wars",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1989",
   statusZh: "1989",
   url: "https://dos-bin.zczc.cz/%E4%BB%99%E5%A2%83%E4%BC%A0%E5%A5%871.zip",
+  logo: "/img/dos-games/xian-jing-chuan-qi-1.jpg",
+  wiki: {
+    title: "The Faery Tale Adventure",
+    url: "https://en.wikipedia.org/wiki/The_Faery_Tale_Adventure",
+  },
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1989"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E8%AF%95%E9%AA%8C%E9%A9%BE%E9%A9%B63.zip",
+  logo: "/img/dos-games/shi-yan-jia-shi-3.jpg",
+  wiki: {
+    title: "Test Drive III: The Passion",
+    url: "https://en.wikipedia.org/wiki/Test_Drive_III%3A_The_Passion",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1990"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "Archive",
   statusZh: "归档",
   url: "https://dos-bin.zczc.cz/%E5%9C%B0%E7%8B%B1%E8%B5%9B%E5%8D%9A%E6%9C%8B%E5%85%8B.zip",
+  logo: "/img/dos-games/di-yu-sai-bo-peng-ke.jpg",
+  wiki: {
+    title: "Hell: A Cyberpunk Thriller",
+    url: "https://en.wikipedia.org/wiki/Hell%3A_A_Cyberpunk_Thriller",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},

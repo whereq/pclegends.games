@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E5%85%83%E7%B4%A0.zip",
+  logo: "/img/dos-games/hei-an-yuan-su.jpg",
+  wiki: {
+    title: "Obitus",
+    url: "https://en.wikipedia.org/wiki/Obitus",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1991"},

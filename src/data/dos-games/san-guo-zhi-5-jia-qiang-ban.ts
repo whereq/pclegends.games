@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%975%E5%8A%A0%E5%BC%BA%E7%89%88.zip",
+  logo: "/img/dos-games/san-guo-zhi-5-jia-qiang-ban.jpg",
+  wikiZh: {
+    title: "三國志V",
+    url: "https://zh.wikipedia.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97V",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

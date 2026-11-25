@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E5%A4%A9%E4%BD%BF%E5%B8%9D%E5%9B%BD.zip",
+  wikiZh: {
+    title: "天使帝國系列",
+    url: "https://zh.wikipedia.org/wiki/%E5%A4%A9%E4%BD%BF%E5%B8%9D%E5%9C%8B%E7%B3%BB%E5%88%97",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

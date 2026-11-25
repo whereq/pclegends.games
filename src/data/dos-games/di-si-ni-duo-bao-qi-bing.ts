@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E8%BF%AA%E6%96%AF%E5%B0%BC%E5%A4%BA%E5%AE%9D%E5%A5%87%E5%85%B5.zip",
+  logo: "/img/dos-games/di-si-ni-duo-bao-qi-bing.jpg",
+  wiki: {
+    title: "DuckTales: The Quest for Gold",
+    url: "https://en.wikipedia.org/wiki/DuckTales%3A_The_Quest_for_Gold",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1990"},

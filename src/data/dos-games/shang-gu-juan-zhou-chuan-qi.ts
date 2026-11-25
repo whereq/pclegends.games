@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B4%E4%BC%A0%E5%A5%87.zip",
+  logo: "/img/dos-games/shang-gu-juan-zhou-chuan-qi.jpg",
+  wiki: {
+    title: "An Elder Scrolls Legend: Battlespire",
+    url: "https://en.wikipedia.org/wiki/An_Elder_Scrolls_Legend%3A_Battlespire",
+  },
+  wikiZh: {
+    title: "上古卷轴系列",
+    url: "https://zh.wikipedia.org/wiki/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B4%E7%B3%BB%E5%88%97",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},

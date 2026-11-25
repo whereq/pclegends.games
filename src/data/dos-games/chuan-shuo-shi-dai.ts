@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E4%BC%A0%E8%AF%B4%E6%97%B6%E4%BB%A3.zip",
+  logo: "/img/dos-games/chuan-shuo-shi-dai.jpg",
+  wiki: {
+    title: "Times of Lore",
+    url: "https://en.wikipedia.org/wiki/Times_of_Lore",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1997"},

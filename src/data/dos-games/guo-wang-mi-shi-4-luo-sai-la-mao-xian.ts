@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1988",
   statusZh: "1988",
   url: "https://dos-bin.zczc.cz/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BF4%E7%BD%97%E5%A1%9E%E6%8B%89%E5%86%92%E9%99%A9.zip",
+  logo: "/img/dos-games/guo-wang-mi-shi-4-luo-sai-la-mao-xian.jpg",
+  wiki: {
+    title: "King's Quest IV",
+    url: "https://en.wikipedia.org/wiki/King%27s_Quest_IV",
+  },
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1988"},

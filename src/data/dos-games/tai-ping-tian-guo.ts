@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1998",
   statusZh: "1998",
   url: "https://dos-bin.zczc.cz/%E5%A4%AA%E5%B9%B3%E5%A4%A9%E5%9B%BD.zip",
+  logo: "/img/dos-games/tai-ping-tian-guo.jpg",
+  wiki: {
+    title: "Crisis Zone",
+    url: "https://en.wikipedia.org/wiki/Crisis_Zone",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1998"},

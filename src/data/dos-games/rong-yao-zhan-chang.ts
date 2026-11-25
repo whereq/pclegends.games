@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E8%8D%A3%E8%80%80%E6%88%98%E5%9C%BA.zip",
+  logo: "/img/dos-games/rong-yao-zhan-chang.jpg",
+  wiki: {
+    title: "Fields of Glory",
+    url: "https://en.wikipedia.org/wiki/Fields_of_Glory",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

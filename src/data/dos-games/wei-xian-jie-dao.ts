@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E5%8D%B1%E9%99%A9%E8%A1%97%E9%81%93.zip",
+  logo: "/img/dos-games/wei-xian-jie-dao.jpg",
+  wiki: {
+    title: "Dangerous Streets",
+    url: "https://en.wikipedia.org/wiki/Dangerous_Streets",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E9%9B%B7%E5%85%8B%E6%96%AF.zip",
+  logo: "/img/dos-games/lei-ke-si.jpg",
+  wiki: {
+    title: "Rex Nebular and the Cosmic Gender Bender",
+    url: "https://en.wikipedia.org/wiki/Rex_Nebular_and_the_Cosmic_Gender_Bender",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1992"},

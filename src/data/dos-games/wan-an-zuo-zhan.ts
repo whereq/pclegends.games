@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E6%B9%BE%E5%B2%B8%E4%BD%9C%E6%88%98.zip",
+  wiki: {
+    title: "Desert Strike",
+    url: "https://en.wikipedia.org/wiki/Desert_Strike",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

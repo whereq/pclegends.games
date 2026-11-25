@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E4%B8%8A%E6%B5%B7%E9%BA%BB%E5%B0%86%E6%8E%A5%E9%BE%99.zip",
+  logo: "/img/dos-games/shang-hai-ma-jiang-jie-long.jpg",
+  wiki: {
+    title: "Shanghai II: Dragon's Eye",
+    url: "https://en.wikipedia.org/wiki/Shanghai_II%3A_Dragon%27s_Eye",
+  },
   facts: [
     {label: "Developer", value: "ACTIVISION"},
     {label: "Published", value: "1990"},

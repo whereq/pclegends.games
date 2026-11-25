@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A8%E8%8B%B1%E9%9B%84%E6%97%A0%E6%95%8C.zip",
+  logo: "/img/dos-games/mo-fa-men-ying-xiong-wu-di.jpg",
+  wiki: {
+    title: "Heroes of Might and Magic",
+    url: "https://en.wikipedia.org/wiki/Heroes_of_Might_and_Magic",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},

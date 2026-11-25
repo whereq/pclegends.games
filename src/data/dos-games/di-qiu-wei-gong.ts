@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E5%9C%B0%E7%90%83%E5%9B%B4%E6%94%BB.zip",
+  logo: "/img/dos-games/di-qiu-wei-gong.jpg",
+  wiki: {
+    title: "Metaltech: Earthsiege",
+    url: "https://en.wikipedia.org/wiki/Metaltech%3A_Earthsiege",
+  },
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1994"},

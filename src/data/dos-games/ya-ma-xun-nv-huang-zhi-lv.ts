@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E4%BA%9A%E9%A9%AC%E9%80%8A%E5%A5%B3%E7%9A%87%E4%B9%8B%E6%97%85.zip",
+  logo: "/img/dos-games/ya-ma-xun-nv-huang-zhi-lv.jpg",
+  wiki: {
+    title: "Flight of the Amazon Queen",
+    url: "https://en.wikipedia.org/wiki/Flight_of_the_Amazon_Queen",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

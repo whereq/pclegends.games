@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E7%A9%BA%E9%97%B46.zip",
+  logo: "/img/dos-games/huan-xiang-kong-jian-6.jpg",
+  wiki: {
+    title: "Leisure Suit Larry 6: Shape Up or Slip Out!",
+    url: "https://en.wikipedia.org/wiki/Leisure_Suit_Larry_6%3A_Shape_Up_or_Slip_Out%21",
+  },
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1993"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "Archive",
   statusZh: "归档",
   url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%97%E5%A8%81%E5%BB%89%E7%9A%84%E5%9C%B0%E4%B8%8B%E5%9F%8E%E4%B9%8B%E6%97%85.zip",
+  logo: "/img/dos-games/feng-gou-wei-lian-de-di-xia-cheng-zhi-lv.jpg",
+  wiki: {
+    title: "The Adventures of Maddog Williams in the Dungeons of Duridian",
+    url: "https://en.wikipedia.org/wiki/The_Adventures_of_Maddog_Williams_in_the_Dungeons_of_Duridian",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},

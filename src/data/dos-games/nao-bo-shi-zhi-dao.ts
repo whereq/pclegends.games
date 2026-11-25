@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E8%84%91%E5%8D%9A%E5%A3%AB%E4%B9%8B%E5%B2%9B.zip",
+  logo: "/img/dos-games/nao-bo-shi-zhi-dao.jpg",
+  wiki: {
+    title: "The Island of Dr. Brain",
+    url: "https://en.wikipedia.org/wiki/The_Island_of_Dr._Brain",
+  },
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1992"},

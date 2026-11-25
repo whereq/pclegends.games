@@ -21,6 +21,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E5%91%BD%E8%BF%90%E6%88%98%E5%A3%AB%EF%BC%8F%E6%B7%B7%E6%B2%8C%E5%BC%95%E6%93%8E.zip",
+  logo: "/img/dos-games/ming-yun-zhan-shi-hun-dun-yin-qing.jpg",
+  wiki: {
+    title: "The Chaos Engine",
+    url: "https://en.wikipedia.org/wiki/The_Chaos_Engine",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

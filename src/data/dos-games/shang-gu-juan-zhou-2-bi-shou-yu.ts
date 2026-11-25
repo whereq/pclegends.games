@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B42%E5%8C%95%E9%A6%96%E9%9B%A8.zip",
+  logo: "/img/dos-games/shang-gu-juan-zhou-2-bi-shou-yu.jpg",
+  wiki: {
+    title: "The Elder Scrolls II: Daggerfall",
+    url: "https://en.wikipedia.org/wiki/The_Elder_Scrolls_II%3A_Daggerfall",
+  },
+  wikiZh: {
+    title: "上古卷轴II：匕首雨",
+    url: "https://zh.wikipedia.org/wiki/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B4II%EF%BC%9A%E5%8C%95%E9%A6%96%E9%9B%A8",
+  },
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1997"},

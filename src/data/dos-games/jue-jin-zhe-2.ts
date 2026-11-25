@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%8E%98%E9%87%91%E8%80%852.zip",
+  logo: "/img/dos-games/jue-jin-zhe-2.jpg",
+  wiki: {
+    title: "Extractors",
+    url: "https://en.wikipedia.org/wiki/Extractors",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

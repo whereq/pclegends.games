@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/FIFA1996.zip",
+  logo: "/img/dos-games/fifa1996.jpg",
+  wiki: {
+    title: "FIFA Soccer 96",
+    url: "https://en.wikipedia.org/wiki/FIFA_Soccer_96",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

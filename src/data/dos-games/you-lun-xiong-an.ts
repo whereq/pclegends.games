@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E6%B8%B8%E8%BD%AE%E5%87%B6%E6%A1%88.zip",
+  logo: "/img/dos-games/you-lun-xiong-an.jpg",
+  wiki: {
+    title: "Cruise for a Corpse",
+    url: "https://en.wikipedia.org/wiki/Cruise_for_a_Corpse",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

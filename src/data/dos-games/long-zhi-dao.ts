@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E9%BE%99%E4%B9%8B%E9%81%93.zip",
+  logo: "/img/dos-games/long-zhi-dao.jpg",
+  wiki: {
+    title: "Drakkhen",
+    url: "https://en.wikipedia.org/wiki/Drakkhen",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},

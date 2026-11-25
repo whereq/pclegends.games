@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B%E5%B7%AB%E6%9C%AF%E5%AF%B9%E5%86%B3.zip",
+  logo: "/img/dos-games/guo-ji-xiang-qi-wu-shu-dui-jue.jpg",
+  wiki: {
+    title: "Archon Ultra",
+    url: "https://en.wikipedia.org/wiki/Archon_Ultra",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1994"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "2000",
   statusZh: "2000",
   url: "https://dos-bin.zczc.cz/%E9%A9%AC%E9%87%8C%E5%A5%A5%E4%B8%8D%E8%A7%81%E4%BA%86.zip",
+  logo: "/img/dos-games/ma-li-ao-bu-jian-le.jpg",
+  wiki: {
+    title: "Mario Is Missing!",
+    url: "https://en.wikipedia.org/wiki/Mario_Is_Missing%21",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2000"},

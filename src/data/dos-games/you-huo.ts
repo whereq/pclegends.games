@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E8%AF%B1%E6%83%91.zip",
+  logo: "/img/dos-games/you-huo.jpg",
+  wiki: {
+    title: "Lure of the Temptress",
+    url: "https://en.wikipedia.org/wiki/Lure_of_the_Temptress",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

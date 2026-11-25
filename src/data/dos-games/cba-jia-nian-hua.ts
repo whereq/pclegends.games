@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/CBA%E5%98%89%E5%B9%B4%E5%8D%8E.zip",
+  logo: "/img/dos-games/cba-jia-nian-hua.jpg",
+  wiki: {
+    title: "College Slam",
+    url: "https://en.wikipedia.org/wiki/College_Slam",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E8%99%9A%E6%8B%9F%E6%A1%8C%E7%90%83.zip",
+  logo: "/img/dos-games/xu-ni-zhuo-qiu.jpg",
+  wiki: {
+    title: "Virtual Pool",
+    url: "https://en.wikipedia.org/wiki/Virtual_Pool",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

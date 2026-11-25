@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E8%BF%B7%E8%88%AA%E8%A3%81%E5%86%B3%E4%BB%AA%E5%BC%8F.zip",
+  logo: "/img/dos-games/xing-ji-mi-hang-cai-jue-yi-shi.jpg",
+  wiki: {
+    title: "Star Trek: Judgment Rites",
+    url: "https://en.wikipedia.org/wiki/Star_Trek%3A_Judgment_Rites",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},

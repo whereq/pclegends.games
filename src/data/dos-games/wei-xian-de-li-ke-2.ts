@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E5%8D%B1%E9%99%A9%E7%9A%84%E9%87%8C%E5%85%8B2.zip",
+  logo: "/img/dos-games/wei-xian-de-li-ke-2.jpg",
+  wiki: {
+    title: "Rick Dangerous 2",
+    url: "https://en.wikipedia.org/wiki/Rick_Dangerous_2",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},

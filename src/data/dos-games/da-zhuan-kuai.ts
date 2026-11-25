@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E6%89%93%E7%A0%96%E5%9D%97.zip",
+  logo: "/img/dos-games/da-zhuan-kuai.jpg",
+  wikiZh: {
+    title: "打磚塊",
+    url: "https://zh.wikipedia.org/wiki/%E6%89%93%E7%A3%9A%E5%A1%8A",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%86%B0%E7%90%83%E8%81%94%E8%B5%9B97.zip",
+  logo: "/img/dos-games/bing-qiu-lian-sai-97.jpg",
+  wiki: {
+    title: "NHL 97",
+    url: "https://en.wikipedia.org/wiki/NHL_97",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1996"},

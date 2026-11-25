@@ -21,6 +21,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E5%BF%974.zip",
+  logo: "/img/dos-games/san-guo-zhi-iv.jpg",
+  wiki: {
+    title: "Romance of the Three Kingdoms IV: Wall of Fire",
+    url: "https://en.wikipedia.org/wiki/Romance_of_the_Three_Kingdoms_IV%3A_Wall_of_Fire",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

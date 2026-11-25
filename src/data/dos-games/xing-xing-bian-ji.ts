@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E8%A1%8C%E6%98%9F%E8%BE%B9%E9%99%85.zip",
+  logo: "/img/dos-games/xing-xing-bian-ji.jpg",
+  wiki: {
+    title: "Planet's Edge",
+    url: "https://en.wikipedia.org/wiki/Planet%27s_Edge",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},

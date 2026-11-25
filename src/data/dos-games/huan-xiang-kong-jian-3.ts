@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1989",
   statusZh: "1989",
   url: "https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E7%A9%BA%E9%97%B43.zip",
+  logo: "/img/dos-games/huan-xiang-kong-jian-3.jpg",
+  wiki: {
+    title: "Leisure Suit Larry III: Passionate Patti in Pursuit of the Pulsating Pectorals",
+    url: "https://en.wikipedia.org/wiki/Leisure_Suit_Larry_III%3A_Passionate_Patti_in_Pursuit_of_the_Pulsating_Pectorals",
+  },
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1989"},

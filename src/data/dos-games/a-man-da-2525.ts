@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E9%98%BF%E6%9B%BC%E8%BE%BE2525.zip",
+  logo: "/img/dos-games/a-man-da-2525.jpg",
+  wiki: {
+    title: "Armada 2525",
+    url: "https://en.wikipedia.org/wiki/Armada_2525",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1996"},

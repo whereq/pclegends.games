@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA6.zip",
+  logo: "/img/dos-games/chuang-shi-ji-6.jpg",
+  wiki: {
+    title: "Ultima VI: The False Prophet",
+    url: "https://en.wikipedia.org/wiki/Ultima_VI%3A_The_False_Prophet",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1990"},

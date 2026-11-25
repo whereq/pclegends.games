@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E9%A3%8E%E6%9A%B4%E9%A2%86%E4%B8%BB.zip",
+  logo: "/img/dos-games/feng-bao-ling-zhu.jpg",
+  wiki: {
+    title: "Storm Master",
+    url: "https://en.wikipedia.org/wiki/Storm_Master",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

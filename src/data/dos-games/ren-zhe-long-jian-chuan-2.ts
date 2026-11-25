@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E5%BF%8D%E8%80%85%E9%BE%99%E5%89%91%E4%BC%A02.zip",
+  logo: "/img/dos-games/ren-zhe-long-jian-chuan-2.jpg",
+  wiki: {
+    title: "Ninja Gaiden II: The Dark Sword of Chaos",
+    url: "https://en.wikipedia.org/wiki/Ninja_Gaiden_II%3A_The_Dark_Sword_of_Chaos",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

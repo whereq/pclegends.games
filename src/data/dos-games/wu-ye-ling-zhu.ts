@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%8D%88%E5%A4%9C%E9%A2%86%E4%B8%BB.zip",
+  logo: "/img/dos-games/wu-ye-ling-zhu.jpg",
+  wikiZh: {
+    title: "午夜領主",
+    url: "https://zh.wikipedia.org/wiki/%E5%8D%88%E5%A4%9C%E9%A0%98%E4%B8%BB",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

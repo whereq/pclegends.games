@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E6%88%98%E7%A5%9E.zip",
+  logo: "/img/dos-games/zhan-shen.jpg",
+  wikiZh: {
+    title: "戰神：崛起",
+    url: "https://zh.wikipedia.org/wiki/%E6%88%B0%E7%A5%9E%EF%BC%9A%E5%B4%9B%E8%B5%B7",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},

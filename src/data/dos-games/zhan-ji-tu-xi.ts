@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1999",
   statusZh: "1999",
   url: "https://dos-bin.zczc.cz/%E6%88%98%E6%9C%BA%E7%AA%81%E8%A2%AD.zip",
+  logo: "/img/dos-games/zhan-ji-tu-xi.jpg",
+  wiki: {
+    title: "Jetstrike",
+    url: "https://en.wikipedia.org/wiki/Jetstrike",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1999"},

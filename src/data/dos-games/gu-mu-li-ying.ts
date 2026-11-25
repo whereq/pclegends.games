@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%8F%A4%E5%A2%93%E4%B8%BD%E5%BD%B1.zip",
+  logo: "/img/dos-games/gu-mu-li-ying.jpg",
+  wiki: {
+    title: "Tomb Raider",
+    url: "https://en.wikipedia.org/wiki/Tomb_Raider",
+  },
+  wikiZh: {
+    title: "古墓丽影系列",
+    url: "https://zh.wikipedia.org/wiki/%E5%8F%A4%E5%A2%93%E4%B8%BD%E5%BD%B1%E7%B3%BB%E5%88%97",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

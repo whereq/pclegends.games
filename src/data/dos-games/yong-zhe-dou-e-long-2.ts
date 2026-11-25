@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E5%8B%87%E8%80%85%E6%96%97%E6%81%B6%E9%BE%992.zip",
+  logo: "/img/dos-games/yong-zhe-dou-e-long-2.jpg",
+  wikiZh: {
+    title: "勇者斗恶龙II 恶灵的众神",
+    url: "https://zh.wikipedia.org/wiki/%E5%8B%87%E8%80%85%E6%96%97%E6%81%B6%E9%BE%99II_%E6%81%B6%E7%81%B5%E7%9A%84%E4%BC%97%E7%A5%9E",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},

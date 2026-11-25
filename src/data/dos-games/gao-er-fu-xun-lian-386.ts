@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E9%AB%98%E5%B0%94%E5%A4%AB%E8%AE%AD%E7%BB%83386.zip",
+  logo: "/img/dos-games/gao-er-fu-xun-lian-386.jpg",
+  wiki: {
+    title: "Links 386 Pro",
+    url: "https://en.wikipedia.org/wiki/Links_386_Pro",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

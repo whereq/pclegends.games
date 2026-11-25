@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E5%BF%AB%E6%89%93.zip",
+  logo: "/img/dos-games/kong-long-kuai-da.jpg",
+  wikiZh: {
+    title: "恐龙快打",
+    url: "https://zh.wikipedia.org/wiki/%E6%81%90%E9%BE%99%E5%BF%AB%E6%89%93",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E5%8F%9B%E5%8F%98%E5%85%8B%E6%9C%97%E5%A4%9A.zip",
+  logo: "/img/dos-games/pan-bian-ke-lang-duo.jpg",
+  wiki: {
+    title: "Betrayal at Krondor",
+    url: "https://en.wikipedia.org/wiki/Betrayal_at_Krondor",
+  },
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1997"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E5%B0%8F%E8%9C%9C%E8%9C%82.zip",
+  logo: "/img/dos-games/xiao-mi-feng.jpg",
+  wikiZh: {
+    title: "小蜜蜂 (游戏)",
+    url: "https://zh.wikipedia.org/wiki/%E5%B0%8F%E8%9C%9C%E8%9C%82_(%E6%B8%B8%E6%88%8F)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},

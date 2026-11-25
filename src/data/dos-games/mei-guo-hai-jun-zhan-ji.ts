@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%9B%BD%E6%B5%B7%E5%86%9B%E6%88%98%E6%9C%BA.zip",
+  logo: "/img/dos-games/mei-guo-hai-jun-zhan-ji.jpg",
+  wiki: {
+    title: "U.S. Navy Fighters",
+    url: "https://en.wikipedia.org/wiki/U.S._Navy_Fighters",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

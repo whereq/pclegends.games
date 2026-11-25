@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E4%BA%9A%E9%A9%AC%E9%80%8A%E4%BC%8A%E7%94%B8%E5%9B%AD%E5%AE%88%E5%8D%AB%E8%80%85.zip",
+  logo: "/img/dos-games/ya-ma-xun-yi-dian-yuan-shou-wei-zhe.jpg",
+  wiki: {
+    title: "Amazon: Guardians of Eden",
+    url: "https://en.wikipedia.org/wiki/Amazon%3A_Guardians_of_Eden",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

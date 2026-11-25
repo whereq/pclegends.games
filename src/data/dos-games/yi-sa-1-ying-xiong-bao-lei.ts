@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E4%BB%A5%E6%92%921%E8%8B%B1%E9%9B%84%E5%A0%A1%E5%9E%92.zip",
+  logo: "/img/dos-games/yi-sa-1-ying-xiong-bao-lei.jpg",
+  wiki: {
+    title: "Ishar: Legend of the Fortress",
+    url: "https://en.wikipedia.org/wiki/Ishar%3A_Legend_of_the_Fortress",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

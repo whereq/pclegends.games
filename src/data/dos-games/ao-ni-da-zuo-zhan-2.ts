@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%A5%A5%E5%B0%BC%E5%A4%A7%E4%BD%9C%E6%88%982.zip",
+  logo: "/img/dos-games/ao-ni-da-zuo-zhan-2.jpg",
+  wiki: {
+    title: "Arnie 2",
+    url: "https://en.wikipedia.org/wiki/Arnie_2",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

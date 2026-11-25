@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E5%85%89%E6%98%8E%E6%88%98%E5%8F%B2.zip",
+  logo: "/img/dos-games/guang-ming-zhan-shi.jpg",
+  wiki: {
+    title: "Dragon Force",
+    url: "https://en.wikipedia.org/wiki/Dragon_Force",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%96%AF%E5%A4%A7%E6%9E%97%E6%A0%BC%E5%8B%92.zip",
+  logo: "/img/dos-games/si-da-lin-ge-lei.jpg",
+  wikiZh: {
+    title: "斯大林格勒 (游戏)",
+    url: "https://zh.wikipedia.org/wiki/%E6%96%AF%E5%A4%A7%E6%9E%97%E6%A0%BC%E5%8B%92_(%E6%B8%B8%E6%88%8F)",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},

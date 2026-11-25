@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E8%A1%80%E5%B7%A2.zip",
+  logo: "/img/dos-games/xue-chao.jpg",
+  wiki: {
+    title: "BloodNet",
+    url: "https://en.wikipedia.org/wiki/BloodNet",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

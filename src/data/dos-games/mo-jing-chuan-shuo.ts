@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%A2%83%E4%BC%A0%E8%AF%B4.zip",
+  logo: "/img/dos-games/mo-jing-chuan-shuo.jpg",
+  wiki: {
+    title: "Rastan Saga",
+    url: "https://en.wikipedia.org/wiki/Rastan_Saga",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E5%A4%A7%E7%BA%A2%E5%A4%A7%E5%86%92%E9%99%A9.zip",
+  logo: "/img/dos-games/da-hong-da-mao-xian.jpg",
+  wiki: {
+    title: "The Big Red Adventure",
+    url: "https://en.wikipedia.org/wiki/The_Big_Red_Adventure",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

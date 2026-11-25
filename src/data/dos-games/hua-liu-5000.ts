@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E6%BB%91%E6%B5%815000.zip",
+  logo: "/img/dos-games/hua-liu-5000.jpg",
+  wiki: {
+    title: "Slipstream 5000",
+    url: "https://en.wikipedia.org/wiki/Slipstream_5000",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},

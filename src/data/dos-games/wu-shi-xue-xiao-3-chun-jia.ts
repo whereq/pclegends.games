@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E5%B7%AB%E5%B8%88%E5%AD%A6%E6%A0%A13%E6%98%A5%E5%81%87.zip",
+  logo: "/img/dos-games/wu-shi-xue-xiao-3-chun-jia.jpg",
+  wiki: {
+    title: "Spellcasting 301: Spring Break",
+    url: "https://en.wikipedia.org/wiki/Spellcasting_301%3A_Spring_Break",
+  },
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1997"},

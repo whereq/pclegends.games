@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%97%A5%E5%8D%B1%E6%9C%BA2.zip",
+  logo: "/img/dos-games/hei-ri-wei-ji-2.jpg",
+  wiki: {
+    title: "Dark Sun: Wake of the Ravager",
+    url: "https://en.wikipedia.org/wiki/Dark_Sun%3A_Wake_of_the_Ravager",
+  },
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1994"},

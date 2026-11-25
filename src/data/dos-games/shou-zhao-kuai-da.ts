@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%85%BD%E7%88%AA%E5%BF%AB%E6%89%93.zip",
+  logo: "/img/dos-games/shou-zhao-kuai-da.jpg",
+  wiki: {
+    title: "Brutal: Paws of Fury",
+    url: "https://en.wikipedia.org/wiki/Brutal%3A_Paws_of_Fury",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

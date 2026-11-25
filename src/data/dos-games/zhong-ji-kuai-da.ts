@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E7%BB%88%E6%9E%81%E5%BF%AB%E6%89%93.zip",
+  logo: "/img/dos-games/zhong-ji-kuai-da.jpg",
+  wiki: {
+    title: "Ultimate Body Blows",
+    url: "https://en.wikipedia.org/wiki/Ultimate_Body_Blows",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

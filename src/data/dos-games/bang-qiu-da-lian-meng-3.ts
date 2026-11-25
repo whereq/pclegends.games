@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E6%A3%92%E7%90%83%E5%A4%A7%E8%81%94%E7%9B%9F3.zip",
+  logo: "/img/dos-games/bang-qiu-da-lian-meng-3.jpg",
+  wiki: {
+    title: "HardBall III",
+    url: "https://en.wikipedia.org/wiki/HardBall_III",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

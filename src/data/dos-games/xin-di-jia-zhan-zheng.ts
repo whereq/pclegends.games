@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E8%BE%9B%E8%BF%AA%E5%8A%A0%E6%88%98%E4%BA%89.zip",
+  logo: "/img/dos-games/xin-di-jia-zhan-zheng.jpg",
+  wiki: {
+    title: "Syndicate Wars",
+    url: "https://en.wikipedia.org/wiki/Syndicate_Wars",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

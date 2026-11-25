@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E8%8D%92%E8%9B%AE%E5%8B%87%E5%A3%AB%E6%A0%BC%E6%96%97.zip",
+  logo: "/img/dos-games/huang-man-yong-shi-ge-dou.jpg",
+  wiki: {
+    title: "Savage Warriors",
+    url: "https://en.wikipedia.org/wiki/Savage_Warriors",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

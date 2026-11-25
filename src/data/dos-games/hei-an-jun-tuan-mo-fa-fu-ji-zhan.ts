@@ -21,6 +21,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%9A%97%E5%86%9B%E5%9B%A2%EF%BC%8F%E9%AD%94%E6%B3%95%E4%BC%8F%E5%87%BB%E6%88%98.zip",
+  logo: "/img/dos-games/hei-an-jun-tuan-mo-fa-fu-ji-zhan.jpg",
+  wiki: {
+    title: "Dark Legions",
+    url: "https://en.wikipedia.org/wiki/Dark_Legions",
+  },
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1994"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "Archive",
   statusZh: "归档",
   url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E7%94%9F%E5%91%BD.zip",
+  logo: "/img/dos-games/mo-ni-sheng-ming.jpg",
+  wiki: {
+    title: "SimLife",
+    url: "https://en.wikipedia.org/wiki/SimLife",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%90%89%E5%B0%94%E5%9C%A8%E4%B8%9B%E6%9E%973%E5%90%881.zip",
+  logo: "/img/dos-games/ji-er-zai-cong-lin-3-he-1.jpg",
+  wiki: {
+    title: "Jill of the Jungle",
+    url: "https://en.wikipedia.org/wiki/Jill_of_the_Jungle",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

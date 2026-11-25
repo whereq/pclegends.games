@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E4%B8%9B%E6%9E%97%E4%B9%8B%E4%B9%A6.zip",
+  logo: "/img/dos-games/cong-lin-zhi-shu.jpg",
+  wiki: {
+    title: "The Jungle Book (video game)",
+    url: "https://en.wikipedia.org/wiki/The_Jungle_Book_(video_game)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%AF%92%E5%85%94%E5%B4%BD%E5%AD%90.zip",
+  logo: "/img/dos-games/du-tu-zai-zi.jpg",
+  wiki: {
+    title: "Toxic Bunny",
+    url: "https://en.wikipedia.org/wiki/Toxic_Bunny",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

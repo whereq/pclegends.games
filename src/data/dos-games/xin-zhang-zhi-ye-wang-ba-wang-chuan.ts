@@ -21,6 +21,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B%E9%9C%B8%E7%8E%8B%E4%BC%A0.zip",
+  logo: "/img/dos-games/xin-zhang-zhi-ye-wang-ba-wang-chuan.jpg",
+  wikiZh: {
+    title: "信长之野望·霸王传",
+    url: "https://zh.wikipedia.org/wiki/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B%C2%B7%E9%9C%B8%E7%8E%8B%E4%BC%A0",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

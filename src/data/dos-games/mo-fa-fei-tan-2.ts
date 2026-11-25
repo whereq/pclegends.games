@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%A3%9E%E6%AF%AF2.zip",
+  logo: "/img/dos-games/mo-fa-fei-tan-2.jpg",
+  wiki: {
+    title: "Magic Carpet (video game)",
+    url: "https://en.wikipedia.org/wiki/Magic_Carpet_(video_game)",
+  },
   facts: [
     {label: "Developer", value: "ELECTRONIC ARTS"},
     {label: "Published", value: "1996"},

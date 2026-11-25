@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E7%89%B9%E6%8A%80%E4%B9%8B%E5%B2%9B.zip",
+  logo: "/img/dos-games/te-ji-zhi-dao.jpg",
+  wiki: {
+    title: "Stunt Island",
+    url: "https://en.wikipedia.org/wiki/Stunt_Island",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

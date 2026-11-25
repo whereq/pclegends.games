@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E6%88%98%E6%96%A7.zip",
+  logo: "/img/dos-games/zhan-fu.jpg",
+  wiki: {
+    title: "Golden Axe",
+    url: "https://en.wikipedia.org/wiki/Golden_Axe",
+  },
+  wikiZh: {
+    title: "戰斧 (遊戲)",
+    url: "https://zh.wikipedia.org/wiki/%E6%88%B0%E6%96%A7_(%E9%81%8A%E6%88%B2)",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},

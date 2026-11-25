@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1987",
   statusZh: "1987",
   url: "https://dos-bin.zczc.cz/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97.zip",
+  logo: "/img/dos-games/e-luo-si-fang-kuai.jpg",
+  wiki: {
+    title: "Tetris",
+    url: "https://en.wikipedia.org/wiki/Tetris",
+  },
+  wikiZh: {
+    title: "俄羅斯方塊",
+    url: "https://zh.wikipedia.org/wiki/%E4%BF%84%E7%BE%85%E6%96%AF%E6%96%B9%E5%A1%8A",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1987"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E6%B4%AA%E8%8D%92%E6%A0%BC%E6%96%97.zip",
+  logo: "/img/dos-games/hong-huang-ge-dou.jpg",
+  wiki: {
+    title: "Primal Rage",
+    url: "https://en.wikipedia.org/wiki/Primal_Rage",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

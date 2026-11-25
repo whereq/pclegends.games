@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E8%B1%AA%E5%8D%8E%E5%BC%B9%E7%8F%A0%E5%8F%B0.zip",
+  logo: "/img/dos-games/hao-hua-dan-zhu-tai.jpg",
+  wiki: {
+    title: "Pinball Dreams",
+    url: "https://en.wikipedia.org/wiki/Pinball_Dreams",
+  },
   facts: [
     {label: "Developer", value: "WARP"},
     {label: "Published", value: "1996"},

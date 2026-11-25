@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%B9%BB%E8%B1%A1%E5%BC%B9%E7%8F%A0%E5%8F%B0.zip",
+  logo: "/img/dos-games/huan-xiang-dan-zhu-tai.jpg",
+  wiki: {
+    title: "Pinball Illusions",
+    url: "https://en.wikipedia.org/wiki/Pinball_Illusions",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E5%A4%AA%E7%A9%BA%E9%B2%81%E5%AE%BE%E9%80%8A.zip",
+  logo: "/img/dos-games/tai-kong-lu-bin-xun.jpg",
+  wiki: {
+    title: "Robinson's Requiem",
+    url: "https://en.wikipedia.org/wiki/Robinson%27s_Requiem",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1998",
   statusZh: "1998",
   url: "https://dos-bin.zczc.cz/%E5%8F%8C%E6%88%AA%E9%BE%99.zip",
+  logo: "/img/dos-games/shuang-jie-long.jpg",
+  wiki: {
+    title: "Double Dragon",
+    url: "https://en.wikipedia.org/wiki/Double_Dragon",
+  },
+  wikiZh: {
+    title: "双截龙 (游戏)",
+    url: "https://zh.wikipedia.org/wiki/%E5%8F%8C%E6%88%AA%E9%BE%99_(%E6%B8%B8%E6%88%8F)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1998"},

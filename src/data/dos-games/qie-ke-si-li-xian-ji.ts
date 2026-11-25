@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%88%87%E5%85%8B%E6%96%AF%E5%8E%86%E9%99%A9%E8%AE%B0.zip",
+  logo: "/img/dos-games/qie-ke-si-li-xian-ji.jpg",
+  wiki: {
+    title: "Chex Quest",
+    url: "https://en.wikipedia.org/wiki/Chex_Quest",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},

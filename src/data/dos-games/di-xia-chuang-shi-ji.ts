@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E5%9C%B0%E4%B8%8B%E5%88%9B%E4%B8%96%E7%BA%AA.zip",
+  logo: "/img/dos-games/di-xia-chuang-shi-ji.jpg",
+  wiki: {
+    title: "Ultima Underworld: The Stygian Abyss",
+    url: "https://en.wikipedia.org/wiki/Ultima_Underworld%3A_The_Stygian_Abyss",
+  },
+  wikiZh: {
+    title: "地下创世纪：冥河深渊",
+    url: "https://zh.wikipedia.org/wiki/%E5%9C%B0%E4%B8%8B%E5%88%9B%E4%B8%96%E7%BA%AA%EF%BC%9A%E5%86%A5%E6%B2%B3%E6%B7%B1%E6%B8%8A",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

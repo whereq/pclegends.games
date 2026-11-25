@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "2000",
   statusZh: "2000",
   url: "https://dos-bin.zczc.cz/%E5%8D%A1%E9%80%9A%E8%B5%9B%E8%BD%A6.zip",
+  logo: "/img/dos-games/ka-tong-sai-che.jpg",
+  wiki: {
+    title: "Wacky Wheels",
+    url: "https://en.wikipedia.org/wiki/Wacky_Wheels",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "2000"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1999",
   statusZh: "1999",
   url: "https://dos-bin.zczc.cz/%E6%84%9F%E5%AE%98%E8%B6%B3%E7%90%83.zip",
+  logo: "/img/dos-games/gan-guan-zu-qiu.jpg",
+  wiki: {
+    title: "Sensible Soccer",
+    url: "https://en.wikipedia.org/wiki/Sensible_Soccer",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1999"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1998",
   statusZh: "1998",
   url: "https://dos-bin.zczc.cz/%E9%A3%8E%E4%BA%91%E9%9C%B8%E4%B8%BB.zip",
+  logo: "/img/dos-games/feng-yun-ba-zhu.jpg",
+  wiki: {
+    title: "Powermonger",
+    url: "https://en.wikipedia.org/wiki/Powermonger",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1998"},

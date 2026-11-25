@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E9%95%BF%E5%BC%93%E4%BC%A0%E8%AF%B4%EF%BC%8D%E7%BD%97%E5%AE%BE%E6%B1%89.zip",
+  logo: "/img/dos-games/zhang-gong-chuan-shuo-luo-bin-han.jpg",
+  wiki: {
+    title: "Conquests of the Longbow: The Legend of Robin Hood",
+    url: "https://en.wikipedia.org/wiki/Conquests_of_the_Longbow%3A_The_Legend_of_Robin_Hood",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

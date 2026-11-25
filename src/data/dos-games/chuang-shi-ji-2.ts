@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1980",
   statusZh: "1980",
   url: "https://dos-bin.zczc.cz/%E5%88%9B%E4%B8%96%E7%BA%AA2.zip",
+  logo: "/img/dos-games/chuang-shi-ji-2.jpg",
+  wiki: {
+    title: "Ultima II: The Revenge of the Enchantress",
+    url: "https://en.wikipedia.org/wiki/Ultima_II%3A_The_Revenge_of_the_Enchantress",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1980"},

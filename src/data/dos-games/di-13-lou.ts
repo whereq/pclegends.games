@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E7%AC%AC13%E6%A5%BC.zip",
+  logo: "/img/dos-games/di-13-lou.jpg",
+  wiki: {
+    title: "Floor 13 (video game)",
+    url: "https://en.wikipedia.org/wiki/Floor_13_(video_game)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

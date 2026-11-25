@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E6%89%8E%E5%85%8B%E5%AE%87%E5%AE%99%E5%8E%86%E9%99%A9%E8%AE%B0.zip",
+  logo: "/img/dos-games/zha-ke-yu-zhou-li-xian-ji.jpg",
+  wiki: {
+    title: "Cosmo's Cosmic Adventure",
+    url: "https://en.wikipedia.org/wiki/Cosmo%27s_Cosmic_Adventure",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

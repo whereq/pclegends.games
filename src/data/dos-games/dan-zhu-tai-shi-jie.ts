@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E5%BC%B9%E7%8F%A0%E5%8F%B0%E4%B8%96%E7%95%8C.zip",
+  logo: "/img/dos-games/dan-zhu-tai-shi-jie.jpg",
+  wiki: {
+    title: "Pinball World",
+    url: "https://en.wikipedia.org/wiki/Pinball_World",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

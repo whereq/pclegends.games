@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E7%A9%BA%E6%88%98%E8%89%BA%E6%9C%AF.zip",
+  logo: "/img/dos-games/kong-zhan-yi-shu.jpg",
+  wiki: {
+    title: "The Ancient Art of War in the Skies",
+    url: "https://en.wikipedia.org/wiki/The_Ancient_Art_of_War_in_the_Skies",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1992"},

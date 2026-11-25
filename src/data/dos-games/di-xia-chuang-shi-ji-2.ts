@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E5%9C%B0%E4%B8%8B%E5%88%9B%E4%B8%96%E7%BA%AA2.zip",
+  logo: "/img/dos-games/di-xia-chuang-shi-ji-2.jpg",
+  wiki: {
+    title: "Ultima Underworld II: Labyrinth of Worlds",
+    url: "https://en.wikipedia.org/wiki/Ultima_Underworld_II%3A_Labyrinth_of_Worlds",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

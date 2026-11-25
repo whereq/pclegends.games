@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E7%A5%9E%E7%A7%98%E4%B9%8B%E5%A1%94.zip",
+  logo: "/img/dos-games/shen-mi-zhi-ta.jpg",
+  wiki: {
+    title: "Mystic Towers",
+    url: "https://en.wikipedia.org/wiki/Mystic_Towers",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

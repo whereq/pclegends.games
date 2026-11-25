@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E5%AE%9D%E9%87%8C%E5%AE%9D%E6%B0%94%E9%AA%91%E5%A3%AB.zip",
+  logo: "/img/dos-games/bao-li-bao-qi-qi-shi.jpg",
+  wiki: {
+    title: "Eric the Unready",
+    url: "https://en.wikipedia.org/wiki/Eric_the_Unready",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

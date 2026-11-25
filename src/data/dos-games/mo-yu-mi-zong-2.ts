@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "Archive",
   statusZh: "归档",
   url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%9F%9F%E8%BF%B7%E8%B8%AA2.zip",
+  logo: "/img/dos-games/mo-yu-mi-zong-2.jpg",
+  wiki: {
+    title: "Ecstatica II",
+    url: "https://en.wikipedia.org/wiki/Ecstatica_II",
+  },
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "Not dated"},

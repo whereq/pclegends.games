@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1987",
   statusZh: "1987",
   url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E6%9C%BA%E8%BD%A6%E8%B5%9B.zip",
+  logo: "/img/dos-games/chao-ji-ji-che-sai.jpg",
+  wiki: {
+    title: "Superbike Challenge",
+    url: "https://en.wikipedia.org/wiki/Superbike_Challenge",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1987"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E8%9B%99.zip",
+  logo: "/img/dos-games/chao-ji-wa.jpg",
+  wiki: {
+    title: "Superfrog",
+    url: "https://en.wikipedia.org/wiki/Superfrog",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

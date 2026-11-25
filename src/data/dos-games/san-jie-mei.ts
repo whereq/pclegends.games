@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%A7%90%E5%A6%B9.zip",
+  logo: "/img/dos-games/san-jie-mei.jpg",
+  wiki: {
+    title: "Three Sisters' Story",
+    url: "https://en.wikipedia.org/wiki/Three_Sisters%27_Story",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

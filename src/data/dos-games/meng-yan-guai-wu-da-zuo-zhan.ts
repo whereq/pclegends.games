@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E6%A2%A6%E9%AD%87%E6%80%AA%E7%89%A9%E5%A4%A7%E4%BD%9C%E6%88%98.zip",
+  logo: "/img/dos-games/meng-yan-guai-wu-da-zuo-zhan.jpg",
+  wiki: {
+    title: "Monster Bash",
+    url: "https://en.wikipedia.org/wiki/Monster_Bash",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

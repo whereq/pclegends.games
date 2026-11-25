@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1989",
   statusZh: "1989",
   url: "https://dos-bin.zczc.cz/%E6%88%98%E6%A3%8B1-%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B.zip",
+  logo: "/img/dos-games/zhan-qi-1-guo-ji-xiang-qi.jpg",
+  wiki: {
+    title: "Battle Chess",
+    url: "https://en.wikipedia.org/wiki/Battle_Chess",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1989"},

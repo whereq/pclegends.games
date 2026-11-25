@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1989",
   statusZh: "1989",
   url: "https://dos-bin.zczc.cz/%E6%81%B6%E9%AD%94%E5%9F%8E.zip",
+  logo: "/img/dos-games/e-mo-cheng.jpg",
+  wiki: {
+    title: "Castlevania",
+    url: "https://en.wikipedia.org/wiki/Castlevania",
+  },
+  wikiZh: {
+    title: "惡魔城 闇影主宰-命運之鏡",
+    url: "https://zh.wikipedia.org/wiki/%E6%83%A1%E9%AD%94%E5%9F%8E_%E9%97%87%E5%BD%B1%E4%B8%BB%E5%AE%B0-%E5%91%BD%E9%81%8B%E4%B9%8B%E9%8F%A1",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1989"},

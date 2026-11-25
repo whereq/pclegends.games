@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E8%87%B4%E5%91%BD%E8%BD%A6%E8%B5%9B.zip",
+  logo: "/img/dos-games/zhi-ming-che-sai.jpg",
+  wiki: {
+    title: "Fatal Racing",
+    url: "https://en.wikipedia.org/wiki/Fatal_Racing",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1995"},

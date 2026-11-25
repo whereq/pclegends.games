@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E8%9B%87%E5%A5%B3.zip",
+  logo: "/img/dos-games/she-nv.jpg",
+  wiki: {
+    title: "Daughter of Serpents",
+    url: "https://en.wikipedia.org/wiki/Daughter_of_Serpents",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

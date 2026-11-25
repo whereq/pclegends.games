@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E8%BE%9B%E6%99%AE%E6%A3%AE%E5%A4%A7%E6%88%98%E5%A4%96%E6%98%9F%E4%BA%BA.zip",
+  logo: "/img/dos-games/xin-pu-sen-da-zhan-wai-xing-ren.jpg",
+  wiki: {
+    title: "The Simpsons: Bart vs. the Space Mutants",
+    url: "https://en.wikipedia.org/wiki/The_Simpsons%3A_Bart_vs._the_Space_Mutants",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E5%B8%88%E8%A5%BF%E8%92%99.zip",
+  logo: "/img/dos-games/mo-fa-shi-xi-meng.jpg",
+  wiki: {
+    title: "Simon the Sorcerer",
+    url: "https://en.wikipedia.org/wiki/Simon_the_Sorcerer",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

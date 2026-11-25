@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E8%BF%B7%E5%AE%AB%E5%A4%A7%E5%B8%882.zip",
+  logo: "/img/dos-games/mi-gong-da-shi-2.jpg",
+  wiki: {
+    title: "Dungeon Master II: The Legend of Skullkeep",
+    url: "https://en.wikipedia.org/wiki/Dungeon_Master_II%3A_The_Legend_of_Skullkeep",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

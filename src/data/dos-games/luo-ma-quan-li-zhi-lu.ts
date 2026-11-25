@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1998",
   statusZh: "1998",
   url: "https://dos-bin.zczc.cz/%E7%BD%97%E9%A9%AC%E6%9D%83%E5%88%A9%E4%B9%8B%E8%B7%AF.zip",
+  logo: "/img/dos-games/luo-ma-quan-li-zhi-lu.jpg",
+  wiki: {
+    title: "Rome: Pathway to Power",
+    url: "https://en.wikipedia.org/wiki/Rome%3A_Pathway_to_Power",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1998"},

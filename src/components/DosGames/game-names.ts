@@ -5,10 +5,10 @@
  * the bundle is called — but most of these are Western games under a Chinese
  * title, and a reader looking for *Worms* will not find it under 百战天虫.
  *
- * So the card carries both: the name the reader is looking for on the top
- * line, and the name the bundle is filed under underneath. In the English
- * locale the original title comes first; in the Chinese locale the Chinese
- * name does.
+ * So a game has two names, and which one leads depends on the reader's
+ * language: in the English locale the original title comes first, in the
+ * Chinese locale the name the bundle is filed under does. The other name
+ * follows underneath — on the game's own page, where there is room for it.
  */
 export type GameNames = {
   /** The name to show on the top line. */

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E7%96%AF%E7%8B%82%E6%A9%84%E6%A6%84%E7%90%83.zip",
+  logo: "/img/dos-games/feng-kuang-gan-lan-qiu.jpg",
+  wiki: {
+    title: "Brutal Sports Football",
+    url: "https://en.wikipedia.org/wiki/Brutal_Sports_Football",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%85%89%E5%A4%B4%E5%A4%A7%E6%88%98.zip",
+  logo: "/img/dos-games/guang-tou-da-zhan.jpg",
+  wiki: {
+    title: "Baldies",
+    url: "https://en.wikipedia.org/wiki/Baldies",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E7%A2%9F%E5%BD%A2%E4%B8%96%E7%95%8C2.zip",
+  logo: "/img/dos-games/die-xing-shi-jie-2.jpg",
+  wiki: {
+    title: "Discworld II: Missing Presumed...!?",
+    url: "https://en.wikipedia.org/wiki/Discworld_II%3A_Missing_Presumed...%21%3F",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

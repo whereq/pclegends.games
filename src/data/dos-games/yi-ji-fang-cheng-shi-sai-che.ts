@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E4%B8%80%E7%BA%A7%E6%96%B9%E7%A8%8B%E5%BC%8F%E8%B5%9B%E8%BD%A6.zip",
+  logo: "/img/dos-games/yi-ji-fang-cheng-shi-sai-che.jpg",
+  wiki: {
+    title: "Grand Prix Unlimited",
+    url: "https://en.wikipedia.org/wiki/Grand_Prix_Unlimited",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1992"},

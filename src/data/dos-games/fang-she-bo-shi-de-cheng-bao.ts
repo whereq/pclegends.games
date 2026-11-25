@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%94%BE%E5%B0%84%E5%8D%9A%E5%A3%AB%E7%9A%84%E5%9F%8E%E5%A0%A1.zip",
+  logo: "/img/dos-games/fang-she-bo-shi-de-cheng-bao.jpg",
+  wiki: {
+    title: "The Fortress of Dr. Radiaki",
+    url: "https://en.wikipedia.org/wiki/The_Fortress_of_Dr._Radiaki",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},

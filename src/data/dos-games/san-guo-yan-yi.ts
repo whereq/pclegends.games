@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89.zip",
+  logo: "/img/dos-games/san-guo-yan-yi.jpg",
+  wikiZh: {
+    title: "三国演义系列",
+    url: "https://zh.wikipedia.org/wiki/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89%E7%B3%BB%E5%88%97",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1991"},

@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E6%96%87%E6%98%8E.zip",
+  logo: "/img/dos-games/wen-ming.jpg",
+  wiki: {
+    title: "Civilization (video game)",
+    url: "https://en.wikipedia.org/wiki/Civilization_(video_game)",
+  },
+  wikiZh: {
+    title: "文明 (游戏)",
+    url: "https://zh.wikipedia.org/wiki/%E6%96%87%E6%98%8E_(%E6%B8%B8%E6%88%8F)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

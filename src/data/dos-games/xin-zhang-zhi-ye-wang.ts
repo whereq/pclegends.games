@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1988",
   statusZh: "1988",
   url: "https://dos-bin.zczc.cz/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B.zip",
+  logo: "/img/dos-games/xin-zhang-zhi-ye-wang.jpg",
+  wiki: {
+    title: "Nobunaga's Ambition",
+    url: "https://en.wikipedia.org/wiki/Nobunaga%27s_Ambition",
+  },
+  wikiZh: {
+    title: "信长之野望 (游戏)",
+    url: "https://zh.wikipedia.org/wiki/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B_(%E6%B8%B8%E6%88%8F)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1988"},

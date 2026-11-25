@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1998",
   statusZh: "1998",
   url: "https://dos-bin.zczc.cz/%E7%8C%B4%E5%B2%9B%E5%B0%8F%E8%8B%B1%E9%9B%842.zip",
+  logo: "/img/dos-games/hou-dao-xiao-ying-xiong-2.jpg",
+  wiki: {
+    title: "Monkey Island 2: LeChuck's Revenge",
+    url: "https://en.wikipedia.org/wiki/Monkey_Island_2%3A_LeChuck%27s_Revenge",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1998"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E5%A4%BA%E6%97%97%E5%A4%A7%E6%88%98.zip",
+  logo: "/img/dos-games/duo-qi-da-zhan.jpg",
+  wiki: {
+    title: "Flag Capture",
+    url: "https://en.wikipedia.org/wiki/Flag_Capture",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

@@ -1,0 +1,3765 @@
+{
+ "san-guo-zhi-iii": {
+  "wiki": "Romance of the Three Kingdoms III: Dragon of Destiny",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Romance_of_the_Three_Kingdoms_III:_Dragon_of_Destiny",
+  "wikiZh": "三國志III",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97III",
+  "lang": "en",
+  "image": "/img/dos-games/san-guo-zhi-iii.jpg"
+ },
+ "mortal-kombat": {
+  "wiki": "Mortal Kombat",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Mortal_Kombat",
+  "wikiZh": "真人快打系列",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E7%9C%9F%E4%BA%BA%E5%BF%AB%E6%89%93%E7%B3%BB%E5%88%97",
+  "lang": "en"
+ },
+ "sanguo-yingjie-zhuan": {
+  "wiki": "Romance of the Three Kingdoms (video game series)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Romance_of_the_Three_Kingdoms_(video_game_series)",
+  "wikiZh": "三國志英傑傳",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97%E8%8B%B1%E5%82%91%E5%82%B3",
+  "lang": "en"
+ },
+ "sha-qiu-mo-bao": {
+  "wiki": "Dune (video game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Dune_(video_game)",
+  "wikiZh": "沙丘 (游戏)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E6%B2%99%E4%B8%98_(%E6%B8%B8%E6%88%8F)",
+  "lang": "en",
+  "image": "/img/dos-games/sha-qiu-mo-bao.jpg"
+ },
+ "yan-long-qi-shi-tuan-ii-huang-jin-cheng-zhi-mi": {
+  "wiki": "炎龍騎士團II 黃金城之謎",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E7%82%8E%E9%BE%8D%E9%A8%8E%E5%A3%AB%E5%9C%98II_%E9%BB%83%E9%87%91%E5%9F%8E%E4%B9%8B%E8%AC%8E",
+  "wikiZh": "炎龍騎士團II 黃金城之謎",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E7%82%8E%E9%BE%8D%E9%A8%8E%E5%A3%AB%E5%9C%98II_%E9%BB%83%E9%87%91%E5%9F%8E%E4%B9%8B%E8%AC%8E",
+  "lang": "en",
+  "image": "/img/dos-games/yan-long-qi-shi-tuan-ii-huang-jin-cheng-zhi-mi.jpg"
+ },
+ "1942-te-zhong-bu-dui": {
+  "wiki": "Task Force 1942",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Task_Force_1942",
+  "image": "/img/dos-games/1942-te-zhong-bu-dui.jpg",
+  "lang": "en"
+ },
+ "3d-e-luo-si": {
+  "wiki": "Welltris",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Welltris",
+  "image": "/img/dos-games/3d-e-luo-si.jpg",
+  "lang": "en",
+  "wikiZh": "3D俄罗斯方块",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/3D%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97"
+ },
+ "4d-wang-qiu": {
+  "wiki": "4D Sports Tennis",
+  "wikiUrl": "https://en.wikipedia.org/wiki/4D_Sports_Tennis",
+  "image": "/img/dos-games/4d-wang-qiu.jpg",
+  "lang": "en"
+ },
+ "66-qu": {
+  "wiki": "Zone 66",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Zone_66",
+  "image": "/img/dos-games/66-qu.jpg",
+  "lang": "en"
+ },
+ "688-gong-ji-qian-ting": {
+  "wiki": "688 Attack Sub",
+  "wikiUrl": "https://en.wikipedia.org/wiki/688_Attack_Sub",
+  "image": "/img/dos-games/688-gong-ji-qian-ting.jpg",
+  "lang": "en"
+ },
+ "boppin-wu-li-you-xi": {
+  "wiki": "Boppin'",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Boppin%27",
+  "image": "/img/dos-games/boppin-wu-li-you-xi.jpg",
+  "lang": "en"
+ },
+ "cba-jia-nian-hua": {
+  "wiki": "College Slam",
+  "wikiUrl": "https://en.wikipedia.org/wiki/College_Slam",
+  "image": "/img/dos-games/cba-jia-nian-hua.jpg",
+  "lang": "en"
+ },
+ "dvorak-da-zi": {
+  "wiki": "Dvorak on Typing",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Dvorak_on_Typing",
+  "image": "/img/dos-games/dvorak-da-zi.jpg",
+  "lang": "en"
+ },
+ "d-ji-hua": {
+  "wiki": "D/Generation",
+  "wikiUrl": "https://en.wikipedia.org/wiki/D%2FGeneration",
+  "image": "/img/dos-games/d-ji-hua.jpg",
+  "lang": "en"
+ },
+ "f15-zhan-dou-ji": {
+  "wiki": "F-15 Strike Eagle III",
+  "wikiUrl": "https://en.wikipedia.org/wiki/F-15_Strike_Eagle_III",
+  "image": "/img/dos-games/f15-zhan-dou-ji.jpg",
+  "lang": "en"
+ },
+ "fx-zhan-shi": {
+  "wiki": "FX Fighter",
+  "wikiUrl": "https://en.wikipedia.org/wiki/FX_Fighter",
+  "image": "/img/dos-games/fx-zhan-shi.jpg",
+  "lang": "en"
+ },
+ "nba-jia-nian-hua": {
+  "wiki": "NBA Jam",
+  "wikiUrl": "https://en.wikipedia.org/wiki/NBA_Jam",
+  "lang": "en"
+ },
+ "nba-zhi-bo": {
+  "wiki": "TV Sports: Basketball",
+  "wikiUrl": "https://en.wikipedia.org/wiki/TV_Sports%3A_Basketball",
+  "image": "/img/dos-games/nba-zhi-bo.jpg",
+  "lang": "en"
+ },
+ "pc-yuan-ren": {
+  "wiki": "Prehistorik",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Prehistorik",
+  "image": "/img/dos-games/pc-yuan-ren.jpg",
+  "lang": "en",
+  "wikiZh": "PC原人",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/PC%E5%8E%9F%E4%BA%BA"
+ },
+ "pc-yuan-ren-2": {
+  "wiki": "Prehistorik 2",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Prehistorik_2",
+  "image": "/img/dos-games/pc-yuan-ren-2.jpg",
+  "lang": "en"
+ },
+ "yi-ji-fang-cheng-shi-sai-che": {
+  "wiki": "Grand Prix Unlimited",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Grand_Prix_Unlimited",
+  "image": "/img/dos-games/yi-ji-fang-cheng-shi-sai-che.jpg",
+  "lang": "en"
+ },
+ "ding-ding-zai-xi-zang": {
+  "wiki": "Tintin in Tibet (video game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Tintin_in_Tibet_(video_game)",
+  "lang": "en",
+  "image": "/img/dos-games/ding-ding-zai-xi-zang.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/1/18/Tintin_in_Tibet_PC_game.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "qi-xi-xiao-zi": {
+  "wiki": "Cool Spot",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Cool_Spot",
+  "image": "/img/dos-games/qi-xi-xiao-zi.jpg",
+  "lang": "en"
+ },
+ "qi-bao-qi-mou": {
+  "wiki": "七宝奇谋 (游戏)",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E4%B8%83%E5%AE%9D%E5%A5%87%E8%B0%8B_(%E6%B8%B8%E6%88%8F)",
+  "lang": "zh",
+  "image": "/img/dos-games/qi-bao-qi-mou.jpg",
+  "wikiZh": "七宝奇谋 (游戏)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%B8%83%E5%AE%9D%E5%A5%87%E8%B0%8B_(%E6%B8%B8%E6%88%8F)"
+ },
+ "qi-xing-mo-fa-shi": {
+  "wiki": "Sorcerian",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Sorcerian",
+  "image": "/img/dos-games/qi-xing-mo-fa-shi.jpg",
+  "lang": "en",
+  "wikiZh": "七星魔法使",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%B8%83%E6%98%9F%E9%AD%94%E6%B3%95%E4%BD%BF"
+ },
+ "san-guo-zhi-ii": {
+  "wiki": "Romance of the Three Kingdoms II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Romance_of_the_Three_Kingdoms_II",
+  "image": "/img/dos-games/san-guo-zhi-ii.jpg",
+  "lang": "en"
+ },
+ "san-guo-zhi-iv": {
+  "wiki": "Romance of the Three Kingdoms IV: Wall of Fire",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Romance_of_the_Three_Kingdoms_IV%3A_Wall_of_Fire",
+  "image": "/img/dos-games/san-guo-zhi-iv.jpg",
+  "lang": "en"
+ },
+ "san-guo-zhi-4-jia-qiang-ban": {
+  "wiki": "Romance of the Three Kingdoms IV: Wall of Fire",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Romance_of_the_Three_Kingdoms_IV%3A_Wall_of_Fire",
+  "image": "/img/dos-games/san-guo-zhi-4-jia-qiang-ban.jpg",
+  "lang": "en"
+ },
+ "san-jie-mei": {
+  "wiki": "Three Sisters' Story",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Three_Sisters%27_Story",
+  "image": "/img/dos-games/san-jie-mei.jpg",
+  "lang": "en"
+ },
+ "shang-gu-juan-zhou-1-jing-ji-chang": {
+  "wiki": "The Elder Scrolls: Arena",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Elder_Scrolls%3A_Arena",
+  "image": "/img/dos-games/shang-gu-juan-zhou-1-jing-ji-chang.jpg",
+  "lang": "en"
+ },
+ "shang-gu-juan-zhou-1-hao-hua-ban": {
+  "wiki": "The Elder Scrolls: Arena",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Elder_Scrolls%3A_Arena",
+  "image": "/img/dos-games/shang-gu-juan-zhou-1-hao-hua-ban.jpg",
+  "lang": "en"
+ },
+ "shang-gu-juan-zhou-2-bi-shou-yu": {
+  "wiki": "The Elder Scrolls II: Daggerfall",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Elder_Scrolls_II%3A_Daggerfall",
+  "image": "/img/dos-games/shang-gu-juan-zhou-2-bi-shou-yu.jpg",
+  "lang": "en",
+  "wikiZh": "上古卷轴II：匕首雨",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B4II%EF%BC%9A%E5%8C%95%E9%A6%96%E9%9B%A8"
+ },
+ "shang-gu-juan-zhou-chuan-qi": {
+  "wiki": "An Elder Scrolls Legend: Battlespire",
+  "wikiUrl": "https://en.wikipedia.org/wiki/An_Elder_Scrolls_Legend%3A_Battlespire",
+  "image": "/img/dos-games/shang-gu-juan-zhou-chuan-qi.jpg",
+  "lang": "en",
+  "wikiZh": "上古卷轴系列",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B4%E7%B3%BB%E5%88%97"
+ },
+ "shang-gu-shen-bing": {
+  "wiki": "Conquered Kingdoms",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Conquered_Kingdoms",
+  "image": "/img/dos-games/shang-gu-shen-bing.jpg",
+  "lang": "en"
+ },
+ "shang-di-ye-feng-kuang": {
+  "wiki": "上帝也瘋狂",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E4%B8%8A%E5%B8%9D%E4%B9%9F%E7%98%8B%E7%8B%82",
+  "lang": "zh",
+  "image": "/img/dos-games/shang-di-ye-feng-kuang.jpg",
+  "wikiZh": "上帝也瘋狂",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%B8%8A%E5%B8%9D%E4%B9%9F%E7%98%8B%E7%8B%82"
+ },
+ "shang-di-ye-feng-kuang-2": {
+  "wiki": "Populous II: Trials of the Olympian Gods",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Populous_II%3A_Trials_of_the_Olympian_Gods",
+  "image": "/img/dos-games/shang-di-ye-feng-kuang-2.jpg",
+  "lang": "en",
+  "wikiZh": "上帝也疯狂2：诸神的审判",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%B8%8A%E5%B8%9D%E4%B9%9F%E7%96%AF%E7%8B%822%EF%BC%9A%E8%AF%B8%E7%A5%9E%E7%9A%84%E5%AE%A1%E5%88%A4"
+ },
+ "shang-hai-ma-jiang-jie-long": {
+  "wiki": "Shanghai II: Dragon's Eye",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Shanghai_II%3A_Dragon%27s_Eye",
+  "image": "/img/dos-games/shang-hai-ma-jiang-jie-long.jpg",
+  "lang": "en"
+ },
+ "bu-ke-si-yi-de-ji-qi-2": {
+  "wiki": "The Incredible Machine 2",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Incredible_Machine_2",
+  "image": "/img/dos-games/bu-ke-si-yi-de-ji-qi-2.jpg",
+  "lang": "en"
+ },
+ "zhong-guo-zhi-xin": {
+  "wiki": "Heart of China",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Heart_of_China",
+  "image": "/img/dos-games/zhong-guo-zhi-xin.jpg",
+  "lang": "en"
+ },
+ "zhu-ti-yi-yuan-wu-sheng-yin-ban": {
+  "wiki": "Theme Hospital",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Theme_Hospital",
+  "image": "/img/dos-games/zhu-ti-yi-yuan-wu-sheng-yin-ban.jpg",
+  "lang": "en"
+ },
+ "zhu-ti-yi-yuan": {
+  "wiki": "Theme Hospital",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Theme_Hospital",
+  "image": "/img/dos-games/zhu-ti-yi-yuan.jpg",
+  "lang": "en"
+ },
+ "ya-ma-xun-xiao-dao": {
+  "wiki": "The Amazon Trail",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Amazon_Trail",
+  "image": "/img/dos-games/ya-ma-xun-xiao-dao.jpg",
+  "lang": "en"
+ },
+ "yi-su": {
+  "wiki": "Ys I",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ys_I",
+  "image": "/img/dos-games/yi-su.jpg",
+  "lang": "en",
+  "wikiZh": "伊苏 失落的伊苏古国 序章",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E8%8B%8F_%E5%A4%B1%E8%90%BD%E7%9A%84%E4%BC%8A%E8%8B%8F%E5%8F%A4%E5%9B%BD_%E5%BA%8F%E7%AB%A0"
+ },
+ "zhu-luo-ji-gong-yuan": {
+  "wiki": "Jurassic Park video games",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Jurassic_Park_video_games",
+  "image": "/img/dos-games/zhu-luo-ji-gong-yuan.jpg",
+  "lang": "en",
+  "wikiZh": "侏罗纪公园互动",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%BE%8F%E7%BD%97%E7%BA%AA%E5%85%AC%E5%9B%AD%E4%BA%92%E5%8A%A8"
+ },
+ "e-luo-si-fang-kuai-jing-dian-ban": {
+  "wiki": "Tetris Classic",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Tetris_Classic",
+  "image": "/img/dos-games/e-luo-si-fang-kuai-jing-dian-ban.jpg",
+  "lang": "en",
+  "wikiZh": "俄罗斯方块 (电影)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97_(%E7%94%B5%E5%BD%B1)"
+ },
+ "xin-zhang-zhi-ye-wang": {
+  "wiki": "Nobunaga's Ambition",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Nobunaga%27s_Ambition",
+  "image": "/img/dos-games/xin-zhang-zhi-ye-wang.jpg",
+  "lang": "en",
+  "wikiZh": "信长之野望 (游戏)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B_(%E6%B8%B8%E6%88%8F)"
+ },
+ "guang-tou-da-zhan": {
+  "wiki": "Baldies",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Baldies",
+  "image": "/img/dos-games/guang-tou-da-zhan.jpg",
+  "lang": "en"
+ },
+ "guang-ming-zhan-shi": {
+  "wiki": "Dragon Force",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Dragon_Force",
+  "image": "/img/dos-games/guang-ming-zhan-shi.jpg",
+  "lang": "en"
+ },
+ "ke-lai-en-de-hei-an-nv-huang": {
+  "wiki": "The Dark Queen of Krynn",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Dark_Queen_of_Krynn",
+  "image": "/img/dos-games/ke-lai-en-de-hei-an-nv-huang.jpg",
+  "lang": "en"
+ },
+ "quan-qiu-xiao-ying": {
+  "wiki": "Global Effect",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Global_Effect",
+  "image": "/img/dos-games/quan-qiu-xiao-ying.jpg",
+  "lang": "en"
+ },
+ "gong-yuan-qian-che-sai": {
+  "wiki": "BC Racers",
+  "wikiUrl": "https://en.wikipedia.org/wiki/BC_Racers",
+  "image": "/img/dos-games/gong-yuan-qian-che-sai.jpg",
+  "lang": "en"
+ },
+ "qi-pu-si-de-tiao-zhan": {
+  "wiki": "Chip's Challenge",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Chip%27s_Challenge",
+  "image": "/img/dos-games/qi-pu-si-de-tiao-zhan.jpg",
+  "lang": "en"
+ },
+ "shou-zhao-kuai-da": {
+  "wiki": "Brutal: Paws of Fury",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Brutal%3A_Paws_of_Fury",
+  "image": "/img/dos-games/shou-zhao-kuai-da.jpg",
+  "lang": "en"
+ },
+ "xing-lin-ye-feng-kuang-zhu-ti-yi-yuan-tai-ban": {
+  "wiki": "Theme Hospital",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Theme_Hospital",
+  "image": "/img/dos-games/xing-lin-ye-feng-kuang-zhu-ti-yi-yuan-tai-ban.jpg",
+  "lang": "en"
+ },
+ "di-3-ri-long-zhi-li-liang": {
+  "wiki": "Dragon Force",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Dragon_Force",
+  "image": "/img/dos-games/di-3-ri-long-zhi-li-liang.jpg",
+  "lang": "en"
+ },
+ "shui-xian-hai-le-tu-zi-luo-jie": {
+  "wiki": "Who Framed Roger Rabbit (1989 video game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Who_Framed_Roger_Rabbit_(1989_video_game)",
+  "lang": "en",
+  "image": "/img/dos-games/shui-xian-hai-le-tu-zi-luo-jie.jpg"
+ },
+ "chong-fan-de-jun-zong-bu-3d": {
+  "wiki": "Wolfenstein 3D",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Wolfenstein_3D",
+  "image": "/img/dos-games/chong-fan-de-jun-zong-bu-3d.jpg",
+  "lang": "en"
+ },
+ "tie-lu-a-ji-hua-zi-liao-pian": {
+  "wiki": "A-Train",
+  "wikiUrl": "https://en.wikipedia.org/wiki/A-Train",
+  "image": "/img/dos-games/tie-lu-a-ji-hua-zi-liao-pian.jpg",
+  "lang": "en"
+ },
+ "fifa1996": {
+  "wiki": "FIFA Soccer 96",
+  "wikiUrl": "https://en.wikipedia.org/wiki/FIFA_Soccer_96",
+  "image": "/img/dos-games/fifa1996.jpg",
+  "lang": "en"
+ },
+ "fifa97": {
+  "wiki": "FIFA 97",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/FIFA_97",
+  "lang": "zh",
+  "image": "/img/dos-games/fifa97.jpg",
+  "wikiZh": "FIFA 97",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/FIFA_97"
+ },
+ "su27-ce-yi-bu-dui": {
+  "wiki": "Su-27 Flanker (video game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Su-27_Flanker_(video_game)",
+  "lang": "en",
+  "image": "/img/dos-games/su27-ce-yi-bu-dui.jpg"
+ },
+ "zhuan-ye-wang-qiu-xun-hui-sai": {
+  "wiki": "Pro Tennis Tour 2",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Pro_Tennis_Tour_2",
+  "image": "/img/dos-games/zhuan-ye-wang-qiu-xun-hui-sai.jpg",
+  "lang": "en"
+ },
+ "shi-jie-xun-hui-che-sai-2": {
+  "wiki": "Grand Prix 2",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Grand_Prix_2",
+  "image": "/img/dos-games/shi-jie-xun-hui-che-sai-2.jpg",
+  "lang": "en"
+ },
+ "shi-jie-quan-ji-jing-li": {
+  "wiki": "World Championship Boxing Manager",
+  "wikiUrl": "https://en.wikipedia.org/wiki/World_Championship_Boxing_Manager",
+  "image": "/img/dos-games/shi-jie-quan-ji-jing-li.jpg",
+  "lang": "en"
+ },
+ "cong-lin-li-xian-ji": {
+  "wiki": "Hugo III, Jungle of Doom!",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Hugo_III%2C_Jungle_of_Doom%21",
+  "image": "/img/dos-games/cong-lin-li-xian-ji.jpg",
+  "lang": "en"
+ },
+ "zhong-guan-cun-qi-shi-lu": {
+  "wiki": "中关村启示录",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%85%B3%E6%9D%91%E5%90%AF%E7%A4%BA%E5%BD%95",
+  "lang": "zh",
+  "image": "/img/dos-games/zhong-guan-cun-qi-shi-lu.jpg",
+  "wikiZh": "中关村启示录",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%85%B3%E6%9D%91%E5%90%AF%E7%A4%BA%E5%BD%95"
+ },
+ "zhong-guo-min-hang": {
+  "wiki": "中国民航 (游戏)",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E6%B0%91%E8%88%AA_(%E6%B8%B8%E6%88%8F)",
+  "lang": "zh",
+  "image": "/img/dos-games/zhong-guo-min-hang.jpg",
+  "wikiZh": "中国民航 (游戏)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E6%B0%91%E8%88%AA_(%E6%B8%B8%E6%88%8F)"
+ },
+ "wu-tuo-bang-guo-jia-jue-qi": {
+  "wiki": "Utopia: The Creation of a Nation",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Utopia%3A_The_Creation_of_a_Nation",
+  "image": "/img/dos-games/wu-tuo-bang-guo-jia-jue-qi.jpg",
+  "lang": "en"
+ },
+ "ya-ma-xun-yi-dian-yuan-shou-wei-zhe": {
+  "wiki": "Amazon: Guardians of Eden",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Amazon%3A_Guardians_of_Eden",
+  "image": "/img/dos-games/ya-ma-xun-yi-dian-yuan-shou-wei-zhe.jpg",
+  "lang": "en"
+ },
+ "ya-ma-xun-nv-huang-zhi-lv": {
+  "wiki": "Flight of the Amazon Queen",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Flight_of_the_Amazon_Queen",
+  "image": "/img/dos-games/ya-ma-xun-nv-huang-zhi-lv.jpg",
+  "lang": "en"
+ },
+ "jiao-tong-ju-2192": {
+  "wiki": "Traffic Department 2192",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Traffic_Department_2192",
+  "image": "/img/dos-games/jiao-tong-ju-2192.jpg",
+  "lang": "en"
+ },
+ "jiao-cuo-de-ming-yun": {
+  "wiki": "Altered Destiny",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Altered_Destiny",
+  "image": "/img/dos-games/jiao-cuo-de-ming-yun.jpg",
+  "lang": "en"
+ },
+ "yi-zhao-lv-xing-zhe-2": {
+  "wiki": "MegaTraveller 2: Quest for the Ancients",
+  "wikiUrl": "https://en.wikipedia.org/wiki/MegaTraveller_2%3A_Quest_for_the_Ancients",
+  "image": "/img/dos-games/yi-zhao-lv-xing-zhe-2.jpg",
+  "lang": "en"
+ },
+ "xian-jing-chuan-qi-1": {
+  "wiki": "The Faery Tale Adventure",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Faery_Tale_Adventure",
+  "image": "/img/dos-games/xian-jing-chuan-qi-1.jpg",
+  "lang": "en"
+ },
+ "yi-sa-1-ying-xiong-bao-lei": {
+  "wiki": "Ishar: Legend of the Fortress",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ishar%3A_Legend_of_the_Fortress",
+  "image": "/img/dos-games/yi-sa-1-ying-xiong-bao-lei.jpg",
+  "lang": "en"
+ },
+ "yi-sa-2-mo-ri-shi-zhe": {
+  "wiki": "Ishar 2: Messengers of Doom",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ishar_2%3A_Messengers_of_Doom",
+  "image": "/img/dos-games/yi-sa-2-mo-ri-shi-zhe.jpg",
+  "lang": "en"
+ },
+ "yi-sa-3-yong-heng-zhi-men": {
+  "wiki": "Ishar 3: The Seven Gates of Infinity",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ishar_3%3A_The_Seven_Gates_of_Infinity",
+  "image": "/img/dos-games/yi-sa-3-yong-heng-zhi-men.jpg",
+  "lang": "en"
+ },
+ "yi-gong-de-jia-qi": {
+  "wiki": "Igor: Objective Uikokahonia",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Igor%3A_Objective_Uikokahonia",
+  "image": "/img/dos-games/yi-gong-de-jia-qi.jpg",
+  "lang": "en"
+ },
+ "chuan-shuo-shi-dai": {
+  "wiki": "Times of Lore",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Times_of_Lore",
+  "image": "/img/dos-games/chuan-shuo-shi-dai.jpg",
+  "lang": "en"
+ },
+ "yong-bing-1-tie-ge-bu-dui": {
+  "wiki": "Tegel's Mercenaries",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Tegel%27s_Mercenaries",
+  "image": "/img/dos-games/yong-bing-1-tie-ge-bu-dui.jpg",
+  "lang": "en"
+ },
+ "xin-zhang-zhi-ye-wang-tian-xiang-ji": {
+  "wiki": "信长之野望·天翔记",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B%C2%B7%E5%A4%A9%E7%BF%94%E8%AE%B0",
+  "lang": "zh",
+  "image": "/img/dos-games/xin-zhang-zhi-ye-wang-tian-xiang-ji.jpg",
+  "wikiZh": "信长之野望·天翔记",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B%C2%B7%E5%A4%A9%E7%BF%94%E8%AE%B0"
+ },
+ "xin-zhang-zhi-ye-wang-ba-wang-chuan": {
+  "wiki": "信长之野望·霸王传",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B%C2%B7%E9%9C%B8%E7%8E%8B%E4%BC%A0",
+  "lang": "zh",
+  "image": "/img/dos-games/xin-zhang-zhi-ye-wang-ba-wang-chuan.jpg",
+  "wikiZh": "信长之野望·霸王传",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B%C2%B7%E9%9C%B8%E7%8E%8B%E4%BC%A0"
+ },
+ "ke-su-lu-chuan-shuo-mo-ying-ha-lei": {
+  "wiki": "Shadow of the Comet",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Shadow_of_the_Comet",
+  "image": "/img/dos-games/ke-su-lu-chuan-shuo-mo-ying-ha-lei.jpg",
+  "lang": "en"
+ },
+ "b17-fei-xing-bao-lei": {
+  "wiki": "B-17 Flying Fortress (video game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/B-17_Flying_Fortress_(video_game)",
+  "lang": "en",
+  "image": "/img/dos-games/b17-fei-xing-bao-lei.jpg"
+ },
+ "f1-sai-che-1994": {
+  "wiki": "Formula One (video game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Formula_One_(video_game)",
+  "lang": "en",
+  "image": "/img/dos-games/f1-sai-che-1994.jpg"
+ },
+ "san-guo-zhi-1": {
+  "wiki": "Romance of the Three Kingdoms (video game series)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Romance_of_the_Three_Kingdoms_(video_game_series)",
+  "lang": "en",
+  "image": "/img/dos-games/san-guo-zhi-1.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/2/29/NES_Three_Kingdoms.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "san-guo-yan-yi": {
+  "wiki": "三国演义系列",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89%E7%B3%BB%E5%88%97",
+  "lang": "zh",
+  "image": "/img/dos-games/san-guo-yan-yi.jpg",
+  "wikiZh": "三国演义系列",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89%E7%B3%BB%E5%88%97"
+ },
+ "shang-di": {
+  "wiki": "God Eater (video game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/God_Eater_(video_game)",
+  "lang": "en",
+  "image": "/img/dos-games/shang-di.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/9/9a/God_Eater_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "bu-ke-si-yi-de-ji-qi": {
+  "wiki": "The Incredible Machine",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Incredible_Machine",
+  "lang": "en",
+  "image": "/img/dos-games/bu-ke-si-yi-de-ji-qi.jpg"
+ },
+ "shi-jie-da-zhan": {
+  "wiki": "世界大战 (游戏)",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E5%A4%A7%E6%88%98_(%E6%B8%B8%E6%88%8F)",
+  "lang": "zh",
+  "image": "/img/dos-games/shi-jie-da-zhan.jpg",
+  "wikiZh": "世界大战 (游戏)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E5%A4%A7%E6%88%98_(%E6%B8%B8%E6%88%8F)"
+ },
+ "cong-lin-zhi-shu": {
+  "wiki": "The Jungle Book (video game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Jungle_Book_(video_game)",
+  "lang": "en",
+  "image": "/img/dos-games/cong-lin-zhi-shu.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/1/1f/Jungle_Book_game_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "zheng-fen-duo-miao": {
+  "wiki": "Clockwiser",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Clockwiser",
+  "lang": "en",
+  "image": "/img/dos-games/zheng-fen-duo-miao.jpg",
+  "wikiZh": "争分夺秒 (游戏)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%BA%89%E5%88%86%E5%A4%BA%E7%A7%92_(%E6%B8%B8%E6%88%8F)"
+ },
+ "ren-sheng-ju-chang": {
+  "wiki": "Jones in the Fast Lane",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Jones_in_the_Fast_Lane",
+  "lang": "en",
+  "image": "/img/dos-games/ren-sheng-ju-chang.jpg"
+ },
+ "yi-ren-dao": {
+  "wiki": "Inindo: Way of the Ninja",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Inindo%3A_Way_of_the_Ninja",
+  "lang": "en",
+  "image": "/img/dos-games/yi-ren-dao.jpg",
+  "wikiZh": "伊忍道 打倒信长",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E5%BF%8D%E9%81%93_%E6%89%93%E5%80%92%E4%BF%A1%E9%95%BF"
+ },
+ "yi-se-bi-si-de-yin-ying": {
+  "wiki": "The Shadow of Yserbius",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Shadow_of_Yserbius",
+  "lang": "en",
+  "image": "/img/dos-games/yi-se-bi-si-de-yin-ying.jpg"
+ },
+ "zuo-luo": {
+  "wiki": "Zorro (1995 video game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Zorro_(1995_video_game)",
+  "lang": "en",
+  "image": "/img/dos-games/zuo-luo.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/3/3c/Zorro_DOS.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "xia-dao-lie-che-shou": {
+  "wiki": "Grand Theft Auto",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto",
+  "lang": "en",
+  "image": "/img/dos-games/xia-dao-lie-che-shou.jpg",
+  "wikiZh": "俠盜獵車手系列",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%BF%A0%E7%9B%9C%E7%8D%B5%E8%BB%8A%E6%89%8B%E7%B3%BB%E5%88%97"
+ },
+ "e-luo-si-fang-kuai": {
+  "wiki": "Tetris",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Tetris",
+  "lang": "en",
+  "image": "/img/dos-games/e-luo-si-fang-kuai.jpg",
+  "wikiZh": "俄羅斯方塊",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%BF%84%E7%BE%85%E6%96%AF%E6%96%B9%E5%A1%8A"
+ },
+ "ke-li-mu-lin-gong-wei-ji": {
+  "wiki": "Crisis in the Kremlin",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Crisis_in_the_Kremlin",
+  "lang": "en",
+  "image": "/img/dos-games/ke-li-mu-lin-gong-wei-ji.jpg"
+ },
+ "guan-jun-zu-qiu-jing-li-2": {
+  "wiki": "Championship Manager 2",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Championship_Manager_2",
+  "lang": "en",
+  "image": "/img/dos-games/guan-jun-zu-qiu-jing-li-2.jpg"
+ },
+ "bing-cheng-chuan-qi-2": {
+  "wiki": "The Bard's Tale II: The Destiny Knight",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Bard%27s_Tale_II%3A_The_Destiny_Knight",
+  "lang": "en",
+  "image": "/img/dos-games/bing-cheng-chuan-qi-2.jpg"
+ },
+ "bing-cheng-chuan-qi-3": {
+  "wiki": "The Bard's Tale III: Thief of Fate",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Bard%27s_Tale_III%3A_Thief_of_Fate",
+  "lang": "en",
+  "image": "/img/dos-games/bing-cheng-chuan-qi-3.jpg"
+ },
+ "bing-qiu-95": {
+  "wiki": "Brett Hull Hockey '95",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Brett_Hull_Hockey_%2795",
+  "lang": "en",
+  "image": "/img/dos-games/bing-qiu-95.jpg"
+ },
+ "bing-qiu-lian-sai-97": {
+  "wiki": "NHL 97",
+  "wikiUrl": "https://en.wikipedia.org/wiki/NHL_97",
+  "lang": "en",
+  "image": "/img/dos-games/bing-qiu-lian-sai-97.jpg"
+ },
+ "jue-zhan-fu-shi-shan": {
+  "wiki": "決戰富士山",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E6%B1%BA%E6%88%B0%E5%AF%8C%E5%A3%AB%E5%B1%B1",
+  "lang": "zh",
+  "image": "/img/dos-games/jue-zhan-fu-shi-shan.jpg",
+  "wikiZh": "決戰富士山",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E6%B1%BA%E6%88%B0%E5%AF%8C%E5%A3%AB%E5%B1%B1"
+ },
+ "kai-lan-di-ya-chuan-qi": {
+  "wiki": "The Legend of Kyrandia",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Legend_of_Kyrandia",
+  "lang": "en",
+  "image": "/img/dos-games/kai-lan-di-ya-chuan-qi.jpg"
+ },
+ "kai-sa-da-di": {
+  "wiki": "Centurion: Defender of Rome",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Centurion%3A_Defender_of_Rome",
+  "image": "/img/dos-games/kai-sa-da-di.jpg",
+  "lang": "en"
+ },
+ "kai-sa-da-di-2": {
+  "wiki": "Caesar II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Caesar_II",
+  "lang": "en",
+  "image": "/img/dos-games/kai-sa-da-di-2.jpg"
+ },
+ "qie-ke-si-li-xian-ji": {
+  "wiki": "Chex Quest",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Chex_Quest",
+  "lang": "en",
+  "image": "/img/dos-games/qie-ke-si-li-xian-ji.jpg"
+ },
+ "chuang-shi-ji-1-1987rm-ban": {
+  "wiki": "Ultima I: The First Age of Darkness",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ultima_I%3A_The_First_Age_of_Darkness",
+  "lang": "en",
+  "image": "/img/dos-games/chuang-shi-ji-1-1987rm-ban.jpg"
+ },
+ "chuang-shi-ji-2": {
+  "wiki": "Ultima II: The Revenge of the Enchantress",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ultima_II%3A_The_Revenge_of_the_Enchantress",
+  "lang": "en",
+  "image": "/img/dos-games/chuang-shi-ji-2.jpg"
+ },
+ "chuang-shi-ji-3": {
+  "wiki": "Ultima III: Exodus",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ultima_III%3A_Exodus",
+  "lang": "en",
+  "image": "/img/dos-games/chuang-shi-ji-3.jpg"
+ },
+ "chuang-shi-ji-4": {
+  "wiki": "Ultima IV: Quest of the Avatar",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ultima_IV%3A_Quest_of_the_Avatar",
+  "lang": "en",
+  "image": "/img/dos-games/chuang-shi-ji-4.jpg",
+  "wikiZh": "创世纪IV：圣者传奇",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%88%9B%E4%B8%96%E7%BA%AAIV%EF%BC%9A%E5%9C%A3%E8%80%85%E4%BC%A0%E5%A5%87"
+ },
+ "chuang-shi-ji-6": {
+  "wiki": "Ultima VI: The False Prophet",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ultima_VI%3A_The_False_Prophet",
+  "lang": "en",
+  "image": "/img/dos-games/chuang-shi-ji-6.jpg"
+ },
+ "chuang-shi-ji-7-shang-hei-yue-zhi-men": {
+  "wiki": "Ultima VII: The Black Gate",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ultima_VII%3A_The_Black_Gate",
+  "lang": "en",
+  "image": "/img/dos-games/chuang-shi-ji-7-shang-hei-yue-zhi-men.jpg"
+ },
+ "chuang-shi-ji-8": {
+  "wiki": "Ultima VIII: Pagan",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ultima_VIII%3A_Pagan",
+  "lang": "en",
+  "image": "/img/dos-games/chuang-shi-ji-8.jpg"
+ },
+ "yong-shi-chuan-qi": {
+  "wiki": "Legends of Valour",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Legends_of_Valour",
+  "lang": "en",
+  "image": "/img/dos-games/yong-shi-chuan-qi.jpg"
+ },
+ "yong-zhe-dou-e-long-2": {
+  "wiki": "勇者斗恶龙II 恶灵的众神",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%8B%87%E8%80%85%E6%96%97%E6%81%B6%E9%BE%99II_%E6%81%B6%E7%81%B5%E7%9A%84%E4%BC%97%E7%A5%9E",
+  "lang": "zh",
+  "image": "/img/dos-games/yong-zhe-dou-e-long-2.jpg",
+  "wikiZh": "勇者斗恶龙II 恶灵的众神",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%8B%87%E8%80%85%E6%96%97%E6%81%B6%E9%BE%99II_%E6%81%B6%E7%81%B5%E7%9A%84%E4%BC%97%E7%A5%9E"
+ },
+ "yong-zhe-dou-e-long-3": {
+  "wiki": "Dragon Quest III",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Dragon_Quest_III",
+  "lang": "en",
+  "image": "/img/dos-games/yong-zhe-dou-e-long-3.jpg",
+  "wikiZh": "勇者鬥惡龍III 接著邁向傳說",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%8B%87%E8%80%85%E9%AC%A5%E6%83%A1%E9%BE%8DIII_%E6%8E%A5%E8%91%97%E9%82%81%E5%90%91%E5%82%B3%E8%AA%AA"
+ },
+ "yi-sheng-ye-feng-kuang": {
+  "wiki": "Life & Death",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Life_%26_Death",
+  "lang": "en",
+  "image": "/img/dos-games/yi-sheng-ye-feng-kuang.jpg"
+ },
+ "shi-mian-mai-fu": {
+  "wiki": "Ambush at Sorinor",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ambush_at_Sorinor",
+  "lang": "en",
+  "image": "/img/dos-games/shi-mian-mai-fu.jpg"
+ },
+ "ka-tong-sai-che": {
+  "wiki": "Wacky Wheels",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Wacky_Wheels",
+  "lang": "en",
+  "image": "/img/dos-games/ka-tong-sai-che.jpg"
+ },
+ "e-mo-cheng": {
+  "wiki": "Castlevania",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Castlevania",
+  "image": "/img/dos-games/e-mo-cheng.jpg",
+  "lang": "en",
+  "wikiZh": "惡魔城 闇影主宰-命運之鏡",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E6%83%A1%E9%AD%94%E5%9F%8E_%E9%97%87%E5%BD%B1%E4%B8%BB%E5%AE%B0-%E5%91%BD%E9%81%8B%E4%B9%8B%E9%8F%A1"
+ },
+ "cheng-ji-si-han": {
+  "wiki": "Genghis Khan (video game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Genghis_Khan_(video_game)",
+  "lang": "en",
+  "image": "/img/dos-games/cheng-ji-si-han.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/1/1a/Genghis_Khan_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "bai-fu-zhang-luo-ma-fang-yu": {
+  "wiki": "Centurion: Defender of Rome",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Centurion%3A_Defender_of_Rome",
+  "lang": "en",
+  "image": "/img/dos-games/bai-fu-zhang-luo-ma-fang-yu.jpg"
+ },
+ "yu-guo-de-kong-bu-zhi-wu-3": {
+  "wiki": "Hugo III, Jungle of Doom!",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Hugo_III%2C_Jungle_of_Doom%21",
+  "lang": "en",
+  "image": "/img/dos-games/yu-guo-de-kong-bu-zhi-wu-3.jpg"
+ },
+ "shun-shi-zhen-mi-ti": {
+  "wiki": "Clockwiser",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Clockwiser",
+  "lang": "en",
+  "image": "/img/dos-games/shun-shi-zhen-mi-ti.jpg"
+ },
+ "mo-fa-fu-ji": {
+  "wiki": "Ambush at Sorinor",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ambush_at_Sorinor",
+  "lang": "en",
+  "image": "/img/dos-games/mo-fa-fu-ji.jpg"
+ },
+ "chuang-shi-ji-7-xia-ju-she-zhi-dao": {
+  "wiki": "Ultima VII Part Two: Serpent Isle",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ultima_VII_Part_Two%3A_Serpent_Isle",
+  "lang": "en",
+  "image": "/img/dos-games/chuang-shi-ji-7-xia-ju-she-zhi-dao.jpg"
+ },
+ "qian-xian-yao-ji-shi": {
+  "wiki": "Freddy Pharkas: Frontier Pharmacist",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Freddy_Pharkas%3A_Frontier_Pharmacist",
+  "lang": "en",
+  "image": "/img/dos-games/qian-xian-yao-ji-shi.jpg"
+ },
+ "yong-zhe-dou-e-long": {
+  "wiki": "Dragon Fighter (video game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Dragon_Fighter_(video_game)",
+  "lang": "en",
+  "image": "/img/dos-games/yong-zhe-dou-e-long.jpg",
+  "wikiZh": "勇者鬥惡龍系列",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%8B%87%E8%80%85%E9%AC%A5%E6%83%A1%E9%BE%8D%E7%B3%BB%E5%88%97"
+ },
+ "wu-ye-ling-zhu": {
+  "wiki": "午夜領主",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%8D%88%E5%A4%9C%E9%A0%98%E4%B8%BB",
+  "lang": "zh",
+  "image": "/img/dos-games/wu-ye-ling-zhu.jpg",
+  "wikiZh": "午夜領主",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%8D%88%E5%A4%9C%E9%A0%98%E4%B8%BB"
+ },
+ "bo-wu-guan-jing-hun-ye": {
+  "wiki": "Museum Madness",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Museum_Madness",
+  "image": "/img/dos-games/bo-wu-guan-jing-hun-ye.jpg",
+  "lang": "en"
+ },
+ "ka-nuo-fu": {
+  "wiki": "Karnov",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Karnov",
+  "image": "/img/dos-games/ka-nuo-fu.jpg",
+  "lang": "en"
+ },
+ "lu-fu-de-mi-mi-wu-qi": {
+  "wiki": "Secret Weapons of the Luftwaffe",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Secret_Weapons_of_the_Luftwaffe",
+  "lang": "en",
+  "image": "/img/dos-games/lu-fu-de-mi-mi-wu-qi.jpg"
+ },
+ "wei-xian-cong-lin": {
+  "wiki": "Risky Woods",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Risky_Woods",
+  "lang": "en",
+  "image": "/img/dos-games/wei-xian-cong-lin.jpg"
+ },
+ "wei-xian-de-li-ke-1": {
+  "wiki": "Rick Dangerous",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Rick_Dangerous",
+  "lang": "en",
+  "image": "/img/dos-games/wei-xian-de-li-ke-1.jpg"
+ },
+ "wei-xian-de-li-ke-2": {
+  "wiki": "Rick Dangerous 2",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Rick_Dangerous_2",
+  "lang": "en",
+  "image": "/img/dos-games/wei-xian-de-li-ke-2.jpg"
+ },
+ "wei-xian-jie-dao": {
+  "wiki": "Dangerous Streets",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Dangerous_Streets",
+  "lang": "en",
+  "image": "/img/dos-games/wei-xian-jie-dao.jpg"
+ },
+ "yuan-heng-xing-zhan-zheng-qian-xian": {
+  "wiki": "Protostar: War on the Frontier",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Protostar%3A_War_on_the_Frontier",
+  "lang": "en",
+  "image": "/img/dos-games/yuan-heng-xing-zhan-zheng-qian-xian.jpg"
+ },
+ "shuang-jie-long": {
+  "wiki": "Double Dragon",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Double_Dragon",
+  "image": "/img/dos-games/shuang-jie-long.jpg",
+  "lang": "en",
+  "wikiZh": "双截龙 (游戏)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%8F%8C%E6%88%AA%E9%BE%99_(%E6%B8%B8%E6%88%8F)"
+ },
+ "shuang-jie-long-2": {
+  "wiki": "Double Dragon II: The Revenge",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Double_Dragon_II%3A_The_Revenge",
+  "lang": "en",
+  "image": "/img/dos-games/shuang-jie-long-2.jpg"
+ },
+ "shuang-jie-long-3": {
+  "wiki": "Double Dragon 3: The Rosetta Stone",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Double_Dragon_3%3A_The_Rosetta_Stone",
+  "lang": "en",
+  "image": "/img/dos-games/shuang-jie-long-3.jpg",
+  "wikiZh": "双截龙3 罗塞塔之石",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%8F%8C%E6%88%AA%E9%BE%993_%E7%BD%97%E5%A1%9E%E5%A1%94%E4%B9%8B%E7%9F%B3"
+ },
+ "pan-bian-ke-lang-duo": {
+  "wiki": "Betrayal at Krondor",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Betrayal_at_Krondor",
+  "lang": "en",
+  "image": "/img/dos-games/pan-bian-ke-lang-duo.jpg"
+ },
+ "gu-mu-li-ying": {
+  "wiki": "Tomb Raider",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Tomb_Raider",
+  "lang": "en",
+  "image": "/img/dos-games/gu-mu-li-ying.jpg",
+  "wikiZh": "古墓丽影系列",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%8F%A4%E5%A2%93%E4%B8%BD%E5%BD%B1%E7%B3%BB%E5%88%97"
+ },
+ "gu-wen-ming-ba-wang-chuan": {
+  "wiki": "古文明霸王传",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%8F%A4%E6%96%87%E6%98%8E%E9%9C%B8%E7%8E%8B%E4%BC%A0",
+  "lang": "zh",
+  "image": "/img/dos-games/gu-wen-ming-ba-wang-chuan.jpg",
+  "wikiZh": "古文明霸王传",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%8F%A4%E6%96%87%E6%98%8E%E9%9C%B8%E7%8E%8B%E4%BC%A0"
+ },
+ "shi-shi-dan-zhu-tai": {
+  "wiki": "Epic Pinball",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Epic_Pinball",
+  "lang": "en",
+  "image": "/img/dos-games/shi-shi-dan-zhu-tai.jpg"
+ },
+ "chi-dou-ren-shi-kong-zhi-lv": {
+  "wiki": "Pac-In-Time",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Pac-In-Time",
+  "lang": "en",
+  "image": "/img/dos-games/chi-dou-ren-shi-kong-zhi-lv.jpg"
+ },
+ "he-jin-zhuang-bei-2": {
+  "image": "/img/dos-games/he-jin-zhuang-bei-2.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/commons/7/72/Metal_Gear_2_%281990%29_logo.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "wiki": "合金装备2 固蛇",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%90%88%E9%87%91%E8%A3%85%E5%A4%872_%E5%9B%BA%E8%9B%87",
+  "lang": "zh",
+  "wikiZh": "合金装备2 固蛇",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%90%88%E9%87%91%E8%A3%85%E5%A4%872_%E5%9B%BA%E8%9B%87"
+ },
+ "ji-er-zai-cong-lin": {
+  "wiki": "Jill of the Jungle",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Jill_of_the_Jungle",
+  "lang": "en",
+  "image": "/img/dos-games/ji-er-zai-cong-lin.jpg"
+ },
+ "ji-er-zai-cong-lin-2-di-xia-mao-xian": {
+  "wiki": "Jill of the Jungle",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Jill_of_the_Jungle",
+  "lang": "en",
+  "image": "/img/dos-games/ji-er-zai-cong-lin-2-di-xia-mao-xian.jpg"
+ },
+ "ji-er-zai-cong-lin-3-he-1": {
+  "wiki": "Jill of the Jungle",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Jill_of_the_Jungle",
+  "lang": "en",
+  "image": "/img/dos-games/ji-er-zai-cong-lin-3-he-1.jpg"
+ },
+ "ji-er-zai-cong-lin-3-zheng-jiu-wang-zi": {
+  "wiki": "Jill of the Jungle",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Jill_of_the_Jungle",
+  "lang": "en",
+  "image": "/img/dos-games/ji-er-zai-cong-lin-3-zheng-jiu-wang-zi.jpg"
+ },
+ "ming-yun-zhan-shi-hun-dun-yin-qing": {
+  "wiki": "The Chaos Engine",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Chaos_Engine",
+  "lang": "en",
+  "image": "/img/dos-games/ming-yun-zhan-shi-hun-dun-yin-qing.jpg"
+ },
+ "zhou-yu-jiao-cha": {
+  "wiki": "Spellcross",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Spellcross",
+  "lang": "en",
+  "image": "/img/dos-games/zhou-yu-jiao-cha.jpg"
+ },
+ "guo-wang-mi-shi-2-huang-jia-luo-man-shi": {
+  "wiki": "King's Quest II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/King%27s_Quest_II",
+  "lang": "en",
+  "image": "/img/dos-games/guo-wang-mi-shi-2-huang-jia-luo-man-shi.jpg",
+  "imageSource": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/SierraOnLine-Box-KingsQuest2.jpg/330px-SierraOnLine-Box-KingsQuest2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+ },
+ "guo-wang-mi-shi-3-mo-fa-sheng-si-men": {
+  "wiki": "King's Quest III",
+  "wikiUrl": "https://en.wikipedia.org/wiki/King%27s_Quest_III",
+  "lang": "en",
+  "image": "/img/dos-games/guo-wang-mi-shi-3-mo-fa-sheng-si-men.jpg"
+ },
+ "guo-wang-mi-shi-4-luo-sai-la-mao-xian": {
+  "wiki": "King's Quest IV",
+  "wikiUrl": "https://en.wikipedia.org/wiki/King%27s_Quest_IV",
+  "lang": "en",
+  "image": "/img/dos-games/guo-wang-mi-shi-4-luo-sai-la-mao-xian.jpg"
+ },
+ "guo-wang-mi-shi-5-shi-cheng-ji": {
+  "wiki": "King's Quest V",
+  "wikiUrl": "https://en.wikipedia.org/wiki/King%27s_Quest_V",
+  "lang": "en",
+  "image": "/img/dos-games/guo-wang-mi-shi-5-shi-cheng-ji.jpg",
+  "wikiZh": "国王密使V：失城记",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%9B%BD%E7%8E%8B%E5%AF%86%E4%BD%BFV%EF%BC%9A%E5%A4%B1%E5%9F%8E%E8%AE%B0"
+ },
+ "guo-wang-mi-shi-6-xi-wang-zhi-lv": {
+  "wiki": "King's Quest VI",
+  "wikiUrl": "https://en.wikipedia.org/wiki/King%27s_Quest_VI",
+  "lang": "en",
+  "image": "/img/dos-games/guo-wang-mi-shi-6-xi-wang-zhi-lv.jpg"
+ },
+ "guo-wang-de-en-ci": {
+  "wiki": "King's Bounty",
+  "wikiUrl": "https://en.wikipedia.org/wiki/King%27s_Bounty",
+  "lang": "en",
+  "image": "/img/dos-games/guo-wang-de-en-ci.jpg",
+  "wikiZh": "国王的恩赐",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%9B%BD%E7%8E%8B%E7%9A%84%E6%81%A9%E8%B5%90"
+ },
+ "guo-ji-xiang-qi-wu-shu-dui-jue": {
+  "wiki": "Archon Ultra",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Archon_Ultra",
+  "lang": "en",
+  "image": "/img/dos-games/guo-ji-xiang-qi-wu-shu-dui-jue.jpg"
+ },
+ "guo-ji-chao-ji-che-sai": {
+  "wiki": "Super Cars",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Super_Cars",
+  "lang": "en",
+  "image": "/img/dos-games/guo-ji-chao-ji-che-sai.jpg"
+ },
+ "di-xia-chuang-shi-ji": {
+  "wiki": "Ultima Underworld: The Stygian Abyss",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ultima_Underworld%3A_The_Stygian_Abyss",
+  "lang": "en",
+  "image": "/img/dos-games/di-xia-chuang-shi-ji.jpg",
+  "wikiZh": "地下创世纪：冥河深渊",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%9C%B0%E4%B8%8B%E5%88%9B%E4%B8%96%E7%BA%AA%EF%BC%9A%E5%86%A5%E6%B2%B3%E6%B7%B1%E6%B8%8A"
+ },
+ "di-xia-chuang-shi-ji-2": {
+  "wiki": "Ultima Underworld II: Labyrinth of Worlds",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ultima_Underworld_II%3A_Labyrinth_of_Worlds",
+  "lang": "en",
+  "image": "/img/dos-games/di-xia-chuang-shi-ji-2.jpg"
+ },
+ "di-yu-sai-bo-peng-ke": {
+  "wiki": "Hell: A Cyberpunk Thriller",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Hell%3A_A_Cyberpunk_Thriller",
+  "lang": "en",
+  "image": "/img/dos-games/di-yu-sai-bo-peng-ke.jpg"
+ },
+ "di-qiu-2140": {
+  "wiki": "Earth 2140",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Earth_2140",
+  "image": "/img/dos-games/di-qiu-2140.jpg",
+  "lang": "en"
+ },
+ "di-qiu-wei-gong": {
+  "wiki": "Metaltech: Earthsiege",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Metaltech%3A_Earthsiege",
+  "lang": "en",
+  "image": "/img/dos-games/di-qiu-wei-gong.jpg"
+ },
+ "tan-ke-da-jue-zhan": {
+  "wiki": "坦克大決戰",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%9D%A6%E5%85%8B%E5%A4%A7%E6%B1%BA%E6%88%B0",
+  "lang": "zh",
+  "image": "/img/dos-games/tan-ke-da-jue-zhan.jpg"
+ },
+ "ji-yin-ji-qi": {
+  "wiki": "The Gene Machine",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Gene_Machine",
+  "lang": "en",
+  "image": "/img/dos-games/ji-yin-ji-qi.jpg"
+ },
+ "ji-yin-duan-zao": {
+  "wiki": "BioForge",
+  "wikiUrl": "https://en.wikipedia.org/wiki/BioForge",
+  "lang": "en",
+  "image": "/img/dos-games/ji-yin-duan-zao.jpg"
+ },
+ "mu-di-sang-shi": {
+  "wiki": "Horror Zombies from the Crypt",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Horror_Zombies_from_the_Crypt",
+  "lang": "en",
+  "image": "/img/dos-games/mu-di-sang-shi.jpg"
+ },
+ "zhuang-zhi-ling-yun": {
+  "wiki": "Top Gun: Fire at Will",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Top_Gun%3A_Fire_at_Will",
+  "image": "/img/dos-games/zhuang-zhi-ling-yun.jpg",
+  "lang": "en"
+ },
+ "wai-xing-ao-lin-pi-ke": {
+  "wiki": "Alien Olympics",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Alien_Olympics",
+  "lang": "en",
+  "image": "/img/dos-games/wai-xing-ao-lin-pi-ke.jpg"
+ },
+ "da-li-shui-shou-2": {
+  "wiki": "Popeye 2",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Popeye_2",
+  "lang": "en",
+  "image": "/img/dos-games/da-li-shui-shou-2.jpg"
+ },
+ "da-fu-weng-2": {
+  "wiki": "大富翁2",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%AF%8C%E7%BF%812",
+  "lang": "zh",
+  "image": "/img/dos-games/da-fu-weng-2.jpg",
+  "wikiZh": "大富翁2",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%AF%8C%E7%BF%812"
+ },
+ "da-zhan-lve": {
+  "wiki": "大战略 ～钢铁战风～",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%88%98%E7%95%A5_%EF%BD%9E%E9%92%A2%E9%93%81%E6%88%98%E9%A3%8E%EF%BD%9E",
+  "lang": "zh",
+  "wikiZh": "大战略 ～钢铁战风～",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%88%98%E7%95%A5_%EF%BD%9E%E9%92%A2%E9%93%81%E6%88%98%E9%A3%8E%EF%BD%9E"
+ },
+ "da-hai-shang": {
+  "wiki": "High Seas Trader",
+  "wikiUrl": "https://en.wikipedia.org/wiki/High_Seas_Trader",
+  "lang": "en",
+  "image": "/img/dos-games/da-hai-shang.jpg"
+ },
+ "da-hai-zhan": {
+  "wiki": "Battleship (1993 video game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Battleship_(1993_video_game)",
+  "lang": "en",
+  "image": "/img/dos-games/da-hai-zhan.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/e/e7/Battleship_NES_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "da-hong-da-mao-xian": {
+  "wiki": "The Big Red Adventure",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Big_Red_Adventure",
+  "lang": "en",
+  "image": "/img/dos-games/da-hong-da-mao-xian.jpg"
+ },
+ "tian-xuan-di-zhuan-2": {
+  "wiki": "Descent II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Descent_II",
+  "lang": "en",
+  "image": "/img/dos-games/tian-xuan-di-zhuan-2.jpg"
+ },
+ "tian-long-ba-bu": {
+  "wiki": "天龙八部 (2007年游戏)",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E9%BE%99%E5%85%AB%E9%83%A8_(2007%E5%B9%B4%E6%B8%B8%E6%88%8F)",
+  "lang": "zh",
+  "wikiZh": "天龙八部 (2007年游戏)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E9%BE%99%E5%85%AB%E9%83%A8_(2007%E5%B9%B4%E6%B8%B8%E6%88%8F)"
+ },
+ "tai-ping-tian-guo": {
+  "wiki": "Crisis Zone",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Crisis_Zone",
+  "lang": "en",
+  "image": "/img/dos-games/tai-ping-tian-guo.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/8/8e/Crisis_Zone_Flyer.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "tai-kong-yong-shi-shu": {
+  "wiki": "Galactic Warrior Rats",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Galactic_Warrior_Rats",
+  "lang": "en",
+  "image": "/img/dos-games/tai-kong-yong-shi-shu.jpg"
+ },
+ "tai-kong-lu-bin-xun": {
+  "wiki": "Robinson's Requiem",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Robinson%27s_Requiem",
+  "lang": "en",
+  "image": "/img/dos-games/tai-kong-lu-bin-xun.jpg"
+ },
+ "tai-ge-li-zhi-chuan": {
+  "wiki": "太阁立志传 (游戏)",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%A4%AA%E9%98%81%E7%AB%8B%E5%BF%97%E4%BC%A0_(%E6%B8%B8%E6%88%8F)",
+  "lang": "zh",
+  "wikiZh": "太阁立志传 (游戏)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%A4%AA%E9%98%81%E7%AB%8B%E5%BF%97%E4%BC%A0_(%E6%B8%B8%E6%88%8F)"
+ },
+ "shi-kong-jia-shi-2": {
+  "wiki": "Fire & Forget II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Fire_%26_Forget_II",
+  "lang": "en",
+  "image": "/img/dos-games/shi-kong-jia-shi-2.jpg"
+ },
+ "shi-luo-de-wei-jing-ren": {
+  "wiki": "The Lost Vikings",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Lost_Vikings",
+  "lang": "en",
+  "image": "/img/dos-games/shi-luo-de-wei-jing-ren.jpg",
+  "wikiZh": "失落的维京人",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%A4%B1%E8%90%BD%E7%9A%84%E7%BB%B4%E4%BA%AC%E4%BA%BA"
+ },
+ "shi-luo-de-wei-jing-ren-2": {
+  "wiki": "The Lost Vikings 2",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Lost_Vikings_2",
+  "lang": "en",
+  "image": "/img/dos-games/shi-luo-de-wei-jing-ren-2.jpg",
+  "wikiZh": "失落的维京人2",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%A4%B1%E8%90%BD%E7%9A%84%E7%BB%B4%E4%BA%AC%E4%BA%BA2"
+ },
+ "duo-qi-da-zhan": {
+  "wiki": "Flag Capture",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Flag_Capture",
+  "lang": "en",
+  "image": "/img/dos-games/duo-qi-da-zhan.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/0/0e/Flag_Capture_Cartridge_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "ao-ni-da-zuo-zhan-2": {
+  "wiki": "Arnie 2",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Arnie_2",
+  "lang": "en",
+  "image": "/img/dos-games/ao-ni-da-zuo-zhan-2.jpg"
+ },
+ "miao-hu-shen-tan": {
+  "wiki": "Inherit the Earth",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Inherit_the_Earth",
+  "lang": "en",
+  "image": "/img/dos-games/miao-hu-shen-tan.jpg"
+ },
+ "zi-fu-shi-jie-li-xian-ji": {
+  "wiki": "ZZT",
+  "wikiUrl": "https://en.wikipedia.org/wiki/ZZT",
+  "lang": "en",
+  "image": "/img/dos-games/zi-fu-shi-jie-li-xian-ji.jpg"
+ },
+ "an-ya-zhan-ji": {
+  "wiki": "Arya Vaiv",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Arya_Vaiv",
+  "lang": "en",
+  "image": "/img/dos-games/an-ya-zhan-ji.jpg"
+ },
+ "bao-li-bao-qi-qi-shi": {
+  "wiki": "Eric the Unready",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Eric_the_Unready",
+  "lang": "en",
+  "image": "/img/dos-games/bao-li-bao-qi-qi-shi.jpg"
+ },
+ "yu-yan": {
+  "wiki": "Fable (2027 video game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Fable_(2027_video_game)",
+  "lang": "en",
+  "image": "/img/dos-games/yu-yan.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/3/3c/Fable_cover_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "xun-zhao-jing-yu-zuo": {
+  "wiki": "EcoQuest: The Search for Cetus",
+  "wikiUrl": "https://en.wikipedia.org/wiki/EcoQuest%3A_The_Search_for_Cetus",
+  "lang": "en",
+  "image": "/img/dos-games/xun-zhao-jing-yu-zuo.jpg"
+ },
+ "she-diao-ying-xiong-zhuan": {
+  "wiki": "射鵰英雄傳 (遊戲)",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%B0%84%E9%B5%B0%E8%8B%B1%E9%9B%84%E5%82%B3_(%E9%81%8A%E6%88%B2)",
+  "lang": "zh",
+  "wikiZh": "射鵰英雄傳 (遊戲)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%B0%84%E9%B5%B0%E8%8B%B1%E9%9B%84%E5%82%B3_(%E9%81%8A%E6%88%B2)"
+ },
+ "xiao-e-mo": {
+  "wiki": "Little Devil Inside",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Little_Devil_Inside",
+  "image": "/img/dos-games/xiao-e-mo.jpg",
+  "lang": "en"
+ },
+ "xiao-lv-shu-e-luo-si": {
+  "wiki": "Lemmings (2006 video game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Lemmings_(2006_video_game)",
+  "lang": "en",
+  "image": "/img/dos-games/xiao-lv-shu-e-luo-si.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/4/41/Lemmings_%282006_PSP%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "xiao-gui-dang-jia": {
+  "wiki": "Home Alone (video game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Home_Alone_(video_game)",
+  "lang": "en",
+  "image": "/img/dos-games/xiao-gui-dang-jia.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/5/57/HomeAlone1game.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "shan-mu-he-ma-ke-si": {
+  "wiki": "Sam & Max Hit the Road",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Sam_%26_Max_Hit_the_Road",
+  "lang": "en",
+  "image": "/img/dos-games/shan-mu-he-ma-ke-si.jpg"
+ },
+ "gong-ren-wu-yu": {
+  "wiki": "The Settlers",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Settlers",
+  "lang": "en",
+  "image": "/img/dos-games/gong-ren-wu-yu.jpg",
+  "wikiZh": "工人物语系列",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%B7%A5%E4%BA%BA%E7%89%A9%E8%AF%AD%E7%B3%BB%E5%88%97"
+ },
+ "gong-ren-wu-yu-2": {
+  "wiki": "The Settlers II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Settlers_II",
+  "lang": "en",
+  "image": "/img/dos-games/gong-ren-wu-yu-2.jpg"
+ },
+ "ju-jing-yu-zhou-hao": {
+  "wiki": "Whale's Voyage",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Whale%27s_Voyage",
+  "lang": "en",
+  "image": "/img/dos-games/ju-jing-yu-zhou-hao.jpg"
+ },
+ "wu-shi-da-gan-guo": {
+  "wiki": "Super Cauldron",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Super_Cauldron",
+  "lang": "en",
+  "image": "/img/dos-games/wu-shi-da-gan-guo.jpg"
+ },
+ "wu-shi-xue-xiao-1-zhui-nv-ji": {
+  "wiki": "Spellcasting 101: Sorcerers Get All the Girls",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Spellcasting_101%3A_Sorcerers_Get_All_the_Girls",
+  "lang": "en",
+  "image": "/img/dos-games/wu-shi-xue-xiao-1-zhui-nv-ji.jpg"
+ },
+ "wu-shi-xue-xiao-2-ru-xue-ji": {
+  "wiki": "Spellcasting 201: The Sorcerer's Appliance",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Spellcasting_201%3A_The_Sorcerer%27s_Appliance",
+  "lang": "en",
+  "image": "/img/dos-games/wu-shi-xue-xiao-2-ru-xue-ji.jpg"
+ },
+ "wu-shi-xue-xiao-3-chun-jia": {
+  "wiki": "Spellcasting 301: Spring Break",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Spellcasting_301%3A_Spring_Break",
+  "lang": "en",
+  "image": "/img/dos-games/wu-shi-xue-xiao-3-chun-jia.jpg"
+ },
+ "wu-shu-3": {
+  "wiki": "巫术III：利加敏的遗产",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%B7%AB%E6%9C%AFIII%EF%BC%9A%E5%88%A9%E5%8A%A0%E6%95%8F%E7%9A%84%E9%81%97%E4%BA%A7",
+  "lang": "zh",
+  "image": "/img/dos-games/wu-shu-3.jpg"
+ },
+ "wu-shu-4": {
+  "wiki": "Wizardry IV: The Return of Werdna",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Wizardry_IV%3A_The_Return_of_Werdna",
+  "lang": "en",
+  "image": "/img/dos-games/wu-shu-4.jpg",
+  "wikiZh": "巫术IV：瓦德纳的复仇",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%B7%AB%E6%9C%AFIV%EF%BC%9A%E7%93%A6%E5%BE%B7%E7%BA%B3%E7%9A%84%E5%A4%8D%E4%BB%87"
+ },
+ "wu-shu-5": {
+  "wiki": "Wizardry V: Heart of the Maelstrom",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Wizardry_V%3A_Heart_of_the_Maelstrom",
+  "lang": "en",
+  "image": "/img/dos-games/wu-shu-5.jpg",
+  "wikiZh": "巫术V：漩涡之心",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%B7%AB%E6%9C%AFV%EF%BC%9A%E6%BC%A9%E6%B6%A1%E4%B9%8B%E5%BF%83"
+ },
+ "wu-shu-6": {
+  "wiki": "Wizardry VI: Bane of the Cosmic Forge",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Wizardry_VI%3A_Bane_of_the_Cosmic_Forge",
+  "lang": "en",
+  "image": "/img/dos-games/wu-shu-6.jpg",
+  "wikiZh": "巫术VI：创世神笔之诅咒",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%B7%AB%E6%9C%AFVI%EF%BC%9A%E5%88%9B%E4%B8%96%E7%A5%9E%E7%AC%94%E4%B9%8B%E8%AF%85%E5%92%92"
+ },
+ "wu-shu-7-shi-luo-de-jia-di-ya": {
+  "wiki": "Wizardry VII: Crusaders of the Dark Savant",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Wizardry_VII%3A_Crusaders_of_the_Dark_Savant",
+  "lang": "en",
+  "image": "/img/dos-games/wu-shu-7-shi-luo-de-jia-di-ya.jpg"
+ },
+ "wu-mo-tian-jing": {
+  "wiki": "Witchaven",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Witchaven",
+  "lang": "en",
+  "image": "/img/dos-games/wu-mo-tian-jing.jpg"
+ },
+ "ba-ke-luo-jie-mo-ri-dao-shu": {
+  "wiki": "Buck Rogers: Countdown to Doomsday",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Buck_Rogers%3A_Countdown_to_Doomsday",
+  "lang": "en",
+  "image": "/img/dos-games/ba-ke-luo-jie-mo-ri-dao-shu.jpg"
+ },
+ "ba-ke-luo-jie-ju-zhen-li-fang": {
+  "wiki": "Buck Rogers: Matrix Cubed",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Buck_Rogers%3A_Matrix_Cubed",
+  "lang": "en",
+  "image": "/img/dos-games/ba-ke-luo-jie-ju-zhen-li-fang.jpg"
+ },
+ "bu-lai-ke-zhi-shi-yi-xing-tu-ji": {
+  "wiki": "Blake Stone: Planet Strike",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Blake_Stone%3A_Planet_Strike",
+  "lang": "en",
+  "image": "/img/dos-games/bu-lai-ke-zhi-shi-yi-xing-tu-ji.jpg"
+ },
+ "bu-lai-ke-zhi-shi-yi-xing-huang-jin": {
+  "wiki": "Blake Stone: Aliens of Gold",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Blake_Stone%3A_Aliens_of_Gold",
+  "lang": "en",
+  "image": "/img/dos-games/bu-lai-ke-zhi-shi-yi-xing-huang-jin.jpg"
+ },
+ "di-guo-2": {
+  "wiki": "Empire Earth II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Empire_Earth_II",
+  "image": "/img/dos-games/di-guo-2.jpg",
+  "lang": "en"
+ },
+ "huan-xiang-kong-jian": {
+  "wiki": "Leisure Suit Larry in the Land of the Lounge Lizards",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Leisure_Suit_Larry_in_the_Land_of_the_Lounge_Lizards",
+  "lang": "en",
+  "image": "/img/dos-games/huan-xiang-kong-jian.jpg",
+  "wikiZh": "幻想空間系列",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%B9%BB%E6%83%B3%E7%A9%BA%E9%96%93%E7%B3%BB%E5%88%97"
+ },
+ "huan-xiang-kong-jian-3": {
+  "wiki": "Leisure Suit Larry III: Passionate Patti in Pursuit of the Pulsating Pectorals",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Leisure_Suit_Larry_III%3A_Passionate_Patti_in_Pursuit_of_the_Pulsating_Pectorals",
+  "lang": "en",
+  "image": "/img/dos-games/huan-xiang-kong-jian-3.jpg"
+ },
+ "huan-xiang-kong-jian-6": {
+  "wiki": "Leisure Suit Larry 6: Shape Up or Slip Out!",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Leisure_Suit_Larry_6%3A_Shape_Up_or_Slip_Out%21",
+  "lang": "en",
+  "image": "/img/dos-games/huan-xiang-kong-jian-6.jpg"
+ },
+ "huan-xiang-dan-zhu-tai": {
+  "wiki": "Pinball Illusions",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Pinball_Illusions",
+  "lang": "en",
+  "image": "/img/dos-games/huan-xiang-dan-zhu-tai.jpg"
+ },
+ "you-cheng-bao-zang": {
+  "wiki": "Hillsfar",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Hillsfar",
+  "lang": "en",
+  "image": "/img/dos-games/you-cheng-bao-zang.jpg"
+ },
+ "you-fu-1-wei-zhi-di-ren": {
+  "wiki": "UFO: Enemy Unknown",
+  "wikiUrl": "https://en.wikipedia.org/wiki/UFO%3A_Enemy_Unknown",
+  "lang": "en",
+  "image": "/img/dos-games/you-fu-1-wei-zhi-di-ren.jpg"
+ },
+ "you-fu-3-tian-qi": {
+  "wiki": "X-COM: Apocalypse",
+  "wikiUrl": "https://en.wikipedia.org/wiki/X-COM%3A_Apocalypse",
+  "lang": "en",
+  "image": "/img/dos-games/you-fu-3-tian-qi.jpg"
+ },
+ "you-fu-3-tian-qi-guang-die-ban": {
+  "wiki": "X-COM: Apocalypse",
+  "wikiUrl": "https://en.wikipedia.org/wiki/X-COM%3A_Apocalypse",
+  "lang": "en",
+  "image": "/img/dos-games/you-fu-3-tian-qi-guang-die-ban.jpg"
+ },
+ "kai-qiu-97": {
+  "wiki": "Kickoff '97",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Kickoff_%2797",
+  "lang": "en",
+  "image": "/img/dos-games/kai-qiu-97.jpg"
+ },
+ "yi-xing-san-bu-qu": {
+  "wiki": "Alien Trilogy",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Alien_Trilogy",
+  "lang": "en",
+  "image": "/img/dos-games/yi-xing-san-bu-qu.jpg"
+ },
+ "yi-xing-shi-jian": {
+  "wiki": "Alien Incident",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Alien_Incident",
+  "lang": "en",
+  "image": "/img/dos-games/yi-xing-shi-jian.jpg"
+ },
+ "yi-xing-da-jin-ji": {
+  "wiki": "Zak McKracken and the Alien Mindbenders",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Zak_McKracken_and_the_Alien_Mindbenders",
+  "lang": "en",
+  "image": "/img/dos-games/yi-xing-da-jin-ji.jpg",
+  "wikiZh": "異形大進擊",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E7%95%B0%E5%BD%A2%E5%A4%A7%E9%80%B2%E6%93%8A"
+ },
+ "yi-xing-ba-gong": {
+  "wiki": "Bargon Attack",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Bargon_Attack",
+  "lang": "en",
+  "image": "/img/dos-games/yi-xing-ba-gong.jpg"
+ },
+ "yi-jiao-wu-shi-rpg": {
+  "wiki": "Hexx: Heresy of the Wizard",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Hexx%3A_Heresy_of_the_Wizard",
+  "lang": "en",
+  "image": "/img/dos-games/yi-jiao-wu-shi-rpg.jpg"
+ },
+ "yi-jiao-tu": {
+  "wiki": "Heretic (video game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Heretic_(video_game)",
+  "lang": "en",
+  "image": "/img/dos-games/yi-jiao-tu.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/a/a5/Heretic_game_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "yi-xing-yi-ji": {
+  "wiki": "Alien Legacy",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Alien_Legacy",
+  "lang": "en",
+  "image": "/img/dos-games/yi-xing-yi-ji.jpg"
+ },
+ "dan-zhu-tai-shi-jie": {
+  "wiki": "Pinball World",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Pinball_World",
+  "lang": "en",
+  "image": "/img/dos-games/dan-zhu-tai-shi-jie.jpg"
+ },
+ "wei-xing-ji-qi-2": {
+  "wiki": "Micro Machines 2: Turbo Tournament",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Micro_Machines_2%3A_Turbo_Tournament",
+  "lang": "en",
+  "image": "/img/dos-games/wei-xing-ji-qi-2.jpg"
+ },
+ "wei-ruan-tai-kong-mo-ni": {
+  "wiki": "Microsoft Space Simulator",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Microsoft_Space_Simulator",
+  "lang": "en",
+  "image": "/img/dos-games/wei-ruan-tai-kong-mo-ni.jpg"
+ },
+ "wei-ruan-fei-xing-mo-ni-3-ge-zi-liao-pian": {
+  "wiki": "Microsoft Flight Simulator 5.0",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Microsoft_Flight_Simulator_5.0",
+  "lang": "en",
+  "image": "/img/dos-games/wei-ruan-fei-xing-mo-ni-3-ge-zi-liao-pian.jpg"
+ },
+ "de-jun-zong-bu": {
+  "wiki": "Castle Wolfenstein",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Castle_Wolfenstein",
+  "image": "/img/dos-games/de-jun-zong-bu.jpg",
+  "lang": "en",
+  "wikiZh": "德軍總部：新秩序",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%BE%B7%E8%BB%8D%E7%B8%BD%E9%83%A8%EF%BC%9A%E6%96%B0%E7%A7%A9%E5%BA%8F"
+ },
+ "de-jun-zong-bu-mod-li-ming": {
+  "wiki": "Wolfenstein 3D",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Wolfenstein_3D",
+  "lang": "en",
+  "image": "/img/dos-games/de-jun-zong-bu-mod-li-ming.jpg"
+ },
+ "de-lu-yi-e-mo-zhi-xin": {
+  "wiki": "Druid: Daemons of the Mind",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Druid%3A_Daemons_of_the_Mind",
+  "lang": "en",
+  "image": "/img/dos-games/de-lu-yi-e-mo-zhi-xin.jpg"
+ },
+ "ren": {
+  "wiki": "Shinobi (series)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Shinobi_(series)",
+  "image": "/img/dos-games/ren.jpg",
+  "lang": "en",
+  "wikiZh": "忍者外傳系列",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%BF%8D%E8%80%85%E5%A4%96%E5%82%B3%E7%B3%BB%E5%88%97"
+ },
+ "ren-zhe-tu": {
+  "wiki": "Ninja Rabbits",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ninja_Rabbits",
+  "lang": "en",
+  "image": "/img/dos-games/ren-zhe-tu.jpg"
+ },
+ "ren-zhe-long-jian-chuan-2": {
+  "wiki": "Ninja Gaiden II: The Dark Sword of Chaos",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ninja_Gaiden_II%3A_The_Dark_Sword_of_Chaos",
+  "lang": "en",
+  "image": "/img/dos-games/ren-zhe-long-jian-chuan-2.jpg"
+ },
+ "nu-zhi-ji-yi": {
+  "wiki": "Wings of Fury",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Wings_of_Fury",
+  "lang": "en",
+  "image": "/img/dos-games/nu-zhi-ji-yi.jpg"
+ },
+ "kong-long-gong-yuan-da-heng": {
+  "wiki": "DinoPark Tycoon",
+  "wikiUrl": "https://en.wikipedia.org/wiki/DinoPark_Tycoon",
+  "lang": "en",
+  "image": "/img/dos-games/kong-long-gong-yuan-da-heng.jpg"
+ },
+ "kong-long-kuai-da": {
+  "wiki": "恐龙快打",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E6%81%90%E9%BE%99%E5%BF%AB%E6%89%93",
+  "lang": "zh",
+  "image": "/img/dos-games/kong-long-kuai-da.jpg",
+  "wikiZh": "恐龙快打",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E6%81%90%E9%BE%99%E5%BF%AB%E6%89%93"
+ },
+ "e-mo-jin-di": {
+  "wiki": "Veil of Darkness",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Veil_of_Darkness",
+  "lang": "en",
+  "image": "/img/dos-games/e-mo-jin-di.jpg"
+ },
+ "e-mo-jin-di-ying-wen-ban": {
+  "wiki": "Veil of Darkness",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Veil_of_Darkness",
+  "lang": "en",
+  "image": "/img/dos-games/e-mo-jin-di-ying-wen-ban.jpg"
+ },
+ "cheng-fa-zhe": {
+  "wiki": "The Punisher (1990 computer game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Punisher_(1990_computer_game)",
+  "lang": "en",
+  "image": "/img/dos-games/cheng-fa-zhe.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/b/b5/The_Punisher_1990_computer_game.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "gan-guan-zu-qiu": {
+  "wiki": "Sensible Soccer",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Sensible_Soccer",
+  "lang": "en",
+  "image": "/img/dos-games/gan-guan-zu-qiu.jpg"
+ },
+ "gan-guan-zu-qiu-95": {
+  "wiki": "Sensible World of Soccer",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Sensible_World_of_Soccer",
+  "lang": "en",
+  "image": "/img/dos-games/gan-guan-zu-qiu-95.jpg"
+ },
+ "lan-chong-da-zhan": {
+  "wiki": "H.U.R.L.",
+  "wikiUrl": "https://en.wikipedia.org/wiki/H.U.R.L.",
+  "lang": "en",
+  "image": "/img/dos-games/lan-chong-da-zhan.jpg"
+ },
+ "cheng-ji-si-han-3": {
+  "wiki": "Genghis Khan II: Clan of the Gray Wolf",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Genghis_Khan_II%3A_Clan_of_the_Gray_Wolf",
+  "image": "/img/dos-games/cheng-ji-si-han-3.jpg",
+  "lang": "en"
+ },
+ "cheng-ji-si-han-ying-ban": {
+  "wiki": "Genghis Khan II: Clan of the Gray Wolf",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Genghis_Khan_II%3A_Clan_of_the_Gray_Wolf",
+  "image": "/img/dos-games/cheng-ji-si-han-ying-ban.jpg",
+  "lang": "en"
+ },
+ "wo-shi-mi-en": {
+  "wiki": "I.M. Meen",
+  "wikiUrl": "https://en.wikipedia.org/wiki/I.M._Meen",
+  "lang": "en",
+  "image": "/img/dos-games/wo-shi-mi-en.jpg"
+ },
+ "zhan-zheng-zhi-ren": {
+  "wiki": "战争之人 (游戏)",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E6%88%98%E4%BA%89%E4%B9%8B%E4%BA%BA_(%E6%B8%B8%E6%88%8F)",
+  "lang": "zh",
+  "image": "/img/dos-games/zhan-zheng-zhi-ren.jpg",
+  "wikiZh": "战争之人 (游戏)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E6%88%98%E4%BA%89%E4%B9%8B%E4%BA%BA_(%E6%B8%B8%E6%88%8F)"
+ },
+ "zhan-zheng-zhi-dao": {
+  "wiki": "Battle Isle",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Battle_Isle",
+  "lang": "en",
+  "image": "/img/dos-games/zhan-zheng-zhi-dao.jpg"
+ },
+ "zhan-di-ri-ji": {
+  "wiki": "War Diary (video game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/War_Diary_(video_game)",
+  "lang": "en",
+  "image": "/img/dos-games/zhan-di-ri-ji.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/d/da/War_Diary_Europe_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "zhan-fu": {
+  "wiki": "Golden Axe",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Golden_Axe",
+  "image": "/img/dos-games/zhan-fu.jpg",
+  "lang": "en",
+  "wikiZh": "戰斧 (遊戲)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E6%88%B0%E6%96%A7_(%E9%81%8A%E6%88%B2)"
+ },
+ "zhan-ji-shao-nv": {
+  "wiki": "Metal & Lace: The Battle of the Robo Babes",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Metal_%26_Lace%3A_The_Battle_of_the_Robo_Babes",
+  "lang": "en",
+  "image": "/img/dos-games/zhan-ji-shao-nv.jpg",
+  "wikiZh": "戰機少女系列",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E6%88%B0%E6%A9%9F%E5%B0%91%E5%A5%B3%E7%B3%BB%E5%88%97"
+ },
+ "zhan-ji-tu-xi": {
+  "wiki": "Jetstrike",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Jetstrike",
+  "lang": "en",
+  "image": "/img/dos-games/zhan-ji-tu-xi.jpg"
+ },
+ "zhan-qi-1-guo-ji-xiang-qi": {
+  "wiki": "Battle Chess",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Battle_Chess",
+  "image": "/img/dos-games/zhan-qi-1-guo-ji-xiang-qi.jpg",
+  "lang": "en"
+ },
+ "zhan-qi-2-zhong-guo-xiang-qi": {
+  "wiki": "Battle Chess II: Chinese Chess",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Battle_Chess_II%3A_Chinese_Chess",
+  "lang": "en",
+  "image": "/img/dos-games/zhan-qi-2-zhong-guo-xiang-qi.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/0/07/Battle_Chess_II_Chinese_Chess_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "zhan-qi-4000": {
+  "wiki": "Battle Chess 4000",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Battle_Chess_4000",
+  "lang": "en",
+  "image": "/img/dos-games/zhan-qi-4000.jpg"
+ },
+ "zhan-jia-yue-ying-fu-chou": {
+  "wiki": "BattleTech: The Crescent Hawk's Revenge",
+  "wikiUrl": "https://en.wikipedia.org/wiki/BattleTech%3A_The_Crescent_Hawk%27s_Revenge",
+  "lang": "en",
+  "image": "/img/dos-games/zhan-jia-yue-ying-fu-chou.jpg"
+ },
+ "zhan-shen-2": {
+  "wiki": "Warlords II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Warlords_II",
+  "lang": "en",
+  "image": "/img/dos-games/zhan-shen-2.jpg"
+ },
+ "zhan-shen-2-ying-ban-bian-ji-qi": {
+  "wiki": "Warlords II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Warlords_II",
+  "lang": "en",
+  "image": "/img/dos-games/zhan-shen-2-ying-ban-bian-ji-qi.jpg"
+ },
+ "zhan-shen-2-hao-hua-ban": {
+  "wiki": "Warlords II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Warlords_II",
+  "lang": "en",
+  "image": "/img/dos-games/zhan-shen-2-hao-hua-ban.jpg"
+ },
+ "zhan-chong": {
+  "wiki": "Battle Bugs",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Battle_Bugs",
+  "lang": "en",
+  "image": "/img/dos-games/zhan-chong.jpg"
+ },
+ "zha-ke-yu-zhou-li-xian-ji": {
+  "wiki": "Cosmo's Cosmic Adventure",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Cosmo%27s_Cosmic_Adventure",
+  "lang": "en",
+  "image": "/img/dos-games/zha-ke-yu-zhou-li-xian-ji.jpg"
+ },
+ "pi-sa-da-heng": {
+  "wiki": "Pizza Tycoon",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Pizza_Tycoon",
+  "lang": "en",
+  "image": "/img/dos-games/pi-sa-da-heng.jpg"
+ },
+ "jue-jin-zhe-2": {
+  "wiki": "Extractors",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Extractors",
+  "lang": "en",
+  "image": "/img/dos-games/jue-jin-zhe-2.jpg"
+ },
+ "shuai-jiao-lian-meng-1995": {
+  "wiki": "WWF WrestleMania: The Arcade Game",
+  "wikiUrl": "https://en.wikipedia.org/wiki/WWF_WrestleMania%3A_The_Arcade_Game",
+  "lang": "en",
+  "image": "/img/dos-games/shuai-jiao-lian-meng-1995.jpg"
+ },
+ "fang-she-bo-shi-de-cheng-bao": {
+  "wiki": "The Fortress of Dr. Radiaki",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Fortress_of_Dr._Radiaki",
+  "lang": "en",
+  "image": "/img/dos-games/fang-she-bo-shi-de-cheng-bao.jpg"
+ },
+ "wen-ming": {
+  "wiki": "Civilization (video game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Civilization_(video_game)",
+  "lang": "en",
+  "image": "/img/dos-games/wen-ming.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/e/ec/Civilizationboxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "wikiZh": "文明 (游戏)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E6%96%87%E6%98%8E_(%E6%B8%B8%E6%88%8F)"
+ },
+ "dou-shen-chuan": {
+  "wiki": "Battle Arena Toshinden",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Battle_Arena_Toshinden",
+  "lang": "en",
+  "image": "/img/dos-games/dou-shen-chuan.jpg"
+ },
+ "si-da-lin-ge-lei": {
+  "wiki": "斯大林格勒 (游戏)",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E6%96%AF%E5%A4%A7%E6%9E%97%E6%A0%BC%E5%8B%92_(%E6%B8%B8%E6%88%8F)",
+  "lang": "zh",
+  "image": "/img/dos-games/si-da-lin-ge-lei.jpg",
+  "wikiZh": "斯大林格勒 (游戏)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E6%96%AF%E5%A4%A7%E6%9E%97%E6%A0%BC%E5%8B%92_(%E6%B8%B8%E6%88%8F)"
+ },
+ "xin-shi-jie-zheng-fu-zhe": {
+  "wiki": "Conquest of the New World",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Conquest_of_the_New_World",
+  "image": "/img/dos-games/xin-shi-jie-zheng-fu-zhe.jpg",
+  "lang": "en"
+ },
+ "wu-sheng-kuang-xiao": {
+  "wiki": "无声狂啸 (游戏)",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E6%97%A0%E5%A3%B0%E7%8B%82%E5%95%B8_(%E6%B8%B8%E6%88%8F)",
+  "lang": "zh",
+  "image": "/img/dos-games/wu-sheng-kuang-xiao.jpg",
+  "wikiZh": "无声狂啸 (游戏)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E6%97%A0%E5%A3%B0%E7%8B%82%E5%95%B8_(%E6%B8%B8%E6%88%8F)"
+ },
+ "wu-jin-de-hei-an": {
+  "wiki": "Last Half of Darkness",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Last_Half_of_Darkness",
+  "lang": "en",
+  "image": "/img/dos-games/wu-jin-de-hei-an.jpg"
+ },
+ "wu-jin-kong-jian": {
+  "wiki": "Ultimate Domain",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ultimate_Domain",
+  "lang": "en",
+  "image": "/img/dos-games/wu-jin-kong-jian.jpg"
+ },
+ "wu-di-fei-lang": {
+  "wiki": "Gunship 2000",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Gunship_2000",
+  "lang": "en",
+  "image": "/img/dos-games/wu-di-fei-lang.jpg"
+ },
+ "jiu-jin-shan-jing-che-da-sai": {
+  "wiki": "Cisco Heat",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Cisco_Heat",
+  "lang": "en",
+  "image": "/img/dos-games/jiu-jin-shan-jing-che-da-sai.jpg"
+ },
+ "shi-kong-zhan-shi": {
+  "wiki": "Space Harrier",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Space_Harrier",
+  "lang": "en",
+  "image": "/img/dos-games/shi-kong-zhan-shi.jpg"
+ },
+ "shi-kong-you-xia": {
+  "wiki": "Time Commando",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Time_Commando",
+  "lang": "en",
+  "image": "/img/dos-games/shi-kong-you-xia.jpg"
+ },
+ "ming-xing-zhi-yuan": {
+  "wiki": "明星志願系列",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E6%98%8E%E6%98%9F%E5%BF%97%E9%A1%98%E7%B3%BB%E5%88%97",
+  "lang": "zh",
+  "image": "/img/dos-games/ming-xing-zhi-yuan.jpg",
+  "wikiZh": "明星志願系列",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E6%98%8E%E6%98%9F%E5%BF%97%E9%A1%98%E7%B3%BB%E5%88%97"
+ },
+ "xing-qiu-da-zhan-guo-ji-xiang-qi": {
+  "wiki": "Star Wars Chess",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Star_Wars_Chess",
+  "lang": "en",
+  "image": "/img/dos-games/xing-qiu-da-zhan-guo-ji-xiang-qi.jpg"
+ },
+ "xing-qiu-da-zhan-jue-di-fan-ji": {
+  "wiki": "Super Star Wars",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Super_Star_Wars",
+  "lang": "en",
+  "image": "/img/dos-games/xing-qiu-da-zhan-jue-di-fan-ji.jpg"
+ },
+ "xing-ji-pao-shou": {
+  "wiki": "Stargunner",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Stargunner",
+  "lang": "en",
+  "image": "/img/dos-games/xing-ji-pao-shou.jpg"
+ },
+ "xing-ji-tong-zhi-zhe": {
+  "wiki": "Imperium Galactica",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Imperium_Galactica",
+  "lang": "en",
+  "image": "/img/dos-games/xing-ji-tong-zhi-zhe.jpg"
+ },
+ "xing-ji-lian-meng": {
+  "wiki": "Fragile Allegiance",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Fragile_Allegiance",
+  "lang": "en",
+  "image": "/img/dos-games/xing-ji-lian-meng.jpg"
+ },
+ "xing-ji-hang-jian": {
+  "wiki": "Starflight",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Starflight",
+  "lang": "en",
+  "image": "/img/dos-games/xing-ji-hang-jian.jpg",
+  "wikiZh": "星際航艦",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E6%98%9F%E9%9A%9B%E8%88%AA%E8%89%A6"
+ },
+ "xing-ji-mi-hang-cai-jue-yi-shi": {
+  "wiki": "Star Trek: Judgment Rites",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Star_Trek%3A_Judgment_Rites",
+  "lang": "en",
+  "image": "/img/dos-games/xing-ji-mi-hang-cai-jue-yi-shi.jpg"
+ },
+ "bao-nu-zhong-jie-zhe": {
+  "wiki": "The Terminator: Rampage",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Terminator%3A_Rampage",
+  "lang": "en",
+  "image": "/img/dos-games/bao-nu-zhong-jie-zhe.jpg"
+ },
+ "zui-hou-de-ren-zhe": {
+  "wiki": "The Last Ninja",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Last_Ninja",
+  "lang": "en",
+  "image": "/img/dos-games/zui-hou-de-ren-zhe.jpg"
+ },
+ "wei-lai-zhan-zheng-shi-jian-lv-zhe": {
+  "wiki": "Future Wars",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Future_Wars",
+  "lang": "en",
+  "image": "/img/dos-games/wei-lai-zhan-zheng-shi-jian-lv-zhe.jpg"
+ },
+ "ji-dong-zhan-shi": {
+  "wiki": "Thexder",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Thexder",
+  "image": "/img/dos-games/ji-dong-zhan-shi.jpg",
+  "lang": "en",
+  "wikiZh": "机动战士Z高达：HOT SCRAMBLE",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E6%9C%BA%E5%8A%A8%E6%88%98%E5%A3%ABZ%E9%AB%98%E8%BE%BE%EF%BC%9AHOT_SCRAMBLE"
+ },
+ "ji-xie-di-guo": {
+  "wiki": "Cyber Empires",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Cyber_Empires",
+  "lang": "en",
+  "image": "/img/dos-games/ji-xie-di-guo.jpg"
+ },
+ "ji-xie-fa-shi": {
+  "wiki": "CyberMage: Darklight Awakening",
+  "wikiUrl": "https://en.wikipedia.org/wiki/CyberMage%3A_Darklight_Awakening",
+  "lang": "en",
+  "image": "/img/dos-games/ji-xie-fa-shi.jpg"
+ },
+ "ji-jia-zhan-shi-2-di-31-shi-ji": {
+  "wiki": "MechWarrior 2: 31st Century Combat",
+  "wikiUrl": "https://en.wikipedia.org/wiki/MechWarrior_2%3A_31st_Century_Combat",
+  "lang": "en",
+  "image": "/img/dos-games/ji-jia-zhan-shi-2-di-31-shi-ji.jpg"
+ },
+ "ji-jia-zhan-shi-2-gu-yong-bing": {
+  "wiki": "MechWarrior 2: Mercenaries",
+  "wikiUrl": "https://en.wikipedia.org/wiki/MechWarrior_2%3A_Mercenaries",
+  "lang": "en",
+  "image": "/img/dos-games/ji-jia-zhan-shi-2-gu-yong-bing.jpg"
+ },
+ "ban-qiu-97": {
+  "wiki": "Cricket 97",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Cricket_97",
+  "lang": "en",
+  "image": "/img/dos-games/ban-qiu-97.jpg"
+ },
+ "ji-xian-dan-zhu-tai": {
+  "wiki": "Extreme Pinball",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Extreme_Pinball",
+  "lang": "en",
+  "image": "/img/dos-games/ji-xian-dan-zhu-tai.jpg"
+ },
+ "meng-wang": {
+  "wiki": "DreamWeb",
+  "wikiUrl": "https://en.wikipedia.org/wiki/DreamWeb",
+  "lang": "en",
+  "image": "/img/dos-games/meng-wang.jpg"
+ },
+ "meng-yan-guai-wu-da-zuo-zhan": {
+  "wiki": "Monster Bash",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Monster_Bash",
+  "lang": "en",
+  "image": "/img/dos-games/meng-yan-guai-wu-da-zuo-zhan.jpg"
+ },
+ "bang-qiu-da-lian-meng-3": {
+  "wiki": "HardBall III",
+  "wikiUrl": "https://en.wikipedia.org/wiki/HardBall_III",
+  "lang": "en",
+  "image": "/img/dos-games/bang-qiu-da-lian-meng-3.jpg"
+ },
+ "sen-ta-yong-shi": {
+  "wiki": "Knights of Xentar",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Knights_of_Xentar",
+  "lang": "en",
+  "image": "/img/dos-games/sen-ta-yong-shi.jpg"
+ },
+ "mo-ni-nong-chang": {
+  "wiki": "SimFarm",
+  "wikiUrl": "https://en.wikipedia.org/wiki/SimFarm",
+  "lang": "en",
+  "image": "/img/dos-games/mo-ni-nong-chang.jpg"
+ },
+ "mo-ni-di-qiu": {
+  "wiki": "SimEarth",
+  "wikiUrl": "https://en.wikipedia.org/wiki/SimEarth",
+  "lang": "en",
+  "image": "/img/dos-games/mo-ni-di-qiu.jpg",
+  "wikiZh": "模拟地球",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%8B%9F%E5%9C%B0%E7%90%83"
+ },
+ "mo-ni-cheng-shi-2000": {
+  "wiki": "SimCity 2000",
+  "wikiUrl": "https://en.wikipedia.org/wiki/SimCity_2000",
+  "lang": "en",
+  "image": "/img/dos-games/mo-ni-cheng-shi-2000.jpg"
+ },
+ "mo-ni-cheng-shi-2000-zeng-qiang-ban": {
+  "wiki": "SimCity 2000",
+  "wikiUrl": "https://en.wikipedia.org/wiki/SimCity_2000",
+  "lang": "en",
+  "image": "/img/dos-games/mo-ni-cheng-shi-2000-zeng-qiang-ban.jpg"
+ },
+ "mo-ni-sheng-ming": {
+  "wiki": "SimLife",
+  "wikiUrl": "https://en.wikipedia.org/wiki/SimLife",
+  "lang": "en",
+  "image": "/img/dos-games/mo-ni-sheng-ming.jpg"
+ },
+ "mo-ni-ma-yi": {
+  "wiki": "SimAnt",
+  "wikiUrl": "https://en.wikipedia.org/wiki/SimAnt",
+  "lang": "en",
+  "image": "/img/dos-games/mo-ni-ma-yi.jpg"
+ },
+ "gan-lan-qiu-shi-jie-bei-95": {
+  "wiki": "Rugby World Cup '95",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Rugby_World_Cup_%2795",
+  "lang": "en",
+  "image": "/img/dos-games/gan-lan-qiu-shi-jie-bei-95.jpg"
+ },
+ "ou-lu-zhan-xian": {
+  "wiki": "Operation Europe: Path to Victory",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Operation_Europe%3A_Path_to_Victory",
+  "lang": "en",
+  "image": "/img/dos-games/ou-lu-zhan-xian.jpg"
+ },
+ "si-wang-la-li-sai": {
+  "wiki": "Death Rally",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Death_Rally",
+  "lang": "en",
+  "image": "/img/dos-games/si-wang-la-li-sai.jpg"
+ },
+ "si-wang-fei-che": {
+  "wiki": "Carmageddon",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Carmageddon",
+  "lang": "en",
+  "image": "/img/dos-games/si-wang-fei-che.jpg"
+ },
+ "si-wang-qi-shi": {
+  "wiki": "Death Knights of Krynn",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Death_Knights_of_Krynn",
+  "lang": "en",
+  "image": "/img/dos-games/si-wang-qi-shi.jpg"
+ },
+ "zhi-min-di-guo": {
+  "wiki": "Sid Meier's Colonization",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Sid_Meier%27s_Colonization",
+  "lang": "en",
+  "image": "/img/dos-games/zhi-min-di-guo.jpg"
+ },
+ "hui-mie-gong-jue-2": {
+  "wiki": "Duke Nukem II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Duke_Nukem_II",
+  "lang": "en",
+  "image": "/img/dos-games/hui-mie-gong-jue-2.jpg"
+ },
+ "hui-mie-gong-jue-3d": {
+  "wiki": "Duke Nukem 3D",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Duke_Nukem_3D",
+  "lang": "en",
+  "image": "/img/dos-games/hui-mie-gong-jue-3d.jpg"
+ },
+ "hui-mie-zhan-shi-2-zhong-jie-ban": {
+  "wiki": "Doom II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Doom_II",
+  "lang": "en",
+  "image": "/img/dos-games/hui-mie-zhan-shi-2-zhong-jie-ban.jpg"
+ },
+ "hui-mie-jing-ji-chang": {
+  "wiki": "Destruction Derby",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Destruction_Derby",
+  "lang": "en",
+  "image": "/img/dos-games/hui-mie-jing-ji-chang.jpg"
+ },
+ "du-tu-zai-zi": {
+  "wiki": "Toxic Bunny",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Toxic_Bunny",
+  "lang": "en",
+  "image": "/img/dos-games/du-tu-zai-zi.jpg"
+ },
+ "xian-xing-yi-xing-2": {
+  "wiki": "Xenon 2: Megablast",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Xenon_2%3A_Megablast",
+  "lang": "en",
+  "image": "/img/dos-games/xian-xing-yi-xing-2.jpg"
+ },
+ "shui-hu-zhuan": {
+  "wiki": "Bandit Kings of Ancient China",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Bandit_Kings_of_Ancient_China",
+  "image": "/img/dos-games/shui-hu-zhuan.jpg",
+  "lang": "en",
+  "wikiZh": "水滸傳·天命之誓",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E6%B0%B4%E6%BB%B8%E5%82%B3%C2%B7%E5%A4%A9%E5%91%BD%E4%B9%8B%E8%AA%93"
+ },
+ "chen-mo-qian-hang-2": {
+  "wiki": "Silent Service II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Silent_Service_II",
+  "lang": "en",
+  "image": "/img/dos-games/chen-mo-qian-hang-2.jpg"
+ },
+ "sha-qiu-mo-bao-2": {
+  "wiki": "Dune II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Dune_II",
+  "lang": "en",
+  "image": "/img/dos-games/sha-qiu-mo-bao-2.jpg"
+ },
+ "sha-qiu-mo-bao-2-guang-die-ban-1-07": {
+  "wiki": "Dune II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Dune_II",
+  "lang": "en",
+  "image": "/img/dos-games/sha-qiu-mo-bao-2-guang-die-ban-1-07.jpg"
+ },
+ "sha-qiu-mo-bao-2-jia-qiang-ban": {
+  "wiki": "Dune II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Dune_II",
+  "lang": "en",
+  "image": "/img/dos-games/sha-qiu-mo-bao-2-jia-qiang-ban.jpg"
+ },
+ "fa-lan-ke-feng-kuang-fu-chou": {
+  "wiki": "Franko: The Crazy Revenge",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Franko%3A_The_Crazy_Revenge",
+  "lang": "en",
+  "image": "/img/dos-games/fa-lan-ke-feng-kuang-fu-chou.jpg"
+ },
+ "bo-si-wang-zi-2": {
+  "wiki": "Prince of Persia 2: The Shadow and the Flame",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Prince_of_Persia_2%3A_The_Shadow_and_the_Flame",
+  "lang": "en",
+  "image": "/img/dos-games/bo-si-wang-zi-2.jpg"
+ },
+ "tai-ke-zhan-zheng": {
+  "wiki": "William Shatner's TekWar",
+  "wikiUrl": "https://en.wikipedia.org/wiki/William_Shatner%27s_TekWar",
+  "lang": "en",
+  "image": "/img/dos-games/tai-ke-zhan-zheng.jpg"
+ },
+ "luo-ke-ren-3": {
+  "wiki": "Mega Man 3",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Mega_Man_3",
+  "lang": "en",
+  "image": "/img/dos-games/luo-ke-ren-3.jpg"
+ },
+ "luo-ke-ren-x": {
+  "wiki": "Mega Man X",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Mega_Man_X",
+  "lang": "en",
+  "image": "/img/dos-games/luo-ke-ren-x.jpg"
+ },
+ "hong-huang-ge-dou": {
+  "wiki": "Primal Rage",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Primal_Rage",
+  "lang": "en",
+  "image": "/img/dos-games/hong-huang-ge-dou.jpg"
+ },
+ "hai-shang-chuan-qi": {
+  "wiki": "Sea Legends",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Sea_Legends",
+  "lang": "en",
+  "image": "/img/dos-games/hai-shang-chuan-qi.jpg"
+ },
+ "hai-dao-huang-jin-ban": {
+  "wiki": "Pirates! Gold",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Pirates%21_Gold",
+  "lang": "en",
+  "image": "/img/dos-games/hai-dao-huang-jin-ban.jpg"
+ },
+ "xiao-fang-dui": {
+  "wiki": "Fireteam 2200",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Fireteam_2200",
+  "lang": "en",
+  "image": "/img/dos-games/xiao-fang-dui.jpg"
+ },
+ "tao-jin-zhe": {
+  "wiki": "Lode Runner: The Legend Returns",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Lode_Runner%3A_The_Legend_Returns",
+  "lang": "en",
+  "image": "/img/dos-games/tao-jin-zhe.jpg"
+ },
+ "qing-bai-wu-zui": {
+  "wiki": "Innocent Until Caught",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Innocent_Until_Caught",
+  "lang": "en",
+  "image": "/img/dos-games/qing-bai-wu-zui.jpg"
+ },
+ "you-lun-xiong-an": {
+  "wiki": "Cruise for a Corpse",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Cruise_for_a_Corpse",
+  "lang": "en",
+  "image": "/img/dos-games/you-lun-xiong-an.jpg"
+ },
+ "hu-ren-dui-kai-er-te-ren": {
+  "wiki": "Lakers versus Celtics and the NBA Playoffs",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Lakers_versus_Celtics_and_the_NBA_Playoffs",
+  "lang": "en",
+  "image": "/img/dos-games/hu-ren-dui-kai-er-te-ren.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/4/48/LakersvCeltics-cover-1990.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "wan-an-zuo-zhan": {
+  "wiki": "Desert Strike",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Desert_Strike",
+  "lang": "en",
+  "image": null
+ },
+ "hua-liu-5000": {
+  "wiki": "Slipstream 5000",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Slipstream_5000",
+  "lang": "en",
+  "image": "/img/dos-games/hua-liu-5000.jpg"
+ },
+ "ji-guang-bu-dui": {
+  "wiki": "Laser Squad",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Laser_Squad",
+  "lang": "en",
+  "image": "/img/dos-games/ji-guang-bu-dui.jpg"
+ },
+ "ji-zhan-m-xing-yun": {
+  "wiki": "Star Control",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Star_Control",
+  "lang": "en",
+  "image": "/img/dos-games/ji-zhan-m-xing-yun.jpg"
+ },
+ "ji-zhan-m-xing-yun-2": {
+  "wiki": "Star Control II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Star_Control_II",
+  "lang": "en",
+  "image": "/img/dos-games/ji-zhan-m-xing-yun-2.jpg"
+ },
+ "huo-xing-ren-bei-wang-lu": {
+  "wiki": "Martian Memorandum",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Martian_Memorandum",
+  "lang": "en",
+  "image": "/img/dos-games/huo-xing-ren-bei-wang-lu.jpg"
+ },
+ "hui-jin-di-guo": {
+  "wiki": "Ashes of Empire",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ashes_of_Empire",
+  "lang": "en",
+  "image": "/img/dos-games/hui-jin-di-guo.jpg"
+ },
+ "pao-hui-2": {
+  "wiki": "Cannon Fodder 2",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Cannon_Fodder_2",
+  "lang": "en",
+  "image": "/img/dos-games/pao-hui-2.jpg"
+ },
+ "zha-dan-chao-ren": {
+  "wiki": "Super Bomberman",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Super_Bomberman",
+  "lang": "en",
+  "image": "/img/dos-games/zha-dan-chao-ren.jpg"
+ },
+ "jue-shi-tu": {
+  "wiki": "Jazz Jackrabbit",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Jazz_Jackrabbit",
+  "lang": "en",
+  "image": "/img/dos-games/jue-shi-tu.jpg"
+ },
+ "jue-shi-tu-wan-zheng-ban": {
+  "wiki": "Jazz Jackrabbit",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Jazz_Jackrabbit",
+  "lang": "en",
+  "image": "/img/dos-games/jue-shi-tu-wan-zheng-ban.jpg"
+ },
+ "jue-shi-tu-jia-ri-tu-94": {
+  "wiki": "Jazz Jackrabbit",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Jazz_Jackrabbit",
+  "lang": "en",
+  "image": "/img/dos-games/jue-shi-tu-jia-ri-tu-94.jpg"
+ },
+ "jue-shi-tu-jia-ri-tu-95": {
+  "wiki": "Jazz Jackrabbit",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Jazz_Jackrabbit",
+  "lang": "en",
+  "image": "/img/dos-games/jue-shi-tu-jia-ri-tu-95.jpg"
+ },
+ "jue-shi-tu-guang-die-zeng-qiang-ban": {
+  "wiki": "Jazz Jackrabbit",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Jazz_Jackrabbit",
+  "lang": "en",
+  "image": "/img/dos-games/jue-shi-tu-guang-die-zeng-qiang-ban.jpg"
+ },
+ "wu-jing-tian-bu-ze": {
+  "wiki": "SimEarth",
+  "wikiUrl": "https://en.wikipedia.org/wiki/SimEarth",
+  "lang": "en",
+  "image": "/img/dos-games/wu-jing-tian-bu-ze.jpg"
+ },
+ "te-ji-zhi-dao": {
+  "wiki": "Stunt Island",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Stunt_Island",
+  "lang": "en",
+  "image": "/img/dos-games/te-ji-zhi-dao.jpg"
+ },
+ "kuang-bao-yi-xing": {
+  "wiki": "Alien Rampage",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Alien_Rampage",
+  "lang": "en",
+  "image": "/img/dos-games/kuang-bao-yi-xing.jpg"
+ },
+ "du-li-sai-che-2": {
+  "wiki": "Indianapolis 500: The Simulation",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Indianapolis_500%3A_The_Simulation",
+  "lang": "en",
+  "image": "/img/dos-games/du-li-sai-che-2.jpg"
+ },
+ "du-li-che-sai": {
+  "wiki": "Indianapolis 500: The Simulation",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Indianapolis_500%3A_The_Simulation",
+  "lang": "en",
+  "image": "/img/dos-games/du-li-che-sai.jpg"
+ },
+ "hou-dao-xiao-ying-xiong": {
+  "wiki": "Monkey Island",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Monkey_Island",
+  "lang": "en",
+  "image": "/img/dos-games/hou-dao-xiao-ying-xiong.jpg"
+ },
+ "hou-dao-xiao-ying-xiong-2": {
+  "wiki": "Monkey Island 2: LeChuck's Revenge",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Monkey_Island_2%3A_LeChuck%27s_Revenge",
+  "lang": "en",
+  "image": "/img/dos-games/hou-dao-xiao-ying-xiong-2.jpg"
+ },
+ "wang-pai-qian-ting-zi-liao-pian": {
+  "wiki": "Aces of the Deep",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Aces_of_the_Deep",
+  "lang": "en",
+  "image": "/img/dos-games/wang-pai-qian-ting-zi-liao-pian.jpg"
+ },
+ "zhen-bao-zhu-xiao-zi": {
+  "wiki": "Zool",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Zool",
+  "lang": "en",
+  "image": "/img/dos-games/zhen-bao-zhu-xiao-zi.jpg"
+ },
+ "zhen-bao-zhu-xiao-zi-2": {
+  "wiki": "Zool 2",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Zool_2",
+  "lang": "en",
+  "image": "/img/dos-games/zhen-bao-zhu-xiao-zi-2.jpg"
+ },
+ "sheng-hua-wei-xie": {
+  "wiki": "Bio Menace",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Bio_Menace",
+  "lang": "en",
+  "image": "/img/dos-games/sheng-hua-wei-xie.jpg"
+ },
+ "sheng-si-jue-dou-2097": {
+  "wiki": "One Must Fall: 2097",
+  "wikiUrl": "https://en.wikipedia.org/wiki/One_Must_Fall%3A_2097",
+  "lang": "en",
+  "image": "/img/dos-games/sheng-si-jue-dou-2097.jpg"
+ },
+ "dian-nao-mo-yu": {
+  "wiki": "Fantasy Zone",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Fantasy_Zone",
+  "lang": "en",
+  "image": "/img/dos-games/dian-nao-mo-yu.jpg"
+ },
+ "feng-kuang-da-lu": {
+  "wiki": "Mega-Lo-Mania",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Mega-Lo-Mania",
+  "lang": "en",
+  "image": "/img/dos-games/feng-kuang-da-lu.jpg"
+ },
+ "feng-kuang-xiao-lv-shu-2": {
+  "wiki": "Lemmings 2: The Tribes",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Lemmings_2%3A_The_Tribes",
+  "lang": "en",
+  "image": "/img/dos-games/feng-kuang-xiao-lv-shu-2.jpg"
+ },
+ "feng-kuang-gan-lan-qiu": {
+  "wiki": "Brutal Sports Football",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Brutal_Sports_Football",
+  "lang": "en",
+  "image": "/img/dos-games/feng-kuang-gan-lan-qiu.jpg"
+ },
+ "feng-gou": {
+  "wiki": "Mad Dog McCree",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Mad_Dog_McCree",
+  "lang": "en",
+  "image": "/img/dos-games/feng-gou.jpg"
+ },
+ "feng-gou-wei-lian-de-di-xia-cheng-zhi-lv": {
+  "wiki": "The Adventures of Maddog Williams in the Dungeons of Duridian",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Adventures_of_Maddog_Williams_in_the_Dungeons_of_Duridian",
+  "lang": "en",
+  "image": "/img/dos-games/feng-gou-wei-lian-de-di-xia-cheng-zhi-lv.jpg"
+ },
+ "bai-zhan-di-chong": {
+  "wiki": "Liero",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Liero",
+  "lang": "en",
+  "image": "/img/dos-games/bai-zhan-di-chong.jpg"
+ },
+ "zhen-ren-kuai-da-2": {
+  "wiki": "Mortal Kombat II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Mortal_Kombat_II",
+  "lang": "en",
+  "image": "/img/dos-games/zhen-ren-kuai-da-2.jpg"
+ },
+ "zhen-ren-kuai-da-3": {
+  "wiki": "Mortal Kombat 3",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Mortal_Kombat_3",
+  "lang": "en",
+  "image": "/img/dos-games/zhen-ren-kuai-da-3.jpg"
+ },
+ "zhen-shi-zu-qiu-ju-le-bu-ban": {
+  "wiki": "Actua Soccer",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Actua_Soccer",
+  "lang": "en",
+  "image": "/img/dos-games/zhen-shi-zu-qiu-ju-le-bu-ban.jpg"
+ },
+ "yan-jing-she-ren-wu": {
+  "wiki": "Cobra Mission: Panic in Cobra City",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Cobra_Mission%3A_Panic_in_Cobra_City",
+  "lang": "en",
+  "image": "/img/dos-games/yan-jing-she-ren-wu.jpg"
+ },
+ "shi-zhong-jian-de-fu-chou": {
+  "wiki": "Vengeance of Excalibur",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Vengeance_of_Excalibur",
+  "lang": "en",
+  "image": "/img/dos-games/shi-zhong-jian-de-fu-chou.jpg"
+ },
+ "shi-bao": {
+  "wiki": "Stonekeep",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Stonekeep",
+  "lang": "en",
+  "image": "/img/dos-games/shi-bao.jpg"
+ },
+ "die-xing-shi-jie-2": {
+  "wiki": "Discworld II: Missing Presumed...!?",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Discworld_II%3A_Missing_Presumed...%21%3F",
+  "lang": "en",
+  "image": "/img/dos-games/die-xing-shi-jie-2.jpg"
+ },
+ "shen-jian-feng-mo": {
+  "wiki": "Zeliard",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Zeliard",
+  "lang": "en",
+  "image": "/img/dos-games/shen-jian-feng-mo.jpg"
+ },
+ "shen-qi-wang-guo": {
+  "wiki": "King's Quest",
+  "wikiUrl": "https://en.wikipedia.org/wiki/King%27s_Quest",
+  "lang": "en",
+  "image": "/img/dos-games/shen-qi-wang-guo.jpg"
+ },
+ "shen-mi-zhi-ta": {
+  "wiki": "Mystic Towers",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Mystic_Towers",
+  "lang": "en",
+  "image": "/img/dos-games/shen-mi-zhi-ta.jpg"
+ },
+ "shen-jing-dan-zhu-tai": {
+  "wiki": "Psycho Pinball",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Psycho_Pinball",
+  "lang": "en",
+  "image": "/img/dos-games/shen-jing-dan-zhu-tai.jpg"
+ },
+ "fu-er-mo-si-2-mei-gui-wen-shen": {
+  "wiki": "The Lost Files of Sherlock Holmes",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Lost_Files_of_Sherlock_Holmes",
+  "lang": "en",
+  "image": "/img/dos-games/fu-er-mo-si-2-mei-gui-wen-shen.jpg"
+ },
+ "fu-er-mo-si-shi-luo-de-wen-jian": {
+  "wiki": "The Lost Files of Sherlock Holmes",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Lost_Files_of_Sherlock_Holmes",
+  "lang": "en",
+  "image": "/img/dos-games/fu-er-mo-si-shi-luo-de-wen-jian.jpg"
+ },
+ "fu-te-mo-ni-jia-shi": {
+  "wiki": "The Ford Simulator",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Ford_Simulator",
+  "lang": "en",
+  "image": "/img/dos-games/fu-te-mo-ni-jia-shi.jpg"
+ },
+ "kong-zhan-yi-shu": {
+  "wiki": "The Ancient Art of War in the Skies",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Ancient_Art_of_War_in_the_Skies",
+  "lang": "en",
+  "image": "/img/dos-games/kong-zhan-yi-shu.jpg"
+ },
+ "kong-jiang-you-qi-bing": {
+  "wiki": "Airborne Ranger",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Airborne_Ranger",
+  "lang": "en",
+  "image": "/img/dos-games/kong-jiang-you-qi-bing.jpg"
+ },
+ "chuan-yue-zhi-zhan": {
+  "wiki": "Battles in Time",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Battles_in_Time",
+  "lang": "en",
+  "image": "/img/dos-games/chuan-yue-zhi-zhan.jpg"
+ },
+ "tu-po-2": {
+  "wiki": "Breach 2",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Breach_2",
+  "lang": "en",
+  "image": "/img/dos-games/tu-po-2.jpg"
+ },
+ "tu-po-3": {
+  "wiki": "Breach 3",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Breach_3",
+  "lang": "en",
+  "image": "/img/dos-games/tu-po-3.jpg"
+ },
+ "li-ti-kuang-biao": {
+  "wiki": "Hi-Octane",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Hi-Octane",
+  "lang": "en",
+  "image": "/img/dos-games/li-ti-kuang-biao.jpg"
+ },
+ "tong-hua-xin-bian": {
+  "wiki": "Mixed-Up Fairy Tales",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Mixed-Up_Fairy_Tales",
+  "lang": "en",
+  "image": "/img/dos-games/tong-hua-xin-bian.jpg"
+ },
+ "di-13-lou": {
+  "wiki": "Floor 13 (video game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Floor_13_(video_game)",
+  "lang": "en",
+  "image": "/img/dos-games/di-13-lou.jpg"
+ },
+ "di-yi-wu-shi": {
+  "wiki": "First Samurai",
+  "wikiUrl": "https://en.wikipedia.org/wiki/First_Samurai",
+  "lang": "en",
+  "image": "/img/dos-games/di-yi-wu-shi.jpg"
+ },
+ "hong-se-yue-ye-la-li-sai": {
+  "wiki": "Big Red Racing",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Big_Red_Racing",
+  "lang": "en",
+  "image": "/img/dos-games/hong-se-yue-ye-la-li-sai.jpg"
+ },
+ "na-si-ka-sai-che-2": {
+  "wiki": "NASCAR Racing 2",
+  "wikiUrl": "https://en.wikipedia.org/wiki/NASCAR_Racing_2",
+  "lang": "en",
+  "image": "/img/dos-games/na-si-ka-sai-che-2.jpg"
+ },
+ "zong-heng-qi-hai": {
+  "wiki": "縱橫七海",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E7%B8%B1%E6%A9%AB%E4%B8%83%E6%B5%B7",
+  "lang": "zh",
+  "image": "/img/dos-games/zong-heng-qi-hai.jpg"
+ },
+ "zhong-ji-kuai-da": {
+  "wiki": "Ultimate Body Blows",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ultimate_Body_Blows",
+  "lang": "en",
+  "image": "/img/dos-games/zhong-ji-kuai-da.jpg"
+ },
+ "jue-di-feng-bao": {
+  "wiki": "KKnD (series)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/KKnD_(series)",
+  "lang": "en",
+  "image": "/img/dos-games/jue-di-feng-bao.jpg"
+ },
+ "wei-te-zi-you-sai-che": {
+  "wiki": "The Duel: Test Drive II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Duel%3A_Test_Drive_II",
+  "lang": "en",
+  "image": "/img/dos-games/wei-te-zi-you-sai-che.jpg"
+ },
+ "luo-ma-quan-li-zhi-lu": {
+  "wiki": "Rome: Pathway to Power",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Rome%3A_Pathway_to_Power",
+  "lang": "en",
+  "image": "/img/dos-games/luo-ma-quan-li-zhi-lu.jpg"
+ },
+ "zui-e-ke-xing": {
+  "wiki": "Crime Fighters",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Crime_Fighters",
+  "lang": "en",
+  "image": "/img/dos-games/zui-e-ke-xing.jpg"
+ },
+ "mei-guo-hai-jun-zhan-ji": {
+  "wiki": "U.S. Navy Fighters",
+  "wikiUrl": "https://en.wikipedia.org/wiki/U.S._Navy_Fighters",
+  "lang": "en",
+  "image": "/img/dos-games/mei-guo-hai-jun-zhan-ji.jpg"
+ },
+ "mei-shao-nv-meng-gong-chang": {
+  "wiki": "Princess Maker",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Princess_Maker",
+  "lang": "en",
+  "image": "/img/dos-games/mei-shao-nv-meng-gong-chang.jpg"
+ },
+ "mei-shao-nv-meng-gong-chang-2": {
+  "wiki": "Princess Maker 2",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Princess_Maker_2",
+  "lang": "en",
+  "image": "/img/dos-games/mei-shao-nv-meng-gong-chang-2.jpg"
+ },
+ "mei-du-sha-gui-lai": {
+  "wiki": "The Return of Medusa",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Return_of_Medusa",
+  "lang": "en",
+  "image": "/img/dos-games/mei-du-sha-gui-lai.jpg"
+ },
+ "ye-ji-zhan-ji": {
+  "wiki": "Chuck Yeager's Air Combat",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Chuck_Yeager%27s_Air_Combat",
+  "lang": "en",
+  "image": "/img/dos-games/ye-ji-zhan-ji.jpg"
+ },
+ "ken-de-mi-gong": {
+  "wiki": "Ken's Labyrinth",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ken%27s_Labyrinth",
+  "lang": "en",
+  "image": "/img/dos-games/ken-de-mi-gong.jpg"
+ },
+ "pang-zi-zhi-nu": {
+  "wiki": "Tongue of the Fatman",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Tongue_of_the_Fatman",
+  "lang": "en",
+  "image": "/img/dos-games/pang-zi-zhi-nu.jpg"
+ },
+ "nao-bo-shi-zhi-dao": {
+  "wiki": "The Island of Dr. Brain",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Island_of_Dr._Brain",
+  "lang": "en",
+  "image": "/img/dos-games/nao-bo-shi-zhi-dao.jpg"
+ },
+ "zhi-ming-che-sai": {
+  "wiki": "Fatal Racing",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Fatal_Racing",
+  "lang": "en",
+  "image": "/img/dos-games/zhi-ming-che-sai.jpg"
+ },
+ "ai-wei-la-2": {
+  "wiki": "Elvira II: The Jaws of Cerberus",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Elvira_II%3A_The_Jaws_of_Cerberus",
+  "lang": "en",
+  "image": "/img/dos-games/ai-wei-la-2.jpg"
+ },
+ "ba-bi-chao-ji-mo-te": {
+  "wiki": "Barbie: Super Model",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Barbie%3A_Super_Model",
+  "lang": "en",
+  "image": "/img/dos-games/ba-bi-chao-ji-mo-te.jpg"
+ },
+ "ying-lun-ba-zhu": {
+  "wiki": "Lords of the Realm",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Lords_of_the_Realm",
+  "lang": "en",
+  "image": "/img/dos-games/ying-lun-ba-zhu.jpg"
+ },
+ "ying-lun-ba-zhu-2-zi-liao-pian": {
+  "wiki": "Lords of the Realm II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Lords_of_the_Realm_II",
+  "lang": "en",
+  "image": "/img/dos-games/ying-lun-ba-zhu-2-zi-liao-pian.jpg"
+ },
+ "ying-xiong-zhuan-shuo-1": {
+  "wiki": "The Legend of Heroes",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Legend_of_Heroes",
+  "lang": "en",
+  "image": "/img/dos-games/ying-xiong-zhuan-shuo-1.jpg"
+ },
+ "huang-man-yong-shi-ge-dou": {
+  "wiki": "Savage Warriors",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Savage_Warriors",
+  "lang": "en",
+  "image": "/img/dos-games/huang-man-yong-shi-ge-dou.jpg"
+ },
+ "rong-yao-zhi-lu-1": {
+  "wiki": "Quest for Glory: So You Want to Be a Hero",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Quest_for_Glory%3A_So_You_Want_to_Be_a_Hero",
+  "lang": "en",
+  "image": "/img/dos-games/rong-yao-zhi-lu-1.jpg"
+ },
+ "rong-yao-zhi-lu-2": {
+  "wiki": "Quest for Glory II: Trial by Fire",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Quest_for_Glory_II%3A_Trial_by_Fire",
+  "lang": "en",
+  "image": "/img/dos-games/rong-yao-zhi-lu-2.jpg"
+ },
+ "rong-yao-zhi-lu-3": {
+  "wiki": "Quest for Glory III: Wages of War",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Quest_for_Glory_III%3A_Wages_of_War",
+  "lang": "en",
+  "image": "/img/dos-games/rong-yao-zhi-lu-3.jpg"
+ },
+ "rong-yao-zhan-chang": {
+  "wiki": "Fields of Glory",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Fields_of_Glory",
+  "lang": "en",
+  "image": "/img/dos-games/rong-yao-zhan-chang.jpg"
+ },
+ "di-si-dan-meng-huan-zhi-lv": {
+  "wiki": "Fantastic Dizzy",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Fantastic_Dizzy",
+  "lang": "en",
+  "image": "/img/dos-games/di-si-dan-meng-huan-zhi-lv.jpg"
+ },
+ "di-si-dan-pao-pao-mao-xian": {
+  "wiki": "Bubble Dizzy",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Bubble_Dizzy",
+  "lang": "en",
+  "image": "/img/dos-games/di-si-dan-pao-pao-mao-xian.jpg"
+ },
+ "di-si-dan-dan-huang-wang-zi": {
+  "wiki": "Dizzy (series)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Dizzy_(series)",
+  "lang": "en",
+  "image": "/img/dos-games/di-si-dan-dan-huang-wang-zi.jpg"
+ },
+ "xu-huan-zhi-di": {
+  "wiki": "UnReal World",
+  "wikiUrl": "https://en.wikipedia.org/wiki/UnReal_World",
+  "lang": "en",
+  "image": "/img/dos-games/xu-huan-zhi-di.jpg"
+ },
+ "xu-ni-zhuo-qiu": {
+  "wiki": "Virtual Pool",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Virtual_Pool",
+  "lang": "en",
+  "image": "/img/dos-games/xu-ni-zhuo-qiu.jpg"
+ },
+ "qiu-yin-ji-mu": {
+  "wiki": "Earthworm Jim",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Earthworm_Jim",
+  "lang": "en",
+  "image": "/img/dos-games/qiu-yin-ji-mu.jpg"
+ },
+ "qiu-yin-ji-mu-2": {
+  "wiki": "Earthworm Jim 2",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Earthworm_Jim_2",
+  "lang": "en",
+  "image": "/img/dos-games/qiu-yin-ji-mu-2.jpg"
+ },
+ "she-nv": {
+  "wiki": "Daughter of Serpents",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Daughter_of_Serpents",
+  "lang": "en",
+  "image": "/img/dos-games/she-nv.jpg"
+ },
+ "la-xiang-guan-zhi-mi": {
+  "wiki": "Waxworks (1992 video game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Waxworks_(1992_video_game)",
+  "lang": "en",
+  "image": "/img/dos-games/la-xiang-guan-zhi-mi.jpg"
+ },
+ "xue-chao": {
+  "wiki": "BloodNet",
+  "wikiUrl": "https://en.wikipedia.org/wiki/BloodNet",
+  "lang": "en",
+  "image": "/img/dos-games/xue-chao.jpg"
+ },
+ "xue-wu": {
+  "wiki": "Bloodwych",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Bloodwych",
+  "lang": "en",
+  "image": "/img/dos-games/xue-wu.jpg"
+ },
+ "xing-xing-bian-ji": {
+  "wiki": "Planet's Edge",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Planet%27s_Edge",
+  "lang": "en",
+  "image": "/img/dos-games/xing-xing-bian-ji.jpg"
+ },
+ "jie-tou-di-xia-ge-dou": {
+  "wiki": "Pit-Fighter",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Pit-Fighter",
+  "lang": "en",
+  "image": "/img/dos-games/jie-tou-di-xia-ge-dou.jpg"
+ },
+ "jie-ji-zhuo-qiu": {
+  "wiki": "Arcade Pool",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Arcade_Pool",
+  "lang": "en",
+  "image": "/img/dos-games/jie-ji-zhuo-qiu.jpg"
+ },
+ "bei-yi-wang-de-shi-jie": {
+  "wiki": "Forgotten Worlds",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Forgotten_Worlds",
+  "lang": "en",
+  "image": "/img/dos-games/bei-yi-wang-de-shi-jie.jpg"
+ },
+ "zhuang-jia-yuan-shuai": {
+  "wiki": "Panzer General",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Panzer_General",
+  "lang": "en",
+  "image": "/img/dos-games/zhuang-jia-yuan-shuai.jpg"
+ },
+ "jie-jiu-hua-sheng-dun": {
+  "wiki": "Free D.C!",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Free_D.C%21",
+  "lang": "en",
+  "image": "/img/dos-games/jie-jiu-hua-sheng-dun.jpg"
+ },
+ "zhan-mu-si-pang-de-2": {
+  "wiki": "James Pond 2",
+  "wikiUrl": "https://en.wikipedia.org/wiki/James_Pond_2",
+  "lang": "en",
+  "image": "/img/dos-games/zhan-mu-si-pang-de-2.jpg"
+ },
+ "jing-cha-gu-shi-2": {
+  "wiki": "Police Quest II: The Vengeance",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Police_Quest_II%3A_The_Vengeance",
+  "lang": "en",
+  "image": "/img/dos-games/jing-cha-gu-shi-2.jpg"
+ },
+ "shi-yan-jia-shi-2": {
+  "wiki": "The Duel: Test Drive II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Duel%3A_Test_Drive_II",
+  "lang": "en",
+  "image": "/img/dos-games/shi-yan-jia-shi-2.jpg"
+ },
+ "shi-yan-jia-shi-3": {
+  "wiki": "Test Drive III: The Passion",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Test_Drive_III%3A_The_Passion",
+  "lang": "en",
+  "image": "/img/dos-games/shi-yan-jia-shi-3.jpg"
+ },
+ "you-huo": {
+  "wiki": "Lure of the Temptress",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Lure_of_the_Temptress",
+  "lang": "en",
+  "image": "/img/dos-games/you-huo.jpg"
+ },
+ "zhu-shen-de-huang-hun": {
+  "wiki": "Dusk of the Gods",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Dusk_of_the_Gods",
+  "lang": "en",
+  "image": "/img/dos-games/zhu-shen-de-huang-hun.jpg"
+ },
+ "hao-hua-dan-zhu-tai": {
+  "wiki": "Pinball Dreams",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Pinball_Dreams",
+  "lang": "en",
+  "image": "/img/dos-games/hao-hua-dan-zhu-tai.jpg"
+ },
+ "tan-yu-su-qiu": {
+  "wiki": "In Pursuit of Greed",
+  "wikiUrl": "https://en.wikipedia.org/wiki/In_Pursuit_of_Greed",
+  "lang": "en",
+  "image": "/img/dos-games/tan-yu-su-qiu.jpg"
+ },
+ "zou-lang-yi-xing-ru-qin": {
+  "wiki": "Corridor 7: Alien Invasion",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Corridor_7%3A_Alien_Invasion",
+  "lang": "en",
+  "image": "/img/dos-games/zou-lang-yi-xing-ru-qin.jpg"
+ },
+ "chao-ji-ji-che-sai": {
+  "wiki": "Superbike Challenge",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Superbike_Challenge",
+  "lang": "en",
+  "image": "/img/dos-games/chao-ji-ji-che-sai.jpg"
+ },
+ "chao-ji-ke-man-qi": {
+  "wiki": "Comanche (video game series)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Comanche_(video_game_series)",
+  "lang": "en",
+  "image": "/img/dos-games/chao-ji-ke-man-qi.jpg"
+ },
+ "chao-ji-ying-xiong-lian-meng": {
+  "wiki": "Superhero League of Hoboken",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Superhero_League_of_Hoboken",
+  "lang": "en",
+  "image": "/img/dos-games/chao-ji-ying-xiong-lian-meng.jpg"
+ },
+ "chao-ji-wa": {
+  "wiki": "Superfrog",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Superfrog",
+  "lang": "en",
+  "image": "/img/dos-games/chao-ji-wa.jpg"
+ },
+ "chao-ji-jie-ba-xin-tiao-zhan-zhe": {
+  "wiki": "Super Street Fighter II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Super_Street_Fighter_II",
+  "lang": "en",
+  "image": "/img/dos-games/chao-ji-jie-ba-xin-tiao-zhan-zhe.jpg"
+ },
+ "chao-yue-jing-su": {
+  "wiki": "Out Run",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Out_Run",
+  "lang": "en",
+  "image": "/img/dos-games/chao-yue-jing-su.jpg"
+ },
+ "zu-qiu-xiao-zi": {
+  "wiki": "Soccer Kid",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Soccer_Kid",
+  "lang": "en",
+  "image": "/img/dos-games/zu-qiu-xiao-zi.jpg"
+ },
+ "xin-pu-sen-yi-jia": {
+  "wiki": "The Simpsons (video game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Simpsons_(video_game)",
+  "lang": "en",
+  "image": "/img/dos-games/xin-pu-sen-yi-jia.jpg"
+ },
+ "xin-pu-sen-da-zhan-wai-xing-ren": {
+  "wiki": "The Simpsons: Bart vs. the Space Mutants",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Simpsons%3A_Bart_vs._the_Space_Mutants",
+  "lang": "en",
+  "image": "/img/dos-games/xin-pu-sen-da-zhan-wai-xing-ren.jpg"
+ },
+ "xin-di-jia-zhan-zheng": {
+  "wiki": "Syndicate Wars",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Syndicate_Wars",
+  "lang": "en",
+  "image": "/img/dos-games/xin-di-jia-zhan-zheng.jpg"
+ },
+ "bian-jing-bao-zang": {
+  "wiki": "Gateway to the Savage Frontier",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Gateway_to_the_Savage_Frontier",
+  "lang": "en",
+  "image": "/img/dos-games/bian-jing-bao-zang.jpg"
+ },
+ "yun-shu-da-heng": {
+  "wiki": "Transport Tycoon",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Transport_Tycoon",
+  "lang": "en",
+  "image": "/img/dos-games/yun-shu-da-heng.jpg"
+ },
+ "di-si-ni-duo-bao-qi-bing": {
+  "wiki": "DuckTales: The Quest for Gold",
+  "wikiUrl": "https://en.wikipedia.org/wiki/DuckTales%3A_The_Quest_for_Gold",
+  "lang": "en",
+  "image": "/img/dos-games/di-si-ni-duo-bao-qi-bing.jpg"
+ },
+ "mi-gong-da-shi-2": {
+  "wiki": "Dungeon Master II: The Legend of Skullkeep",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Dungeon_Master_II%3A_The_Legend_of_Skullkeep",
+  "lang": "en",
+  "image": "/img/dos-games/mi-gong-da-shi-2.jpg"
+ },
+ "song-bao-tong": {
+  "wiki": "Paperboy 2",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Paperboy_2",
+  "lang": "en",
+  "image": "/img/dos-games/song-bao-tong.jpg"
+ },
+ "tao-li-nao-bo-shi-de-cheng-bao": {
+  "wiki": "Castle of Dr. Brain",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Castle_of_Dr._Brain",
+  "lang": "en",
+  "image": "/img/dos-games/tao-li-nao-bo-shi-de-cheng-bao.jpg"
+ },
+ "tong-lu-2": {
+  "wiki": "Gateway II: Homeworld",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Gateway_II%3A_Homeworld",
+  "lang": "en",
+  "image": "/img/dos-games/tong-lu-2.jpg"
+ },
+ "su-du-qiu-2": {
+  "wiki": "Speedball 2: Brutal Deluxe",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Speedball_2%3A_Brutal_Deluxe",
+  "lang": "en",
+  "image": "/img/dos-games/su-du-qiu-2.jpg"
+ },
+ "ye-lang-xing-dong": {
+  "wiki": "Operation Wolf",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Operation_Wolf",
+  "lang": "en",
+  "image": "/img/dos-games/ye-lang-xing-dong.jpg"
+ },
+ "gang-tie-zhi-xin": {
+  "wiki": "Ironseed",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ironseed",
+  "lang": "en",
+  "image": "/img/dos-games/gang-tie-zhi-xin.jpg"
+ },
+ "gang-tie-zhi-quan": {
+  "wiki": "Armored Fist",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Armored_Fist",
+  "lang": "en",
+  "image": "/img/dos-games/gang-tie-zhi-quan.jpg"
+ },
+ "gang-tie-xin-tiao": {
+  "wiki": "Disciples of Steel",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Disciples_of_Steel",
+  "lang": "en",
+  "image": "/img/dos-games/gang-tie-xin-tiao.jpg"
+ },
+ "gang-tie-chong-tu": {
+  "wiki": "Clash of Steel",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Clash_of_Steel",
+  "lang": "en",
+  "image": "/img/dos-games/gang-tie-chong-tu.jpg"
+ },
+ "tie-xue-nong-fu-1": {
+  "wiki": "Redneck Rampage",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Redneck_Rampage",
+  "lang": "en",
+  "image": "/img/dos-games/tie-xue-nong-fu-1.jpg"
+ },
+ "tie-xue-lian-meng": {
+  "wiki": "Jagged Alliance",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Jagged_Alliance",
+  "lang": "en",
+  "image": "/img/dos-games/tie-xue-lian-meng.jpg"
+ },
+ "tie-xue-lian-meng-si-wang-you-xi": {
+  "wiki": "Jagged Alliance",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Jagged_Alliance",
+  "lang": "en",
+  "image": "/img/dos-games/tie-xue-lian-meng-si-wang-you-xi.jpg"
+ },
+ "tie-lu-da-heng-hao-hua-ban": {
+  "wiki": "Railroad Tycoon",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Railroad_Tycoon",
+  "lang": "en",
+  "image": "/img/dos-games/tie-lu-da-heng-hao-hua-ban.jpg"
+ },
+ "yin-he-ba-zhu-lie-hu-zuo-zhi-wang": {
+  "wiki": "Master of Orion",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Master_of_Orion",
+  "lang": "en",
+  "image": "/img/dos-games/yin-he-ba-zhu-lie-hu-zuo-zhi-wang.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/5/55/Master_of_Orion_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "yin-he-ba-zhu-2": {
+  "wiki": "Master of Orion II: Battle at Antares",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Master_of_Orion_II%3A_Battle_at_Antares",
+  "lang": "en",
+  "image": "/img/dos-games/yin-he-ba-zhu-2.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/b/bd/Master_of_Orion_II_Boxart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "yin-he-feng-bao": {
+  "wiki": "Renegade Legion: Interceptor",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Renegade_Legion%3A_Interceptor",
+  "lang": "en",
+  "image": "/img/dos-games/yin-he-feng-bao.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/d/dd/Renegade_Legion_Interceptor_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "yin-he-fei-jiang-2": {
+  "wiki": "Wing Commander II: Vengeance of the Kilrathi",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Wing_Commander_II%3A_Vengeance_of_the_Kilrathi",
+  "lang": "en",
+  "image": "/img/dos-games/yin-he-fei-jiang-2.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/8/86/WingIIbiglogo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "yin-he-fei-jiang-xian-feng-zi-liao-pian": {
+  "wiki": "Wing Commander: Privateer",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Wing_Commander%3A_Privateer",
+  "lang": "en",
+  "image": "/img/dos-games/yin-he-fei-jiang-xian-feng-zi-liao-pian.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/3/35/Wing_Commander_-_Privateer_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "yin-he-fei-jiang-a-man-da": {
+  "wiki": "Wing Commander: Armada",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Wing_Commander%3A_Armada",
+  "lang": "en",
+  "image": "/img/dos-games/yin-he-fei-jiang-a-man-da.jpg"
+ },
+ "yin-se-dan-qiu-95": {
+  "wiki": "Silverball",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Silverball",
+  "lang": "en",
+  "image": "/img/dos-games/yin-se-dan-qiu-95.jpg"
+ },
+ "zhang-gong-chuan-shuo-luo-bin-han": {
+  "wiki": "Conquests of the Longbow: The Legend of Robin Hood",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Conquests_of_the_Longbow%3A_The_Legend_of_Robin_Hood",
+  "lang": "en",
+  "image": "/img/dos-games/zhang-gong-chuan-shuo-luo-bin-han.jpg"
+ },
+ "a-ka-ni-ya-zhi-di-ming-yun-zhi-ren": {
+  "wiki": "Realms of Arkania: Blade of Destiny",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Realms_of_Arkania%3A_Blade_of_Destiny",
+  "lang": "en",
+  "image": "/img/dos-games/a-ka-ni-ya-zhi-di-ming-yun-zhi-ren.jpg"
+ },
+ "a-ka-ni-ya-zhi-di-xing-hen": {
+  "wiki": "Realms of Arkania: Star Trail",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Realms_of_Arkania%3A_Star_Trail",
+  "lang": "en",
+  "image": "/img/dos-games/a-ka-ni-ya-zhi-di-xing-hen.jpg"
+ },
+ "a-la-ding-2-deng-shen-zu-zhou": {
+  "wiki": "Al-Qadim: The Genie's Curse",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Al-Qadim%3A_The_Genie%27s_Curse",
+  "lang": "en",
+  "image": "/img/dos-games/a-la-ding-2-deng-shen-zu-zhou.jpg"
+ },
+ "a-man-da-2525": {
+  "wiki": "Armada 2525",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Armada_2525",
+  "lang": "en",
+  "image": "/img/dos-games/a-man-da-2525.jpg"
+ },
+ "yun-shi-she-ji": {
+  "wiki": "AstroFire",
+  "wikiUrl": "https://en.wikipedia.org/wiki/AstroFire",
+  "lang": "en",
+  "image": "/img/dos-games/yun-shi-she-ji.jpg"
+ },
+ "gu-yong-zhi-qiang": {
+  "wiki": "Hired Guns",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Hired_Guns",
+  "lang": "en",
+  "image": "/img/dos-games/gu-yong-zhi-qiang.jpg"
+ },
+ "yu-guo": {
+  "wiki": "Hugo's House of Horrors",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Hugo%27s_House_of_Horrors",
+  "lang": "en",
+  "image": "/img/dos-games/yu-guo.jpg"
+ },
+ "yu-guo-de-kong-bu-zhi-wu-1": {
+  "wiki": "Hugo's House of Horrors",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Hugo%27s_House_of_Horrors",
+  "lang": "en",
+  "image": "/img/dos-games/yu-guo-de-kong-bu-zhi-wu-1.jpg"
+ },
+ "yu-guo-de-kong-bu-zhi-wu-2": {
+  "wiki": "Hugo II, Whodunit?",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Hugo_II%2C_Whodunit%3F",
+  "lang": "en",
+  "image": "/img/dos-games/yu-guo-de-kong-bu-zhi-wu-2.jpg"
+ },
+ "lei-ke-si": {
+  "wiki": "Rex Nebular and the Cosmic Gender Bender",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Rex_Nebular_and_the_Cosmic_Gender_Bender",
+  "lang": "en",
+  "image": "/img/dos-games/lei-ke-si.jpg"
+ },
+ "feng-yun-ba-zhu": {
+  "wiki": "Powermonger",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Powermonger",
+  "lang": "en",
+  "image": "/img/dos-games/feng-yun-ba-zhu.jpg"
+ },
+ "feng-bao-ling-zhu": {
+  "wiki": "Storm Master",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Storm_Master",
+  "lang": "en",
+  "image": "/img/dos-games/feng-bao-ling-zhu.jpg"
+ },
+ "feng-chi-dian-che": {
+  "wiki": "Indianapolis 500: The Simulation",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Indianapolis_500%3A_The_Simulation",
+  "lang": "en",
+  "image": "/img/dos-games/feng-chi-dian-che.jpg"
+ },
+ "ju-feng-ji-jia": {
+  "wiki": "CyClones",
+  "wikiUrl": "https://en.wikipedia.org/wiki/CyClones",
+  "lang": "en",
+  "image": "/img/dos-games/ju-feng-ji-jia.jpg"
+ },
+ "fei-lang-tu-ji-dui": {
+  "wiki": "Armor Alley",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Armor_Alley",
+  "lang": "en",
+  "image": "/img/dos-games/fei-lang-tu-ji-dui.jpg"
+ },
+ "fei-kong-ting": {
+  "wiki": "Zeppelin (video game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Zeppelin_(video_game)",
+  "lang": "en",
+  "image": "/img/dos-games/fei-kong-ting.jpg"
+ },
+ "fei-lun-yong-shi": {
+  "wiki": "Autoduel",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Autoduel",
+  "lang": "en",
+  "image": "/img/dos-games/fei-lun-yong-shi.jpg"
+ },
+ "shou-shi-he-kui-jia": {
+  "wiki": "Amulets & Armor",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Amulets_%26_Armor",
+  "lang": "en",
+  "image": "/img/dos-games/shou-shi-he-kui-jia.jpg"
+ },
+ "ma-li-ao-bu-jian-le": {
+  "wiki": "Mario Is Missing!",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Mario_Is_Missing%21",
+  "lang": "en",
+  "image": "/img/dos-games/ma-li-ao-bu-jian-le.jpg"
+ },
+ "ma-li-ao-you-xi-zhan": {
+  "wiki": "Mario's Game Gallery",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Mario%27s_Game_Gallery",
+  "lang": "en",
+  "image": "/img/dos-games/ma-li-ao-you-xi-zhan.jpg"
+ },
+ "gao-er-fu-xun-lian-386": {
+  "wiki": "Links 386 Pro",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Links_386_Pro",
+  "lang": "en",
+  "image": "/img/dos-games/gao-er-fu-xun-lian-386.jpg"
+ },
+ "gao-ji-yin-he-di-guo": {
+  "wiki": "Master of Orion",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Master_of_Orion",
+  "lang": "en",
+  "image": "/img/dos-games/gao-ji-yin-he-di-guo.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/en/5/55/Master_of_Orion_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "gao-su-lie-ren": {
+  "wiki": "Highway Hunter",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Highway_Hunter",
+  "lang": "en",
+  "image": "/img/dos-games/gao-su-lie-ren.jpg"
+ },
+ "mo-shou-zheng-ba-1": {
+  "wiki": "Warcraft: Orcs & Humans",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Warcraft%3A_Orcs_%26_Humans",
+  "lang": "en",
+  "image": "/img/dos-games/mo-shou-zheng-ba-1.jpg"
+ },
+ "mo-shou-zheng-ba-2": {
+  "wiki": "Warcraft II: Tides of Darkness",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Warcraft_II%3A_Tides_of_Darkness",
+  "lang": "en",
+  "image": "/img/dos-games/mo-shou-zheng-ba-2.jpg"
+ },
+ "mo-shou-zheng-ba-2-zi-liao-pian": {
+  "wiki": "Warcraft II: Tides of Darkness",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Warcraft_II%3A_Tides_of_Darkness",
+  "lang": "en",
+  "image": "/img/dos-games/mo-shou-zheng-ba-2-zi-liao-pian.jpg"
+ },
+ "mo-yu-chuan-qi-shi-zhi-yu-yan-zhe-1-1": {
+  "wiki": "Ravenloft: Stone Prophet",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ravenloft%3A_Stone_Prophet",
+  "lang": "en",
+  "image": "/img/dos-games/mo-yu-chuan-qi-shi-zhi-yu-yan-zhe-1-1.jpg"
+ },
+ "mo-yu-mi-zong": {
+  "wiki": "Ecstatica",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ecstatica",
+  "lang": "en",
+  "image": "/img/dos-games/mo-yu-mi-zong.jpg"
+ },
+ "mo-yu-mi-zong-2": {
+  "wiki": "Ecstatica II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Ecstatica_II",
+  "lang": "en",
+  "image": "/img/dos-games/mo-yu-mi-zong-2.jpg"
+ },
+ "mo-jing-chuan-shuo": {
+  "wiki": "Rastan Saga",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Rastan_Saga",
+  "lang": "en",
+  "image": "/img/dos-games/mo-jing-chuan-shuo.jpg"
+ },
+ "mo-huan-jiang-jun": {
+  "wiki": "Fantasy General",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Fantasy_General",
+  "lang": "en",
+  "image": "/img/dos-games/mo-huan-jiang-jun.jpg"
+ },
+ "mo-fa-da-di": {
+  "wiki": "Master of Magic",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Master_of_Magic",
+  "lang": "en",
+  "image": "/img/dos-games/mo-fa-da-di.jpg"
+ },
+ "mo-fa-tian-shi": {
+  "wiki": "Master of Magic",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Master_of_Magic",
+  "lang": "en",
+  "image": "/img/dos-games/mo-fa-tian-shi.jpg"
+ },
+ "mo-fa-shi-xi-meng": {
+  "wiki": "Simon the Sorcerer",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Simon_the_Sorcerer",
+  "lang": "en",
+  "image": "/img/dos-games/mo-fa-shi-xi-meng.jpg"
+ },
+ "mo-fa-dai": {
+  "wiki": "Magic Pockets",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Magic_Pockets",
+  "lang": "en",
+  "image": "/img/dos-games/mo-fa-dai.jpg"
+ },
+ "mo-fa-men": {
+  "wiki": "Might and Magic Book One: The Secret of the Inner Sanctum",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Might_and_Magic_Book_One%3A_The_Secret_of_the_Inner_Sanctum",
+  "lang": "en",
+  "image": "/img/dos-games/mo-fa-men.jpg"
+ },
+ "mo-fa-men-3-huan-dao-li-xian-ji": {
+  "wiki": "Might and Magic III: Isles of Terra",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Might_and_Magic_III%3A_Isles_of_Terra",
+  "lang": "en",
+  "image": "/img/dos-games/mo-fa-men-3-huan-dao-li-xian-ji.jpg"
+ },
+ "mo-fa-men-3-ying-ban": {
+  "wiki": "Might and Magic III: Isles of Terra",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Might_and_Magic_III%3A_Isles_of_Terra",
+  "lang": "en",
+  "image": "/img/dos-games/mo-fa-men-3-ying-ban.jpg"
+ },
+ "mo-fa-men-5-hei-an-mo-jun": {
+  "wiki": "Might and Magic V: Darkside of Xeen",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Might_and_Magic_V%3A_Darkside_of_Xeen",
+  "lang": "en",
+  "image": "/img/dos-games/mo-fa-men-5-hei-an-mo-jun.jpg"
+ },
+ "mo-fa-men-ying-xiong-wu-di": {
+  "wiki": "Heroes of Might and Magic",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Heroes_of_Might_and_Magic",
+  "lang": "en",
+  "image": "/img/dos-games/mo-fa-men-ying-xiong-wu-di.jpg"
+ },
+ "mo-fa-men-ying-xiong-wu-di-2": {
+  "wiki": "Heroes of Might and Magic II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Heroes_of_Might_and_Magic_II",
+  "lang": "en",
+  "image": "/img/dos-games/mo-fa-men-ying-xiong-wu-di-2.jpg"
+ },
+ "mo-fa-men-ying-xiong-wu-di-2-zhong-wen": {
+  "wiki": "Heroes of Might and Magic II",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Heroes_of_Might_and_Magic_II",
+  "lang": "en",
+  "image": "/img/dos-games/mo-fa-men-ying-xiong-wu-di-2-zhong-wen.jpg"
+ },
+ "mo-fa-men-ying-xiong-wu-di-zhong-wen": {
+  "wiki": "Heroes of Might and Magic",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Heroes_of_Might_and_Magic",
+  "lang": "en",
+  "image": "/img/dos-games/mo-fa-men-ying-xiong-wu-di-zhong-wen.jpg"
+ },
+ "mo-fa-fei-tan-2": {
+  "wiki": "Magic Carpet (video game)",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Magic_Carpet_(video_game)",
+  "lang": "en",
+  "image": "/img/dos-games/mo-fa-fei-tan-2.jpg"
+ },
+ "mo-yan-sha-ji-2-yin-yue-chuan-qi": {
+  "wiki": "Eye of the Beholder II: The Legend of Darkmoon",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Eye_of_the_Beholder_II%3A_The_Legend_of_Darkmoon",
+  "lang": "en",
+  "image": "/img/dos-games/mo-yan-sha-ji-2-yin-yue-chuan-qi.jpg"
+ },
+ "mo-yan-sha-ji-3-xue-zhan-zha-nuo-er": {
+  "wiki": "Eye of the Beholder III: Assault on Myth Drannor",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Eye_of_the_Beholder_III%3A_Assault_on_Myth_Drannor",
+  "lang": "en",
+  "image": "/img/dos-games/mo-yan-sha-ji-3-xue-zhan-zha-nuo-er.jpg"
+ },
+ "mo-yan-xie-shen": {
+  "wiki": "Celtic Tales: Balor of the Evil Eye",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Celtic_Tales%3A_Balor_of_the_Evil_Eye",
+  "lang": "en",
+  "image": "/img/dos-games/mo-yan-xie-shen.jpg"
+ },
+ "mo-yan-xie-shen-ying-ban": {
+  "wiki": "Celtic Tales: Balor of the Evil Eye",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Celtic_Tales%3A_Balor_of_the_Evil_Eye",
+  "lang": "en",
+  "image": "/img/dos-games/mo-yan-xie-shen-ying-ban.jpg"
+ },
+ "ying-yan-chuan-shuo-lun-dun": {
+  "wiki": "Eagle Eye Mysteries",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Eagle_Eye_Mysteries",
+  "lang": "en",
+  "image": "/img/dos-games/ying-yan-chuan-shuo-lun-dun.jpg"
+ },
+ "li-ming-tie-zhen": {
+  "wiki": "Anvil of Dawn",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Anvil_of_Dawn",
+  "lang": "en",
+  "image": "/img/dos-games/li-ming-tie-zhen.jpg"
+ },
+ "hei-ri-wei-ji": {
+  "wiki": "Dark Sun: Shattered Lands",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Dark_Sun%3A_Shattered_Lands",
+  "lang": "en",
+  "image": "/img/dos-games/hei-ri-wei-ji.jpg"
+ },
+ "hei-ri-wei-ji-2": {
+  "wiki": "Dark Sun: Wake of the Ravager",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Dark_Sun%3A_Wake_of_the_Ravager",
+  "lang": "en",
+  "image": "/img/dos-games/hei-ri-wei-ji-2.jpg"
+ },
+ "hei-an-zhi-xin": {
+  "wiki": "The Dark Heart of Uukrul",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Dark_Heart_of_Uukrul",
+  "lang": "en",
+  "image": "/img/dos-games/hei-an-zhi-xin.jpg"
+ },
+ "hei-an-yuan-su": {
+  "wiki": "Obitus",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Obitus",
+  "lang": "en",
+  "image": "/img/dos-games/hei-an-yuan-su.jpg"
+ },
+ "hei-an-jun-tuan-mo-fa-fu-ji-zhan": {
+  "wiki": "Dark Legions",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Dark_Legions",
+  "lang": "en",
+  "image": "/img/dos-games/hei-an-jun-tuan-mo-fa-fu-ji-zhan.jpg"
+ },
+ "hei-an-mi-gong": {
+  "wiki": "DarkSpyre",
+  "wikiUrl": "https://en.wikipedia.org/wiki/DarkSpyre",
+  "lang": "en",
+  "image": "/img/dos-games/hei-an-mi-gong.jpg"
+ },
+ "hei-jie-feng-yun": {
+  "wiki": "Bad Street Brawler",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Bad_Street_Brawler",
+  "lang": "en",
+  "image": "/img/dos-games/hei-jie-feng-yun.jpg"
+ },
+ "long-zhi-wang-guo": {
+  "wiki": "Dragonsphere",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Dragonsphere",
+  "lang": "en",
+  "image": "/img/dos-games/long-zhi-wang-guo.jpg"
+ },
+ "long-zhi-dao": {
+  "wiki": "Drakkhen",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Drakkhen",
+  "lang": "en",
+  "image": "/img/dos-games/long-zhi-dao.jpg"
+ },
+ "long-zhan-ji-x": {
+  "wiki": "Xargon",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Xargon",
+  "lang": "en",
+  "image": "/img/dos-games/long-zhan-ji-x.jpg"
+ },
+ "long-xue-li-xian-ji-2": {
+  "wiki": "Dragon's Lair II: Time Warp",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Dragon%27s_Lair_II%3A_Time_Warp",
+  "lang": "en",
+  "image": "/img/dos-games/long-xue-li-xian-ji-2.jpg"
+ },
+ "long-ba-san-he-hui": {
+  "wiki": "Rise of the Triad",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Rise_of_the_Triad",
+  "lang": "en",
+  "image": "/img/dos-games/long-ba-san-he-hui.jpg"
+ },
+ "long-ba-san-he-hui-zi-liao-pian": {
+  "wiki": "Rise of the Triad",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Rise_of_the_Triad",
+  "lang": "en",
+  "image": "/img/dos-games/long-ba-san-he-hui-zi-liao-pian.jpg"
+ },
+ "long-qi-shi-3": {
+  "wiki": "Knights of Xentar",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Knights_of_Xentar",
+  "lang": "en",
+  "image": "/img/dos-games/long-qi-shi-3.jpg"
+ },
+ "long-qi-shi-4": {
+  "wiki": "Dragon Knight 4",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Dragon_Knight_4",
+  "lang": "en",
+  "image": "/img/dos-games/long-qi-shi-4.jpg"
+ },
+ "nan-ji-da-mao-xian": {
+  "wiki": "南极大冒险 (游戏)",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%8D%97%E6%9E%81%E5%A4%A7%E5%86%92%E9%99%A9_(%E6%B8%B8%E6%88%8F)",
+  "lang": "zh",
+  "wikiZh": "南极大冒险 (游戏)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%8D%97%E6%9E%81%E5%A4%A7%E5%86%92%E9%99%A9_(%E6%B8%B8%E6%88%8F)"
+ },
+ "chi-dou-ren": {
+  "wiki": "吃豆人 (角色)",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%90%83%E8%B1%86%E4%BA%BA_(%E8%A7%92%E8%89%B2)",
+  "lang": "zh",
+  "image": "/img/dos-games/chi-dou-ren.jpg",
+  "wikiZh": "吃豆人 (角色)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%90%83%E8%B1%86%E4%BA%BA_(%E8%A7%92%E8%89%B2)"
+ },
+ "xian-jian-qi-xia-chuan": {
+  "wiki": "仙剑奇侠传 (游戏)",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E4%BB%99%E5%89%91%E5%A5%87%E4%BE%A0%E4%BC%A0_(%E6%B8%B8%E6%88%8F)",
+  "lang": "zh",
+  "image": "/img/dos-games/xian-jian-qi-xia-chuan.jpg",
+  "wikiZh": "仙剑奇侠传 (游戏)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%BB%99%E5%89%91%E5%A5%87%E4%BE%A0%E4%BC%A0_(%E6%B8%B8%E6%88%8F)"
+ },
+ "xia-ke-ying-xiong-zhuan": {
+  "wiki": "俠客英雄傳",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E4%BF%A0%E5%AE%A2%E8%8B%B1%E9%9B%84%E5%82%B3",
+  "lang": "zh",
+  "wikiZh": "俠客英雄傳",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E4%BF%A0%E5%AE%A2%E8%8B%B1%E9%9B%84%E5%82%B3"
+ },
+ "chu-ji-fei-long": {
+  "wiki": "出擊飛龍",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%87%BA%E6%93%8A%E9%A3%9B%E9%BE%8D",
+  "lang": "zh",
+  "wikiZh": "出擊飛龍",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%87%BA%E6%93%8A%E9%A3%9B%E9%BE%8D"
+ },
+ "jian-xia-qing-yuan": {
+  "wiki": "剑侠情缘系列",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%89%91%E4%BE%A0%E6%83%85%E7%BC%98%E7%B3%BB%E5%88%97",
+  "lang": "zh",
+  "wikiZh": "剑侠情缘系列",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%89%91%E4%BE%A0%E6%83%85%E7%BC%98%E7%B3%BB%E5%88%97"
+ },
+ "wo-long-chuan": {
+  "wiki": "卧龙传",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%8D%A7%E9%BE%99%E4%BC%A0",
+  "lang": "zh",
+  "wikiZh": "卧龙传",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%8D%A7%E9%BE%99%E4%BC%A0"
+ },
+ "he-jin-zhuang-bei": {
+  "wiki": "合金装备 (1987年游戏)",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%90%88%E9%87%91%E8%A3%85%E5%A4%87_(1987%E5%B9%B4%E6%B8%B8%E6%88%8F)",
+  "lang": "zh",
+  "image": null,
+  "wikiZh": "合金装备 (1987年游戏)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%90%88%E9%87%91%E8%A3%85%E5%A4%87_(1987%E5%B9%B4%E6%B8%B8%E6%88%8F)"
+ },
+ "ming-ling-yu-zheng-fu": {
+  "wiki": "命令与征服 (2013年游戏)",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%BE%81%E6%9C%8D_(2013%E5%B9%B4%E6%B8%B8%E6%88%8F)",
+  "lang": "zh",
+  "image": null,
+  "wikiZh": "命令与征服 (2013年游戏)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%BE%81%E6%9C%8D_(2013%E5%B9%B4%E6%B8%B8%E6%88%8F)"
+ },
+ "da-fu-weng-3": {
+  "wiki": "大富翁3",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%AF%8C%E7%BF%813",
+  "lang": "zh",
+  "wikiZh": "大富翁3",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%AF%8C%E7%BF%813"
+ },
+ "da-shi-dai-de-gu-shi": {
+  "wiki": "大時代的故事",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%99%82%E4%BB%A3%E7%9A%84%E6%95%85%E4%BA%8B",
+  "lang": "zh",
+  "image": null,
+  "wikiZh": "大時代的故事",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%99%82%E4%BB%A3%E7%9A%84%E6%95%85%E4%BA%8B"
+ },
+ "da-hang-hai-shi-dai": {
+  "wiki": "大航海时代Online",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%88%AA%E6%B5%B7%E6%97%B6%E4%BB%A3Online",
+  "lang": "zh",
+  "image": "/img/dos-games/da-hang-hai-shi-dai.jpg",
+  "wikiZh": "大航海时代Online",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%88%AA%E6%B5%B7%E6%97%B6%E4%BB%A3Online"
+ },
+ "da-jin-gang": {
+  "wiki": "大金刚 (角色)",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E9%87%91%E5%88%9A_(%E8%A7%92%E8%89%B2)",
+  "lang": "zh",
+  "image": "/img/dos-games/da-jin-gang.jpg",
+  "wikiZh": "大金刚 (角色)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E9%87%91%E5%88%9A_(%E8%A7%92%E8%89%B2)"
+ },
+ "tian-xuan-di-zhuan": {
+  "wiki": "天旋地轉",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E6%97%8B%E5%9C%B0%E8%BD%89",
+  "lang": "zh",
+  "image": null,
+  "wikiZh": "天旋地轉",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E6%97%8B%E5%9C%B0%E8%BD%89"
+ },
+ "fu-jia-tian-xia": {
+  "wiki": "富甲天下系列",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%AF%8C%E7%94%B2%E5%A4%A9%E4%B8%8B%E7%B3%BB%E5%88%97",
+  "lang": "zh",
+  "wikiZh": "富甲天下系列",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%AF%8C%E7%94%B2%E5%A4%A9%E4%B8%8B%E7%B3%BB%E5%88%97"
+ },
+ "xiao-peng-you-qi-da-jiao": {
+  "wiki": "小朋友齊打交",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%9C%8B%E5%8F%8B%E9%BD%8A%E6%89%93%E4%BA%A4",
+  "lang": "zh",
+  "image": null,
+  "wikiZh": "小朋友齊打交",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%9C%8B%E5%8F%8B%E9%BD%8A%E6%89%93%E4%BA%A4"
+ },
+ "ren-zhe-shen-gui": {
+  "wiki": "忍者神龟 (2003年游戏)",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%BF%8D%E8%80%85%E7%A5%9E%E9%BE%9F_(2003%E5%B9%B4%E6%B8%B8%E6%88%8F)",
+  "lang": "zh",
+  "image": "/img/dos-games/ren-zhe-shen-gui.jpg",
+  "wikiZh": "忍者神龟 (2003年游戏)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E5%BF%8D%E8%80%85%E7%A5%9E%E9%BE%9F_(2003%E5%B9%B4%E6%B8%B8%E6%88%8F)"
+ },
+ "jin-yong-qun-xia-chuan": {
+  "wiki": "金庸群俠傳",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E9%87%91%E5%BA%B8%E7%BE%A4%E4%BF%A0%E5%82%B3",
+  "lang": "zh"
+ },
+ "yi-xing-fan-zhi": {
+  "wiki": "异形繁殖系列",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%BD%A2%E7%B9%81%E6%AE%96%E7%B3%BB%E5%88%97",
+  "lang": "zh"
+ },
+ "zhan-li-pin": {
+  "wiki": "战利品 (电子游戏)",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E6%88%98%E5%88%A9%E5%93%81_(%E7%94%B5%E5%AD%90%E6%B8%B8%E6%88%8F)",
+  "lang": "zh",
+  "image": "/img/dos-games/zhan-li-pin.jpg",
+  "wikiZh": "战利品 (电子游戏)",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E6%88%98%E5%88%A9%E5%93%81_(%E7%94%B5%E5%AD%90%E6%B8%B8%E6%88%8F)"
+ },
+ "han-tian-shen-ta": {
+  "wiki": "撼天神塔系列",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E6%92%BC%E5%A4%A9%E7%A5%9E%E5%A1%94%E7%B3%BB%E5%88%97",
+  "lang": "zh",
+  "wikiZh": "撼天神塔系列",
+  "wikiUrlZh": "https://zh.wikipedia.org/wiki/%E6%92%BC%E5%A4%A9%E7%A5%9E%E5%A1%94%E7%B3%BB%E5%88%97"
+ },
+ "ji-pin-fei-che": {
+  "wiki": "极品飞车系列",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E6%9E%81%E5%93%81%E9%A3%9E%E8%BD%A6%E7%B3%BB%E5%88%97",
+  "lang": "zh"
+ },
+ "mo-ni-da-lou": {
+  "wiki": "模拟大楼",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%8B%9F%E5%A4%A7%E6%A5%BC",
+  "lang": "zh"
+ },
+ "san-guo-zhi-5-jia-qiang-ban": {
+  "wiki": "三國志V",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97V",
+  "lang": "zh",
+  "image": "/img/dos-games/san-guo-zhi-5-jia-qiang-ban.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/zh/c/ca/SangokushiV_Boxart.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "shi-jie-shuai-jiao-lian-meng": {
+  "wiki": "世界摔角联盟 绝不宽恕",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E6%91%94%E8%A7%92%E8%81%94%E7%9B%9F_%E7%BB%9D%E4%B8%8D%E5%AE%BD%E6%81%95",
+  "lang": "zh"
+ },
+ "zu-ye": {
+  "wiki": "卒業 ～Next Graduation～",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%8D%92%E6%A5%AD_%EF%BD%9ENext_Graduation%EF%BD%9E",
+  "lang": "zh",
+  "image": "/img/dos-games/zu-ye.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/zh/5/53/%E3%80%8A%E5%8D%92%E6%A5%AD_Next_Graduation%E3%80%8B.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "ling-yi-ge-shi-jie": {
+  "wiki": "另一个世界 (游戏)",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%8F%A6%E4%B8%80%E4%B8%AA%E4%B8%96%E7%95%8C_(%E6%B8%B8%E6%88%8F)",
+  "lang": "zh",
+  "image": "/img/dos-games/ling-yi-ge-shi-jie.jpg",
+  "imageSource": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Another_World_vector.png/330px-Another_World_vector.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+ },
+ "tun-shi-tian-di-2": {
+  "wiki": "吞食天地II 諸葛孔明傳",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%90%9E%E9%A3%9F%E5%A4%A9%E5%9C%B0II_%E8%AB%B8%E8%91%9B%E5%AD%94%E6%98%8E%E5%82%B3",
+  "lang": "zh",
+  "image": "/img/dos-games/tun-shi-tian-di-2.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/zh/4/49/Tenchi_wo_Kurau_II_Coverart.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "da-hang-hai-shi-dai-2": {
+  "wiki": "大航海时代II",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%88%AA%E6%B5%B7%E6%97%B6%E4%BB%A3II",
+  "lang": "zh"
+ },
+ "tian-shi-di-guo": {
+  "wiki": "天使帝國系列",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E4%BD%BF%E5%B8%9D%E5%9C%8B%E7%B3%BB%E5%88%97",
+  "lang": "zh"
+ },
+ "fu-gui-lie-che": {
+  "wiki": "富貴列車 亞摩斯紀事",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%AF%8C%E8%B2%B4%E5%88%97%E8%BB%8A_%E4%BA%9E%E6%91%A9%E6%96%AF%E7%B4%80%E4%BA%8B",
+  "lang": "zh",
+  "image": "/img/dos-games/fu-gui-lie-che.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/zh/d/d4/%E5%AF%8C%E8%B2%B4%E5%88%97%E8%BB%8A%28%E9%9B%BB%E5%AD%90%E9%81%8A%E6%88%B2%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "xiao-mi-feng": {
+  "wiki": "小蜜蜂 (游戏)",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E8%9C%9C%E8%9C%82_(%E6%B8%B8%E6%88%8F)",
+  "lang": "zh",
+  "image": "/img/dos-games/xiao-mi-feng.jpg",
+  "imageSource": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Midway_%28USA%29_Galaxian_arcade_machine.jpg/330px-Midway_%28USA%29_Galaxian_arcade_machine.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+ },
+ "wu-shu-2": {
+  "wiki": "巫术II：钻石骑士",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%B7%AB%E6%9C%AFII%EF%BC%9A%E9%92%BB%E7%9F%B3%E9%AA%91%E5%A3%AB",
+  "lang": "zh"
+ },
+ "de-jun-zong-bu-ming-yun-zhi-mao": {
+  "wiki": "德軍總部系列",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%BE%B7%E8%BB%8D%E7%B8%BD%E9%83%A8%E7%B3%BB%E5%88%97",
+  "lang": "zh"
+ },
+ "ren-zhe-shen-gui-3": {
+  "wiki": "忍者神龜III",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E5%BF%8D%E8%80%85%E7%A5%9E%E9%BE%9CIII",
+  "lang": "zh"
+ },
+ "zhan-shen": {
+  "wiki": "戰神：崛起",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E6%88%B0%E7%A5%9E%EF%BC%9A%E5%B4%9B%E8%B5%B7",
+  "lang": "zh",
+  "image": "/img/dos-games/zhan-shen.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/zh/6/66/God_of_War_Ascension_cover.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "da-zhuan-kuai": {
+  "wiki": "打磚塊",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E6%89%93%E7%A3%9A%E5%A1%8A",
+  "lang": "zh",
+  "image": "/img/dos-games/da-zhuan-kuai.jpg",
+  "imageSource": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Lbreakout.jpg/330px-Lbreakout.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+ },
+ "zhi-huan-wang": {
+  "wiki": "指环王Online：安格玛之影",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E6%8C%87%E7%8E%AF%E7%8E%8BOnline%EF%BC%9A%E5%AE%89%E6%A0%BC%E7%8E%9B%E4%B9%8B%E5%BD%B1",
+  "lang": "zh",
+  "image": "/img/dos-games/zhi-huan-wang.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/zh/9/95/Lotro_box.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ },
+ "ti-du-zhi-jue-duan-2": {
+  "wiki": "提督之決斷II",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E6%8F%90%E7%9D%A3%E4%B9%8B%E6%B1%BA%E6%96%B7II",
+  "lang": "zh"
+ },
+ "han-tian-shen-ta-vt": {
+  "wiki": "撼天神塔系列",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E6%92%BC%E5%A4%A9%E7%A5%9E%E5%A1%94%E7%B3%BB%E5%88%97",
+  "lang": "zh"
+ },
+ "jiao-fu": {
+  "wiki": "教父 (遊戲)",
+  "wikiUrl": "https://zh.wikipedia.org/wiki/%E6%95%99%E7%88%B6_(%E9%81%8A%E6%88%B2)",
+  "lang": "zh",
+  "image": "/img/dos-games/jiao-fu.jpg",
+  "imageSource": "https://upload.wikimedia.org/wikipedia/zh/c/cd/The_Godfather_game.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+ }
+}

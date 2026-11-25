@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E5%87%AF%E6%92%92%E5%A4%A7%E5%B8%9D2.zip",
+  logo: "/img/dos-games/kai-sa-da-di-2.jpg",
+  wiki: {
+    title: "Caesar II",
+    url: "https://en.wikipedia.org/wiki/Caesar_II",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

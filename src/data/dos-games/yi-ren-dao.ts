@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E4%BC%8A%E5%BF%8D%E9%81%93.zip",
+  logo: "/img/dos-games/yi-ren-dao.jpg",
+  wiki: {
+    title: "Inindo: Way of the Ninja",
+    url: "https://en.wikipedia.org/wiki/Inindo%3A_Way_of_the_Ninja",
+  },
+  wikiZh: {
+    title: "伊忍道 打倒信长",
+    url: "https://zh.wikipedia.org/wiki/%E4%BC%8A%E5%BF%8D%E9%81%93_%E6%89%93%E5%80%92%E4%BF%A1%E9%95%BF",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1991"},

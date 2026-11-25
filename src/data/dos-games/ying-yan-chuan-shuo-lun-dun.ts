@@ -21,6 +21,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E9%B9%B0%E7%9C%BC%E4%BC%A0%E8%AF%B4%EF%BC%9A%E4%BC%A6%E6%95%A6.zip",
+  logo: "/img/dos-games/ying-yan-chuan-shuo-lun-dun.jpg",
+  wiki: {
+    title: "Eagle Eye Mysteries",
+    url: "https://en.wikipedia.org/wiki/Eagle_Eye_Mysteries",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

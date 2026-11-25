@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E8%B4%AA%E6%AC%B2%E8%AF%89%E6%B1%82.zip",
+  logo: "/img/dos-games/tan-yu-su-qiu.jpg",
+  wiki: {
+    title: "In Pursuit of Greed",
+    url: "https://en.wikipedia.org/wiki/In_Pursuit_of_Greed",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

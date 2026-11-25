@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E8%A1%97%E6%9C%BA%E6%A1%8C%E7%90%83.zip",
+  logo: "/img/dos-games/jie-ji-zhuo-qiu.jpg",
+  wiki: {
+    title: "Arcade Pool",
+    url: "https://en.wikipedia.org/wiki/Arcade_Pool",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

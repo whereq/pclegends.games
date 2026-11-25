@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1998",
   statusZh: "1998",
   url: "https://dos-bin.zczc.cz/%E6%81%B6%E9%AD%94%E7%A6%81%E5%9C%B0.zip",
+  logo: "/img/dos-games/e-mo-jin-di.jpg",
+  wiki: {
+    title: "Veil of Darkness",
+    url: "https://en.wikipedia.org/wiki/Veil_of_Darkness",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1998"},

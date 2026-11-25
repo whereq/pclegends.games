@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%AF%8C%E7%BF%812.zip",
+  logo: "/img/dos-games/da-fu-weng-2.jpg",
+  wikiZh: {
+    title: "大富翁2",
+    url: "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%AF%8C%E7%BF%812",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

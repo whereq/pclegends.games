@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%81%90%E9%BE%99%E5%85%AC%E5%9B%AD%E5%A4%A7%E4%BA%A8.zip",
+  logo: "/img/dos-games/kong-long-gong-yuan-da-heng.jpg",
+  wiki: {
+    title: "DinoPark Tycoon",
+    url: "https://en.wikipedia.org/wiki/DinoPark_Tycoon",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

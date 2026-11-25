@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1998",
   statusZh: "1998",
   url: "https://dos-bin.zczc.cz/%E4%BC%8A%E8%B4%A1%E7%9A%84%E5%81%87%E6%9C%9F.zip",
+  logo: "/img/dos-games/yi-gong-de-jia-qi.jpg",
+  wiki: {
+    title: "Igor: Objective Uikokahonia",
+    url: "https://en.wikipedia.org/wiki/Igor%3A_Objective_Uikokahonia",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1998"},

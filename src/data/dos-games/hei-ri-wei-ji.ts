@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E9%BB%91%E6%97%A5%E5%8D%B1%E6%9C%BA.zip",
+  logo: "/img/dos-games/hei-ri-wei-ji.jpg",
+  wiki: {
+    title: "Dark Sun: Shattered Lands",
+    url: "https://en.wikipedia.org/wiki/Dark_Sun%3A_Shattered_Lands",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

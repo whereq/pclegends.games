@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E9%98%BF%E6%8B%89%E4%B8%812%E7%81%AF%E7%A5%9E%E8%AF%85%E5%92%92.zip",
+  logo: "/img/dos-games/a-la-ding-2-deng-shen-zu-zhou.jpg",
+  wiki: {
+    title: "Al-Qadim: The Genie's Curse",
+    url: "https://en.wikipedia.org/wiki/Al-Qadim%3A_The_Genie%27s_Curse",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

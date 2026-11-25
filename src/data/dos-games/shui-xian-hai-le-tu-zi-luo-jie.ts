@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1989",
   statusZh: "1989",
   url: "https://dos-bin.zczc.cz/%E8%B0%81%E9%99%B7%E5%AE%B3%E4%BA%86%E5%85%94%E5%AD%90%E7%BD%97%E6%9D%B0.zip",
+  logo: "/img/dos-games/shui-xian-hai-le-tu-zi-luo-jie.jpg",
+  wiki: {
+    title: "Who Framed Roger Rabbit (1989 video game)",
+    url: "https://en.wikipedia.org/wiki/Who_Framed_Roger_Rabbit_(1989_video_game)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1989"},

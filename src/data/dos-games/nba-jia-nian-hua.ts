@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "2010",
   statusZh: "2010",
   url: "https://dos-bin.zczc.cz/NBA%E5%98%89%E5%B9%B4%E5%8D%8E.zip",
+  wiki: {
+    title: "NBA Jam",
+    url: "https://en.wikipedia.org/wiki/NBA_Jam",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2010"},

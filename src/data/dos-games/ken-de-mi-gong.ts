@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E8%82%AF%E7%9A%84%E8%BF%B7%E5%AE%AB.zip",
+  logo: "/img/dos-games/ken-de-mi-gong.jpg",
+  wiki: {
+    title: "Ken's Labyrinth",
+    url: "https://en.wikipedia.org/wiki/Ken%27s_Labyrinth",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},

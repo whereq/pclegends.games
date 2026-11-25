@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E4%B8%83%E5%96%9C%E5%B0%8F%E5%AD%90.zip",
+  logo: "/img/dos-games/qi-xi-xiao-zi.jpg",
+  wiki: {
+    title: "Cool Spot",
+    url: "https://en.wikipedia.org/wiki/Cool_Spot",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

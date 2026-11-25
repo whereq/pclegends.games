@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E4%BA%A4%E9%94%99%E7%9A%84%E5%91%BD%E8%BF%90.zip",
+  logo: "/img/dos-games/jiao-cuo-de-ming-yun.jpg",
+  wiki: {
+    title: "Altered Destiny",
+    url: "https://en.wikipedia.org/wiki/Altered_Destiny",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},

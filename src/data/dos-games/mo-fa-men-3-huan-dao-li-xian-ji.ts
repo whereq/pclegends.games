@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E9%AD%94%E6%B3%95%E9%97%A83%E5%B9%BB%E5%B2%9B%E5%8E%86%E9%99%A9%E8%AE%B0.zip",
+  logo: "/img/dos-games/mo-fa-men-3-huan-dao-li-xian-ji.jpg",
+  wiki: {
+    title: "Might and Magic III: Isles of Terra",
+    url: "https://en.wikipedia.org/wiki/Might_and_Magic_III%3A_Isles_of_Terra",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},

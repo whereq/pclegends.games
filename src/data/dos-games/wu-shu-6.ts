@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%B7%AB%E6%9C%AF6.zip",
+  logo: "/img/dos-games/wu-shu-6.jpg",
+  wiki: {
+    title: "Wizardry VI: Bane of the Cosmic Forge",
+    url: "https://en.wikipedia.org/wiki/Wizardry_VI%3A_Bane_of_the_Cosmic_Forge",
+  },
+  wikiZh: {
+    title: "巫术VI：创世神笔之诅咒",
+    url: "https://zh.wikipedia.org/wiki/%E5%B7%AB%E6%9C%AFVI%EF%BC%9A%E5%88%9B%E4%B8%96%E7%A5%9E%E7%AC%94%E4%B9%8B%E8%AF%85%E5%92%92",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

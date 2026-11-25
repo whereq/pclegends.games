@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E6%B3%95%E5%85%B0%E5%85%8B%E7%96%AF%E7%8B%82%E5%A4%8D%E4%BB%87.zip",
+  logo: "/img/dos-games/fa-lan-ke-feng-kuang-fu-chou.jpg",
+  wiki: {
+    title: "Franko: The Crazy Revenge",
+    url: "https://en.wikipedia.org/wiki/Franko%3A_The_Crazy_Revenge",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},

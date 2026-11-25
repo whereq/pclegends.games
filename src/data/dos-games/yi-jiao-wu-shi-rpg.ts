@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E5%BC%82%E6%95%99%E5%B7%AB%E5%B8%88RPG.zip",
+  logo: "/img/dos-games/yi-jiao-wu-shi-rpg.jpg",
+  wiki: {
+    title: "Hexx: Heresy of the Wizard",
+    url: "https://en.wikipedia.org/wiki/Hexx%3A_Heresy_of_the_Wizard",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E7%8F%8D%E5%AE%9D%E7%8F%A0%E5%B0%8F%E5%AD%902.zip",
+  logo: "/img/dos-games/zhen-bao-zhu-xiao-zi-2.jpg",
+  wiki: {
+    title: "Zool 2",
+    url: "https://en.wikipedia.org/wiki/Zool_2",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

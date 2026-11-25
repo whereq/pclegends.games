@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E8%A1%97%E5%A4%B4%E5%9C%B0%E4%B8%8B%E6%A0%BC%E6%96%97.zip",
+  logo: "/img/dos-games/jie-tou-di-xia-ge-dou.jpg",
+  wiki: {
+    title: "Pit-Fighter",
+    url: "https://en.wikipedia.org/wiki/Pit-Fighter",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

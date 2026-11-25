@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%88%91%E6%98%AF%E7%B1%B3%E6%81%A9.zip",
+  logo: "/img/dos-games/wo-shi-mi-en.jpg",
+  wiki: {
+    title: "I.M. Meen",
+    url: "https://en.wikipedia.org/wiki/I.M._Meen",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1996"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%88%98%E5%9C%B0%E6%97%A5%E8%AE%B0.zip",
+  logo: "/img/dos-games/zhan-di-ri-ji.jpg",
+  wiki: {
+    title: "War Diary (video game)",
+    url: "https://en.wikipedia.org/wiki/War_Diary_(video_game)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

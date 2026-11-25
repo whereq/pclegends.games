@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E5%8B%87%E5%A3%AB%E4%BC%A0%E5%A5%87.zip",
+  logo: "/img/dos-games/yong-shi-chuan-qi.jpg",
+  wiki: {
+    title: "Legends of Valour",
+    url: "https://en.wikipedia.org/wiki/Legends_of_Valour",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

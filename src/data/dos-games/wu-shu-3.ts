@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%B7%AB%E6%9C%AF3.zip",
+  logo: "/img/dos-games/wu-shu-3.jpg",
+  wikiZh: {
+    title: "巫术III：利加敏的遗产",
+    url: "https://zh.wikipedia.org/wiki/%E5%B7%AB%E6%9C%AFIII%EF%BC%9A%E5%88%A9%E5%8A%A0%E6%95%8F%E7%9A%84%E9%81%97%E4%BA%A7",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1996"},

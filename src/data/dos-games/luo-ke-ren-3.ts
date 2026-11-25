@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E6%B4%9B%E5%85%8B%E4%BA%BA3.zip",
+  logo: "/img/dos-games/luo-ke-ren-3.jpg",
+  wiki: {
+    title: "Mega Man 3",
+    url: "https://en.wikipedia.org/wiki/Mega_Man_3",
+  },
   facts: [
     {label: "Developer", value: "SNK"},
     {label: "Published", value: "1992"},

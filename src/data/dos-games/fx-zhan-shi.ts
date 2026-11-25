@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/FX%E6%88%98%E5%A3%AB.zip",
+  logo: "/img/dos-games/fx-zhan-shi.jpg",
+  wiki: {
+    title: "FX Fighter",
+    url: "https://en.wikipedia.org/wiki/FX_Fighter",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1996"},

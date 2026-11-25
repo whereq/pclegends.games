@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E4%B8%96%E7%95%8C%E5%A4%A7%E6%88%98.zip",
+  logo: "/img/dos-games/shi-jie-da-zhan.jpg",
+  wikiZh: {
+    title: "世界大战 (游戏)",
+    url: "https://zh.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E5%A4%A7%E6%88%98_(%E6%B8%B8%E6%88%8F)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E5%BE%AE%E5%9E%8B%E6%9C%BA%E5%99%A82.zip",
+  logo: "/img/dos-games/wei-xing-ji-qi-2.jpg",
+  wiki: {
+    title: "Micro Machines 2: Turbo Tournament",
+    url: "https://en.wikipedia.org/wiki/Micro_Machines_2%3A_Turbo_Tournament",
+  },
   facts: [
     {label: "Developer", value: "SQUARE"},
     {label: "Published", value: "1995"},

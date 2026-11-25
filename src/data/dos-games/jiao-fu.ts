@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E6%95%99%E7%88%B6.zip",
+  logo: "/img/dos-games/jiao-fu.jpg",
+  wikiZh: {
+    title: "教父 (遊戲)",
+    url: "https://zh.wikipedia.org/wiki/%E6%95%99%E7%88%B6_(%E9%81%8A%E6%88%B2)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

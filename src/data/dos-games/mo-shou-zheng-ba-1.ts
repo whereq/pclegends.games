@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1998",
   statusZh: "1998",
   url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B81.zip",
+  logo: "/img/dos-games/mo-shou-zheng-ba-1.jpg",
+  wiki: {
+    title: "Warcraft: Orcs & Humans",
+    url: "https://en.wikipedia.org/wiki/Warcraft%3A_Orcs_%26_Humans",
+  },
   facts: [
     {label: "Developer", value: "HUMAN"},
     {label: "Published", value: "1998"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1997",
   statusZh: "1997",
   url: "https://dos-bin.zczc.cz/%E5%B8%83%E8%8E%B1%E5%85%8B%E4%B9%8B%E7%9F%B3%E5%BC%82%E6%98%9F%E9%BB%84%E9%87%91.zip",
+  logo: "/img/dos-games/bu-lai-ke-zhi-shi-yi-xing-huang-jin.jpg",
+  wiki: {
+    title: "Blake Stone: Aliens of Gold",
+    url: "https://en.wikipedia.org/wiki/Blake_Stone%3A_Aliens_of_Gold",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1997"},

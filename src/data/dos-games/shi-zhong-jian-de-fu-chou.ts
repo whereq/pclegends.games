@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E7%9F%B3%E4%B8%AD%E5%89%91%E7%9A%84%E5%A4%8D%E4%BB%87.zip",
+  logo: "/img/dos-games/shi-zhong-jian-de-fu-chou.jpg",
+  wiki: {
+    title: "Vengeance of Excalibur",
+    url: "https://en.wikipedia.org/wiki/Vengeance_of_Excalibur",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

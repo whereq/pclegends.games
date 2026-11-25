@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%98%9F%E9%99%85%E8%81%94%E7%9B%9F.zip",
+  logo: "/img/dos-games/xing-ji-lian-meng.jpg",
+  wiki: {
+    title: "Fragile Allegiance",
+    url: "https://en.wikipedia.org/wiki/Fragile_Allegiance",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},

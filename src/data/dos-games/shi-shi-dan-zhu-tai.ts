@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "Archive",
   statusZh: "归档",
   url: "https://dos-bin.zczc.cz/%E5%8F%B2%E8%AF%97%E5%BC%B9%E7%8F%A0%E5%8F%B0.zip",
+  logo: "/img/dos-games/shi-shi-dan-zhu-tai.jpg",
+  wiki: {
+    title: "Epic Pinball",
+    url: "https://en.wikipedia.org/wiki/Epic_Pinball",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "Not dated"},

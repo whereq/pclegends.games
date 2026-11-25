@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E5%85%B6%E6%99%AE%E6%96%AF%E7%9A%84%E6%8C%91%E6%88%98.zip",
+  logo: "/img/dos-games/qi-pu-si-de-tiao-zhan.jpg",
+  wiki: {
+    title: "Chip's Challenge",
+    url: "https://en.wikipedia.org/wiki/Chip%27s_Challenge",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

@@ -21,6 +21,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E9%AD%94%E5%9F%9F%E4%BC%A0%E5%A5%87%EF%BC%9A%E7%9F%B3%E4%B9%8B%E9%A2%84%E8%A8%80%E8%80%851.1.zip",
+  logo: "/img/dos-games/mo-yu-chuan-qi-shi-zhi-yu-yan-zhe-1-1.jpg",
+  wiki: {
+    title: "Ravenloft: Stone Prophet",
+    url: "https://en.wikipedia.org/wiki/Ravenloft%3A_Stone_Prophet",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

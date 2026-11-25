@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1987",
   statusZh: "1987",
   url: "https://dos-bin.zczc.cz/%E5%B9%BB%E6%83%B3%E7%A9%BA%E9%97%B4.zip",
+  logo: "/img/dos-games/huan-xiang-kong-jian.jpg",
+  wiki: {
+    title: "Leisure Suit Larry in the Land of the Lounge Lizards",
+    url: "https://en.wikipedia.org/wiki/Leisure_Suit_Larry_in_the_Land_of_the_Lounge_Lizards",
+  },
+  wikiZh: {
+    title: "幻想空間系列",
+    url: "https://zh.wikipedia.org/wiki/%E5%B9%BB%E6%83%B3%E7%A9%BA%E9%96%93%E7%B3%BB%E5%88%97",
+  },
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1987"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E8%B6%85%E7%BA%A7%E8%A1%97%E9%9C%B8%E6%96%B0%E6%8C%91%E6%88%98%E8%80%85.zip",
+  logo: "/img/dos-games/chao-ji-jie-ba-xin-tiao-zhan-zhe.jpg",
+  wiki: {
+    title: "Super Street Fighter II",
+    url: "https://en.wikipedia.org/wiki/Super_Street_Fighter_II",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

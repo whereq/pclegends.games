@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E7%A5%9E%E7%BB%8F%E5%BC%B9%E7%8F%A0%E5%8F%B0.zip",
+  logo: "/img/dos-games/shen-jing-dan-zhu-tai.jpg",
+  wiki: {
+    title: "Psycho Pinball",
+    url: "https://en.wikipedia.org/wiki/Psycho_Pinball",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1996"},

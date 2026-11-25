@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "2001",
   statusZh: "2001",
   url: "https://dos-bin.zczc.cz/%E7%94%9F%E5%8C%96%E5%A8%81%E8%83%81.zip",
+  logo: "/img/dos-games/sheng-hua-wei-xie.jpg",
+  wiki: {
+    title: "Bio Menace",
+    url: "https://en.wikipedia.org/wiki/Bio_Menace",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2001"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E7%82%B8%E5%BC%B9%E8%B6%85%E4%BA%BA.zip",
+  logo: "/img/dos-games/zha-dan-chao-ren.jpg",
+  wiki: {
+    title: "Super Bomberman",
+    url: "https://en.wikipedia.org/wiki/Super_Bomberman",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1995"},

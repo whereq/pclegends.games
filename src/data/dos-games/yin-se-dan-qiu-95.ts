@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E9%93%B6%E8%89%B2%E5%BC%B9%E7%90%8395.zip",
+  logo: "/img/dos-games/yin-se-dan-qiu-95.jpg",
+  wiki: {
+    title: "Silverball",
+    url: "https://en.wikipedia.org/wiki/Silverball",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

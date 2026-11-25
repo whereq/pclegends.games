@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/SU27%E4%BE%A7%E7%BF%BC%E9%83%A8%E9%98%9F.zip",
+  logo: "/img/dos-games/su27-ce-yi-bu-dui.jpg",
+  wiki: {
+    title: "Su-27 Flanker (video game)",
+    url: "https://en.wikipedia.org/wiki/Su-27_Flanker_(video_game)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

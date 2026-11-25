@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E5%B7%A8%E9%B2%B8%E5%AE%87%E5%AE%99%E5%8F%B7.zip",
+  logo: "/img/dos-games/ju-jing-yu-zhou-hao.jpg",
+  wiki: {
+    title: "Whale's Voyage",
+    url: "https://en.wikipedia.org/wiki/Whale%27s_Voyage",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

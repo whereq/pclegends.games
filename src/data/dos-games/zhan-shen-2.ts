@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E6%88%98%E7%A5%9E2.zip",
+  logo: "/img/dos-games/zhan-shen-2.jpg",
+  wiki: {
+    title: "Warlords II",
+    url: "https://en.wikipedia.org/wiki/Warlords_II",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

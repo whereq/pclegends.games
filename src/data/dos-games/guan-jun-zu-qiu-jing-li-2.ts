@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%86%A0%E5%86%9B%E8%B6%B3%E7%90%83%E7%BB%8F%E7%90%862.zip",
+  logo: "/img/dos-games/guan-jun-zu-qiu-jing-li-2.jpg",
+  wiki: {
+    title: "Championship Manager 2",
+    url: "https://en.wikipedia.org/wiki/Championship_Manager_2",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

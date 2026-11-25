@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "2010",
   statusZh: "2010",
   url: "https://dos-bin.zczc.cz/%E4%B8%83%E5%AE%9D%E5%A5%87%E8%B0%8B.zip",
+  logo: "/img/dos-games/qi-bao-qi-mou.jpg",
+  wikiZh: {
+    title: "七宝奇谋 (游戏)",
+    url: "https://zh.wikipedia.org/wiki/%E4%B8%83%E5%AE%9D%E5%A5%87%E8%B0%8B_(%E6%B8%B8%E6%88%8F)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2010"},

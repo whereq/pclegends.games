@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E8%92%82%E6%96%AF%E8%9B%8B%E6%A2%A6%E5%B9%BB%E4%B9%8B%E6%97%85.zip",
+  logo: "/img/dos-games/di-si-dan-meng-huan-zhi-lv.jpg",
+  wiki: {
+    title: "Fantastic Dizzy",
+    url: "https://en.wikipedia.org/wiki/Fantastic_Dizzy",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1994"},

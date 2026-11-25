@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%B7%AB%E6%9C%AF2.zip",
+  wikiZh: {
+    title: "巫术II：钻石骑士",
+    url: "https://zh.wikipedia.org/wiki/%E5%B7%AB%E6%9C%AFII%EF%BC%9A%E9%92%BB%E7%9F%B3%E9%AA%91%E5%A3%AB",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

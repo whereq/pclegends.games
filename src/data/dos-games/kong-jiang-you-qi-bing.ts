@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1988",
   statusZh: "1988",
   url: "https://dos-bin.zczc.cz/%E7%A9%BA%E9%99%8D%E6%B8%B8%E9%AA%91%E5%85%B5.zip",
+  logo: "/img/dos-games/kong-jiang-you-qi-bing.jpg",
+  wiki: {
+    title: "Airborne Ranger",
+    url: "https://en.wikipedia.org/wiki/Airborne_Ranger",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1988"},

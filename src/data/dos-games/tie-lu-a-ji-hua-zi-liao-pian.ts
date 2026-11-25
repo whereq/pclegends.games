@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "2007",
   statusZh: "2007",
   url: "https://dos-bin.zczc.cz/%E9%93%81%E8%B7%AFA%E8%AE%A1%E5%88%92%2B%E8%B5%84%E6%96%99%E7%AF%87.zip",
+  logo: "/img/dos-games/tie-lu-a-ji-hua-zi-liao-pian.jpg",
+  wiki: {
+    title: "A-Train",
+    url: "https://en.wikipedia.org/wiki/A-Train",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2007"},

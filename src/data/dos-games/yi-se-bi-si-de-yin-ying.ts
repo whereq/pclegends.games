@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E4%BC%8A%E7%91%9F%E6%AF%94%E6%96%AF%E7%9A%84%E9%98%B4%E5%BD%B1.zip",
+  logo: "/img/dos-games/yi-se-bi-si-de-yin-ying.jpg",
+  wiki: {
+    title: "The Shadow of Yserbius",
+    url: "https://en.wikipedia.org/wiki/The_Shadow_of_Yserbius",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

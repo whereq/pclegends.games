@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1995",
   statusZh: "1995",
   url: "https://dos-bin.zczc.cz/%E9%93%B6%E6%B2%B3%E9%A3%9E%E5%B0%862.zip",
+  logo: "/img/dos-games/yin-he-fei-jiang-2.jpg",
+  wiki: {
+    title: "Wing Commander II: Vengeance of the Kilrathi",
+    url: "https://en.wikipedia.org/wiki/Wing_Commander_II%3A_Vengeance_of_the_Kilrathi",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1995"},

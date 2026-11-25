@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E5%B7%B4%E5%85%8B%E7%BD%97%E6%9D%B0%E7%9F%A9%E9%98%B5%E7%AB%8B%E6%96%B9.zip",
+  logo: "/img/dos-games/ba-ke-luo-jie-ju-zhen-li-fang.jpg",
+  wiki: {
+    title: "Buck Rogers: Matrix Cubed",
+    url: "https://en.wikipedia.org/wiki/Buck_Rogers%3A_Matrix_Cubed",
+  },
   facts: [
     {label: "Developer", value: "TOSE"},
     {label: "Published", value: "1992"},

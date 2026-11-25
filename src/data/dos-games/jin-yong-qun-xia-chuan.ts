@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E9%87%91%E5%BA%B8%E7%BE%A4%E4%BE%A0%E4%BC%A0.zip",
+  wikiZh: {
+    title: "金庸群俠傳",
+    url: "https://zh.wikipedia.org/wiki/%E9%87%91%E5%BA%B8%E7%BE%A4%E4%BF%A0%E5%82%B3",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

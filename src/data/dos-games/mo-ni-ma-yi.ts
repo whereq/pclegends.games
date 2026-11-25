@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E8%9A%82%E8%9A%81.zip",
+  logo: "/img/dos-games/mo-ni-ma-yi.jpg",
+  wiki: {
+    title: "SimAnt",
+    url: "https://en.wikipedia.org/wiki/SimAnt",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1991"},

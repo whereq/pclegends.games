@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E5%A4%A7%E5%8A%9B%E6%B0%B4%E6%89%8B2.zip",
+  logo: "/img/dos-games/da-li-shui-shou-2.jpg",
+  wiki: {
+    title: "Popeye 2",
+    url: "https://en.wikipedia.org/wiki/Popeye_2",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1994"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E4%BD%A3%E5%85%B51%E9%93%81%E6%A0%BC%E9%83%A8%E9%98%9F.zip",
+  logo: "/img/dos-games/yong-bing-1-tie-ge-bu-dui.jpg",
+  wiki: {
+    title: "Tegel's Mercenaries",
+    url: "https://en.wikipedia.org/wiki/Tegel%27s_Mercenaries",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

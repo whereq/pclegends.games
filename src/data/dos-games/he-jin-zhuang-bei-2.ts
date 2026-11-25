@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%90%88%E9%87%91%E8%A3%85%E5%A4%872.zip",
+  logo: "/img/dos-games/he-jin-zhuang-bei-2.jpg",
+  wikiZh: {
+    title: "合金装备2 固蛇",
+    url: "https://zh.wikipedia.org/wiki/%E5%90%88%E9%87%91%E8%A3%85%E5%A4%872_%E5%9B%BA%E8%9B%87",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

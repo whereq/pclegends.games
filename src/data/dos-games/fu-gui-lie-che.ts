@@ -21,6 +21,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%AF%8C%E8%B4%B5%E5%88%97%E8%BD%A6.zip",
+  logo: "/img/dos-games/fu-gui-lie-che.jpg",
+  wikiZh: {
+    title: "富貴列車 亞摩斯紀事",
+    url: "https://zh.wikipedia.org/wiki/%E5%AF%8C%E8%B2%B4%E5%88%97%E8%BB%8A_%E4%BA%9E%E6%91%A9%E6%96%AF%E7%B4%80%E4%BA%8B",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

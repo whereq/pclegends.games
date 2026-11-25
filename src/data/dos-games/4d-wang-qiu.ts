@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/4D%E7%BD%91%E7%90%83.zip",
+  logo: "/img/dos-games/4d-wang-qiu.jpg",
+  wiki: {
+    title: "4D Sports Tennis",
+    url: "https://en.wikipedia.org/wiki/4D_Sports_Tennis",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1991"},

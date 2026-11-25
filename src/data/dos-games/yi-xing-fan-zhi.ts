@@ -23,6 +23,10 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%BC%82%E5%BD%A2%E7%B9%81%E6%AE%96.zip",
+  wikiZh: {
+    title: "异形繁殖系列",
+    url: "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%BD%A2%E7%B9%81%E6%AE%96%E7%B3%BB%E5%88%97",
+  },
   facts: [
     {label: "Developer", value: "ORIGIN"},
     {label: "Published", value: "1996"},

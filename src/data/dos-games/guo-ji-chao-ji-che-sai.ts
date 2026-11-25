@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E5%9B%BD%E9%99%85%E8%B6%85%E7%BA%A7%E8%BD%A6%E8%B5%9B.zip",
+  logo: "/img/dos-games/guo-ji-chao-ji-che-sai.jpg",
+  wiki: {
+    title: "Super Cars",
+    url: "https://en.wikipedia.org/wiki/Super_Cars",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1996"},

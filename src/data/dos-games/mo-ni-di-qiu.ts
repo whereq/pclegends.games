@@ -23,6 +23,15 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E6%A8%A1%E6%8B%9F%E5%9C%B0%E7%90%83.zip",
+  logo: "/img/dos-games/mo-ni-di-qiu.jpg",
+  wiki: {
+    title: "SimEarth",
+    url: "https://en.wikipedia.org/wiki/SimEarth",
+  },
+  wikiZh: {
+    title: "模拟地球",
+    url: "https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%8B%9F%E5%9C%B0%E7%90%83",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1993",
   statusZh: "1993",
   url: "https://dos-bin.zczc.cz/%E9%92%A2%E9%93%81%E5%86%B2%E7%AA%81.zip",
+  logo: "/img/dos-games/gang-tie-chong-tu.jpg",
+  wiki: {
+    title: "Clash of Steel",
+    url: "https://en.wikipedia.org/wiki/Clash_of_Steel",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1993"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1989",
   statusZh: "1989",
   url: "https://dos-bin.zczc.cz/%E9%9B%A8%E6%9E%9C%E7%9A%84%E6%81%90%E6%80%96%E4%B9%8B%E5%B1%8B1.zip",
+  logo: "/img/dos-games/yu-guo-de-kong-bu-zhi-wu-1.jpg",
+  wiki: {
+    title: "Hugo's House of Horrors",
+    url: "https://en.wikipedia.org/wiki/Hugo%27s_House_of_Horrors",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1989"},

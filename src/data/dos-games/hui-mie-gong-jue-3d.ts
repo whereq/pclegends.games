@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1996",
   statusZh: "1996",
   url: "https://dos-bin.zczc.cz/%E6%AF%81%E7%81%AD%E5%85%AC%E7%88%B53D.zip",
+  logo: "/img/dos-games/hui-mie-gong-jue-3d.jpg",
+  wiki: {
+    title: "Duke Nukem 3D",
+    url: "https://en.wikipedia.org/wiki/Duke_Nukem_3D",
+  },
   facts: [
     {label: "Developer", value: "MICROSOFT"},
     {label: "Published", value: "1996"},

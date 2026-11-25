@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E6%A3%AE%E5%A1%94%E5%8B%87%E5%A3%AB.zip",
+  logo: "/img/dos-games/sen-ta-yong-shi.jpg",
+  wiki: {
+    title: "Knights of Xentar",
+    url: "https://en.wikipedia.org/wiki/Knights_of_Xentar",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

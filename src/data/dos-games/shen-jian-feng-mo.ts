@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E7%A5%9E%E5%89%91%E5%B0%81%E9%AD%94.zip",
+  logo: "/img/dos-games/shen-jian-feng-mo.jpg",
+  wiki: {
+    title: "Zeliard",
+    url: "https://en.wikipedia.org/wiki/Zeliard",
+  },
   facts: [
     {label: "Developer", value: "SIERRA"},
     {label: "Published", value: "1990"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1992",
   statusZh: "1992",
   url: "https://dos-bin.zczc.cz/%E4%B8%8A%E5%B8%9D%E4%B9%9F%E7%96%AF%E7%8B%82.zip",
+  logo: "/img/dos-games/shang-di-ye-feng-kuang.jpg",
+  wikiZh: {
+    title: "上帝也瘋狂",
+    url: "https://zh.wikipedia.org/wiki/%E4%B8%8A%E5%B8%9D%E4%B9%9F%E7%98%8B%E7%8B%82",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1992"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "2007",
   statusZh: "2007",
   url: "https://dos-bin.zczc.cz/%E6%97%A0%E5%A3%B0%E7%8B%82%E5%95%B8.zip",
+  logo: "/img/dos-games/wu-sheng-kuang-xiao.jpg",
+  wikiZh: {
+    title: "无声狂啸 (游戏)",
+    url: "https://zh.wikipedia.org/wiki/%E6%97%A0%E5%A3%B0%E7%8B%82%E5%95%B8_(%E6%B8%B8%E6%88%8F)",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "2007"},

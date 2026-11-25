@@ -21,6 +21,11 @@ const entry: AtlasEntry = {
   status: "1994",
   statusZh: "1994",
   url: "https://dos-bin.zczc.cz/%E7%BE%8E%E5%B0%91%E5%A5%B3%E6%A2%A6%E5%B7%A5%E5%8E%822.zip",
+  logo: "/img/dos-games/mei-shao-nv-meng-gong-chang-2.jpg",
+  wiki: {
+    title: "Princess Maker 2",
+    url: "https://en.wikipedia.org/wiki/Princess_Maker_2",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1994"},

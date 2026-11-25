@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1990",
   statusZh: "1990",
   url: "https://dos-bin.zczc.cz/%E6%9C%AA%E6%9D%A5%E6%88%98%E4%BA%89%E6%97%B6%E9%97%B4%E6%97%85%E8%80%85.zip",
+  logo: "/img/dos-games/wei-lai-zhan-zheng-shi-jian-lv-zhe.jpg",
+  wiki: {
+    title: "Future Wars",
+    url: "https://en.wikipedia.org/wiki/Future_Wars",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1990"},

@@ -23,6 +23,11 @@ const entry: AtlasEntry = {
   status: "1991",
   statusZh: "1991",
   url: "https://dos-bin.zczc.cz/%E8%80%B6%E5%9F%BA%E6%88%98%E6%9C%BA.zip",
+  logo: "/img/dos-games/ye-ji-zhan-ji.jpg",
+  wiki: {
+    title: "Chuck Yeager's Air Combat",
+    url: "https://en.wikipedia.org/wiki/Chuck_Yeager%27s_Air_Combat",
+  },
   facts: [
     {label: "Developer", value: "Not stated in the bundle"},
     {label: "Published", value: "1991"},
