@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "zheng-zong-tai-wan-16-zhang-ma-jiang-2",
   collection: "dos-games",
   name: "正宗台湾16张麻将2",
-  nameEn: "Zhengzongtaiwan16Zhangmajiang2",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 61 files, 11.3 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhuang-jia-yuan-shuai",
   collection: "dos-games",
   name: "装甲元帅",
+  nameEn: "Panzer General",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 894 files, 12.7 MB.",

@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "shi-liu-zhang-ji-ma-jiang",
   collection: "dos-games",
   name: "十六张姬麻将",
-  nameEn: "Shiliuzhangjimajiang",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 502 files, 5.6 MB.",

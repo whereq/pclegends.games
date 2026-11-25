@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "chuang-shi-feng-mo-chuan",
   collection: "dos-games",
   name: "创世封魔传",
-  nameEn: "Chuangshifengmochuan",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 399 files, 13.6 MB.",

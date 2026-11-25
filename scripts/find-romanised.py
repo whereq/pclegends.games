@@ -18,6 +18,7 @@ Out: /tmp/romanised.json
 from __future__ import annotations
 
 import argparse
+import difflib
 import json
 import os
 import re
@@ -47,6 +48,9 @@ def is_romanised(chinese: str, title: str) -> bool:
     ordinary English word in the middle is enough to make it a real title:
     "Xuan-Yuan Sword" is the release title, "Jin Yong Qun Xia Zhuan" is the
     Chinese name in Latin letters.
+
+    A syllable counts for a word that is close to it: 传 is read "chuan" or
+    "zhuan", and the index prints either.
     """
     if not CJK.search(chinese):
         return False          # the Chinese name is already in Latin letters
@@ -56,7 +60,18 @@ def is_romanised(chinese: str, title: str) -> bool:
     words = [w.lower() for w in WORD.findall(title) if len(w) >= 2]
     if not words:
         return False
-    return all(word in syllables for word in words)
+
+    def same(word: str, syllable: str) -> bool:
+        if word == syllable:
+            return True
+        shorter, longer = sorted((word, syllable), key=len)
+        if len(shorter) >= 3 and longer.startswith(shorter):
+            return True
+        # 传 is read "chuan" or "zhuan"; the index prints either.
+        return difflib.SequenceMatcher(None, word, syllable).ratio() >= 0.8
+
+    return all(any(same(word, syllable) for syllable in syllables)
+               for word in words)
 
 
 def main():

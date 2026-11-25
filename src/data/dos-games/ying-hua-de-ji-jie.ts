@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "ying-hua-de-ji-jie",
   collection: "dos-games",
   name: "樱花的季节",
-  nameEn: "Yinghuadejijie",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 675 files, 5.0 MB.",

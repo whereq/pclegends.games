@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "zhong-guo-min-hang",
   collection: "dos-games",
   name: "中国民航",
-  nameEn: "Zhongguominhang",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 68 files, 2.3 MB.",

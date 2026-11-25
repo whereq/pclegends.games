@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "men-jue-xing-ji-wang-chuan-shuo",
   collection: "dos-games",
   name: "闷绝性技王传说",
-  nameEn: "Menjuexingjiwangchuanshuo",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 94 files, 7.1 MB.",

@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "long-ba-tian-xia",
   collection: "dos-games",
   name: "龙霸天下",
-  nameEn: "Longbatianxia",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 3 files, 52.0 MB.",

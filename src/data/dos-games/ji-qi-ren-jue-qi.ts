@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-qi-ren-jue-qi",
   collection: "dos-games",
   name: "机器人崛起",
+  nameEn: "Robots",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 13 files, 12.9 MB.",

@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "shen-jian-you-xia-chuan",
   collection: "dos-games",
   name: "神剑游侠传",
-  nameEn: "Shenjianyouxiachuan",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 612 files, 20.1 MB.",

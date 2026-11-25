@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shen-jian-chuan-shuo",
   collection: "dos-games",
   name: "神剑传说",
+  nameEn: "Legend of the SWORD II - LIAR",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 280 files, 5.6 MB.",

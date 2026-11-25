@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-luo-de-da-di",
   collection: "dos-games",
   name: "失落的大地",
+  nameEn: "The Story of Atria Land",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 85 files, 35.6 MB.",

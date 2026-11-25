@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-lin-ye-feng-kuang-zhu-ti-yi-yuan-tai-ban",
   collection: "dos-games",
   name: "杏林也疯狂(主题医院台版)",
+  nameEn: "Theme Hospital",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 468 files, 26.1 MB.",

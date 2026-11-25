@@ -24,8 +24,8 @@
   "source": "published"
  },
  "金庸群侠传": {
-  "en": "Jin Yong Qun Xia Zhuan",
-  "source": "published"
+  "en": "Heroes of Jin Yong",
+  "source": "wiki"
  },
  "轩辕剑1": {
   "en": "Xuan-Yuan Sword 1",
@@ -445,7 +445,7 @@
  },
  "红色警戒": {
   "en": "Command & Conquer: Red Alert",
-  "source": "published"
+  "source": "bundle"
  },
  "幻想空间": {
   "en": "Leisure Suit Larry in the Land of the Lounge Lizards",
@@ -489,7 +489,7 @@
  },
  "禁断之血族": {
   "en": "Gloria",
-  "source": "published"
+  "source": "bundle"
  },
  "凯兰蒂亚传奇3": {
   "en": "The Legend of Kyrandia 3: Malcolm's Revenge",
@@ -693,7 +693,7 @@
  },
  "武将争霸": {
   "en": "Sango Fighter",
-  "source": "published"
+  "source": "bundle"
  },
  "侠客游2": {
   "en": "Lunatic Dawn II",
@@ -756,8 +756,8 @@
   "source": "published"
  },
  "以撒3永恒之门": {
-  "en": "Ishar 3: The Seven Gates of Infinity",
-  "source": "published"
+  "en": "Ishar 3 - The Seven Gates of Infinity",
+  "source": "bundle"
  },
  "亿兆旅行者1": {
   "en": "MegaTraveller 1: The Zhodani Conspiracy",
@@ -817,22 +817,18 @@
  },
  "七英雄物语": {
   "en": "Nanaei",
-  "source": "wiki"
+  "source": "bundle"
  },
  "万里长城边城奇侠": {
   "en": "Wan Li Chang Cheng - Bian Cheng Qi Xia",
   "source": "wiki"
  },
+ "麒麟传说": {
+  "en": "Legend of Kirin",
+  "source": "bundle"
+ },
  "三国演义2": {
   "en": "The Rising Dinasty2",
-  "source": "wiki"
- },
- "三国英雄传": {
-  "en": "Sanguoyingxiongchuan",
-  "source": "wiki"
- },
- "三国风云": {
-  "en": "Sanguofengyun",
   "source": "wiki"
  },
  "三姐妹": {
@@ -855,24 +851,12 @@
   "en": "The Supreme Corporation",
   "source": "wiki"
  },
- "中关村启示录": {
-  "en": "Zhongguancunqishilu",
-  "source": "wiki"
- },
  "中华职棒": {
   "en": "Chinese Professional Baseball",
   "source": "wiki"
  },
- "中原镖局": {
-  "en": "Zhongyuanbiaoju",
-  "source": "wiki"
- },
  "中国": {
   "en": "Everlasting Empire- China",
-  "source": "wiki"
- },
- "中国民航": {
-  "en": "Zhongguominhang",
   "source": "wiki"
  },
  "丽兽": {
@@ -886,6 +870,10 @@
  "乱世伏魔录": {
   "en": "Exorcise in the Chaotic World",
   "source": "wiki"
+ },
+ "超级五子棋": {
+  "en": "Five",
+  "source": "bundle"
  },
  "人间道少年燕赤霞": {
   "en": "Tao",
@@ -947,18 +935,6 @@
   "en": "Battle of the Imperial Tombs",
   "source": "wiki"
  },
- "刘伯温传奇": {
-  "en": "Liubowenchuanqi",
-  "source": "wiki"
- },
- "刘备传": {
-  "en": "Liubeichuan",
-  "source": "wiki"
- },
- "创世封魔传": {
-  "en": "Chuangshifengmochuan",
-  "source": "wiki"
- },
  "创世弹珠台": {
   "en": "Tsumera",
   "source": "wiki"
@@ -985,11 +961,7 @@
  },
  "勇者斗恶龙": {
   "en": "Dragon Fighter",
-  "source": "wiki"
- },
- "十六张姬麻将": {
-  "en": "Shiliuzhangjimajiang",
-  "source": "wiki"
+  "source": "bundle"
  },
  "十面埋伏": {
   "en": "Ambush at Sorinor",
@@ -1005,10 +977,6 @@
  },
  "卒业旅行": {
   "en": "Zuyelüxing",
-  "source": "wiki"
- },
- "南宋英烈传": {
-  "en": "Nan Song Ying Lie Zhuan",
   "source": "wiki"
  },
  "南极冰怪": {
@@ -1091,10 +1059,6 @@
   "en": "Duel Succession",
   "source": "wiki"
  },
- "圣战风云录": {
-  "en": "Shengzhanfengyunlu",
-  "source": "wiki"
- },
  "地狱也疯狂": {
   "en": "Crazy Hell",
   "source": "wiki"
@@ -1163,28 +1127,12 @@
   "en": "Tian Xia Wu Di",
   "source": "wiki"
  },
- "天使Q女学院": {
-  "en": "Tianshiqnüxueyuan",
-  "source": "wiki"
- },
- "天使任务": {
-  "en": "Tianshirenwu",
-  "source": "wiki"
- },
  "天使帝国2": {
   "en": "Empire of Angels 2",
   "source": "wiki"
  },
  "天外剑圣录": {
   "en": "Tian Wai Jian Sheng Lu",
-  "source": "wiki"
- },
- "天师钟馗": {
-  "en": "Tianshizhongkui",
-  "source": "wiki"
- },
- "天帝之子": {
-  "en": "Tiandizhizi",
   "source": "wiki"
  },
  "天才宝宝大进击": {
@@ -1199,10 +1147,6 @@
   "en": "Silk",
   "source": "wiki"
  },
- "天龙八部": {
-  "en": "Tianlongbabu",
-  "source": "wiki"
- },
  "太平天国": {
   "en": "The Crisis",
   "source": "wiki"
@@ -1210,6 +1154,10 @@
  "太空鲁宾逊": {
   "en": "Robinson's Requiem",
   "source": "wiki"
+ },
+ "失落的大地": {
+  "en": "The Story of Atria Land",
+  "source": "bundle"
  },
  "失落的封印": {
   "en": "Lost Seal",
@@ -1229,10 +1177,6 @@
  },
  "妖击队": {
   "en": "Yao Ji Dui",
-  "source": "wiki"
- },
- "妖塔2189": {
-  "en": "Yaota2189",
   "source": "wiki"
  },
  "妖魔道": {
@@ -1275,10 +1219,6 @@
   "en": "The Legend of the Condor Heroes",
   "source": "wiki"
  },
- "小惠的性知识": {
-  "en": "Xiaohuidexingzhishi",
-  "source": "wiki"
- },
  "小沙弥": {
   "en": "Little Monk",
   "source": "wiki"
@@ -1297,10 +1237,6 @@
  },
  "幻世喜谭": {
   "en": "Gensei Kitan - Disc Saga III",
-  "source": "wiki"
- },
- "幻想奇侠传": {
-  "en": "Huanxiangqixiachuan",
   "source": "wiki"
  },
  "幻界霸者": {
@@ -1415,21 +1351,9 @@
   "en": "Star Dream",
   "source": "wiki"
  },
- "星世纪战将": {
-  "en": "Xingshijizhanjiang",
-  "source": "wiki"
- },
  "星城绿洲计划": {
   "en": "OASIS Project",
   "source": "bundle"
- },
- "星月奇缘": {
-  "en": "Xingyueqiyuan",
-  "source": "wiki"
- },
- "春秋争霸传2": {
-  "en": "Chunqiuzhengbachuan2",
-  "source": "wiki"
  },
  "春秋争霸传": {
   "en": "Chun Qiu Zheng Ba Zhuan",
@@ -1446,6 +1370,10 @@
  "末日宝典": {
   "en": "Mo Ri Bao Dian",
   "source": "wiki"
+ },
+ "杏林也疯狂(主题医院台版)": {
+  "en": "Theme Hospital",
+  "source": "bundle"
  },
  "枪神": {
   "en": "Travel Gunner",
@@ -1467,10 +1395,6 @@
   "en": "Fancy Angels",
   "source": "wiki"
  },
- "梦见坡": {
-  "en": "Mengjianpo",
-  "source": "wiki"
- },
  "楚汉之争2": {
   "en": "King of the Dragon Land2",
   "source": "wiki"
@@ -1489,10 +1413,6 @@
  },
  "模拟大楼": {
   "en": "HR2",
-  "source": "wiki"
- },
- "樱花的季节": {
-  "en": "Yinghuadejijie",
   "source": "wiki"
  },
  "欢乐城市": {
@@ -1517,10 +1437,6 @@
  },
  "欧陆战线": {
   "en": "Operation Europe: Path to Victory",
-  "source": "wiki"
- },
- "正宗台湾16张麻将2": {
-  "en": "Zhengzongtaiwan16Zhangmajiang2",
   "source": "wiki"
  },
  "正宗台湾16张麻将": {
@@ -1583,9 +1499,9 @@
   "en": "King Kong 10",
   "source": "wiki"
  },
- "灵剑传奇": {
-  "en": "Lingjianchuanqi",
-  "source": "wiki"
+ "炎龙骑士团": {
+  "en": "Flame Dragon Knights",
+  "source": "bundle"
  },
  "炸弹超人": {
   "en": "Super Bomberman",
@@ -1667,10 +1583,6 @@
   "en": "Pipe Fight",
   "source": "wiki"
  },
- "皇后": {
-  "en": "Huanghou",
-  "source": "wiki"
- },
  "真红的杀意": {
   "en": "Zhen Hong De Sha Yi",
   "source": "wiki"
@@ -1691,10 +1603,6 @@
   "en": "Present Duo",
   "source": "wiki"
  },
- "神剑游侠传": {
-  "en": "Shenjianyouxiachuan",
-  "source": "wiki"
- },
  "神州八剑": {
   "en": "The Other Side of the Predella",
   "source": "wiki"
@@ -1713,6 +1621,10 @@
  },
  "禁忌": {
   "en": "Taboo",
+  "source": "bundle"
+ },
+ "福尔摩莎": {
+  "en": "Formosa in China",
   "source": "bundle"
  },
  "科学小飞侠": {
@@ -1764,12 +1676,8 @@
   "source": "wiki"
  },
  "绝地风暴": {
-  "en": "KKND",
-  "source": "wiki"
- },
- "绝音魔琴": {
-  "en": "Jueyinmoqin",
-  "source": "wiki"
+  "en": "KKnD",
+  "source": "bundle"
  },
  "绯王传2": {
   "en": "Hiouden - Maou Tachi tono Chikai II",
@@ -1799,20 +1707,12 @@
   "en": "Gun Blaze",
   "source": "bundle"
  },
- "花木兰": {
-  "en": "Huamulan",
-  "source": "wiki"
- },
  "英伦霸主": {
   "en": "Lords of the Realm",
-  "source": "wiki"
+  "source": "bundle"
  },
  "英雄圣战": {
   "en": "Heroric Saga",
-  "source": "wiki"
- },
- "英雄战记": {
-  "en": "Yingxiongzhanji",
   "source": "wiki"
  },
  "荡魔平妖志": {
@@ -1843,17 +1743,13 @@
   "en": "Debut",
   "source": "wiki"
  },
- "诸神封印": {
-  "en": "Zhushenfengyin",
-  "source": "wiki"
- },
  "象棋俄罗斯": {
   "en": "Chetris",
   "source": "wiki"
  },
  "象棋大师3将族": {
-  "en": "Chinese Chess Master3",
-  "source": "wiki"
+  "en": "Chinese Chess Master",
+  "source": "bundle"
  },
  "赌神至尊之战": {
   "en": "Dushenzhizunzhizhan",
@@ -1871,16 +1767,8 @@
   "en": "Quintia Road",
   "source": "wiki"
  },
- "超时空英雄传说": {
-  "en": "Chaoshikongyingxiongchuanshuo",
-  "source": "wiki"
- },
  "超未来少女": {
   "en": "Foresight Dolly",
-  "source": "wiki"
- },
- "超级五子棋": {
-  "en": "Chaojiwuziqi",
   "source": "wiki"
  },
  "超级大富翁": {
@@ -1891,16 +1779,8 @@
   "en": "Sword of Xuan Yuan II (Legend)- Dance of Maple Leaves",
   "source": "wiki"
  },
- "轩辕圣战录": {
-  "en": "Xuanyuanshengzhanlu",
-  "source": "wiki"
- },
  "转校生": {
   "en": "Tenkou",
-  "source": "wiki"
- },
- "运镖天下": {
-  "en": "Yunbiaotianxia",
   "source": "wiki"
  },
  "迷走都市": {
@@ -1913,10 +1793,6 @@
  },
  "选举风云": {
   "en": "Taiwan Vote",
-  "source": "wiki"
- },
- "邪灵世纪": {
-  "en": "Xielingshiji",
   "source": "wiki"
  },
  "邪神": {
@@ -1935,10 +1811,6 @@
   "en": "Jinyong Fighter",
   "source": "wiki"
  },
- "金瓶梅之偷情宝鉴": {
-  "en": "Jinpingmeizhitouqingbaojian",
-  "source": "wiki"
- },
  "钢铁骑士团": {
   "en": "Bible Master",
   "source": "wiki"
@@ -1950,6 +1822,10 @@
  "铁血联盟": {
   "en": "Jagged Alliance",
   "source": "wiki"
+ },
+ "铁路A计划+资料篇": {
+  "en": "A-Train",
+  "source": "bundle"
  },
  "银河帝国传": {
   "en": "The History of the Empires of the Milky Way",
@@ -1971,10 +1847,6 @@
   "en": "Counter Rebellion War Metal Jacket",
   "source": "wiki"
  },
- "闷绝性技王传说": {
-  "en": "Menjuexingjiwangchuanshuo",
-  "source": "wiki"
- },
  "阿曼尼斯传说3": {
   "en": "Amaranth III",
   "source": "wiki"
@@ -1987,10 +1859,6 @@
   "en": "Tower Of Mahjong",
   "source": "wiki"
  },
- "雪猫": {
-  "en": "Xuemao",
-  "source": "wiki"
- },
  "雷诺尼都纪事(迷城的国度)": {
   "en": "Revival Xanadu",
   "source": "wiki"
@@ -1999,24 +1867,12 @@
   "en": "Dies Irae",
   "source": "wiki"
  },
- "青少棒扬威记": {
-  "en": "Qingshaobangyangweiji",
-  "source": "wiki"
- },
- "青涩的果实": {
-  "en": "Qingsedeguoshi",
-  "source": "wiki"
- },
  "非洲探险": {
   "en": "Crazy Adventure in Africa",
   "source": "wiki"
  },
  "项刘记": {
   "en": "Rise of the Phoenix",
-  "source": "wiki"
- },
- "风云天下三国篇": {
-  "en": "Fengyuntianxiasanguopian",
   "source": "wiki"
  },
  "风雪江山": {
@@ -2041,10 +1897,6 @@
  },
  "高校魔影": {
   "en": "High School Devil's Shadow",
-  "source": "wiki"
- },
- "鬼马小英雄": {
-  "en": "Guimaxiaoyingxiong",
   "source": "wiki"
  },
  "魔兽大战略": {
@@ -2185,14 +2037,10 @@
  },
  "黑之断章": {
   "en": "The Literary Fragment",
-  "source": "wiki"
+  "source": "bundle"
  },
  "黑暗之蛊": {
   "en": "Dark Seed",
-  "source": "wiki"
- },
- "黑暗圣战录": {
-  "en": "Heianshengzhanlu",
   "source": "wiki"
  },
  "黑暗天使": {
@@ -2211,12 +2059,16 @@
   "en": "Dragon Three Kingdoms",
   "source": "wiki"
  },
- "龙霸天下": {
-  "en": "Longbatianxia",
-  "source": "wiki"
+ "神剑传说": {
+  "en": "Legend of the SWORD II - LIAR",
+  "source": "bundle"
  },
  "第13支局": {
   "en": "Bureau 13",
+  "source": "bundle"
+ },
+ "开膛手杰克": {
+  "en": "Ripper",
   "source": "bundle"
  },
  "星际迷航裁决仪式": {
@@ -2227,12 +2079,20 @@
   "en": "Tomb Raider",
   "source": "bundle"
  },
- "地球2140": {
-  "en": "Earth 2140",
+ "机器人崛起": {
+  "en": "Robots",
   "source": "bundle"
  },
- "铁路A计划+资料篇": {
-  "en": "A-Train",
+ "装甲元帅": {
+  "en": "Panzer General",
+  "source": "bundle"
+ },
+ "命令与征服": {
+  "en": "Tiberian Dawn",
+  "source": "bundle"
+ },
+ "地球2140": {
+  "en": "Earth 2140",
   "source": "bundle"
  },
  "凯撒大帝2": {
@@ -2245,6 +2105,10 @@
  },
  "异形残杀：万圣节哈利": {
   "en": "Halloween Harry",
+  "source": "bundle"
+ },
+ "蚯蚓吉姆": {
+  "en": "Earthworm Jim",
   "source": "bundle"
  },
  "1-0足球经理": {
@@ -3113,10 +2977,6 @@
  },
  "大富翁1": {
   "en": "Richman",
-  "source": "known"
- },
- "大富翁城市英雄": {
-  "en": "Chengshiyingxiongdafuweng",
   "source": "known"
  },
  "大战役": {

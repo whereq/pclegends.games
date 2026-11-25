@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "fu-er-mo-sha",
   collection: "dos-games",
   name: "福尔摩莎",
+  nameEn: "Formosa in China",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 153 files, 3.4 MB.",

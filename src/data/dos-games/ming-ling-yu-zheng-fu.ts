@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ming-ling-yu-zheng-fu",
   collection: "dos-games",
   name: "命令与征服",
+  nameEn: "Tiberian Dawn",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 44 files, 16.9 MB.",

@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "chun-qiu-zheng-ba-chuan-2",
   collection: "dos-games",
   name: "春秋争霸传2",
-  nameEn: "Chunqiuzhengbachuan2",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 152 files, 6.9 MB.",

@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "zhong-guan-cun-qi-shi-lu",
   collection: "dos-games",
   name: "中关村启示录",
-  nameEn: "Zhongguancunqishilu",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 75 files, 4.9 MB.",

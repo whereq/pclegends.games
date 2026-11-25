@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "san-guo-ying-xiong-zhuan",
   collection: "dos-games",
   name: "三国英雄传",
-  nameEn: "Sanguoyingxiongchuan",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 483 files, 17.7 MB.",

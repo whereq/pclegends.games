@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "meng-jian-po",
   collection: "dos-games",
   name: "梦见坡",
-  nameEn: "Mengjianpo",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 157 files, 6.2 MB.",

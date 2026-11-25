@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "zhong-yuan-biao-ju",
   collection: "dos-games",
   name: "中原镖局",
-  nameEn: "Zhongyuanbiaoju",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 175 files, 5.5 MB.",

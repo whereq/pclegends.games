@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "kai-tang-shou-jie-ke",
   collection: "dos-games",
   name: "开膛手杰克",
+  nameEn: "Ripper",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 135 files, 8.8 MB.",

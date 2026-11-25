@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "san-guo-feng-yun",
   collection: "dos-games",
   name: "三国风云",
-  nameEn: "Sanguofengyun",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 412 files, 11.1 MB.",

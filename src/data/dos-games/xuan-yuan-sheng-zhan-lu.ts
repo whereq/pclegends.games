@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "xuan-yuan-sheng-zhan-lu",
   collection: "dos-games",
   name: "轩辕圣战录",
-  nameEn: "Xuanyuanshengzhanlu",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 1,822 files, 129.3 MB.",

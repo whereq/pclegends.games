@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "xing-yue-qi-yuan",
   collection: "dos-games",
   name: "星月奇缘",
-  nameEn: "Xingyueqiyuan",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 647 files, 167.5 MB.",
