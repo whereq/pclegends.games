@@ -25580,6 +25580,7 @@ export const DOS_GAMES_INDEX: DosGameIndexEntry[] = [
     id: "mortal-kombat",
     name: "真人快打",
     nameEn: "Mortal Kombat",
+    image: "/img/dos-games/mortal-kombat.jpg",
     wiki: "https://en.wikipedia.org/wiki/Mortal_Kombat",
     year: "1993",
     size: 3128439,

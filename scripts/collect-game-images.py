@@ -106,6 +106,9 @@ CURATED = {
         'wikiUrl': 'https://en.wikipedia.org/wiki/Mortal_Kombat',
         'wikiZh': '真人快打系列',
         'wikiUrlZh': 'https://zh.wikipedia.org/wiki/%E7%9C%9F%E4%BA%BA%E5%BF%AB%E6%89%93%E7%B3%BB%E5%88%97',
+        # The logo the article carries: the game of that name, not the
+        # series, so the card shows the mark the arcade cabinet wore.
+        'image': 'https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Mortal_Kombat_Logo.svg/330px-Mortal_Kombat_Logo.svg.png',
     },
     'sha-qiu-mo-bao': {
         'wiki': 'Dune (video game)',
