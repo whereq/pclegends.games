@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "龙穴历险记",
   nameEn: "Dragon's Lair",
-  nameEnSource: "published",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 52 files, 3.6 MB.",

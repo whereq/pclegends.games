@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "巫术3",
   nameEn: "Wizardry III: Legacy of Llylgamyn",
-  nameEnSource: "published",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 7 files, 179 KB.",

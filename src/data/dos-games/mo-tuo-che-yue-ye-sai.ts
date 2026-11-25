@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-tuo-che-yue-ye-sai",
   collection: "dos-games",
   name: "摩托车越野赛",
+  nameEn: "Action SuperCross",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 214 files, 2.0 MB.",

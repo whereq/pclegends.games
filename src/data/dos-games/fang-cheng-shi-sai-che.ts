@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "fang-cheng-shi-sai-che",
   collection: "dos-games",
   name: "方程式赛车",
+  nameEn: "Grand Prix Circuit",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 66 files, 333 KB.",

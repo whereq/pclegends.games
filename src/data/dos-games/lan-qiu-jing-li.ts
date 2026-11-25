@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "lan-qiu-jing-li",
   collection: "dos-games",
   name: "篮球经理",
+  nameEn: "The Basket Manager",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 29 files, 212 KB.",

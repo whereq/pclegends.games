@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "无尽的黑暗",
   nameEn: "The Last Half of Darkness",
-  nameEnSource: "published",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2010 — 110 files, 681 KB.",

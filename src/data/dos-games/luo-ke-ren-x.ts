@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "luo-ke-ren-x",
   collection: "dos-games",
   name: "洛克人X",
+  nameEn: "Mega Man X",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 425 files, 3.2 MB.",

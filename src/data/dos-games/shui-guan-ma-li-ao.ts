@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shui-guan-ma-li-ao",
   collection: "dos-games",
   name: "水管马里奥",
+  nameEn: "Mario Bros.",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 4 files, 46 KB.",

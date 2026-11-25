@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "暗影武士",
   nameEn: "Shadow Warrior",
-  nameEnSource: "published",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 150 files, 108.4 MB.",

@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "奥尼大作战2",
   nameEn: "Arnie 2",
-  nameEnSource: "published",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 55 files, 359 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "si-te-la-qi-hao",
   collection: "dos-games",
   name: "斯特拉七号",
+  nameEn: "Stellar 7",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 34 files, 1.1 MB.",

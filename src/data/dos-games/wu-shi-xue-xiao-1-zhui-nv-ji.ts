@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "巫师学校1追女记",
   nameEn: "Spellcasting 101: Sorcerers Get All the Girls",
-  nameEnSource: "published",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 58 files, 2.4 MB.",

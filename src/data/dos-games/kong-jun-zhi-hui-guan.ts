@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "kong-jun-zhi-hui-guan",
   collection: "dos-games",
   name: "空军指挥官",
+  nameEn: "Air Force Commander",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 70 files, 400 KB.",

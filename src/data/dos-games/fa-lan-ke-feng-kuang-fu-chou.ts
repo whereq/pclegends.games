@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "fa-lan-ke-feng-kuang-fu-chou",
   collection: "dos-games",
   name: "法兰克疯狂复仇",
+  nameEn: "Franko: The Crazy Revenge",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 229 files, 2.3 MB.",

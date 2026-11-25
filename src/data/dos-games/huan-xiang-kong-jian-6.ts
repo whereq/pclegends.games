@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "幻想空间6",
   nameEn: "Leisure Suit Larry 6: Shape Up or Slip Out!",
-  nameEnSource: "published",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 94 files, 8.9 MB.",

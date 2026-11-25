@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "幻想空间3",
   nameEn: "Leisure Suit Larry III: Passionate Patti in Pursuit of the Pulsating Pectorals",
-  nameEnSource: "published",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 69 files, 2.6 MB.",

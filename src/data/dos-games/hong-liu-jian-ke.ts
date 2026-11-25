@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hong-liu-jian-ke",
   collection: "dos-games",
   name: "洪流剑客",
+  nameEn: "Zyclunt",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 12 files, 2.5 MB.",

@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "圣少女战队3",
   nameEn: "Lakers 3",
-  nameEnSource: "wiki",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 1,381 files, 10.2 MB.",

@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "异形方块",
   nameEn: "Alien Block",
-  nameEnSource: "wiki",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 111 files, 132 KB.",

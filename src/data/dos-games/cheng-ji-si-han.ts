@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "成吉思汗",
   nameEn: "Genghis Khan",
-  nameEnSource: "wiki",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1987 — 21 files, 419 KB.",

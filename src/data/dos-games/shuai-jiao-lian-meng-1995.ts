@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shuai-jiao-lian-meng-1995",
   collection: "dos-games",
   name: "摔角联盟1995",
+  nameEn: "WWF WrestleMania: The Arcade Game",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 116 files, 10.6 MB.",

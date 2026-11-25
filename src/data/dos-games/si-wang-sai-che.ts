@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "si-wang-sai-che",
   collection: "dos-games",
   name: "死亡赛车",
+  nameEn: "Deadly Racer",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 215 files, 2.9 MB.",

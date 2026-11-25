@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "巫师学校3春假",
   nameEn: "Spellcasting 301: Spring Break",
-  nameEnSource: "published",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 103 files, 4.4 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-cao-chu-gen",
   collection: "dos-games",
   name: "斩草除根",
+  nameEn: "Eradicator",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 91 files, 16.6 MB.",

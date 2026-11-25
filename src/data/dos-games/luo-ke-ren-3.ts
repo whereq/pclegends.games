@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "luo-ke-ren-3",
   collection: "dos-games",
   name: "洛克人3",
+  nameEn: "Mega Man 3",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 71 files, 295 KB.",

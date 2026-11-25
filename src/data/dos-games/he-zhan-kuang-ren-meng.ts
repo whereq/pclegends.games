@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "he-zhan-kuang-ren-meng",
   collection: "dos-games",
   name: "核战狂人梦",
+  nameEn: "Nuclear War",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 52 files, 556 KB.",

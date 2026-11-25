@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tu-ying-yi-an",
   collection: "dos-games",
   name: "秃鹰疑案",
+  nameEn: "The Case of the Cautious Condor",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2000 — 4 files, 282.6 MB.",

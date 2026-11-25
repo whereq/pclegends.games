@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wang-pai-qian-ting-zi-liao-pian",
   collection: "dos-games",
   name: "王牌潜艇+资料片",
+  nameEn: "Aces of the Deep",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 564 files, 7.7 MB.",

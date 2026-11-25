@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "国王密使1皇冠探求",
   nameEn: "King's Quest: Quest for the Crown",
-  nameEnSource: "published",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1987 — 24 files, 2.2 MB.",

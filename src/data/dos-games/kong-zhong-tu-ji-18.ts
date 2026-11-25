@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "kong-zhong-tu-ji-18",
   collection: "dos-games",
   name: "空中突击18",
+  nameEn: "18th Airborne",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 101 files, 1.3 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hong-huang-ge-dou",
   collection: "dos-games",
   name: "洪荒格斗",
+  nameEn: "Primal Rage",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 546 files, 94.6 MB.",

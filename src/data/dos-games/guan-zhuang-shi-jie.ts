@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "guan-zhuang-shi-jie",
   collection: "dos-games",
   name: "管状世界",
+  nameEn: "Tubeworld",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 112 files, 1.1 MB.",

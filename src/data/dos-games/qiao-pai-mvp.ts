@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "qiao-pai-mvp",
   collection: "dos-games",
   name: "桥牌MVP",
+  nameEn: "MVP Bridge",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 20 files, 241 KB.",

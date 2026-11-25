@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "布莱克之石异星突击",
   nameEn: "Blake Stone: Planet Strike",
-  nameEnSource: "published",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 30 files, 2.1 MB.",

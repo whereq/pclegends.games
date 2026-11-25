@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "di-yu-ye-feng-kuang",
   collection: "dos-games",
   name: "地狱也疯狂",
-  nameEn: "Crazy Hell",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 1,257 files, 10.5 MB.",

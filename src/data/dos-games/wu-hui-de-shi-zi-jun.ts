@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wu-hui-de-shi-zi-jun",
   collection: "dos-games",
   name: "无悔的十字军",
+  nameEn: "Crusader: No Remorse",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2007 — 64 files, 28.4 MB.",

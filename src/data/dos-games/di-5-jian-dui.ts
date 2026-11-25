@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "di-5-jian-dui",
   collection: "dos-games",
   name: "第5舰队",
+  nameEn: "5th Fleet",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 76 files, 5.7 MB.",

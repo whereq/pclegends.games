@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shu-xue-da-zuo-zhan",
   collection: "dos-games",
   name: "数学大作战",
+  nameEn: "Mega Math",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 35 files, 3.8 MB.",

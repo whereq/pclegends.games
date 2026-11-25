@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "da-shi-dai-de-gu-shi",
   collection: "dos-games",
   name: "大时代的故事",
-  nameEn: "Great Epochs History",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 148 files, 2.3 MB.",

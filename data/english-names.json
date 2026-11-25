@@ -17,15 +17,15 @@
  },
  "明星志愿1": {
   "en": "Stardom",
-  "source": "published"
+  "source": "bundle"
  },
  "三国志4": {
   "en": "Romance of the Three Kingdoms IV: Wall of Fire",
   "source": "published"
  },
  "金庸群侠传": {
-  "en": "Heroes of Jin Yong",
-  "source": "wiki"
+  "en": "All Heros of Kam Gung Storys",
+  "source": "bundle"
  },
  "轩辕剑1": {
   "en": "Xuan-Yuan Sword 1",
@@ -40,8 +40,8 @@
   "source": "published"
  },
  "轩辕剑外传：枫之舞": {
-  "en": "Xuan-Yuan Sword: Dance of Maple",
-  "source": "published"
+  "en": "Sword of Xuan Yuan II",
+  "source": "known"
  },
  "疯狂医院": {
   "en": "Crazy Doctor",
@@ -87,10 +87,6 @@
   "en": "The Rising Dynasty",
   "source": "bundle"
  },
- "三界谕邦沛之迷": {
-  "en": "Three Realms encyclical: Bangpei Mystery",
-  "source": "published"
- },
  "殖民计划": {
   "en": "Colonial plan",
   "source": "published"
@@ -100,8 +96,8 @@
   "source": "published"
  },
  "倚天屠龙记": {
-  "en": "Heavenly Sword Dragon Slaying Sabe",
-  "source": "published"
+  "en": "Heaven Sword and Dragon Saber",
+  "source": "known"
  },
  "信长之野望天翔记": {
   "en": "Nobunaga no Yabō: Tenshōki",
@@ -152,8 +148,8 @@
   "source": "published"
  },
  "天使帝国": {
-  "en": "Angel Empire",
-  "source": "published"
+  "en": "Empire of Angels",
+  "source": "known"
  },
  "魔域传说4波斯战记": {
   "en": "First Queen 4",
@@ -165,7 +161,7 @@
  },
  "A320空中客机": {
   "en": "A320 Airbus",
-  "source": "published"
+  "source": "bundle"
  },
  "B17飞行堡垒": {
   "en": "B-17 Flying Fortress",
@@ -173,11 +169,11 @@
  },
  "阿蕾莎冰封世界": {
   "en": "Aleshar: The World of Ice",
-  "source": "published"
+  "source": "bundle"
  },
  "阿曼尼开国启示录": {
   "en": "Amaranth KH",
-  "source": "published"
+  "source": "bundle"
  },
  "艾薇拉": {
   "en": "Elvira: Mistress of the Dark",
@@ -201,31 +197,31 @@
  },
  "暗狼(共享版)": {
   "en": "Darkwolf",
-  "source": "published"
+  "source": "bundle"
  },
  "暗色": {
   "en": "Darker",
-  "source": "published"
+  "source": "bundle"
  },
  "暗影武士": {
   "en": "Shadow Warrior",
-  "source": "published"
+  "source": "bundle"
  },
  "暗影之地": {
   "en": "Shadowlands",
-  "source": "published"
+  "source": "bundle"
  },
  "暗影之力": {
   "en": "ShadowForce",
-  "source": "published"
+  "source": "bundle"
  },
  "暗之纹章": {
   "en": "Menzoberranzan",
-  "source": "published"
+  "source": "bundle"
  },
  "奥尼大作战2": {
   "en": "Arnie 2",
-  "source": "published"
+  "source": "bundle"
  },
  "巴克罗杰矩阵立方": {
   "en": "Buck Rogers: Matrix Cubed",
@@ -241,11 +237,11 @@
  },
  "棒球大联盟3": {
   "en": "HardBall III",
-  "source": "published"
+  "source": "bundle"
  },
  "棒球大联盟4": {
-  "en": "HardBall IV",
-  "source": "published"
+  "en": "HardBall 4",
+  "source": "bundle"
  },
  "冰城传奇": {
   "en": "The Bard's Tale",
@@ -264,12 +260,12 @@
   "source": "published"
  },
  "博物馆惊魂夜": {
-  "en": "Museum Interactive Computer Kiosk",
-  "source": "published"
+  "en": "Museum Madness",
+  "source": "bundle"
  },
  "捕猎行动": {
   "en": "Still Hunt",
-  "source": "published"
+  "source": "known"
  },
  "不给糖就捣蛋": {
   "en": "Trick or Treat",
@@ -293,7 +289,7 @@
  },
  "布莱克之石异星突击": {
   "en": "Blake Stone: Planet Strike",
-  "source": "published"
+  "source": "known"
  },
  "超级玛丽": {
   "en": "Mario & Luigi",
@@ -313,7 +309,7 @@
  },
  "德军总部": {
   "en": "Castle Wolfenstein",
-  "source": "published"
+  "source": "bundle"
  },
  "德军总部MOD-黎明": {
   "en": "Wolfenstein 3D Dawn",
@@ -321,23 +317,23 @@
  },
  "底特律汽车大亨": {
   "en": "Detroit",
-  "source": "published"
+  "source": "bundle"
  },
  "地下创世纪": {
   "en": "Ultima Underworld: The Stygian Abyss",
-  "source": "published"
+  "source": "known"
  },
  "地下创世纪2": {
   "en": "Ultima Underworld II: Labyrinth of Worlds",
   "source": "published"
  },
  "第3日龙之力量": {
-  "en": "Dragon Force: Day 3",
-  "source": "published"
+  "en": "Dragon Force",
+  "source": "bundle"
  },
  "第4日伊卡洛斯": {
-  "en": "The Day 4: Icarus",
-  "source": "published"
+  "en": "Icarus 4",
+  "source": "bundle"
  },
  "第5日龙机突击": {
   "en": "The Day 5: Assault Dragon",
@@ -392,8 +388,8 @@
   "source": "published"
  },
  "古大陆物语5光盘版": {
-  "en": "Farland Story 5 CD Version",
-  "source": "published"
+  "en": "Farland Story 5",
+  "source": "known"
  },
  "鬼屋魔影": {
   "en": "Alone in the Dark",
@@ -409,7 +405,7 @@
  },
  "国王密使1皇冠探求": {
   "en": "King's Quest: Quest for the Crown",
-  "source": "published"
+  "source": "known"
  },
  "国王密使2皇家罗曼史": {
   "en": "King's Quest II: Romancing the Throne",
@@ -417,11 +413,11 @@
  },
  "国王密使3魔法生死门": {
   "en": "King's Quest III: To Heir is Human",
-  "source": "published"
+  "source": "bundle"
  },
  "国王密使4罗塞拉冒险": {
   "en": "King's Quest IV: The Perils of Rosella",
-  "source": "published"
+  "source": "known"
  },
  "国王密使5失城记": {
   "en": "King's Quest V: Absence Makes the Heart Go Yonder",
@@ -433,7 +429,7 @@
  },
  "撼天神塔": {
   "en": "Brandish",
-  "source": "published"
+  "source": "known"
  },
  "撼天神塔2": {
   "en": "Brandish 2: The Planet Buster",
@@ -456,20 +452,20 @@
   "source": "published"
  },
  "幻想空间2": {
-  "en": "Leisure Suit Larry Goes Looking for Love (in Several Wrong Places)",
-  "source": "published"
+  "en": "Leisure Suit Larry II",
+  "source": "bundle"
  },
  "幻想空间3": {
   "en": "Leisure Suit Larry III: Passionate Patti in Pursuit of the Pulsating Pectorals",
-  "source": "published"
+  "source": "known"
  },
  "幻想空间5": {
   "en": "Leisure Suit Larry 5: Passionate Patti Does a Little Undercover Work",
-  "source": "published"
+  "source": "known"
  },
  "幻想空间6": {
   "en": "Leisure Suit Larry 6: Shape Up or Slip Out!",
-  "source": "published"
+  "source": "known"
  },
  "吉尔在丛林": {
   "en": "Jill of the Jungle",
@@ -501,11 +497,11 @@
  },
  "凯兰蒂亚传奇": {
   "en": "The Legend of Kyrandia",
-  "source": "published"
+  "source": "bundle"
  },
  "凯兰蒂亚传奇2": {
-  "en": "The Legend of Kyrandia: Hand of Fate",
-  "source": "published"
+  "en": "The Legend of Kyrandia 2: Hand of Fate",
+  "source": "known"
  },
  "龙骑士3": {
   "en": "Knights of Xentar",
@@ -517,15 +513,15 @@
  },
  "龙穴历险记": {
   "en": "Dragon's Lair",
-  "source": "published"
+  "source": "bundle"
  },
  "龙穴历险记2": {
   "en": "Dragon's Lair II: Time Warp",
-  "source": "published"
+  "source": "known"
  },
  "龙穴历险记3": {
   "en": "Dragon's Lair III: The Curse of Mordread",
-  "source": "published"
+  "source": "bundle"
  },
  "麻雀幻想曲2": {
   "en": "Mahjong Fantasia 2",
@@ -573,7 +569,7 @@
  },
  "女皇杯(日)": {
   "en": "Queen's Cup",
-  "source": "published"
+  "source": "known"
  },
  "荣耀之路1": {
   "en": "Quest for Glory I: So You Want To Be A Hero",
@@ -596,8 +592,8 @@
   "source": "published"
  },
  "上古卷轴1豪华版": {
-  "en": "The Elder Scrolls: Arena Deluxe Edition",
-  "source": "published"
+  "en": "The Elder Scrolls: Arena",
+  "source": "known"
  },
  "上古卷轴2匕首雨": {
   "en": "The Elder Scrolls II: Daggerfall",
@@ -633,43 +629,43 @@
  },
  "顽皮小精灵": {
   "en": "Gobliiins",
-  "source": "published"
+  "source": "bundle"
  },
  "顽皮小精灵2": {
-  "en": "Gobliins 2: The Prince Buffoon",
-  "source": "published"
+  "en": "Gobliins 2",
+  "source": "bundle"
  },
  "顽皮小精灵3": {
-  "en": "Gobliiins 3: Goblins Quest 3",
-  "source": "published"
+  "en": "Goblins 3",
+  "source": "bundle"
  },
  "巫师学校1追女记": {
   "en": "Spellcasting 101: Sorcerers Get All the Girls",
-  "source": "published"
+  "source": "bundle"
  },
  "巫师学校2入学记": {
   "en": "Spellcasting 201: The Sorcerer's Appliance",
-  "source": "published"
+  "source": "bundle"
  },
  "巫师学校3春假": {
   "en": "Spellcasting 301: Spring Break",
-  "source": "published"
+  "source": "known"
  },
  "巫术1": {
   "en": "Wizardry: Proving Grounds of the Mad Overlord",
-  "source": "published"
+  "source": "bundle"
  },
  "巫术2": {
   "en": "Wizardry II: The Knight of Diamonds",
-  "source": "published"
+  "source": "known"
  },
  "巫术3": {
   "en": "Wizardry III: Legacy of Llylgamyn",
-  "source": "published"
+  "source": "known"
  },
  "巫术4": {
   "en": "Wizardry IV: The Return of Werdna",
-  "source": "published"
+  "source": "known"
  },
  "巫术5": {
   "en": "Wizardry V: Heart of the Maelstrom",
@@ -677,7 +673,7 @@
  },
  "巫术6": {
   "en": "Wizardry VI: Bane of the Cosmic Forge",
-  "source": "published"
+  "source": "known"
  },
  "巫术7失落的加帝亚": {
   "en": "Wizardry VII: Crusaders of the Dark Savant",
@@ -685,15 +681,15 @@
  },
  "无尽的黑暗": {
   "en": "The Last Half of Darkness",
-  "source": "published"
+  "source": "bundle"
  },
  "无尽的黑暗2": {
   "en": "The Last Half of Darkness II",
-  "source": "published"
+  "source": "known"
  },
  "无尽的黑暗3": {
   "en": "The Last Half of Darkness III",
-  "source": "published"
+  "source": "bundle"
  },
  "武将争霸": {
   "en": "Sango Fighter",
@@ -725,31 +721,31 @@
  },
  "野人生存": {
   "en": "Clonk",
-  "source": "published"
+  "source": "bundle"
  },
  "野人生存2": {
-  "en": "Clonk 2: Debakel",
-  "source": "published"
+  "en": "Clonk A.P.E.",
+  "source": "bundle"
  },
  "野人生存3": {
-  "en": "Clonk 3: Radikal",
-  "source": "published"
+  "en": "Clonk 3.4 Radikal",
+  "source": "bundle"
  },
  "医生也疯狂": {
   "en": "Life & Death",
-  "source": "published"
+  "source": "bundle"
  },
  "医生也疯狂2": {
   "en": "Life & Death 2: The Brain",
-  "source": "published"
+  "source": "known"
  },
  "遗迹1死亡守望": {
-  "en": "Ancients 1: Death Watch",
-  "source": "published"
+  "en": "Ancients I: The Deathwatch",
+  "source": "known"
  },
  "遗迹2邪恶临近": {
   "en": "Ancients II: Approaching Evil",
-  "source": "published"
+  "source": "known"
  },
  "以撒1英雄堡垒": {
   "en": "Ishar: Legend of the Fortress",
@@ -791,17 +787,13 @@
   "en": "Super Girl",
   "source": "bundle"
  },
- "ES方程式": {
-  "en": "Es no Houteishiki",
-  "source": "known"
- },
  "PSY幽记": {
   "en": "Manji",
   "source": "bundle"
  },
  "RS2": {
-  "en": "RS-2",
-  "source": "wiki"
+  "en": "RS2",
+  "source": "bundle"
  },
  "YES！HG": {
   "en": "YES!HG",
@@ -813,7 +805,7 @@
  },
  "七英雄物语2": {
   "en": "Nanaei 2",
-  "source": "wiki"
+  "source": "known"
  },
  "七英雄物语": {
   "en": "Nanaei",
@@ -824,8 +816,8 @@
   "source": "wiki"
  },
  "三姐妹": {
-  "en": "Three Sisters' Sotry",
-  "source": "wiki"
+  "en": "Three Sisters' Story",
+  "source": "bundle"
  },
  "上古神兵": {
   "en": "Conquered Kingdoms",
@@ -836,20 +828,20 @@
   "source": "bundle"
  },
  "上帝": {
-  "en": "The God",
-  "source": "wiki"
+  "en": "God",
+  "source": "bundle"
  },
  "世纪末商业革命": {
-  "en": "The Supreme Corporation",
-  "source": "wiki"
+  "en": "The Superme Corporation",
+  "source": "bundle"
  },
  "中华职棒": {
-  "en": "Chinese Professional Baseball 2",
-  "source": "wiki"
+  "en": "Chinese Professional Baseball",
+  "source": "known"
  },
  "中国": {
-  "en": "Everlasting Empire- China",
-  "source": "wiki"
+  "en": "Everlasting Empire",
+  "source": "known"
  },
  "主题公园光碟版": {
   "en": "Theme Park",
@@ -858,10 +850,6 @@
  "丽兽": {
   "en": "Twin Road",
   "source": "bundle"
- },
- "乱世伏魔录": {
-  "en": "Exorcise in the Chaotic World",
-  "source": "wiki"
  },
  "人间道少年燕赤霞": {
   "en": "Tao",
@@ -872,20 +860,12 @@
   "source": "bundle"
  },
  "伊忍道": {
-  "en": "Inindo - Way of Ninja",
-  "source": "wiki"
- },
- "侠客英雄传3": {
-  "en": "Knight Heroes3",
-  "source": "wiki"
+  "en": "Inindo: Way of the Ninja",
+  "source": "known"
  },
  "侠客英雄传": {
   "en": "Paladin of the Ancient China",
   "source": "bundle"
- },
- "侠影记": {
-  "en": "Heros Shadow",
-  "source": "wiki"
  },
  "光明圣使团": {
   "en": "Mission",
@@ -896,20 +876,16 @@
   "source": "bundle"
  },
  "冥界幻姬": {
-  "en": "The Ghosts",
-  "source": "wiki"
+  "en": "GHOST",
+  "source": "bundle"
  },
  "决战俄罗斯": {
   "en": "Face to Face",
   "source": "wiki"
  },
- "决战皇陵": {
-  "en": "Battle of the Imperial Tombs",
-  "source": "wiki"
- },
  "创世弹珠台": {
   "en": "Tsumera",
-  "source": "wiki"
+  "source": "bundle"
  },
  "创世机神": {
   "en": "Cyber Guardian",
@@ -923,13 +899,9 @@
   "en": "Legends of Valour",
   "source": "bundle"
  },
- "勇者传说": {
-  "en": "Heroes of Legends",
-  "source": "wiki"
- },
  "勇者斗恶龙2": {
-  "en": "Dragon Fighter 2",
-  "source": "wiki"
+  "en": "Dragon Fighter II",
+  "source": "bundle"
  },
  "勇者斗恶龙": {
   "en": "Dragon Fighter",
@@ -939,16 +911,8 @@
   "en": "Ambush at Sorinor",
   "source": "bundle"
  },
- "华丽人生2": {
-  "en": "Karei naru Jinsei 2",
-  "source": "wiki"
- },
  "卒业": {
   "en": "Graduation",
-  "source": "wiki"
- },
- "卒业旅行": {
-  "en": "Zuyelüxing",
   "source": "wiki"
  },
  "南极冰怪": {
@@ -961,7 +925,7 @@
  },
  "卡通快打": {
   "en": "Pee & Gity",
-  "source": "wiki"
+  "source": "known"
  },
  "危机特勤组": {
   "en": "A.D Cop",
@@ -971,25 +935,17 @@
   "en": "Lord Of Ancient Kingdom",
   "source": "wiki"
  },
- "台海防卫战": {
-  "en": "Taiwan Defense",
-  "source": "wiki"
- },
- "台湾模拟选战": {
-  "en": "Taiwan Elections Simulator",
-  "source": "wiki"
- },
  "同级生2": {
-  "en": "NANPA 2",
-  "source": "wiki"
+  "en": "Nanpa 2",
+  "source": "known"
  },
  "吞食天地2": {
-  "en": "Devour World 2",
-  "source": "wiki"
+  "en": "Sangoku 2",
+  "source": "known"
  },
  "吞食天地3": {
-  "en": "Devour World 3",
-  "source": "wiki"
+  "en": "Sango 3",
+  "source": "known"
  },
  "吞食天地4": {
   "en": "Devour World 4",
@@ -997,7 +953,7 @@
  },
  "噗噗闯通关": {
   "en": "Bubu",
-  "source": "wiki"
+  "source": "bundle"
  },
  "四川省3": {
   "en": "Sichuan Province3",
@@ -1021,27 +977,23 @@
  },
  "圣少女战队2": {
   "en": "Lakers 2",
-  "source": "wiki"
+  "source": "known"
  },
  "圣少女战队3": {
   "en": "Lakers 3",
-  "source": "wiki"
+  "source": "known"
  },
  "圣少女战队": {
   "en": "Lakers",
-  "source": "wiki"
+  "source": "known"
  },
  "圣战录": {
   "en": "Ash",
-  "source": "wiki"
+  "source": "bundle"
  },
  "圣战物语": {
   "en": "Duel Succession",
-  "source": "wiki"
- },
- "地狱也疯狂": {
-  "en": "Crazy Hell",
-  "source": "wiki"
+  "source": "bundle"
  },
  "坦克大决战": {
   "en": "Battle Europe",
@@ -1055,13 +1007,9 @@
   "en": "Traders",
   "source": "wiki"
  },
- "大兵日记": {
-  "en": "Soldier Diary",
-  "source": "wiki"
- },
  "大地传说黑暗王座": {
-  "en": "Lands of Lore- Throne of Chaos",
-  "source": "wiki"
+  "en": "Lands of Lore: Throne of Chaos",
+  "source": "known"
  },
  "大富翁2": {
   "en": "Richman 2",
@@ -1071,20 +1019,12 @@
   "en": "Richman",
   "source": "wiki"
  },
- "大富翁环游世界": {
-  "en": "Monopoly Around the World",
-  "source": "wiki"
- },
  "大战略": {
   "en": "Battle Commander II - The World War",
   "source": "wiki"
  },
  "大战略SP": {
   "en": "The World War Commander in Chief",
-  "source": "wiki"
- },
- "大时代的故事": {
-  "en": "Great Epochs History",
   "source": "wiki"
  },
  "大明英雄传": {
@@ -1100,8 +1040,8 @@
   "source": "wiki"
  },
  "天使帝国2": {
-  "en": "Empire of Angels 2",
-  "source": "wiki"
+  "en": "Empire of Angels II",
+  "source": "known"
  },
  "天地无用": {
   "en": "TENCHIMUYO!RYO-OHKI",
@@ -1111,13 +1051,9 @@
   "en": "Genius",
   "source": "bundle"
  },
- "天晴传": {
-  "en": "Kingngchuan",
-  "source": "wiki"
- },
  "天蚕变": {
   "en": "Silk",
-  "source": "wiki"
+  "source": "bundle"
  },
  "天龙八部": {
   "en": "Demi-Gods and Semi-Devils",
@@ -1129,15 +1065,11 @@
  },
  "太空鲁宾逊": {
   "en": "Robinson's Requiem",
-  "source": "wiki"
+  "source": "bundle"
  },
  "失落的大地": {
   "en": "The Story of Atria Land",
   "source": "bundle"
- },
- "失落的封印": {
-  "en": "Lost Seal",
-  "source": "wiki"
  },
  "头号通缉犯": {
   "en": "The Most Wanted Man",
@@ -1145,10 +1077,6 @@
  },
  "奇门遁甲之九五真龙": {
   "en": "Ming - Born Emperor",
-  "source": "wiki"
- },
- "如来金刚拳传奇": {
-  "en": "Legend Of Power Book",
   "source": "wiki"
  },
  "妙狐神探": {
@@ -1171,20 +1099,8 @@
   "en": "The Millionaire of Three Kingdoms",
   "source": "wiki"
  },
- "富贵列车": {
-  "en": "Millionaires' Express",
-  "source": "wiki"
- },
  "射雕英雄传": {
   "en": "The Legend of the Condor Heroes",
-  "source": "wiki"
- },
- "小沙弥": {
-  "en": "Little Monk",
-  "source": "wiki"
- },
- "巴士帝国": {
-  "en": "Bus Empire",
   "source": "wiki"
  },
  "帝国的光荣": {
@@ -1192,8 +1108,8 @@
   "source": "wiki"
  },
  "幻世喜谭": {
-  "en": "Gensei Kitan - Disc Saga III",
-  "source": "wiki"
+  "en": "Gensei Kitan",
+  "source": "known"
  },
  "幻想奇侠传": {
   "en": "Huanxiangqixiachuan",
@@ -1209,7 +1125,7 @@
  },
  "异形方块": {
   "en": "Alien Block",
-  "source": "wiki"
+  "source": "known"
  },
  "异星搜奇": {
   "en": "The Dig",
@@ -1219,21 +1135,9 @@
   "en": "Galaxy Commando",
   "source": "bundle"
  },
- "异次元之旅": {
-  "en": "Maan",
-  "source": "bundle"
- },
  "快打至尊": {
   "en": "Super Fighter",
   "source": "bundle"
- },
- "性感战士": {
-  "en": "Sexy Fighter",
-  "source": "wiki"
- },
- "恐龙世纪": {
-  "en": "Dinosaurs Century",
-  "source": "wiki"
  },
  "恶魔禁地": {
   "en": "Veil of Darkness",
@@ -1241,39 +1145,35 @@
  },
  "成吉思汗": {
   "en": "Genghis Khan",
-  "source": "wiki"
+  "source": "known"
  },
  "战地大亨": {
   "en": "King-Men",
   "source": "bundle"
  },
  "战神2": {
-  "en": "Warlords 2",
-  "source": "wiki"
- },
- "扑克俱乐部": {
-  "en": "Poker Club",
-  "source": "wiki"
+  "en": "Warlords II",
+  "source": "known"
  },
  "拂晓攻击": {
   "en": "Down Raider",
   "source": "wiki"
  },
  "摇滚少林之七侠五义": {
-  "en": "The Legend of the Seven Paladines",
-  "source": "wiki"
+  "en": "Legend of Seven Paladins 3D",
+  "source": "bundle"
  },
  "新世纪兴亡史": {
   "en": "Dead Force",
   "source": "wiki"
  },
  "新美女拳": {
-  "en": "SR907 Mission Impossible",
-  "source": "wiki"
+  "en": "Beauty and Fist",
+  "source": "bundle"
  },
  "无名指的教科书": {
-  "en": "A text book of Ring Finger",
-  "source": "wiki"
+  "en": "A Textbook of Ring Finger",
+  "source": "known"
  },
  "无声狂啸": {
   "en": "I Have No Mouth, and I Must Scream",
@@ -1287,21 +1187,17 @@
   "en": "Eclipse",
   "source": "bundle"
  },
- "时空异变": {
-  "en": "Space-Time Mutation",
-  "source": "wiki"
- },
  "时空特勤组": {
   "en": "Time Circle",
-  "source": "wiki"
+  "source": "known"
  },
  "明日之星2": {
-  "en": "Star Maker2",
-  "source": "wiki"
+  "en": "Star Maker 2",
+  "source": "known"
  },
  "明日之星": {
   "en": "Star Maker",
-  "source": "wiki"
+  "source": "known"
  },
  "明星志愿": {
   "en": "Stardom",
@@ -1348,24 +1244,24 @@
   "source": "wiki"
  },
  "楚汉之争2": {
-  "en": "King of the Dragon Land2",
-  "source": "wiki"
+  "en": "King of Dragonland II",
+  "source": "bundle"
  },
  "楚汉之争": {
-  "en": "King Of The Dragon Land",
-  "source": "wiki"
+  "en": "King of Dragonland",
+  "source": "known"
  },
  "模拟农场": {
   "en": "Sim Farm",
   "source": "wiki"
  },
  "模拟动物园": {
-  "en": "Simulation Zoo",
-  "source": "wiki"
+  "en": "Zoo Simulation",
+  "source": "bundle"
  },
  "模拟大楼": {
-  "en": "HR2",
-  "source": "wiki"
+  "en": "HR2 the Simulator",
+  "source": "bundle"
  },
  "欢乐城市": {
   "en": "Happy City",
@@ -1437,7 +1333,7 @@
  },
  "波斯王子2": {
   "en": "Prince of Persia 2",
-  "source": "wiki"
+  "source": "bundle"
  },
  "激斗战士": {
   "en": "Fighter",
@@ -1588,24 +1484,20 @@
   "source": "wiki"
  },
  "笑傲江湖": {
-  "en": "Swordsman",
-  "source": "wiki"
- },
- "精灵幻界": {
-  "en": "Spirit Fantasy World",
-  "source": "wiki"
+  "en": "The Smiling Proud Wanderer",
+  "source": "known"
  },
  "精灵物语": {
   "en": "Elf Story",
   "source": "wiki"
  },
  "红楼梦之十二金钗": {
-  "en": "The dream of red chamber",
-  "source": "wiki"
+  "en": "Dream of the Red Chamber",
+  "source": "known"
  },
  "红色诱惑": {
   "en": "RED",
-  "source": "wiki"
+  "source": "bundle"
  },
  "终极任务": {
   "en": "Ultimate mission",
@@ -1616,12 +1508,12 @@
   "source": "bundle"
  },
  "绝代双骄": {
-  "en": "The Twin Heroes",
-  "source": "wiki"
+  "en": "The Proud Twins",
+  "source": "known"
  },
  "绝地-众神的诅咒": {
   "en": "Heaven's Dawn",
-  "source": "wiki"
+  "source": "bundle"
  },
  "绝地风暴": {
   "en": "KKnD",
@@ -1640,12 +1532,12 @@
   "source": "bundle"
  },
  "美女终结者": {
-  "en": "Beauty Terminator",
-  "source": "wiki"
+  "en": "LOVE",
+  "source": "bundle"
  },
  "美少女战记": {
-  "en": "Pretty Girl Campaign",
-  "source": "wiki"
+  "en": "Beauty Girl",
+  "source": "known"
  },
  "美少女扑克": {
   "en": "Girl Pocker",
@@ -1680,11 +1572,11 @@
   "source": "wiki"
  },
  "英雄圣战": {
-  "en": "Heroric Saga",
-  "source": "wiki"
+  "en": "Heroic Saga",
+  "source": "known"
  },
  "荡魔平妖志": {
-  "en": "Wrath of the Demon",
+  "en": "Wrath",
   "source": "bundle"
  },
  "蓝色石榴石": {
@@ -1700,8 +1592,8 @@
   "source": "bundle"
  },
  "西游记": {
-  "en": "Journey to the West",
-  "source": "wiki"
+  "en": "The Journey to the West",
+  "source": "bundle"
  },
  "诞生": {
   "en": "Debut",
@@ -1716,8 +1608,8 @@
   "source": "wiki"
  },
  "赤壁之战": {
-  "en": "Red Cliff Battle",
-  "source": "wiki"
+  "en": "Battle of Red Cliffs",
+  "source": "known"
  },
  "超人战记": {
   "en": "Heroic Poetry - Super Mars",
@@ -1728,16 +1620,16 @@
   "source": "wiki"
  },
  "超未来少女": {
-  "en": "Foresight Dolly",
-  "source": "wiki"
+  "en": "Dolly",
+  "source": "bundle"
  },
  "超级大富翁": {
   "en": "Super Monopoly",
   "source": "wiki"
  },
  "轩辕剑外传枫之舞": {
-  "en": "Sword of Xuan Yuan II (Legend)- Dance of Maple Leaves",
-  "source": "wiki"
+  "en": "Sword of Xuan Yuan II",
+  "source": "known"
  },
  "转校生": {
   "en": "Tenkou",
@@ -1749,14 +1641,6 @@
  },
  "逆玉王": {
   "en": "Wedding Errantry",
-  "source": "wiki"
- },
- "选举风云": {
-  "en": "Taiwan Vote",
-  "source": "wiki"
- },
- "邪神": {
-  "en": "Evil God",
   "source": "wiki"
  },
  "邪神传说": {
@@ -1800,15 +1684,11 @@
   "source": "bundle"
  },
  "银河英雄": {
-  "en": "Bounty Troop the Recovery of Planet Hammer",
-  "source": "wiki"
+  "en": "Bounty Troop",
+  "source": "bundle"
  },
  "银河英雄传说4EX": {
   "en": "Space War Simulation 4 EX",
-  "source": "wiki"
- },
- "镇暴特遣队": {
-  "en": "Counter Rebellion War Metal Jacket",
   "source": "wiki"
  },
  "阿曼尼斯传说3": {
@@ -1817,7 +1697,7 @@
  },
  "阿猫阿狗": {
   "en": "Tun Town",
-  "source": "wiki"
+  "source": "known"
  },
  "雀之塔": {
   "en": "Tower of Mahjong",
@@ -1828,12 +1708,12 @@
   "source": "known"
  },
  "雷诺尼都纪事(迷城的国度)": {
-  "en": "Xanadu",
-  "source": "bundle"
+  "en": "Revival Xanadu",
+  "source": "known"
  },
  "霹雳娇娃": {
   "en": "Dies Irae",
-  "source": "wiki"
+  "source": "known"
  },
  "青少棒扬威记": {
   "en": "Virtual Reality Baseball",
@@ -1871,10 +1751,6 @@
   "en": "Monk",
   "source": "bundle"
  },
- "魔兽大战略": {
-  "en": "Mo Shou Da Zhan Lue",
-  "source": "wiki"
- },
  "魔宫救美宝石": {
   "en": "PAB",
   "source": "bundle"
@@ -1885,7 +1761,7 @@
  },
  "魔术彩球": {
   "en": "X-ROCK",
-  "source": "wiki"
+  "source": "known"
  },
  "魔栈": {
   "en": "Evil Gate",
@@ -1893,7 +1769,7 @@
  },
  "魔武王": {
   "en": "Dark Knight Saga",
-  "source": "wiki"
+  "source": "known"
  },
  "魔法世纪2": {
   "en": "Magic Century 2",
@@ -1916,8 +1792,8 @@
   "source": "wiki"
  },
  "魔法门3幻岛历险记": {
-  "en": "Might and Magic 3 - Isles of Terra",
-  "source": "wiki"
+  "en": "Might and Magic III: Isles of Terra",
+  "source": "known"
  },
  "魔法门英雄无敌2": {
   "en": "Heroes of Might and Magic II",
@@ -1975,12 +1851,8 @@
   "en": "Quintia Road 2",
   "source": "wiki"
  },
- "麻将争霸": {
-  "en": "MAJAN",
-  "source": "bundle"
- },
  "麻将大师": {
-  "en": "The Mahjong Master",
+  "en": "Mahjong Master",
   "source": "bundle"
  },
  "麻将情趣屋2": {
@@ -2008,8 +1880,8 @@
   "source": "bundle"
  },
  "齐天大圣": {
-  "en": "Xiyoujiqitiandashengpian",
-  "source": "wiki"
+  "en": "Monkey King",
+  "source": "known"
  },
  "龙之传奇": {
   "en": "The Legend of Dragon",
@@ -3803,6 +3675,162 @@
   "en": "Commander Keen in Secret of the Oracle",
   "source": "known"
  },
+ "指挥官基恩2": {
+  "en": "Commander Keen 2",
+  "source": "known"
+ },
+ "指挥官基恩3": {
+  "en": "Commander Keen 3",
+  "source": "bundle"
+ },
+ "指挥官基恩3.5": {
+  "en": "Commander Keen in Keen Dreams",
+  "source": "known"
+ },
+ "指挥官基恩4": {
+  "en": "Commander Keen 4",
+  "source": "bundle"
+ },
+ "指挥官基恩5": {
+  "en": "Commander Keen 5",
+  "source": "known"
+ },
+ "指挥官基恩6": {
+  "en": "Commander Keen 6",
+  "source": "known"
+ },
+ "指挥官基恩7民间版": {
+  "en": "Commander Keen 7",
+  "source": "bundle"
+ },
+ "指挥官基恩8民间版": {
+  "en": "Commander Keen 8",
+  "source": "bundle"
+ },
+ "指挥官基恩9民间版": {
+  "en": "Commander Keen 9",
+  "source": "known"
+ },
+ "指环王": {
+  "en": "The Lord of the Rings, Volume One",
+  "source": "known"
+ },
+ "指环王2": {
+  "en": "The Lord of the Rings, Volume Two: The Two Towers",
+  "source": "bundle"
+ },
+ "捉鬼敢死队2": {
+  "en": "Ghostbusters II",
+  "source": "bundle"
+ },
+ "掘金者": {
+  "en": "Diggers",
+  "source": "bundle"
+ },
+ "掘金者2": {
+  "en": "Extractors",
+  "source": "bundle"
+ },
+ "提尔战机": {
+  "en": "Tyrian",
+  "source": "bundle"
+ },
+ "提尔战机2000": {
+  "en": "Tyrian 2000",
+  "source": "bundle"
+ },
+ "摔角联盟1995": {
+  "en": "WWF WrestleMania: The Arcade Game",
+  "source": "known"
+ },
+ "摩托城市": {
+  "en": "Motor City",
+  "source": "bundle"
+ },
+ "摩托车越野赛": {
+  "en": "Action SuperCross",
+  "source": "bundle"
+ },
+ "摩登原始人": {
+  "en": "The Flintstones",
+  "source": "known"
+ },
+ "擂台美少女／天使摔角": {
+  "en": "Angel",
+  "source": "bundle"
+ },
+ "支配力量": {
+  "en": "Ascendancy",
+  "source": "bundle"
+ },
+ "放射博士的城堡": {
+  "en": "The Fortress of Dr. Radiaki",
+  "source": "bundle"
+ },
+ "教父": {
+  "en": "The Godfather",
+  "source": "bundle"
+ },
+ "数学大作战": {
+  "en": "Mega Math",
+  "source": "bundle"
+ },
+ "文明": {
+  "en": "Civilization",
+  "source": "bundle"
+ },
+ "斗神传": {
+  "en": "Battle Arena Toshinden",
+  "source": "bundle"
+ },
+ "斩草除根": {
+  "en": "Eradicator",
+  "source": "bundle"
+ },
+ "斯大林格勒": {
+  "en": "Stalingrad",
+  "source": "bundle"
+ },
+ "斯特拉七号": {
+  "en": "Stellar 7",
+  "source": "known"
+ },
+ "斯科奇赛": {
+  "en": "Scorcher",
+  "source": "bundle"
+ },
+ "新世界征服者": {
+  "en": "Conquest of the New World",
+  "source": "bundle"
+ },
+ "新星9龙机归来": {
+  "en": "Nova 9",
+  "source": "bundle"
+ },
+ "方程式赛车": {
+  "en": "Grand Prix Circuit",
+  "source": "bundle"
+ },
+ "无尽的野心": {
+  "en": "Inordinate Desire",
+  "source": "bundle"
+ },
+ "无尽空间": {
+  "en": "Ultimate Domain",
+  "source": "known"
+ },
+ "无悔的十字军": {
+  "en": "Crusader: No Remorse",
+  "source": "bundle"
+ },
+ "无悔的十字军2": {
+  "en": "Crusader: No Remorse",
+  "source": "known"
+ },
+ "无敌飞狼": {
+  "en": "Gunship 2000",
+  "source": "bundle"
+ },
  "无限空间": {
   "en": "Genesia",
   "source": "bundle"
@@ -4762,6 +4790,122 @@
  "福禄双霸天2": {
   "en": "The Blues Brothers II",
   "source": "known"
+ },
+ "秃鹰疑案": {
+  "en": "The Case of the Cautious Condor",
+  "source": "known"
+ },
+ "种族灭绝": {
+  "en": "Genocide",
+  "source": "bundle"
+ },
+ "科曼奇2": {
+  "en": "Comanche",
+  "source": "bundle"
+ },
+ "科罗拉多": {
+  "en": "Colorado",
+  "source": "bundle"
+ },
+ "空中决斗": {
+  "en": "Fighter Duel",
+  "source": "bundle"
+ },
+ "空中突击18": {
+  "en": "18th Airborne",
+  "source": "bundle"
+ },
+ "空军指挥官": {
+  "en": "Air Force Commander",
+  "source": "known"
+ },
+ "空战艺术": {
+  "en": "The Ancient Art of War in the Skies",
+  "source": "bundle"
+ },
+ "空战黑骑士": {
+  "en": "Black Knight",
+  "source": "bundle"
+ },
+ "空降游骑兵": {
+  "en": "Airborne Ranger",
+  "source": "known"
+ },
+ "穿越之战": {
+  "en": "Battles in Time",
+  "source": "bundle"
+ },
+ "突击士兵": {
+  "en": "Assault Trooper",
+  "source": "bundle"
+ },
+ "突破2": {
+  "en": "Breach 2",
+  "source": "bundle"
+ },
+ "突破3": {
+  "en": "Breach 3",
+  "source": "bundle"
+ },
+ "突袭之翼": {
+  "en": "Assault Wing",
+  "source": "bundle"
+ },
+ "突袭指挥官": {
+  "en": "Strike Commander",
+  "source": "bundle"
+ },
+ "立体俄罗斯": {
+  "en": "3-D Pitfall",
+  "source": "bundle"
+ },
+ "立体狂飚": {
+  "en": "Hi-Octane",
+  "source": "known"
+ },
+ "童梦失魂夜／迷儿城": {
+  "en": "The City of the Children",
+  "source": "bundle"
+ },
+ "童话新编": {
+  "en": "Mixed-Up Fairy Tales",
+  "source": "bundle"
+ },
+ "第13楼": {
+  "en": "Floor 13",
+  "source": "bundle"
+ },
+ "第5舰队": {
+  "en": "5th Fleet",
+  "source": "bundle"
+ },
+ "第一武士": {
+  "en": "The First Samurai",
+  "source": "bundle"
+ },
+ "第五个火枪手": {
+  "en": "The Fifth Musketeer",
+  "source": "bundle"
+ },
+ "第十瓶-保龄": {
+  "en": "10th Frame",
+  "source": "bundle"
+ },
+ "筑城大师": {
+  "en": "Castles",
+  "source": "bundle"
+ },
+ "筑城大师2": {
+  "en": "Castles II",
+  "source": "bundle"
+ },
+ "管状世界": {
+  "en": "Tubeworld",
+  "source": "known"
+ },
+ "篮球经理": {
+  "en": "The Basket Manager",
+  "source": "bundle"
  },
  "系统震荡": {
   "en": "System Shock",
@@ -6147,6 +6291,10 @@
   "en": "Blackjack Tutor",
   "source": "bundle"
  },
+ "黑杰克S": {
+  "en": "Strip Blackjack",
+  "source": "known"
+ },
  "黑武士": {
   "en": "Blade Warrior",
   "source": "bundle"
@@ -6186,5 +6334,205 @@
  "龙霸三合会资料片": {
   "en": "Rise of the Triad",
   "source": "bundle"
+ },
+ "幸运赌场": {
+  "en": "Beat the House",
+  "source": "bundle"
+ },
+ "德川家康": {
+  "en": "Ieyasu",
+  "source": "bundle"
+ },
+ "斩3(日文)": {
+  "en": "Zan",
+  "source": "bundle"
+ },
+ "时空迷航": {
+  "en": "Lost",
+  "source": "bundle"
+ },
+ "机械小蜜蜂": {
+  "en": "Galactix",
+  "source": "bundle"
+ },
+ "机械帝国": {
+  "en": "Cyber Empires",
+  "source": "known"
+ },
+ "杀生异形": {
+  "en": "Xenophage",
+  "source": "bundle"
+ },
+ "核战狂人梦": {
+  "en": "Nuclear War",
+  "source": "bundle"
+ },
+ "格斗：过度杀戮": {
+  "en": "Overkill",
+  "source": "bundle"
+ },
+ "桥牌": {
+  "en": "Bicycle Bridge",
+  "source": "bundle"
+ },
+ "桥牌MVP": {
+  "en": "MVP Bridge",
+  "source": "bundle"
+ },
+ "梦魇怪物大作战": {
+  "en": "Monster Bash",
+  "source": "known"
+ },
+ "死亡赛车": {
+  "en": "Deadly Racer",
+  "source": "bundle"
+ },
+ "死亡飞车": {
+  "en": "Carmageddon",
+  "source": "bundle"
+ },
+ "死星战将": {
+  "en": "Dark Forces",
+  "source": "bundle"
+ },
+ "歼敌行动": {
+  "en": "BodyCount",
+  "source": "bundle"
+ },
+ "殖民帝国": {
+  "en": "Sid Meier's Colonization",
+  "source": "bundle"
+ },
+ "毁灭坦克": {
+  "en": "Mass Destruction",
+  "source": "bundle"
+ },
+ "毒兔崽子": {
+  "en": "Toxic Bunny",
+  "source": "bundle"
+ },
+ "水管工": {
+  "en": "Pipe Dream",
+  "source": "bundle"
+ },
+ "水管马里奥": {
+  "en": "Mario Bros.",
+  "source": "known"
+ },
+ "沙之战线": {
+  "en": "A Line in the Sand",
+  "source": "bundle"
+ },
+ "法兰克疯狂复仇": {
+  "en": "Franko: The Crazy Revenge",
+  "source": "known"
+ },
+ "波斯王子": {
+  "en": "Prince of Persia",
+  "source": "bundle"
+ },
+ "波斯王子民间改版": {
+  "en": "Prince of Persia",
+  "source": "bundle"
+ },
+ "泰克战争": {
+  "en": "William Shatner's TekWar",
+  "source": "bundle"
+ },
+ "洛克人3": {
+  "en": "Mega Man 3",
+  "source": "known"
+ },
+ "洛克人X": {
+  "en": "Mega Man X",
+  "source": "known"
+ },
+ "洞穴战争": {
+  "en": "Cave Wars",
+  "source": "known"
+ },
+ "洪流剑客": {
+  "en": "Zyclunt",
+  "source": "bundle"
+ },
+ "洪荒格斗": {
+  "en": "Primal Rage",
+  "source": "bundle"
+ },
+ "海上传奇": {
+  "en": "Sea Legends",
+  "source": "bundle"
+ },
+ "海下罗格": {
+  "en": "Sea Rogue",
+  "source": "bundle"
+ },
+ "海军出击": {
+  "en": "Navy Strike",
+  "source": "bundle"
+ },
+ "海姆达": {
+  "en": "Heimdall",
+  "source": "bundle"
+ },
+ "海姆达2": {
+  "en": "Heimdall 2: The Gates of Asgard",
+  "source": "known"
+ },
+ "海滩斗忍者": {
+  "en": "Surf Ninjas",
+  "source": "bundle"
+ },
+ "海狼": {
+  "en": "Sea Wolf",
+  "source": "known"
+ },
+ "物竞天不择": {
+  "en": "SimEarth",
+  "source": "known"
+ },
+ "狂热车赛": {
+  "en": "Race Mania",
+  "source": "bundle"
+ },
+ "王牌潜艇+资料片": {
+  "en": "Aces of the Deep",
+  "source": "bundle"
+ },
+ "莲花赛车无限": {
+  "en": "Lotus",
+  "source": "bundle"
+ },
+ "七英雄外传王者之师": {
+  "en": "TTN SEVEN",
+  "source": "bundle"
+ },
+ "伊甸风暴": {
+  "en": "EDEN",
+  "source": "bundle"
+ },
+ "八女神物语": {
+  "en": "EIGHT",
+  "source": "bundle"
+ },
+ "八女神物语2": {
+  "en": "EIGHT2",
+  "source": "bundle"
+ },
+ "南海霸主": {
+  "en": "Oil Master",
+  "source": "known"
+ },
+ "封神演义": {
+  "en": "Investiture of the Gods",
+  "source": "known"
+ },
+ "悲恋湖杀人事件": {
+  "en": "Sad Lake",
+  "source": "known"
+ },
+ "鹿鼎记": {
+  "en": "The Deer and the Cauldron",
+  "source": "known"
  }
 }

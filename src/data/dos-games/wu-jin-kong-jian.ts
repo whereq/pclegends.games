@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wu-jin-kong-jian",
   collection: "dos-games",
   name: "无尽空间",
+  nameEn: "Ultimate Domain",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 140 files, 62.5 MB.",

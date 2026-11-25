@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hai-shang-chuan-qi",
   collection: "dos-games",
   name: "海上传奇",
+  nameEn: "Sea Legends",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 80 files, 51.3 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhu-cheng-da-shi-2",
   collection: "dos-games",
   name: "筑城大师2",
+  nameEn: "Castles II",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2001 — 182 files, 5.7 MB.",

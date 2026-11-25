@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bo-si-wang-zi",
   collection: "dos-games",
   name: "波斯王子",
+  nameEn: "Prince of Persia",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 48 files, 1.3 MB.",

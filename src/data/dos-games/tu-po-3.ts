@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tu-po-3",
   collection: "dos-games",
   name: "突破3",
+  nameEn: "Breach 3",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 641 files, 5.5 MB.",

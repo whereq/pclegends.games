@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-xie-xiao-mi-feng",
   collection: "dos-games",
   name: "机械小蜜蜂",
+  nameEn: "Galactix",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 20 files, 1.2 MB.",

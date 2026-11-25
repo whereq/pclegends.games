@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhu-cheng-da-shi",
   collection: "dos-games",
   name: "筑城大师",
+  nameEn: "Castles",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 64 files, 822 KB.",

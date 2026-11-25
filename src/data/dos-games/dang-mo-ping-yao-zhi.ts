@@ -10,7 +10,7 @@ const entry: AtlasEntry = {
   id: "dang-mo-ping-yao-zhi",
   collection: "dos-games",
   name: "荡魔平妖志",
-  nameEn: "Wrath of the Demon",
+  nameEn: "Wrath",
   nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",

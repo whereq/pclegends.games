@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhong-zu-mie-jue",
   collection: "dos-games",
   name: "种族灭绝",
+  nameEn: "Genocide",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 11 files, 708 KB.",

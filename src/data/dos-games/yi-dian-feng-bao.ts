@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "yi-dian-feng-bao",
   collection: "dos-games",
   name: "伊甸风暴",
+  nameEn: "EDEN",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 436 files, 21.3 MB.",

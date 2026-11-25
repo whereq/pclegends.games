@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xing-yun-du-chang",
   collection: "dos-games",
   name: "幸运赌场",
+  nameEn: "Beat the House",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 90 files, 1.2 MB.",

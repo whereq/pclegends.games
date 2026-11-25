@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "kong-zhong-jue-dou",
   collection: "dos-games",
   name: "空中决斗",
+  nameEn: "Fighter Duel",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 335 files, 6.8 MB.",

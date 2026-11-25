@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "魔术彩球",
   nameEn: "X-ROCK",
-  nameEnSource: "wiki",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1980 — 62 files, 778 KB.",

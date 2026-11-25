@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wu-jing-tian-bu-ze",
   collection: "dos-games",
   name: "物竞天不择",
+  nameEn: "SimEarth",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 411 files, 8.6 MB.",

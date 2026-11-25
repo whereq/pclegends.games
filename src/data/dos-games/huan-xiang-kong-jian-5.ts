@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "幻想空间5",
   nameEn: "Leisure Suit Larry 5: Passionate Patti Does a Little Undercover Work",
-  nameEnSource: "published",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 52 files, 7.1 MB.",

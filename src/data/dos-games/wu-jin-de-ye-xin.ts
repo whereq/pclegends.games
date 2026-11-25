@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wu-jin-de-ye-xin",
   collection: "dos-games",
   name: "无尽的野心",
+  nameEn: "Inordinate Desire",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 215 files, 5.6 MB.",

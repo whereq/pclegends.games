@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "kuang-re-che-sai",
   collection: "dos-games",
   name: "狂热车赛",
+  nameEn: "Race Mania",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 181 files, 14.1 MB.",

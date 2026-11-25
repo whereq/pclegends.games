@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhuo-gui-gan-si-dui-2",
   collection: "dos-games",
   name: "捉鬼敢死队2",
+  nameEn: "Ghostbusters II",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 36 files, 1.0 MB.",

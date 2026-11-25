@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "yi-ci-yuan-zhi-lv",
   collection: "dos-games",
   name: "异次元之旅",
-  nameEn: "Maan",
-  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 530 files, 5.4 MB.",

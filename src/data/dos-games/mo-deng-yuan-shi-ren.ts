@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-deng-yuan-shi-ren",
   collection: "dos-games",
   name: "摩登原始人",
+  nameEn: "The Flintstones",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1990 — 14 files, 128 KB.",

@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "jing-ling-huan-jie",
   collection: "dos-games",
   name: "精灵幻界",
-  nameEn: "Spirit Fantasy World",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 636 files, 7.6 MB.",

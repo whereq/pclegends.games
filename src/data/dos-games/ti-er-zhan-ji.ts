@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ti-er-zhan-ji",
   collection: "dos-games",
   name: "提尔战机",
+  nameEn: "Tyrian",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 107 files, 4.5 MB.",

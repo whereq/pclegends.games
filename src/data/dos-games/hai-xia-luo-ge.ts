@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hai-xia-luo-ge",
   collection: "dos-games",
   name: "海下罗格",
+  nameEn: "Sea Rogue",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 378 files, 2.9 MB.",

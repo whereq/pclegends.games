@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hui-mie-tan-ke",
   collection: "dos-games",
   name: "毁灭坦克",
+  nameEn: "Mass Destruction",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 70 files, 13.4 MB.",

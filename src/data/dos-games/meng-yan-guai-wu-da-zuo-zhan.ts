@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "meng-yan-guai-wu-da-zuo-zhan",
   collection: "dos-games",
   name: "梦魇怪物大作战",
+  nameEn: "Monster Bash",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 12 files, 2.7 MB.",

@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "ba-shi-di-guo",
   collection: "dos-games",
   name: "巴士帝国",
-  nameEn: "Bus Empire",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 85 files, 1.1 MB.",

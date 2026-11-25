@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "si-wang-fei-che",
   collection: "dos-games",
   name: "死亡飞车",
+  nameEn: "Carmageddon",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 4,679 files, 84.9 MB.",

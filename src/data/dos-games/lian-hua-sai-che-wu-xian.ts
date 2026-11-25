@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "lian-hua-sai-che-wu-xian",
   collection: "dos-games",
   name: "莲花赛车无限",
+  nameEn: "Lotus",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2003 — 3 files, 1.1 MB.",

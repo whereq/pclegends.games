@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tu-ji-shi-bing",
   collection: "dos-games",
   name: "突击士兵",
+  nameEn: "Assault Trooper",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 16 files, 945 KB.",

@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "龙穴历险记2",
   nameEn: "Dragon's Lair II: Time Warp",
-  nameEnSource: "published",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 13 files, 2.9 MB.",

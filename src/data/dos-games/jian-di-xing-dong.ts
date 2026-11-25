@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jian-di-xing-dong",
   collection: "dos-games",
   name: "歼敌行动",
+  nameEn: "BodyCount",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 26 files, 5.9 MB.",

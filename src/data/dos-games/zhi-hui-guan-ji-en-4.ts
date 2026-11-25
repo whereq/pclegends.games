@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhi-hui-guan-ji-en-4",
   collection: "dos-games",
   name: "指挥官基恩4",
+  nameEn: "Commander Keen 4",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1999 — 16 files, 629 KB.",

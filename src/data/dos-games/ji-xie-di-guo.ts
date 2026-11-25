@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ji-xie-di-guo",
   collection: "dos-games",
   name: "机械帝国",
+  nameEn: "Cyber Empires",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 146 files, 994 KB.",

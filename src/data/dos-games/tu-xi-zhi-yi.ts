@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tu-xi-zhi-yi",
   collection: "dos-games",
   name: "突袭之翼",
+  nameEn: "Assault Wing",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 168 files, 2.9 MB.",

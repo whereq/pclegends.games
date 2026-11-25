@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "li-ti-e-luo-si",
   collection: "dos-games",
   name: "立体俄罗斯",
+  nameEn: "3-D Pitfall",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 5 files, 107 KB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhan-3-ri-wen",
   collection: "dos-games",
   name: "斩3(日文)",
+  nameEn: "Zan",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 192 files, 2.8 MB.",

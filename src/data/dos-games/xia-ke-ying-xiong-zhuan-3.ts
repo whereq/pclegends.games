@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "xia-ke-ying-xiong-zhuan-3",
   collection: "dos-games",
   name: "侠客英雄传3",
-  nameEn: "Knight Heroes3",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 43 files, 251.0 MB.",

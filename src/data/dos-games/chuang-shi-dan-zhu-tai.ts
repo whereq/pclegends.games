@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "创世弹珠台",
   nameEn: "Tsumera",
-  nameEnSource: "wiki",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 84 files, 2.6 MB.",

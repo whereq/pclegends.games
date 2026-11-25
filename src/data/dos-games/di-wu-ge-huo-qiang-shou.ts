@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "di-wu-ge-huo-qiang-shou",
   collection: "dos-games",
   name: "第五个火枪手",
+  nameEn: "The Fifth Musketeer",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 10 files, 15.9 MB.",

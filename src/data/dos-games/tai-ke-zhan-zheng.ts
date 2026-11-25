@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tai-ke-zhan-zheng",
   collection: "dos-games",
   name: "泰克战争",
+  nameEn: "William Shatner's TekWar",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 78 files, 13.5 MB.",

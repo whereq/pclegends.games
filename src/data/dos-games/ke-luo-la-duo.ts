@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "ke-luo-la-duo",
   collection: "dos-games",
   name: "科罗拉多",
+  nameEn: "Colorado",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1986 — 49 files, 400 KB.",

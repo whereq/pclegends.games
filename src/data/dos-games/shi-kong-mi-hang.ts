@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shi-kong-mi-hang",
   collection: "dos-games",
   name: "时空迷航",
+  nameEn: "Lost",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 24 files, 14.8 MB.",

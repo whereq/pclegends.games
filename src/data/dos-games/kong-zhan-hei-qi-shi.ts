@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "kong-zhan-hei-qi-shi",
   collection: "dos-games",
   name: "空战黑骑士",
+  nameEn: "Black Knight",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 320 files, 5.4 MB.",

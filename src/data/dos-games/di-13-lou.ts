@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "di-13-lou",
   collection: "dos-games",
   name: "第13楼",
+  nameEn: "Floor 13",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 156 files, 1.7 MB.",

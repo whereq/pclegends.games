@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "shui-guan-gong",
   collection: "dos-games",
   name: "水管工",
+  nameEn: "Pipe Dream",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1989 — 57 files, 349 KB.",

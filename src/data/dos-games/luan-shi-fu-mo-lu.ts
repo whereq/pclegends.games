@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "luan-shi-fu-mo-lu",
   collection: "dos-games",
   name: "乱世伏魔录",
-  nameEn: "Exorcise in the Chaotic World",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 48 files, 3.0 MB.",

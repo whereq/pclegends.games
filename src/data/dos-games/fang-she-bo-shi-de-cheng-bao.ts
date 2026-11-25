@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "fang-she-bo-shi-de-cheng-bao",
   collection: "dos-games",
   name: "放射博士的城堡",
+  nameEn: "The Fortress of Dr. Radiaki",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 45 files, 40.6 MB.",

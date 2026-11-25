@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "de-chuan-jia-kang",
   collection: "dos-games",
   name: "德川家康",
+  nameEn: "Ieyasu",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS — 10 files, 204.7 MB.",

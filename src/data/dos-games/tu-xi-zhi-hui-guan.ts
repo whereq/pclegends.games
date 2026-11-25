@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tu-xi-zhi-hui-guan",
   collection: "dos-games",
   name: "突袭指挥官",
+  nameEn: "Strike Commander",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2009 — 58 files, 20.7 MB.",

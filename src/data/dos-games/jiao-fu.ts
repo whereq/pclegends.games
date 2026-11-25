@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jiao-fu",
   collection: "dos-games",
   name: "教父",
+  nameEn: "The Godfather",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 86 files, 1.9 MB.",

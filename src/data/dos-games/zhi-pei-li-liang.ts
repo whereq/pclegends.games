@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhi-pei-li-liang",
   collection: "dos-games",
   name: "支配力量",
+  nameEn: "Ascendancy",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 22 files, 40.5 MB.",

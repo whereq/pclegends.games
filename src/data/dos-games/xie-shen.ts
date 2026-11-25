@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "xie-shen",
   collection: "dos-games",
   name: "邪神",
-  nameEn: "Evil God",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1997 — 937 files, 98.8 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "mo-tuo-cheng-shi",
   collection: "dos-games",
   name: "摩托城市",
+  nameEn: "Motor City",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 248 files, 14.8 MB.",

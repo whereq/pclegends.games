@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hei-jie-ke-s",
   collection: "dos-games",
   name: "黑杰克S",
+  nameEn: "Strip Blackjack",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 145 files, 3.6 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "jue-jin-zhe-2",
   collection: "dos-games",
   name: "掘金者2",
+  nameEn: "Extractors",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 261 files, 32.7 MB.",

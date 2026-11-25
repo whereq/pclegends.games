@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "si-da-lin-ge-lei",
   collection: "dos-games",
   name: "斯大林格勒",
+  nameEn: "Stalingrad",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 57 files, 2.6 MB.",

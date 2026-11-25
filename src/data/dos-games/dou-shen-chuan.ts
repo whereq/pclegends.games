@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "dou-shen-chuan",
   collection: "dos-games",
   name: "斗神传",
+  nameEn: "Battle Arena Toshinden",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 25 files, 11.3 MB.",

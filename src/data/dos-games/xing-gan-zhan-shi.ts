@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "xing-gan-zhan-shi",
   collection: "dos-games",
   name: "性感战士",
-  nameEn: "Sexy Fighter",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 46 files, 2.5 MB.",

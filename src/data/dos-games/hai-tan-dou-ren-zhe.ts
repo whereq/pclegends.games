@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hai-tan-dou-ren-zhe",
   collection: "dos-games",
   name: "海滩斗忍者",
+  nameEn: "Surf Ninjas",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 114 files, 1.3 MB.",

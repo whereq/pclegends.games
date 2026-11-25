@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xin-shi-jie-zheng-fu-zhe",
   collection: "dos-games",
   name: "新世界征服者",
+  nameEn: "Conquest of the New World",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 2001 — 30 files, 53.9 MB.",

@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "du-tu-zai-zi",
   collection: "dos-games",
   name: "毒兔崽子",
+  nameEn: "Toxic Bunny",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 22 files, 6.0 MB.",

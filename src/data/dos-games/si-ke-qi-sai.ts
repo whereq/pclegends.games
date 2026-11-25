@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "si-ke-qi-sai",
   collection: "dos-games",
   name: "斯科奇赛",
+  nameEn: "Scorcher",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 26 files, 9.0 MB.",

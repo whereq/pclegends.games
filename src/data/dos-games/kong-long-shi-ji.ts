@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "kong-long-shi-ji",
   collection: "dos-games",
   name: "恐龙世纪",
-  nameEn: "Dinosaurs Century",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 319 files, 3.7 MB.",

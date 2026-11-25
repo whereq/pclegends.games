@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "da-bing-ri-ji",
   collection: "dos-games",
   name: "大兵日记",
-  nameEn: "Soldier Diary",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 109 files, 6.3 MB.",

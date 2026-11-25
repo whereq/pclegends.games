@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "si-xing-zhan-jiang",
   collection: "dos-games",
   name: "死星战将",
+  nameEn: "Dark Forces",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 22 files, 9.6 MB.",

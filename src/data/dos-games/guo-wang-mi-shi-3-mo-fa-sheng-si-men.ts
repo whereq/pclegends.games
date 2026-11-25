@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "国王密使3魔法生死门",
   nameEn: "King's Quest III: To Heir is Human",
-  nameEnSource: "published",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1986 — 24 files, 4.6 MB.",

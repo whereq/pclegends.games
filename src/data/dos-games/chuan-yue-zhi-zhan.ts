@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "chuan-yue-zhi-zhan",
   collection: "dos-games",
   name: "穿越之战",
+  nameEn: "Battles in Time",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 326 files, 15.9 MB.",

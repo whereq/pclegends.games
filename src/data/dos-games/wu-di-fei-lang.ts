@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "wu-di-fei-lang",
   collection: "dos-games",
   name: "无敌飞狼",
+  nameEn: "Gunship 2000",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1999 — 97 files, 1.7 MB.",

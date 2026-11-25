@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "kong-jiang-you-qi-bing",
   collection: "dos-games",
   name: "空降游骑兵",
+  nameEn: "Airborne Ranger",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1988 — 63 files, 285 KB.",

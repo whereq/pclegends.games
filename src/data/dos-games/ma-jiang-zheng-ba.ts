@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "ma-jiang-zheng-ba",
   collection: "dos-games",
   name: "麻将争霸",
-  nameEn: "MAJAN",
-  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1995 — 35 files, 50.3 MB.",

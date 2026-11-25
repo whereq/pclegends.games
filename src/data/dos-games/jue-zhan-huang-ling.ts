@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "jue-zhan-huang-ling",
   collection: "dos-games",
   name: "决战皇陵",
-  nameEn: "Battle of the Imperial Tombs",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 43 files, 4.5 MB.",

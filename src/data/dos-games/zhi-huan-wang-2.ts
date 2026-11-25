@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhi-huan-wang-2",
   collection: "dos-games",
   name: "指环王2",
+  nameEn: "The Lord of the Rings, Volume Two: The Two Towers",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1998 — 183 files, 3.0 MB.",

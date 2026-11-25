@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "zhi-min-di-guo",
   collection: "dos-games",
   name: "殖民帝国",
+  nameEn: "Sid Meier's Colonization",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 286 files, 3.4 MB.",

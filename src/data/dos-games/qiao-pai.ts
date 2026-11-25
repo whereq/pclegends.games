@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "qiao-pai",
   collection: "dos-games",
   name: "桥牌",
+  nameEn: "Bicycle Bridge",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1993 — 21 files, 223 KB.",

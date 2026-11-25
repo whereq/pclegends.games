@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "tong-hua-xin-bian",
   collection: "dos-games",
   name: "童话新编",
+  nameEn: "Mixed-Up Fairy Tales",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1991 — 44 files, 3.8 MB.",

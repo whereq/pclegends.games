@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "xin-xing-9-long-ji-gui-lai",
   collection: "dos-games",
   name: "新星9龙机归来",
+  nameEn: "Nova 9",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 7 files, 2.8 MB.",

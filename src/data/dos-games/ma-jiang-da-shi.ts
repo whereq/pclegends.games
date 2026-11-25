@@ -10,7 +10,7 @@ const entry: AtlasEntry = {
   id: "ma-jiang-da-shi",
   collection: "dos-games",
   name: "麻将大师",
-  nameEn: "The Mahjong Master",
+  nameEn: "Mahjong Master",
   nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",

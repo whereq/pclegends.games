@@ -10,8 +10,6 @@ const entry: AtlasEntry = {
   id: "xia-ying-ji",
   collection: "dos-games",
   name: "侠影记",
-  nameEn: "Heros Shadow",
-  nameEnSource: "wiki",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1992 — 11 files, 2.4 MB.",

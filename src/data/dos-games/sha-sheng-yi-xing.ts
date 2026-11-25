@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sha-sheng-yi-xing",
   collection: "dos-games",
   name: "杀生异形",
+  nameEn: "Xenophage",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 13 files, 21.1 MB.",

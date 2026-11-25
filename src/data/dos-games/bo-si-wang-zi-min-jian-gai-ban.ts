@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "bo-si-wang-zi-min-jian-gai-ban",
   collection: "dos-games",
   name: "波斯王子民间改版",
+  nameEn: "Prince of Persia",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1994 — 42 files, 620 KB.",

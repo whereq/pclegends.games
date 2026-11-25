@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "sha-zhi-zhan-xian",
   collection: "dos-games",
   name: "沙之战线",
+  nameEn: "A Line in the Sand",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 43 files, 598 KB.",

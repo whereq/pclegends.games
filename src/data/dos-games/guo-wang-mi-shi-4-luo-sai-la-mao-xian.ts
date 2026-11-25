@@ -11,7 +11,7 @@ const entry: AtlasEntry = {
   collection: "dos-games",
   name: "国王密使4罗塞拉冒险",
   nameEn: "King's Quest IV: The Perils of Rosella",
-  nameEnSource: "published",
+  nameEnSource: "known",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1988 — 32 files, 2.7 MB.",

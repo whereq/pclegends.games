@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "hai-jun-chu-ji",
   collection: "dos-games",
   name: "海军出击",
+  nameEn: "Navy Strike",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 950 files, 24.5 MB.",

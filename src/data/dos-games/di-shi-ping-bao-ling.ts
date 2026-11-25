@@ -10,6 +10,8 @@ const entry: AtlasEntry = {
   id: "di-shi-ping-bao-ling",
   collection: "dos-games",
   name: "第十瓶-保龄",
+  nameEn: "10th Frame",
+  nameEnSource: "bundle",
   role: "DOS Game",
   roleZh: "DOS 游戏",
   tagline: "MS-DOS · 1996 — 1 files, 27 KB.",
