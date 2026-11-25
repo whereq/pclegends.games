@@ -230,6 +230,14 @@ button[class*='toggleButton']:hover {
   border-radius: 2px;
 }
 
+/*
+ * The keyboard hint inside the search box is a badge, not a pill: it sits
+ * in a square box, and a rounded badge in it reads as a second shape.
+ */
+.navbar kbd[class*='searchHint'] {
+  border-radius: 2px;
+}
+
 /* ── Blog and Docs: The 3-column layout (sidebar | content | TOC) */
 .docPage_node_modules,
 .docPage__node_modules,
