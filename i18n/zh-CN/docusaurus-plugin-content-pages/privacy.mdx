@@ -1,14 +1,12 @@
 ---
 title: "隐私政策"
-description: "PC Legends 收集什么、Google AdSense 会用它做什么，以及如何拒绝。"
+description: "PC Legends 收集什么、Google AdSense 会用它做什么，以及如何更改你的选择。"
 slug: /privacy
 ---
 
-import ConsentSettings from '@site/src/components/ConsentSettings';
-
 # 隐私政策 —— PC Legends
 
-**生效日期：** 2026 年 11 月 24 日
+**生效日期：** 2026 年 11 月 25 日
 **适用范围：** PC Legends 站点 —— `pclegends.games` —— 以及其上的每一个页面。
 **联系方式：** WhereQ —— [googol.zhang@gmail.com](mailto:googol.zhang@gmail.com)
 
@@ -18,9 +16,9 @@ import ConsentSettings from '@site/src/components/ConsentSettings';
 
 本站是一组静态页面。没有账号、没有登录、没有用户数据库，而且**我们不运行任何自己的分析工具**——我们不知道是谁在阅读。
 
-只有两件事可能设置 cookie 或以其他方式识别你的浏览器，而且都只在你允许之后：
+两件事可能设置 cookie 或以其他方式识别你的浏览器：
 
-- **Google 广告。** 本站由 Google AdSense 投放广告。如果你接受广告，Google 会设置 cookie，并可能对你看到的广告进行个性化。如果你拒绝，**就完全不会加载任何 Google 的代码**——没有广告脚本，没有 cookie，什么都没有。
+- **Google 广告。** 本站由 Google AdSense 投放广告。如果你身处欧洲经济区、英国或瑞士，Google 会在投放任何东西之前先向你显示它自己的同意信息，只有你同意才会向你展示广告。在其他地区，你可能会在没有询问的情况下看到广告。
 - **评论。** 在游戏页面上你可以留言。评论组件来自 [Giscus](https://giscus.app)，它会把你在评论的那一页存成一条公开的 GitHub Discussion。
 
 搜索框是为离线使用而做的：你的查询不会离开你的浏览器。
@@ -36,24 +34,23 @@ import ConsentSettings from '@site/src/components/ConsentSettings';
 本站通过 **Google AdSense** 变现，由它投放展示广告。
 
 - **AdSense 会使用 cookie。** Google 及其合作伙伴使用 cookie 和类似技术，根据你访问本站及其他网站的情况投放广告。Google 对广告 cookie 的使用，使其及其合作伙伴能够根据你访问本站及/或其他网站的情况投放广告。
-- **我们会先征求你的同意。** 页面底部的横幅会在加载任何 Google 内容之前询问你。接受则运行 Google 的广告脚本；拒绝则它永远不会运行——没有广告脚本，没有广告 cookie，也根本不会向 Google 发出任何请求。
+- **在法律要求的地方，由 Google 来征求同意。** 在欧洲经济区、英国和瑞士，Google 会显示它自己的同意信息。只有同意的访客才会被投放广告；拒绝则不会向你投放任何广告。我们不保存这份选择的任何副本——它由 Google 持有——你可以随时通过 Google 显示的隐私控件，或在 [Google 广告设置](https://adssettings.google.com)里更改它。
 - **在你同意之前，广告不会被个性化。** 只有当 AdSense 的代码在运行且获得许可时，它才能建立关于你兴趣的画像。
-- **你可以随时退出个性化广告**，无需改动本站，途径是 [Google 广告设置](https://adsettings.google.com)。你也可以在 [Google 的合作伙伴站点页面](https://www.google.com/adsense/technologies/partner-sites)退出第三方供应商 cookie。
+- **你可以随时退出个性化广告**，无需改动本站，途径是 [Google 广告设置](https://adssettings.google.com)。你也可以在 [Google 的合作伙伴站点页面](https://www.google.com/adsense/technologies/partner-sites)退出第三方供应商 cookie。
 - **你可以问为什么。** Google 投放的每一条广告都带有 *关于此广告* 和 *广告选项* 链接。Google 的 [我的广告中心](https://myadcenter.google.com/)会向你展示它给你看过哪些广告和广告主，并让你调整所看到的内容。
 
 Google 自己对数据的处理方式，写在 [AdSense 计划政策](https://www.google.com/adsense/policies)和 [Google 隐私政策](https://policies.google.com/privacy)里。广告数据由 Google 作为控制者收集；WhereQ 是发布方。
 
-### 广告脚本运行时 Google 能看到什么
+### Google 能看到什么
 
-如果你接受，Google 的广告脚本能看到你的 IP 地址、你的浏览器与设备、你从哪些页面来、下一步会去哪些页面，以及你与广告本身的任何交互。如果你拒绝，它看不到其中任何一样，因为它根本没有运行。
+Google 的广告脚本在每一个页面上，因此 Google 能看到你的 IP 地址、你的浏览器与设备、你从哪些页面来、下一步会去哪些页面，以及你与广告本身的任何交互。在它的同意信息适用的地区，它以此决定是否向你投放广告。
 
 ## 你的广告选择 {#consent-choices}
 
-你的选择保存在你自己的浏览器里，键名是 `whereq.consent`。它不会离开你的设备，我们也读不到。
+你的选择是在 Google 的同意信息里做出的，由 Google 持有，而不是由本站持有。本站的页面不会写入任何与它有关的东西，我们也读不到。
 
-<ConsentSettings />
-
-清除你浏览器中本站的数据会一并清除这个选择，下次访问时横幅会重新询问。
+- 要更改它，请使用 Google 在其同意信息旁显示的隐私控件，或 [Google 广告设置](https://adssettings.google.com)。
+- 要查看它给你展示过什么，[我的广告中心](https://myadcenter.google.com/)。
 
 ## 评论
 
