@@ -1,7 +1,7 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
-import {ADSENSE_ENABLED, ADSENSE_HEAD_TAG} from './src/data/adsense';
+import {ADSENSE_ENABLED, ADSENSE_HEAD_TAG, ADSENSE_META_TAG} from './src/data/adsense';
 
 /**
  * PC Legends — the DOS games archive, on its own domain.
@@ -31,7 +31,9 @@ async function createConfig(): Promise<Config> {
     // Google's loader is in the served HTML of every page, so the AdSense
     // reviewer finds the ad code. Consent is Google's own message — see
     // src/data/adsense.ts. With no publisher ID there is no script at all.
-    headTags: ADSENSE_ENABLED ? [ADSENSE_HEAD_TAG] : [],
+    // The meta tag is the account marker AdSense asks for; the script is
+    // the loader. Both are server-rendered, in the page as it is served.
+    headTags: ADSENSE_ENABLED ? [ADSENSE_META_TAG, ADSENSE_HEAD_TAG] : [],
 
     organizationName: 'whereq',
     projectName: 'pclegends.games',

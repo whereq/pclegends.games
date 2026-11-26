@@ -8,9 +8,9 @@
  *   2. Paste the publisher ID below. It looks like
  *      `ca-pub-1234567890123456`.
  *
- * Nothing else has to change. Until the ID is here the script is never
- * added to a page, so the site stays ad-free and no Google cookie is ever
- * set.
+ * Both are done. The publisher ID is in place, and `static/ads.txt` carries
+ * the line the console hands out, so the seller of the inventory can be
+ * verified at the root of the domain.
  *
  * **Consent is Google's job.** The loader is part of every page's HTML, so
  * that AdSense can see the ad code when it reviews the site — a site whose
@@ -29,7 +29,7 @@
  */
 
 /** The publisher ID from the AdSense console. Empty means "no ads". */
-export const ADSENSE_CLIENT = '';
+export const ADSENSE_CLIENT = 'ca-pub-8075492281741045';
 
 /** True once a real publisher ID is in place. */
 export const ADSENSE_ENABLED = /^ca-pub-\d+$/.test(ADSENSE_CLIENT);
@@ -53,5 +53,20 @@ export const ADSENSE_HEAD_TAG = {
     src: ADSENSE_SCRIPT_SRC,
     async: 'async',
     crossOrigin: 'anonymous',
+  },
+};
+
+/**
+ * The account meta tag.
+ *
+ * AdSense asks the publisher to put this in the head of every page, and it
+ * reads it to confirm the site belongs to the account being reviewed. It
+ * carries no behaviour — it is a marker, not a loader.
+ */
+export const ADSENSE_META_TAG = {
+  tagName: 'meta',
+  attributes: {
+    name: 'google-adsense-account',
+    content: ADSENSE_CLIENT,
   },
 };
