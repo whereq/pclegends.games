@@ -113,6 +113,22 @@ export type SiteCopy = {
       ados: {kind: string; points: string[]; badge: string; note: string};
     };
   };
+  /**
+   * The /resources page. It renders the two-player comparison (reusing
+   * `about.compare`) and a set of outbound links to the wider world of DOS
+   * preservation.
+   */
+  resources: {
+    title: string;
+    description: string;
+    eyebrow: string;
+    heading: string;
+    lead: string;
+    runTitle: string;
+    linksTitle: string;
+    linksIntro: string;
+    links: {name: string; href: string; note: string}[];
+  };
   notFound: {
     eyebrow: string;
     command: string;
@@ -325,6 +341,56 @@ const en: SiteCopy = {
       },
     },
   },
+  resources: {
+    title: 'Resources',
+    description:
+      'The two players that run the games — A-DOS and WhereQ-DOSBox — set side by side, and a map of the wider world of DOS preservation: where to find, buy and play more DOS games.',
+    eyebrow: 'Players & resources',
+    heading: 'Running DOS games, and where to find more',
+    lead:
+      'A bundle from the archive is a DOS program; it needs a player. Here are the two from the WhereQ Universe, and then the places worth knowing across the rest of the DOS world.',
+    runTitle: 'Two ways to run these games',
+    linksTitle: 'More DOS, out in the world',
+    linksIntro:
+      'PC Legends is one shelf among many. These are the collections, stores and emulators the DOS community has built — good places to find a game that is not here, buy a polished re-release, or just play something in the browser.',
+    links: [
+      {
+        name: 'GOG.com',
+        href: 'https://www.gog.com/',
+        note: 'DRM-free classics — many DOS-era games sold and patched to run cleanly on modern machines.',
+      },
+      {
+        name: 'Internet Archive — MS-DOS Games',
+        href: 'https://archive.org/details/softwarelibrary_msdos_games',
+        note: 'Thousands of MS-DOS games, preserved and playable right in the browser.',
+      },
+      {
+        name: 'DOSGames.com',
+        href: 'https://dosgames.com/',
+        note: 'Freeware and shareware DOS games, sorted by genre and still downloadable.',
+      },
+      {
+        name: 'Classic DOS Games',
+        href: 'https://www.classicdosgames.com/all.html',
+        note: 'A long-running index of the classic DOS catalogue.',
+      },
+      {
+        name: 'ClassicReload',
+        href: 'https://classicreload.com/',
+        note: 'DOS and other retro games emulated in the browser — nothing to install.',
+      },
+      {
+        name: 'DOSBox',
+        href: 'https://www.dosbox.com/',
+        note: 'The original desktop DOS emulator the WhereQ players are built on.',
+      },
+      {
+        name: 'MobyGames',
+        href: 'https://www.mobygames.com/',
+        note: 'A deep catalogue of game metadata, covers and credits for cross-checking a title.',
+      },
+    ],
+  },
   notFound: {
     eyebrow: 'Page not found',
     command: 'TYPE THIS-PAGE.HTM',
@@ -536,6 +602,56 @@ const zhCN: SiteCopy = {
         note: '尚未发布——应用通过审核后，商店页面即会上线。',
       },
     },
+  },
+  resources: {
+    title: '资源',
+    description:
+      '运行这些游戏的两个播放器——A-DOS 与 WhereQ-DOSBox——并排放在一起，以及一张通往更广阔 DOS 保存世界的地图：在哪里寻找、购买与游玩更多 DOS 游戏。',
+    eyebrow: '播放器与资源',
+    heading: '怎么跑 DOS 游戏，以及去哪里找更多',
+    lead:
+      '归档里的游戏包是 DOS 程序，需要一个播放器。这里是 WhereQ 家族的两个，接着是 DOS 世界里其余那些值得知道的地方。',
+    runTitle: '跑这些游戏的两种方式',
+    linksTitle: '世界各处，更多的 DOS',
+    linksIntro:
+      'PC Legends 只是众多书架中的一架。下面这些，是 DOS 社区多年来建起的合集、商店与模拟器——想找一款这里没有的游戏、买一个打磨过的复刻版，或者只是在浏览器里玩一玩，都是好去处。',
+    links: [
+      {
+        name: 'GOG.com',
+        href: 'https://www.gog.com/',
+        note: '无 DRM 的经典游戏——其中许多 DOS 时代的游戏经过修补，可在现代机器上顺畅运行，并在此出售。',
+      },
+      {
+        name: 'Internet Archive —— MS-DOS Games',
+        href: 'https://archive.org/details/softwarelibrary_msdos_games',
+        note: '成千上万款 MS-DOS 游戏，经过保存，可直接在浏览器里游玩。',
+      },
+      {
+        name: 'DOSGames.com',
+        href: 'https://dosgames.com/',
+        note: '免费与共享版 DOS 游戏，按类型分好，仍可下载。',
+      },
+      {
+        name: 'Classic DOS Games',
+        href: 'https://www.classicdosgames.com/all.html',
+        note: '一份经营多年的经典 DOS 游戏索引。',
+      },
+      {
+        name: 'ClassicReload',
+        href: 'https://classicreload.com/',
+        note: 'DOS 及其他复古游戏在浏览器中模拟运行——无需安装。',
+      },
+      {
+        name: 'DOSBox',
+        href: 'https://www.dosbox.com/',
+        note: 'WhereQ 的播放器所基于的那个最初的桌面 DOS 模拟器。',
+      },
+      {
+        name: 'MobyGames',
+        href: 'https://www.mobygames.com/',
+        note: '一个关于游戏元数据、封面与制作人员的深厚目录，便于核对一款游戏。',
+      },
+    ],
   },
   notFound: {
     eyebrow: '找不到页面',

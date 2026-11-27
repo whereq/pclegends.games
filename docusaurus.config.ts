@@ -156,6 +156,7 @@ async function createConfig(): Promise<Config> {
         items: [
           { to: '/dos-games', label: 'Catalogue', position: 'left' },
           { to: '/played', label: 'Played through', position: 'left' },
+          { to: '/resources', label: 'Resources', position: 'left' },
           { to: '/guide/reading-a-page', label: 'Guide', position: 'left' },
           { to: '/about', label: 'About', position: 'left' },
           { to: '/privacy', label: 'Privacy', position: 'left' },
