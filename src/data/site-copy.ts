@@ -235,14 +235,14 @@ const en: SiteCopy = {
     description:
       'The DOS games that have been run on an emulator, with the route in written down: which file to start, which key opens the menu, and what the screen behind it says.',
     eyebrow: 'Played through',
-    heading: 'The games that have been run',
+    heading: 'The games, and how to get into them',
     lead:
-      'These are the pages where somebody has actually played the game through on an emulator and written down what worked: the file to start, the key that opens the menu, and the screens behind it.',
-    intro: (count) =>
-      `${count} games have been played through on an emulator. The rest of the archive is waiting for someone to try it.`,
+      'Most DOS games here just start: import the bundle into WhereQ-DOSBox or A-DOS and press Play. When a bundle holds more than one program, the Launch button lets you pick any command inside it and run that one — you can usually tell which from the names.',
+    intro: () =>
+      'The pages on this shelf write the way in out in full, for the games worth a longer look. You rarely need that much — but if a game will not start, raise it on its page and WhereQ Universe will always be here to help.',
     group: 'Played through',
     commentsText:
-      'Played one of these on your own machine and got further than the page says? Say what you did — the next reader will thank you.',
+      'Found a cleaner way into one of these, or got a stubborn one running? Say what you did — the next reader will thank you.',
   },
   about: {
     title: 'About',
@@ -442,14 +442,14 @@ const zhCN: SiteCopy = {
     description:
       '已经在模拟器上跑过的 DOS 游戏，写下了进去的路线：从哪个文件开始、哪个键打开菜单，以及背后的画面是什么。',
     eyebrow: '已通关',
-    heading: '真正被人玩过的那些游戏',
+    heading: '这些游戏，以及怎么进去',
     lead:
-      '这些页面是有人真的在模拟器上把游戏打通，并写下了什么才有效：从哪个文件启动、哪个键打开菜单，以及后面的画面是什么。',
-    intro: (count) =>
-      `已经有 ${count} 款游戏在模拟器上被打通过。归档里的其余部分，还等着有人去试试。`,
+      '这里的大多数 DOS 游戏，直接就能开始：把游戏包导入 WhereQ-DOSBox 或 A-DOS，按下「Play」。如果一个游戏包里不止一个程序，用「Launch」按钮就能挑出其中任意一条命令来运行——看名字通常就能分辨该选哪个。',
+    intro: () =>
+      '这一架上的页面，把进入游戏的路线写得最详尽，留给值得细看的那些游戏。大多数时候你并不需要这么多——但如果哪个游戏启动不了，就在它的页面上提出来，WhereQ Universe 会一直在这里帮你。',
     group: '已通关',
     commentsText:
-      '你在自己的机器上玩过其中某一款，走得比页面上写的更远吗？把你做了什么写下来——下一位读者会感谢你。',
+      '找到了进入其中某一款更顺的方法，或者把某个难搞的跑起来了？把你做了什么写下来——下一位读者会感谢你。',
   },
   about: {
     title: '关于',

@@ -595,22 +595,6 @@ button[class*='toggleButton']:hover {
   text-decoration: underline;
 }
 
-/* ── Blog Listing ─────────────────────────────────────────── */
-[data-theme='dark'] .blog-list-page article {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-  padding-bottom: 2rem;
-  margin-bottom: 2rem;
-}
-
-[data-theme='dark'] .blog-post-title a {
-  color: #f0e6c8 !important;
-}
-
-[data-theme='dark'] .blog-post-title a:hover {
-  color: #f5a623 !important;
-  border-bottom: none;
-}
-
 /* ── Search ───────────────────────────────────────────────── */
 [data-theme='dark'] .aa-DetachedOverlay {
   background: rgba(10, 14, 26, 0.95);
@@ -761,58 +745,6 @@ button[class*='toggleButton']:hover {
   background: rgba(245, 166, 35, 0.1);
   border: 1px solid rgba(245, 166, 35, 0.3);
   color: #f5a623;
-}
-
-/* ── Hero section on homepage ─────────────────────────────── */
-.hero--primary {
-  background: linear-gradient(135deg, #0a0e1a 0%, #0f1e3a 50%, #0a0e1a 100%);
-  position: relative;
-  overflow: hidden;
-}
-
-.hero--primary::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background:
-    radial-gradient(ellipse at 20% 50%, rgba(245, 166, 35, 0.05) 0%, transparent 60%),
-    radial-gradient(ellipse at 80% 20%, rgba(56, 139, 253, 0.04) 0%, transparent 60%);
-  pointer-events: none;
-}
-
-.hero__title {
-  font-size: 3rem;
-  font-weight: 800;
-  background: linear-gradient(135deg, #f5a623 0%, #fbd07f 50%, #f5a623 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  margin-bottom: 1rem;
-}
-
-.hero__subtitle {
-  color: #8b949e;
-  font-size: 1.2rem;
-  max-width: 600px;
-  margin: 0 auto 2rem;
-}
-
-/* ── Homepage Feature Cards ───────────────────────────────── */
-[data-theme='dark'] .featureCard {
-  background: #161b27;
-  border: 1px solid rgba(245, 166, 35, 0.1);
-  border-radius: 12px;
-  padding: 1.5rem;
-  transition: all 0.2s ease;
-}
-
-[data-theme='dark'] .featureCard:hover {
-  border-color: rgba(245, 166, 35, 0.3);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
 /* ── Smooth transitions ───────────────────────────────────── */
