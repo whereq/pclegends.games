@@ -525,10 +525,28 @@ button[class*='toggleButton']:hover {
 }
 
 /* ── Footer ───────────────────────────────────────────────── */
-[data-theme='dark'] .footer {
-  background-color: var(--ifm-footer-background-color, #080c15);
-  border-top: 1px solid rgba(245, 166, 35, 0.1);
+.footer {
+  background-color: var(--pcl-bg);
+  border-top: 1px solid var(--pcl-border-soft);
   padding: 0;
+}
+
+/* The amber/cyan/cream signal stripe closes the page the way it opened it. */
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    var(--pcl-amber) 0,
+    var(--pcl-amber) calc(100% - 160px),
+    var(--pcl-cyan) calc(100% - 160px),
+    var(--pcl-cyan) calc(100% - 40px),
+    var(--pcl-ink) calc(100% - 40px)
+  );
 }
 
 /* Strip Docusaurus's internal footer bottom padding and re-center */
@@ -538,42 +556,23 @@ button[class*='toggleButton']:hover {
 }
 
 .footer__copyright {
-  padding: 14px 1.5rem !important;
+  padding: 14px 32px !important;
   margin: 0 !important;
   line-height: 1;
-}
-
-.footer__title {
-  color: #f5a623 !important;
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-weight: 700;
-}
-
-.footer__link-item {
-  color: #8b949e !important;
-  font-size: 0.875rem;
-  transition: color 0.15s ease;
-}
-
-.footer__link-item:hover {
-  color: #f5a623 !important;
-}
-
-.footer__copyright {
-  color: #a0aab4;
+  color: var(--pcl-muted);
+  font-family: var(--pcl-font-mono);
   font-size: 0.8rem;
+  letter-spacing: 0.02em;
 }
 
 .footer__copyright a {
-  color: #f5a623;
+  color: var(--pcl-amber);
   text-decoration: none;
   transition: color 0.15s ease;
 }
 
 .footer__copyright a:hover {
-  color: #fbd07f;
+  color: var(--pcl-amber-hover);
   text-decoration: underline;
 }
 

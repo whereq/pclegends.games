@@ -51,6 +51,7 @@ export type SiteCopy = {
     ctaPlayed: string;
     categoriesTitle: string;
     categoriesIntro: string;
+    crtCaption: string;
     stepsTitle: string;
     steps: {mark: string; title: string; body: string}[];
     universeBefore: string;
@@ -154,6 +155,7 @@ const en: SiteCopy = {
     categoriesTitle: 'The categories',
     categoriesIntro:
       'The category of a game comes from the manifest of the project the bundles were mirrored from — its own primary classification, not a guess. Where the same project publishes a description that names another genre, the game is listed under that one too: the manifest decides the first category, a description may add a second, and never takes one away.',
+    crtCaption: 'FIG. 1 — Every fact on a game page is read from its bundle, like this.',
     stepsTitle: 'How a page is put together',
     steps: [
       {
@@ -323,6 +325,7 @@ const zhCN: SiteCopy = {
     categoriesTitle: '游戏分类',
     categoriesIntro:
       '一款游戏属于哪个分类，取自这些游戏包所镜像的那个项目的清单——那是它自己的首要归类，而不是猜测。如果同一项目还发布了提到另一种类型的介绍，这款游戏也会同时列在那个分类下：清单决定第一个分类，介绍可以补上第二个，但绝不会拿走任何一个。',
+    crtCaption: '图 1 —— 游戏页面上的每一条事实，都是这样从游戏包里读出来的。',
     stepsTitle: '一个页面是怎么组成的',
     steps: [
       {
