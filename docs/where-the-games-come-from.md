@@ -68,6 +68,6 @@ them. Publishing them here for study, communication and preservation claims
 none of those rights and waives none of them.
 
 If you believe a download here breaks a licence, a copyright or any other
-right, write to [googol.zhang@gmail.com](mailto:googol.zhang@gmail.com) and
+right, write to [whereq@gmail.com](mailto:whereq@gmail.com) and
 it will be taken down. The same goes for a bundle that is missing
 something — say so in the comments and it will be replaced.

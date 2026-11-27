@@ -189,60 +189,82 @@ footer.footer {
   justify-content: center;
 }
 
-/* ── Navbar (Fixed Header) ────────────────────────────────── */
+/* ── Navbar (the terminal header) ─────────────────────────── */
 .navbar {
   position: sticky;
   top: 0;
   z-index: 200;
-  height: 60px;
-  padding: 0 1.5rem;
-  border-bottom: 1px solid rgba(245, 166, 35, 0.15);
+  height: 68px;
+  padding: 0 32px;
+  border-bottom: 1px solid var(--pcl-border-soft);
   /*
    * No backdrop-filter here.
    *
    * `backdrop-filter` (like `filter`) makes the element a containing block
    * for its fixed-position descendants. Docusaurus renders the mobile menu
    * drawer (`.navbar-sidebar`) and its backdrop *inside* the navbar, so the
-   * blur would trap them inside the 60px navbar box: the drawer would be
-   * 59px tall instead of full-height, its items would collapse to
-   * `calc(100% - 60px)` = -1px, and the menu links would be invisible on
-   * every phone. The bar is opaque instead.
+   * blur would trap them inside the navbar box and the menu links would be
+   * invisible on every phone. The bar is opaque instead.
    */
   background-color: var(--ifm-navbar-background-color);
-  box-shadow: 0 1px 16px rgba(0, 0, 0, 0.4);
+  box-shadow: none;
 }
 
-[data-theme='dark'] .navbar {
-  background-color: #0a0e1a;
+/* The 3px amber / cyan / cream signal stripe runs along the very top of the
+   header — the mark the whole redesign opens on. */
+.navbar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    var(--pcl-amber) 0,
+    var(--pcl-amber) calc(100% - 160px),
+    var(--pcl-cyan) calc(100% - 160px),
+    var(--pcl-cyan) calc(100% - 40px),
+    var(--pcl-ink) calc(100% - 40px)
+  );
 }
 
 .navbar__brand {
   font-weight: 700;
-  letter-spacing: -0.01em;
+  letter-spacing: 0.01em;
 }
 
 .navbar__title {
-  font-size: 1.2rem;
-  background: linear-gradient(135deg, #f5a623 0%, #fbd07f 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-family: var(--pcl-font-cond);
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--pcl-ink);
 }
 
 .navbar__logo {
-  height: 36px;
-  margin-right: 8px;
+  height: 34px;
+  width: 34px;
+  margin-right: 10px;
 }
 
 .navbar__link {
-  font-size: 0.9rem;
+  font-family: var(--pcl-font-sans);
+  font-size: 0.95rem;
   font-weight: 500;
-  transition: color 0.2s ease;
+  padding: 0 12px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
 }
 
 .navbar__link:hover,
 .navbar__link--active {
-  color: var(--ifm-color-primary) !important;
+  color: var(--pcl-amber) !important;
+  border-bottom-color: var(--pcl-amber);
 }
 
 /* GitHub icon in navbar */

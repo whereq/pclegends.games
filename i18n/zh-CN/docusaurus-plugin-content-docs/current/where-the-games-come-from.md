@@ -29,4 +29,4 @@ slug: /where-the-games-come-from
 
 它们是各自作者与出版方的作品，相关权利归其所有。在此为学习、交流与保存而发布它们，既不主张这些权利，也不放弃这些权利。
 
-如果你认为某个下载侵犯了许可、著作权或其他权利，请写信至 [googol.zhang@gmail.com](mailto:googol.zhang@gmail.com)，我们会将其下架。游戏包缺了什么东西也是一样——在评论里说一声，我们会补上。
+如果你认为某个下载侵犯了许可、著作权或其他权利，请写信至 [whereq@gmail.com](mailto:whereq@gmail.com)，我们会将其下架。游戏包缺了什么东西也是一样——在评论里说一声，我们会补上。

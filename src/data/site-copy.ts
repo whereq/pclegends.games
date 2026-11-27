@@ -256,7 +256,7 @@ const en: SiteCopy = {
         title: 'The downloads, and who owns them',
         paragraphs: [
           'The archives are published for study, communication and preservation only. They are the work of their authors and publishers, who hold the rights in them. Publishing a link here claims none of those rights and waives none of them.',
-          'If you believe a download here breaks a licence, a copyright or any other right, write to [googol.zhang@gmail.com](mailto:googol.zhang@gmail.com) and it will be taken down. The same goes for a bundle that is missing something — say so in the comments and it will be replaced.',
+          'If you believe a download here breaks a licence, a copyright or any other right, write to [whereq@gmail.com](mailto:whereq@gmail.com) and it will be taken down. The same goes for a bundle that is missing something — say so in the comments and it will be replaced.',
         ],
       },
       {
@@ -425,7 +425,7 @@ const zhCN: SiteCopy = {
         title: '这些下载，以及它们归谁',
         paragraphs: [
           '这些归档文件仅供学习、交流与保存之用。它们是原作者与出版方的作品，相关权利归其所有。在此发布链接既不主张这些权利，也不放弃这些权利。',
-          '如果你认为某个下载侵犯了许可、著作权或其他权利，请写信至 [googol.zhang@gmail.com](mailto:googol.zhang@gmail.com)，我们会将其下架。游戏包缺了什么东西也是一样——在评论里说一声，我们会补上。',
+          '如果你认为某个下载侵犯了许可、著作权或其他权利，请写信至 [whereq@gmail.com](mailto:whereq@gmail.com)，我们会将其下架。游戏包缺了什么东西也是一样——在评论里说一声，我们会补上。',
         ],
       },
       {
