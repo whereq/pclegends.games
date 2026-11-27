@@ -105,7 +105,8 @@
     transparent 3px
   );
 }
-.cardMark img {
+.cardMark img,
+.cardMark .cardMarkSvg {
   width: 100%;
   height: 100%;
   object-fit: cover;

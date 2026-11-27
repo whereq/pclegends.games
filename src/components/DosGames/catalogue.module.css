@@ -283,6 +283,12 @@
   height: 100%;
   object-fit: cover;
 }
+/* The drawn plate fills the thumb the same way a cover image would. */
+.thumbMark {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 .thumbChar {
   font-family: var(--pcl-font-crt);
   color: var(--pcl-amber);
