@@ -113,6 +113,25 @@ export type SiteCopy = {
       ados: {kind: string; points: string[]; badge: string; note: string};
     };
   };
+  /**
+   * The /resources page. It renders the two-player comparison (reusing
+   * `about.compare`) and a set of outbound links to the wider world of DOS
+   * preservation.
+   */
+  resources: {
+    title: string;
+    description: string;
+    eyebrow: string;
+    heading: string;
+    lead: string;
+    runTitle: string;
+    walkTitle: string;
+    walkIntro: string;
+    walk: {img: string; caption: string; portrait?: boolean}[];
+    linksTitle: string;
+    linksIntro: string;
+    links: {name: string; href: string; note: string}[];
+  };
   notFound: {
     eyebrow: string;
     command: string;
@@ -263,8 +282,8 @@ const en: SiteCopy = {
       {
         title: 'Where the games come from',
         paragraphs: [
-          'The bundles are mirrored from the archive of Chinese DOS games published by the [chinese-dos-games](https://github.com/rwv/chinese-dos-games) project. The download button on a page links straight at the archive the page was generated from — the same file, byte for byte — and the SHA-256 printed on the page is the archive’s own checksum, so a copy can be checked rather than trusted.',
-          'The category of a game is read from that project’s manifest, not guessed. Its own type code is the game’s primary category; where the project also publishes a description naming a further genre, the game is listed under that one too. The manifest decides the first category and a description may add a second — never take one away.',
+          'Every bundle here is collected from the public archives that preserve DOS software. None of it is hosted by PC Legends: the download button on a page points straight at the external archive the page was generated from, so the file travels from that archive to you and never passes through this site. The SHA-256 printed on the page is that archive’s own checksum, so the copy you fetch can be checked against what the page describes rather than taken on trust.',
+          'Those same archives are where the facts come from — the dates, the file list, the entry point and the category are read from what each collection already records, not guessed. The archives a game is drawn from may grow and change over time; a page always links at wherever its copy lives today, and says nothing about it beyond what that source does.',
         ],
       },
       {
@@ -282,9 +301,10 @@ const en: SiteCopy = {
         ],
       },
       {
-        title: 'WhereQ-DOSBox',
+        title: 'Running the games',
         paragraphs: [
-          'The games run on [WhereQ-DOSBox](https://whereq.github.io/atlas/universe/whereq-dosbox), the DOS emulator built natively for Android in the WhereQ Universe. Import a bundle, press Play, and the app starts the entry point named on the page.',
+          'A bundle is a DOS program, so it needs a player — and there are two, both from the WhereQ Universe. *A-DOS* is the finished app, on its way to Google Play: install it, open a bundle and it starts the entry point the page names, no setup to speak of. *WhereQ-DOSBox* is the open-source emulator these pages are written against, for anyone who would rather read the source or build it themselves.',
+          'A-DOS is the one most people will want — it installs from the Play Store, keeps itself up to date and stays out of the way. The [resources page](/resources/) sets the two side by side, and points on to the wider world of DOS preservation.',
         ],
       },
       {
@@ -323,6 +343,93 @@ const en: SiteCopy = {
         note: 'Not published yet — the listing goes live when the app is approved.',
       },
     },
+  },
+  resources: {
+    title: 'Resources',
+    description:
+      'The two players that run the games — A-DOS and WhereQ-DOSBox — set side by side, and a map of the wider world of DOS preservation: where to find, buy and play more DOS games.',
+    eyebrow: 'Players & resources',
+    heading: 'Running DOS games, and where to find more',
+    lead:
+      'A bundle from the archive is a DOS program; it needs a player. Here are the two from the WhereQ Universe, and then the places worth knowing across the rest of the DOS world.',
+    runTitle: 'Two ways to run these games',
+    walkTitle: 'A run through WhereQ-DOSBox',
+    walkIntro:
+      'The whole route in, on WhereQ-DOSBox 1.0.0.19, using 偷金子 (Lode Runner) — the game the front page shows. Import the bundle, press Play, and you are in; Game Mode lays a d-pad and mouse over the screen, and the emulator keeps running when you switch away. Save states freeze the whole machine, and a folder of your own keeps them safe when the app is uninstalled.',
+    walk: [
+      {img: '/img/resources/01-files-panel-empty.png', caption: 'A fresh install: the Files panel is empty, and the gold “Install a bundle (.zip)” button starts the import.'},
+      {img: '/img/resources/02-picker-download.png', caption: 'The Android file picker on Downloads, with tou-jin-zi.zip selected — the bundle the PC Legends page for 偷金子 (Lode Runner) links to.', portrait: true},
+      {img: '/img/resources/03-bundle-installed.png', caption: 'Installed: its entry point LR.COM, its size, and the Play / States / Launch… / Remove buttons.'},
+      {img: '/img/resources/04-notification-permission.png', caption: 'Android asks once whether the app may send notifications — the foreground service needs them, and nothing else is asked.'},
+      {img: '/img/resources/05-game-running.png', caption: '偷金子 (Lode Runner) running inside WhereQ-DOSBox, framed by the on-screen keyboard.'},
+      {img: '/img/resources/06-files-panel-resume.png', caption: 'The Files panel over the running game, with a green Resume tou-jin-zi line above the list.'},
+      {img: '/img/resources/07-dos-prompt.png', caption: 'The DOSBox banner and the C:\> prompt, with the on-screen keyboard below.'},
+      {img: '/img/resources/08-game-mode-hybrid.png', caption: 'Game Mode, Hybrid profile: the 8-way d-pad, L/R-CLICK and the trackball, with the game still running behind the pads.'},
+      {img: '/img/resources/09-game-mode-profile-picker.png', caption: 'A long press on the gold profile button opens the picker: Hybrid, Action, Point & click, and Remap buttons…'},
+      {img: '/img/resources/10-game-mode-action.png', caption: 'The Action profile: the d-pad on the left, and the FIRE / JUMP / USE / ENT diamond on the right.'},
+      {img: '/img/resources/11-game-mode-point.png', caption: 'The Point & click profile: big LEFT and RIGHT mouse buttons instead of a d-pad, and the trackball.'},
+      {img: '/img/resources/12-game-mode-remap.png', caption: 'Remap mode: the buttons you can change are outlined in gold, under a banner that says Tap a button to remap.'},
+      {img: '/img/resources/13-game-mode-off.png', caption: 'Back to the plain keyboard pads after the reverse Konami code — the game keeps running underneath.'},
+      {img: '/img/resources/14-states-empty.png', caption: 'The Save states sheet: three empty slots. Open it with States, next to the game.'},
+      {img: '/img/resources/15-saves-offer.png', caption: 'After the first save, the app asks whether to keep a second copy of your saves in a folder of your own.'},
+      {img: '/img/resources/16-folder-permission.png', caption: 'Android will not hand an app the whole Download folder, so the app asks for one of its own — and then for access to it.', portrait: true},
+      {img: '/img/resources/17-files-panel-resume-slot.png', caption: 'The Files panel now carries a Resume line: tou-jin-zi · slot 1 · just now.'},
+      {img: '/img/resources/18-states-slot.png', caption: 'Slot 1 · 1 minute ago — and Load is live. Load puts the whole machine back exactly where it was.'},
+      {img: '/img/resources/19-settings.png', caption: 'The Settings dialog, and the Saves folder row that points at the folder you chose.'},
+      {img: '/img/resources/20-saves-folder.png', caption: 'With a folder set, every save-state is mirrored there, compressed, next to the game itself.'},
+      {img: '/img/resources/21-saves-folder-unset.png', caption: 'With no folder set, the saves live only inside the app — and go with it when you uninstall.'},
+      {img: '/img/resources/22-durable-folder-contents.png', caption: 'The folder on the phone after the app was uninstalled. The game is still there, because it was never inside the app.', portrait: true},
+      {img: '/img/resources/23-restore-games-offer.png', caption: 'The app looks inside the folder and offers to bring back what is not installed.'},
+      {img: '/img/resources/24-games-restored.png', caption: 'Restored 1 game(s). Your saves are ready.'},
+      {img: '/img/resources/25-states-restored-slot.png', caption: 'The restored slot still says 6 minutes ago. A save made before the reinstall still knows when it was made.'},
+      {img: '/img/resources/26-keyboard-symbols.png', caption: 'The punctuation layer of the on-screen keyboard, with the #+= key lit.'},
+      {img: '/img/resources/27-keyboard-functions.png', caption: 'The function layer, with the Fn key lit — F1 to F12.'},
+      {img: '/img/resources/28-launcher-home.png', caption: 'The WhereQ-DOSBox icon on the launcher, the way you find it after installing.', portrait: true},
+      {img: '/img/resources/29-app-info.png', caption: 'The Android App info page for WhereQ-DOSBox.', portrait: true},
+      {img: '/img/resources/30-running-in-background.png', caption: 'The “Playing tou-jin-zi — tap to return” notification: the service that keeps the machine resident while you are in another app.', portrait: true},
+      {img: '/img/resources/31-tap-to-return.png', caption: 'Back in the game after tapping the notification. The emulator never stopped.'},
+      {img: '/img/resources/32-narrow-18x9.png', caption: 'On an 18:9 screen the letter keys get tighter; the d-pad and the action keys keep their size.'},
+    ],
+    linksTitle: 'More DOS, out in the world',
+    linksIntro:
+      'PC Legends is one shelf among many. These are the collections, stores and emulators the DOS community has built — good places to find a game that is not here, buy a polished re-release, or just play something in the browser.',
+    links: [
+      {
+        name: 'GOG.com',
+        href: 'https://www.gog.com/',
+        note: 'DRM-free classics — many DOS-era games sold and patched to run cleanly on modern machines.',
+      },
+      {
+        name: 'Internet Archive — MS-DOS Games',
+        href: 'https://archive.org/details/softwarelibrary_msdos_games',
+        note: 'Thousands of MS-DOS games, preserved and playable right in the browser.',
+      },
+      {
+        name: 'DOSGames.com',
+        href: 'https://dosgames.com/',
+        note: 'Freeware and shareware DOS games, sorted by genre and still downloadable.',
+      },
+      {
+        name: 'Classic DOS Games',
+        href: 'https://www.classicdosgames.com/all.html',
+        note: 'A long-running index of the classic DOS catalogue.',
+      },
+      {
+        name: 'ClassicReload',
+        href: 'https://classicreload.com/',
+        note: 'DOS and other retro games emulated in the browser — nothing to install.',
+      },
+      {
+        name: 'DOSBox',
+        href: 'https://www.dosbox.com/',
+        note: 'The original desktop DOS emulator the WhereQ players are built on.',
+      },
+      {
+        name: 'MobyGames',
+        href: 'https://www.mobygames.com/',
+        note: 'A deep catalogue of game metadata, covers and credits for cross-checking a title.',
+      },
+    ],
   },
   notFound: {
     eyebrow: 'Page not found',
@@ -474,8 +581,8 @@ const zhCN: SiteCopy = {
       {
         title: '这些游戏从哪里来',
         paragraphs: [
-          '这些游戏包镜像自 [chinese-dos-games](https://github.com/rwv/chinese-dos-games) 项目发布的中文 DOS 游戏归档。页面上的下载按钮直接指向生成该页的那个归档——同一个文件，逐字节相同——页面印出的 SHA-256 也是归档自己的校验和，因此副本可以被核对，而不必被信任。',
-          '一款游戏的分类取自那个项目的清单，而不是猜测。它自己的类型代码是这款游戏的首要分类；如果该项目还发布了提到另一种类型的介绍，这款游戏也会同时列在那个分类下。清单决定第一个分类，介绍可以补上第二个——但绝不会拿走任何一个。',
+          '这里的每一个游戏包，都收集自那些保存着 DOS 软件的公共归档。它们都不由 PC Legends 托管：页面上的下载按钮直接指向生成该页的那个外部归档，文件是从那个归档直接传到你这里，从不经过本站。页面印出的 SHA-256 是那个归档自己的校验和，因此你取到的副本可以与页面所述相核对，而不必被凭空信任。',
+          '这些事实也同样来自那些归档——日期、文件清单、入口文件和分类，都是从每个归档已经记录的内容里读出来的，而不是猜测。一款游戏所取自的归档，可能会随时间增长或变化；页面始终链接到它的副本如今所在之处，对它的陈述不会超出那个来源本身所说的范围。',
         ],
       },
       {
@@ -493,9 +600,10 @@ const zhCN: SiteCopy = {
         ],
       },
       {
-        title: 'WhereQ-DOSBox',
+        title: '怎么跑这些游戏',
         paragraphs: [
-          '这些游戏跑在 [WhereQ-DOSBox](https://whereq.github.io/atlas/universe/whereq-dosbox) 上——WhereQ 家族里为 Android 原生构建的 DOS 模拟器。导入一个游戏包，按下播放，应用就会启动页面上写明的那个入口文件。',
+          '游戏包是 DOS 程序，所以需要一个播放器——而这样的播放器有两个，都来自 WhereQ 家族。*A-DOS* 是成品应用，正在上架 Google Play：装上它、打开一个游戏包，它就会启动页面所标明的入口文件，几乎不需要任何设置。*WhereQ-DOSBox* 则是这些页面所面向的开源模拟器，留给更愿意阅读源码、或自己动手构建的人。',
+          'A-DOS 是大多数人会想要的那一个——从 Play 商店安装，自动保持更新，并且从不碍事。[资源页面](/resources/)把这两者并排放在一起，并指向更广阔的 DOS 保存世界。',
         ],
       },
       {
@@ -534,6 +642,93 @@ const zhCN: SiteCopy = {
         note: '尚未发布——应用通过审核后，商店页面即会上线。',
       },
     },
+  },
+  resources: {
+    title: '资源',
+    description:
+      '运行这些游戏的两个播放器——A-DOS 与 WhereQ-DOSBox——并排放在一起，以及一张通往更广阔 DOS 保存世界的地图：在哪里寻找、购买与游玩更多 DOS 游戏。',
+    eyebrow: '播放器与资源',
+    heading: '怎么跑 DOS 游戏，以及去哪里找更多',
+    lead:
+      '归档里的游戏包是 DOS 程序，需要一个播放器。这里是 WhereQ 家族的两个，接着是 DOS 世界里其余那些值得知道的地方。',
+    runTitle: '跑这些游戏的两种方式',
+    walkTitle: '走一遍 WhereQ-DOSBox',
+    walkIntro:
+      '完整的进入路线，基于 WhereQ-DOSBox 1.0.0.19，用的是 偷金子（Lode Runner）——首页展示的那款游戏。导入游戏包、按下 Play，就进去了；「游戏模式」会在画面上叠一层方向键和鼠标，而你切换到别的应用时，模拟器仍在后台继续运行。存档把整台机器冻住，而你自己选的那个文件夹，会在应用被卸载之后把它们保住。',
+    walk: [
+      {img: '/img/resources/01-files-panel-empty.png', caption: '全新安装：文件面板是空的，金色的「Install a bundle (.zip)」按钮开始导入。'},
+      {img: '/img/resources/02-picker-download.png', caption: 'Android 文件选择器停在「下载」文件夹，选中了 tou-jin-zi.zip——正是 PC Legends 上 偷金子（Lode Runner）页面所链接的那个游戏包。', portrait: true},
+      {img: '/img/resources/03-bundle-installed.png', caption: '安装完成：它的入口文件 LR.COM、大小，以及 Play / States / Launch… / Remove 几个按钮。'},
+      {img: '/img/resources/04-notification-permission.png', caption: 'Android 只会问一次要不要允许通知——前台服务需要它，除此之外再没有别的询问。'},
+      {img: '/img/resources/05-game-running.png', caption: '偷金子（Lode Runner）在 WhereQ-DOSBox 中运行，四周是屏幕键盘。'},
+      {img: '/img/resources/06-files-panel-resume.png', caption: '文件面板叠在运行中的游戏上，列表上方有一条绿色的 Resume tou-jin-zi。'},
+      {img: '/img/resources/07-dos-prompt.png', caption: 'DOSBox 的欢迎横幅与 C:\> 提示符，下方是屏幕键盘。'},
+      {img: '/img/resources/08-game-mode-hybrid.png', caption: '游戏模式，Hybrid 档案：八向方向键、L/R-CLICK 与轨迹球，游戏仍在手柄后面运行。'},
+      {img: '/img/resources/09-game-mode-profile-picker.png', caption: '长按那个金色档案按钮就打开选择器：Hybrid、Action、Point & click，还有 Remap buttons…'},
+      {img: '/img/resources/10-game-mode-action.png', caption: 'Action 档案：左边是方向键，右边是 FIRE / JUMP / USE / ENT 那一组面键。'},
+      {img: '/img/resources/11-game-mode-point.png', caption: 'Point & click 档案：没有方向键，换成大号的 LEFT 和 RIGHT 鼠标键，加上轨迹球。'},
+      {img: '/img/resources/12-game-mode-remap.png', caption: '映射模式：可以改的按键镀着金色描边，顶部横幅写着 Tap a button to remap。'},
+      {img: '/img/resources/13-game-mode-off.png', caption: '敲完退出的那段 Konami 暗号，回到普通键盘方向键——游戏依旧在下面运行。'},
+      {img: '/img/resources/14-states-empty.png', caption: '存档面板：三个空档位。在游戏旁边按 States 就能打开。'},
+      {img: '/img/resources/15-saves-offer.png', caption: '第一次保存之后，应用会问你要不要把存档再存一份到你自己选的文件夹里。'},
+      {img: '/img/resources/16-folder-permission.png', caption: 'Android 不会把整个「下载」文件夹交给一个应用，所以应用自己去建了一个，再向你要访问权。', portrait: true},
+      {img: '/img/resources/17-files-panel-resume-slot.png', caption: '文件面板上多了一条 Resume：tou-jin-zi · slot 1 · just now。'},
+      {img: '/img/resources/18-states-slot.png', caption: '档位 1「一分钟前」——Load 也亮了。Load 把整台机器放回它离开时的样子。'},
+      {img: '/img/resources/19-settings.png', caption: '设置对话框，以及指向你所选文件夹的那一行 Saves folder。'},
+      {img: '/img/resources/20-saves-folder.png', caption: '选定了文件夹之后，每个存档都会被压缩一份进去，就放在游戏旁边。'},
+      {img: '/img/resources/21-saves-folder-unset.png', caption: '没有选文件夹时，存档只留在应用自己的存储里——卸载应用，它们就一起没了。'},
+      {img: '/img/resources/22-durable-folder-contents.png', caption: '应用被卸载之后，手机上那个文件夹里的东西还在。游戏还在，因为它从来就不在应用里面。', portrait: true},
+      {img: '/img/resources/23-restore-games-offer.png', caption: '应用翻过那个文件夹，把没装上的东西问你要不要装回来。'},
+      {img: '/img/resources/24-games-restored.png', caption: 'Restored 1 game(s). Your saves are ready.'},
+      {img: '/img/resources/25-states-restored-slot.png', caption: '装回来的档位仍然写着「六分钟前」。卸载之前做的存档，依然记得自己是什么时候做的。'},
+      {img: '/img/resources/26-keyboard-symbols.png', caption: '屏幕键盘的符号层，#+= 键亮着。'},
+      {img: '/img/resources/27-keyboard-functions.png', caption: '功能键层，Fn 键亮着——F1 到 F12。'},
+      {img: '/img/resources/28-launcher-home.png', caption: '桌面上的 WhereQ-DOSBox 图标：装好之后，你就是这样找到它的。', portrait: true},
+      {img: '/img/resources/29-app-info.png', caption: 'WhereQ-DOSBox 的 Android 应用信息页。', portrait: true},
+      {img: '/img/resources/30-running-in-background.png', caption: '「Playing tou-jin-zi — tap to return」通知：让机器在你切到别的应用时仍驻留的那个服务。', portrait: true},
+      {img: '/img/resources/31-tap-to-return.png', caption: '点通知回到游戏。模拟器一直没有停。'},
+      {img: '/img/resources/32-narrow-18x9.png', caption: '在 18:9 的屏幕上，字母键会变窄；方向键和动作键还是原来的大小。'},
+    ],
+    linksTitle: '世界各处，更多的 DOS',
+    linksIntro:
+      'PC Legends 只是众多书架中的一架。下面这些，是 DOS 社区多年来建起的合集、商店与模拟器——想找一款这里没有的游戏、买一个打磨过的复刻版，或者只是在浏览器里玩一玩，都是好去处。',
+    links: [
+      {
+        name: 'GOG.com',
+        href: 'https://www.gog.com/',
+        note: '无 DRM 的经典游戏——其中许多 DOS 时代的游戏经过修补，可在现代机器上顺畅运行，并在此出售。',
+      },
+      {
+        name: 'Internet Archive —— MS-DOS Games',
+        href: 'https://archive.org/details/softwarelibrary_msdos_games',
+        note: '成千上万款 MS-DOS 游戏，经过保存，可直接在浏览器里游玩。',
+      },
+      {
+        name: 'DOSGames.com',
+        href: 'https://dosgames.com/',
+        note: '免费与共享版 DOS 游戏，按类型分好，仍可下载。',
+      },
+      {
+        name: 'Classic DOS Games',
+        href: 'https://www.classicdosgames.com/all.html',
+        note: '一份经营多年的经典 DOS 游戏索引。',
+      },
+      {
+        name: 'ClassicReload',
+        href: 'https://classicreload.com/',
+        note: 'DOS 及其他复古游戏在浏览器中模拟运行——无需安装。',
+      },
+      {
+        name: 'DOSBox',
+        href: 'https://www.dosbox.com/',
+        note: 'WhereQ 的播放器所基于的那个最初的桌面 DOS 模拟器。',
+      },
+      {
+        name: 'MobyGames',
+        href: 'https://www.mobygames.com/',
+        note: '一个关于游戏元数据、封面与制作人员的深厚目录，便于核对一款游戏。',
+      },
+    ],
   },
   notFound: {
     eyebrow: '找不到页面',

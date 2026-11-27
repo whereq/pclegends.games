@@ -15,6 +15,10 @@
     "message": "已通关",
     "description": "Navbar item with label Played through"
   },
+  "item.label.Resources": {
+    "message": "资源",
+    "description": "Navbar item with label Resources"
+  },
   "item.label.Guide": {
     "message": "指南",
     "description": "Navbar item with label Guide"

@@ -1,8 +1,14 @@
-# WhereQ-DOSBox — user-guide screenshots
+# WhereQ-DOSBox — the complete user-guide screenshots
 
-Nine frames for the latest user guide, taken on **2026-11-27** from the
+Thirty-two frames for the user guide, taken on **2026-11-27** from the
 **release-signed WhereQ-DOSBox 1.0.0.19 APK** — the artifact people download
 from the GitHub Release, not a local build.
+
+This set replaces the first nine. It is the whole app: the import, the
+launch, Game Mode and the way out of it, **the save states and the way back
+into them**, the durable saves, the settings, the keyboard layers, the
+launcher, the app info page, the background notification and the narrow
+screen.
 
 `manifest.json` beside this file describes every frame (phase, file, caption,
 url, orientation) in the same shape as the house capture set.
@@ -26,23 +32,44 @@ saw on the site.
 1. **01 → 03 — import a bundle.** The gold **File** key opens the Files panel.
    **Install a bundle (.zip)** opens the Android file picker; pick
    `tou-jin-zi.zip` in Downloads; the bundle installs and stays installed.
-2. **04 — launch it.** **Play** starts the entry point the page names, `LR.COM`.
-3. **05 — into Game Mode.** Type the Konami code on the **on-screen keyboard**:
-   ↑ ↑ ↓ ↓ ← → ← →, then **B** and **A** (they have to be capital, so Caps Lock
-   goes on first with a double-tap on Shift). The game keeps running behind the
-   pads; this is where the d-pad, the mouse buttons and the trackball live.
-4. **06 — back out again.** The **reverse** Konami code on the Game Mode pad:
-   ↑ ↑ ↓ ↓ ← → ← →, then **X** and **Y**. The game is still running underneath.
-5. **07 → 08 — it keeps running in the background.** WhereQ-DOSBox holds a
-   `specialUse` foreground service, so the emulator stays resident while you
-   are in another app. The notification says *"Playing tou-jin-zi — tap to
-   return"*, and tapping it brings you back to the exact frame you left.
+2. **04 → 05 — launch it.** **Play** starts the entry point the page names,
+   `LR.COM`. Android asks once for notification permission — the foreground
+   service needs it.
+3. **06 → 07 — the machine underneath.** The Files panel over the running
+   game, and the DOSBox banner and the `C:\>` prompt.
+4. **08 → 13 — Game Mode, and back out.** Type the Konami code on the
+   **on-screen keyboard**: ↑ ↑ ↓ ↓ ← → ← →, then **B** and **A** (they have
+   to be capital, so Caps Lock goes on first with a double-tap on Shift).
+   Long-press the gold profile button to switch between the Hybrid, Action
+   and Point & click layouts, and to remap the buttons. Leave with the
+   **reverse** Konami code on the Game Mode pad: ↑ ↑ ↓ ↓ ← → ← →, then **X**
+   and **Y**. There is deliberately no KBD button.
+5. **14 → 18 — save a state and load it back.** The **States** button opens
+   the sheet: three slots. **Save** freezes the whole machine into slot 1;
+   the sheet then says how long ago that was, and **Load** puts it back. The
+   Files panel carries a **Resume** line naming the slot and its age.
+6. **15 → 16 — keep the saves safe.** The app asks, once, for a folder of
+   your own to mirror the slots into. Android will not hand an app the whole
+   Download folder, so the app asks for a folder it made — **DOSSaves** —
+   and then for access to it.
+7. **19 → 21 — the settings.** **Config → Saves folder** shows the folder
+   you chose, and says plainly what happens when there is none.
+8. **22 → 25 — after a reinstall.** The folder is still on the phone after
+   the app is uninstalled. Hand the same folder over again and the app finds
+   the game, offers to restore it, and the restored slot **still knows when
+   it was made**.
+9. **26 → 32 — the rest of the app.** The keyboard's punctuation and function
+   layers, the launcher icon, the App info page, the ongoing notification
+   that keeps the machine resident in the background, the tap that brings
+   you back to the running game, and the app on an 18:9 screen.
 
 ## Two things worth saying plainly
 
 - **Game Mode is entered and left with the Konami code, and both directions
   use the pads** — the detector behind it listens for taps on the on-screen
-  keyboard and the Game Mode pad, not for key events.
+  keyboard and the Game Mode pad, not for key events. The exit code needs a
+  profile with a D-pad, so **Point & click** cannot take it: switch back to
+  **Hybrid** first.
 - **The background notification is the difference from A-DOS.** A-DOS has no
   foreground service: it runs in the foreground, and answers the same problem
   with its save state instead.
@@ -51,15 +78,47 @@ saw on the site.
 
 | File | What it shows | Size |
 |---|---|---|
-| `01-files-panel.png` | the Files panel on a fresh install, and the **Install a bundle (.zip)** button | 2400×1080 |
+| `01-files-panel-empty.png` | the Files panel on a fresh install, and the **Install a bundle (.zip)** button | 2400×1080 |
 | `02-picker-download.png` | the system file picker, on Downloads, with `tou-jin-zi.zip` | 1080×2400 |
 | `03-bundle-installed.png` | the bundle installed — `LR.COM`, and **Play / States / Launch… / Remove** | 2400×1080 |
-| `04-game-running.png` | 偷金子 running, framed by the on-screen keyboard | 2400×1080 |
-| `05-game-mode-on.png` | Game Mode (HYBRID) over the running game | 2400×1080 |
-| `06-game-mode-off.png` | back to the plain keyboard pads | 2400×1080 |
-| `07-running-in-background.png` | the ongoing notification in the shade | 1080×2400 |
-| `08-tap-to-return.png` | back in the game, same frame, same score | 2400×1080 |
-| `09-dos-prompt.png` | the DOSBox welcome banner and the `C:\>` prompt | 2400×1080 |
+| `04-notification-permission.png` | Android's notification permission prompt | 2400×1080 |
+| `05-game-running.png` | 偷金子 running, framed by the on-screen keyboard | 2400×1080 |
+| `06-files-panel-resume.png` | the Files panel over the running game, with **Resume tou-jin-zi** | 2400×1080 |
+| `07-dos-prompt.png` | the DOSBox welcome banner and the `C:\>` prompt | 2400×1080 |
+| `08-game-mode-hybrid.png` | Game Mode (HYBRID) — the 8-way d-pad and the trackball | 2400×1080 |
+| `09-game-mode-profile-picker.png` | the Game profile picker | 2400×1080 |
+| `10-game-mode-action.png` | Game Mode (ACTION) — d-pad and face buttons | 2400×1080 |
+| `11-game-mode-point.png` | Game Mode (POINT & CLICK) — mouse buttons, no d-pad | 2400×1080 |
+| `12-game-mode-remap.png` | remap mode — the changeable buttons outlined in gold | 2400×1080 |
+| `13-game-mode-off.png` | back to the plain keyboard pads | 2400×1080 |
+| `14-states-empty.png` | the Save states sheet, three empty slots | 2400×1080 |
+| `15-saves-offer.png` | the **Keep your saves safe?** prompt | 2400×1080 |
+| `16-folder-permission.png` | the Android access dialog for DOSSaves | 1080×2400 |
+| `17-files-panel-resume-slot.png` | **Resume tou-jin-zi · slot 1 · just now** | 2400×1080 |
+| `18-states-slot.png` | **Slot 1 · 1 minute ago**, and Load is live | 2400×1080 |
+| `19-settings.png` | the Settings dialog | 2400×1080 |
+| `20-saves-folder.png` | the Saves folder dialog, with a folder set | 2400×1080 |
+| `21-saves-folder-unset.png` | the Saves folder dialog, with no folder set | 2400×1080 |
+| `22-durable-folder-contents.png` | the folder after the app was uninstalled | 1080×2400 |
+| `23-restore-games-offer.png` | the **Restore games** prompt | 2400×1080 |
+| `24-games-restored.png` | **Restored 1 game(s). Your saves are ready.** | 2400×1080 |
+| `25-states-restored-slot.png` | the restored slot, still saying **6 minutes ago** | 2400×1080 |
+| `26-keyboard-symbols.png` | the punctuation layer | 2400×1080 |
+| `27-keyboard-functions.png` | the function layer, F1–F12 | 2400×1080 |
+| `28-launcher-home.png` | the app's own icon on the launcher | 1080×2400 |
+| `29-app-info.png` | the Android App info page | 1080×2400 |
+| `30-running-in-background.png` | the ongoing notification in the shade | 1080×2400 |
+| `31-tap-to-return.png` | back in the game after tapping the notification | 2400×1080 |
+| `32-narrow-18x9.png` | the app on an 18:9 display | 2160×1080 |
+
+## The pictures
 
 The PNGs are palette-quantised to 256 colours, which is lossless to the eye
-here (RMS ≤ 1.3 of 255) and takes the set from 1.4 MB to 551 KB.
+here, and takes the set from 6.3 MB to 2.0 MB. Thirty of the thirty-two
+frames land at RMS ≤ 1.3 of 255; the two that carry a photograph — the
+launcher wallpaper and the blurred wallpaper behind the notification shade —
+land at 1.98 and 1.43, because a photographic gradient cannot be put into 256
+colours without a little banding.
+
+The other copy of each frame lives in `static/img/resources/`, so the site
+can serve them from its own domain.
