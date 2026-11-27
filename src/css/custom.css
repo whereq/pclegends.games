@@ -18,6 +18,12 @@
      sits on an amber button is always near-black. */
   --pcl-btn-ink: #1A1306;
 
+  /* The whereq family standard: radius is always xs = 2px. Infima's own
+     default is ~6px, which reads as a rounded pill; pin it to xs so every
+     border-radius the theme hands out is the house value. The CRT bezel and
+     screen set their own larger radius inline and are unaffected. */
+  --ifm-global-radius: 2px;
+
   /* Container width — the redesign's own 1360px gutter box. */
   --ifm-container-width: 1360px;
   --ifm-container-width-xl: 1360px;

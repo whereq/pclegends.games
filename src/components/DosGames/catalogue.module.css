@@ -137,6 +137,7 @@
   color: var(--pcl-muted);
   font-family: var(--pcl-font-mono);
   font-size: 13px;
+  font-weight: 500;
   cursor: pointer;
   transition: background-color 0.12s ease, color 0.12s ease;
 }
@@ -149,6 +150,7 @@
 .viewBtnOn {
   background: var(--pcl-amber);
   color: var(--pcl-btn-ink);
+  font-weight: 600;
 }
 .viewBtnOn:hover {
   color: var(--pcl-btn-ink);
@@ -168,6 +170,7 @@
   padding: 0 12px;
   background: transparent;
   border: 1px solid var(--pcl-border);
+  border-radius: 2px;
   color: var(--pcl-body);
   font-family: var(--pcl-font-sans);
   font-size: 13px;
@@ -467,6 +470,7 @@
   letter-spacing: 0.04em;
   color: var(--pcl-cyan);
   border: 1px solid var(--pcl-border-soft);
+  border-radius: 2px;
   padding: 1px 6px;
 }
 

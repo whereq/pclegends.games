@@ -156,7 +156,6 @@ export default function DosGamesCatalogue(): React.JSX.Element {
                     onClick={() => toggle(category.id)}
                     aria-pressed={on}
                     disabled={count === 0 && !on}>
-                    <span className={styles.chipCode}>{category.id}</span>
                     {chinese ? category.labelZh : category.label}
                     <span className={styles.chipCount}>{count}</span>
                   </button>
@@ -185,7 +184,7 @@ export default function DosGamesCatalogue(): React.JSX.Element {
             <section className={styles.group} key={group.category.id}>
               <div className={styles.groupHead}>
                 <h2 className={styles.groupTitle}>
-                  <span className={styles.groupCode}>{group.category.id}</span>
+                  <span className={styles.groupCode}>{group.category.code}</span>
                   {chinese ? group.category.labelZh : group.category.label}
                   <span className={styles.groupCount}>{group.games.length}</span>
                 </h2>

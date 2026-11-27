@@ -117,7 +117,7 @@ export default function Home(): React.JSX.Element {
               return (
                 <Link className={styles.cat} key={category.id} to="/dos-games/">
                   <div className={styles.catTop}>
-                    <span className={styles.catCode}>{category.id}</span>
+                    <span className={styles.catCode}>{category.code}</span>
                     <span className={styles.catCount}>{count.toLocaleString('en-US')}</span>
                   </div>
                   <h3 className={styles.catName}>
@@ -132,7 +132,7 @@ export default function Home(): React.JSX.Element {
                       style={{width: `${Math.max(2, Math.round((count / maxCount) * 100))}%`}}
                     />
                   </div>
-                  <span className={styles.catOpen}>OPEN {category.id} →</span>
+                  <span className={styles.catOpen}>OPEN {category.code} →</span>
                 </Link>
               );
             })}
