@@ -12,7 +12,7 @@ import {useCopy, useIsChinese} from '../../hooks/useCopy';
 import AtlasBlocks from '../Atlas/AtlasBlocks';
 import GiscusComments from '../GiscusComments';
 import {gameNames} from './game-names';
-import styles from './dos-games.module.css';
+import styles from './played.module.css';
 
 /**
  * The games that have been played through on an emulator.

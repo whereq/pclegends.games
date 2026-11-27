@@ -1,0 +1,182 @@
+/* ============================================================
+   Played-through shelf — the terminal redesign. --pcl-* tokens.
+   ============================================================ */
+
+.page {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 24px 32px 80px;
+  box-sizing: border-box;
+  background: var(--pcl-bg);
+  color: var(--pcl-body);
+}
+
+.hero {
+  padding: 48px 0 32px;
+  border-bottom: 1px solid var(--pcl-border-soft);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.eyebrow {
+  margin: 0;
+  font-family: var(--pcl-font-mono);
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--pcl-amber);
+}
+.title {
+  margin: 0;
+  font-family: var(--pcl-font-cond);
+  font-weight: 700;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.05;
+  color: var(--pcl-ink);
+}
+.lead {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--pcl-body);
+  max-width: 760px;
+}
+.para {
+  margin: 0 0 14px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--pcl-body);
+}
+.para a { color: var(--pcl-amber); }
+.para a:hover { color: var(--pcl-amber-hover); }
+
+.section {
+  margin: 40px 0;
+}
+.sectionTitle {
+  margin: 0 0 18px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--pcl-amber);
+  font-family: var(--pcl-font-cond);
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--pcl-ink);
+}
+
+/* ── Cards ────────────────────────────────────────────────── */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+.card {
+  border: 1px solid var(--pcl-border-soft);
+  background: var(--pcl-bg-1);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transition: border-color 0.12s ease;
+}
+.card:hover { border-color: var(--pcl-amber); }
+.cardLink {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  text-decoration: none;
+  color: var(--pcl-ink);
+}
+.cardLink:hover { text-decoration: none; }
+.cardMark {
+  flex: 0 0 60px;
+  width: 60px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 1px solid var(--pcl-border);
+  background: var(--pcl-screen);
+  background-image: repeating-linear-gradient(
+    0deg,
+    rgba(255, 181, 71, 0.06) 0px,
+    rgba(255, 181, 71, 0.06) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+}
+.cardMark img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cardHead {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+.cardName {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--pcl-ink);
+  line-height: 1.3;
+  word-break: break-word;
+}
+.cardAltName {
+  font-size: 13px;
+  color: var(--pcl-muted);
+}
+.cardTypes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.cardType {
+  font-family: var(--pcl-font-mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--pcl-cyan);
+  border: 1px solid var(--pcl-border-soft);
+  border-radius: 2px;
+  padding: 1px 6px;
+}
+.cardBlurb {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--pcl-muted);
+  flex: 1;
+}
+.cardActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  border-top: 1px dashed var(--pcl-border-soft);
+  padding-top: 12px;
+  margin-top: auto;
+}
+.cardRead {
+  font-family: var(--pcl-font-mono);
+  font-size: 13px;
+  color: var(--pcl-ink);
+  text-decoration: none;
+}
+.cardRead:hover { color: var(--pcl-amber); }
+.cardDownload {
+  font-family: var(--pcl-font-mono);
+  font-size: 13px;
+  color: var(--pcl-amber);
+  text-decoration: none;
+}
+.cardDownload:hover { color: var(--pcl-amber-hover); }
+
+.comments {
+  margin-top: 48px;
+}
+
+@media (max-width: 768px) {
+  .page { padding: 20px 20px 64px; }
+  .hero { padding: 32px 0 24px; }
+}

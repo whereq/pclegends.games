@@ -113,6 +113,15 @@ export type SiteCopy = {
       ados: {kind: string; points: string[]; badge: string; note: string};
     };
   };
+  notFound: {
+    eyebrow: string;
+    command: string;
+    badCommand: string;
+    heading: string;
+    body: string;
+    ctaHome: string;
+    ctaCatalogue: string;
+  };
 };
 
 /**
@@ -311,6 +320,15 @@ const en: SiteCopy = {
       },
     },
   },
+  notFound: {
+    eyebrow: 'Page not found',
+    command: 'TYPE THIS-PAGE.HTM',
+    badCommand: 'Bad command or file name',
+    heading: 'There is no page at that address',
+    body: 'The link may be out of date, or the address mistyped. The archive is all still here — start from the front door or jump straight to the catalogue.',
+    ctaHome: 'Back to the front page',
+    ctaCatalogue: 'Open the catalogue',
+  },
 };
 
 /**
@@ -508,6 +526,15 @@ const zhCN: SiteCopy = {
         note: '尚未发布——应用通过审核后，商店页面即会上线。',
       },
     },
+  },
+  notFound: {
+    eyebrow: '找不到页面',
+    command: 'TYPE THIS-PAGE.HTM',
+    badCommand: 'Bad command or file name',
+    heading: '这个地址下没有页面',
+    body: '链接可能已经失效，或者地址敲错了。归档里的东西都还在——从首页开始，或者直接去目录看看。',
+    ctaHome: '回到首页',
+    ctaCatalogue: '打开目录',
   },
 };
 
