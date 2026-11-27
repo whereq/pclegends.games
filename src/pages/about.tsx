@@ -103,7 +103,7 @@ export default function About(): React.JSX.Element {
             <article className={styles.tool}>
               <div className={styles.toolHead}>
                 <span className={styles.toolMark}>
-                  <img src="/img/a-dos-logo.svg" alt="" width={48} height={48} />
+                  <img src="/img/a-dos-logo.jpeg" alt="A-DOS" width={48} height={48} />
                 </span>
                 <div>
                   <h3 className={styles.toolName}>A-DOS</h3>

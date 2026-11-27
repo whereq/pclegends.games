@@ -110,7 +110,10 @@
   justify-content: center;
   border: 1px solid var(--pcl-border);
   border-radius: 2px;
-  background: var(--pcl-bg-2);
+  /* A dark "screen" chip — stays dark in light mode too, so a logo with a
+     black background (A-DOS) blends rather than sitting in a pale box. */
+  background: var(--pcl-screen);
+  overflow: hidden;
 }
 .toolMark img {
   width: 48px;
