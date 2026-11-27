@@ -45,6 +45,8 @@
   --pcl-border: #3A443E;
   --pcl-border-soft: #29312C;
   --pcl-row-hover: #121614;
+  /* The header sits a shade below the page so its edge reads. */
+  --pcl-header-bg: #08090A;
 
   --pcl-amber: #FFB547;
   --pcl-amber-hover: #FFD08A;
@@ -97,6 +99,8 @@
   --pcl-border: #C8C4B4;
   --pcl-border-soft: #DBD8C9;
   --pcl-row-hover: #ECEAE0;
+  /* The header sits a shade below the paper so its edge reads. */
+  --pcl-header-bg: #E7E5DA;
 
   /* Amber darkened so it clears AA on paper; the hover goes darker still. */
   --pcl-amber: #AE6E05;
@@ -194,9 +198,11 @@ footer.footer {
   position: sticky;
   top: 0;
   z-index: 200;
-  height: 68px;
+  height: 58px;
   padding: 0 32px;
-  border-bottom: 1px solid var(--pcl-border-soft);
+  /* A shade darker than the page, with a distinct edge, so the header reads
+     as a band rather than blending into the content below it. */
+  border-bottom: 1px solid var(--pcl-border);
   /*
    * No backdrop-filter here.
    *
@@ -206,7 +212,7 @@ footer.footer {
    * blur would trap them inside the navbar box and the menu links would be
    * invisible on every phone. The bar is opaque instead.
    */
-  background-color: var(--ifm-navbar-background-color);
+  background-color: var(--pcl-header-bg);
   box-shadow: none;
 }
 
