@@ -297,14 +297,14 @@ const en: SiteCopy = {
     compare: {
       title: 'Two ways to run these games',
       intro:
-        'The bundles here are DOS programs; something has to run them. Two apps do. WhereQ-DOSBox is the open-source one — every line of it is public, and the signed APK comes straight from the GitHub repository. A-DOS is the store release, the one that goes out through Google Play. They run the same bundles; they differ in where they come from, and in what happens when you leave the app.',
+        'The bundles here are DOS programs; something has to run them. There are two players for that, and they are built for two kinds of person — WhereQ-DOSBox is the open-source emulator you can pull apart, and A-DOS is the finished app coming to Google Play.',
       dosbox: {
         kind: 'OPEN SOURCE · ANDROID',
         points: [
-          'A native DOS emulator for Android, built in the open in the WhereQ Universe.',
-          'The DOS machine keeps running in the background while you are elsewhere: leave for another app, answer a message, and come back to the exact frame you left.',
-          'Android 6.0 or newer. The signed APK is published on GitHub Releases, with a checksum beside it.',
-          'Import a bundle from this archive, press Play, and it starts the entry point the page names.',
+          'A native DOS emulator for Android, built in the open — the whole thing is on GitHub to read, build and fork.',
+          'You install it as a debug APK from the repository: allow installs from outside the store, and update it by hand when a new build lands.',
+          'It keeps a service alive in the background, the way a development build does, so it goes on doing work even after you leave it.',
+          'Import a bundle, press Play, and it starts the entry point the page names — close to the metal, for people who like to see how it runs.',
         ],
         apk: 'Download the APK',
         atlas: 'Read it in the Atlas',
@@ -312,10 +312,10 @@ const en: SiteCopy = {
       ados: {
         kind: 'ANDROID · GOOGLE PLAY',
         points: [
-          'The polished DOS player for Android — the one that goes out through the Google Play store.',
-          'It runs in the foreground while you are in it. Leave the app and Android is free to reclaim the process, so the whole machine — the CPU, the DOS memory, the video, the open files — is frozen into a save slot that survives even a reinstall.',
-          'Android 5.0 or newer. Installed from the store, the updates arrive on their own, and there is no APK to go looking for.',
-          'The same bundles from this archive, the same one-tap setup.',
+          'The finished DOS player, installed from Google Play in a single tap — no sideloading, no “unknown sources”, and it keeps itself up to date.',
+          'It stops the moment you leave it: nothing lingers in the background, so it stays light on memory and easy on the battery.',
+          'The same bundles and the same one-tap setup as the emulator, with the rough edges taken off.',
+          'Made for everyday play rather than for reading the source — the one to reach for when you just want the game to start.',
         ],
         badge: 'Coming soon to Google Play',
         note: 'Not published yet — the listing goes live when the app is approved.',
@@ -506,14 +506,14 @@ const zhCN: SiteCopy = {
     compare: {
       title: '跑这些游戏的两种方式',
       intro:
-        '这里的游戏包都是 DOS 程序，总得有东西来运行它们。现在有两个应用在做这件事。WhereQ-DOSBox 是开源的那个——每一行代码都公开，签名过的 APK 直接来自 GitHub 仓库；A-DOS 是商店版，将通过 Google Play 发布。它们跑的是同一批游戏包，区别在于来源，以及你离开应用时会发生什么。',
+        '这里的游戏包都是 DOS 程序，总得有东西来运行它们。有两个播放器可供选择，面向的是两类人——WhereQ-DOSBox 是你可以拆开研究的开源模拟器，而 A-DOS 则是即将上架 Google Play 的成品应用。',
       dosbox: {
         kind: '开源 · ANDROID',
         points: [
-          'WhereQ Universe 中公开开发的 Android 原生 DOS 模拟器。',
-          '离开应用时，DOS 机器仍在后台运行：你可以切到别的应用、回一条消息，再回来时画面还停在你离开的那一帧。',
-          '需要 Android 6.0 或更新版本。签名版 APK 发布在 GitHub Releases，旁边附有校验值。',
-          '从本归档导入一个游戏包，按下开始，它就会启动页面所标明的启动文件。',
+          'Android 原生 DOS 模拟器，完全公开开发——整套代码都在 GitHub 上，可阅读、可构建、可 fork。',
+          '以调试版 APK 的形式从仓库安装：需要允许来自商店之外的安装，有新版本时也要手动更新。',
+          '它会像开发版那样在后台保持一个服务常驻，所以即便你离开了，它仍在继续占用资源。',
+          '导入一个游戏包，按下开始，它就会启动页面所标明的启动文件——贴近底层，适合喜欢研究其运作方式的人。',
         ],
         apk: '下载 APK',
         atlas: '在图鉴中了解',
@@ -521,10 +521,10 @@ const zhCN: SiteCopy = {
       ados: {
         kind: 'ANDROID · GOOGLE PLAY',
         points: [
-          '面向 Android 的精致 DOS 播放器——将通过 Google Play 商店发布的那一个。',
-          '它在你停留在应用里时于前台运行；一旦切走，Android 可能会回收这个进程，于是整台机器——CPU、DOS 内存、显存、打开的文件——会被冻结进一个存档槽，连卸载重装也能留住。',
-          '需要 Android 5.0 或更新版本。从商店安装，更新会自己到来，不用再到处找 APK。',
-          '同样来自本归档的游戏包，同样一键完成设置。',
+          '成品 DOS 播放器，在 Google Play 上一键安装——无需手动安装、无需「未知来源」，而且会自动保持更新。',
+          '你一离开它就会停下：不会在后台常驻，因此更省内存、也更省电。',
+          '与模拟器相同的游戏包、相同的一键设置，但把粗糙的边角都打磨掉了。',
+          '为日常游玩而非阅读源码而生——当你只想让游戏赶紧跑起来时，就选它。',
         ],
         badge: '即将登陆 Google Play',
         note: '尚未发布——应用通过审核后，商店页面即会上线。',
