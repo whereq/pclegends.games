@@ -34,11 +34,11 @@ export const PLAYED_INTRO: AtlasSection[] = [
       },
       {
         kind: 'paragraph',
-        text: 'These are the games that run on WhereQ-DOSBox — the DOS emulator built natively for Android, one page away in the Universe. They were tested on an emulator running the app, and the steps on each page are the steps that actually worked, including the ones that turned out to be wrong on the first attempt.',
+        text: 'Most of these games just start: import the bundle into WhereQ-DOSBox — the DOS emulator built natively for Android, one page away in the Universe — or into A-DOS, and press Play. When a bundle holds more than one program, the Launch button lets you pick any command inside it and run that one instead; you can usually tell which it is from the names in the bundle.',
       },
       {
         kind: 'paragraph',
-        text: 'This shelf holds the games that have been played through on an emulator. Every other game in the archive has a page too, in the catalogue at /dos-games/ — the facts read out of the bundle itself, with a download and the setup its shape implies. Those pages say plainly that nobody has played them yet. The shape of every page stays the same as the shelf grows.',
+        text: 'The pages on this shelf are the ones where the whole route in is written out — the file to start, the key that opens the menu, the screen behind it. You rarely need that much; but when a game will not start, its page and its comment thread are where to ask, and WhereQ Universe is always here to help.',
       },
     ],
   },
@@ -60,7 +60,7 @@ export const PLAYED_INTRO: AtlasSection[] = [
     blocks: [
       {
         kind: 'paragraph',
-        text: 'The shelf above holds the games that have been played through on an emulator. The catalogue behind it holds every game in the archive — one page each, with the facts read out of the bundle itself, the download, and the setup the bundle\'s own shape implies. Those pages say plainly that nobody has played them yet, and each one carries a comment thread for whoever gets there first.',
+        text: 'The shelf above is where the way in is written out in full. The catalogue behind it holds every game in the archive — one page each, with the facts read out of the bundle itself, the download, and the setup the bundle\'s own shape implies. Press Play on any of them; every page carries a comment thread, so if anything needs saying about a game, that is where to say it.',
       },
       {
         kind: 'paragraph',

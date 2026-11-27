@@ -37,6 +37,23 @@ builds on every push to `main` and publishes with `actions/upload-pages-artifact
 and `actions/deploy-pages`. The Pages source in the repository settings
 must be "GitHub Actions".
 
+**Release is deploy — `bin/release.sh`.** Because pushing to `main` is what
+deploys, a release is the whole thing. Run it from the feature branch you
+want to ship:
+
+```bash
+bin/release.sh -m "feat(...): what shipped"      # squash -> main, tag, push (deploys)
+RELEASE_TAG=v1.1.0.0 bin/release.sh -m "..."     # pin the tag; default bumps the build
+```
+
+It squashes the branch into one commit on `main`, tags it
+`v{major}.{minor}.{patch}.{build}` (build auto-increments from the latest tag
+unless `RELEASE_TAG` pins it), pushes both, and closes the branch's PR if one
+is open. The push triggers the Actions deploy. **`bin/deploy.sh`** is the
+separate case — re-run the deploy of the current `main` without a new release
+(e.g. after a Pages-settings change): `bin/deploy.sh` dispatches and watches
+the workflow; `bin/deploy.sh --status` just shows the latest run.
+
 **The legacy branch build is not used.** A GitHub Pages branch build is
 killed after ten minutes, and this build has 1 898 game routes in it. The
 docs hub's `bin/whereq.sh` push-to-`master` pattern is for that repo, not
@@ -254,11 +271,43 @@ from `giscus.app/api/discussions` is not a broken mapping**: it is giscus
 saying no thread exists for that page yet. The widget still renders, and the
 thread is created when the first comment is posted.
 
-## House rules
+## House rules — the terminal design system
 
-- MetroUI, and **radius xs = 2px** — the whereq family standard. A
-  pill-shaped button is a second button; do not use `border-radius: 999px`.
-- Colours from `--ifm-*` tokens only, so light and dark both work.
-- The site is dark-first.
+The site was reskinned to a **DOS technical-document / terminal** look. The
+design system is the authority now; the old MetroUI styling is gone.
+
+- **The colours live once, in `--pcl-*` tokens** in `src/css/custom.css`, and
+  the Docusaurus `--ifm-*` variables are mapped onto them. Author new UI
+  against `--pcl-*` (or `--ifm-*` where a token maps through), never a raw hex,
+  so **dark and the derived light mode both work**. Dark is the default.
+  - Palette: bg `--pcl-bg`/`-1`/`-2`, `--pcl-header-bg` (a shade below the
+    page), `--pcl-screen`/`--pcl-bezel` (the CRT, which stays dark in both
+    themes), ink `--pcl-ink`/`--pcl-body`/`--pcl-muted`, accent
+    `--pcl-amber` (+ `-hover`, `-soft`, `--pcl-btn-ink`), `--pcl-cyan`,
+    borders `--pcl-border`/`-soft`, `--pcl-error`.
+- **Fonts** (loaded in `headTags`): `--pcl-font-sans` (IBM Plex Sans, body),
+  `--pcl-font-cond` (IBM Plex Sans Condensed 700, headings),
+  `--pcl-font-mono` (IBM Plex Mono, labels/codes — uppercase, letterspaced),
+  `--pcl-font-crt` (VT323 — stat numbers, the logo mark, CRT readouts).
+- **Radius is always xs = 2px** — pinned globally with `--ifm-global-radius`.
+  No pills (`border-radius: 999px`). The only exceptions are the CRT bezel/
+  screen, which set their own larger radius inline.
+- **Motifs:** doc numbering (`DOC PCL-001`, `§1`, `FIG. 1`), the 3px amber/
+  cyan/cream signal stripe (`.pcl-stripe`, and the navbar/footer `::before`),
+  CRT monitor mockups with scanlines, hairline borders.
+- **Per-page stylesheets, not one shared module:** `index.module.css`,
+  `catalogue.module.css`, `game.module.css`, `about.module.css`,
+  `played.module.css`; shared chrome (navbar/footer) in `custom.css`; the 404
+  is swizzled at `src/theme/NotFound.tsx`. (`dos-games.module.css` is the old
+  module, now orphaned.)
+- **A game card's thumbnail** is the mini-CRT frame: the game's logo
+  (`game.image`) when one was found, otherwise its first character as a VT323
+  capital. The catalogue has a **Rows / Cards** view toggle.
+- **A category has both `id` (slug, e.g. `action`) and `code` (`ACT`).** Show
+  `code` where a short terminal code belongs; never show `id` as a label (it
+  duplicates `label`).
+- **All site copy is bilingual in `src/data/site-copy.ts`** — add EN and ZH
+  together; technical mono labels (`DOC PCL-001`, `§1`) may stay in their
+  terminal form.
 - `onBrokenLinks` and `onBrokenMarkdownLinks` are `warn`, not `error`.
 - `showLastUpdateTime`/`showLastUpdateAuthor` are off.

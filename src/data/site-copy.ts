@@ -51,6 +51,7 @@ export type SiteCopy = {
     ctaPlayed: string;
     categoriesTitle: string;
     categoriesIntro: string;
+    crtCaption: string;
     stepsTitle: string;
     steps: {mark: string; title: string; body: string}[];
     universeBefore: string;
@@ -85,6 +86,8 @@ export type SiteCopy = {
     platform: string;
     entryPoint: string;
     bundle: string;
+    crtCaption: string;
+    commentsPrompt: string;
   };
   played: {
     title: string;
@@ -103,6 +106,21 @@ export type SiteCopy = {
     heading: string;
     lead: (games: string, gigabytes: string) => string;
     sections: {title: string; paragraphs: string[]}[];
+    compare: {
+      title: string;
+      intro: string;
+      dosbox: {kind: string; points: string[]; apk: string; atlas: string};
+      ados: {kind: string; points: string[]; badge: string; note: string};
+    };
+  };
+  notFound: {
+    eyebrow: string;
+    command: string;
+    badCommand: string;
+    heading: string;
+    body: string;
+    ctaHome: string;
+    ctaCatalogue: string;
   };
 };
 
@@ -154,6 +172,7 @@ const en: SiteCopy = {
     categoriesTitle: 'The categories',
     categoriesIntro:
       'The category of a game comes from the manifest of the project the bundles were mirrored from — its own primary classification, not a guess. Where the same project publishes a description that names another genre, the game is listed under that one too: the manifest decides the first category, a description may add a second, and never takes one away.',
+    crtCaption: 'FIG. 1 — Every fact on a game page is read from its bundle, like this.',
     stepsTitle: 'How a page is put together',
     steps: [
       {
@@ -207,20 +226,23 @@ const en: SiteCopy = {
     platform: 'Platform',
     entryPoint: 'Entry point',
     bundle: 'Bundle',
+    crtCaption: 'FIG. 1 — The route in, as the bundle’s shape implies it.',
+    commentsPrompt:
+      'Got this one running where the page could not? Say what you did in the comments — the next reader will thank you.',
   },
   played: {
     title: 'Played through',
     description:
       'The DOS games that have been run on an emulator, with the route in written down: which file to start, which key opens the menu, and what the screen behind it says.',
     eyebrow: 'Played through',
-    heading: 'The games that have been run',
+    heading: 'The games, and how to get into them',
     lead:
-      'These are the pages where somebody has actually played the game through on an emulator and written down what worked: the file to start, the key that opens the menu, and the screens behind it.',
-    intro: (count) =>
-      `${count} games have been played through on an emulator. The rest of the archive is waiting for someone to try it.`,
+      'Most DOS games here just start: import the bundle into WhereQ-DOSBox or A-DOS and press Play. When a bundle holds more than one program, the Launch button lets you pick any command inside it and run that one — you can usually tell which from the names.',
+    intro: () =>
+      'The pages on this shelf write the way in out in full, for the games worth a longer look. You rarely need that much — but if a game will not start, raise it on its page and WhereQ Universe will always be here to help.',
     group: 'Played through',
     commentsText:
-      'Played one of these on your own machine and got further than the page says? Say what you did — the next reader will thank you.',
+      'Found a cleaner way into one of these, or got a stubborn one running? Say what you did — the next reader will thank you.',
   },
   about: {
     title: 'About',
@@ -256,7 +278,7 @@ const en: SiteCopy = {
         title: 'The downloads, and who owns them',
         paragraphs: [
           'The archives are published for study, communication and preservation only. They are the work of their authors and publishers, who hold the rights in them. Publishing a link here claims none of those rights and waives none of them.',
-          'If you believe a download here breaks a licence, a copyright or any other right, write to [googol.zhang@gmail.com](mailto:googol.zhang@gmail.com) and it will be taken down. The same goes for a bundle that is missing something — say so in the comments and it will be replaced.',
+          'If you believe a download here breaks a licence, a copyright or any other right, write to [whereq@gmail.com](mailto:whereq@gmail.com) and it will be taken down. The same goes for a bundle that is missing something — say so in the comments and it will be replaced.',
         ],
       },
       {
@@ -272,6 +294,40 @@ const en: SiteCopy = {
         ],
       },
     ],
+    compare: {
+      title: 'Two ways to run these games',
+      intro:
+        'The bundles here are DOS programs; something has to run them. WhereQ-DOSBox is the open-source emulator these pages are written for, and A-DOS is the app that is coming to Google Play.',
+      dosbox: {
+        kind: 'OPEN SOURCE · ANDROID',
+        points: [
+          'A native DOS emulator for Android, built in the open in the WhereQ Universe.',
+          'The debug APK is built and ready to download straight from the GitHub repository.',
+          'Import a bundle from this archive, press Play, and it starts the entry point the page names.',
+        ],
+        apk: 'Download the debug APK',
+        atlas: 'Read it in the Atlas',
+      },
+      ados: {
+        kind: 'ANDROID · GOOGLE PLAY',
+        points: [
+          'The polished DOS player for Android, headed for the Google Play store.',
+          'Built for readers who would rather install from the Play Store than sideload an APK.',
+          'The same bundles from this archive, the same one-tap setup.',
+        ],
+        badge: 'Coming soon to Google Play',
+        note: 'Not published yet — the listing goes live when the app is approved.',
+      },
+    },
+  },
+  notFound: {
+    eyebrow: 'Page not found',
+    command: 'TYPE THIS-PAGE.HTM',
+    badCommand: 'Bad command or file name',
+    heading: 'There is no page at that address',
+    body: 'The link may be out of date, or the address mistyped. The archive is all still here — start from the front door or jump straight to the catalogue.',
+    ctaHome: 'Back to the front page',
+    ctaCatalogue: 'Open the catalogue',
   },
 };
 
@@ -323,6 +379,7 @@ const zhCN: SiteCopy = {
     categoriesTitle: '游戏分类',
     categoriesIntro:
       '一款游戏属于哪个分类，取自这些游戏包所镜像的那个项目的清单——那是它自己的首要归类，而不是猜测。如果同一项目还发布了提到另一种类型的介绍，这款游戏也会同时列在那个分类下：清单决定第一个分类，介绍可以补上第二个，但绝不会拿走任何一个。',
+    crtCaption: '图 1 —— 游戏页面上的每一条事实，都是这样从游戏包里读出来的。',
     stepsTitle: '一个页面是怎么组成的',
     steps: [
       {
@@ -376,20 +433,23 @@ const zhCN: SiteCopy = {
     platform: '平台',
     entryPoint: '启动文件',
     bundle: '游戏包',
+    crtCaption: '图 1 —— 进入游戏的路径，由游戏包自身的结构推断而来。',
+    commentsPrompt:
+      '在这个页面没能跑通的地方，你把它跑起来了？在评论里说说你是怎么做的——下一位读者会感谢你。',
   },
   played: {
     title: '已通关',
     description:
       '已经在模拟器上跑过的 DOS 游戏，写下了进去的路线：从哪个文件开始、哪个键打开菜单，以及背后的画面是什么。',
     eyebrow: '已通关',
-    heading: '真正被人玩过的那些游戏',
+    heading: '这些游戏，以及怎么进去',
     lead:
-      '这些页面是有人真的在模拟器上把游戏打通，并写下了什么才有效：从哪个文件启动、哪个键打开菜单，以及后面的画面是什么。',
-    intro: (count) =>
-      `已经有 ${count} 款游戏在模拟器上被打通过。归档里的其余部分，还等着有人去试试。`,
+      '这里的大多数 DOS 游戏，直接就能开始：把游戏包导入 WhereQ-DOSBox 或 A-DOS，按下「Play」。如果一个游戏包里不止一个程序，用「Launch」按钮就能挑出其中任意一条命令来运行——看名字通常就能分辨该选哪个。',
+    intro: () =>
+      '这一架上的页面，把进入游戏的路线写得最详尽，留给值得细看的那些游戏。大多数时候你并不需要这么多——但如果哪个游戏启动不了，就在它的页面上提出来，WhereQ Universe 会一直在这里帮你。',
     group: '已通关',
     commentsText:
-      '你在自己的机器上玩过其中某一款，走得比页面上写的更远吗？把你做了什么写下来——下一位读者会感谢你。',
+      '找到了进入其中某一款更顺的方法，或者把某个难搞的跑起来了？把你做了什么写下来——下一位读者会感谢你。',
   },
   about: {
     title: '关于',
@@ -425,7 +485,7 @@ const zhCN: SiteCopy = {
         title: '这些下载，以及它们归谁',
         paragraphs: [
           '这些归档文件仅供学习、交流与保存之用。它们是原作者与出版方的作品，相关权利归其所有。在此发布链接既不主张这些权利，也不放弃这些权利。',
-          '如果你认为某个下载侵犯了许可、著作权或其他权利，请写信至 [googol.zhang@gmail.com](mailto:googol.zhang@gmail.com)，我们会将其下架。游戏包缺了什么东西也是一样——在评论里说一声，我们会补上。',
+          '如果你认为某个下载侵犯了许可、著作权或其他权利，请写信至 [whereq@gmail.com](mailto:whereq@gmail.com)，我们会将其下架。游戏包缺了什么东西也是一样——在评论里说一声，我们会补上。',
         ],
       },
       {
@@ -441,6 +501,40 @@ const zhCN: SiteCopy = {
         ],
       },
     ],
+    compare: {
+      title: '跑这些游戏的两种方式',
+      intro:
+        '这里的游戏包都是 DOS 程序，总得有东西来运行它们。WhereQ-DOSBox 是这些页面所面向的开源模拟器，而 A-DOS 则是即将上架 Google Play 的应用。',
+      dosbox: {
+        kind: '开源 · ANDROID',
+        points: [
+          'WhereQ Universe 中公开开发的 Android 原生 DOS 模拟器。',
+          '调试版 APK 已经构建完成，可直接从 GitHub 仓库下载。',
+          '从本归档导入一个游戏包，按下开始，它就会启动页面所标明的启动文件。',
+        ],
+        apk: '下载调试版 APK',
+        atlas: '在图鉴中了解',
+      },
+      ados: {
+        kind: 'ANDROID · GOOGLE PLAY',
+        points: [
+          '面向 Android 的精致 DOS 播放器，正在上架 Google Play。',
+          '为更愿意从 Play 商店安装、而非手动安装 APK 的读者准备。',
+          '同样来自本归档的游戏包，同样一键完成设置。',
+        ],
+        badge: '即将登陆 Google Play',
+        note: '尚未发布——应用通过审核后，商店页面即会上线。',
+      },
+    },
+  },
+  notFound: {
+    eyebrow: '找不到页面',
+    command: 'TYPE THIS-PAGE.HTM',
+    badCommand: 'Bad command or file name',
+    heading: '这个地址下没有页面',
+    body: '链接可能已经失效，或者地址敲错了。归档里的东西都还在——从首页开始，或者直接去目录看看。',
+    ctaHome: '回到首页',
+    ctaCatalogue: '打开目录',
   },
 };
 

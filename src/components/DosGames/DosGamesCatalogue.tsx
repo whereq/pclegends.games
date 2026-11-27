@@ -1,44 +1,33 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
-import {Scrollbar, scrollbarCss} from '@whereq/react';
 import {DOS_GAMES_INDEX, DosGameIndexEntry} from '../../data/dos-games-index';
 import {
   DOS_GAME_CATEGORIES,
   DOS_GAME_CATEGORY_BY_ID,
-  DosGameCategory,
 } from '../../data/dos-games-categories';
 import GiscusComments from '../GiscusComments';
 import AdSlot from '../AdSlot';
 import {useCopy, useIsChinese} from '../../hooks/useCopy';
 import {gameNames} from './game-names';
-import styles from './dos-games.module.css';
+import styles from './catalogue.module.css';
+
+type ViewMode = 'cards' | 'rows';
 
 /**
- * The catalogue of every DOS game in the archive.
+ * The catalogue of every DOS game — the terminal redesign.
  *
- * This is the whole archive on one page. A list of 1 898 games cannot live
- * in a sidebar — every game page here carries no navigation tree at all, so
- * the catalogue is a panel of cards over a search box instead, and a game's
- * own page stands alone.
- *
- * The games are sorted into categories, and a game can be in more than one
- * of them: the archive files it under one, and the description the same
- * project publishes may name another as well. A game that is in two
- * categories is shown under both.
- *
- * The listing is a panel of its own, with the scrollbar from
- * `@whereq/react`. The search box and the category filters sit at the top
- * of it and stay there while it scrolls, so a reader always knows which
- * filters are applied to what is on screen.
+ * A terminal toolbar (`C:\> FIND`), the category chips, and a view toggle:
+ * **Rows** is a dense table, **Cards** is a grid of mini-CRT cards. The games
+ * are grouped by category; a game in two categories appears under both.
  */
 export default function DosGamesCatalogue(): React.JSX.Element {
   const copy = useCopy();
   const chinese = useIsChinese();
   const [query, setQuery] = React.useState('');
   const [active, setActive] = React.useState<string[]>([]);
+  const [view, setView] = React.useState<ViewMode>('cards');
 
-  /** The games that match the search box, whatever the categories are. */
   const searched = React.useMemo(() => {
     const needle = query.trim().toLowerCase();
     if (!needle) {
@@ -53,7 +42,6 @@ export default function DosGamesCatalogue(): React.JSX.Element {
     );
   }, [query]);
 
-  /** The games left after the categories are applied. */
   const visible = React.useMemo(() => {
     if (active.length === 0) {
       return searched;
@@ -61,12 +49,6 @@ export default function DosGamesCatalogue(): React.JSX.Element {
     return searched.filter((game) => game.types.some((type) => active.includes(type)));
   }, [searched, active]);
 
-  /**
-   * The groups on screen: one per category that still has games in it.
-   *
-   * A game in two categories is in two groups, which is the point — the
-   * counts below add up to more than the number of games.
-   */
   const groups = React.useMemo(() => {
     return DOS_GAME_CATEGORIES.map((category) => ({
       category,
@@ -74,7 +56,6 @@ export default function DosGamesCatalogue(): React.JSX.Element {
     })).filter((group) => group.games.length > 0);
   }, [visible]);
 
-  /** How many games each category holds under the current search. */
   const counts = React.useMemo(() => {
     const tally = new Map<string, number>();
     for (const game of searched) {
@@ -85,8 +66,6 @@ export default function DosGamesCatalogue(): React.JSX.Element {
     return tally;
   }, [searched]);
 
-  const totalBytes = DOS_GAMES_INDEX.reduce((sum, game) => sum + game.size, 0);
-
   const toggle = (id: string) => {
     setActive((current) =>
       current.includes(id) ? current.filter((item) => item !== id) : [...current, id],
@@ -96,239 +75,226 @@ export default function DosGamesCatalogue(): React.JSX.Element {
   const filtered = active.length > 0 || query.trim() !== '';
 
   return (
-    <Layout
-      title={copy.catalogue.title}
-      description={copy.catalogue.description}>
-      {/*
-       * The `@whereq/react` scrollbar stylesheet, rendered here so it is in
-       * the server HTML — no flash of the browser's default scrollbar before
-       * hydration. The id is the library's own, so the component finds this
-       * tag and does not inject a second copy.
-       */}
-      <style id="wq-scrollbar-styles">{scrollbarCss}</style>
+    <Layout title={copy.catalogue.title} description={copy.catalogue.description}>
       <main className={styles.page}>
-      <header className={styles.hero}>
-        <p className={styles.eyebrow}>{copy.catalogue.eyebrow}</p>
-        <h1 className={styles.title}>{copy.catalogue.heading}</h1>
-        <p className={styles.lead}>
-          {copy.catalogue.lead(DOS_GAMES_INDEX.length.toLocaleString('en-US'))}{' '}
-          <Link to="/played/">{copy.played.group}</Link>
-        </p>
-
-        <dl className={styles.stats}>
-          <div className={styles.stat}>
-            <dt>{copy.common.games}</dt>
-            <dd>{DOS_GAMES_INDEX.length}</dd>
-          </div>
-          <div className={styles.stat}>
-            <dt>{copy.common.archive}</dt>
-            <dd>
-              {(totalBytes / 1e9).toFixed(1)}
-              <span className={styles.statMeta}>GB</span>
-            </dd>
-          </div>
-          <div className={styles.stat}>
-            <dt>{copy.common.categories}</dt>
-            <dd>{DOS_GAME_CATEGORIES.length}</dd>
-          </div>
-        </dl>
-      </header>
-
-      <section className={styles.catalogue}>
-        {/*
-          * The filters. They sit above the listing and stick to the top of
-          * the viewport, so a reader always knows which filters are applied
-          * to what is on screen — whether they are scrolling the page or the
-          * list inside it.
-        */}
-        <div className={styles.toolbar}>
-          <div className={styles.toolbarTop}>
-            <input
-              className={styles.search}
-              type="search"
-              placeholder={copy.common.searchPlaceholder}
-              value={query}
-              onChange={(event) => setQuery(event.target.value)}
-              aria-label={copy.common.searchLabel}
-            />
-            <p className={styles.tally} aria-live="polite">
-              <strong>{visible.length}</strong>
-              <span className={styles.tallyMeta}>
-                {visible.length === 1 ? copy.catalogue.tallyOne : copy.catalogue.tallyMany}
-                {active.length > 0 && copy.catalogue.tallyCategories(active.length)}
-              </span>
-            </p>
-          </div>
-
-          <div className={styles.chips} role="group" aria-label="Filter by category">
-            <button
-              className={`${styles.chip} ${active.length === 0 ? styles.chipOn : ''}`}
-              type="button"
-              onClick={() => setActive([])}
-              aria-pressed={active.length === 0}>
-              {copy.common.all}
-              <span className={styles.chipCount}>{searched.length}</span>
-            </button>
-            {DOS_GAME_CATEGORIES.map((category) => {
-              const count = counts.get(category.id) ?? 0;
-              const on = active.includes(category.id);
-              return (
-                <button
-                  className={`${styles.chip} ${on ? styles.chipOn : ''}`}
-                  type="button"
-                  key={category.id}
-                  onClick={() => toggle(category.id)}
-                  aria-pressed={on}
-                  disabled={count === 0 && !on}>
-                  <span
-                    className={styles.chipDot}
-                    style={{background: category.accent}}
-                    aria-hidden="true"
-                  />
-                  {chinese ? category.labelZh : category.label}
-                  <span className={styles.chipCount}>{count}</span>
-                </button>
-              );
-            })}
-            {filtered && (
-              <button
-                className={styles.clear}
-                type="button"
-                onClick={() => {
-                  setQuery('');
-                  setActive([]);
-                }}>
-                {copy.common.clear}
-              </button>
-            )}
-          </div>
-        </div>
-
-        {/*
-         * The listing panel. Its own scrollbar comes from `@whereq/react`,
-         * the same one the Atlas rail uses.
-         */}
-        <Scrollbar className={styles.listing} axis="vertical">
-          <div className={styles.listingInner}>
-            {groups.map((group) => (
-              <Group
-                key={group.category.id}
-                category={group.category}
-                games={group.games}
-                chinese={chinese}
-              />
-            ))}
-
-            {groups.length === 0 && (
-              <p className={styles.empty}>
-                {copy.catalogue.empty}
+        {/* ── HEADER ───────────────────────────────────────── */}
+        <section className={styles.hero}>
+          <div className={styles.heroInner}>
+            <div className={styles.heroMain}>
+              <p className={styles.docline}>
+                <span className={styles.docTag}>DOC PCL-002</span>
+                <span>{copy.catalogue.eyebrow}</span>
               </p>
-            )}
+              <h1 className={styles.heroTitle}>{copy.catalogue.heading}</h1>
+              <p className={styles.heroLead}>
+                {copy.catalogue.lead(DOS_GAMES_INDEX.length.toLocaleString('en-US'))}{' '}
+                <Link to="/played/">{copy.played.group}</Link>
+              </p>
+            </div>
           </div>
-        </Scrollbar>
-      </section>
+        </section>
 
-      <aside className={styles.notice}>
-        <p className={styles.noticeTitle}>{copy.common.noticeTitle}</p>
-        <p className={styles.noticeText}>{copy.common.noticeText}</p>
-      </aside>
+        {/* ── TOOLBAR (sticky) ─────────────────────────────── */}
+        <section className={styles.toolbar}>
+          <div className={styles.toolbarInner}>
+            <div className={styles.toolbarTop}>
+              <label className={styles.find}>
+                <span className={styles.findPrompt}>C:\&gt;</span>
+                <span className={styles.findCmd}>FIND</span>
+                <input
+                  className={styles.findInput}
+                  type="search"
+                  placeholder={copy.common.searchPlaceholder}
+                  value={query}
+                  onChange={(event) => setQuery(event.target.value)}
+                  aria-label={copy.common.searchLabel}
+                />
+              </label>
 
-      <AdSlot name="catalogue" />
+              <p className={styles.tally} aria-live="polite">
+                <strong>{visible.length}</strong>
+                <span className={styles.tallyMeta}>
+                  {visible.length === 1 ? copy.catalogue.tallyOne : copy.catalogue.tallyMany}
+                </span>
+              </p>
 
-      <section className={styles.comments}>
-        <h2 className={styles.sectionTitle}>{copy.common.comments}</h2>
-        <p className={styles.para}>{copy.common.commentsText}</p>
-        <GiscusComments />
-      </section>
+              <div className={styles.viewToggle} role="group" aria-label="View">
+                <button
+                  type="button"
+                  className={`${styles.viewBtn} ${view === 'rows' ? styles.viewBtnOn : ''}`}
+                  onClick={() => setView('rows')}
+                  aria-pressed={view === 'rows'}>
+                  ≡ {chinese ? '列表' : 'Rows'}
+                </button>
+                <button
+                  type="button"
+                  className={`${styles.viewBtn} ${view === 'cards' ? styles.viewBtnOn : ''}`}
+                  onClick={() => setView('cards')}
+                  aria-pressed={view === 'cards'}>
+                  ▦ {chinese ? '卡片' : 'Cards'}
+                </button>
+              </div>
+            </div>
+
+            <div className={styles.chips} role="group" aria-label="Filter by category">
+              <button
+                className={`${styles.chip} ${active.length === 0 ? styles.chipOn : ''}`}
+                type="button"
+                onClick={() => setActive([])}
+                aria-pressed={active.length === 0}>
+                {copy.common.all}
+                <span className={styles.chipCount}>{searched.length}</span>
+              </button>
+              {DOS_GAME_CATEGORIES.map((category) => {
+                const count = counts.get(category.id) ?? 0;
+                const on = active.includes(category.id);
+                return (
+                  <button
+                    className={`${styles.chip} ${on ? styles.chipOn : ''}`}
+                    type="button"
+                    key={category.id}
+                    onClick={() => toggle(category.id)}
+                    aria-pressed={on}
+                    disabled={count === 0 && !on}>
+                    {chinese ? category.labelZh : category.label}
+                    <span className={styles.chipCount}>{count}</span>
+                  </button>
+                );
+              })}
+              {filtered && (
+                <button
+                  className={styles.clear}
+                  type="button"
+                  onClick={() => {
+                    setQuery('');
+                    setActive([]);
+                  }}>
+                  {copy.common.clear}
+                </button>
+              )}
+            </div>
+          </div>
+        </section>
+
+        {/* ── LIST ─────────────────────────────────────────── */}
+        <section className={styles.listing}>
+          {groups.length === 0 && <p className={styles.empty}>{copy.catalogue.empty}</p>}
+
+          {groups.map((group) => (
+            <section className={styles.group} key={group.category.id}>
+              <div className={styles.groupHead}>
+                <h2 className={styles.groupTitle}>
+                  <span className={styles.groupCode}>{group.category.code}</span>
+                  {chinese ? group.category.labelZh : group.category.label}
+                  <span className={styles.groupCount}>{group.games.length}</span>
+                </h2>
+                <p className={styles.groupBlurb}>
+                  {chinese ? group.category.blurbZh : group.category.blurb}
+                </p>
+              </div>
+
+              {view === 'rows' ? (
+                <div className={styles.rows} role="table" aria-label={group.category.label}>
+                  <div className={styles.rowHead} role="row">
+                    <span role="columnheader">NO.</span>
+                    <span role="columnheader">{chinese ? '标题' : 'TITLE'}</span>
+                    <span role="columnheader">{chinese ? '分类' : 'CATEGORIES'}</span>
+                    <span role="columnheader" className={styles.rowRight}>BUNDLE</span>
+                  </div>
+                  {group.games.map((game, index) => (
+                    <GameRow game={game} index={index} chinese={chinese} copy={copy} key={game.id} />
+                  ))}
+                </div>
+              ) : (
+                <div className={styles.grid}>
+                  {group.games.map((game) => (
+                    <GameCard game={game} chinese={chinese} copy={copy} key={game.id} />
+                  ))}
+                </div>
+              )}
+            </section>
+          ))}
+        </section>
+
+        <AdSlot name="catalogue" />
+
+        <section className={styles.commentsWrap}>
+          <aside className={styles.notice}>
+            <div className={styles.noticeTab}>
+              <span className={styles.noticeKicker}>NOTICE</span>
+              <span className={styles.noticeTitle}>{copy.common.noticeTitle}</span>
+            </div>
+            <p className={styles.noticeText}>{copy.common.noticeText}</p>
+          </aside>
+
+          <h2 className={styles.commentsTitle}>{copy.common.comments}</h2>
+          <p className={styles.commentsText}>{copy.common.commentsText}</p>
+          <GiscusComments />
+        </section>
       </main>
     </Layout>
   );
 }
 
-/** One category and the games in it. */
-function Group({
-  category,
-  games,
-  chinese,
-}: {
-  category: DosGameCategory;
-  games: DosGameIndexEntry[];
-  chinese: boolean;
-}) {
+/** The mini-CRT thumbnail: the game's logo if one was found, else its first
+ *  character in VT323 — the capital-letter mark from the redesign. */
+function Thumb({game, chinese}: {game: DosGameIndexEntry; chinese: boolean}) {
+  const names = gameNames(game.name, game.nameEn, chinese);
+  const initial = [...names.primary][0] ?? '?';
   return (
-    <section className={styles.group} aria-labelledby={`group-${category.id}`}>
-      <div className={styles.groupHead}>
-        <span
-          className={styles.groupRule}
-          style={{background: category.accent}}
-          aria-hidden="true"
-        />
-        <div className={styles.groupHeadMain}>
-          <h2 className={styles.groupTitle} id={`group-${category.id}`}>
-            {chinese ? category.labelZh : category.label}
-            <span className={styles.groupCount}>{games.length}</span>
-          </h2>
-          <p className={styles.groupBlurb}>
-            {chinese ? category.blurbZh : category.blurb}
-          </p>
-        </div>
-      </div>
-      <div className={styles.grid}>
-        {games.map((game) => (
-          <GameCard game={game} key={game.id} chinese={chinese} />
-        ))}
-      </div>
-    </section>
+    <span className={styles.thumb} aria-hidden="true">
+      {game.image ? (
+        <img className={styles.thumbImg} src={game.image} alt="" loading="lazy" decoding="async" />
+      ) : (
+        <span className={styles.thumbChar}>{initial}</span>
+      )}
+    </span>
   );
 }
 
-/**
- * One game.
- *
- * The card shows the game: its picture, its name in the reader's language,
- * and the categories it sits in. The facts read out of the bundle — the
- * year, the entry point, how many files it holds, how big it is — are on the
- * game's own page, where there is room for them.
- */
-function GameCard({
-  game,
-  chinese,
-}: {
+type CardProps = {
   game: DosGameIndexEntry;
   chinese: boolean;
-}) {
-  const copy = useCopy();
+  copy: ReturnType<typeof useCopy>;
+};
+
+function Tags({game, chinese}: {game: DosGameIndexEntry; chinese: boolean}) {
+  return (
+    <span className={styles.tags}>
+      {game.types.map((type, index) => {
+        const category = DOS_GAME_CATEGORY_BY_ID[type];
+        const label = chinese ? category?.labelZh ?? type : category?.label ?? type;
+        return (
+          <span className={styles.tag} key={type}>
+            {index === 0 ? label : `+ ${label}`}
+          </span>
+        );
+      })}
+    </span>
+  );
+}
+
+function sizeKb(bytes: number): string {
+  if (bytes >= 1024 * 1024) {
+    return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
+  }
+  return `${Math.max(1, Math.round(bytes / 1024))} KB`;
+}
+
+/** One game, as a card. */
+function GameCard({game, chinese, copy}: CardProps) {
   const names = gameNames(game.name, game.nameEn, chinese);
   return (
     <article className={styles.card}>
       <Link className={styles.cardLink} to={game.page}>
-        <span className={styles.cardMark}>
-          <img
-            src={game.image ?? `/img/dos-games/${game.id}.svg`}
-            alt=""
-            width={44}
-            height={44}
-            loading="lazy"
-            decoding="async"
-          />
-        </span>
+        <Thumb game={game} chinese={chinese} />
         <span className={styles.cardHead}>
+          <Tags game={game} chinese={chinese} />
           <span className={styles.cardName}>{names.primary}</span>
-          <span className={styles.cardTypes}>
-            {game.types.map((type, index) => {
-              const category = DOS_GAME_CATEGORY_BY_ID[type];
-              const label = chinese ? category?.labelZh ?? type : category?.label ?? type;
-              return (
-                <span className={styles.cardType} key={type}>
-                  {index === 0 ? label : `+ ${label}`}
-                </span>
-              );
-            })}
-          </span>
+          {names.secondary && <span className={styles.cardAlt}>{names.secondary}</span>}
         </span>
       </Link>
-
-      <div className={styles.cardActions}>
+      <div className={styles.cardFoot}>
         <Link className={styles.cardRead} to={game.page}>
           {copy.common.readThePage}
         </Link>
@@ -337,9 +303,43 @@ function GameCard({
           href={game.url}
           target="_blank"
           rel="noopener noreferrer">
-          {copy.common.download}
+          ↓ {copy.common.download}
         </a>
       </div>
     </article>
+  );
+}
+
+/** One game, as a table row. */
+function GameRow({
+  game,
+  index,
+  chinese,
+  copy,
+}: CardProps & {index: number}) {
+  const names = gameNames(game.name, game.nameEn, chinese);
+  return (
+    <div className={styles.row} role="row">
+      <span className={styles.rowNo} role="cell">{String(index + 1).padStart(3, '0')}</span>
+      <Link className={styles.rowTitle} role="cell" to={game.page}>
+        <Thumb game={game} chinese={chinese} />
+        <span className={styles.rowNames}>
+          <span className={styles.rowName}>{names.primary}</span>
+          {names.secondary && <span className={styles.rowAlt}>{names.secondary}</span>}
+        </span>
+      </Link>
+      <span role="cell"><Tags game={game} chinese={chinese} /></span>
+      <span className={styles.rowBundle} role="cell">
+        <span className={styles.rowSize}>{sizeKb(game.size)}</span>
+        <a
+          className={styles.rowDownload}
+          href={game.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={copy.common.download}>
+          ↓
+        </a>
+      </span>
+    </div>
   );
 }

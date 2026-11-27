@@ -1,77 +1,159 @@
 /* ============================================================
-   WhereQ Dark Theme — Dark Navy Blue + Amber/Gold Accents
+   PC Legends — the terminal redesign
+   A DOS technical-document look: IBM Plex + VT323, amber on near-black
+   (and the same system inverted to ink-on-paper in light mode).
+
+   The colours live once, in --pcl-* tokens, and the Docusaurus --ifm-*
+   variables are mapped onto them so the theme chrome inherits the system.
    ============================================================ */
 
-/* ── Color Tokens ─────────────────────────────────────────── */
 :root {
-  /* Container width: +20% over Docusaurus defaults (1140 → 1368, 1320 → 1584) */
-  --ifm-container-width: 1368px;
-  --ifm-container-width-xl: 1584px;
+  /* The terminal typefaces. */
+  --pcl-font-sans: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --pcl-font-cond: 'IBM Plex Sans Condensed', 'IBM Plex Sans', system-ui, sans-serif;
+  --pcl-font-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', monospace;
+  --pcl-font-crt: 'VT323', 'IBM Plex Mono', monospace;
 
-  --ifm-color-primary: #f5a623;
-  --ifm-color-primary-dark: #e09410;
-  --ifm-color-primary-darker: #d48a0e;
-  --ifm-color-primary-darkest: #b07309;
-  --ifm-color-primary-light: #f7b340;
-  --ifm-color-primary-lighter: #f8bc55;
-  --ifm-color-primary-lightest: #fbd07f;
+  /* The one accent that does not change with the theme: the amber ink that
+     sits on an amber button is always near-black. */
+  --pcl-btn-ink: #1A1306;
+
+  /* The whereq family standard: radius is always xs = 2px. Infima's own
+     default is ~6px, which reads as a rounded pill; pin it to xs so every
+     border-radius the theme hands out is the house value. The CRT bezel and
+     screen set their own larger radius inline and are unaffected. */
+  --ifm-global-radius: 2px;
+
+  /* Container width — the redesign's own 1360px gutter box. */
+  --ifm-container-width: 1360px;
+  --ifm-container-width-xl: 1360px;
 
   --ifm-code-font-size: 92%;
-  --ifm-font-family-base: 'Inter', 'Segoe UI', system-ui, sans-serif;
-  --ifm-font-family-monospace: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
-  --ifm-heading-font-weight: 600;
-  --ifm-line-height-base: 1.75;
-
-  --docusaurus-highlighted-code-line-bg: rgba(245, 166, 35, 0.12);
-
-  /* Blog post h1 title — reduce from infima default 3rem so long titles fit one line */
+  --ifm-font-family-base: var(--pcl-font-sans);
+  --ifm-font-family-monospace: var(--pcl-font-mono);
+  --ifm-heading-font-family: var(--pcl-font-cond);
+  --ifm-heading-font-weight: 700;
+  --ifm-line-height-base: 1.65;
   --ifm-h1-font-size: 1.9rem;
 }
 
-/* ── Dark Mode Variables ──────────────────────────────────── */
+/* ── Dark (default) — amber on near-black ─────────────────── */
 [data-theme='dark'] {
-  --ifm-background-color: #0d1117;
-  --ifm-background-surface-color: #161b27;
-  --ifm-navbar-background-color: #0a0e1a;
-  --ifm-footer-background-color: #080c15;
-  --ifm-sidebar-background-color: #0f1420;
-  --ifm-toc-background-color: #0f1420;
+  --pcl-bg: #0C0E0D;
+  --pcl-bg-1: #101311;
+  --pcl-bg-2: #121614;
+  --pcl-grid: #151A17;
+  --pcl-screen: #070908;
+  --pcl-bezel: #1A1F1C;
+  --pcl-ink: #ECE6D6;
+  --pcl-body: #C9C4B6;
+  --pcl-muted: #A3AAA2;
+  --pcl-border: #3A443E;
+  --pcl-border-soft: #29312C;
+  --pcl-row-hover: #121614;
+  /* The header sits a shade below the page so its edge reads. */
+  --pcl-header-bg: #08090A;
 
-  --ifm-color-primary: #f5a623;
-  --ifm-color-primary-dark: #e09410;
-  --ifm-color-primary-darker: #d48a0e;
-  --ifm-color-primary-darkest: #b07309;
-  --ifm-color-primary-light: #f7b340;
-  --ifm-color-primary-lighter: #f8bc55;
-  --ifm-color-primary-lightest: #fbd07f;
+  --pcl-amber: #FFB547;
+  --pcl-amber-hover: #FFD08A;
+  --pcl-amber-soft: rgba(255, 181, 71, 0.12);
+  --pcl-cyan: #7FD8E6;
+  --pcl-error: #ff6b6b;
 
-  --ifm-font-color-base: #c9d1d9;
-  --ifm-heading-color: #f0e6c8;
-  --ifm-link-color: #f5a623;
-  --ifm-link-hover-color: #fbd07f;
-  --ifm-navbar-link-color: #c9d1d9;
-  --ifm-navbar-link-hover-color: #f5a623;
+  --ifm-color-primary: #FFB547;
+  --ifm-color-primary-dark: #f0a52f;
+  --ifm-color-primary-darker: #e39a28;
+  --ifm-color-primary-darkest: #bb7e1d;
+  --ifm-color-primary-light: #ffc062;
+  --ifm-color-primary-lighter: #ffca7a;
+  --ifm-color-primary-lightest: #ffd89c;
 
-  --ifm-menu-color: #c9d1d9;
-  --ifm-menu-color-active: #f5a623;
-  --ifm-menu-color-background-active: rgba(245, 166, 35, 0.12);
-  --ifm-menu-color-background-hover: rgba(245, 166, 35, 0.07);
+  --ifm-background-color: var(--pcl-bg);
+  --ifm-background-surface-color: var(--pcl-bg-2);
+  --ifm-navbar-background-color: var(--pcl-bg);
+  --ifm-footer-background-color: var(--pcl-bg);
 
-  --ifm-toc-link-color: #8b949e;
-  --ifm-toc-link-hover-color: #f5a623;
+  --ifm-font-color-base: var(--pcl-body);
+  --ifm-heading-color: var(--pcl-ink);
+  --ifm-link-color: var(--pcl-amber);
+  --ifm-link-hover-color: var(--pcl-amber-hover);
+  --ifm-navbar-link-color: var(--pcl-ink);
+  --ifm-navbar-link-hover-color: var(--pcl-amber);
 
-  --ifm-table-border-color: #30363d;
+  --ifm-table-border-color: var(--pcl-border);
   --ifm-table-stripe-background: rgba(255, 255, 255, 0.025);
-  --ifm-hr-border-color: #21262d;
-
-  --ifm-code-background: #1c2333;
-  --ifm-pre-background: #161b27;
-
-  --ifm-blockquote-border-left-color: #f5a623;
-  --ifm-blockquote-color: #8b949e;
-
-  --docusaurus-highlighted-code-line-bg: rgba(245, 166, 35, 0.15);
+  --ifm-hr-border-color: var(--pcl-border-soft);
+  --ifm-code-background: #1A1F1C;
+  --ifm-pre-background: var(--pcl-screen);
+  --ifm-blockquote-border-left-color: var(--pcl-amber);
+  --ifm-blockquote-color: var(--pcl-muted);
+  --docusaurus-highlighted-code-line-bg: var(--pcl-amber-soft);
 }
+
+/* ── Light — the same system in ink on paper ──────────────── */
+[data-theme='light'] {
+  --pcl-bg: #F5F4EF;
+  --pcl-bg-1: #EEEDE5;
+  --pcl-bg-2: #E8E6DC;
+  --pcl-grid: #E3E1D5;
+  /* A screen is a screen: the CRT mockups stay dark even on a paper page. */
+  --pcl-screen: #0B0D0C;
+  --pcl-bezel: #DCD9CB;
+  --pcl-ink: #1F1E1C;
+  --pcl-body: #35332C;
+  --pcl-muted: #6B695F;
+  --pcl-border: #C8C4B4;
+  --pcl-border-soft: #DBD8C9;
+  --pcl-row-hover: #ECEAE0;
+  /* The header sits a shade below the paper so its edge reads. */
+  --pcl-header-bg: #E7E5DA;
+
+  /* Amber darkened so it clears AA on paper; the hover goes darker still. */
+  --pcl-amber: #AE6E05;
+  --pcl-amber-hover: #8A5704;
+  --pcl-amber-soft: rgba(174, 110, 5, 0.1);
+  --pcl-cyan: #156B7A;
+  --pcl-error: #b00020;
+
+  --ifm-color-primary: #AE6E05;
+  --ifm-color-primary-dark: #9c6304;
+  --ifm-color-primary-darker: #935d04;
+  --ifm-color-primary-darkest: #794d03;
+  --ifm-color-primary-light: #c07b0a;
+  --ifm-color-primary-lighter: #cd870f;
+  --ifm-color-primary-lightest: #e0982a;
+
+  --ifm-background-color: var(--pcl-bg);
+  --ifm-background-surface-color: var(--pcl-bg-2);
+  --ifm-navbar-background-color: var(--pcl-bg);
+  --ifm-footer-background-color: var(--pcl-bg);
+
+  --ifm-font-color-base: var(--pcl-body);
+  --ifm-heading-color: var(--pcl-ink);
+  --ifm-link-color: var(--pcl-amber);
+  --ifm-link-hover-color: var(--pcl-amber-hover);
+  --ifm-navbar-link-color: var(--pcl-ink);
+  --ifm-navbar-link-hover-color: var(--pcl-amber);
+
+  --ifm-table-border-color: var(--pcl-border);
+  --ifm-table-stripe-background: rgba(0, 0, 0, 0.02);
+  --ifm-hr-border-color: var(--pcl-border-soft);
+  --ifm-code-background: #E8E6DC;
+  --ifm-pre-background: var(--pcl-screen);
+  --ifm-blockquote-border-left-color: var(--pcl-amber);
+  --ifm-blockquote-color: var(--pcl-muted);
+  --docusaurus-highlighted-code-line-bg: var(--pcl-amber-soft);
+}
+
+/* A shared helper: the 3px amber / cyan / cream signal stripe the header and
+   a few section tops carry. */
+.pcl-stripe {
+  height: 3px;
+  display: flex;
+}
+.pcl-stripe > :nth-child(1) { flex: 1; background: var(--pcl-amber); }
+.pcl-stripe > :nth-child(2) { width: 120px; background: var(--pcl-cyan); }
+.pcl-stripe > :nth-child(3) { width: 40px; background: var(--pcl-ink); }
 
 /* ── Global Layout ────────────────────────────────────────── */
 html[data-theme='dark'] {
@@ -117,60 +199,91 @@ footer.footer {
   justify-content: center;
 }
 
-/* ── Navbar (Fixed Header) ────────────────────────────────── */
+/* ── Navbar (the terminal header) ─────────────────────────── */
 .navbar {
   position: sticky;
   top: 0;
   z-index: 200;
-  height: 60px;
-  padding: 0 1.5rem;
-  border-bottom: 1px solid rgba(245, 166, 35, 0.15);
+  height: 58px;
+  padding: 0 32px;
+  /* A shade darker than the page, with a distinct edge, so the header reads
+     as a band rather than blending into the content below it. */
+  border-bottom: 1px solid var(--pcl-border);
   /*
    * No backdrop-filter here.
    *
    * `backdrop-filter` (like `filter`) makes the element a containing block
    * for its fixed-position descendants. Docusaurus renders the mobile menu
    * drawer (`.navbar-sidebar`) and its backdrop *inside* the navbar, so the
-   * blur would trap them inside the 60px navbar box: the drawer would be
-   * 59px tall instead of full-height, its items would collapse to
-   * `calc(100% - 60px)` = -1px, and the menu links would be invisible on
-   * every phone. The bar is opaque instead.
+   * blur would trap them inside the navbar box and the menu links would be
+   * invisible on every phone. The bar is opaque instead.
    */
-  background-color: var(--ifm-navbar-background-color);
-  box-shadow: 0 1px 16px rgba(0, 0, 0, 0.4);
+  background-color: var(--pcl-header-bg);
+  box-shadow: none;
 }
 
-[data-theme='dark'] .navbar {
-  background-color: #0a0e1a;
+/* The 3px amber / cyan / cream signal stripe runs along the very top of the
+   header — the mark the whole redesign opens on. */
+.navbar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    var(--pcl-amber) 0,
+    var(--pcl-amber) calc(100% - 160px),
+    var(--pcl-cyan) calc(100% - 160px),
+    var(--pcl-cyan) calc(100% - 40px),
+    var(--pcl-ink) calc(100% - 40px)
+  );
 }
 
 .navbar__brand {
   font-weight: 700;
-  letter-spacing: -0.01em;
+  letter-spacing: 0.01em;
 }
 
 .navbar__title {
-  font-size: 1.2rem;
-  background: linear-gradient(135deg, #f5a623 0%, #fbd07f 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-family: var(--pcl-font-cond);
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--pcl-ink);
 }
 
 .navbar__logo {
-  height: 36px;
-  margin-right: 8px;
+  height: 34px;
+  width: auto;
+  margin-right: 10px;
+}
+
+/* If the logo image ever fails to load, its alt text must not wrap into a
+   thin column beside the title — keep it on one line. */
+.navbar__logo img {
+  max-width: none;
+  white-space: nowrap;
 }
 
 .navbar__link {
-  font-size: 0.9rem;
+  font-family: var(--pcl-font-sans);
+  font-size: 0.95rem;
   font-weight: 500;
-  transition: color 0.2s ease;
+  padding: 0 12px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
 }
 
 .navbar__link:hover,
 .navbar__link--active {
-  color: var(--ifm-color-primary) !important;
+  color: var(--pcl-amber) !important;
+  border-bottom-color: var(--pcl-amber);
 }
 
 /* GitHub icon in navbar */
@@ -244,109 +357,124 @@ button[class*='toggleButton']:hover {
   flex: 1;
 }
 
+/* The /guide docs chrome, on the same --pcl tokens as the rest of the site,
+   so the two guide pages match the terminal look and work in light mode too.
+   Radius stays at the house xs. */
+
 /* ── Left Sidebar ─────────────────────────────────────────── */
-[data-theme='dark'] .theme-doc-sidebar-container,
-[data-theme='dark'] nav.menu {
-  background-color: var(--ifm-sidebar-background-color, #0f1420);
-  border-right: 1px solid rgba(245, 166, 35, 0.08);
+.theme-doc-sidebar-container,
+nav.menu {
+  background-color: var(--pcl-bg-1);
+  border-right: 1px solid var(--pcl-border-soft);
 }
 
 .menu__link {
-  border-radius: 6px;
+  border-radius: 2px;
   font-size: 0.875rem;
-  transition: all 0.15s ease;
+  font-family: var(--pcl-font-sans);
+  transition: background-color 0.15s ease, color 0.15s ease;
 }
 
 .menu__link:hover {
-  background-color: var(--ifm-menu-color-background-hover);
-  color: var(--ifm-menu-color-active);
+  background-color: var(--pcl-amber-soft);
+  color: var(--pcl-amber);
 }
 
 .menu__link--active {
-  background-color: var(--ifm-menu-color-background-active) !important;
-  color: var(--ifm-menu-color-active) !important;
+  background-color: var(--pcl-amber-soft) !important;
+  color: var(--pcl-amber) !important;
   font-weight: 600;
 }
 
 .menu__list-item-collapsible:hover {
-  background-color: var(--ifm-menu-color-background-hover);
+  background-color: var(--pcl-amber-soft);
 }
 
 /* ── Right TOC ────────────────────────────────────────────── */
-[data-theme='dark'] .table-of-contents {
-  border-left: 2px solid rgba(245, 166, 35, 0.15);
+.table-of-contents {
+  border-left: 1px solid var(--pcl-border);
 }
 
 .table-of-contents__link {
   font-size: 0.8rem;
-  color: var(--ifm-toc-link-color);
+  color: var(--pcl-muted);
   transition: color 0.15s ease;
 }
 
 .table-of-contents__link:hover,
 .table-of-contents__link--active {
-  color: var(--ifm-toc-link-hover-color);
+  color: var(--pcl-amber);
   font-weight: 600;
 }
 
-/* ── Article / Blog Post Content ─────────────────────────── */
+/* ── Article content ──────────────────────────────────────── */
 .markdown {
   line-height: 1.8;
 }
 
 .markdown h1, .markdown h2, .markdown h3,
 .markdown h4, .markdown h5, .markdown h6 {
-  color: var(--ifm-heading-color);
-  font-weight: 600;
+  color: var(--pcl-ink);
+  font-family: var(--pcl-font-cond);
+  font-weight: 700;
 }
 
-[data-theme='dark'] .markdown h2 {
-  border-bottom: 1px solid rgba(245, 166, 35, 0.2);
+.markdown h2 {
+  border-bottom: 1px solid var(--pcl-border-soft);
   padding-bottom: 0.4rem;
 }
 
 .markdown a {
-  color: var(--ifm-link-color);
+  color: var(--pcl-amber);
   text-decoration: none;
-  border-bottom: 1px solid rgba(245, 166, 35, 0.3);
-  transition: all 0.15s ease;
+  border-bottom: 1px solid var(--pcl-amber-soft);
+  transition: color 0.15s ease, border-color 0.15s ease;
 }
 
 .markdown a:hover {
-  color: var(--ifm-link-hover-color);
-  border-bottom-color: var(--ifm-link-hover-color);
+  color: var(--pcl-amber-hover);
+  border-bottom-color: var(--pcl-amber-hover);
 }
 
 /* ── Code Blocks ──────────────────────────────────────────── */
-[data-theme='dark'] .prism-code {
-  background: #161b27 !important;
-  border: 1px solid rgba(245, 166, 35, 0.1);
-  border-radius: 8px;
+.prism-code {
+  background: var(--pcl-screen) !important;
+  border: 1px solid var(--pcl-border);
+  border-radius: 2px;
 }
 
-[data-theme='dark'] code {
-  background: #1c2333;
-  color: #f5a623;
-  border: 1px solid rgba(245, 166, 35, 0.15);
-  border-radius: 4px;
+code {
+  background: var(--ifm-code-background);
+  color: var(--pcl-amber);
+  border: 1px solid var(--pcl-border-soft);
+  border-radius: 2px;
   padding: 0.1em 0.4em;
   font-size: 0.88em;
+}
+
+/* An inline code span inside a pre has no box of its own. */
+.prism-code code {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  padding: 0;
 }
 
 .token.comment,
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: #6a737d;
+  color: var(--pcl-muted);
   font-style: italic;
 }
 
 /* Code title bar */
-[data-theme='dark'] .codeBlockTitle_node_modules,
-[data-theme='dark'] [class*="codeBlockTitle"] {
-  background: #1c2333;
-  border-bottom: 1px solid rgba(245, 166, 35, 0.15);
-  color: #f5a623;
+.codeBlockTitle_node_modules,
+[class*="codeBlockTitle"] {
+  background: var(--pcl-bg-2);
+  border-bottom: 1px solid var(--pcl-border);
+  color: var(--pcl-amber);
+  font-family: var(--pcl-font-mono);
   font-size: 0.8rem;
   font-weight: 600;
 }
@@ -354,7 +482,7 @@ button[class*='toggleButton']:hover {
 /* Line numbers */
 .code-block-line-number {
   user-select: none;
-  color: #4a5568;
+  color: var(--pcl-muted);
 }
 
 /* Highlighted code line */
@@ -366,75 +494,103 @@ button[class*='toggleButton']:hover {
 }
 
 /* ── Tables ───────────────────────────────────────────────── */
-[data-theme='dark'] table {
-  border: 1px solid var(--ifm-table-border-color);
-  border-radius: 8px;
+.markdown table {
+  border: 1px solid var(--pcl-border);
+  border-radius: 2px;
   overflow: hidden;
 }
 
-[data-theme='dark'] thead tr {
-  background-color: rgba(245, 166, 35, 0.08);
+.markdown thead tr {
+  background-color: var(--pcl-amber-soft);
 }
 
-[data-theme='dark'] thead th {
-  color: #f5a623;
-  border-color: var(--ifm-table-border-color);
+.markdown thead th {
+  color: var(--pcl-amber);
+  border-color: var(--pcl-border);
+  font-family: var(--pcl-font-mono);
+  font-size: 0.85em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
   font-weight: 600;
 }
 
-[data-theme='dark'] tbody tr:nth-child(2n) {
+.markdown tbody tr:nth-child(2n) {
   background-color: var(--ifm-table-stripe-background);
 }
 
-[data-theme='dark'] tbody td {
-  border-color: var(--ifm-table-border-color);
+.markdown tbody td {
+  border-color: var(--pcl-border-soft);
 }
 
 /* ── Blockquotes ──────────────────────────────────────────── */
-[data-theme='dark'] blockquote {
-  background: rgba(245, 166, 35, 0.04);
-  border-left: 4px solid var(--ifm-blockquote-border-left-color);
-  border-radius: 0 6px 6px 0;
+.markdown blockquote {
+  background: var(--pcl-amber-soft);
+  border-left: 3px solid var(--pcl-amber);
+  border-radius: 0 2px 2px 0;
   padding: 0.75rem 1.25rem;
-  color: var(--ifm-blockquote-color);
-  font-style: italic;
+  color: var(--pcl-muted);
 }
 
 /* ── Admonitions ──────────────────────────────────────────── */
-[data-theme='dark'] .alert {
-  border-radius: 8px;
+.alert {
+  border-radius: 2px;
   border: 1px solid;
 }
 
-[data-theme='dark'] .alert--info {
-  background: rgba(56, 139, 253, 0.08);
-  border-color: rgba(56, 139, 253, 0.3);
-  color: #79c0ff;
+.alert--info,
+.alert--secondary {
+  background: color-mix(in srgb, var(--pcl-cyan) 10%, transparent);
+  border-color: color-mix(in srgb, var(--pcl-cyan) 40%, transparent);
+  color: var(--pcl-cyan);
 }
 
-[data-theme='dark'] .alert--success {
-  background: rgba(46, 160, 67, 0.08);
-  border-color: rgba(46, 160, 67, 0.3);
-  color: #56d364;
+.alert--success {
+  background: color-mix(in srgb, #2ea043 10%, transparent);
+  border-color: color-mix(in srgb, #2ea043 40%, transparent);
+  color: #2ea043;
 }
 
-[data-theme='dark'] .alert--warning {
-  background: rgba(245, 166, 35, 0.08);
-  border-color: rgba(245, 166, 35, 0.3);
-  color: #f5a623;
+.alert--warning {
+  background: var(--pcl-amber-soft);
+  border-color: color-mix(in srgb, var(--pcl-amber) 40%, transparent);
+  color: var(--pcl-amber);
 }
 
-[data-theme='dark'] .alert--danger {
-  background: rgba(248, 81, 73, 0.08);
-  border-color: rgba(248, 81, 73, 0.3);
-  color: #ff7b72;
+.alert--danger {
+  background: color-mix(in srgb, var(--pcl-error) 10%, transparent);
+  border-color: color-mix(in srgb, var(--pcl-error) 40%, transparent);
+  color: var(--pcl-error);
+}
+
+/* Admonitions keep their body text readable rather than tinted. */
+.alert .alert__message,
+.alert p {
+  color: var(--pcl-body);
 }
 
 /* ── Footer ───────────────────────────────────────────────── */
-[data-theme='dark'] .footer {
-  background-color: var(--ifm-footer-background-color, #080c15);
-  border-top: 1px solid rgba(245, 166, 35, 0.1);
+.footer {
+  background-color: var(--pcl-bg);
+  border-top: 1px solid var(--pcl-border-soft);
   padding: 0;
+}
+
+/* The amber/cyan/cream signal stripe closes the page the way it opened it. */
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    var(--pcl-amber) 0,
+    var(--pcl-amber) calc(100% - 160px),
+    var(--pcl-cyan) calc(100% - 160px),
+    var(--pcl-cyan) calc(100% - 40px),
+    var(--pcl-ink) calc(100% - 40px)
+  );
 }
 
 /* Strip Docusaurus's internal footer bottom padding and re-center */
@@ -444,132 +600,70 @@ button[class*='toggleButton']:hover {
 }
 
 .footer__copyright {
-  padding: 14px 1.5rem !important;
+  padding: 14px 32px !important;
   margin: 0 !important;
   line-height: 1;
-}
-
-.footer__title {
-  color: #f5a623 !important;
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-weight: 700;
-}
-
-.footer__link-item {
-  color: #8b949e !important;
-  font-size: 0.875rem;
-  transition: color 0.15s ease;
-}
-
-.footer__link-item:hover {
-  color: #f5a623 !important;
-}
-
-.footer__copyright {
-  color: #a0aab4;
+  color: var(--pcl-muted);
+  font-family: var(--pcl-font-mono);
   font-size: 0.8rem;
+  letter-spacing: 0.02em;
 }
 
 .footer__copyright a {
-  color: #f5a623;
+  color: var(--pcl-amber);
   text-decoration: none;
   transition: color 0.15s ease;
 }
 
 .footer__copyright a:hover {
-  color: #fbd07f;
+  color: var(--pcl-amber-hover);
   text-decoration: underline;
 }
 
-/* ── Blog Listing ─────────────────────────────────────────── */
-[data-theme='dark'] .blog-list-page article {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-  padding-bottom: 2rem;
-  margin-bottom: 2rem;
-}
-
-[data-theme='dark'] .blog-post-title a {
-  color: #f0e6c8 !important;
-}
-
-[data-theme='dark'] .blog-post-title a:hover {
-  color: #f5a623 !important;
-  border-bottom: none;
-}
-
-/* Tags */
-[data-theme='dark'] .tag_node_modules,
-[data-theme='dark'] [class*="tag_"] {
-  background: rgba(245, 166, 35, 0.1);
-  border: 1px solid rgba(245, 166, 35, 0.25);
-  color: #f5a623;
-  border-radius: 20px;
-  font-size: 0.75rem;
-  padding: 2px 10px;
-  transition: all 0.15s ease;
-}
-
-[data-theme='dark'] .tag_node_modules:hover,
-[data-theme='dark'] [class*="tag_"]:hover {
-  background: rgba(245, 166, 35, 0.2);
-  border-color: rgba(245, 166, 35, 0.5);
-  color: #fbd07f;
-}
-
 /* ── Search ───────────────────────────────────────────────── */
-[data-theme='dark'] .aa-DetachedOverlay {
-  background: rgba(10, 14, 26, 0.95);
-}
-
-[data-theme='dark'] .aa-Panel {
-  background: #161b27;
-  border: 1px solid rgba(245, 166, 35, 0.2);
-  border-radius: 8px;
+.aa-Panel,
+.DocSearch-Modal {
+  background: var(--pcl-bg-2);
+  border: 1px solid var(--pcl-border);
+  border-radius: 2px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
-}
-
-[data-theme='dark'] .DocSearch-Modal {
-  background: #161b27;
-  border: 1px solid rgba(245, 166, 35, 0.2);
 }
 
 /* ── Scrollbar ────────────────────────────────────────────── */
 /*
  * The site-wide amber scrollbar. It deliberately skips any element that
- * carries the `wq-scrollbar` class, so the Atlas nav panel can use the
- * scrollbar from `@whereq/react` instead — that one brings its own width,
- * radius and colours, and a blanket rule here would override them.
+ * carries the `wq-scrollbar` class, so a panel can use the scrollbar from
+ * `@whereq/react` instead — that one brings its own width, radius and
+ * colours, and a blanket rule here would override them.
  */
-[data-theme='dark'] :not(.wq-scrollbar)::-webkit-scrollbar {
+:not(.wq-scrollbar)::-webkit-scrollbar {
   width: 6px;
   height: 6px;
 }
 
-[data-theme='dark'] :not(.wq-scrollbar)::-webkit-scrollbar-track {
-  background: #0d1117;
+:not(.wq-scrollbar)::-webkit-scrollbar-track {
+  background: var(--pcl-bg-1);
 }
 
-[data-theme='dark'] :not(.wq-scrollbar)::-webkit-scrollbar-thumb {
-  background: rgba(245, 166, 35, 0.3);
-  border-radius: 3px;
+:not(.wq-scrollbar)::-webkit-scrollbar-thumb {
+  background: var(--pcl-border);
+  border-radius: 2px;
 }
 
-[data-theme='dark'] :not(.wq-scrollbar)::-webkit-scrollbar-thumb:hover {
-  background: rgba(245, 166, 35, 0.5);
+:not(.wq-scrollbar)::-webkit-scrollbar-thumb:hover {
+  background: var(--pcl-amber);
 }
 
 /* ── KaTeX Math ───────────────────────────────────────────── */
-[data-theme='dark'] .katex {
-  color: #e0e0e0;
+.katex {
+  color: var(--pcl-ink);
 }
 
-[data-theme='dark'] .katex-display {
-  background: rgba(22, 27, 39, 0.8);
+.katex-display {
+  background: var(--pcl-bg-2);
   padding: 1rem;
-  border-radius: 6px;
-  border: 1px solid rgba(245, 166, 35, 0.1);
+  border-radius: 2px;
+  border: 1px solid var(--pcl-border-soft);
   overflow-x: auto;
 }
 
@@ -629,97 +723,45 @@ button[class*='toggleButton']:hover {
 }
 
 /* ── Pagination ───────────────────────────────────────────── */
-[data-theme='dark'] .pagination-nav__link {
-  border-color: rgba(245, 166, 35, 0.2);
-  border-radius: 8px;
-  transition: all 0.2s ease;
+.pagination-nav__link {
+  border-color: var(--pcl-border);
+  border-radius: 2px;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
 }
 
-[data-theme='dark'] .pagination-nav__link:hover {
-  border-color: rgba(245, 166, 35, 0.5);
-  background: rgba(245, 166, 35, 0.05);
+.pagination-nav__link:hover {
+  border-color: var(--pcl-amber);
+  background: var(--pcl-amber-soft);
 }
 
-[data-theme='dark'] .pagination-nav__sublabel {
-  color: #6a737d;
+.pagination-nav__sublabel {
+  color: var(--pcl-muted);
 }
 
-[data-theme='dark'] .pagination-nav__label {
-  color: #f5a623;
+.pagination-nav__label {
+  color: var(--pcl-amber);
 }
 
 /* ── Breadcrumbs ──────────────────────────────────────────── */
-[data-theme='dark'] .breadcrumbs__item--active .breadcrumbs__link {
-  color: #f5a623;
+.breadcrumbs__item--active .breadcrumbs__link {
+  color: var(--pcl-amber);
 }
 
-[data-theme='dark'] .breadcrumbs__link {
-  color: #8b949e;
+.breadcrumbs__link {
+  color: var(--pcl-muted);
 }
 
 /* ── Selection ────────────────────────────────────────────── */
-[data-theme='dark'] ::selection {
-  background: rgba(245, 166, 35, 0.25);
-  color: #f0e6c8;
+::selection {
+  background: color-mix(in srgb, var(--pcl-amber) 30%, transparent);
+  color: var(--pcl-ink);
 }
 
 /* ── Docs version badge ───────────────────────────────────── */
-[data-theme='dark'] .badge {
-  background: rgba(245, 166, 35, 0.1);
-  border: 1px solid rgba(245, 166, 35, 0.3);
-  color: #f5a623;
-}
-
-/* ── Hero section on homepage ─────────────────────────────── */
-.hero--primary {
-  background: linear-gradient(135deg, #0a0e1a 0%, #0f1e3a 50%, #0a0e1a 100%);
-  position: relative;
-  overflow: hidden;
-}
-
-.hero--primary::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background:
-    radial-gradient(ellipse at 20% 50%, rgba(245, 166, 35, 0.05) 0%, transparent 60%),
-    radial-gradient(ellipse at 80% 20%, rgba(56, 139, 253, 0.04) 0%, transparent 60%);
-  pointer-events: none;
-}
-
-.hero__title {
-  font-size: 3rem;
-  font-weight: 800;
-  background: linear-gradient(135deg, #f5a623 0%, #fbd07f 50%, #f5a623 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  margin-bottom: 1rem;
-}
-
-.hero__subtitle {
-  color: #8b949e;
-  font-size: 1.2rem;
-  max-width: 600px;
-  margin: 0 auto 2rem;
-}
-
-/* ── Homepage Feature Cards ───────────────────────────────── */
-[data-theme='dark'] .featureCard {
-  background: #161b27;
-  border: 1px solid rgba(245, 166, 35, 0.1);
-  border-radius: 12px;
-  padding: 1.5rem;
-  transition: all 0.2s ease;
-}
-
-[data-theme='dark'] .featureCard:hover {
-  border-color: rgba(245, 166, 35, 0.3);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+.badge {
+  background: var(--pcl-amber-soft);
+  border: 1px solid color-mix(in srgb, var(--pcl-amber) 40%, transparent);
+  color: var(--pcl-amber);
 }
 
 /* ── Smooth transitions ───────────────────────────────────── */
