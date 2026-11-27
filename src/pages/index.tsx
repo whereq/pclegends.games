@@ -11,6 +11,7 @@ import {
   DOS_GAMES_COUNT,
 } from '../data/dos-games-stats';
 import {useCopy, useIsChinese} from '../hooks/useCopy';
+import AdSlot from '../components/AdSlot';
 import styles from './index.module.css';
 
 /**
@@ -95,6 +96,8 @@ export default function Home(): React.JSX.Element {
             ))}
           </div>
         </section>
+
+        <AdSlot name="home" />
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>{copy.home.stepsTitle}</h2>

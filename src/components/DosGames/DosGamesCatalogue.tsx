@@ -9,6 +9,7 @@ import {
   DosGameCategory,
 } from '../../data/dos-games-categories';
 import GiscusComments from '../GiscusComments';
+import AdSlot from '../AdSlot';
 import {useCopy, useIsChinese} from '../../hooks/useCopy';
 import {gameNames} from './game-names';
 import styles from './dos-games.module.css';
@@ -231,6 +232,8 @@ export default function DosGamesCatalogue(): React.JSX.Element {
         <p className={styles.noticeTitle}>{copy.common.noticeTitle}</p>
         <p className={styles.noticeText}>{copy.common.noticeText}</p>
       </aside>
+
+      <AdSlot name="catalogue" />
 
       <section className={styles.comments}>
         <h2 className={styles.sectionTitle}>{copy.common.comments}</h2>
