@@ -7,14 +7,11 @@ import GiscusComments from '../GiscusComments';
 import AdSlot from '../AdSlot';
 import {useCopy, useIsChinese} from '../../hooks/useCopy';
 import {gameNames} from './game-names';
-import styles from './dos-games.module.css';
+import styles from './game.module.css';
 
 /**
- * The pages that name something outside this site.
- *
- * The Atlas ids the pages carried over still point at the docs hub, which is
- * where the Universe lives. A page here has no sidebar to hang a "See also"
- * on, so the link is spelled out in the body.
+ * The pages that name something outside this site. The Atlas ids the pages
+ * carried over still point at the docs hub, where the Universe lives.
  */
 const EXTERNAL_ENTRIES: Record<string, {label: string; href: string}> = {
   'whereq-dosbox': {
@@ -23,33 +20,30 @@ const EXTERNAL_ENTRIES: Record<string, {label: string; href: string}> = {
   },
 };
 
+/** The entry point hides in the facts as a value like `LR.COM`. */
+function entryPoint(facts: {label: string; value: string}[]): string | null {
+  const hit = facts.find((f) => /\.(exe|com|bat)$/i.test(f.value.trim()));
+  return hit ? hit.value.trim() : null;
+}
+
 /**
- * One game in the DOS games archive.
+ * One game in the DOS games archive — the terminal redesign.
  *
- * The same shape for every game, whether its page was generated from the
- * bundle or written by hand: header, the licence notice, the facts, the
- * body, and the comment thread.
- *
- * There is no sidebar. A tree of 1 898 games on every page would make every
- * page eight times heavier than it needs to be; the catalogue at /dos-games/
- * is where the list lives.
+ * A breadcrumb, a header with the role and category as machine badges, a CRT
+ * figure that spells out the route in, a spec sheet read from the bundle, the
+ * numbered sections, and the comment thread. The same shape whether the page
+ * was generated or written by hand, and in either language.
  */
 export default function DosGamePage({
   entry,
   entryZh,
 }: {
   entry: AtlasEntry;
-  /** The same page in Chinese, for the hand-written games that have one. */
   entryZh?: AtlasEntry;
 }): React.JSX.Element {
   const copy = useCopy();
   const chinese = useIsChinese();
 
-  /**
-   * The page the reader gets. The Chinese locale reads the Chinese entry
-   * where there is one; where there is not, it reads the English entry's
-   * Chinese fields — the generated pages carry both in the same module.
-   */
   const page = React.useMemo(() => {
     const base = chinese && entryZh ? entryZh : entry;
     if (!chinese) {
@@ -64,32 +58,19 @@ export default function DosGamePage({
       facts: base.factsZh ?? base.facts ?? [],
     };
   }, [entry, entryZh, chinese]);
-  const names = gameNames(page.name, page.nameEn, chinese);
 
-  /**
-   * The name on the page is the one the reader is looking for: the original
-   * English title in the English locale, the name the bundle is filed under
-   * in the Chinese one. The other name sits under it.
-   */
+  const names = gameNames(page.name, page.nameEn, chinese);
   const name = names.primary;
   const altName = names.secondary;
 
   const notice =
     page.notice ??
     (chinese ? entry.noticeZh : undefined) ??
-    entry.notice ?? {
-      title: copy.game.noticeTitle,
-      text: copy.game.noticeText,
-    };
+    entry.notice ?? {title: copy.game.noticeTitle, text: copy.game.noticeText};
 
   const sections = page.sections;
   const facts = page.facts ?? [];
-
-  /**
-   * The article the reader is sent to. The Chinese locale reads the Chinese
-   * article where the game has one, and the English article where it does
-   * not — a link is always there.
-   */
+  const entry0 = entryPoint(facts);
   const wiki = chinese ? (page.wikiZh ?? page.wiki) : page.wiki;
 
   const seeAlso = (page.related ?? [])
@@ -101,125 +82,148 @@ export default function DosGamePage({
       title={name}
       description={`${name} — a DOS game in the PC Legends archive: the download, the setup in WhereQ-DOSBox, and what is known about how to play it.`}>
       <main className={styles.page}>
-      <header className={styles.gameHeader}>
-        <span className={styles.gameMark} style={{borderColor: page.accent}}>
-          <img src={page.logo ?? `/img/dos-games/${page.id}.svg`} alt="" />
-        </span>
-        <div className={styles.gameHeaderMain}>
-          <p className={styles.gameRole}>{page.role}</p>
-          <h1 className={styles.gameName}>{name}</h1>
-          {altName && <p className={styles.gameAltName}>{altName}</p>}
-          <p className={styles.gameTagline}>{page.tagline}</p>
-          {page.nameEn && (
-            <p className={styles.gameOrigin}>
-              {page.nameEnSource === 'published'
-                ? copy.common.englishTitlePublished
-                : entry.nameEnSource === 'bundle'
-                  ? copy.common.englishTitleBundle
-                  : copy.common.englishTitleKnown}
-            </p>
-          )}
-          <div className={styles.gameActions}>
-            <a
-              className={`${styles.btn} ${styles.btnPrimary}`}
-              href={page.url}
-              target="_blank"
-              rel="noopener noreferrer">
-              {copy.game.download}
-            </a>
-            <Link className={styles.btn} to="/dos-games/">
-              {copy.game.wholeCatalogue}
-            </Link>
-            <Link className={styles.btn} to="/played/">
-              {copy.game.playedThrough}
-            </Link>
-            {wiki && (
+        {/* ── Breadcrumb ───────────────────────────────────── */}
+        <nav className={styles.crumb} aria-label="Breadcrumb">
+          <span className={styles.crumbPrompt}>C:\PCLEGENDS</span>
+          <span className={styles.crumbSep}>\</span>
+          <Link to="/dos-games/">CATALOGUE</Link>
+          <span className={styles.crumbSep}>\</span>
+          <span className={styles.crumbHere}>{page.id.toUpperCase()}</span>
+        </nav>
+
+        {/* ── Header ───────────────────────────────────────── */}
+        <header className={styles.header}>
+          <div className={styles.headMain}>
+            <div className={styles.badges}>
+              <span className={styles.badge}>{page.role}</span>
+              {wiki && (
+                <a className={styles.badgeLink} href={wiki.url} target="_blank" rel="noopener noreferrer">
+                  {copy.game.wikipedia} ↗
+                </a>
+              )}
+            </div>
+            <h1 className={styles.name}>{name}</h1>
+            {altName && <p className={styles.altName}>{altName}</p>}
+            <p className={styles.tagline}>{page.tagline}</p>
+            {page.nameEn && (
+              <p className={styles.origin}>
+                {page.nameEnSource === 'published'
+                  ? copy.common.englishTitlePublished
+                  : entry.nameEnSource === 'bundle'
+                    ? copy.common.englishTitleBundle
+                    : copy.common.englishTitleKnown}
+              </p>
+            )}
+            <div className={styles.actions}>
               <a
-                className={styles.btn}
-                href={wiki.url}
+                className={`${styles.btn} ${styles.btnPrimary}`}
+                href={page.url}
                 target="_blank"
                 rel="noopener noreferrer">
-                {copy.game.readOnWikipedia}
+                ↓ {copy.game.download}
               </a>
-            )}
-          </div>
-        </div>
-      </header>
-
-      {notice && (
-        <aside className={styles.notice}>
-          <p className={styles.noticeTitle}>{notice.title}</p>
-          <p className={styles.noticeText}>{notice.text}</p>
-        </aside>
-      )}
-
-      <div className={styles.infobox}>
-        <p className={styles.infoboxTitle}>{copy.game.atAGlance(name)}</p>
-        <div className={styles.infoboxBody}>
-          {page.nameEn && (
-            <div className={styles.infoboxRow}>
-              <div className={styles.infoboxTerm}>{copy.game.originalTitle}</div>
-              <div className={styles.infoboxDesc}>{page.nameEn}</div>
+              <Link className={`${styles.btn} ${styles.btnGhost}`} to="/dos-games/">
+                {copy.game.wholeCatalogue}
+              </Link>
+              <Link className={`${styles.btn} ${styles.btnGhost}`} to="/played/">
+                {copy.game.playedThrough}
+              </Link>
             </div>
-          )}
-          {wiki && (
-            <div className={styles.infoboxRow}>
-              <div className={styles.infoboxTerm}>{copy.game.wikipedia}</div>
-              <div className={styles.infoboxDesc}>
-                <a
-                  href={wiki.url}
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  {wiki.title}
-                </a>
+          </div>
+
+          {/* CRT — the route in, as the bundle's shape implies it. */}
+          <figure className={styles.crtFigure}>
+            <div className={styles.crtBezel}>
+              <div className={styles.crtScreen} aria-hidden="true">
+                <div className={styles.crtDim}>WhereQ-DOSBox</div>
+                <div className={styles.crtDim}>──────────────────────</div>
+                <div>Z:\&gt; IMPORT {page.id}.zip</div>
+                {entry0 && <div className={styles.crtInk}>C:\&gt; {entry0}</div>}
+                <div className={styles.crtInk}>C:\&gt; <span className={styles.crtCursor}>&nbsp;</span></div>
+                <div className={styles.crtPlate}>
+                  <span>PCL-CRT 14"</span>
+                  <span className={styles.crtPower}><span className={styles.crtLed} aria-hidden="true" />READY</span>
+                </div>
               </div>
             </div>
-          )}
-          {facts.map((fact) => (
-            <div className={styles.infoboxRow} key={fact.label}>
-              <div className={styles.infoboxTerm}>{fact.label}</div>
-              <div className={styles.infoboxDesc}>{fact.value}</div>
+            <figcaption className={styles.crtCaption}>
+              {copy.game.crtCaption}
+            </figcaption>
+          </figure>
+        </header>
+
+        {notice && (
+          <aside className={styles.notice}>
+            <div className={styles.noticeTab}>
+              <span className={styles.noticeKicker}>NOTICE</span>
+              <span className={styles.noticeTitle}>{notice.title}</span>
             </div>
-          ))}
-        </div>
-      </div>
+            <p className={styles.noticeText}>{notice.text}</p>
+          </aside>
+        )}
 
-      {sections.map((section) => (
-        <section className={styles.section} key={section.title}>
-          <h2 className={styles.sectionTitle}>{section.title}</h2>
-          <AtlasBlocks blocks={section.blocks} />
-        </section>
-      ))}
-
-      {seeAlso.length > 0 && (
-        <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>{copy.game.seeAlso}</h2>
-          <ul className={styles.linkList}>
-            {seeAlso.map((item) => (
-              <li key={item.href}>
-                <a
-                  className={styles.btn}
-                  href={item.href}
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  {item.label}
-                </a>
-              </li>
+        {/* ── Spec sheet ───────────────────────────────────── */}
+        <section className={styles.spec}>
+          <p className={styles.specHead}>{copy.game.atAGlance(name).toUpperCase()}</p>
+          <dl className={styles.specGrid}>
+            {page.nameEn && (
+              <div className={styles.specRow}>
+                <dt>{copy.game.originalTitle}</dt>
+                <dd>{page.nameEn}</dd>
+              </div>
+            )}
+            {facts.map((fact) => (
+              <div className={styles.specRow} key={fact.label}>
+                <dt>{fact.label}</dt>
+                <dd>{fact.value}</dd>
+              </div>
             ))}
-          </ul>
+          </dl>
         </section>
-      )}
 
-      <AdSlot name="gameInArticle" format="in-article" />
+        {/* ── Sections (numbered) ──────────────────────────── */}
+        <div className={styles.body}>
+          {sections.map((section, index) => (
+            <section className={styles.section} key={section.title} id={`s${index + 1}`}>
+              <h2 className={styles.sectionTitle}>
+                <span className={styles.sectionNum}>{index + 1}.0</span>
+                {section.title}
+              </h2>
+              <div className={styles.sectionBody}>
+                <AtlasBlocks blocks={section.blocks} />
+              </div>
+            </section>
+          ))}
 
-      <section className={styles.comments}>
-        <h2 className={styles.sectionTitle}>Comments</h2>
-        <p className={styles.para}>
-          Got this one running where the page could not? Say what you did in
-          the comments — the next reader will thank you.
-        </p>
-        <GiscusComments />
-      </section>
+          {seeAlso.length > 0 && (
+            <section className={styles.section}>
+              <h2 className={styles.sectionTitle}>
+                <span className={styles.sectionNum}>+</span>
+                {copy.game.seeAlso}
+              </h2>
+              <ul className={styles.linkList}>
+                {seeAlso.map((item) => (
+                  <li key={item.href}>
+                    <a href={item.href} target="_blank" rel="noopener noreferrer">
+                      {item.label} ↗
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          <AdSlot name="gameInArticle" format="in-article" />
+
+          <section className={styles.section}>
+            <h2 className={styles.sectionTitle}>
+              <span className={styles.sectionNum}>★</span>
+              {copy.common.comments}
+            </h2>
+            <p className={styles.commentsText}>{copy.game.commentsPrompt}</p>
+            <GiscusComments />
+          </section>
+        </div>
       </main>
     </Layout>
   );

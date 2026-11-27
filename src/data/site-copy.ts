@@ -86,6 +86,8 @@ export type SiteCopy = {
     platform: string;
     entryPoint: string;
     bundle: string;
+    crtCaption: string;
+    commentsPrompt: string;
   };
   played: {
     title: string;
@@ -209,6 +211,9 @@ const en: SiteCopy = {
     platform: 'Platform',
     entryPoint: 'Entry point',
     bundle: 'Bundle',
+    crtCaption: 'FIG. 1 — The route in, as the bundle’s shape implies it.',
+    commentsPrompt:
+      'Got this one running where the page could not? Say what you did in the comments — the next reader will thank you.',
   },
   played: {
     title: 'Played through',
@@ -379,6 +384,9 @@ const zhCN: SiteCopy = {
     platform: '平台',
     entryPoint: '启动文件',
     bundle: '游戏包',
+    crtCaption: '图 1 —— 进入游戏的路径，由游戏包自身的结构推断而来。',
+    commentsPrompt:
+      '在这个页面没能跑通的地方，你把它跑起来了？在评论里说说你是怎么做的——下一位读者会感谢你。',
   },
   played: {
     title: '已通关',
