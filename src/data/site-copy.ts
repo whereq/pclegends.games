@@ -125,6 +125,9 @@ export type SiteCopy = {
     heading: string;
     lead: string;
     runTitle: string;
+    walkTitle: string;
+    walkIntro: string;
+    walk: {img: string; caption: string; portrait?: boolean}[];
     linksTitle: string;
     linksIntro: string;
     links: {name: string; href: string; note: string}[];
@@ -350,6 +353,20 @@ const en: SiteCopy = {
     lead:
       'A bundle from the archive is a DOS program; it needs a player. Here are the two from the WhereQ Universe, and then the places worth knowing across the rest of the DOS world.',
     runTitle: 'Two ways to run these games',
+    walkTitle: 'A run through WhereQ-DOSBox',
+    walkIntro:
+      'The whole route in, on WhereQ-DOSBox 1.0.0.19, using 偷金子 (Lode Runner) — the game the front page shows. Import the bundle, press Play, and you are in; Game Mode lays a d-pad and mouse over the screen, and the emulator keeps running when you switch away.',
+    walk: [
+      {img: '/img/resources/01-files-panel.png', caption: 'A fresh install: the Files panel is empty, and the gold “Install a bundle (.zip)” button starts the import.'},
+      {img: '/img/resources/02-picker-download.png', caption: 'The Android file picker on Downloads, with tou-jin-zi.zip selected — the bundle the PC Legends page for 偷金子 (Lode Runner) links to.', portrait: true},
+      {img: '/img/resources/03-bundle-installed.png', caption: 'Installed: its entry point LR.COM, its size, and the Play / States / Launch… / Remove buttons.'},
+      {img: '/img/resources/04-game-running.png', caption: '偷金子 (Lode Runner) running inside WhereQ-DOSBox, framed by the on-screen keyboard.'},
+      {img: '/img/resources/05-game-mode-on.png', caption: 'Game Mode: a d-pad, L/R-CLICK, the trackball, CTRL as fire and ALT as strafe — the game still running behind the pads.'},
+      {img: '/img/resources/06-game-mode-off.png', caption: 'Back to the plain keyboard pads, the game still running underneath.'},
+      {img: '/img/resources/07-running-in-background.png', caption: 'The “Playing tou-jin-zi — tap to return” notification: the service that keeps the machine resident while you are in another app.', portrait: true},
+      {img: '/img/resources/08-tap-to-return.png', caption: 'Back in the game after tapping the notification — the same frame, the same score; nothing was lost.'},
+      {img: '/img/resources/09-dos-prompt.png', caption: 'The DOSBox banner and the C:\\> prompt, with the on-screen keyboard below.'},
+    ],
     linksTitle: 'More DOS, out in the world',
     linksIntro:
       'PC Legends is one shelf among many. These are the collections, stores and emulators the DOS community has built — good places to find a game that is not here, buy a polished re-release, or just play something in the browser.',
@@ -612,6 +629,20 @@ const zhCN: SiteCopy = {
     lead:
       '归档里的游戏包是 DOS 程序，需要一个播放器。这里是 WhereQ 家族的两个，接着是 DOS 世界里其余那些值得知道的地方。',
     runTitle: '跑这些游戏的两种方式',
+    walkTitle: '走一遍 WhereQ-DOSBox',
+    walkIntro:
+      '完整的进入路线，基于 WhereQ-DOSBox 1.0.0.19，用的是 偷金子（Lode Runner）——首页展示的那款游戏。导入游戏包、按下 Play，就进去了；「游戏模式」会在画面上叠一层方向键和鼠标，而你切换到别的应用时，模拟器仍在后台继续运行。',
+    walk: [
+      {img: '/img/resources/01-files-panel.png', caption: '全新安装：文件面板是空的，金色的「Install a bundle (.zip)」按钮开始导入。'},
+      {img: '/img/resources/02-picker-download.png', caption: 'Android 文件选择器停在「下载」文件夹，选中了 tou-jin-zi.zip——正是 PC Legends 上 偷金子（Lode Runner）页面所链接的那个游戏包。', portrait: true},
+      {img: '/img/resources/03-bundle-installed.png', caption: '安装完成：它的入口文件 LR.COM、大小，以及 Play / States / Launch… / Remove 几个按钮。'},
+      {img: '/img/resources/04-game-running.png', caption: '偷金子（Lode Runner）在 WhereQ-DOSBox 中运行，四周是屏幕键盘。'},
+      {img: '/img/resources/05-game-mode-on.png', caption: '游戏模式：方向键、L/R-CLICK、轨迹球，CTRL 开火、ALT 横移——游戏仍在方向键后面运行。'},
+      {img: '/img/resources/06-game-mode-off.png', caption: '切回普通键盘方向键，游戏依旧在下面运行。'},
+      {img: '/img/resources/07-running-in-background.png', caption: '「Playing tou-jin-zi — tap to return」通知：让机器在你切到别的应用时仍驻留的那个服务。', portrait: true},
+      {img: '/img/resources/08-tap-to-return.png', caption: '点通知回到游戏——同一帧、同样的分数；切出去期间什么都没丢。'},
+      {img: '/img/resources/09-dos-prompt.png', caption: 'DOSBox 的欢迎横幅与 C:\\> 提示符，下方是屏幕键盘。'},
+    ],
     linksTitle: '世界各处，更多的 DOS',
     linksIntro:
       'PC Legends 只是众多书架中的一架。下面这些，是 DOS 社区多年来建起的合集、商店与模拟器——想找一款这里没有的游戏、买一个打磨过的复刻版，或者只是在浏览器里玩一玩，都是好去处。',

@@ -109,10 +109,39 @@ export default function Resources(): React.JSX.Element {
           </div>
         </section>
 
-        {/* ── External DOS resources ───────────────────────── */}
+        {/* ── WhereQ-DOSBox walkthrough ────────────────────── */}
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>
             <span className={styles.sectionNum}>2.0</span>
+            {res.walkTitle}
+          </h2>
+          <p className={styles.para}>{res.walkIntro}</p>
+
+          <ol className={styles.walk}>
+            {res.walk.map((frame, index) => (
+              <li
+                className={`${styles.walkFrame} ${frame.portrait ? styles.walkPortrait : ''}`}
+                key={frame.img}>
+                <figure className={styles.walkFig}>
+                  <span className={styles.walkNum}>{String(index + 1).padStart(2, '0')}</span>
+                  <img
+                    className={styles.walkImg}
+                    src={frame.img}
+                    alt={frame.caption}
+                    loading="lazy"
+                    decoding="async"
+                  />
+                  <figcaption className={styles.walkCaption}>{frame.caption}</figcaption>
+                </figure>
+              </li>
+            ))}
+          </ol>
+        </section>
+
+        {/* ── External DOS resources ───────────────────────── */}
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>
+            <span className={styles.sectionNum}>3.0</span>
             {res.linksTitle}
           </h2>
           <p className={styles.para}>{res.linksIntro}</p>
