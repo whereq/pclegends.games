@@ -1,77 +1,149 @@
 /* ============================================================
-   WhereQ Dark Theme — Dark Navy Blue + Amber/Gold Accents
+   PC Legends — the terminal redesign
+   A DOS technical-document look: IBM Plex + VT323, amber on near-black
+   (and the same system inverted to ink-on-paper in light mode).
+
+   The colours live once, in --pcl-* tokens, and the Docusaurus --ifm-*
+   variables are mapped onto them so the theme chrome inherits the system.
    ============================================================ */
 
-/* ── Color Tokens ─────────────────────────────────────────── */
 :root {
-  /* Container width: +20% over Docusaurus defaults (1140 → 1368, 1320 → 1584) */
-  --ifm-container-width: 1368px;
-  --ifm-container-width-xl: 1584px;
+  /* The terminal typefaces. */
+  --pcl-font-sans: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --pcl-font-cond: 'IBM Plex Sans Condensed', 'IBM Plex Sans', system-ui, sans-serif;
+  --pcl-font-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', monospace;
+  --pcl-font-crt: 'VT323', 'IBM Plex Mono', monospace;
 
-  --ifm-color-primary: #f5a623;
-  --ifm-color-primary-dark: #e09410;
-  --ifm-color-primary-darker: #d48a0e;
-  --ifm-color-primary-darkest: #b07309;
-  --ifm-color-primary-light: #f7b340;
-  --ifm-color-primary-lighter: #f8bc55;
-  --ifm-color-primary-lightest: #fbd07f;
+  /* The one accent that does not change with the theme: the amber ink that
+     sits on an amber button is always near-black. */
+  --pcl-btn-ink: #1A1306;
+
+  /* Container width — the redesign's own 1360px gutter box. */
+  --ifm-container-width: 1360px;
+  --ifm-container-width-xl: 1360px;
 
   --ifm-code-font-size: 92%;
-  --ifm-font-family-base: 'Inter', 'Segoe UI', system-ui, sans-serif;
-  --ifm-font-family-monospace: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
-  --ifm-heading-font-weight: 600;
-  --ifm-line-height-base: 1.75;
-
-  --docusaurus-highlighted-code-line-bg: rgba(245, 166, 35, 0.12);
-
-  /* Blog post h1 title — reduce from infima default 3rem so long titles fit one line */
+  --ifm-font-family-base: var(--pcl-font-sans);
+  --ifm-font-family-monospace: var(--pcl-font-mono);
+  --ifm-heading-font-family: var(--pcl-font-cond);
+  --ifm-heading-font-weight: 700;
+  --ifm-line-height-base: 1.65;
   --ifm-h1-font-size: 1.9rem;
 }
 
-/* ── Dark Mode Variables ──────────────────────────────────── */
+/* ── Dark (default) — amber on near-black ─────────────────── */
 [data-theme='dark'] {
-  --ifm-background-color: #0d1117;
-  --ifm-background-surface-color: #161b27;
-  --ifm-navbar-background-color: #0a0e1a;
-  --ifm-footer-background-color: #080c15;
-  --ifm-sidebar-background-color: #0f1420;
-  --ifm-toc-background-color: #0f1420;
+  --pcl-bg: #0C0E0D;
+  --pcl-bg-1: #101311;
+  --pcl-bg-2: #121614;
+  --pcl-grid: #151A17;
+  --pcl-screen: #070908;
+  --pcl-bezel: #1A1F1C;
+  --pcl-ink: #ECE6D6;
+  --pcl-body: #C9C4B6;
+  --pcl-muted: #A3AAA2;
+  --pcl-border: #3A443E;
+  --pcl-border-soft: #29312C;
+  --pcl-row-hover: #121614;
 
-  --ifm-color-primary: #f5a623;
-  --ifm-color-primary-dark: #e09410;
-  --ifm-color-primary-darker: #d48a0e;
-  --ifm-color-primary-darkest: #b07309;
-  --ifm-color-primary-light: #f7b340;
-  --ifm-color-primary-lighter: #f8bc55;
-  --ifm-color-primary-lightest: #fbd07f;
+  --pcl-amber: #FFB547;
+  --pcl-amber-hover: #FFD08A;
+  --pcl-amber-soft: rgba(255, 181, 71, 0.12);
+  --pcl-cyan: #7FD8E6;
+  --pcl-error: #ff6b6b;
 
-  --ifm-font-color-base: #c9d1d9;
-  --ifm-heading-color: #f0e6c8;
-  --ifm-link-color: #f5a623;
-  --ifm-link-hover-color: #fbd07f;
-  --ifm-navbar-link-color: #c9d1d9;
-  --ifm-navbar-link-hover-color: #f5a623;
+  --ifm-color-primary: #FFB547;
+  --ifm-color-primary-dark: #f0a52f;
+  --ifm-color-primary-darker: #e39a28;
+  --ifm-color-primary-darkest: #bb7e1d;
+  --ifm-color-primary-light: #ffc062;
+  --ifm-color-primary-lighter: #ffca7a;
+  --ifm-color-primary-lightest: #ffd89c;
 
-  --ifm-menu-color: #c9d1d9;
-  --ifm-menu-color-active: #f5a623;
-  --ifm-menu-color-background-active: rgba(245, 166, 35, 0.12);
-  --ifm-menu-color-background-hover: rgba(245, 166, 35, 0.07);
+  --ifm-background-color: var(--pcl-bg);
+  --ifm-background-surface-color: var(--pcl-bg-2);
+  --ifm-navbar-background-color: var(--pcl-bg);
+  --ifm-footer-background-color: var(--pcl-bg);
 
-  --ifm-toc-link-color: #8b949e;
-  --ifm-toc-link-hover-color: #f5a623;
+  --ifm-font-color-base: var(--pcl-body);
+  --ifm-heading-color: var(--pcl-ink);
+  --ifm-link-color: var(--pcl-amber);
+  --ifm-link-hover-color: var(--pcl-amber-hover);
+  --ifm-navbar-link-color: var(--pcl-ink);
+  --ifm-navbar-link-hover-color: var(--pcl-amber);
 
-  --ifm-table-border-color: #30363d;
+  --ifm-table-border-color: var(--pcl-border);
   --ifm-table-stripe-background: rgba(255, 255, 255, 0.025);
-  --ifm-hr-border-color: #21262d;
-
-  --ifm-code-background: #1c2333;
-  --ifm-pre-background: #161b27;
-
-  --ifm-blockquote-border-left-color: #f5a623;
-  --ifm-blockquote-color: #8b949e;
-
-  --docusaurus-highlighted-code-line-bg: rgba(245, 166, 35, 0.15);
+  --ifm-hr-border-color: var(--pcl-border-soft);
+  --ifm-code-background: #1A1F1C;
+  --ifm-pre-background: var(--pcl-screen);
+  --ifm-blockquote-border-left-color: var(--pcl-amber);
+  --ifm-blockquote-color: var(--pcl-muted);
+  --docusaurus-highlighted-code-line-bg: var(--pcl-amber-soft);
 }
+
+/* ── Light — the same system in ink on paper ──────────────── */
+[data-theme='light'] {
+  --pcl-bg: #F5F4EF;
+  --pcl-bg-1: #EEEDE5;
+  --pcl-bg-2: #E8E6DC;
+  --pcl-grid: #E3E1D5;
+  /* A screen is a screen: the CRT mockups stay dark even on a paper page. */
+  --pcl-screen: #0B0D0C;
+  --pcl-bezel: #DCD9CB;
+  --pcl-ink: #1F1E1C;
+  --pcl-body: #35332C;
+  --pcl-muted: #6B695F;
+  --pcl-border: #C8C4B4;
+  --pcl-border-soft: #DBD8C9;
+  --pcl-row-hover: #ECEAE0;
+
+  /* Amber darkened so it clears AA on paper; the hover goes darker still. */
+  --pcl-amber: #AE6E05;
+  --pcl-amber-hover: #8A5704;
+  --pcl-amber-soft: rgba(174, 110, 5, 0.1);
+  --pcl-cyan: #156B7A;
+  --pcl-error: #b00020;
+
+  --ifm-color-primary: #AE6E05;
+  --ifm-color-primary-dark: #9c6304;
+  --ifm-color-primary-darker: #935d04;
+  --ifm-color-primary-darkest: #794d03;
+  --ifm-color-primary-light: #c07b0a;
+  --ifm-color-primary-lighter: #cd870f;
+  --ifm-color-primary-lightest: #e0982a;
+
+  --ifm-background-color: var(--pcl-bg);
+  --ifm-background-surface-color: var(--pcl-bg-2);
+  --ifm-navbar-background-color: var(--pcl-bg);
+  --ifm-footer-background-color: var(--pcl-bg);
+
+  --ifm-font-color-base: var(--pcl-body);
+  --ifm-heading-color: var(--pcl-ink);
+  --ifm-link-color: var(--pcl-amber);
+  --ifm-link-hover-color: var(--pcl-amber-hover);
+  --ifm-navbar-link-color: var(--pcl-ink);
+  --ifm-navbar-link-hover-color: var(--pcl-amber);
+
+  --ifm-table-border-color: var(--pcl-border);
+  --ifm-table-stripe-background: rgba(0, 0, 0, 0.02);
+  --ifm-hr-border-color: var(--pcl-border-soft);
+  --ifm-code-background: #E8E6DC;
+  --ifm-pre-background: var(--pcl-screen);
+  --ifm-blockquote-border-left-color: var(--pcl-amber);
+  --ifm-blockquote-color: var(--pcl-muted);
+  --docusaurus-highlighted-code-line-bg: var(--pcl-amber-soft);
+}
+
+/* A shared helper: the 3px amber / cyan / cream signal stripe the header and
+   a few section tops carry. */
+.pcl-stripe {
+  height: 3px;
+  display: flex;
+}
+.pcl-stripe > :nth-child(1) { flex: 1; background: var(--pcl-amber); }
+.pcl-stripe > :nth-child(2) { width: 120px; background: var(--pcl-cyan); }
+.pcl-stripe > :nth-child(3) { width: 40px; background: var(--pcl-ink); }
 
 /* ── Global Layout ────────────────────────────────────────── */
 html[data-theme='dark'] {

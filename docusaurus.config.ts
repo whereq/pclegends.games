@@ -28,12 +28,38 @@ async function createConfig(): Promise<Config> {
     url: 'https://pclegends.games',
     baseUrl: '/',
 
-    // Google's loader is in the served HTML of every page, so the AdSense
+    // The fonts the terminal redesign is built on: IBM Plex Sans (body),
+    // IBM Plex Mono (labels and codes), IBM Plex Sans Condensed (headings)
+    // and VT323 (the stat numbers, the logo mark and the CRT readout). They
+    // are server-rendered so the page paints in them without a flash.
+    //
+    // Google's AdSense loader is in the served HTML of every page too, so the
     // reviewer finds the ad code. Consent is Google's own message — see
     // src/data/adsense.ts. With no publisher ID there is no script at all.
-    // The meta tag is the account marker AdSense asks for; the script is
-    // the loader. Both are server-rendered, in the page as it is served.
-    headTags: ADSENSE_ENABLED ? [ADSENSE_META_TAG, ADSENSE_HEAD_TAG] : [],
+    // The meta tag is the account marker AdSense asks for; the script is the
+    // loader. All of these are server-rendered, in the page as it is served.
+    headTags: [
+      {
+        tagName: 'link',
+        attributes: {rel: 'preconnect', href: 'https://fonts.googleapis.com'},
+      },
+      {
+        tagName: 'link',
+        attributes: {
+          rel: 'preconnect',
+          href: 'https://fonts.gstatic.com',
+          crossOrigin: 'anonymous',
+        },
+      },
+      {
+        tagName: 'link',
+        attributes: {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@600;700&family=VT323&display=swap',
+        },
+      },
+      ...(ADSENSE_ENABLED ? [ADSENSE_META_TAG, ADSENSE_HEAD_TAG] : []),
+    ],
 
     organizationName: 'whereq',
     projectName: 'pclegends.games',
