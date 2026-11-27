@@ -1,0 +1,29 @@
+/**
+ * A manual ad unit's frame.
+ *
+ * It keeps to the house rules: radius xs = 2px, and every colour from an
+ * `--ifm-*` token so light and dark both work. The frame reserves a little
+ * height so the page does not jump when the ad fills.
+ */
+.wrap {
+  margin: 2.5rem 0;
+  padding: 0.75rem;
+  min-height: 120px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 2px;
+  background: var(--ifm-color-emphasis-100);
+  text-align: center;
+}
+
+/*
+ * The label. AdSense allows a unit to be marked "Advertisement" and nothing
+ * more; it is small and muted so it reads as a note, not a heading.
+ */
+.label {
+  margin: 0 0 0.5rem;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ifm-color-emphasis-500);
+}

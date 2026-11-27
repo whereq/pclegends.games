@@ -70,3 +70,38 @@ export const ADSENSE_META_TAG = {
     content: ADSENSE_CLIENT,
   },
 };
+
+/**
+ * The deliberate ad placements the site controls.
+ *
+ * Auto ads place themselves wherever Google decides; these are the manual
+ * units the site owns — one per spot it has chosen. Each value is the
+ * `data-ad-slot` number of an ad unit created in the AdSense console under
+ * **Ads → By ad unit**. Copy the long number out of the unit's snippet and
+ * paste it here; nothing else has to change.
+ *
+ * An empty value means "no unit in this spot" — `<AdSlot>` renders nothing,
+ * so a spot stays clean until its slot id is filled in. This is the same
+ * "empty means off" gate the publisher id uses above, so the whole feature
+ * ships inert and lights up one spot at a time.
+ */
+export const ADSENSE_SLOTS = {
+  /** In-article, above the comment thread on a game page. (in-article-ad-01) */
+  gameInArticle: '2295721659',
+  /** Below the catalogue listing, above its comment thread. (display-responsive-01) */
+  catalogue: '4730313303',
+  /** Between the sections of the front page. (display-responsive-02) */
+  home: '3209027273',
+} as const;
+
+export type AdSlotName = keyof typeof ADSENSE_SLOTS;
+
+/**
+ * Whether a named spot has a real unit behind it.
+ *
+ * True only when ads are on at all (a publisher id is set) and the spot
+ * carries a numeric slot id. `<AdSlot>` asks this before it renders anything.
+ */
+export function hasAdSlot(name: AdSlotName): boolean {
+  return ADSENSE_ENABLED && /^\d+$/.test(ADSENSE_SLOTS[name]);
+}

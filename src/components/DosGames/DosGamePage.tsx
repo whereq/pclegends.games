@@ -4,6 +4,7 @@ import Layout from '@theme/Layout';
 import {AtlasEntry} from '../../data/atlas-types';
 import AtlasBlocks from '../Atlas/AtlasBlocks';
 import GiscusComments from '../GiscusComments';
+import AdSlot from '../AdSlot';
 import {useCopy, useIsChinese} from '../../hooks/useCopy';
 import {gameNames} from './game-names';
 import styles from './dos-games.module.css';
@@ -208,6 +209,8 @@ export default function DosGamePage({
           </ul>
         </section>
       )}
+
+      <AdSlot name="gameInArticle" format="in-article" />
 
       <section className={styles.comments}>
         <h2 className={styles.sectionTitle}>Comments</h2>
