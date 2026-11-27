@@ -257,8 +257,15 @@ footer.footer {
 
 .navbar__logo {
   height: 34px;
-  width: 34px;
+  width: auto;
   margin-right: 10px;
+}
+
+/* If the logo image ever fails to load, its alt text must not wrap into a
+   thin column beside the title — keep it on one line. */
+.navbar__logo img {
+  max-width: none;
+  white-space: nowrap;
 }
 
 .navbar__link {
