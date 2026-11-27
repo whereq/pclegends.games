@@ -37,6 +37,23 @@ builds on every push to `main` and publishes with `actions/upload-pages-artifact
 and `actions/deploy-pages`. The Pages source in the repository settings
 must be "GitHub Actions".
 
+**Release is deploy — `bin/release.sh`.** Because pushing to `main` is what
+deploys, a release is the whole thing. Run it from the feature branch you
+want to ship:
+
+```bash
+bin/release.sh -m "feat(...): what shipped"      # squash -> main, tag, push (deploys)
+RELEASE_TAG=v1.1.0.0 bin/release.sh -m "..."     # pin the tag; default bumps the build
+```
+
+It squashes the branch into one commit on `main`, tags it
+`v{major}.{minor}.{patch}.{build}` (build auto-increments from the latest tag
+unless `RELEASE_TAG` pins it), pushes both, and closes the branch's PR if one
+is open. The push triggers the Actions deploy. **`bin/deploy.sh`** is the
+separate case — re-run the deploy of the current `main` without a new release
+(e.g. after a Pages-settings change): `bin/deploy.sh` dispatches and watches
+the workflow; `bin/deploy.sh --status` just shows the latest run.
+
 **The legacy branch build is not used.** A GitHub Pages branch build is
 killed after ten minutes, and this build has 1 898 game routes in it. The
 docs hub's `bin/whereq.sh` push-to-`master` pattern is for that repo, not

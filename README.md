@@ -37,7 +37,21 @@ npm run typecheck   # runs tsc — the only verification step
 
 There is no test suite and no linter. `npm run typecheck` is the check.
 
-## Deploying
+## Releasing & deploying
+
+A release **is** a deploy here — pushing to `main` runs the Actions build.
+Cut one from the feature branch you want to ship:
+
+```bash
+bin/release.sh -m "feat(...): what shipped"   # squash -> main, tag, push (deploys)
+RELEASE_TAG=v1.1.0.0 bin/release.sh -m "..."  # pin the tag (default bumps the build)
+bin/deploy.sh                                 # re-deploy current main (no new release)
+bin/deploy.sh --status                        # show the latest deploy run
+```
+
+`release.sh` squashes the branch into one commit on `main`, tags it
+`v{major}.{minor}.{patch}.{build}`, pushes both, and closes the branch's PR if
+one is open. The push to `main` triggers the deploy below.
 
 The site is published by **GitHub Actions**, not by a branch push:
 
