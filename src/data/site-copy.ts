@@ -106,6 +106,12 @@ export type SiteCopy = {
     heading: string;
     lead: (games: string, gigabytes: string) => string;
     sections: {title: string; paragraphs: string[]}[];
+    compare: {
+      title: string;
+      intro: string;
+      dosbox: {kind: string; points: string[]; apk: string; atlas: string};
+      ados: {kind: string; points: string[]; badge: string; note: string};
+    };
   };
 };
 
@@ -279,6 +285,31 @@ const en: SiteCopy = {
         ],
       },
     ],
+    compare: {
+      title: 'Two ways to run these games',
+      intro:
+        'The bundles here are DOS programs; something has to run them. WhereQ-DOSBox is the open-source emulator these pages are written for, and A-DOS is the app that is coming to Google Play.',
+      dosbox: {
+        kind: 'OPEN SOURCE · ANDROID',
+        points: [
+          'A native DOS emulator for Android, built in the open in the WhereQ Universe.',
+          'The debug APK is built and ready to download straight from the GitHub repository.',
+          'Import a bundle from this archive, press Play, and it starts the entry point the page names.',
+        ],
+        apk: 'Download the debug APK',
+        atlas: 'Read it in the Atlas',
+      },
+      ados: {
+        kind: 'ANDROID · GOOGLE PLAY',
+        points: [
+          'The polished DOS player for Android, headed for the Google Play store.',
+          'Built for readers who would rather install from the Play Store than sideload an APK.',
+          'The same bundles from this archive, the same one-tap setup.',
+        ],
+        badge: 'Coming soon to Google Play',
+        note: 'Not published yet — the listing goes live when the app is approved.',
+      },
+    },
   },
 };
 
@@ -452,6 +483,31 @@ const zhCN: SiteCopy = {
         ],
       },
     ],
+    compare: {
+      title: '跑这些游戏的两种方式',
+      intro:
+        '这里的游戏包都是 DOS 程序，总得有东西来运行它们。WhereQ-DOSBox 是这些页面所面向的开源模拟器，而 A-DOS 则是即将上架 Google Play 的应用。',
+      dosbox: {
+        kind: '开源 · ANDROID',
+        points: [
+          'WhereQ Universe 中公开开发的 Android 原生 DOS 模拟器。',
+          '调试版 APK 已经构建完成，可直接从 GitHub 仓库下载。',
+          '从本归档导入一个游戏包，按下开始，它就会启动页面所标明的启动文件。',
+        ],
+        apk: '下载调试版 APK',
+        atlas: '在图鉴中了解',
+      },
+      ados: {
+        kind: 'ANDROID · GOOGLE PLAY',
+        points: [
+          '面向 Android 的精致 DOS 播放器，正在上架 Google Play。',
+          '为更愿意从 Play 商店安装、而非手动安装 APK 的读者准备。',
+          '同样来自本归档的游戏包，同样一键完成设置。',
+        ],
+        badge: '即将登陆 Google Play',
+        note: '尚未发布——应用通过审核后，商店页面即会上线。',
+      },
+    },
   },
 };
 
