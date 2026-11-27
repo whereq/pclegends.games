@@ -1,0 +1,65 @@
+[
+  {
+    "phase": "launcher",
+    "file": "01-files-panel.png",
+    "caption": "the Files panel on a fresh install of WhereQ-DOSBox 1.0.0.19 - no games yet, and the gold \"Install a bundle (.zip)\" button that starts the import",
+    "url": "app://files",
+    "orientation": "landscape"
+  },
+  {
+    "phase": "system",
+    "file": "02-picker-download.png",
+    "caption": "the Android file picker, opened on the Downloads folder, with tou-jin-zi.zip selected - the bundle the PC Legends page for 偷金子 (Lode Runner) offers",
+    "url": "app://picker",
+    "orientation": "portrait"
+  },
+  {
+    "phase": "launcher",
+    "file": "03-bundle-installed.png",
+    "caption": "the Files panel again, now with tou-jin-zi installed - its entry point LR.COM, its size, and the Play / States / Launch… / Remove buttons",
+    "url": "app://files",
+    "orientation": "landscape"
+  },
+  {
+    "phase": "games",
+    "file": "04-game-running.png",
+    "caption": "偷金子 (Lode Runner) running inside WhereQ-DOSBox 1.0.0.19, framed by the two-pad on-screen keyboard",
+    "url": "app://emulator?game=tou-jin-zi",
+    "orientation": "landscape"
+  },
+  {
+    "phase": "game-mode",
+    "file": "05-game-mode-on.png",
+    "caption": "Game Mode over the running game - the 8-way d-pad, L-CLICK and R-CLICK, the trackball, CTRL as fire and ALT as strafe - with the game still running behind the pads",
+    "url": "app://emulator?game=tou-jin-zi&mode=game",
+    "orientation": "landscape"
+  },
+  {
+    "phase": "game-mode",
+    "file": "06-game-mode-off.png",
+    "caption": "back to the plain keyboard pads after the reverse Konami code (↑↑↓↓←→←→, then X and Y) - the game is still running underneath",
+    "url": "app://emulator?game=tou-jin-zi",
+    "orientation": "landscape"
+  },
+  {
+    "phase": "system",
+    "file": "07-running-in-background.png",
+    "caption": "the ongoing notification WhereQ-DOSBox leaves in the shade - \"Playing tou-jin-zi - tap to return\" - the foreground service that keeps the machine resident while the player is in another app",
+    "url": "app://notification",
+    "orientation": "portrait"
+  },
+  {
+    "phase": "games",
+    "file": "08-tap-to-return.png",
+    "caption": "back in the game after tapping the notification - the same frame, the same score - nothing was lost while the app was in the background",
+    "url": "app://emulator?game=tou-jin-zi",
+    "orientation": "landscape"
+  },
+  {
+    "phase": "emulator",
+    "file": "09-dos-prompt.png",
+    "caption": "the DOSBox welcome banner and the C:\\> prompt, with the two-pad on-screen keyboard below it",
+    "url": "app://emulator",
+    "orientation": "landscape"
+  }
+]
