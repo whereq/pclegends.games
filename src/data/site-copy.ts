@@ -263,8 +263,8 @@ const en: SiteCopy = {
       {
         title: 'Where the games come from',
         paragraphs: [
-          'The bundles are mirrored from the archive of Chinese DOS games published by the [chinese-dos-games](https://github.com/rwv/chinese-dos-games) project. The download button on a page links straight at the archive the page was generated from — the same file, byte for byte — and the SHA-256 printed on the page is the archive’s own checksum, so a copy can be checked rather than trusted.',
-          'The category of a game is read from that project’s manifest, not guessed. Its own type code is the game’s primary category; where the project also publishes a description naming a further genre, the game is listed under that one too. The manifest decides the first category and a description may add a second — never take one away.',
+          'Every bundle here is collected from the public archives that preserve DOS software. None of it is hosted by PC Legends: the download button on a page points straight at the external archive the page was generated from, so the file travels from that archive to you and never passes through this site. The SHA-256 printed on the page is that archive’s own checksum, so the copy you fetch can be checked against what the page describes rather than taken on trust.',
+          'Those same archives are where the facts come from — the dates, the file list, the entry point and the category are read from what each collection already records, not guessed. The archives a game is drawn from may grow and change over time; a page always links at wherever its copy lives today, and says nothing about it beyond what that source does.',
         ],
       },
       {
@@ -282,9 +282,10 @@ const en: SiteCopy = {
         ],
       },
       {
-        title: 'WhereQ-DOSBox',
+        title: 'Running the games',
         paragraphs: [
-          'The games run on [WhereQ-DOSBox](https://whereq.github.io/atlas/universe/whereq-dosbox), the DOS emulator built natively for Android in the WhereQ Universe. Import a bundle, press Play, and the app starts the entry point named on the page.',
+          'A bundle is a DOS program, so it needs a player — and there are two, both from the WhereQ Universe. *A-DOS* is the finished app, on its way to Google Play: install it, open a bundle and it starts the entry point the page names, no setup to speak of. *WhereQ-DOSBox* is the open-source emulator these pages are written against, for anyone who would rather read the source or build it themselves.',
+          'A-DOS is the one most people will want — it installs from the Play Store, keeps itself up to date and stays out of the way. The [resources page](/resources/) sets the two side by side, and points on to the wider world of DOS preservation.',
         ],
       },
       {
@@ -474,8 +475,8 @@ const zhCN: SiteCopy = {
       {
         title: '这些游戏从哪里来',
         paragraphs: [
-          '这些游戏包镜像自 [chinese-dos-games](https://github.com/rwv/chinese-dos-games) 项目发布的中文 DOS 游戏归档。页面上的下载按钮直接指向生成该页的那个归档——同一个文件，逐字节相同——页面印出的 SHA-256 也是归档自己的校验和，因此副本可以被核对，而不必被信任。',
-          '一款游戏的分类取自那个项目的清单，而不是猜测。它自己的类型代码是这款游戏的首要分类；如果该项目还发布了提到另一种类型的介绍，这款游戏也会同时列在那个分类下。清单决定第一个分类，介绍可以补上第二个——但绝不会拿走任何一个。',
+          '这里的每一个游戏包，都收集自那些保存着 DOS 软件的公共归档。它们都不由 PC Legends 托管：页面上的下载按钮直接指向生成该页的那个外部归档，文件是从那个归档直接传到你这里，从不经过本站。页面印出的 SHA-256 是那个归档自己的校验和，因此你取到的副本可以与页面所述相核对，而不必被凭空信任。',
+          '这些事实也同样来自那些归档——日期、文件清单、入口文件和分类，都是从每个归档已经记录的内容里读出来的，而不是猜测。一款游戏所取自的归档，可能会随时间增长或变化；页面始终链接到它的副本如今所在之处，对它的陈述不会超出那个来源本身所说的范围。',
         ],
       },
       {
@@ -493,9 +494,10 @@ const zhCN: SiteCopy = {
         ],
       },
       {
-        title: 'WhereQ-DOSBox',
+        title: '怎么跑这些游戏',
         paragraphs: [
-          '这些游戏跑在 [WhereQ-DOSBox](https://whereq.github.io/atlas/universe/whereq-dosbox) 上——WhereQ 家族里为 Android 原生构建的 DOS 模拟器。导入一个游戏包，按下播放，应用就会启动页面上写明的那个入口文件。',
+          '游戏包是 DOS 程序，所以需要一个播放器——而这样的播放器有两个，都来自 WhereQ 家族。*A-DOS* 是成品应用，正在上架 Google Play：装上它、打开一个游戏包，它就会启动页面所标明的入口文件，几乎不需要任何设置。*WhereQ-DOSBox* 则是这些页面所面向的开源模拟器，留给更愿意阅读源码、或自己动手构建的人。',
+          'A-DOS 是大多数人会想要的那一个——从 Play 商店安装，自动保持更新，并且从不碍事。[资源页面](/resources/)把这两者并排放在一起，并指向更广阔的 DOS 保存世界。',
         ],
       },
       {
