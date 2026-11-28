@@ -8,6 +8,7 @@ import {
 } from '../../data/dos-games-categories';
 import GiscusComments from '../GiscusComments';
 import AdSlot from '../AdSlot';
+import GameMark from './GameMark';
 import {useCopy, useIsChinese} from '../../hooks/useCopy';
 import {gameNames} from './game-names';
 import styles from './catalogue.module.css';
@@ -240,13 +241,12 @@ export default function DosGamesCatalogue(): React.JSX.Element {
  *  character in VT323 — the capital-letter mark from the redesign. */
 function Thumb({game, chinese}: {game: DosGameIndexEntry; chinese: boolean}) {
   const names = gameNames(game.name, game.nameEn, chinese);
-  const initial = [...names.primary][0] ?? '?';
   return (
     <span className={styles.thumb} aria-hidden="true">
       {game.image ? (
         <img className={styles.thumbImg} src={game.image} alt="" loading="lazy" decoding="async" />
       ) : (
-        <span className={styles.thumbChar}>{initial}</span>
+        <GameMark className={styles.thumbMark} name={names.primary} tag={game.tag} />
       )}
     </span>
   );

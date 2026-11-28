@@ -808,10 +808,11 @@ def main():
         with open(page, 'w', encoding='utf-8') as handle:
             write_full_entry(handle, entry)
 
-        image = os.path.join(args.images, f'{slug}.svg')
-        if not os.path.exists(image):
-            with open(image, 'w', encoding='utf-8') as handle:
-                handle.write(plate_svg(name, slug, accent))
+        # The card plate is no longer written to a file. It is drawn in the
+        # browser by `src/components/DosGames/GameMark.tsx` from the accent and
+        # the initial — the same plate this used to emit, minus ~3,800 files a
+        # static host would otherwise have to carry. `plate_svg` is kept for
+        # reference. (The accent still rides into the index as `tag`.)
 
     # ── the groups ───────────────────────────────────────────────
     group_entries = []

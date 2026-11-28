@@ -12,6 +12,7 @@ import {useCopy, useIsChinese} from '../../hooks/useCopy';
 import AtlasBlocks from '../Atlas/AtlasBlocks';
 import GiscusComments from '../GiscusComments';
 import {gameNames} from './game-names';
+import GameMark from './GameMark';
 import styles from './played.module.css';
 
 /**
@@ -68,14 +69,22 @@ export default function PlayedGames(): React.JSX.Element {
                 <article className={styles.card} key={game.id}>
                   <Link className={styles.cardLink} to={`/dos-games/${game.id}/`}>
                     <span className={styles.cardMark}>
-                      <img
-                        src={game.logo ?? `/img/dos-games/${game.id}.svg`}
-                        alt=""
-                        width={44}
-                        height={44}
-                        loading="lazy"
-                        decoding="async"
-                      />
+                      {game.logo ? (
+                        <img
+                          src={game.logo}
+                          alt=""
+                          width={44}
+                          height={44}
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      ) : (
+                        <GameMark
+                          className={styles.cardMarkSvg}
+                          name={gameNames(game.name, game.nameEn, chinese).primary}
+                          tag={[...game.name][0]}
+                        />
+                      )}
                     </span>
                     <span className={styles.cardHead}>
                       <span className={styles.cardName}>
