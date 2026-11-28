@@ -2,9 +2,9 @@
 #
 # release.sh — cut a release of pclegends.games.
 #
-# For this repo a release IS a deploy. The site is published by GitHub Actions
-# (.github/workflows/deploy.yml) on every push to `main`: it builds the
-# ~1,898 game routes and publishes them to GitHub Pages. So a release is just
+# For this repo a release IS a deploy. The site is served by Cloudflare Workers,
+# which builds on every push to `main` (npm run build -> npx wrangler deploy,
+# per wrangler.jsonc) and serves the ~1,898 game routes. So a release is just
 #
 #     squash the work into one commit on main  ->  tag it  ->  push
 #
@@ -115,7 +115,7 @@ echo "  release $SRC  ->  $MAIN"
 echo "  squash     : $N_COMMITS commit(s) into one"
 echo "  message    : $MSG"
 echo "  tag        : $TAG"
-echo "  deploy     : push to $MAIN triggers .github/workflows/deploy.yml"
+echo "  deploy     : push to $MAIN triggers the Cloudflare Workers build"
 echo
 if [[ "$ASSUME_YES" -ne 1 ]]; then
   read -r -p "Proceed? [y/N] " reply
@@ -147,9 +147,8 @@ if command -v gh >/dev/null 2>&1; then
 fi
 
 echo
-echo "release: $TAG is on $MAIN and pushed. Deploy is running:"
-if command -v gh >/dev/null 2>&1; then
-  echo "  gh run watch --repo whereq/pclegends.games \$(gh run list --branch $MAIN --limit 1 --json databaseId --jq '.[0].databaseId')"
-  echo "  (or: bin/deploy.sh --status)"
-fi
+echo "release: $TAG is on $MAIN and pushed."
+echo "release: Cloudflare is building it now — watch at"
+echo "  Workers & Pages -> pclegends-games -> Deployments"
+echo "  (it serves https://pclegends.games/ when the build finishes)"
 echo "release: done."

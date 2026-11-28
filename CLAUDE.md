@@ -32,45 +32,49 @@ verification step, and the build is the other one.
 
 ## Deployment model
 
-The site is published by **GitHub Actions** — `.github/workflows/deploy.yml`
-builds on every push to `main` and publishes with `actions/upload-pages-artifact`
-and `actions/deploy-pages`. The Pages source in the repository settings
-must be "GitHub Actions".
+The site is served by **Cloudflare Workers Static Assets**, on the whereq
+Cloudflare account. The Worker (project `pclegends-games`) is connected to this
+repo: on every push to `main` Cloudflare runs `npm run build` and then
+`npx wrangler deploy`, which uploads `build/` as static assets
+(`wrangler.jsonc` points at `./build`, with the generated 404 page for
+unmatched paths). There is no server code — pure static serving.
+
+> **It moved off GitHub Pages.** GitHub Pages hosted the site originally, but
+> its certificate pipeline wedged for days trying to pair `www` with the apex,
+> and it has no per-file-size escape hatch. Cloudflare issues apex **and** `www`
+> certs automatically, redirects http→https ("Always Use HTTPS"), and serves
+> the whole archive with no drama. The GitHub Actions workflow and `static/CNAME`
+> are gone.
+
+**Cloudflare has two hard limits this build was shaped to clear:** ≤ 20,000
+files per deploy and ≤ 25 MB per file. The build is ~8,900 files, 2.4 MB max.
+Two choices keep it there, and must stay:
+- **Card marks are drawn in the browser** (`src/components/DosGames/GameMark.tsx`),
+  not shipped as ~3,800 `<slug>.svg` files. The generator no longer writes them.
+- **Search is Algolia DocSearch, not an offline index** — the old local index
+  was a ~30 MB file per locale, over the 25 MB limit. See `src/data/algolia.ts`.
 
 **Release is deploy — `bin/release.sh`.** Because pushing to `main` is what
-deploys, a release is the whole thing. Run it from the feature branch you
-want to ship:
+Cloudflare builds, a release is the whole thing. Run it from the feature branch
+you want to ship:
 
 ```bash
-bin/release.sh -m "feat(...): what shipped"      # squash -> main, tag, push (deploys)
+bin/release.sh -m "feat(...): what shipped"      # squash -> main, tag, push (Cloudflare builds)
 RELEASE_TAG=v1.1.0.0 bin/release.sh -m "..."     # pin the tag; default bumps the build
 ```
 
 It squashes the branch into one commit on `main`, tags it
-`v{major}.{minor}.{patch}.{build}` (build auto-increments from the latest tag
-unless `RELEASE_TAG` pins it), pushes both, and closes the branch's PR if one
-is open. The push triggers the Actions deploy. **`bin/deploy.sh`** is the
-separate case — re-run the deploy of the current `main` without a new release
-(e.g. after a Pages-settings change): `bin/deploy.sh` dispatches and watches
-the workflow; `bin/deploy.sh --status` just shows the latest run.
+`v{major}.{minor}.{patch}.{build}` (build auto-increments unless `RELEASE_TAG`
+pins it), pushes both, and closes the branch's PR if one is open. The push to
+`main` triggers the Cloudflare build. A manual redeploy without a new commit is
+done in the Cloudflare dashboard (Deployments → Retry) or
+`npm run build && npx wrangler deploy` locally (needs `npx wrangler login`).
 
-**The legacy branch build is not used.** A GitHub Pages branch build is
-killed after ten minutes, and this build has 1 898 game routes in it. The
-docs hub's `bin/whereq.sh` push-to-`master` pattern is for that repo, not
-for this one.
-
-**The custom domain is a repository setting** — `pclegends.games`, set on
-the Pages site. With an Actions deployment GitHub ignores a `CNAME` file in
-the artifact and reads the domain from the setting, which is the durable
-place: the docs hub's release script replaces the Pages repo root, so a
-`CNAME` committed there would not survive. `static/CNAME` still ships in the
-build, so the domain travels with the source if the site is ever published
-from a branch.
-
-DNS for `pclegends.games` is at **NameSilo**, not Cloudflare: an A record
-for the apex pointing at GitHub Pages (`185.199.108.153`–`185.199.111.153`),
-or an ALIAS/ANAME to `whereq.github.io`, plus the `_github-pages-challenge-whereq`
-TXT record GitHub asks for.
+**DNS for `pclegends.games` is on Cloudflare** (nameservers `*.ns.cloudflare.com`),
+moved off NameSilo. The apex and `www` are custom domains on the Worker
+(Workers & Pages → the project → Domains); Cloudflare owns the records and the
+certs. `ads.txt` and the AdSense loader serve identically, so monetization is
+unaffected by the host.
 
 ## The dependencies are pinned, and it matters
 

@@ -39,37 +39,29 @@ There is no test suite and no linter. `npm run typecheck` is the check.
 
 ## Releasing & deploying
 
-A release **is** a deploy here — pushing to `main` runs the Actions build.
-Cut one from the feature branch you want to ship:
+The site is served by **Cloudflare Workers Static Assets** (whereq Cloudflare
+account). The Worker is connected to this repo: every push to `main` runs
+`npm run build` then `npx wrangler deploy`, which uploads `build/` as static
+assets (`wrangler.jsonc` → `./build`). So a release **is** a deploy — cut one
+from the feature branch you want to ship:
 
 ```bash
-bin/release.sh -m "feat(...): what shipped"   # squash -> main, tag, push (deploys)
+bin/release.sh -m "feat(...): what shipped"   # squash -> main, tag, push (Cloudflare builds)
 RELEASE_TAG=v1.1.0.0 bin/release.sh -m "..."  # pin the tag (default bumps the build)
-bin/deploy.sh                                 # re-deploy current main (no new release)
-bin/deploy.sh --status                        # show the latest deploy run
+bin/deploy.sh                                 # manual build + wrangler deploy of current main
 ```
 
 `release.sh` squashes the branch into one commit on `main`, tags it
 `v{major}.{minor}.{patch}.{build}`, pushes both, and closes the branch's PR if
-one is open. The push to `main` triggers the deploy below.
+one is open. The push to `main` triggers the Cloudflare build.
 
-The site is published by **GitHub Actions**, not by a branch push:
-
-- `.github/workflows/deploy.yml` builds the site on every push to `main`
-  and publishes it with `actions/upload-pages-artifact` and
-  `actions/deploy-pages`.
-- **Pages source must be set to "GitHub Actions"** in the repository
-  settings, and the **custom domain must be set there too**
-  (`pclegends.games`). With an Actions deployment GitHub ignores a `CNAME`
-  file in the artifact and reads the domain from the repository setting —
-  which is the durable place, because a branch build would otherwise lose a
-  `CNAME` committed to the Pages repo.
-- `static/CNAME` still ships in the build, so the domain travels with the
-  source if the site is ever published from a branch.
-
-The legacy branch build is not used here, and not on the docs hub either: a
-Pages build is killed after ten minutes, and a build of 1 898 game routes
-sits right on that edge.
+Moved off GitHub Pages: its cert pipeline wedged on the apex+`www` pair for
+days, and it has no escape from Cloudflare's limits anyway. Cloudflare issues
+apex **and** `www` certs automatically and redirects http→https. Two build
+shapes keep the deploy inside Cloudflare's **20,000-file / 25 MB-per-file**
+limits and must stay: the card marks are drawn in the browser
+(`GameMark.tsx`, not ~3,800 SVG files), and search is Algolia DocSearch, not a
+~30 MB offline index (`src/data/algolia.ts`).
 
 ## Regenerating the games
 
