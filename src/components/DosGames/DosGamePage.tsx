@@ -88,6 +88,15 @@ export default function DosGamePage({
   const homeUrl = useBaseUrl('/', {absolute: true});
   const imageUrl = useBaseUrl('/img/pc-legends-card.png', {absolute: true});
   const year = page.tagline.match(/\b(19|20)\d{2}\b/)?.[0];
+  // The real category (e.g. "Simulation · Sports") already rides along as the
+  // "Type" fact the generator writes into the module — so genre comes free,
+  // with no need to pull the whole catalogue index into a game page. Falls
+  // back to the generic role when a game has no category.
+  const typeFact = facts.find((f) => f.label === copy.game.type);
+  const genres = (typeFact?.value ?? '')
+    .split('·')
+    .map((s) => s.trim())
+    .filter(Boolean);
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
@@ -101,7 +110,7 @@ export default function DosGamePage({
         applicationCategory: 'Game',
         gamePlatform: 'DOS',
         operatingSystem: 'MS-DOS',
-        genre: page.role,
+        genre: genres.length > 0 ? genres : page.role,
         inLanguage: locale,
         ...(year ? {datePublished: year} : {}),
       },
