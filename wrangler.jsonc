@@ -1,0 +1,17 @@
+{
+  // Cloudflare Workers Static Assets config for pclegends.games.
+  //
+  // This is an assets-only Worker: no server code, it just serves the static
+  // Docusaurus build in ./build. The dashboard's "Workers" flow runs the build
+  // command (npm run build) and then `npx wrangler deploy`, which reads this
+  // file and uploads ./build. The site is 8,884 files / 2.4 MB max — inside
+  // Cloudflare's 20,000-file and 25 MB-per-file limits.
+  "name": "pclegends-games",
+  "compatibility_date": "2026-11-27",
+  "assets": {
+    "directory": "./build",
+    // Unmatched paths get the generated 404 page (the terminal "Bad command"
+    // screen), not a blank Cloudflare error.
+    "not_found_handling": "404-page"
+  }
+}
