@@ -334,20 +334,62 @@ button[class*='toggleButton']:hover {
 }
 
 /*
- * The search box is not a pill either. The house radius is 2px, and a
- * rounded box in a bar of square buttons reads as another control.
+ * The Algolia DocSearch button in the navbar. DocSearch ships its own
+ * rounded button coloured from `--docsearch-*` tokens; in dark mode those
+ * resolve to a near-black background and an almost-black border, so the
+ * button vanishes into the dark navbar — the box is there, but invisible.
+ * Restyle it to the house look: a hairline box at the 2px radius that lights
+ * amber on hover, a mono uppercase placeholder, and a square ⌘K badge. (The
+ * old offline search rendered a `.navbar__search-input`; DocSearch does not,
+ * so that class is gone.)
  */
-.navbar .navbar__search-input,
-.navbar__search-input {
+.navbar .DocSearch-Button {
+  height: 32px;
+  margin: 0;
+  padding: 0 10px;
+  border: 1px solid var(--pcl-border);
   border-radius: 2px;
+  background: var(--pcl-bg-1);
+  color: var(--pcl-muted);
+  font-family: var(--pcl-font-mono);
+  transition: border-color 0.15s ease, color 0.15s ease;
 }
 
-/*
- * The keyboard hint inside the search box is a badge, not a pill: it sits
- * in a square box, and a rounded badge in it reads as a second shape.
- */
-.navbar kbd[class*='searchHint'] {
+.navbar .DocSearch-Button:hover {
+  border-color: var(--pcl-amber);
+  background: var(--pcl-bg-1);
+  box-shadow: none;
+  color: var(--pcl-ink);
+}
+
+.navbar .DocSearch-Button .DocSearch-Search-Icon {
+  width: 1rem;
+  height: 1rem;
+  color: var(--pcl-amber);
+}
+
+.navbar .DocSearch-Button .DocSearch-Button-Placeholder {
+  font-family: var(--pcl-font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+.navbar .DocSearch-Button .DocSearch-Button-Keys {
+  min-width: auto;
+}
+
+.navbar .DocSearch-Button .DocSearch-Button-Key {
+  width: auto;
+  min-width: 18px;
+  padding: 0 4px;
+  border: 1px solid var(--pcl-border-soft);
   border-radius: 2px;
+  background: var(--pcl-bezel);
+  box-shadow: none;
+  color: var(--pcl-muted);
+  font-family: var(--pcl-font-mono);
 }
 
 /* ── Blog and Docs: The 3-column layout (sidebar | content | TOC) */
