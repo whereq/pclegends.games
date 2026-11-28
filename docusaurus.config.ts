@@ -2,6 +2,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import {ADSENSE_ENABLED, ADSENSE_HEAD_TAG, ADSENSE_META_TAG} from './src/data/adsense';
+import {ALGOLIA, ALGOLIA_ENABLED} from './src/data/algolia';
 
 /**
  * PC Legends — the DOS games archive, on its own domain.
@@ -113,26 +114,27 @@ async function createConfig(): Promise<Config> {
       ],
     ],
 
-    plugins: [
-      [
-        '@easyops-cn/docusaurus-search-local',
-        {
-          hashed: true,
-          // The index is one index for the whole site, built for both the
-          // English words and the Chinese ones. `zh` is the search plugin's
-          // code for Chinese; the Docusaurus locale is `zh-CN`.
-          language: ['en', 'zh'],
-          highlightSearchTermsOnTargetPage: true,
-          explicitSearchResultPath: true,
-          indexBlog: false,
-          indexDocs: false,
-          indexPages: true,
-          searchBarPosition: 'right',
-        },
-      ],
-    ],
+    // Search is Algolia DocSearch, hosted. The old offline plugin built a
+    // ~30 MB index per locale and shipped it to the browser — over the 25 MB
+    // per-file limit a static host like Cloudflare enforces. Algolia holds the
+    // index and crawls the deployed site; the site ships only the small config
+    // in src/data/algolia.ts. No local plugin, so no plugins to register here.
+    plugins: [],
 
     themeConfig: {
+      // The Algolia DocSearch bar — present only once credentials are set
+      // (src/data/algolia.ts). contextualSearch filters results to the active
+      // locale automatically.
+      ...(ALGOLIA_ENABLED
+        ? {
+            algolia: {
+              appId: ALGOLIA.appId,
+              apiKey: ALGOLIA.apiKey,
+              indexName: ALGOLIA.indexName,
+              contextualSearch: true,
+            },
+          }
+        : {}),
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: false,
