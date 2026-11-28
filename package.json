@@ -25,6 +25,8 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "algoliasearch": "^5",
+    "tsx": "^4",
     "@docusaurus/module-type-aliases": "3.10.0",
     "@docusaurus/tsconfig": "3.10.0",
     "@docusaurus/types": "3.10.0",
