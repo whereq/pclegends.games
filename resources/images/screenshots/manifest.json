@@ -2,7 +2,7 @@
   {
     "phase": "launcher",
     "file": "01-files-panel-empty.png",
-    "caption": "the Files panel on a fresh install of WhereQ-DOSBox 1.0.0.19 - no games yet, and the gold \"Install a bundle (.zip)\" button that starts the import",
+    "caption": "the Files panel on a fresh install of WhereQ-DOSBox 1.0.0.20 - no games yet, and the gold \"Install a bundle (.zip)\" button that starts the import",
     "url": "app://files",
     "orientation": "landscape"
   },
@@ -30,7 +30,7 @@
   {
     "phase": "games",
     "file": "05-game-running.png",
-    "caption": "偷金子 (Lode Runner) running inside WhereQ-DOSBox 1.0.0.19, framed by the two-pad on-screen keyboard",
+    "caption": "偷金子 (Lode Runner) running inside WhereQ-DOSBox 1.0.0.20, framed by the two-pad on-screen keyboard",
     "url": "app://emulator?game=tou-jin-zi",
     "orientation": "landscape"
   },
@@ -44,181 +44,188 @@
   {
     "phase": "emulator",
     "file": "07-dos-prompt.png",
-    "caption": "the DOSBox welcome banner and the C:\\> prompt, with the two-pad on-screen keyboard below it",
+    "caption": "the DOSBox welcome banner and the C:\\> prompt, with the on-screen keyboard beside the picture",
     "url": "app://emulator",
     "orientation": "landscape"
   },
   {
     "phase": "game-mode",
     "file": "08-game-mode-hybrid.png",
-    "caption": "Game Mode, Hybrid profile - the 8-way d-pad, L-CLICK and R-CLICK on the left; Y, X, CTRL, ALT, the trackball, SPACE and ENT on the right",
+    "caption": "Game Mode, Hybrid profile - the 8-way d-pad, L-CLICK and R-CLICK on the left, and in the top bar the gold profile chip and the green SAVE button that saves the game from the gamepad",
     "url": "app://emulator?mode=game",
     "orientation": "landscape"
   },
   {
     "phase": "game-mode",
     "file": "09-game-mode-profile-picker.png",
-    "caption": "the Game profile picker, opened by a long press on the gold profile button - Hybrid, Action, Point & click, and Remap buttons…",
+    "caption": "the Game profile picker, opened by a long press on the gold profile button - Hybrid, Action, Point & click and Remap",
     "url": "app://emulator?mode=game",
     "orientation": "landscape"
   },
   {
     "phase": "game-mode",
     "file": "10-game-mode-action.png",
-    "caption": "the Action profile - the 8-way d-pad on the left, and the face-button diamond (ENT, USE, JUMP, FIRE) on the right",
+    "caption": "the Action profile - the 8-way d-pad on the left, and the face buttons on the right",
     "url": "app://emulator?mode=game",
     "orientation": "landscape"
   },
   {
     "phase": "game-mode",
     "file": "11-game-mode-point.png",
-    "caption": "the Point & click profile - no d-pad, but big LEFT and RIGHT mouse buttons, the trackball, and the DRAG lock and double-click chips",
+    "caption": "the Point & click profile - no d-pad, but big LEFT and RIGHT mouse buttons",
     "url": "app://emulator?mode=game",
     "orientation": "landscape"
   },
   {
     "phase": "game-mode",
     "file": "12-game-mode-remap.png",
-    "caption": "remap mode - the buttons that can be changed are outlined in gold, under a banner that says Tap a button to remap",
+    "caption": "remap mode - the buttons that can be changed are outlined in gold",
     "url": "app://emulator?mode=remap",
     "orientation": "landscape"
   },
   {
     "phase": "game-mode",
-    "file": "13-game-mode-off.png",
-    "caption": "back to the plain keyboard pads after the reverse Konami code (↑↑↓↓←→←→, then X and Y) - the game is still running underneath",
+    "file": "13-game-mode-save-sheet.png",
+    "caption": "the Save states sheet opened from the gamepad's green SAVE button, over the running game - five slots, and the gamepad still behind it",
+    "url": "app://states?game=tou-jin-zi",
+    "orientation": "landscape"
+  },
+  {
+    "phase": "game-mode",
+    "file": "14-game-mode-off.png",
+    "caption": "back to the plain keyboard pads after the reverse Konami code (↑↑↓↓←→←→ then X, Y), with the game still running",
     "url": "app://emulator?game=tou-jin-zi",
     "orientation": "landscape"
   },
   {
     "phase": "save-states",
-    "file": "14-states-empty.png",
-    "caption": "the Save states sheet for tou-jin-zi - three empty slots, and Load saves from a folder… at the foot",
+    "file": "15-states-empty.png",
+    "caption": "the Save states sheet for tou-jin-zi - five empty slots, and the Load saves from a folder… button",
     "url": "app://states?game=tou-jin-zi",
     "orientation": "landscape"
   },
   {
     "phase": "save-states",
-    "file": "15-saves-offer.png",
-    "caption": "the Keep your saves safe? prompt, right after the first save - choose a folder and the app will mirror every slot into it, compressed",
+    "file": "16-saves-offer.png",
+    "caption": "the Keep your saves safe? prompt, right after the first save - choose a folder of your own, or keep the saves inside the app",
     "url": "app://saves-offer",
     "orientation": "landscape"
   },
   {
     "phase": "save-states",
-    "file": "16-folder-permission.png",
-    "caption": "the Android access dialog for the DOSSaves folder, with CANCEL and ALLOW - Android will not hand an app the whole Download folder, so the app asks for one of its own",
+    "file": "17-folder-permission.png",
+    "caption": "the Android access dialog for the DOSSaves folder - CANCEL and ALLOW",
     "url": "system://saf-permission",
     "orientation": "portrait"
   },
   {
     "phase": "save-states",
-    "file": "17-files-panel-resume-slot.png",
-    "caption": "the Files panel with Resume tou-jin-zi · slot 1 · just now - the slot is named and dated, so you know what you are resuming",
+    "file": "18-files-panel-resume-slot.png",
+    "caption": "the Files panel with a green Resume tou-jin-zi · slot 1 · just now line above the list",
     "url": "app://files",
     "orientation": "landscape"
   },
   {
     "phase": "save-states",
-    "file": "18-states-slot.png",
-    "caption": "the Save states sheet with the slot filled in - Slot 1 · 1 minute ago, and the Load button is now live",
+    "file": "19-states-slot.png",
+    "caption": "the Save states sheet with three slots filled - Slot 1 · 12 minutes ago, and two saves made yesterday that read Yesterday 10:00 and Yesterday 20:00, so the newer one is obvious",
     "url": "app://states?game=tou-jin-zi",
     "orientation": "landscape"
   },
   {
     "phase": "save-states",
-    "file": "19-settings.png",
-    "caption": "the Settings dialog - CPU core, and the Saves folder row that points at the folder you chose",
+    "file": "20-settings.png",
+    "caption": "the Settings dialog - CPU core, and the Saves folder row that points at the durable folder",
     "url": "app://settings",
     "orientation": "landscape"
   },
   {
     "phase": "save-states",
-    "file": "20-saves-folder.png",
-    "caption": "the Saves folder dialog, with a folder set - every save-state is mirrored there, compressed, next to the game itself",
+    "file": "21-saves-folder.png",
+    "caption": "the Saves folder dialog, with a folder set - every save-state is mirrored there",
     "url": "app://settings?saves-folder",
     "orientation": "landscape"
   },
   {
     "phase": "durable-saves",
-    "file": "21-saves-folder-unset.png",
-    "caption": "the same dialog on a fresh install - No folder set, so the saves are kept only inside the app and are lost if it is uninstalled",
+    "file": "22-saves-folder-unset.png",
+    "caption": "the same dialog on a fresh install - No folder set, so the saves are kept inside the app",
     "url": "app://settings?saves-folder",
     "orientation": "landscape"
   },
   {
     "phase": "durable-saves",
-    "file": "22-durable-folder-contents.png",
-    "caption": "the folder on the phone after the app was uninstalled - tou-jin-zi is still there, because it was never inside the app",
+    "file": "23-durable-folder-contents.png",
+    "caption": "the folder on the phone after the app was uninstalled - tou-jin-zi and its saved slots",
     "url": "system://saf-picker",
     "orientation": "portrait"
   },
   {
     "phase": "durable-saves",
-    "file": "23-restore-games-offer.png",
-    "caption": "the Restore games prompt - This folder has 1 game that is not installed. Restore it now?",
+    "file": "24-restore-games-offer.png",
+    "caption": "the Restore games prompt - This folder has 1 game that is not installed",
     "url": "app://restore-games",
     "orientation": "landscape"
   },
   {
     "phase": "durable-saves",
-    "file": "24-games-restored.png",
-    "caption": "Restored 1 game(s). Your saves are ready. - tou-jin-zi is back in the Files panel, with its save-state",
+    "file": "25-games-restored.png",
+    "caption": "Restored 1 game(s). Your saves are ready. - tou-jin-zi is back in the list",
     "url": "app://files",
     "orientation": "landscape"
   },
   {
     "phase": "save-states",
-    "file": "25-states-restored-slot.png",
-    "caption": "the restored slot still says 6 minutes ago - a save made before the reinstall still knows when it was made",
+    "file": "26-states-restored-slot.png",
+    "caption": "the restored slots, still saying 4 minutes ago, Yesterday 10:00 and Yesterday 20:00 - a save that was rebuilt from the folder knows when it was made",
     "url": "app://states?game=tou-jin-zi",
     "orientation": "landscape"
   },
   {
     "phase": "keyboard",
-    "file": "26-keyboard-symbols.png",
+    "file": "27-keyboard-symbols.png",
     "caption": "the punctuation layer of the on-screen keyboard, with the #+= key lit",
     "url": "app://emulator",
     "orientation": "landscape"
   },
   {
     "phase": "keyboard",
-    "file": "27-keyboard-functions.png",
+    "file": "28-keyboard-functions.png",
     "caption": "the function layer, with the Fn key lit - F1 to F12",
     "url": "app://emulator",
     "orientation": "landscape"
   },
   {
     "phase": "branding",
-    "file": "28-launcher-home.png",
-    "caption": "the WhereQ-DOSBox icon on the launcher, the way a player finds it after installing",
+    "file": "29-launcher-home.png",
+    "caption": "the WhereQ-DOSBox icon on the launcher, the way a player finds it after the install",
     "url": "system://launcher",
     "orientation": "portrait"
   },
   {
     "phase": "branding",
-    "file": "29-app-info.png",
+    "file": "30-app-info.png",
     "caption": "the Android App info page for WhereQ-DOSBox",
     "url": "system://app-info",
     "orientation": "portrait"
   },
   {
     "phase": "system",
-    "file": "30-running-in-background.png",
-    "caption": "the ongoing notification WhereQ-DOSBox leaves in the shade - the foreground service that keeps the machine resident while the player is in another app",
+    "file": "31-running-in-background.png",
+    "caption": "the ongoing notification WhereQ-DOSBox leaves in the shade - the foreground service that keeps the emulator resident",
     "url": "system://notification",
     "orientation": "portrait"
   },
   {
     "phase": "games",
-    "file": "31-tap-to-return.png",
-    "caption": "back in the game after tapping the notification - the emulator never stopped, the game is still in play",
+    "file": "32-tap-to-return.png",
+    "caption": "back in the game after tapping the notification - the emulator never stopped",
     "url": "app://emulator?game=tou-jin-zi",
     "orientation": "landscape"
   },
   {
     "phase": "narrow-screen",
-    "file": "32-narrow-18x9.png",
+    "file": "33-narrow-18x9.png",
     "caption": "the app on an 18:9 display - the same two pads, with the letter keys noticeably smaller",
     "url": "app://emulator",
     "orientation": "landscape"
