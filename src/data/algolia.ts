@@ -18,9 +18,11 @@
  * no search box at all — everything else is unaffected.
  */
 export const ALGOLIA = {
-  appId: '',
-  apiKey: '',
-  indexName: '',
+  appId: 'TPHBDFRW2M',
+  // The Search-Only key — public, safe to ship. Records are pushed with the
+  // Admin key, which stays out of the repo (see scripts/algolia-index.ts).
+  apiKey: '90217c00a69a2d7a7f6ffa1a796f0332',
+  indexName: 'pclegends_games',
 };
 
 /** True once real Algolia credentials are in place. */

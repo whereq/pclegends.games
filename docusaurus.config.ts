@@ -131,7 +131,11 @@ async function createConfig(): Promise<Config> {
               appId: ALGOLIA.appId,
               apiKey: ALGOLIA.apiKey,
               indexName: ALGOLIA.indexName,
-              contextualSearch: true,
+              // Off: the index is built from the game catalogue (one record per
+              // game, both names searchable), not crawled per-locale, so it
+              // carries no docusaurus_tag facet to filter on. Results come back
+              // for every query instead of being filtered out.
+              contextualSearch: false,
             },
           }
         : {}),
