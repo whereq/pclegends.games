@@ -165,6 +165,7 @@ async function createConfig(): Promise<Config> {
           { to: '/resources', label: 'Resources', position: 'left' },
           { to: '/guide/reading-a-page', label: 'Guide', position: 'left' },
           { to: '/about', label: 'About', position: 'left' },
+          { to: '/contact', label: 'Contact', position: 'left' },
           { to: '/privacy', label: 'Privacy', position: 'left' },
           {
             // The language switch: two buttons, EN and 中, with the one

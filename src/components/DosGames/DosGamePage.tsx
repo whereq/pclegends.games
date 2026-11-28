@@ -1,11 +1,13 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
+import Head from '@docusaurus/Head';
 import Layout from '@theme/Layout';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import {AtlasEntry} from '../../data/atlas-types';
 import AtlasBlocks from '../Atlas/AtlasBlocks';
 import GiscusComments from '../GiscusComments';
 import AdSlot from '../AdSlot';
-import {useCopy, useIsChinese} from '../../hooks/useCopy';
+import {useCopy, useIsChinese, useLocale} from '../../hooks/useCopy';
 import {gameNames} from './game-names';
 import styles from './game.module.css';
 
@@ -43,6 +45,7 @@ export default function DosGamePage({
 }): React.JSX.Element {
   const copy = useCopy();
   const chinese = useIsChinese();
+  const locale = useLocale();
 
   const page = React.useMemo(() => {
     const base = chinese && entryZh ? entryZh : entry;
@@ -77,10 +80,49 @@ export default function DosGamePage({
     .map((id) => EXTERNAL_ENTRIES[id])
     .filter((item): item is {label: string; href: string} => Boolean(item));
 
+  // Structured data (schema.org), so a search engine reads the page as a game
+  // with a place in the catalogue, not just text. Absolute, locale-aware URLs;
+  // the year is lifted out of the tagline ("MS-DOS · 1996 — …") when present.
+  const canonical = useBaseUrl(`/dos-games/${page.id}/`, {absolute: true});
+  const catalogueUrl = useBaseUrl('/dos-games/', {absolute: true});
+  const homeUrl = useBaseUrl('/', {absolute: true});
+  const imageUrl = useBaseUrl('/img/pc-legends-card.png', {absolute: true});
+  const year = page.tagline.match(/\b(19|20)\d{2}\b/)?.[0];
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'VideoGame',
+        name,
+        ...(altName ? {alternateName: altName} : {}),
+        description: page.summary,
+        url: canonical,
+        image: imageUrl,
+        applicationCategory: 'Game',
+        gamePlatform: 'DOS',
+        operatingSystem: 'MS-DOS',
+        genre: page.role,
+        inLanguage: locale,
+        ...(year ? {datePublished: year} : {}),
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          {'@type': 'ListItem', position: 1, name: 'PC Legends', item: homeUrl},
+          {'@type': 'ListItem', position: 2, name: copy.game.wholeCatalogue, item: catalogueUrl},
+          {'@type': 'ListItem', position: 3, name, item: canonical},
+        ],
+      },
+    ],
+  };
+
   return (
     <Layout
       title={name}
       description={`${name} — a DOS game in the PC Legends archive: the download, the setup in WhereQ-DOSBox, and what is known about how to play it.`}>
+      <Head>
+        <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+      </Head>
       <main className={styles.page}>
         {/* ── Breadcrumb ───────────────────────────────────── */}
         <nav className={styles.crumb} aria-label="Breadcrumb">

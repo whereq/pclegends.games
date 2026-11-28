@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
+import Head from '@docusaurus/Head';
 import Layout from '@theme/Layout';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import {
   DOS_GAME_CATEGORIES,
 } from '../data/dos-games-categories';
@@ -9,7 +11,7 @@ import {
   DOS_GAMES_BYTES,
   DOS_GAMES_COUNT,
 } from '../data/dos-games-stats';
-import {useCopy, useIsChinese} from '../hooks/useCopy';
+import {useCopy, useIsChinese, useLocale} from '../hooks/useCopy';
 import AdSlot from '../components/AdSlot';
 import styles from './index.module.css';
 
@@ -25,8 +27,30 @@ import styles from './index.module.css';
 export default function Home(): React.JSX.Element {
   const copy = useCopy();
   const chinese = useIsChinese();
+  const locale = useLocale();
   const games = DOS_GAMES_COUNT;
   const bytes = DOS_GAMES_BYTES;
+
+  // Structured data for the front door: the site itself and the organisation
+  // behind it, so a search engine has a name, a description and a logo to use.
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebSite',
+        name: 'PC Legends',
+        url: useBaseUrl('/', {absolute: true}),
+        description: copy.home.description,
+        inLanguage: locale,
+      },
+      {
+        '@type': 'Organization',
+        name: 'WhereQ Inc.',
+        url: 'https://whereq.github.io',
+        logo: useBaseUrl('/img/whereq-logo.png', {absolute: true}),
+      },
+    ],
+  };
 
   const maxCount = Math.max(
     1,
@@ -35,6 +59,9 @@ export default function Home(): React.JSX.Element {
 
   return (
     <Layout title={copy.home.title} description={copy.home.description}>
+      <Head>
+        <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+      </Head>
       <main className={styles.page}>
         {/* ── HERO ─────────────────────────────────────────── */}
         <section className={styles.hero}>

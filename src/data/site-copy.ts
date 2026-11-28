@@ -114,6 +114,19 @@ export type SiteCopy = {
     };
   };
   /**
+   * The /contact page. The ways to reach a person about the site — a channel
+   * per card, plus the takedown line (the same notice the rest of the site
+   * carries).
+   */
+  contact: {
+    title: string;
+    description: string;
+    eyebrow: string;
+    heading: string;
+    lead: string;
+    channels: {label: string; value: string; href: string; note: string}[];
+  };
+  /**
    * The /resources page. It renders the two-player comparison (reusing
    * `about.compare`) and a set of outbound links to the wider world of DOS
    * preservation.
@@ -343,6 +356,34 @@ const en: SiteCopy = {
         note: 'Not published yet — the listing goes live when the app is approved.',
       },
     },
+  },
+  contact: {
+    title: 'Contact',
+    description:
+      'How to reach a person about PC Legends — email, the site’s repository, the comment thread on every game page, and where to send a takedown.',
+    eyebrow: 'Contact',
+    heading: 'Reach a person about the archive',
+    lead: 'PC Legends is a small project with a real person behind it. A broken download, a wrong name, a game that will not start, a takedown — here is how to say so, fastest first.',
+    channels: [
+      {
+        label: 'Email',
+        value: 'whereq@gmail.com',
+        href: 'mailto:whereq@gmail.com',
+        note: 'The direct line. Good for anything that does not belong in public — a takedown, a licence question, or a note meant for the maintainer rather than the thread.',
+      },
+      {
+        label: 'The repository',
+        value: 'github.com/whereq/pclegends.games',
+        href: 'https://github.com/whereq/pclegends.games',
+        note: 'The site is open source. Open an issue for a bug or a wrong fact, or a discussion for anything larger; the pages are generated, so a fix to the generator fixes every page at once.',
+      },
+      {
+        label: 'The comment thread',
+        value: 'On every game page',
+        href: '/dos-games/',
+        note: 'Each game carries its own thread. A download that 404s, a name that is off, the setup that finally worked — it belongs on that game’s page, where the next reader will find it.',
+      },
+    ],
   },
   resources: {
     title: 'Resources',
@@ -643,6 +684,34 @@ const zhCN: SiteCopy = {
         note: '尚未发布——应用通过审核后，商店页面即会上线。',
       },
     },
+  },
+  contact: {
+    title: '联系',
+    description:
+      '如何就 PC Legends 联系到人——电子邮件、站点仓库、每个游戏页面上的评论区，以及把下架请求发往何处。',
+    eyebrow: '联系',
+    heading: '就这个归档联系到人',
+    lead: 'PC Legends 是一个小项目，背后有一个真实的人。下载失效、名称有误、游戏打不开、需要下架——以下是反馈的途径，最快的排在前面。',
+    channels: [
+      {
+        label: '电子邮件',
+        value: 'whereq@gmail.com',
+        href: 'mailto:whereq@gmail.com',
+        note: '直达的联系方式。凡是不适合公开的事项都走这里——下架请求、授权问题，或是想发给维护者本人、而非评论区的留言。',
+      },
+      {
+        label: '代码仓库',
+        value: 'github.com/whereq/pclegends.games',
+        href: 'https://github.com/whereq/pclegends.games',
+        note: '本站是开源的。发现缺陷或事实有误，开一个 issue；更大的事情，开一个 discussion。页面是生成的，改一处生成器就修好了所有页面。',
+      },
+      {
+        label: '评论区',
+        value: '在每个游戏页面',
+        href: '/dos-games/',
+        note: '每款游戏都有自己的评论区。下载 404、名称不对、终于跑通的设置办法——都应留在那款游戏的页面上，下一位读者会在那里看到。',
+      },
+    ],
   },
   resources: {
     title: '资源',

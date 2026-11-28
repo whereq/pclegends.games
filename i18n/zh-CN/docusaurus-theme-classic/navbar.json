@@ -27,6 +27,10 @@
     "message": "关于",
     "description": "Navbar item with label About"
   },
+  "item.label.Contact": {
+    "message": "联系",
+    "description": "Navbar item with label Contact"
+  },
   "item.label.Privacy": {
     "message": "隐私",
     "description": "Navbar item with label Privacy"
