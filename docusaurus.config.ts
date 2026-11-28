@@ -29,6 +29,15 @@ async function createConfig(): Promise<Config> {
     url: 'https://pclegends.games',
     baseUrl: '/',
 
+    // The site is served from directory indexes, so the URL that answers with
+    // a 200 is the one with the trailing slash: /about redirects to /about/.
+    // Without this, the canonical tag, the hreflang alternates and the
+    // sitemap all name the slash-less form — a URL that only ever redirects.
+    // Search engines follow the redirect, but the canonical should name the
+    // page that is actually served, or every one of the 1 900+ URLs carries a
+    // redirect hop that the crawler has to resolve before it can rank it.
+    trailingSlash: true,
+
     // The fonts the terminal redesign is built on: IBM Plex Sans (body),
     // IBM Plex Mono (labels and codes), IBM Plex Sans Condensed (headings)
     // and VT323 (the stat numbers, the logo mark and the CRT readout). They

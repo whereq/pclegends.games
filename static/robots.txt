@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
+# One sitemap per locale. The Chinese pages are a separate tree under
+# /zh-CN/ with their own sitemap, and it is not part of the English one —
+# both are named here so a crawler finds the whole archive.
 Sitemap: https://pclegends.games/sitemap.xml
+Sitemap: https://pclegends.games/zh-CN/sitemap.xml
